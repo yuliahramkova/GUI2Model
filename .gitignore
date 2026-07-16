@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Data & models (не хотим тащить гигабайты в GitHub)
+data/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.h5
+
+# Secrets
+.env
+HF_TOKEN
+
+# OS
+.DS_Store
+Thumbs.db

@@ -213,7 +213,7 @@ def save_analysis_markdown(
 def load_image_by_filename(file_name: str) -> Image.Image | None:
     """Достаёт скриншот из ScreenSpot по file_name."""
     load_dotenv()
-    ds = load_dataset(DATASET, split="test", streaming=True)
+    ds = load_dataset(DATASET, split="test")
     for row in ds:
         if row.get("file_name") == file_name:
             image = row["image"]

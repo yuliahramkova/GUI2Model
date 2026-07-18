@@ -45,6 +45,8 @@ class ScreenSpotSample:
     data_type: str
     data_source: str
     file_name: str
+    image_width: int
+    image_height: int
 
 
 @dataclass
@@ -64,6 +66,10 @@ class EvalRow:
     completion_tokens: int
     total_tokens: int
     steps: int
+    image_width: int = 0
+    image_height: int = 0
+    pred_px: int | None = None  # сырые пиксели до нормализации
+    pred_py: int | None = None
 
 
 def load_screenspot_dataset(
@@ -72,9 +78,11 @@ def load_screenspot_dataset(
     limit: int | None = None,
 ) -> list[ScreenSpotSample]:
     """Загружает ScreenSpot с HuggingFace, нормализует bbox в [0, 1000]."""
-    dataset = load_dataset(dataset_repo, split=split, streaming=True)
-    samples: list[ScreenSpotSample] = []
+    dataset = load_dataset(dataset_repo, split=split)
+    if limit is not None:
+        dataset = dataset.select(range(min(limit, len(dataset))))
 
+    samples: list[ScreenSpotSample] = []
     for row in dataset:
         image = row["image"]
         if not isinstance(image, Image.Image):
@@ -84,6 +92,7 @@ def load_screenspot_dataset(
         bbox = (round(x1 * 1000), round(y1 * 1000), round(x2 * 1000), round(y2 * 1000))
 
         data_source = row["data_source"]
+        width, height = image.size
         samples.append(
             ScreenSpotSample(
                 image=image,
@@ -93,10 +102,10 @@ def load_screenspot_dataset(
                 data_type=row["data_type"],
                 data_source=data_source,
                 file_name=row.get("file_name", ""),
+                image_width=width,
+                image_height=height,
             )
         )
-        if limit is not None and len(samples) >= limit:
-            break
 
     return samples
 
@@ -122,38 +131,70 @@ def image_to_data_url(image: Image.Image) -> str:
     return f"data:image/png;base64,{b64}"
 
 
-def build_grounding_prompt(instruction: str) -> str:
-    """Собирает текстовый промпт: найти элемент и вернуть (x, y) в [0, 1000]."""
+def build_grounding_prompt(instruction: str, width: int, height: int) -> str:
+    """Промпт: найти элемент и вернуть (x, y) в пикселях этого изображения."""
     return (
-        f"What is the location of the element corresponding to the instruction: "
-        f"'{instruction}'? Provide the coordinates as (x, y) in the range [0, 1000]."
+        f"What is the location of the element corresponding to the instruction: '{instruction}'? "
+        f"The image size is {width}x{height} pixels. "
+        f"Provide the click coordinates as (x, y) in pixels of THIS image "
+        f"(x from 0 to {width - 1}, y from 0 to {height - 1}). "
+        f"Reply with only the coordinates, e.g. (120, 340)."
     )
 
 
-def parse_point(text: str) -> tuple[int, int] | None:
-    """Извлекает (x, y) из ответа модели. None, если распарсить не удалось."""
+def extract_raw_point(text: str) -> tuple[int, int] | None:
+    """Достаёт первую пару чисел из ответа модели (сырые координаты)."""
     if not text:
         return None
 
     box_match = re.search(
-        r"<\|box_start\|>\s*\(?(\d+)\s*,\s*(\d+)\)?\s*<\|box_end\|>",
+        r"<\|box_start\|>\s*\(?(-?\d+)\s*,\s*(-?\d+)\)?\s*<\|box_end\|>",
         text,
     )
     if box_match:
-        x, y = int(box_match.group(1)), int(box_match.group(2))
-    else:
-        paren_match = re.search(r"\(\s*(\d+)\s*,\s*(\d+)\s*\)", text)
-        if paren_match:
-            x, y = int(paren_match.group(1)), int(paren_match.group(2))
-        else:
-            nums = [int(n) for n in re.findall(r"\d+", text)]
-            if len(nums) < 2:
-                return None
-            x, y = nums[0], nums[1]
+        return int(box_match.group(1)), int(box_match.group(2))
 
-    if 0 <= x <= 1000 and 0 <= y <= 1000:
-        return x, y
-    return None
+    paren_match = re.search(r"\(\s*(-?\d+)\s*,\s*(-?\d+)\s*\)", text)
+    if paren_match:
+        return int(paren_match.group(1)), int(paren_match.group(2))
+
+    nums = [int(n) for n in re.findall(r"-?\d+", text)]
+    if len(nums) < 2:
+        return None
+    return nums[0], nums[1]
+
+
+def pixels_to_norm_1000(
+    px: int,
+    py: int,
+    width: int,
+    height: int,
+) -> tuple[int, int]:
+    """Пиксели оригинала → координаты в шкале GT [0, 1000]."""
+    return (
+        round(px / width * 1000),
+        round(py / height * 1000),
+    )
+
+
+def parse_point(
+    text: str,
+    width: int,
+    height: int,
+) -> tuple[tuple[int, int], tuple[int, int]] | None:
+    """
+    Парсит ответ модели как пиксели и нормализует в [0, 1000].
+
+    Returns:
+        ((pred_x_1000, pred_y_1000), (pred_px, pred_py)) или None.
+    """
+    raw = extract_raw_point(text)
+    if raw is None or width <= 0 or height <= 0:
+        return None
+
+    px, py = raw
+    norm = pixels_to_norm_1000(px, py, width, height)
+    return norm, (px, py)
 
 
 def is_hit(point: tuple[int, int] | None, bbox: tuple[int, int, int, int]) -> bool:
@@ -174,7 +215,14 @@ def predict_point(client: OpenAI, model: str, sample: ScreenSpotSample) -> tuple
                 "role": "user",
                 "content": [
                     {"type": "image_url", "image_url": {"url": image_to_data_url(sample.image)}},
-                    {"type": "text", "text": build_grounding_prompt(sample.instruction)},
+                    {
+                        "type": "text",
+                        "text": build_grounding_prompt(
+                            sample.instruction,
+                            sample.image_width,
+                            sample.image_height,
+                        ),
+                    },
                 ],
             }
         ],
@@ -188,11 +236,13 @@ def predict_point(client: OpenAI, model: str, sample: ScreenSpotSample) -> tuple
 
 
 def run_eval(client: OpenAI, model: str, samples: list[ScreenSpotSample]) -> list[EvalRow]:
-    """Прогоняет все примеры: infer → parse → hit/miss."""
+    """Прогоняет все примеры: infer → parse (pixels→[0,1000]) → hit/miss."""
     rows: list[EvalRow] = []
     for sample in tqdm(samples, desc="ScreenSpot eval"):
         raw, prompt_tokens, completion_tokens, total_tokens = predict_point(client, model, sample)
-        point = parse_point(raw)
+        parsed = parse_point(raw, sample.image_width, sample.image_height)
+        point = parsed[0] if parsed else None
+        raw_px = parsed[1] if parsed else (None, None)
         rows.append(
             EvalRow(
                 file_name=sample.file_name,
@@ -208,6 +258,10 @@ def run_eval(client: OpenAI, model: str, samples: list[ScreenSpotSample]) -> lis
                 completion_tokens=completion_tokens,
                 total_tokens=total_tokens,
                 steps=1,
+                image_width=sample.image_width,
+                image_height=sample.image_height,
+                pred_px=raw_px[0],
+                pred_py=raw_px[1],
             )
         )
     return rows
@@ -259,7 +313,8 @@ def save_csv(rows: list[EvalRow], path: Path) -> None:
             f,
             fieldnames=[
                 "file_name", "instruction", "category", "data_type",
-                "bbox", "pred_x", "pred_y", "hit", "raw_response",
+                "image_width", "image_height",
+                "bbox", "pred_px", "pred_py", "pred_x", "pred_y", "hit", "raw_response",
                 "prompt_tokens", "completion_tokens", "total_tokens", "steps",
             ],
             delimiter=",",
@@ -273,7 +328,11 @@ def save_csv(rows: list[EvalRow], path: Path) -> None:
                     "instruction": row.instruction,
                     "category": row.category,
                     "data_type": row.data_type,
+                    "image_width": row.image_width,
+                    "image_height": row.image_height,
                     "bbox": row.bbox,
+                    "pred_px": row.pred_px,
+                    "pred_py": row.pred_py,
                     "pred_x": row.pred_x,
                     "pred_y": row.pred_y,
                     "hit": row.hit,
@@ -306,8 +365,98 @@ def save_markdown(summary: dict[str, dict[str, float | int]], path: Path, n_samp
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def load_csv_rows(path: Path) -> list[dict[str, str]]:
+    """Читает CSV (запятая или ;, с опциональной строкой sep=)."""
+    text = path.read_text(encoding="utf-8-sig")
+    lines = text.splitlines()
+    if lines and lines[0].lower().startswith("sep="):
+        lines = lines[1:]
+    header = lines[0]
+    delimiter = ";" if header.count(";") > header.count(",") else ","
+    return list(csv.DictReader(lines, delimiter=delimiter))
+
+
+def parse_bbox_field(value: str) -> tuple[int, int, int, int]:
+    nums = [int(n) for n in re.findall(r"-?\d+", value)]
+    if len(nums) < 4:
+        raise ValueError(f"Bad bbox: {value!r}")
+    return nums[0], nums[1], nums[2], nums[3]
+
+
+def build_image_size_index(dataset_repo: str, split: str) -> dict[str, tuple[int, int]]:
+    """file_name → (width, height) из датасета."""
+    load_dotenv()
+    dataset = load_dataset(dataset_repo, split=split)
+    sizes: dict[str, tuple[int, int]] = {}
+    for row in tqdm(dataset, desc="Indexing image sizes"):
+        image = row["image"]
+        if not isinstance(image, Image.Image):
+            image = Image.open(image)
+        name = row.get("file_name", "")
+        if name:
+            sizes[name] = image.size
+    return sizes
+
+
+def recompute_from_csv(
+    csv_path: Path,
+    dataset_repo: str = DEFAULT_DATASET,
+    split: str = DEFAULT_SPLIT,
+) -> list[EvalRow]:
+    """
+    Офлайн-пересчёт: берём raw_response из CSV, парсим как пиксели,
+    нормализуем в [0, 1000], заново считаем hit. Без вызовов модели.
+    """
+    csv_rows = load_csv_rows(csv_path)
+    sizes = build_image_size_index(dataset_repo, split)
+
+    rows: list[EvalRow] = []
+    missing_size = 0
+    for crow in csv_rows:
+        file_name = crow.get("file_name", "")
+        size = sizes.get(file_name)
+        if size is None:
+            missing_size += 1
+            width = int(crow["image_width"]) if crow.get("image_width") else 0
+            height = int(crow["image_height"]) if crow.get("image_height") else 0
+        else:
+            width, height = size
+
+        raw = crow.get("raw_response", "")
+        parsed = parse_point(raw, width, height) if width and height else None
+        point = parsed[0] if parsed else None
+        raw_px = parsed[1] if parsed else (None, None)
+        bbox = parse_bbox_field(crow["bbox"])
+
+        rows.append(
+            EvalRow(
+                file_name=file_name,
+                instruction=crow.get("instruction", ""),
+                category=crow.get("category", ""),
+                data_type=crow.get("data_type", ""),
+                bbox=bbox,
+                raw_response=raw,
+                pred_x=point[0] if point else None,
+                pred_y=point[1] if point else None,
+                hit=is_hit(point, bbox),
+                prompt_tokens=int(crow.get("prompt_tokens") or 0),
+                completion_tokens=int(crow.get("completion_tokens") or 0),
+                total_tokens=int(crow.get("total_tokens") or 0),
+                steps=int(crow.get("steps") or 1),
+                image_width=width,
+                image_height=height,
+                pred_px=raw_px[0],
+                pred_py=raw_px[1],
+            )
+        )
+
+    if missing_size:
+        print(f"Warning: {missing_size} rows without size in dataset index")
+    return rows
+
+
 def main() -> None:
-    """CLI: загрузка датасета, eval или --test-model на одном примере."""
+    """CLI: загрузка датасета, eval, --test-model или --recompute-from-csv."""
     parser = argparse.ArgumentParser(description="ScreenSpot grounding eval")
     parser.add_argument("--dataset", default=DEFAULT_DATASET)
     parser.add_argument("--split", default=DEFAULT_SPLIT)
@@ -317,9 +466,31 @@ def main() -> None:
         action="store_true",
         help="Debug: one sample, print raw response and parsed point",
     )
+    parser.add_argument(
+        "--recompute-from-csv",
+        type=Path,
+        nargs="?",
+        const=REPORTS_DIR / "screenspot_detailed.csv",
+        default=None,
+        help="Offline: re-parse CSV raw_response as pixels→[0,1000] (no API)",
+    )
     args = parser.parse_args()
 
     load_dotenv()
+
+    if args.recompute_from_csv is not None:
+        csv_path = args.recompute_from_csv
+        print(f"Recomputing from {csv_path} (pixels -> [0,1000])")
+        rows = recompute_from_csv(csv_path, args.dataset, args.split)
+        summary = summarize(rows)
+        print_summary(summary)
+        out_csv = REPORTS_DIR / "screenspot_detailed_v2.csv"
+        out_md = REPORTS_DIR / "baseline_v2.md"
+        save_csv(rows, out_csv)
+        save_markdown(summary, out_md, len(rows))
+        print(f"\nSaved: {out_csv}")
+        print(f"Saved: {out_md}")
+        return
 
     print(f"Loading {args.dataset} [{args.split}], limit={args.limit}")
     samples = load_screenspot_dataset(args.dataset, args.split, args.limit)
@@ -333,12 +504,16 @@ def main() -> None:
     if args.test_model:
         s = samples[0]
         raw, *_ = predict_point(client, model, s)
-        point = parse_point(raw)
+        parsed = parse_point(raw, s.image_width, s.image_height)
+        point = parsed[0] if parsed else None
+        raw_px = parsed[1] if parsed else None
         print(f"\nModel: {model}")
         print(f"Instruction: {s.instruction!r}")
-        print(f"GT bbox: {s.bbox_norm_1000}")
+        print(f"Image size: {s.image_width}x{s.image_height}")
+        print(f"GT bbox [0..1000]: {s.bbox_norm_1000}")
         print(f"Raw response: {raw!r}")
-        print(f"Parsed point: {point}")
+        print(f"Parsed pixels: {raw_px}")
+        print(f"Parsed [0..1000]: {point}")
         print(f"Hit: {is_hit(point, s.bbox_norm_1000)}")
         return
 

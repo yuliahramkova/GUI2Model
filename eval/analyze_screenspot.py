@@ -17,9 +17,6 @@ EXAMPLES_DIR = Path("reports/parse_fail_examples")
 ANALYSIS_MD = Path("reports/screenspot_analysis.md")
 DATASET = "bevaya/ScreenSpot"
 
-# Два ответа из no_coords_other (Gmail / full screen) считаем как not_found_refuse.
-MANUAL_MOVE_OTHER_TO_REFUSE = 2
-
 REFUSE_KEYWORDS = (
     "not visible",
     "not present",
@@ -107,12 +104,11 @@ def print_parse_fail_stats(rows: list[dict[str, str]]) -> dict[str, list[dict[st
         )
     print(f"{'TOTAL fails':<22} {n_fail:>6} {1.0 if n_fail else 0:>9.1%} {n_fail / n_all if n_all else 0:>9.1%}")
 
-    others = by_type.get("no_coords_other", [])
-    if others:
-        print(f"\n--- raw_response for no_coords_other ({len(others)}) ---")
-        for ex in others:
-            print(ex["raw_response"])
-            print()
+    if by_type:
+        print("\n--- Example raw_response per parse_fail type ---")
+        for fail_type, examples in sorted(by_type.items()):
+            print(f"\n[{fail_type}]")
+            print(examples[0].get("raw_response", ""))
 
     return by_type
 
@@ -145,36 +141,20 @@ def print_data_type_stats(rows: list[dict[str, str]]) -> None:
         print(f"{dt:<10} {n:>6} {acc:>8.1%} {tokens:>10} {avg_tok:>10.1f} {fails:>10}")
 
 
-def adjusted_fail_counts(
-    by_type: dict[str, list[dict[str, str]]],
-) -> dict[str, int]:
-    """Счётчики parse_fail с ручным переносом 2 штук other → refuse."""
-    counts = {k: len(v) for k, v in by_type.items()}
-    move = min(MANUAL_MOVE_OTHER_TO_REFUSE, counts.get("no_coords_other", 0))
-    counts["no_coords_other"] = counts.get("no_coords_other", 0) - move
-    counts["not_found_refuse"] = counts.get("not_found_refuse", 0) + move
-    if counts.get("no_coords_other", 0) == 0:
-        counts.pop("no_coords_other", None)
-    return counts
-
-
 def save_analysis_markdown(
     rows: list[dict[str, str]],
     by_type: dict[str, list[dict[str, str]]],
     path: Path = ANALYSIS_MD,
 ) -> None:
-    """Пишет две таблицы в md (без raw_response); 2 other перенесены в refuse."""
+    """Пишет две таблицы в md (без raw_response)."""
     n_all = len(rows)
     n_fail = sum(len(v) for v in by_type.values())
-    counts = adjusted_fail_counts(by_type)
+    counts = {k: len(v) for k, v in by_type.items()}
 
     lines = [
         "# ScreenSpot analysis",
         "",
         f"Samples: {n_all}. Parse fails: {n_fail}.",
-        "",
-        "Note: 2 responses from `no_coords_other` (Gmail / full screen) "
-        "are counted as `not_found_refuse`.",
         "",
         "## Parse fail by type",
         "",
@@ -213,7 +193,7 @@ def save_analysis_markdown(
 def load_image_by_filename(file_name: str) -> Image.Image | None:
     """Достаёт скриншот из ScreenSpot по file_name."""
     load_dotenv()
-    ds = load_dataset(DATASET, split="test")
+    ds = load_dataset(DATASET, split="test", streaming=True)
     for row in ds:
         if row.get("file_name") == file_name:
             image = row["image"]

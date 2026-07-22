@@ -1,0 +1,52 @@
+[
+  {
+    "image": "data/target_app/screenshots/Снимок экрана 2026-07-23 в 00.01.52.png",
+    "instruction": "click on 'Add to Cart' button for the first product",
+    "bbox": [700, 460, 820, 490]
+  },
+  {
+    "image": "data/target_app/screenshots/Снимок экрана 2026-07-23 в 00.01.52.png",
+    "instruction": "click on 'Add to Cart' button for the second product",
+    "bbox": [700, 640, 820, 670]
+  },
+  {
+    "image": "data/target_app/screenshots/Снимок экрана 2026-07-23 в 00.01.52.png",
+    "instruction": "click on the price of the first product",
+    "bbox": [640, 400, 720, 430]
+  },
+  {
+    "image": "data/target_app/screenshots/Снимок экрана 2026-07-23 в 00.02.09.png",
+    "instruction": "click on 'Add to Cart' button",
+    "bbox": [400, 550, 540, 600]
+  },
+  {
+    "image": "data/target_app/screenshots/Снимок экрана 2026-07-23 в 00.02.09.png",
+    "instruction": "click on the quantity field",
+    "bbox": [280, 550, 330, 590]
+  },
+  {
+    "image": "data/target_app/screenshots/Снимок экрана 2026-07-23 в 00.02.09.png",
+    "instruction": "click on 'Add to Wish List' link",
+    "bbox": [340, 630, 490, 660]
+  },
+  {
+    "image": "data/target_app/screenshots/Снимок экрана 2026-07-23 в 00.02.26.png",
+    "instruction": "click on 'Women' category",
+    "bbox": [150, 250, 280, 290]
+  },
+  {
+    "image": "data/target_app/screenshots/Снимок экрана 2026-07-23 в 00.02.26.png",
+    "instruction": "click on 'Electronics' category",
+    "bbox": [150, 420, 310, 460]
+  },
+  {
+    "image": "data/target_app/screenshots/Снимок экрана 2026-07-23 в 00.02.32.png",
+    "instruction": "click on 'Beauty & Personal Care' category",
+    "bbox": [50, 200, 250, 240]
+  },
+  {
+    "image": "data/target_app/screenshots/Снимок экрана 2026-07-23 в 00.02.32.png",
+    "instruction": "click on 'Clothing, Shoes & Jewelry' category",
+    "bbox": [50, 260, 300, 300]
+  }
+]

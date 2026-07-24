@@ -1,0 +1,102 @@
+- banner:
+  - list:
+    - listitem:
+      - link "My Account":
+        - /url: http://localhost:7770/customer/account/
+    - listitem:
+      - link "My Wish List":
+        - /url: http://localhost:7770/wishlist/
+    - listitem:
+      - link "Sign In":
+        - /url: http://localhost:7770/customer/account/login/
+    - listitem
+    - listitem: Welcome to One Stop Market
+    - listitem:
+      - link "Create an Account":
+        - /url: http://localhost:7770/customer/account/create/
+  - link "Skip to Content":
+    - /url: "#contentarea"
+  - link "store logo":
+    - /url: http://localhost:7770/
+    - img "one_stop_market_logo"
+  - link " My Cart":
+    - /url: http://localhost:7770/checkout/cart/
+  - text:  Search
+  - combobox " Search"
+  - link "Advanced Search":
+    - /url: http://localhost:7770/catalogsearch/advanced/
+  - button "Search" [disabled]:  Search
+- tablist:
+  - tabpanel:
+    - navigation:
+      - menu:
+        - listitem:
+          - menuitem " Beauty & Personal Care"
+        - listitem:
+          - menuitem " Sports & Outdoors"
+        - listitem:
+          - menuitem " Clothing, Shoes & Jewelry"
+        - listitem:
+          - menuitem " Home & Kitchen"
+        - listitem:
+          - menuitem " Office Products"
+        - listitem:
+          - menuitem " Tools & Home Improvement"
+        - listitem:
+          - menuitem " Health & Household"
+        - listitem:
+          - menuitem " Patio, Lawn & Garden"
+        - listitem:
+          - menuitem " Electronics"
+        - listitem:
+          - menuitem " Cell Phones & Accessories"
+        - listitem:
+          - menuitem " Video Games"
+        - listitem:
+          - menuitem " Grocery & Gourmet Food"
+- list:
+  - listitem:
+    - link "Home":
+      - /url: http://localhost:7770/
+    - text: 
+  - listitem:
+    - strong: Catalog Advanced Search
+- main:
+  - heading "Advanced Search" [level=1]
+  - group "Search Settings":
+    - text: Search Settings Product Name
+    - textbox "Product Name"
+    - text: SKU
+    - textbox "SKU"
+    - text: Description
+    - textbox "Description"
+    - text: Short Description
+    - textbox "Short Description"
+    - text: Price
+    - textbox "Price"
+    - text: –
+    - textbox "USD"
+    - text: USD
+  - button "Search"
+- contentinfo:
+  - text: " Sign Up for Our Newsletter:"
+  - textbox "Sign Up for Our Newsletter:"
+  - button "Subscribe"
+  - list:
+    - listitem:
+      - link "Privacy and Cookie Policy":
+        - /url: http://localhost:7770/privacy-policy-cookie-restriction-mode/
+    - listitem:
+      - link "Search Terms":
+        - /url: http://localhost:7770/search/term/popular/
+    - listitem:
+      - strong: Advanced Search
+    - listitem:
+      - link "Orders and Returns":
+        - /url: http://localhost:7770/sales/guest/form/
+    - listitem:
+      - link "Contact Us":
+        - /url: http://localhost:7770/contact/
+  - text: Copyright © 2013-present Magento, Inc. All rights reserved. Help Us Keep Magento Healthy
+  - link "Report All Bugs":
+    - /url: http://www.magentocommerce.com/bug-tracking

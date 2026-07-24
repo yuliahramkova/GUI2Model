@@ -1,0 +1,522 @@
+[
+  {
+    "element_id": "contact_0000",
+    "screen_id": "contact",
+    "role": "link",
+    "name": "My Account",
+    "tag": "a",
+    "bbox_px": [
+      674,
+      10,
+      750,
+      29
+    ],
+    "bbox_norm": [
+      0.5264892578125,
+      0.013888888888888888,
+      0.58594970703125,
+      0.04027777777777778
+    ],
+    "instruction": "click the link 'My Account'"
+  },
+  {
+    "element_id": "contact_0001",
+    "screen_id": "contact",
+    "role": "link",
+    "name": "My Wish List",
+    "tag": "a",
+    "bbox_px": [
+      765,
+      10,
+      846,
+      29
+    ],
+    "bbox_norm": [
+      0.59766845703125,
+      0.013888888888888888,
+      0.661083984375,
+      0.04027777777777778
+    ],
+    "instruction": "click the link 'My Wish List'"
+  },
+  {
+    "element_id": "contact_0002",
+    "screen_id": "contact",
+    "role": "link",
+    "name": "Sign In",
+    "tag": "a",
+    "bbox_px": [
+      861,
+      10,
+      905,
+      29
+    ],
+    "bbox_norm": [
+      0.672802734375,
+      0.013888888888888888,
+      0.706884765625,
+      0.04027777777777778
+    ],
+    "instruction": "click the link 'Sign In'"
+  },
+  {
+    "element_id": "contact_0003",
+    "screen_id": "contact",
+    "role": "link",
+    "name": "Create an Account",
+    "tag": "a",
+    "bbox_px": [
+      1141,
+      10,
+      1260,
+      29
+    ],
+    "bbox_norm": [
+      0.89129638671875,
+      0.013888888888888888,
+      0.984375,
+      0.04027777777777778
+    ],
+    "instruction": "click the link 'Create an Account'"
+  },
+  {
+    "element_id": "contact_0004",
+    "screen_id": "contact",
+    "role": "link",
+    "name": "store logo",
+    "tag": "a",
+    "bbox_px": [
+      20,
+      71,
+      220,
+      98
+    ],
+    "bbox_norm": [
+      0.015625,
+      0.09861111111111111,
+      0.171875,
+      0.13648003472222223
+    ],
+    "instruction": "click the link 'store logo'"
+  },
+  {
+    "element_id": "contact_0005",
+    "screen_id": "contact",
+    "role": "link",
+    "name": "My Cart",
+    "tag": "a",
+    "bbox_px": [
+      1225,
+      71,
+      1260,
+      104
+    ],
+    "bbox_norm": [
+      0.95703125,
+      0.09861111111111111,
+      0.984375,
+      0.14444444444444443
+    ],
+    "instruction": "click the link 'My Cart'"
+  },
+  {
+    "element_id": "contact_0006",
+    "screen_id": "contact",
+    "role": "combobox",
+    "name": "Search entire store here...",
+    "tag": "input",
+    "bbox_px": [
+      962,
+      71,
+      1212,
+      103
+    ],
+    "bbox_norm": [
+      0.7515625,
+      0.09861111111111111,
+      0.946875,
+      0.14305555555555555
+    ],
+    "instruction": "click the combobox 'Search entire store here...'"
+  },
+  {
+    "element_id": "contact_0007",
+    "screen_id": "contact",
+    "role": "link",
+    "name": "Advanced Search",
+    "tag": "a",
+    "bbox_px": [
+      962,
+      108,
+      1074,
+      127
+    ],
+    "bbox_norm": [
+      0.7515625,
+      0.15,
+      0.8387451171875,
+      0.1763888888888889
+    ],
+    "instruction": "click the link 'Advanced Search'"
+  },
+  {
+    "element_id": "contact_0008",
+    "screen_id": "contact",
+    "role": "button",
+    "name": "Search",
+    "tag": "button",
+    "bbox_px": [
+      1180,
+      71,
+      1202,
+      103
+    ],
+    "bbox_norm": [
+      0.921875,
+      0.09861111111111111,
+      0.9390625,
+      0.14305555555555555
+    ],
+    "instruction": "click the button 'Search'"
+  },
+  {
+    "element_id": "contact_0009",
+    "screen_id": "contact",
+    "role": "menu",
+    "name": "Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme",
+    "tag": "ul",
+    "bbox_px": [
+      0,
+      128,
+      1280,
+      234
+    ],
+    "bbox_norm": [
+      0,
+      0.17777777777777778,
+      1,
+      0.325
+    ],
+    "instruction": "click the menu 'Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme'"
+  },
+  {
+    "element_id": "contact_0010",
+    "screen_id": "contact",
+    "role": "menuitem",
+    "name": "Beauty & Personal Care",
+    "tag": "a",
+    "bbox_px": [
+      8,
+      128,
+      204,
+      181
+    ],
+    "bbox_norm": [
+      0.00625,
+      0.17777777777777778,
+      0.158984375,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Beauty & Personal Care'"
+  },
+  {
+    "element_id": "contact_0011",
+    "screen_id": "contact",
+    "role": "menuitem",
+    "name": "Sports & Outdoors",
+    "tag": "a",
+    "bbox_px": [
+      214,
+      128,
+      374,
+      181
+    ],
+    "bbox_norm": [
+      0.166796875,
+      0.17777777777777778,
+      0.2920654296875,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Sports & Outdoors'"
+  },
+  {
+    "element_id": "contact_0012",
+    "screen_id": "contact",
+    "role": "menuitem",
+    "name": "Clothing, Shoes & Jewelry",
+    "tag": "a",
+    "bbox_px": [
+      384,
+      128,
+      592,
+      181
+    ],
+    "bbox_norm": [
+      0.2998779296875,
+      0.17777777777777778,
+      0.46259765625,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Clothing, Shoes & Jewelry'"
+  },
+  {
+    "element_id": "contact_0013",
+    "screen_id": "contact",
+    "role": "menuitem",
+    "name": "Home & Kitchen",
+    "tag": "a",
+    "bbox_px": [
+      602,
+      128,
+      747,
+      181
+    ],
+    "bbox_norm": [
+      0.47041015625,
+      0.17777777777777778,
+      0.58345947265625,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Home & Kitchen'"
+  },
+  {
+    "element_id": "contact_0014",
+    "screen_id": "contact",
+    "role": "menuitem",
+    "name": "Office Products",
+    "tag": "a",
+    "bbox_px": [
+      757,
+      128,
+      896,
+      181
+    ],
+    "bbox_norm": [
+      0.59127197265625,
+      0.17777777777777778,
+      0.70001220703125,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Office Products'"
+  },
+  {
+    "element_id": "contact_0015",
+    "screen_id": "contact",
+    "role": "menuitem",
+    "name": "Tools & Home Improvement",
+    "tag": "a",
+    "bbox_px": [
+      906,
+      128,
+      1132,
+      181
+    ],
+    "bbox_norm": [
+      0.70782470703125,
+      0.17777777777777778,
+      0.88419189453125,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Tools & Home Improvement'"
+  },
+  {
+    "element_id": "contact_0016",
+    "screen_id": "contact",
+    "role": "menuitem",
+    "name": "Health & Household",
+    "tag": "a",
+    "bbox_px": [
+      8,
+      181,
+      180,
+      234
+    ],
+    "bbox_norm": [
+      0.00625,
+      0.2513888888888889,
+      0.14029541015625,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Health & Household'"
+  },
+  {
+    "element_id": "contact_0017",
+    "screen_id": "contact",
+    "role": "menuitem",
+    "name": "Patio, Lawn & Garden",
+    "tag": "a",
+    "bbox_px": [
+      190,
+      181,
+      372,
+      234
+    ],
+    "bbox_norm": [
+      0.14810791015625,
+      0.2513888888888889,
+      0.29052734375,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Patio, Lawn & Garden'"
+  },
+  {
+    "element_id": "contact_0018",
+    "screen_id": "contact",
+    "role": "menuitem",
+    "name": "Electronics",
+    "tag": "a",
+    "bbox_px": [
+      382,
+      181,
+      490,
+      234
+    ],
+    "bbox_norm": [
+      0.29833984375,
+      0.2513888888888889,
+      0.38275146484375,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Electronics'"
+  },
+  {
+    "element_id": "contact_0019",
+    "screen_id": "contact",
+    "role": "menuitem",
+    "name": "Cell Phones & Accessories",
+    "tag": "a",
+    "bbox_px": [
+      500,
+      181,
+      711,
+      234
+    ],
+    "bbox_norm": [
+      0.39056396484375,
+      0.2513888888888889,
+      0.555419921875,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Cell Phones & Accessories'"
+  },
+  {
+    "element_id": "contact_0020",
+    "screen_id": "contact",
+    "role": "menuitem",
+    "name": "Video Games",
+    "tag": "a",
+    "bbox_px": [
+      721,
+      181,
+      843,
+      234
+    ],
+    "bbox_norm": [
+      0.563232421875,
+      0.2513888888888889,
+      0.65885009765625,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Video Games'"
+  },
+  {
+    "element_id": "contact_0021",
+    "screen_id": "contact",
+    "role": "menuitem",
+    "name": "Grocery & Gourmet Food",
+    "tag": "a",
+    "bbox_px": [
+      853,
+      181,
+      1058,
+      234
+    ],
+    "bbox_norm": [
+      0.66666259765625,
+      0.2513888888888889,
+      0.82637939453125,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Grocery & Gourmet Food'"
+  },
+  {
+    "element_id": "contact_0022",
+    "screen_id": "contact",
+    "role": "textbox",
+    "name": "Name",
+    "tag": "input",
+    "bbox_px": [
+      180,
+      441,
+      640,
+      473
+    ],
+    "bbox_norm": [
+      0.14058837890625,
+      0.6125,
+      0.49998779296875,
+      0.6569444444444444
+    ],
+    "instruction": "click the textbox 'Name'"
+  },
+  {
+    "element_id": "contact_0023",
+    "screen_id": "contact",
+    "role": "textbox",
+    "name": "Email",
+    "tag": "input",
+    "bbox_px": [
+      180,
+      502,
+      640,
+      534
+    ],
+    "bbox_norm": [
+      0.14058837890625,
+      0.6972222222222222,
+      0.49998779296875,
+      0.7416666666666667
+    ],
+    "instruction": "click the textbox 'Email'"
+  },
+  {
+    "element_id": "contact_0024",
+    "screen_id": "contact",
+    "role": "textbox",
+    "name": "Phone Number",
+    "tag": "input",
+    "bbox_px": [
+      180,
+      563,
+      640,
+      595
+    ],
+    "bbox_norm": [
+      0.14058837890625,
+      0.7819444444444444,
+      0.49998779296875,
+      0.8263888888888888
+    ],
+    "instruction": "click the textbox 'Phone Number'"
+  },
+  {
+    "element_id": "contact_0025",
+    "screen_id": "contact",
+    "role": "textbox",
+    "name": "",
+    "tag": "textarea",
+    "bbox_px": [
+      180,
+      624,
+      640,
+      706
+    ],
+    "bbox_norm": [
+      0.14058837890625,
+      0.8666666666666667,
+      0.49998779296875,
+      0.9805555555555555
+    ],
+    "instruction": "click the textbox"
+  }
+]

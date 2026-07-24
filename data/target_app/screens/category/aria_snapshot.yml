@@ -1,0 +1,328 @@
+- banner:
+  - list:
+    - listitem:
+      - link "My Account":
+        - /url: http://localhost:7770/customer/account/
+    - listitem:
+      - link "My Wish List":
+        - /url: http://localhost:7770/wishlist/
+    - listitem:
+      - link "Sign In":
+        - /url: http://localhost:7770/customer/account/login/
+    - listitem
+    - listitem: Welcome to One Stop Market
+    - listitem:
+      - link "Create an Account":
+        - /url: http://localhost:7770/customer/account/create/
+  - link "Skip to Content":
+    - /url: "#contentarea"
+  - link "store logo":
+    - /url: http://localhost:7770/
+    - img "one_stop_market_logo"
+  - link " My Cart":
+    - /url: http://localhost:7770/checkout/cart/
+  - text:  Search
+  - combobox " Search"
+  - link "Advanced Search":
+    - /url: http://localhost:7770/catalogsearch/advanced/
+  - button "Search" [disabled]:  Search
+- tablist:
+  - tabpanel:
+    - navigation:
+      - menu:
+        - listitem:
+          - menuitem " Beauty & Personal Care"
+        - listitem:
+          - menuitem " Sports & Outdoors"
+        - listitem:
+          - menuitem " Clothing, Shoes & Jewelry"
+        - listitem:
+          - menuitem " Home & Kitchen"
+        - listitem:
+          - menuitem " Office Products"
+        - listitem:
+          - menuitem " Tools & Home Improvement"
+        - listitem:
+          - menuitem " Health & Household"
+        - listitem:
+          - menuitem " Patio, Lawn & Garden"
+        - listitem:
+          - menuitem " Electronics"
+        - listitem:
+          - menuitem " Cell Phones & Accessories"
+        - listitem:
+          - menuitem " Video Games"
+        - listitem:
+          - menuitem " Grocery & Gourmet Food"
+- list:
+  - listitem:
+    - link "Home":
+      - /url: http://localhost:7770/
+    - text: 
+  - listitem:
+    - strong: Electronics
+- main:
+  - heading "Electronics Items 1-12 of 14539" [level=1]: Electronics
+  - strong: View as
+  - strong:  Grid
+  - link "View as  List":
+    - /url: "#"
+    - text:  List
+  - paragraph: Items 1-12 of 14539
+  - text: Sort By
+  - combobox "Sort By":
+    - option "Position" [selected]
+    - option "Product Name"
+    - option "Price"
+  - link " Set Descending Direction":
+    - /url: "#"
+  - list:
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/navitech-black-hard-carry-bag-case-cover-with-shoulder-strap-compatible-with-the-vr-virtual-reality-3d-headsets-including-the-crypto-vr-150-virtual-reality-headset-3d-glasses.html
+        - img "Image"
+      - strong:
+        - link "Navitech Black Hard Carry Bag/Case/Cover with Shoulder Strap Compatible with The VR/Virtual Reality 3D headsets Including The Crypto VR 150 Virtual Reality Headset 3D Glasses":
+          - /url: http://localhost:7770/navitech-black-hard-carry-bag-case-cover-with-shoulder-strap-compatible-with-the-vr-virtual-reality-3d-headsets-including-the-crypto-vr-150-virtual-reality-headset-3d-glasses.html
+      - text: $24.99
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-channel-5mp-poe-nvr-recorder-4pcs-wired-2mp-1080p-surveillance-bullet-poe-ip-cameras-no-hard-drive-renewed.html
+        - img "Image"
+      - strong:
+        - link "ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)":
+          - /url: http://localhost:7770/zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-channel-5mp-poe-nvr-recorder-4pcs-wired-2mp-1080p-surveillance-bullet-poe-ip-cameras-no-hard-drive-renewed.html
+      - text: $169.99
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/indoor-pet-camera-hd-1080p-no-wifi-security-camera-with-night-vision-no-built-in-baterry.html
+        - img "Image"
+      - strong:
+        - link "Indoor Pet Camera, HD 1080P No WiFi Security Camera with Night Vision-No Built-in Baterry":
+          - /url: http://localhost:7770/indoor-pet-camera-hd-1080p-no-wifi-security-camera-with-night-vision-no-built-in-baterry.html
+      - text: $28.99
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/rockville-ch103sp-chuchero-car-audio-enclosure-for-2-10-mids-2-3-tweeter.html
+        - img "Image"
+      - strong:
+        - link "Rockville CH103SP Chuchero Car Audio Enclosure For (2) 10\" Mids + (2) 3\" Tweeter":
+          - /url: http://localhost:7770/rockville-ch103sp-chuchero-car-audio-enclosure-for-2-10-mids-2-3-tweeter.html
+      - text: $56.68
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/150ft-quad-shield-solid-copper-3ghz-rg-6-coaxial-cable-75-ohm-directv-satellite-tv-or-broadband-internet-anti-corrosion-brass-connector-rg6-fittings-assembled-in-usa-by-phat-satellite-intl.html
+        - img "Image"
+      - strong:
+        - link "150ft Quad Shield Solid Copper 3GHZ RG-6 Coaxial Cable 75 Ohm (DIRECTV Satellite TV or Broadband Internet) Anti Corrosion Brass Connector RG6 Fittings Assembled in USA by PHAT SATELLITE INTL":
+          - /url: http://localhost:7770/150ft-quad-shield-solid-copper-3ghz-rg-6-coaxial-cable-75-ohm-directv-satellite-tv-or-broadband-internet-anti-corrosion-brass-connector-rg6-fittings-assembled-in-usa-by-phat-satellite-intl.html
+      - text: $57.71
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html
+        - img "Image"
+      - strong:
+        - link "Multi Accessory Hub Adapter By JOBY – Get The Right Set Up For Your Vision By Attaching All The GoPro Accessories You Need In One Central Spot":
+          - /url: http://localhost:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html
+      - text: "Rating:   90%"
+      - link "12 Reviews":
+        - /url: http://localhost:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html#reviews
+      - text: $14.95
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/intel-nuc-kit-nuc6i7kyk-mini-pc-no-power-cord.html
+        - img "Image"
+      - strong:
+        - link "Intel NUC Kit NUC6i7KYK Mini PC-no Power Cord":
+          - /url: http://localhost:7770/intel-nuc-kit-nuc6i7kyk-mini-pc-no-power-cord.html
+      - text: $599.99
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/cg7060-apollo-transparency-film-letter-8-50quot-x-11quot-50-box-transparent.html
+        - img "Image"
+      - strong:
+        - link "CG7060 Apollo Transparency Film - Letter - 8.50quot; x 11quot; - 50 / Box - Transparent":
+          - /url: http://localhost:7770/cg7060-apollo-transparency-film-letter-8-50quot-x-11quot-50-box-transparent.html
+      - text: $42.65
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/sceptre-e195bd-srr-19-inch-720p-led-tv-true-black-2017.html
+        - img "Image"
+      - strong:
+        - link "Sceptre E195BD-SRR 19-Inch 720P LED TV, True Black (2017)":
+          - /url: http://localhost:7770/sceptre-e195bd-srr-19-inch-720p-led-tv-true-black-2017.html
+      - text: $209.99
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/sandisk-cruzer-glide-32gb-5-pack-usb-2-0-flash-drive-sdcz60-032g-pen-drive-bundle-with-2-everything-but-stromboli-lanyards.html
+        - img "Image"
+      - strong:
+        - link "SanDisk Cruzer Glide 32GB (5 Pack) USB 2.0 Flash Drive (SDCZ60-032G) Pen Drive Bundle with (2) Everything But Stromboli Lanyards":
+          - /url: http://localhost:7770/sandisk-cruzer-glide-32gb-5-pack-usb-2-0-flash-drive-sdcz60-032g-pen-drive-bundle-with-2-everything-but-stromboli-lanyards.html
+      - text: "Rating:   70%"
+      - link "12 Reviews":
+        - /url: http://localhost:7770/sandisk-cruzer-glide-32gb-5-pack-usb-2-0-flash-drive-sdcz60-032g-pen-drive-bundle-with-2-everything-but-stromboli-lanyards.html#reviews
+      - text: $34.46
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-camera-cover-diving-cover-for-osmo-pocket-60m-waterproof-for-travel-trip.html
+        - img "Image"
+      - strong:
+        - link "linxiaojix Waterproof Shell for Osmo Pocket, Camera Case Camera Cover Diving Cover for Osmo Pocket, 60M Waterproof for Travel Trip":
+          - /url: http://localhost:7770/linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-camera-cover-diving-cover-for-osmo-pocket-60m-waterproof-for-travel-trip.html
+      - text: $17.76
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/replacement-battery-for-garmin-montana-600-600t-650-650t-600t-camo-680-680t-fit-part-no-361-00053-00-010-11599-00-2200mah.html
+        - img "Image"
+      - strong:
+        - link "Replacement Battery for Garmin Montana 600 600T 650 650T 600t Camo 680 680T,fit Part No 361-00053-00 010-11599-00, 2200mAh":
+          - /url: http://localhost:7770/replacement-battery-for-garmin-montana-600-600t-650-650t-600t-camo-680-680t-fit-part-no-361-00053-00-010-11599-00-2200mah.html
+      - text: "Rating:   80%"
+      - link "3 Reviews":
+        - /url: http://localhost:7770/replacement-battery-for-garmin-montana-600-600t-650-650t-600t-camo-680-680t-fit-part-no-361-00053-00-010-11599-00-2200mah.html#reviews
+      - text: $25.99
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+  - strong: Page
+  - list "Page":
+    - listitem:
+      - strong: You're currently reading page 1
+    - listitem:
+      - link "Page 2":
+        - /url: http://localhost:7770/electronics.html?p=2
+    - listitem:
+      - link "Page 3":
+        - /url: http://localhost:7770/electronics.html?p=3
+    - listitem:
+      - link "Page 4":
+        - /url: http://localhost:7770/electronics.html?p=4
+    - listitem:
+      - link "Page 5":
+        - /url: http://localhost:7770/electronics.html?p=5
+    - listitem:
+      - link " Page Next":
+        - /url: http://localhost:7770/electronics.html?p=2
+  - text: Show
+  - combobox "Show":
+    - option "12" [selected]
+    - option "24"
+    - option "36"
+  - text: per page
+  - strong: Shop By
+  - heading "Shopping Options" [level=2]
+  - heading "Category" [level=3]
+  - definition:
+    - list:
+      - listitem:
+        - link "Home Audio( 1280 item )":
+          - /url: http://localhost:7770/electronics.html?cat=51
+      - listitem:
+        - link "Video Projectors( 484 item )":
+          - /url: http://localhost:7770/electronics.html?cat=52
+      - listitem:
+        - link "Accessories & Supplies( 2409 item )":
+          - /url: http://localhost:7770/electronics.html?cat=53
+      - listitem:
+        - link "Television & Video( 1083 item )":
+          - /url: http://localhost:7770/electronics.html?cat=54
+      - listitem:
+        - link "Camera & Photo( 3512 item )":
+          - /url: http://localhost:7770/electronics.html?cat=55
+      - listitem:
+        - link "Computers & Accessories( 2929 item )":
+          - /url: http://localhost:7770/electronics.html?cat=56
+      - listitem:
+        - link "Headphones( 631 item )":
+          - /url: http://localhost:7770/electronics.html?cat=60
+      - listitem:
+        - link "Portable Audio & Video( 824 item )":
+          - /url: http://localhost:7770/electronics.html?cat=62
+      - listitem:
+        - link "Security & Surveillance( 249 item )":
+          - /url: http://localhost:7770/electronics.html?cat=63
+      - listitem:
+        - link "Power Accessories( 243 item )":
+          - /url: http://localhost:7770/electronics.html?cat=64
+      - listitem:
+        - link "Car & Vehicle Electronics( 635 item )":
+          - /url: http://localhost:7770/electronics.html?cat=65
+      - listitem:
+        - link "Wearable Technology( 120 item )":
+          - /url: http://localhost:7770/electronics.html?cat=68
+      - listitem:
+        - link "GPS, Finders & Accessories( 102 item )":
+          - /url: http://localhost:7770/electronics.html?cat=69
+  - heading "Price" [level=3]
+  - definition:
+    - list:
+      - listitem:
+        - link "$0.00 - $9,999.99( 14528 item )":
+          - /url: http://localhost:7770/electronics.html?price=0-10000
+      - listitem:
+        - link "$10,000.00 - $19,999.99( 9 item )":
+          - /url: http://localhost:7770/electronics.html?price=10000-20000
+      - listitem:
+        - link "$20,000.00 and above( 1 item )":
+          - /url: http://localhost:7770/electronics.html?price=20000-30000
+  - heading "Compare Products" [level=2]
+  - text: You have no items to compare.
+  - heading "My Wish List" [level=2]
+  - text: You have no items in your wish list.
+- contentinfo:
+  - text: " Sign Up for Our Newsletter:"
+  - textbox "Sign Up for Our Newsletter:"
+  - button "Subscribe"
+  - list:
+    - listitem:
+      - link "Privacy and Cookie Policy":
+        - /url: http://localhost:7770/privacy-policy-cookie-restriction-mode/
+    - listitem:
+      - link "Search Terms":
+        - /url: http://localhost:7770/search/term/popular/
+    - listitem:
+      - link "Advanced Search":
+        - /url: http://localhost:7770/catalogsearch/advanced/
+    - listitem:
+      - link "Orders and Returns":
+        - /url: http://localhost:7770/sales/guest/form/
+    - listitem:
+      - link "Contact Us":
+        - /url: http://localhost:7770/contact/
+  - text: Copyright © 2013-present Magento, Inc. All rights reserved. Help Us Keep Magento Healthy
+  - link "Report All Bugs":
+    - /url: http://www.magentocommerce.com/bug-tracking

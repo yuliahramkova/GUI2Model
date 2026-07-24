@@ -1,0 +1,297 @@
+- banner:
+  - list:
+    - listitem:
+      - link "My Account":
+        - /url: http://localhost:7770/customer/account/
+    - listitem:
+      - link "My Wish List":
+        - /url: http://localhost:7770/wishlist/
+    - listitem:
+      - link "Sign In":
+        - /url: http://localhost:7770/customer/account/login/
+    - listitem
+    - listitem: Welcome to One Stop Market
+    - listitem:
+      - link "Create an Account":
+        - /url: http://localhost:7770/customer/account/create/
+  - link "Skip to Content":
+    - /url: "#contentarea"
+  - link "store logo":
+    - /url: http://localhost:7770/
+    - img "one_stop_market_logo"
+  - link " My Cart 1 1 items":
+    - /url: http://localhost:7770/checkout/cart/
+  - dialog:
+    - button " Close"
+    - text: "1 Item in Cart Cart Subtotal : $12.99"
+    - button "Proceed to Checkout"
+    - list:
+      - listitem:
+        - link "Briess DME - Pilsen Light - 1 lb Bag":
+          - /url: http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html
+          - img "Briess DME - Pilsen Light - 1 lb Bag"
+        - strong:
+          - link "Briess DME - Pilsen Light - 1 lb Bag":
+            - /url: http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html
+        - text: "$12.99 Qty:"
+        - spinbutton "Qty:": "1"
+        - link " Edit":
+          - /url: http://localhost:7770/checkout/cart/configure/id/560/product_id/104491/
+        - link " Remove":
+          - /url: "#"
+    - link "View and Edit Cart":
+      - /url: http://localhost:7770/checkout/cart/
+  - text:  Search
+  - combobox " Search"
+  - link "Advanced Search":
+    - /url: http://localhost:7770/catalogsearch/advanced/
+  - button "Search" [disabled]:  Search
+- tablist:
+  - tabpanel:
+    - navigation:
+      - menu:
+        - listitem:
+          - menuitem " Beauty & Personal Care"
+        - listitem:
+          - menuitem " Sports & Outdoors"
+        - listitem:
+          - menuitem " Clothing, Shoes & Jewelry"
+        - listitem:
+          - menuitem " Home & Kitchen"
+        - listitem:
+          - menuitem " Office Products"
+        - listitem:
+          - menuitem " Tools & Home Improvement"
+        - listitem:
+          - menuitem " Health & Household"
+        - listitem:
+          - menuitem " Patio, Lawn & Garden"
+        - listitem:
+          - menuitem " Electronics"
+        - listitem:
+          - menuitem " Cell Phones & Accessories"
+        - listitem:
+          - menuitem " Video Games"
+        - listitem:
+          - menuitem " Grocery & Gourmet Food"
+- main:
+  - heading "One Stop Market" [level=1]
+  - strong: Product Showcases
+  - list:
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/pre-baked-gingerbread-house-kit-value-pack-17-oz-pack-of-2-total-34-oz.html
+        - img "Image"
+      - strong:
+        - link "Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.":
+          - /url: http://localhost:7770/pre-baked-gingerbread-house-kit-value-pack-17-oz-pack-of-2-total-34-oz.html
+      - text: "Rating:   20%"
+      - link "1 Review":
+        - /url: http://localhost:7770/pre-baked-gingerbread-house-kit-value-pack-17-oz-pack-of-2-total-34-oz.html#reviews
+      - text: $19.99
+      - button "Add to Cart"
+      - link " Add to Wish List":
+        - /url: "#"
+      - link " Add to Compare":
+        - /url: "#"
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/v8-energy-healthy-energy-drink-steady-energy-from-black-and-green-tea-pomegranate-blueberry-8-ounce-can-pack-of-24.html
+        - img "Image"
+      - strong:
+        - link "V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can ,Pack of 24":
+          - /url: http://localhost:7770/v8-energy-healthy-energy-drink-steady-energy-from-black-and-green-tea-pomegranate-blueberry-8-ounce-can-pack-of-24.html
+      - text: "Rating:   57%"
+      - link "12 Reviews":
+        - /url: http://localhost:7770/v8-energy-healthy-energy-drink-steady-energy-from-black-and-green-tea-pomegranate-blueberry-8-ounce-can-pack-of-24.html#reviews
+      - text: $14.47
+      - button "Add to Cart"
+      - link " Add to Wish List":
+        - /url: "#"
+      - link " Add to Compare":
+        - /url: "#"
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/elmwood-inn-fine-teas-orange-vanilla-caffeine-free-fruit-infusion-16-ounce-pouch.html
+        - img "Image"
+      - strong:
+        - link "Elmwood Inn Fine Teas, Orange Vanilla Caffeine-free Fruit Infusion, 16-Ounce Pouch":
+          - /url: http://localhost:7770/elmwood-inn-fine-teas-orange-vanilla-caffeine-free-fruit-infusion-16-ounce-pouch.html
+      - text: "Rating:   95%"
+      - link "4 Reviews":
+        - /url: http://localhost:7770/elmwood-inn-fine-teas-orange-vanilla-caffeine-free-fruit-infusion-16-ounce-pouch.html#reviews
+      - text: $19.36
+      - button "Add to Cart"
+      - link " Add to Wish List":
+        - /url: "#"
+      - link " Add to Compare":
+        - /url: "#"
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-sprinkles-cake-cupcake-cookie-sprinkles-ice-cream-candy-sprinkles-yellow-gold-red-royal-red-rose-icing-flowers-decorating-sprinkles-8oz.html
+        - img "Image"
+      - strong:
+        - link "Belle Of The Ball Princess Sprinkle Mix| Wedding Colorful Sprinkles| Cake Cupcake Cookie Sprinkles| Ice cream Candy Sprinkles| Yellow Gold Red Royal Red Rose Icing Flowers Decorating Sprinkles, 8OZ":
+          - /url: http://localhost:7770/belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-sprinkles-cake-cupcake-cookie-sprinkles-ice-cream-candy-sprinkles-yellow-gold-red-royal-red-rose-icing-flowers-decorating-sprinkles-8oz.html
+      - text: "Rating:   63%"
+      - link "12 Reviews":
+        - /url: http://localhost:7770/belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-sprinkles-cake-cupcake-cookie-sprinkles-ice-cream-candy-sprinkles-yellow-gold-red-royal-red-rose-icing-flowers-decorating-sprinkles-8oz.html#reviews
+      - text: $23.50
+      - button "Add to Cart"
+      - link " Add to Wish List":
+        - /url: "#"
+      - link " Add to Compare":
+        - /url: "#"
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html
+        - img "Image"
+      - strong:
+        - link "So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub":
+          - /url: http://localhost:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html
+      - text: "Rating:   78%"
+      - link "12 Reviews":
+        - /url: http://localhost:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews
+      - text: $15.62
+      - button "Add to Cart"
+      - link " Add to Wish List":
+        - /url: "#"
+      - link " Add to Compare":
+        - /url: "#"
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/cheongeun-sweet-potato-starch-powder-500g-2ea-sweet-potato-55-corn-45.html
+        - img "Image"
+      - strong:
+        - link "Cheongeun Sweet Potato Starch Powder 500g, 2ea(Sweet Potato 55%, Corn 45%)":
+          - /url: http://localhost:7770/cheongeun-sweet-potato-starch-powder-500g-2ea-sweet-potato-55-corn-45.html
+      - text: $34.00
+      - button "Add to Cart"
+      - link " Add to Wish List":
+        - /url: "#"
+      - link " Add to Compare":
+        - /url: "#"
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html
+        - img "Image"
+      - strong:
+        - 'link "Q Mixers Premium Ginger Ale: Real Ingredients & Less Sweet, 6.7 Fl Oz (24 Bottles)"':
+          - /url: http://localhost:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html
+      - text: "Rating:   88%"
+      - link "12 Reviews":
+        - /url: http://localhost:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html#reviews
+      - text: $68.50
+      - button "Add to Cart"
+      - link " Add to Wish List":
+        - /url: "#"
+      - link " Add to Compare":
+        - /url: "#"
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/stove-top-turkey-stuffing-mix-12-oz-boxes-pack-of-2.html
+        - img "Image"
+      - strong:
+        - link "Stove Top Turkey Stuffing Mix (12 oz Boxes, Pack of 2)":
+          - /url: http://localhost:7770/stove-top-turkey-stuffing-mix-12-oz-boxes-pack-of-2.html
+      - text: "Rating:   85%"
+      - link "12 Reviews":
+        - /url: http://localhost:7770/stove-top-turkey-stuffing-mix-12-oz-boxes-pack-of-2.html#reviews
+      - text: $8.49
+      - button "Add to Cart"
+      - link " Add to Wish List":
+        - /url: "#"
+      - link " Add to Compare":
+        - /url: "#"
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html
+        - img "Image"
+      - strong:
+        - link "Briess DME - Pilsen Light - 1 lb Bag":
+          - /url: http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html
+      - text: $12.99
+      - button "Add to Cart"
+      - link " Add to Wish List":
+        - /url: "#"
+      - link " Add to Compare":
+        - /url: "#"
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html
+        - img "Image"
+      - strong:
+        - link "Tony Chachere's More Spice Creole Seasoning - 14 oz":
+          - /url: http://localhost:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html
+      - text: "Rating:   75%"
+      - link "12 Reviews":
+        - /url: http://localhost:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html#reviews
+      - text: $7.92
+      - button "Add to Cart"
+      - link " Add to Wish List":
+        - /url: "#"
+      - link " Add to Compare":
+        - /url: "#"
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/lobster-cobbler-pot-pie-gourmet-frozen-seafood-appetizers-set-of-8-trays.html
+        - img "Image"
+      - strong:
+        - link "Lobster Cobbler Pot Pie - Gourmet Frozen Seafood Appetizers (Set of 8 Trays)":
+          - /url: http://localhost:7770/lobster-cobbler-pot-pie-gourmet-frozen-seafood-appetizers-set-of-8-trays.html
+      - text: $411.76
+      - button "Add to Cart"
+      - link " Add to Wish List":
+        - /url: "#"
+      - link " Add to Compare":
+        - /url: "#"
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html
+        - img "Image"
+      - strong:
+        - link "Crunchy Rice Rollers - Gluten Free - Vegan - 3.5 oz Individual Packs (4 Packs of 8 Rollers)":
+          - /url: http://localhost:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html
+      - text: "Rating:   83%"
+      - link "12 Reviews":
+        - /url: http://localhost:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html#reviews
+      - text: $11.50
+      - button "Add to Cart"
+      - link " Add to Wish List":
+        - /url: "#"
+      - link " Add to Compare":
+        - /url: "#"
+  - paragraph: Items 1 to 12 of 24 total
+  - strong: Page
+  - list "Page":
+    - listitem:
+      - strong: You're currently reading page 1
+    - listitem:
+      - link "Page 2":
+        - /url: http://localhost:7770/?pbaocw=2
+    - listitem:
+      - link " Page Next":
+        - /url: http://localhost:7770/?pbaocw=2
+- contentinfo:
+  - text: " Sign Up for Our Newsletter:"
+  - textbox "Sign Up for Our Newsletter:"
+  - button "Subscribe"
+  - list:
+    - listitem:
+      - link "Privacy and Cookie Policy":
+        - /url: http://localhost:7770/privacy-policy-cookie-restriction-mode/
+    - listitem:
+      - link "Search Terms":
+        - /url: http://localhost:7770/search/term/popular/
+    - listitem:
+      - link "Advanced Search":
+        - /url: http://localhost:7770/catalogsearch/advanced/
+    - listitem:
+      - link "Orders and Returns":
+        - /url: http://localhost:7770/sales/guest/form/
+    - listitem:
+      - link "Contact Us":
+        - /url: http://localhost:7770/contact/
+  - text: Copyright © 2013-present Magento, Inc. All rights reserved. Help Us Keep Magento Healthy
+  - link "Report All Bugs":
+    - /url: http://www.magentocommerce.com/bug-tracking

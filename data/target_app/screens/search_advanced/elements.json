@@ -1,0 +1,582 @@
+[
+  {
+    "element_id": "search_advanced_0000",
+    "screen_id": "search_advanced",
+    "role": "link",
+    "name": "My Account",
+    "tag": "a",
+    "bbox_px": [
+      674,
+      10,
+      750,
+      29
+    ],
+    "bbox_norm": [
+      0.5264892578125,
+      0.013888888888888888,
+      0.58594970703125,
+      0.04027777777777778
+    ],
+    "instruction": "click the link 'My Account'"
+  },
+  {
+    "element_id": "search_advanced_0001",
+    "screen_id": "search_advanced",
+    "role": "link",
+    "name": "My Wish List",
+    "tag": "a",
+    "bbox_px": [
+      765,
+      10,
+      846,
+      29
+    ],
+    "bbox_norm": [
+      0.59766845703125,
+      0.013888888888888888,
+      0.661083984375,
+      0.04027777777777778
+    ],
+    "instruction": "click the link 'My Wish List'"
+  },
+  {
+    "element_id": "search_advanced_0002",
+    "screen_id": "search_advanced",
+    "role": "link",
+    "name": "Sign In",
+    "tag": "a",
+    "bbox_px": [
+      861,
+      10,
+      905,
+      29
+    ],
+    "bbox_norm": [
+      0.672802734375,
+      0.013888888888888888,
+      0.706884765625,
+      0.04027777777777778
+    ],
+    "instruction": "click the link 'Sign In'"
+  },
+  {
+    "element_id": "search_advanced_0003",
+    "screen_id": "search_advanced",
+    "role": "link",
+    "name": "Create an Account",
+    "tag": "a",
+    "bbox_px": [
+      1141,
+      10,
+      1260,
+      29
+    ],
+    "bbox_norm": [
+      0.89129638671875,
+      0.013888888888888888,
+      0.984375,
+      0.04027777777777778
+    ],
+    "instruction": "click the link 'Create an Account'"
+  },
+  {
+    "element_id": "search_advanced_0004",
+    "screen_id": "search_advanced",
+    "role": "link",
+    "name": "store logo",
+    "tag": "a",
+    "bbox_px": [
+      20,
+      71,
+      220,
+      98
+    ],
+    "bbox_norm": [
+      0.015625,
+      0.09861111111111111,
+      0.171875,
+      0.13648003472222223
+    ],
+    "instruction": "click the link 'store logo'"
+  },
+  {
+    "element_id": "search_advanced_0005",
+    "screen_id": "search_advanced",
+    "role": "link",
+    "name": "My Cart",
+    "tag": "a",
+    "bbox_px": [
+      1225,
+      71,
+      1260,
+      104
+    ],
+    "bbox_norm": [
+      0.95703125,
+      0.09861111111111111,
+      0.984375,
+      0.14444444444444443
+    ],
+    "instruction": "click the link 'My Cart'"
+  },
+  {
+    "element_id": "search_advanced_0006",
+    "screen_id": "search_advanced",
+    "role": "combobox",
+    "name": "Search entire store here...",
+    "tag": "input",
+    "bbox_px": [
+      962,
+      71,
+      1212,
+      103
+    ],
+    "bbox_norm": [
+      0.7515625,
+      0.09861111111111111,
+      0.946875,
+      0.14305555555555555
+    ],
+    "instruction": "click the combobox 'Search entire store here...'"
+  },
+  {
+    "element_id": "search_advanced_0007",
+    "screen_id": "search_advanced",
+    "role": "link",
+    "name": "Advanced Search",
+    "tag": "a",
+    "bbox_px": [
+      962,
+      108,
+      1074,
+      127
+    ],
+    "bbox_norm": [
+      0.7515625,
+      0.15,
+      0.8387451171875,
+      0.1763888888888889
+    ],
+    "instruction": "click the link 'Advanced Search'"
+  },
+  {
+    "element_id": "search_advanced_0008",
+    "screen_id": "search_advanced",
+    "role": "button",
+    "name": "Search",
+    "tag": "button",
+    "bbox_px": [
+      1180,
+      71,
+      1202,
+      103
+    ],
+    "bbox_norm": [
+      0.921875,
+      0.09861111111111111,
+      0.9390625,
+      0.14305555555555555
+    ],
+    "instruction": "click the button 'Search'"
+  },
+  {
+    "element_id": "search_advanced_0009",
+    "screen_id": "search_advanced",
+    "role": "menu",
+    "name": "Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme",
+    "tag": "ul",
+    "bbox_px": [
+      0,
+      128,
+      1280,
+      234
+    ],
+    "bbox_norm": [
+      0,
+      0.17777777777777778,
+      1,
+      0.325
+    ],
+    "instruction": "click the menu 'Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme'"
+  },
+  {
+    "element_id": "search_advanced_0010",
+    "screen_id": "search_advanced",
+    "role": "menuitem",
+    "name": "Beauty & Personal Care",
+    "tag": "a",
+    "bbox_px": [
+      8,
+      128,
+      204,
+      181
+    ],
+    "bbox_norm": [
+      0.00625,
+      0.17777777777777778,
+      0.158984375,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Beauty & Personal Care'"
+  },
+  {
+    "element_id": "search_advanced_0011",
+    "screen_id": "search_advanced",
+    "role": "menuitem",
+    "name": "Sports & Outdoors",
+    "tag": "a",
+    "bbox_px": [
+      214,
+      128,
+      374,
+      181
+    ],
+    "bbox_norm": [
+      0.166796875,
+      0.17777777777777778,
+      0.2920654296875,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Sports & Outdoors'"
+  },
+  {
+    "element_id": "search_advanced_0012",
+    "screen_id": "search_advanced",
+    "role": "menuitem",
+    "name": "Clothing, Shoes & Jewelry",
+    "tag": "a",
+    "bbox_px": [
+      384,
+      128,
+      592,
+      181
+    ],
+    "bbox_norm": [
+      0.2998779296875,
+      0.17777777777777778,
+      0.46259765625,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Clothing, Shoes & Jewelry'"
+  },
+  {
+    "element_id": "search_advanced_0013",
+    "screen_id": "search_advanced",
+    "role": "menuitem",
+    "name": "Home & Kitchen",
+    "tag": "a",
+    "bbox_px": [
+      602,
+      128,
+      747,
+      181
+    ],
+    "bbox_norm": [
+      0.47041015625,
+      0.17777777777777778,
+      0.58345947265625,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Home & Kitchen'"
+  },
+  {
+    "element_id": "search_advanced_0014",
+    "screen_id": "search_advanced",
+    "role": "menuitem",
+    "name": "Office Products",
+    "tag": "a",
+    "bbox_px": [
+      757,
+      128,
+      896,
+      181
+    ],
+    "bbox_norm": [
+      0.59127197265625,
+      0.17777777777777778,
+      0.70001220703125,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Office Products'"
+  },
+  {
+    "element_id": "search_advanced_0015",
+    "screen_id": "search_advanced",
+    "role": "menuitem",
+    "name": "Tools & Home Improvement",
+    "tag": "a",
+    "bbox_px": [
+      906,
+      128,
+      1132,
+      181
+    ],
+    "bbox_norm": [
+      0.70782470703125,
+      0.17777777777777778,
+      0.88419189453125,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Tools & Home Improvement'"
+  },
+  {
+    "element_id": "search_advanced_0016",
+    "screen_id": "search_advanced",
+    "role": "menuitem",
+    "name": "Health & Household",
+    "tag": "a",
+    "bbox_px": [
+      8,
+      181,
+      180,
+      234
+    ],
+    "bbox_norm": [
+      0.00625,
+      0.2513888888888889,
+      0.14029541015625,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Health & Household'"
+  },
+  {
+    "element_id": "search_advanced_0017",
+    "screen_id": "search_advanced",
+    "role": "menuitem",
+    "name": "Patio, Lawn & Garden",
+    "tag": "a",
+    "bbox_px": [
+      190,
+      181,
+      372,
+      234
+    ],
+    "bbox_norm": [
+      0.14810791015625,
+      0.2513888888888889,
+      0.29052734375,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Patio, Lawn & Garden'"
+  },
+  {
+    "element_id": "search_advanced_0018",
+    "screen_id": "search_advanced",
+    "role": "menuitem",
+    "name": "Electronics",
+    "tag": "a",
+    "bbox_px": [
+      382,
+      181,
+      490,
+      234
+    ],
+    "bbox_norm": [
+      0.29833984375,
+      0.2513888888888889,
+      0.38275146484375,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Electronics'"
+  },
+  {
+    "element_id": "search_advanced_0019",
+    "screen_id": "search_advanced",
+    "role": "menuitem",
+    "name": "Cell Phones & Accessories",
+    "tag": "a",
+    "bbox_px": [
+      500,
+      181,
+      711,
+      234
+    ],
+    "bbox_norm": [
+      0.39056396484375,
+      0.2513888888888889,
+      0.555419921875,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Cell Phones & Accessories'"
+  },
+  {
+    "element_id": "search_advanced_0020",
+    "screen_id": "search_advanced",
+    "role": "menuitem",
+    "name": "Video Games",
+    "tag": "a",
+    "bbox_px": [
+      721,
+      181,
+      843,
+      234
+    ],
+    "bbox_norm": [
+      0.563232421875,
+      0.2513888888888889,
+      0.65885009765625,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Video Games'"
+  },
+  {
+    "element_id": "search_advanced_0021",
+    "screen_id": "search_advanced",
+    "role": "menuitem",
+    "name": "Grocery & Gourmet Food",
+    "tag": "a",
+    "bbox_px": [
+      853,
+      181,
+      1058,
+      234
+    ],
+    "bbox_norm": [
+      0.66666259765625,
+      0.2513888888888889,
+      0.82637939453125,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Grocery & Gourmet Food'"
+  },
+  {
+    "element_id": "search_advanced_0022",
+    "screen_id": "search_advanced",
+    "role": "link",
+    "name": "Home",
+    "tag": "a",
+    "bbox_px": [
+      20,
+      259,
+      57,
+      275
+    ],
+    "bbox_norm": [
+      0.015625,
+      0.3597222222222222,
+      0.04462890625,
+      0.3819444444444444
+    ],
+    "instruction": "click the link 'Home'"
+  },
+  {
+    "element_id": "search_advanced_0023",
+    "screen_id": "search_advanced",
+    "role": "textbox",
+    "name": "Product Name",
+    "tag": "input",
+    "bbox_px": [
+      180,
+      430,
+      640,
+      462
+    ],
+    "bbox_norm": [
+      0.14058837890625,
+      0.5972222222222222,
+      0.49998779296875,
+      0.6416666666666667
+    ],
+    "instruction": "click the textbox 'Product Name'"
+  },
+  {
+    "element_id": "search_advanced_0024",
+    "screen_id": "search_advanced",
+    "role": "textbox",
+    "name": "SKU",
+    "tag": "input",
+    "bbox_px": [
+      180,
+      491,
+      640,
+      523
+    ],
+    "bbox_norm": [
+      0.14058837890625,
+      0.6819444444444445,
+      0.49998779296875,
+      0.7263888888888889
+    ],
+    "instruction": "click the textbox 'SKU'"
+  },
+  {
+    "element_id": "search_advanced_0025",
+    "screen_id": "search_advanced",
+    "role": "textbox",
+    "name": "Description",
+    "tag": "input",
+    "bbox_px": [
+      180,
+      552,
+      640,
+      584
+    ],
+    "bbox_norm": [
+      0.14058837890625,
+      0.7666666666666667,
+      0.49998779296875,
+      0.8111111111111111
+    ],
+    "instruction": "click the textbox 'Description'"
+  },
+  {
+    "element_id": "search_advanced_0026",
+    "screen_id": "search_advanced",
+    "role": "textbox",
+    "name": "Short Description",
+    "tag": "input",
+    "bbox_px": [
+      180,
+      613,
+      640,
+      645
+    ],
+    "bbox_norm": [
+      0.14058837890625,
+      0.8513888888888889,
+      0.49998779296875,
+      0.8958333333333334
+    ],
+    "instruction": "click the textbox 'Short Description'"
+  },
+  {
+    "element_id": "search_advanced_0027",
+    "screen_id": "search_advanced",
+    "role": "textbox",
+    "name": "Price",
+    "tag": "input",
+    "bbox_px": [
+      180,
+      674,
+      385,
+      706
+    ],
+    "bbox_norm": [
+      0.14058837890625,
+      0.9361111111111111,
+      0.3007568359375,
+      0.9805555555555555
+    ],
+    "instruction": "click the textbox 'Price'"
+  },
+  {
+    "element_id": "search_advanced_0028",
+    "screen_id": "search_advanced",
+    "role": "textbox",
+    "name": "Price",
+    "tag": "input",
+    "bbox_px": [
+      410,
+      674,
+      595,
+      706
+    ],
+    "bbox_norm": [
+      0.3202880859375,
+      0.9361111111111111,
+      0.46483154296875,
+      0.9805555555555555
+    ],
+    "instruction": "click the textbox 'Price'"
+  }
+]

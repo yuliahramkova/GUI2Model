@@ -1,0 +1,702 @@
+[
+  {
+    "element_id": "account_logged_in_0000",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "My Account",
+    "tag": "a",
+    "bbox_px": [
+      832,
+      10,
+      909,
+      29
+    ],
+    "bbox_norm": [
+      0.650341796875,
+      0.013888888888888888,
+      0.70980224609375,
+      0.04027777777777778
+    ],
+    "instruction": "click the link 'My Account'"
+  },
+  {
+    "element_id": "account_logged_in_0001",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "My Wish List",
+    "tag": "a",
+    "bbox_px": [
+      924,
+      10,
+      1005,
+      29
+    ],
+    "bbox_norm": [
+      0.72152099609375,
+      0.013888888888888888,
+      0.7849365234375,
+      0.04027777777777778
+    ],
+    "instruction": "click the link 'My Wish List'"
+  },
+  {
+    "element_id": "account_logged_in_0002",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "Sign Out",
+    "tag": "a",
+    "bbox_px": [
+      1020,
+      10,
+      1075,
+      29
+    ],
+    "bbox_norm": [
+      0.7966552734375,
+      0.013888888888888888,
+      0.8400634765625,
+      0.04027777777777778
+    ],
+    "instruction": "click the link 'Sign Out'"
+  },
+  {
+    "element_id": "account_logged_in_0003",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "store logo",
+    "tag": "a",
+    "bbox_px": [
+      20,
+      71,
+      220,
+      98
+    ],
+    "bbox_norm": [
+      0.015625,
+      0.09861111111111111,
+      0.171875,
+      0.13648003472222223
+    ],
+    "instruction": "click the link 'store logo'"
+  },
+  {
+    "element_id": "account_logged_in_0004",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "My Cart 5 5 items",
+    "tag": "a",
+    "bbox_px": [
+      1197,
+      71,
+      1260,
+      104
+    ],
+    "bbox_norm": [
+      0.93543701171875,
+      0.09861111111111111,
+      0.984375,
+      0.14444444444444443
+    ],
+    "instruction": "click the link 'My Cart 5 5 items'"
+  },
+  {
+    "element_id": "account_logged_in_0005",
+    "screen_id": "account_logged_in",
+    "role": "combobox",
+    "name": "Search entire store here...",
+    "tag": "input",
+    "bbox_px": [
+      934,
+      71,
+      1184,
+      103
+    ],
+    "bbox_norm": [
+      0.72996826171875,
+      0.09861111111111111,
+      0.92528076171875,
+      0.14305555555555555
+    ],
+    "instruction": "click the combobox 'Search entire store here...'"
+  },
+  {
+    "element_id": "account_logged_in_0006",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "Advanced Search",
+    "tag": "a",
+    "bbox_px": [
+      934,
+      108,
+      1046,
+      127
+    ],
+    "bbox_norm": [
+      0.72996826171875,
+      0.15,
+      0.81715087890625,
+      0.1763888888888889
+    ],
+    "instruction": "click the link 'Advanced Search'"
+  },
+  {
+    "element_id": "account_logged_in_0007",
+    "screen_id": "account_logged_in",
+    "role": "button",
+    "name": "Search",
+    "tag": "button",
+    "bbox_px": [
+      1152,
+      71,
+      1174,
+      103
+    ],
+    "bbox_norm": [
+      0.90028076171875,
+      0.09861111111111111,
+      0.91746826171875,
+      0.14305555555555555
+    ],
+    "instruction": "click the button 'Search'"
+  },
+  {
+    "element_id": "account_logged_in_0008",
+    "screen_id": "account_logged_in",
+    "role": "menu",
+    "name": "Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme",
+    "tag": "ul",
+    "bbox_px": [
+      0,
+      128,
+      1280,
+      234
+    ],
+    "bbox_norm": [
+      0,
+      0.17777777777777778,
+      1,
+      0.325
+    ],
+    "instruction": "click the menu 'Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme'"
+  },
+  {
+    "element_id": "account_logged_in_0009",
+    "screen_id": "account_logged_in",
+    "role": "menuitem",
+    "name": "Beauty & Personal Care",
+    "tag": "a",
+    "bbox_px": [
+      8,
+      128,
+      204,
+      181
+    ],
+    "bbox_norm": [
+      0.00625,
+      0.17777777777777778,
+      0.158984375,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Beauty & Personal Care'"
+  },
+  {
+    "element_id": "account_logged_in_0010",
+    "screen_id": "account_logged_in",
+    "role": "menuitem",
+    "name": "Sports & Outdoors",
+    "tag": "a",
+    "bbox_px": [
+      214,
+      128,
+      374,
+      181
+    ],
+    "bbox_norm": [
+      0.166796875,
+      0.17777777777777778,
+      0.2920654296875,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Sports & Outdoors'"
+  },
+  {
+    "element_id": "account_logged_in_0011",
+    "screen_id": "account_logged_in",
+    "role": "menuitem",
+    "name": "Clothing, Shoes & Jewelry",
+    "tag": "a",
+    "bbox_px": [
+      384,
+      128,
+      592,
+      181
+    ],
+    "bbox_norm": [
+      0.2998779296875,
+      0.17777777777777778,
+      0.46259765625,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Clothing, Shoes & Jewelry'"
+  },
+  {
+    "element_id": "account_logged_in_0012",
+    "screen_id": "account_logged_in",
+    "role": "menuitem",
+    "name": "Home & Kitchen",
+    "tag": "a",
+    "bbox_px": [
+      602,
+      128,
+      747,
+      181
+    ],
+    "bbox_norm": [
+      0.47041015625,
+      0.17777777777777778,
+      0.58345947265625,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Home & Kitchen'"
+  },
+  {
+    "element_id": "account_logged_in_0013",
+    "screen_id": "account_logged_in",
+    "role": "menuitem",
+    "name": "Office Products",
+    "tag": "a",
+    "bbox_px": [
+      757,
+      128,
+      896,
+      181
+    ],
+    "bbox_norm": [
+      0.59127197265625,
+      0.17777777777777778,
+      0.70001220703125,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Office Products'"
+  },
+  {
+    "element_id": "account_logged_in_0014",
+    "screen_id": "account_logged_in",
+    "role": "menuitem",
+    "name": "Tools & Home Improvement",
+    "tag": "a",
+    "bbox_px": [
+      906,
+      128,
+      1132,
+      181
+    ],
+    "bbox_norm": [
+      0.70782470703125,
+      0.17777777777777778,
+      0.88419189453125,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Tools & Home Improvement'"
+  },
+  {
+    "element_id": "account_logged_in_0015",
+    "screen_id": "account_logged_in",
+    "role": "menuitem",
+    "name": "Health & Household",
+    "tag": "a",
+    "bbox_px": [
+      8,
+      181,
+      180,
+      234
+    ],
+    "bbox_norm": [
+      0.00625,
+      0.2513888888888889,
+      0.14029541015625,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Health & Household'"
+  },
+  {
+    "element_id": "account_logged_in_0016",
+    "screen_id": "account_logged_in",
+    "role": "menuitem",
+    "name": "Patio, Lawn & Garden",
+    "tag": "a",
+    "bbox_px": [
+      190,
+      181,
+      372,
+      234
+    ],
+    "bbox_norm": [
+      0.14810791015625,
+      0.2513888888888889,
+      0.29052734375,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Patio, Lawn & Garden'"
+  },
+  {
+    "element_id": "account_logged_in_0017",
+    "screen_id": "account_logged_in",
+    "role": "menuitem",
+    "name": "Electronics",
+    "tag": "a",
+    "bbox_px": [
+      382,
+      181,
+      490,
+      234
+    ],
+    "bbox_norm": [
+      0.29833984375,
+      0.2513888888888889,
+      0.38275146484375,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Electronics'"
+  },
+  {
+    "element_id": "account_logged_in_0018",
+    "screen_id": "account_logged_in",
+    "role": "menuitem",
+    "name": "Cell Phones & Accessories",
+    "tag": "a",
+    "bbox_px": [
+      500,
+      181,
+      711,
+      234
+    ],
+    "bbox_norm": [
+      0.39056396484375,
+      0.2513888888888889,
+      0.555419921875,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Cell Phones & Accessories'"
+  },
+  {
+    "element_id": "account_logged_in_0019",
+    "screen_id": "account_logged_in",
+    "role": "menuitem",
+    "name": "Video Games",
+    "tag": "a",
+    "bbox_px": [
+      721,
+      181,
+      843,
+      234
+    ],
+    "bbox_norm": [
+      0.563232421875,
+      0.2513888888888889,
+      0.65885009765625,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Video Games'"
+  },
+  {
+    "element_id": "account_logged_in_0020",
+    "screen_id": "account_logged_in",
+    "role": "menuitem",
+    "name": "Grocery & Gourmet Food",
+    "tag": "a",
+    "bbox_px": [
+      853,
+      181,
+      1058,
+      234
+    ],
+    "bbox_norm": [
+      0.66666259765625,
+      0.2513888888888889,
+      0.82637939453125,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Grocery & Gourmet Food'"
+  },
+  {
+    "element_id": "account_logged_in_0021",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "Edit",
+    "tag": "a",
+    "bbox_px": [
+      321,
+      461,
+      350,
+      480
+    ],
+    "bbox_norm": [
+      0.25103759765625,
+      0.6402777777777777,
+      0.27330322265625,
+      0.6666666666666666
+    ],
+    "instruction": "click the link 'Edit'"
+  },
+  {
+    "element_id": "account_logged_in_0022",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "Change Password",
+    "tag": "a",
+    "bbox_px": [
+      350,
+      461,
+      466,
+      480
+    ],
+    "bbox_norm": [
+      0.27330322265625,
+      0.6402777777777777,
+      0.36385498046875,
+      0.6666666666666666
+    ],
+    "instruction": "click the link 'Change Password'"
+  },
+  {
+    "element_id": "account_logged_in_0023",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "Edit",
+    "tag": "a",
+    "bbox_px": [
+      802,
+      435,
+      827,
+      454
+    ],
+    "bbox_norm": [
+      0.626513671875,
+      0.6041666666666666,
+      0.64593505859375,
+      0.6305555555555555
+    ],
+    "instruction": "click the link 'Edit'"
+  },
+  {
+    "element_id": "account_logged_in_0024",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "Manage Addresses",
+    "tag": "a",
+    "bbox_px": [
+      451,
+      542,
+      574,
+      561
+    ],
+    "bbox_norm": [
+      0.35255126953125,
+      0.7527777777777778,
+      0.448779296875,
+      0.7791666666666667
+    ],
+    "instruction": "click the link 'Manage Addresses'"
+  },
+  {
+    "element_id": "account_logged_in_0025",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "6505551212",
+    "tag": "a",
+    "bbox_px": [
+      336,
+      709,
+      417,
+      728
+    ],
+    "bbox_norm": [
+      0.262841796875,
+      0.9847222222222223,
+      0.325390625,
+      1.011111111111111
+    ],
+    "instruction": "click the link '6505551212'"
+  },
+  {
+    "element_id": "account_logged_in_0026",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "6505551212",
+    "tag": "a",
+    "bbox_px": [
+      817,
+      709,
+      897,
+      728
+    ],
+    "bbox_norm": [
+      0.63831787109375,
+      0.9847222222222223,
+      0.70086669921875,
+      1.011111111111111
+    ],
+    "instruction": "click the link '6505551212'"
+  },
+  {
+    "element_id": "account_logged_in_0027",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "My Orders",
+    "tag": "a",
+    "bbox_px": [
+      20,
+      307,
+      272,
+      337
+    ],
+    "bbox_norm": [
+      0.015625,
+      0.4263888888888889,
+      0.2122802734375,
+      0.46805555555555556
+    ],
+    "instruction": "click the link 'My Orders'"
+  },
+  {
+    "element_id": "account_logged_in_0028",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "My Downloadable Products",
+    "tag": "a",
+    "bbox_px": [
+      20,
+      340,
+      272,
+      370
+    ],
+    "bbox_norm": [
+      0.015625,
+      0.4722222222222222,
+      0.2122802734375,
+      0.5138888888888888
+    ],
+    "instruction": "click the link 'My Downloadable Products'"
+  },
+  {
+    "element_id": "account_logged_in_0029",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "My Wish List",
+    "tag": "a",
+    "bbox_px": [
+      20,
+      373,
+      272,
+      403
+    ],
+    "bbox_norm": [
+      0.015625,
+      0.5180555555555556,
+      0.2122802734375,
+      0.5597222222222222
+    ],
+    "instruction": "click the link 'My Wish List'"
+  },
+  {
+    "element_id": "account_logged_in_0030",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "Address Book",
+    "tag": "a",
+    "bbox_px": [
+      20,
+      424,
+      272,
+      454
+    ],
+    "bbox_norm": [
+      0.015625,
+      0.5888888888888889,
+      0.2122802734375,
+      0.6305555555555555
+    ],
+    "instruction": "click the link 'Address Book'"
+  },
+  {
+    "element_id": "account_logged_in_0031",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "Account Information",
+    "tag": "a",
+    "bbox_px": [
+      20,
+      457,
+      272,
+      487
+    ],
+    "bbox_norm": [
+      0.015625,
+      0.6347222222222222,
+      0.2122802734375,
+      0.6763888888888889
+    ],
+    "instruction": "click the link 'Account Information'"
+  },
+  {
+    "element_id": "account_logged_in_0032",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "Stored Payment Methods",
+    "tag": "a",
+    "bbox_px": [
+      20,
+      490,
+      272,
+      520
+    ],
+    "bbox_norm": [
+      0.015625,
+      0.6805555555555556,
+      0.2122802734375,
+      0.7222222222222222
+    ],
+    "instruction": "click the link 'Stored Payment Methods'"
+  },
+  {
+    "element_id": "account_logged_in_0033",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "My Product Reviews",
+    "tag": "a",
+    "bbox_px": [
+      20,
+      541,
+      272,
+      571
+    ],
+    "bbox_norm": [
+      0.015625,
+      0.7513888888888889,
+      0.2122802734375,
+      0.7930555555555555
+    ],
+    "instruction": "click the link 'My Product Reviews'"
+  },
+  {
+    "element_id": "account_logged_in_0034",
+    "screen_id": "account_logged_in",
+    "role": "link",
+    "name": "Newsletter Subscriptions",
+    "tag": "a",
+    "bbox_px": [
+      20,
+      574,
+      272,
+      604
+    ],
+    "bbox_norm": [
+      0.015625,
+      0.7972222222222223,
+      0.2122802734375,
+      0.8388888888888889
+    ],
+    "instruction": "click the link 'Newsletter Subscriptions'"
+  }
+]

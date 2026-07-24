@@ -1,0 +1,662 @@
+[
+  {
+    "element_id": "cart_with_item_0000",
+    "screen_id": "cart_with_item",
+    "role": "link",
+    "name": "My Account",
+    "tag": "a",
+    "bbox_px": [
+      674,
+      10,
+      750,
+      29
+    ],
+    "bbox_norm": [
+      0.5264892578125,
+      0.013888888888888888,
+      0.58594970703125,
+      0.04027777777777778
+    ],
+    "instruction": "click the link 'My Account'"
+  },
+  {
+    "element_id": "cart_with_item_0001",
+    "screen_id": "cart_with_item",
+    "role": "link",
+    "name": "My Wish List",
+    "tag": "a",
+    "bbox_px": [
+      765,
+      10,
+      846,
+      29
+    ],
+    "bbox_norm": [
+      0.59766845703125,
+      0.013888888888888888,
+      0.661083984375,
+      0.04027777777777778
+    ],
+    "instruction": "click the link 'My Wish List'"
+  },
+  {
+    "element_id": "cart_with_item_0002",
+    "screen_id": "cart_with_item",
+    "role": "link",
+    "name": "Sign In",
+    "tag": "a",
+    "bbox_px": [
+      861,
+      10,
+      905,
+      29
+    ],
+    "bbox_norm": [
+      0.672802734375,
+      0.013888888888888888,
+      0.706884765625,
+      0.04027777777777778
+    ],
+    "instruction": "click the link 'Sign In'"
+  },
+  {
+    "element_id": "cart_with_item_0003",
+    "screen_id": "cart_with_item",
+    "role": "link",
+    "name": "Create an Account",
+    "tag": "a",
+    "bbox_px": [
+      1141,
+      10,
+      1260,
+      29
+    ],
+    "bbox_norm": [
+      0.89129638671875,
+      0.013888888888888888,
+      0.984375,
+      0.04027777777777778
+    ],
+    "instruction": "click the link 'Create an Account'"
+  },
+  {
+    "element_id": "cart_with_item_0004",
+    "screen_id": "cart_with_item",
+    "role": "link",
+    "name": "store logo",
+    "tag": "a",
+    "bbox_px": [
+      20,
+      71,
+      220,
+      98
+    ],
+    "bbox_norm": [
+      0.015625,
+      0.09861111111111111,
+      0.171875,
+      0.13648003472222223
+    ],
+    "instruction": "click the link 'store logo'"
+  },
+  {
+    "element_id": "cart_with_item_0005",
+    "screen_id": "cart_with_item",
+    "role": "link",
+    "name": "My Cart 1 1 items",
+    "tag": "a",
+    "bbox_px": [
+      1197,
+      71,
+      1260,
+      104
+    ],
+    "bbox_norm": [
+      0.93543701171875,
+      0.09861111111111111,
+      0.984375,
+      0.14444444444444443
+    ],
+    "instruction": "click the link 'My Cart 1 1 items'"
+  },
+  {
+    "element_id": "cart_with_item_0006",
+    "screen_id": "cart_with_item",
+    "role": "combobox",
+    "name": "Search entire store here...",
+    "tag": "input",
+    "bbox_px": [
+      934,
+      71,
+      1184,
+      103
+    ],
+    "bbox_norm": [
+      0.72996826171875,
+      0.09861111111111111,
+      0.92528076171875,
+      0.14305555555555555
+    ],
+    "instruction": "click the combobox 'Search entire store here...'"
+  },
+  {
+    "element_id": "cart_with_item_0007",
+    "screen_id": "cart_with_item",
+    "role": "link",
+    "name": "Advanced Search",
+    "tag": "a",
+    "bbox_px": [
+      934,
+      108,
+      1046,
+      127
+    ],
+    "bbox_norm": [
+      0.72996826171875,
+      0.15,
+      0.81715087890625,
+      0.1763888888888889
+    ],
+    "instruction": "click the link 'Advanced Search'"
+  },
+  {
+    "element_id": "cart_with_item_0008",
+    "screen_id": "cart_with_item",
+    "role": "button",
+    "name": "Search",
+    "tag": "button",
+    "bbox_px": [
+      1152,
+      71,
+      1174,
+      103
+    ],
+    "bbox_norm": [
+      0.90028076171875,
+      0.09861111111111111,
+      0.91746826171875,
+      0.14305555555555555
+    ],
+    "instruction": "click the button 'Search'"
+  },
+  {
+    "element_id": "cart_with_item_0009",
+    "screen_id": "cart_with_item",
+    "role": "menu",
+    "name": "Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme",
+    "tag": "ul",
+    "bbox_px": [
+      0,
+      128,
+      1280,
+      234
+    ],
+    "bbox_norm": [
+      0,
+      0.17777777777777778,
+      1,
+      0.325
+    ],
+    "instruction": "click the menu 'Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme'"
+  },
+  {
+    "element_id": "cart_with_item_0010",
+    "screen_id": "cart_with_item",
+    "role": "menuitem",
+    "name": "Beauty & Personal Care",
+    "tag": "a",
+    "bbox_px": [
+      8,
+      128,
+      204,
+      181
+    ],
+    "bbox_norm": [
+      0.00625,
+      0.17777777777777778,
+      0.158984375,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Beauty & Personal Care'"
+  },
+  {
+    "element_id": "cart_with_item_0011",
+    "screen_id": "cart_with_item",
+    "role": "menuitem",
+    "name": "Sports & Outdoors",
+    "tag": "a",
+    "bbox_px": [
+      214,
+      128,
+      374,
+      181
+    ],
+    "bbox_norm": [
+      0.166796875,
+      0.17777777777777778,
+      0.2920654296875,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Sports & Outdoors'"
+  },
+  {
+    "element_id": "cart_with_item_0012",
+    "screen_id": "cart_with_item",
+    "role": "menuitem",
+    "name": "Clothing, Shoes & Jewelry",
+    "tag": "a",
+    "bbox_px": [
+      384,
+      128,
+      592,
+      181
+    ],
+    "bbox_norm": [
+      0.2998779296875,
+      0.17777777777777778,
+      0.46259765625,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Clothing, Shoes & Jewelry'"
+  },
+  {
+    "element_id": "cart_with_item_0013",
+    "screen_id": "cart_with_item",
+    "role": "menuitem",
+    "name": "Home & Kitchen",
+    "tag": "a",
+    "bbox_px": [
+      602,
+      128,
+      747,
+      181
+    ],
+    "bbox_norm": [
+      0.47041015625,
+      0.17777777777777778,
+      0.58345947265625,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Home & Kitchen'"
+  },
+  {
+    "element_id": "cart_with_item_0014",
+    "screen_id": "cart_with_item",
+    "role": "menuitem",
+    "name": "Office Products",
+    "tag": "a",
+    "bbox_px": [
+      757,
+      128,
+      896,
+      181
+    ],
+    "bbox_norm": [
+      0.59127197265625,
+      0.17777777777777778,
+      0.70001220703125,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Office Products'"
+  },
+  {
+    "element_id": "cart_with_item_0015",
+    "screen_id": "cart_with_item",
+    "role": "menuitem",
+    "name": "Tools & Home Improvement",
+    "tag": "a",
+    "bbox_px": [
+      906,
+      128,
+      1132,
+      181
+    ],
+    "bbox_norm": [
+      0.70782470703125,
+      0.17777777777777778,
+      0.88419189453125,
+      0.2513888888888889
+    ],
+    "instruction": "click the menuitem 'Tools & Home Improvement'"
+  },
+  {
+    "element_id": "cart_with_item_0016",
+    "screen_id": "cart_with_item",
+    "role": "menuitem",
+    "name": "Health & Household",
+    "tag": "a",
+    "bbox_px": [
+      8,
+      181,
+      180,
+      234
+    ],
+    "bbox_norm": [
+      0.00625,
+      0.2513888888888889,
+      0.14029541015625,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Health & Household'"
+  },
+  {
+    "element_id": "cart_with_item_0017",
+    "screen_id": "cart_with_item",
+    "role": "menuitem",
+    "name": "Patio, Lawn & Garden",
+    "tag": "a",
+    "bbox_px": [
+      190,
+      181,
+      372,
+      234
+    ],
+    "bbox_norm": [
+      0.14810791015625,
+      0.2513888888888889,
+      0.29052734375,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Patio, Lawn & Garden'"
+  },
+  {
+    "element_id": "cart_with_item_0018",
+    "screen_id": "cart_with_item",
+    "role": "menuitem",
+    "name": "Electronics",
+    "tag": "a",
+    "bbox_px": [
+      382,
+      181,
+      490,
+      234
+    ],
+    "bbox_norm": [
+      0.29833984375,
+      0.2513888888888889,
+      0.38275146484375,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Electronics'"
+  },
+  {
+    "element_id": "cart_with_item_0019",
+    "screen_id": "cart_with_item",
+    "role": "menuitem",
+    "name": "Cell Phones & Accessories",
+    "tag": "a",
+    "bbox_px": [
+      500,
+      181,
+      711,
+      234
+    ],
+    "bbox_norm": [
+      0.39056396484375,
+      0.2513888888888889,
+      0.555419921875,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Cell Phones & Accessories'"
+  },
+  {
+    "element_id": "cart_with_item_0020",
+    "screen_id": "cart_with_item",
+    "role": "menuitem",
+    "name": "Video Games",
+    "tag": "a",
+    "bbox_px": [
+      721,
+      181,
+      843,
+      234
+    ],
+    "bbox_norm": [
+      0.563232421875,
+      0.2513888888888889,
+      0.65885009765625,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Video Games'"
+  },
+  {
+    "element_id": "cart_with_item_0021",
+    "screen_id": "cart_with_item",
+    "role": "menuitem",
+    "name": "Grocery & Gourmet Food",
+    "tag": "a",
+    "bbox_px": [
+      853,
+      181,
+      1058,
+      234
+    ],
+    "bbox_norm": [
+      0.66666259765625,
+      0.2513888888888889,
+      0.82637939453125,
+      0.325
+    ],
+    "instruction": "click the menuitem 'Grocery & Gourmet Food'"
+  },
+  {
+    "element_id": "cart_with_item_0022",
+    "screen_id": "cart_with_item",
+    "role": "tab",
+    "name": "Estimate Shipping and Tax",
+    "tag": "div",
+    "bbox_px": [
+      990,
+      389,
+      1245,
+      425
+    ],
+    "bbox_norm": [
+      0.773291015625,
+      0.5399956597222222,
+      0.97265625,
+      0.5899956597222222
+    ],
+    "instruction": "click the tab 'Estimate Shipping and Tax'"
+  },
+  {
+    "element_id": "cart_with_item_0023",
+    "screen_id": "cart_with_item",
+    "role": "tab",
+    "name": "Apply Discount Code",
+    "tag": "div",
+    "bbox_px": [
+      990,
+      556,
+      1245,
+      592
+    ],
+    "bbox_norm": [
+      0.773291015625,
+      0.7719401041666667,
+      0.97265625,
+      0.8219401041666666
+    ],
+    "instruction": "click the tab 'Apply Discount Code'"
+  },
+  {
+    "element_id": "cart_with_item_0024",
+    "screen_id": "cart_with_item",
+    "role": "button",
+    "name": "Proceed to Checkout",
+    "tag": "button",
+    "bbox_px": [
+      990,
+      612,
+      1245,
+      664
+    ],
+    "bbox_norm": [
+      0.773291015625,
+      0.8497178819444444,
+      0.97265625,
+      0.9219401041666667
+    ],
+    "instruction": "click the button 'Proceed to Checkout'"
+  },
+  {
+    "element_id": "cart_with_item_0025",
+    "screen_id": "cart_with_item",
+    "role": "link",
+    "name": "Check Out with Multiple Addresses",
+    "tag": "a",
+    "bbox_px": [
+      1004,
+      684,
+      1231,
+      703
+    ],
+    "bbox_norm": [
+      0.784423828125,
+      0.9497178819444444,
+      0.9615234375,
+      0.9761067708333333
+    ],
+    "instruction": "click the link 'Check Out with Multiple Addresses'"
+  },
+  {
+    "element_id": "cart_with_item_0026",
+    "screen_id": "cart_with_item",
+    "role": "link",
+    "name": ".product-image-container-104491 { width: 110px; } .product-image-container-104491 span.product-image-wrapper { padding-b",
+    "tag": "a",
+    "bbox_px": [
+      28,
+      419,
+      158,
+      584
+    ],
+    "bbox_norm": [
+      0.021875,
+      0.5819444444444445,
+      0.1234375,
+      0.8111111111111111
+    ],
+    "instruction": "click the link '.product-image-container-104491 { width: 110px; } .product-image-container-104491 span.product-image-wrapper { padding-b'"
+  },
+  {
+    "element_id": "cart_with_item_0027",
+    "screen_id": "cart_with_item",
+    "role": "link",
+    "name": "Briess DME - Pilsen Light - 1 lb Bag",
+    "tag": "a",
+    "bbox_px": [
+      158,
+      419,
+      382,
+      438
+    ],
+    "bbox_norm": [
+      0.1234375,
+      0.5819444444444445,
+      0.29810791015625,
+      0.6083333333333333
+    ],
+    "instruction": "click the link 'Briess DME - Pilsen Light - 1 lb Bag'"
+  },
+  {
+    "element_id": "cart_with_item_0028",
+    "screen_id": "cart_with_item",
+    "role": "textbox",
+    "name": "Qty",
+    "tag": "input",
+    "bbox_px": [
+      747,
+      407,
+      794,
+      439
+    ],
+    "bbox_norm": [
+      0.58355712890625,
+      0.5652777777777778,
+      0.62027587890625,
+      0.6097222222222223
+    ],
+    "instruction": "click the textbox 'Qty'"
+  },
+  {
+    "element_id": "cart_with_item_0029",
+    "screen_id": "cart_with_item",
+    "role": "link",
+    "name": "Edit",
+    "tag": "a",
+    "bbox_px": [
+      30,
+      602,
+      89,
+      634
+    ],
+    "bbox_norm": [
+      0.0234375,
+      0.8361111111111111,
+      0.069580078125,
+      0.8805555555555555
+    ],
+    "instruction": "click the link 'Edit'"
+  },
+  {
+    "element_id": "cart_with_item_0030",
+    "screen_id": "cart_with_item",
+    "role": "link",
+    "name": "Remove item",
+    "tag": "a",
+    "bbox_px": [
+      103,
+      602,
+      227,
+      634
+    ],
+    "bbox_norm": [
+      0.08023681640625,
+      0.8361111111111111,
+      0.1770263671875,
+      0.8805555555555555
+    ],
+    "instruction": "click the link 'Remove item'"
+  },
+  {
+    "element_id": "cart_with_item_0031",
+    "screen_id": "cart_with_item",
+    "role": "link",
+    "name": "Continue Shopping",
+    "tag": "a",
+    "bbox_px": [
+      20,
+      675,
+      205,
+      707
+    ],
+    "bbox_norm": [
+      0.015625,
+      0.9375,
+      0.1599853515625,
+      0.9819444444444444
+    ],
+    "instruction": "click the link 'Continue Shopping'"
+  },
+  {
+    "element_id": "cart_with_item_0032",
+    "screen_id": "cart_with_item",
+    "role": "button",
+    "name": "Update Shopping Cart",
+    "tag": "button",
+    "bbox_px": [
+      715,
+      675,
+      925,
+      707
+    ],
+    "bbox_norm": [
+      0.55833740234375,
+      0.9375,
+      0.722802734375,
+      0.9819444444444444
+    ],
+    "instruction": "click the button 'Update Shopping Cart'"
+  }
+]

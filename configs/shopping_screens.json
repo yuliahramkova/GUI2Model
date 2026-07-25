@@ -1,0 +1,121 @@
+{
+  "app": "webarena_shopping",
+  "comment": "Unique UI states for One Stop Market. Optional setup[] runs before screenshot (goto/click/fill/wait_for/wait_ms). Order matters (shared browser session). WebArena shopping creds: emma.lopez@gmail.com / Password.123",
+  "screens": [
+    {
+      "id": "home",
+      "path": "/",
+      "description": "Store homepage"
+    },
+    {
+      "id": "search_results",
+      "path": "/catalogsearch/result/?q=shirt",
+      "description": "Search results for 'shirt'"
+    },
+    {
+      "id": "search_empty",
+      "path": "/catalogsearch/result/?q=zzzxxyynotfound999",
+      "description": "Search with zero results"
+    },
+    {
+      "id": "search_advanced",
+      "path": "/catalogsearch/advanced/",
+      "description": "Advanced search form"
+    },
+    {
+      "id": "category",
+      "path": "/electronics.html",
+      "description": "Electronics category listing"
+    },
+    {
+      "id": "subcategory",
+      "path": null,
+      "description": "Subcategory via nav click from Electronics",
+      "setup": [
+        {"goto": "/electronics.html"},
+        {"click": "a[href*='cell-phones-accessories']"},
+        {"wait_for": "#maincontent"}
+      ]
+    },
+    {
+      "id": "product",
+      "path": "/briess-dme-pilsen-light-1-lb-bag.html",
+      "description": "Product detail page"
+    },
+    {
+      "id": "cart_empty",
+      "path": "/checkout/cart/",
+      "description": "Empty shopping cart"
+    },
+    {
+      "id": "forgot_password",
+      "path": "/customer/account/forgotpassword/",
+      "description": "Forgot password form"
+    },
+    {
+      "id": "register",
+      "path": "/customer/account/create/",
+      "description": "Create customer account form"
+    },
+    {
+      "id": "login",
+      "path": "/customer/account/login/",
+      "description": "Customer login form"
+    },
+    {
+      "id": "contact",
+      "path": "/contact/",
+      "description": "Contact Us form"
+    },
+    {
+      "id": "orders_returns",
+      "path": "/sales/guest/form/",
+      "description": "Guest orders and returns form"
+    },
+    {
+      "id": "cart_with_item",
+      "path": "/checkout/cart/",
+      "description": "Cart after Add to Cart",
+      "setup": [
+        {"goto": "/briess-dme-pilsen-light-1-lb-bag.html"},
+        {"click": "#product-addtocart-button"},
+        {"wait_for": ".message-success, .counter-number"},
+        {"wait_ms": 800}
+      ]
+    },
+    {
+      "id": "minicart_open",
+      "path": null,
+      "description": "Mini-cart dropdown open (after item in cart)",
+      "setup": [
+        {"goto": "/"},
+        {"click": "a.action.showcart"},
+        {"wait_for": ".block-minicart, #minicart-content-wrapper"},
+        {"wait_ms": 500}
+      ]
+    },
+    {
+      "id": "checkout",
+      "path": null,
+      "description": "Checkout flow after cart has item",
+      "setup": [
+        {"goto": "/checkout/"},
+        {"wait_for": "#maincontent, #checkout, .checkout-container"},
+        {"wait_ms": 1500}
+      ]
+    },
+    {
+      "id": "account_logged_in",
+      "path": "/customer/account/",
+      "description": "My Account after UI login",
+      "setup": [
+        {"goto": "/customer/account/login/"},
+        {"fill": {"selector": "#email", "value": "emma.lopez@gmail.com"}},
+        {"fill": {"selector": "#pass", "value": "Password.123"}},
+        {"click": "button.action.login"},
+        {"wait_for": ".block-dashboard-info, .box-information, .page-title"},
+        {"wait_ms": 800}
+      ]
+    }
+  ]
+}

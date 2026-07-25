@@ -21,12 +21,9 @@ env/
 .idea/
 
 # Data & models (не хотим тащить гигабайты в GitHub)
-data/
-*.pt
-*.pth
-*.bin
-*.safetensors
-*.h5
+data/*
+!data/target_app/
+!data/target_app/**
 
 # Secrets
 .env

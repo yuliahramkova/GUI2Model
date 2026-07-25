@@ -1,0 +1,262 @@
+[
+  {
+    "element_id": "checkout_0000",
+    "screen_id": "checkout",
+    "role": "link",
+    "name": "store logo",
+    "tag": "a",
+    "bbox_px": [
+      20,
+      30,
+      220,
+      57
+    ],
+    "bbox_norm": [
+      0.015625,
+      0.041666666666666664,
+      0.171875,
+      0.07953559027777778
+    ],
+    "instruction": "click the link 'store logo'"
+  },
+  {
+    "element_id": "checkout_0001",
+    "screen_id": "checkout",
+    "role": "button",
+    "name": "Sign In",
+    "tag": "button",
+    "bbox_px": [
+      1216,
+      24,
+      1260,
+      44
+    ],
+    "bbox_norm": [
+      0.95029296875,
+      0.032660590277777776,
+      0.984375,
+      0.06043836805555555
+    ],
+    "instruction": "click the button 'Sign In'"
+  },
+  {
+    "element_id": "checkout_0002",
+    "screen_id": "checkout",
+    "role": "textbox",
+    "name": "",
+    "tag": "input",
+    "bbox_px": [
+      175,
+      249,
+      581,
+      281
+    ],
+    "bbox_norm": [
+      0.13656005859375,
+      0.34598524305555556,
+      0.45389404296875,
+      0.3904296875
+    ],
+    "instruction": "click the textbox"
+  },
+  {
+    "element_id": "checkout_0003",
+    "screen_id": "checkout",
+    "role": "button",
+    "name": "Tooltip",
+    "tag": "span",
+    "bbox_px": [
+      595,
+      250,
+      620,
+      284
+    ],
+    "bbox_norm": [
+      0.46483154296875,
+      0.34737413194444444,
+      0.48436279296875,
+      0.39498697916666664
+    ],
+    "instruction": "click the button 'Tooltip'"
+  },
+  {
+    "element_id": "checkout_0004",
+    "screen_id": "checkout",
+    "role": "textbox",
+    "name": "",
+    "tag": "input",
+    "bbox_px": [
+      175,
+      368,
+      620,
+      400
+    ],
+    "bbox_norm": [
+      0.13656005859375,
+      0.5112630208333333,
+      0.48436279296875,
+      0.5557074652777778
+    ],
+    "instruction": "click the textbox"
+  },
+  {
+    "element_id": "checkout_0005",
+    "screen_id": "checkout",
+    "role": "textbox",
+    "name": "",
+    "tag": "input",
+    "bbox_px": [
+      175,
+      429,
+      620,
+      461
+    ],
+    "bbox_norm": [
+      0.13656005859375,
+      0.5959852430555556,
+      0.48436279296875,
+      0.6404296875
+    ],
+    "instruction": "click the textbox"
+  },
+  {
+    "element_id": "checkout_0006",
+    "screen_id": "checkout",
+    "role": "textbox",
+    "name": "",
+    "tag": "input",
+    "bbox_px": [
+      175,
+      490,
+      620,
+      522
+    ],
+    "bbox_norm": [
+      0.13656005859375,
+      0.6807074652777778,
+      0.48436279296875,
+      0.7251519097222222
+    ],
+    "instruction": "click the textbox"
+  },
+  {
+    "element_id": "checkout_0007",
+    "screen_id": "checkout",
+    "role": "textbox",
+    "name": "",
+    "tag": "input",
+    "bbox_px": [
+      175,
+      551,
+      620,
+      583
+    ],
+    "bbox_norm": [
+      0.13656005859375,
+      0.7654296875,
+      0.48436279296875,
+      0.8098741319444445
+    ],
+    "instruction": "click the textbox"
+  },
+  {
+    "element_id": "checkout_0008",
+    "screen_id": "checkout",
+    "role": "textbox",
+    "name": "",
+    "tag": "input",
+    "bbox_px": [
+      175,
+      593,
+      620,
+      625
+    ],
+    "bbox_norm": [
+      0.13656005859375,
+      0.8237630208333333,
+      0.48436279296875,
+      0.8682074652777778
+    ],
+    "instruction": "click the textbox"
+  },
+  {
+    "element_id": "checkout_0009",
+    "screen_id": "checkout",
+    "role": "combobox",
+    "name": "Afghanistan Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua & Barbuda Argentina Armenia Aruba ",
+    "tag": "select",
+    "bbox_px": [
+      175,
+      654,
+      620,
+      686
+    ],
+    "bbox_norm": [
+      0.13656005859375,
+      0.9084852430555556,
+      0.48436279296875,
+      0.9529296875
+    ],
+    "instruction": "click the combobox 'Afghanistan Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua & Barbuda Argentina Armenia Aruba'"
+  },
+  {
+    "element_id": "checkout_0010",
+    "screen_id": "checkout",
+    "role": "combobox",
+    "name": "Please select a region, state or province. Alabama Alaska American Samoa Arizona Arkansas Armed Forces Africa Armed Forc",
+    "tag": "select",
+    "bbox_px": [
+      175,
+      715,
+      620,
+      747
+    ],
+    "bbox_norm": [
+      0.13656005859375,
+      0.9932074652777778,
+      0.48436279296875,
+      1.0376519097222223
+    ],
+    "instruction": "click the combobox 'Please select a region, state or province. Alabama Alaska American Samoa Arizona Arkansas Armed Forces Africa Armed Forc'"
+  },
+  {
+    "element_id": "checkout_0011",
+    "screen_id": "checkout",
+    "role": "dialog",
+    "name": "Order Summary 1 Item in Cart",
+    "tag": "aside",
+    "bbox_px": [
+      847,
+      219,
+      1260,
+      373
+    ],
+    "bbox_norm": [
+      0.66146240234375,
+      0.3041232638888889,
+      0.984375,
+      0.5182074652777777
+    ],
+    "instruction": "click the dialog 'Order Summary 1 Item in Cart'"
+  },
+  {
+    "element_id": "checkout_0012",
+    "screen_id": "checkout",
+    "role": "tab",
+    "name": "1 Item in Cart",
+    "tag": "div",
+    "bbox_px": [
+      877,
+      289,
+      1230,
+      331
+    ],
+    "bbox_norm": [
+      0.68489990234375,
+      0.40154079861111114,
+      0.9609375,
+      0.45987413194444443
+    ],
+    "instruction": "click the tab '1 Item in Cart'"
+  }
+]

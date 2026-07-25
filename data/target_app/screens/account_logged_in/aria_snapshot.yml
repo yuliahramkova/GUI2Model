@@ -1,0 +1,227 @@
+- banner:
+  - list:
+    - listitem:
+      - link "My Account":
+        - /url: http://localhost:7770/customer/account/
+    - listitem:
+      - link "My Wish List":
+        - /url: http://localhost:7770/wishlist/
+    - listitem:
+      - link "Sign Out":
+        - /url: http://localhost:7770/customer/account/logout/
+    - listitem
+    - listitem: Welcome, Emma Lopez!
+  - link "Skip to Content":
+    - /url: "#contentarea"
+  - link "store logo":
+    - /url: http://localhost:7770/
+    - img "one_stop_market_logo"
+  - link " My Cart 5 5 items":
+    - /url: http://localhost:7770/checkout/cart/
+  - text:  Search
+  - combobox " Search"
+  - link "Advanced Search":
+    - /url: http://localhost:7770/catalogsearch/advanced/
+  - button "Search" [disabled]:  Search
+- tablist:
+  - tabpanel:
+    - navigation:
+      - menu:
+        - listitem:
+          - menuitem " Beauty & Personal Care"
+        - listitem:
+          - menuitem " Sports & Outdoors"
+        - listitem:
+          - menuitem " Clothing, Shoes & Jewelry"
+        - listitem:
+          - menuitem " Home & Kitchen"
+        - listitem:
+          - menuitem " Office Products"
+        - listitem:
+          - menuitem " Tools & Home Improvement"
+        - listitem:
+          - menuitem " Health & Household"
+        - listitem:
+          - menuitem " Patio, Lawn & Garden"
+        - listitem:
+          - menuitem " Electronics"
+        - listitem:
+          - menuitem " Cell Phones & Accessories"
+        - listitem:
+          - menuitem " Video Games"
+        - listitem:
+          - menuitem " Grocery & Gourmet Food"
+- main:
+  - heading "My Account" [level=1]
+  - strong: Account Information
+  - strong: Contact Information
+  - paragraph: Emma Lopez emma.lopez@gmail.com
+  - link "Edit":
+    - /url: http://localhost:7770/customer/account/edit/
+  - link "Change Password":
+    - /url: http://localhost:7770/customer/account/edit/changepass/1/
+  - strong: Newsletters
+  - paragraph: You aren't subscribed to our newsletter.
+  - link "Edit":
+    - /url: http://localhost:7770/newsletter/manage/
+  - strong: Address Book
+  - link "Manage Addresses":
+    - /url: http://localhost:7770/customer/address/
+  - strong: Default Billing Address
+  - text: "Emma Lopez 101 S San Mateo Dr San Mateo, California, 94010 United States T:"
+  - link "6505551212":
+    - /url: tel:6505551212
+  - link "Edit Address":
+    - /url: http://localhost:7770/customer/address/edit/id/26/
+  - strong: Default Shipping Address
+  - text: "Emma Lopez 101 S San Mateo Dr San Mateo, California, 94010 United States T:"
+  - link "6505551212":
+    - /url: tel:6505551212
+  - link "Edit Address":
+    - /url: http://localhost:7770/customer/address/edit/id/26/
+  - strong: Recent Orders
+  - link "View All":
+    - /url: http://localhost:7770/sales/order/history/
+  - table "Recent Orders":
+    - caption: Recent Orders
+    - rowgroup:
+      - 'row "Order # Date Ship To Order Total Status Action"':
+        - 'columnheader "Order #"'
+        - columnheader "Date"
+        - columnheader "Ship To"
+        - columnheader "Order Total"
+        - columnheader "Status"
+        - columnheader "Action"
+    - rowgroup:
+      - row "000000170 5/17/23 Emma Lopez $365.42 Canceled View Order Reorder":
+        - cell "000000170"
+        - cell "5/17/23"
+        - cell "Emma Lopez"
+        - cell "$365.42"
+        - cell "Canceled"
+        - cell "View Order Reorder":
+          - link "View Order":
+            - /url: http://localhost:7770/sales/order/view/order_id/170/
+          - link "Reorder":
+            - /url: "#"
+      - row "000000189 5/2/23 Emma Lopez $754.99 Pending View Order Reorder":
+        - cell "000000189"
+        - cell "5/2/23"
+        - cell "Emma Lopez"
+        - cell "$754.99"
+        - cell "Pending"
+        - cell "View Order Reorder":
+          - link "View Order":
+            - /url: http://localhost:7770/sales/order/view/order_id/189/
+          - link "Reorder":
+            - /url: "#"
+      - row "000000188 5/2/23 Emma Lopez $2,004.99 Pending View Order Reorder":
+        - cell "000000188"
+        - cell "5/2/23"
+        - cell "Emma Lopez"
+        - cell "$2,004.99"
+        - cell "Pending"
+        - cell "View Order Reorder":
+          - link "View Order":
+            - /url: http://localhost:7770/sales/order/view/order_id/188/
+          - link "Reorder":
+            - /url: "#"
+      - row "000000187 5/2/23 Emma Lopez $1,004.99 Pending View Order Reorder":
+        - cell "000000187"
+        - cell "5/2/23"
+        - cell "Emma Lopez"
+        - cell "$1,004.99"
+        - cell "Pending"
+        - cell "View Order Reorder":
+          - link "View Order":
+            - /url: http://localhost:7770/sales/order/view/order_id/187/
+          - link "Reorder":
+            - /url: "#"
+      - row "000000180 3/11/23 Emma Lopez $65.32 Complete View Order Reorder":
+        - cell "000000180"
+        - cell "3/11/23"
+        - cell "Emma Lopez"
+        - cell "$65.32"
+        - cell "Complete"
+        - cell "View Order Reorder":
+          - link "View Order":
+            - /url: http://localhost:7770/sales/order/view/order_id/180/
+          - link "Reorder":
+            - /url: "#"
+  - strong: My Account
+  - list:
+    - listitem:
+      - strong: My Account
+    - listitem:
+      - link "My Orders":
+        - /url: http://localhost:7770/sales/order/history/
+    - listitem:
+      - link "My Downloadable Products":
+        - /url: http://localhost:7770/downloadable/customer/products/
+    - listitem:
+      - link "My Wish List":
+        - /url: http://localhost:7770/wishlist/
+    - listitem
+    - listitem:
+      - link "Address Book":
+        - /url: http://localhost:7770/customer/address/
+    - listitem:
+      - link "Account Information":
+        - /url: http://localhost:7770/customer/account/edit/
+    - listitem:
+      - link "Stored Payment Methods":
+        - /url: http://localhost:7770/vault/cards/listaction/
+    - listitem
+    - listitem:
+      - link "My Product Reviews":
+        - /url: http://localhost:7770/review/customer/
+    - listitem:
+      - link "Newsletter Subscriptions":
+        - /url: http://localhost:7770/newsletter/manage/
+  - heading "Compare Products" [level=2]
+  - text: You have no items to compare.
+  - heading "Recently Ordered" [level=2]
+  - list:
+    - listitem:
+      - text: Add to Cart
+      - checkbox "Add to Cart"
+      - strong:
+        - link "Plus Size Lingerie for Women Sexy for Sex Naughty Eyelash Lace Bodysuit Naughty Mesh One Piece Teddy Bodysuit Outfits":
+          - /url: http://localhost:7770/plus-size-lingerie-for-women-sexy-for-sex-naughty-eyelash-lace-bodysuit-naughty-mesh-one-piece-teddy-bodysuit-outfits.html
+    - listitem:
+      - text: Add to Cart
+      - checkbox "Add to Cart"
+      - strong:
+        - link "NOZE Rustic Coat Rack Wall Mounted Shelf with 4 Hooks, Hanging Entryway Organizer for Mug Coffee Cup, Holding Solid Wooden Shelf with 2 Baskets for Kitchen Living Room, Bathroom and Bedroom":
+          - /url: http://localhost:7770/noze-rustic-coat-rack-wall-mounted-shelf-with-4-hooks-hanging-entryway-organizer-for-mug-coffee-cup-holding-solid-wooden-shelf-with-2-baskets-for-kitchen-living-room-bathroom-and-bedroom.html
+    - listitem:
+      - text: Add to Cart
+      - checkbox "Add to Cart"
+      - strong:
+        - link "Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp":
+          - /url: http://localhost:7770/uttermost-volterra-crackled-taupe-gray-ceramic-table-lamp.html
+  - button "Add to Cart"
+  - link "View All":
+    - /url: http://localhost:7770/customer/account/#my-orders-table
+  - heading "My Wish List" [level=2]
+  - text: You have no items in your wish list.
+- contentinfo:
+  - text: " Sign Up for Our Newsletter:"
+  - textbox "Sign Up for Our Newsletter:"
+  - button "Subscribe"
+  - list:
+    - listitem:
+      - link "Privacy and Cookie Policy":
+        - /url: http://localhost:7770/privacy-policy-cookie-restriction-mode/
+    - listitem:
+      - link "Search Terms":
+        - /url: http://localhost:7770/search/term/popular/
+    - listitem:
+      - link "Advanced Search":
+        - /url: http://localhost:7770/catalogsearch/advanced/
+    - listitem:
+      - link "Contact Us":
+        - /url: http://localhost:7770/contact/
+  - text: Copyright © 2013-present Magento, Inc. All rights reserved. Help Us Keep Magento Healthy
+  - link "Report All Bugs":
+    - /url: http://www.magentocommerce.com/bug-tracking

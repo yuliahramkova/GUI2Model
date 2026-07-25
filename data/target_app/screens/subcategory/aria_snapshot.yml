@@ -1,0 +1,298 @@
+- banner:
+  - list:
+    - listitem:
+      - link "My Account":
+        - /url: http://localhost:7770/customer/account/
+    - listitem:
+      - link "My Wish List":
+        - /url: http://localhost:7770/wishlist/
+    - listitem:
+      - link "Sign In":
+        - /url: http://localhost:7770/customer/account/login/
+    - listitem
+    - listitem: Welcome to One Stop Market
+    - listitem:
+      - link "Create an Account":
+        - /url: http://localhost:7770/customer/account/create/
+  - link "Skip to Content":
+    - /url: "#contentarea"
+  - link "store logo":
+    - /url: http://localhost:7770/
+    - img "one_stop_market_logo"
+  - link " My Cart":
+    - /url: http://localhost:7770/checkout/cart/
+  - text:  Search
+  - combobox " Search"
+  - link "Advanced Search":
+    - /url: http://localhost:7770/catalogsearch/advanced/
+  - button "Search" [disabled]:  Search
+- tablist:
+  - tabpanel:
+    - navigation:
+      - menu:
+        - listitem:
+          - menuitem " Beauty & Personal Care"
+        - listitem:
+          - menuitem " Sports & Outdoors"
+        - listitem:
+          - menuitem " Clothing, Shoes & Jewelry"
+        - listitem:
+          - menuitem " Home & Kitchen"
+        - listitem:
+          - menuitem " Office Products"
+        - listitem:
+          - menuitem " Tools & Home Improvement"
+        - listitem:
+          - menuitem " Health & Household"
+        - listitem:
+          - menuitem " Patio, Lawn & Garden"
+        - listitem:
+          - menuitem " Electronics"
+        - listitem:
+          - menuitem " Cell Phones & Accessories"
+        - listitem:
+          - menuitem " Video Games"
+        - listitem:
+          - menuitem " Grocery & Gourmet Food"
+- list:
+  - listitem:
+    - link "Home":
+      - /url: http://localhost:7770/
+    - text: 
+  - listitem:
+    - strong: Cell Phones & Accessories
+- main:
+  - heading "Cell Phones & Accessories Items 1-12 of 2449" [level=1]: Cell Phones & Accessories
+  - strong: View as
+  - strong:  Grid
+  - link "View as  List":
+    - /url: "#"
+    - text:  List
+  - paragraph: Items 1-12 of 2449
+  - text: Sort By
+  - combobox "Sort By":
+    - option "Position" [selected]
+    - option "Product Name"
+    - option "Price"
+  - link " Set Descending Direction":
+    - /url: "#"
+  - list:
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/dilwe1-12-phone-screen-magnifier-hd-mobile-phone-magnifier-projector-screen-foldable-phone-stand-with-screen-amplifier-for-movies-videos.html
+        - img "Image"
+      - strong:
+        - link "Dilwe1 12'' Phone Screen Magnifier, HD Mobile Phone Magnifier Projector Screen, Foldable Phone Stand with Screen Amplifier for Movies Videos":
+          - /url: http://localhost:7770/dilwe1-12-phone-screen-magnifier-hd-mobile-phone-magnifier-projector-screen-foldable-phone-stand-with-screen-amplifier-for-movies-videos.html
+      - text: $9.73
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/ntg-1st-generation-designed-for-samsung-s21-case-not-for-s21-plus-s21-ultra-heavy-duty-tough-rugged-lightweight-slim-shockproof-protective-case-for-samsung-galaxy-s21-6-2-inch-orange.html
+        - img "Image"
+      - strong:
+        - link "NTG [1st Generation] Designed for Samsung S21 Case (Not for S21 Plus&S21 Ultra), Heavy-Duty Tough Rugged Lightweight Slim Shockproof Protective Case for Samsung Galaxy S21 6.2 Inch,Orange":
+          - /url: http://localhost:7770/ntg-1st-generation-designed-for-samsung-s21-case-not-for-s21-plus-s21-ultra-heavy-duty-tough-rugged-lightweight-slim-shockproof-protective-case-for-samsung-galaxy-s21-6-2-inch-orange.html
+      - text: $16.99
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/2-2-pack-ywxtw-galaxy-s21-privacy-screen-protector-support-fingerprint-unlock-7h-hardness-and-camera-lens-tempered-glass-protector-for-samsung-galaxy-s21-6-2-inch-anti-spy-easy-install-frame.html
+        - img "Image"
+      - strong:
+        - link "[2+2 Pack] YWXTW Galaxy S21 Privacy Screen Protector 【Support Fingerprint Unlock】【7H Hardness】and Camera Lens Tempered Glass Protector for Samsung Galaxy S21 6.2-Inch, Anti-Spy Easy Install Frame":
+          - /url: http://localhost:7770/2-2-pack-ywxtw-galaxy-s21-privacy-screen-protector-support-fingerprint-unlock-7h-hardness-and-camera-lens-tempered-glass-protector-for-samsung-galaxy-s21-6-2-inch-anti-spy-easy-install-frame.html
+      - text: "Rating:   55%"
+      - link "11 Reviews":
+        - /url: http://localhost:7770/2-2-pack-ywxtw-galaxy-s21-privacy-screen-protector-support-fingerprint-unlock-7h-hardness-and-camera-lens-tempered-glass-protector-for-samsung-galaxy-s21-6-2-inch-anti-spy-easy-install-frame.html#reviews
+      - text: $11.99
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/for-huawei-supercharge-power-adapter-4-5v-5a-quick-fast-charger-with-super-charging-usb-type-c-cable-super-charger-for-huawei-p20-pro-p10-plus-mate-9-mt9-mate-10-pro-honor-super-charger.html
+        - img "Image"
+      - strong:
+        - link "for Huawei Supercharge Power Adapter,4.5V 5A Quick Fast Charger with Super Charging USB Type C Cable Super Charger for Huawei P20 Pro, P10 Plus,Mate 9 MT9, Mate 10 Pro, Honor (Super Charger)":
+          - /url: http://localhost:7770/for-huawei-supercharge-power-adapter-4-5v-5a-quick-fast-charger-with-super-charging-usb-type-c-cable-super-charger-for-huawei-p20-pro-p10-plus-mate-9-mt9-mate-10-pro-honor-super-charger.html
+      - text: $16.98
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/comfortable-bluetooth-headset-ux-m97-wireless-headset-with-microphone-wireless-cell-phone-headset-with-noise-isolation-mic-charging-base-mute-function-for-long-conversations-with-charging-dock.html
+        - img "Image"
+      - strong:
+        - link "Comfortable Bluetooth Headset, UX-M97 Wireless Headset with Microphone, Wireless Cell Phone Headset with Noise Isolation Mic Charging Base Mute Function for Long Conversations with Charging Dock":
+          - /url: http://localhost:7770/comfortable-bluetooth-headset-ux-m97-wireless-headset-with-microphone-wireless-cell-phone-headset-with-noise-isolation-mic-charging-base-mute-function-for-long-conversations-with-charging-dock.html
+      - text: $41.95
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/iphone-13-pro-max-case-neon-turtle-iphone-13-pro-max-cases-tempered-glass-back-soft-silicone-tpu-shock-protective-case-for-apple-iphone-13-pro-max.html
+        - img "Image"
+      - strong:
+        - link "iPhone 13 Pro Max Case, Neon Turtle iPhone 13 Pro Max Cases, Tempered Glass Back+Soft Silicone TPU Shock Protective Case for Apple iPhone 13 Pro Max":
+          - /url: http://localhost:7770/iphone-13-pro-max-case-neon-turtle-iphone-13-pro-max-cases-tempered-glass-back-soft-silicone-tpu-shock-protective-case-for-apple-iphone-13-pro-max.html
+      - text: "Rating:   92%"
+      - link "12 Reviews":
+        - /url: http://localhost:7770/iphone-13-pro-max-case-neon-turtle-iphone-13-pro-max-cases-tempered-glass-back-soft-silicone-tpu-shock-protective-case-for-apple-iphone-13-pro-max.html#reviews
+      - text: $14.99
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/car-phone-holder-mount-360-degree-rotation-dashboard-cell-phone-holder-for-car-clip-mount-stand-suitable-for-4-to-7-inch-smartphones-black.html
+        - img "Image"
+      - strong:
+        - link "Car Phone Holder Mount 360 Degree Rotation Dashboard Cell Phone Holder for Car Clip Mount Stand Suitable for 4 to 7 inch Smartphones (Black)":
+          - /url: http://localhost:7770/car-phone-holder-mount-360-degree-rotation-dashboard-cell-phone-holder-for-car-clip-mount-stand-suitable-for-4-to-7-inch-smartphones-black.html
+      - text: $12.73
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/usb-charger-anker-elite-dual-port-24w-wall-charger-powerport-2-with-poweriq-and-foldable-plug-for-iphone-11-xs-xs-max-xr-x-8-7-6-plus-ipad-pro-air-2-mini-3-mini-4-samsung-s4-s5-and-more.html
+        - img "Image"
+      - strong:
+        - link "USB Charger, Anker Elite Dual Port 24W Wall Charger, PowerPort 2 with PowerIQ and Foldable Plug, for iPhone 11/Xs/XS Max/XR/X/8/7/6/Plus, iPad Pro/Air 2/Mini 3/Mini 4, Samsung S4/S5, and More":
+          - /url: http://localhost:7770/usb-charger-anker-elite-dual-port-24w-wall-charger-powerport-2-with-poweriq-and-foldable-plug-for-iphone-11-xs-xs-max-xr-x-8-7-6-plus-ipad-pro-air-2-mini-3-mini-4-samsung-s4-s5-and-more.html
+      - text: "Rating:   73%"
+      - link "3 Reviews":
+        - /url: http://localhost:7770/usb-charger-anker-elite-dual-port-24w-wall-charger-powerport-2-with-poweriq-and-foldable-plug-for-iphone-11-xs-xs-max-xr-x-8-7-6-plus-ipad-pro-air-2-mini-3-mini-4-samsung-s4-s5-and-more.html#reviews
+      - text: $13.99
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/2-3-pack-uniqueme-compatible-with-samsung-galaxy-s22-plus-s22-plus-5g-screen-protector-2-pack-tempered-glass-and-3-pack-camera-lens-protector-bubble-free-9h-hardness-hd-easy-installation-frame.html
+        - img "Image"
+      - strong:
+        - link "[2+3 Pack] UniqueMe Compatible with Samsung Galaxy S22 Plus/S22+Plus 5G Screen Protector,2 Pack Tempered Glass and 3 Pack Camera Lens Protector,Bubble Free [9H Hardness] HD[Easy Installation Frame]":
+          - /url: http://localhost:7770/2-3-pack-uniqueme-compatible-with-samsung-galaxy-s22-plus-s22-plus-5g-screen-protector-2-pack-tempered-glass-and-3-pack-camera-lens-protector-bubble-free-9h-hardness-hd-easy-installation-frame.html
+      - text: "Rating:   72%"
+      - link "12 Reviews":
+        - /url: http://localhost:7770/2-3-pack-uniqueme-compatible-with-samsung-galaxy-s22-plus-s22-plus-5g-screen-protector-2-pack-tempered-glass-and-3-pack-camera-lens-protector-bubble-free-9h-hardness-hd-easy-installation-frame.html#reviews
+      - text: $11.99
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/landi-v101-bluetooth-headset-bluetooth-earpiece-headphones-for-cell-phones-noise-cancelling-wireless-earpieces-w-mic-for-business-driving-office-compatible-with-iphone-samsung-android-red.html
+        - img "Image"
+      - strong:
+        - link "Landi V101 Bluetooth Headset,Bluetooth Earpiece Headphones for Cell Phones, Noise Cancelling Wireless Earpieces w/Mic for Business/Driving/Office, Compatible with iPhone/Samsung/Android (RED)":
+          - /url: http://localhost:7770/landi-v101-bluetooth-headset-bluetooth-earpiece-headphones-for-cell-phones-noise-cancelling-wireless-earpieces-w-mic-for-business-driving-office-compatible-with-iphone-samsung-android-red.html
+      - text: $9.90
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/3d-virtual-reality-glasses-vr-3d-glasses-for-mobile-phones-movies-and-games-blu-ray-version-vr-goggles-for-ios-android-a.html
+        - img "Image"
+      - strong:
+        - link "3D Virtual Reality Glasses VR 3D Glasses for Mobile Phones Movies and Games Blu-ray Version VR Goggles for iOS,Android (A)":
+          - /url: http://localhost:7770/3d-virtual-reality-glasses-vr-3d-glasses-for-mobile-phones-movies-and-games-blu-ray-version-vr-goggles-for-ios-android-a.html
+      - text: $31.99
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/vchiming-wireless-car-charger-mount-15w-fast-charging-auto-clamping-car-phone-charger-windshield-dash-air-vent-phone-holder-compatible-with-iphone-samsung-galaxy-lg-and-other-qi-enabled-devices-gray.html
+        - img "Image"
+      - strong:
+        - link "Vchiming Wireless Car Charger Mount,15W Fast Charging Auto-Clamping Car Phone Charger,Windshield Dash Air Vent Phone Holder Compatible with iPhone Samsung Galaxy,LG and Other Qi-Enabled Devices, Gray":
+          - /url: http://localhost:7770/vchiming-wireless-car-charger-mount-15w-fast-charging-auto-clamping-car-phone-charger-windshield-dash-air-vent-phone-holder-compatible-with-iphone-samsung-galaxy-lg-and-other-qi-enabled-devices-gray.html
+      - text: $14.99
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+  - strong: Page
+  - list "Page":
+    - listitem:
+      - strong: You're currently reading page 1
+    - listitem:
+      - link "Page 2":
+        - /url: http://localhost:7770/cell-phones-accessories.html?p=2
+    - listitem:
+      - link "Page 3":
+        - /url: http://localhost:7770/cell-phones-accessories.html?p=3
+    - listitem:
+      - link "Page 4":
+        - /url: http://localhost:7770/cell-phones-accessories.html?p=4
+    - listitem:
+      - link "Page 5":
+        - /url: http://localhost:7770/cell-phones-accessories.html?p=5
+    - listitem:
+      - link " Page Next":
+        - /url: http://localhost:7770/cell-phones-accessories.html?p=2
+  - text: Show
+  - combobox "Show":
+    - option "12" [selected]
+    - option "24"
+    - option "36"
+  - text: per page
+  - strong: Shop By
+  - heading "Shopping Options" [level=2]
+  - heading "Category" [level=3]
+  - definition:
+    - list:
+      - listitem:
+        - link "Accessories( 1924 item )":
+          - /url: http://localhost:7770/cell-phones-accessories.html?cat=57
+      - listitem:
+        - link "Cases, Holsters & Sleeves( 457 item )":
+          - /url: http://localhost:7770/cell-phones-accessories.html?cat=66
+      - listitem:
+        - link "Cell Phones( 68 item )":
+          - /url: http://localhost:7770/cell-phones-accessories.html?cat=70
+  - heading "Price" [level=3]
+  - definition:
+    - list:
+      - listitem:
+        - link "$0.00 - $999.99( 2446 item )":
+          - /url: http://localhost:7770/cell-phones-accessories.html?price=0-1000
+      - listitem:
+        - link "$1,000.00 and above( 3 item )":
+          - /url: http://localhost:7770/cell-phones-accessories.html?price=1000-2000
+  - heading "Compare Products" [level=2]
+  - text: You have no items to compare.
+  - heading "My Wish List" [level=2]
+  - text: You have no items in your wish list.
+- contentinfo:
+  - text: " Sign Up for Our Newsletter:"
+  - textbox "Sign Up for Our Newsletter:"
+  - button "Subscribe"
+  - list:
+    - listitem:
+      - link "Privacy and Cookie Policy":
+        - /url: http://localhost:7770/privacy-policy-cookie-restriction-mode/
+    - listitem:
+      - link "Search Terms":
+        - /url: http://localhost:7770/search/term/popular/
+    - listitem:
+      - link "Advanced Search":
+        - /url: http://localhost:7770/catalogsearch/advanced/
+    - listitem:
+      - link "Orders and Returns":
+        - /url: http://localhost:7770/sales/guest/form/
+    - listitem:
+      - link "Contact Us":
+        - /url: http://localhost:7770/contact/
+  - text: Copyright © 2013-present Magento, Inc. All rights reserved. Help Us Keep Magento Healthy
+  - link "Report All Bugs":
+    - /url: http://www.magentocommerce.com/bug-tracking

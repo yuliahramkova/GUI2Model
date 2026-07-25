@@ -1,0 +1,304 @@
+- banner:
+  - list:
+    - listitem:
+      - link "My Account":
+        - /url: http://localhost:7770/customer/account/
+    - listitem:
+      - link "My Wish List":
+        - /url: http://localhost:7770/wishlist/
+    - listitem:
+      - link "Sign In":
+        - /url: http://localhost:7770/customer/account/login/
+    - listitem
+    - listitem: Welcome to One Stop Market
+    - listitem:
+      - link "Create an Account":
+        - /url: http://localhost:7770/customer/account/create/
+  - link "Skip to Content":
+    - /url: "#contentarea"
+  - link "store logo":
+    - /url: http://localhost:7770/
+    - img "one_stop_market_logo"
+  - link " My Cart":
+    - /url: http://localhost:7770/checkout/cart/
+  - text:  Search
+  - combobox " Search": shirt
+  - link "Advanced Search":
+    - /url: http://localhost:7770/catalogsearch/advanced/
+  - button "Search" [disabled]:  Search
+- tablist:
+  - tabpanel:
+    - navigation:
+      - menu:
+        - listitem:
+          - menuitem " Beauty & Personal Care"
+        - listitem:
+          - menuitem " Sports & Outdoors"
+        - listitem:
+          - menuitem " Clothing, Shoes & Jewelry"
+        - listitem:
+          - menuitem " Home & Kitchen"
+        - listitem:
+          - menuitem " Office Products"
+        - listitem:
+          - menuitem " Tools & Home Improvement"
+        - listitem:
+          - menuitem " Health & Household"
+        - listitem:
+          - menuitem " Patio, Lawn & Garden"
+        - listitem:
+          - menuitem " Electronics"
+        - listitem:
+          - menuitem " Cell Phones & Accessories"
+        - listitem:
+          - menuitem " Video Games"
+        - listitem:
+          - menuitem " Grocery & Gourmet Food"
+- list:
+  - listitem:
+    - link "Home":
+      - /url: http://localhost:7770/
+    - text: 
+  - listitem:
+    - strong: "Search results for: 'shirt'"
+- main:
+  - 'heading "Search results for: ''shirt''" [level=1]'
+  - strong: View as
+  - strong:  Grid
+  - link "View as  List":
+    - /url: "#"
+    - text:  List
+  - paragraph: Items 1-12 of 8280
+  - text: Sort By
+  - combobox "Sort By":
+    - option "Product Name"
+    - option "Price"
+    - option "Relevance" [selected]
+  - link " Set Ascending Direction":
+    - /url: "#"
+  - list:
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/blippii-birthday-shirts-family-blippii-shirts-blippii-birthday-theme-shirts-matching-family-party-shirts-matching-family-birthday-shirts-family-birthday-shirt.html
+        - img "Image"
+      - strong:
+        - link "Blippii Birthday Shirts, Family Blippii Shirts, Blippii Birthday Theme Shirts, Matching Family Party Shirts, Matching Family Birthday Shirts, Family Birthday shirt":
+          - /url: http://localhost:7770/blippii-birthday-shirts-family-blippii-shirts-blippii-birthday-theme-shirts-matching-family-party-shirts-matching-family-birthday-shirts-family-birthday-shirt.html
+      - text: $19.99
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/mofiz-men-s-golf-shirts-short-sleeve-shirts-100-cotton-athletic-shirts-collared-t-shirt-comfortable-polo-shirts.html
+        - img "Image"
+      - strong:
+        - link "MoFiz Men's Golf Shirts Short Sleeve Shirts 100% Cotton Athletic Shirts Collared T-Shirt Comfortable Polo Shirts":
+          - /url: http://localhost:7770/mofiz-men-s-golf-shirts-short-sleeve-shirts-100-cotton-athletic-shirts-collared-t-shirt-comfortable-polo-shirts.html
+      - text: "Rating:   49%"
+      - link "11 Reviews":
+        - /url: http://localhost:7770/mofiz-men-s-golf-shirts-short-sleeve-shirts-100-cotton-athletic-shirts-collared-t-shirt-comfortable-polo-shirts.html#reviews
+      - text: $16.72
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/mens-casual-dress-shirts-mens-collared-shirt-button-down-printed-t-shirts-mens-cut-off-shirts-fishing-shirts-gifts.html
+        - img "Image"
+      - strong:
+        - link "Mens Casual Dress Shirts Mens Collared Shirt Button Down Printed T Shirts Mens Cut Off Shirts Fishing Shirts Gifts":
+          - /url: http://localhost:7770/mens-casual-dress-shirts-mens-collared-shirt-button-down-printed-t-shirts-mens-cut-off-shirts-fishing-shirts-gifts.html
+      - text: $31.09
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/mens-shirts-long-sleeve-button-down-shirts-casual-floral-shirts-fashion-button-shirts-slim-fit-dress-shirts.html
+        - img "Image"
+      - strong:
+        - link "Mens Shirts Long Sleeve Button Down Shirts Casual Floral Shirts Fashion Button Shirts Slim Fit Dress Shirts":
+          - /url: http://localhost:7770/mens-shirts-long-sleeve-button-down-shirts-casual-floral-shirts-fashion-button-shirts-slim-fit-dress-shirts.html
+      - text: $18.14
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/xiloccer-men-s-workout-shirts-buttoned-shirt-mens-short-sleeve-dress-shirts-short-shirts-for-men-tee-best-dress-shirts.html
+        - img "Image"
+      - strong:
+        - link "Xiloccer Men's Workout Shirts Buttoned Shirt Mens Short Sleeve Dress Shirts Short Shirts for Men Tee Best Dress Shirts":
+          - /url: http://localhost:7770/xiloccer-men-s-workout-shirts-buttoned-shirt-mens-short-sleeve-dress-shirts-short-shirts-for-men-tee-best-dress-shirts.html
+      - text: $2.99
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/casual-shirts-for-men-floral-print-shirt-short-sleeve-lapel-button-down-shirt-hawaiian-shirts-t-shirts-tops.html
+        - img "Image"
+      - strong:
+        - link "Casual Shirts for Men Floral Print Shirt Short Sleeve Lapel Button Down Shirt Hawaiian Shirts T-Shirts Tops":
+          - /url: http://localhost:7770/casual-shirts-for-men-floral-print-shirt-short-sleeve-lapel-button-down-shirt-hawaiian-shirts-t-shirts-tops.html
+      - text: $17.99
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/mens-hawaiian-shirts-floral-flower-leaf-aloha-beach-shirt-summer-shirts-short-sleeve-t-shirt-button-down-shirts.html
+        - img "Image"
+      - strong:
+        - link "Mens Hawaiian Shirts Floral Flower Leaf Aloha Beach Shirt Summer Shirts Short-Sleeve T-Shirt Button Down Shirts":
+          - /url: http://localhost:7770/mens-hawaiian-shirts-floral-flower-leaf-aloha-beach-shirt-summer-shirts-short-sleeve-t-shirt-button-down-shirts.html
+      - text: $8.72
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/melon-birthday-shirt-melon-family-shirts-melon-shirt-melon-birthday-shirt-family-matching-shirts.html
+        - img "Image"
+      - strong:
+        - link "Melon Birthday Shirt Melon Family Shirts Melon Shirt Melon Birthday Shirt Family Matching Shirts":
+          - /url: http://localhost:7770/melon-birthday-shirt-melon-family-shirts-melon-shirt-melon-birthday-shirt-family-matching-shirts.html
+      - text: $35.86
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/melon-shirt-melon-birthday-shirt-melon-family-shirts-melon-birthday-shirt-family-birthday-shirts.html
+        - img "Image"
+      - strong:
+        - link "Melon Shirt Melon Birthday Shirt Melon Family Shirts Melon Birthday Shirt Family Birthday Shirts":
+          - /url: http://localhost:7770/melon-shirt-melon-birthday-shirt-melon-family-shirts-melon-birthday-shirt-family-birthday-shirts.html
+      - text: $6.28
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/mens-casual-plaid-collar-shirt-beach-shirts-for-men-long-t-shirt-men-s-t-shirts-muscle-shirts-mens-graphic-tees.html
+        - img "Image"
+      - strong:
+        - link "Mens Casual Plaid Collar Shirt Beach Shirts for Men Long T Shirt Men's T Shirts Muscle Shirts Mens Graphic Tees":
+          - /url: http://localhost:7770/mens-casual-plaid-collar-shirt-beach-shirts-for-men-long-t-shirt-men-s-t-shirts-muscle-shirts-mens-graphic-tees.html
+      - text: $3.99
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/lldyyds-mens-polos-fashion-golf-shirts-casual-shirts-long-sleeve-shirt-button-down-graphic-shirts-slim-fit-dress-shirts.html
+        - img "Image"
+      - strong:
+        - link "LLDYYDS Mens Polos Fashion Golf Shirts Casual Shirts Long Sleeve Shirt Button Down Graphic Shirts Slim Fit Dress Shirts":
+          - /url: http://localhost:7770/lldyyds-mens-polos-fashion-golf-shirts-casual-shirts-long-sleeve-shirt-button-down-graphic-shirts-slim-fit-dress-shirts.html
+      - text: $16.56
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Image":
+        - /url: http://localhost:7770/family-birthday-shirts-1st-birthday-family-matching-shirts-matching-birthday-shirts-family-birthday-shirt.html
+        - img "Image"
+      - strong:
+        - link "Family Birthday Shirts, 1st Birthday Family Matching Shirts, Matching Birthday Shirts, Family Birthday Shirt":
+          - /url: http://localhost:7770/family-birthday-shirts-1st-birthday-family-matching-shirts-matching-birthday-shirts-family-birthday-shirt.html
+      - text: $17.99
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+  - strong: Page
+  - list "Page":
+    - listitem:
+      - strong: You're currently reading page 1
+    - listitem:
+      - link "Page 2":
+        - /url: http://localhost:7770/catalogsearch/result/index/?p=2&q=shirt
+    - listitem:
+      - link "Page 3":
+        - /url: http://localhost:7770/catalogsearch/result/index/?p=3&q=shirt
+    - listitem:
+      - link "Page 4":
+        - /url: http://localhost:7770/catalogsearch/result/index/?p=4&q=shirt
+    - listitem:
+      - link "Page 5":
+        - /url: http://localhost:7770/catalogsearch/result/index/?p=5&q=shirt
+    - listitem:
+      - link " Page Next":
+        - /url: http://localhost:7770/catalogsearch/result/index/?p=2&q=shirt
+  - text: Show
+  - combobox "Show":
+    - option "12" [selected]
+    - option "24"
+    - option "36"
+  - text: per page
+  - strong: Shop By
+  - heading "Shopping Options" [level=2]
+  - heading "Category" [level=3]
+  - definition:
+    - list:
+      - listitem:
+        - link "Beauty & Personal Care( 79 item )":
+          - /url: http://localhost:7770/catalogsearch/result/index/?cat=3&q=shirt
+      - listitem:
+        - link "Sports & Outdoors( 434 item )":
+          - /url: http://localhost:7770/catalogsearch/result/index/?cat=4&q=shirt
+      - listitem:
+        - link "Clothing, Shoes & Jewelry( 7603 item )":
+          - /url: http://localhost:7770/catalogsearch/result/index/?cat=5&q=shirt
+      - listitem:
+        - link "Home & Kitchen( 88 item )":
+          - /url: http://localhost:7770/catalogsearch/result/index/?cat=6&q=shirt
+      - listitem:
+        - link "Office Products( 7 item )":
+          - /url: http://localhost:7770/catalogsearch/result/index/?cat=7&q=shirt
+      - listitem:
+        - link "Tools & Home Improvement( 5 item )":
+          - /url: http://localhost:7770/catalogsearch/result/index/?cat=8&q=shirt
+      - listitem:
+        - link "Health & Household( 4 item )":
+          - /url: http://localhost:7770/catalogsearch/result/index/?cat=9&q=shirt
+      - listitem:
+        - link "Patio, Lawn & Garden( 2 item )":
+          - /url: http://localhost:7770/catalogsearch/result/index/?cat=10&q=shirt
+      - listitem:
+        - link "Electronics( 22 item )":
+          - /url: http://localhost:7770/catalogsearch/result/index/?cat=11&q=shirt
+      - listitem:
+        - link "Cell Phones & Accessories( 3 item )":
+          - /url: http://localhost:7770/catalogsearch/result/index/?cat=12&q=shirt
+      - listitem:
+        - link "Grocery & Gourmet Food( 33 item )":
+          - /url: http://localhost:7770/catalogsearch/result/index/?cat=14&q=shirt
+  - heading "Compare Products" [level=2]
+  - text: You have no items to compare.
+  - heading "My Wish List" [level=2]
+  - text: You have no items in your wish list.
+- contentinfo:
+  - text: " Sign Up for Our Newsletter:"
+  - textbox "Sign Up for Our Newsletter:"
+  - button "Subscribe"
+  - list:
+    - listitem:
+      - link "Privacy and Cookie Policy":
+        - /url: http://localhost:7770/privacy-policy-cookie-restriction-mode/
+    - listitem:
+      - link "Search Terms":
+        - /url: http://localhost:7770/search/term/popular/
+    - listitem:
+      - link "Advanced Search":
+        - /url: http://localhost:7770/catalogsearch/advanced/
+    - listitem:
+      - link "Orders and Returns":
+        - /url: http://localhost:7770/sales/guest/form/
+    - listitem:
+      - link "Contact Us":
+        - /url: http://localhost:7770/contact/
+  - text: Copyright © 2013-present Magento, Inc. All rights reserved. Help Us Keep Magento Healthy
+  - link "Report All Bugs":
+    - /url: http://www.magentocommerce.com/bug-tracking

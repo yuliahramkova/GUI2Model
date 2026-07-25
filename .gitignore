@@ -31,4 +31,5 @@ HF_TOKEN
 
 # OS
 .DS_Store
-Thumbs.db
+Thumbs.dbvenv/
+venv/

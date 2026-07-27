@@ -1,0 +1,9 @@
+image_path,instruction,bbox
+data/target_app/screenshots/Снимок экрана 2026-07-23 в 00.01.52.png,click on 'Add to Cart' button for the first product,"[700, 460, 820, 490]"
+data/target_app/screenshots/Снимок экрана 2026-07-23 в 00.01.52.png,click on 'Add to Cart' button for the second product,"[700, 640, 820, 670]"
+data/target_app/screenshots/Снимок экрана 2026-07-23 в 00.02.09.png,click on 'Add to Cart' button,"[400, 550, 540, 600]"
+data/target_app/screenshots/Снимок экрана 2026-07-23 в 00.02.09.png,click on the quantity field,"[280, 550, 330, 590]"
+data/target_app/screenshots/Снимок экрана 2026-07-23 в 00.02.26.png,click on 'Women' category,"[150, 250, 280, 290]"
+data/target_app/screenshots/Снимок экрана 2026-07-23 в 00.02.26.png,click on 'Electronics' category,"[150, 420, 310, 460]"
+data/target_app/screenshots/Снимок экрана 2026-07-23 в 00.02.32.png,click on 'Beauty & Personal Care' category,"[50, 200, 250, 240]"
+data/target_app/screenshots/Снимок экрана 2026-07-23 в 00.02.32.png,click on 'Clothing, Shoes & Jewelry' category,"[50, 260, 300, 300]"

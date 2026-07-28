@@ -20,11 +20,6 @@ env/
 .vscode/
 .idea/
 
-# Data & models (не хотим тащить гигабайты в GitHub)
-data/*
-!data/target_app/
-!data/target_app/**
-
 # Secrets
 .env
 HF_TOKEN

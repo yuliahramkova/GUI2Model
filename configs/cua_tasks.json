@@ -1,0 +1,121 @@
+  {
+    "app": "webarena_shopping",
+    "base_url": "http://localhost:7770",
+    "observation_modes": [
+      "screenshot_only",
+      "screenshot_plus_som"
+    ],
+    "defaults": {
+      "start_url": "/",
+      "max_steps": 12,
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "page_zoom": 0.75
+    },
+    "tasks": [
+      {
+        "id": "search_tea_results",
+        "goal": "Search for tea and open the search results page.",
+        "start_url": "/",
+        "expected_end_url_contains": "/catalogsearch/result/",
+        "expected_end_title_contains": "Search results",
+        "tags": ["search", "guest", "results"]
+      },
+    {
+      "id": "search_open_first_product",
+      "goal": "You are on tea search results. Open any product detail page by clicking a product title (or product link). Done when the URL ends with .html and the page title is not Search results.",
+      "start_url": "/catalogsearch/result/?q=tea",
+      "max_steps": 4,
+      "expected_end_url_contains": ".html",
+      "expected_end_title_not_contains": "Search results",
+      "tags": ["search", "guest", "product"]
+    },
+      {
+        "id": "browse_category_to_subcategory",
+        "goal": "Open Electronics and then navigate to Cell Phones & Accessories.",
+        "start_url": "/",
+        "expected_end_url_contains": "cell-phones-accessories",
+        "expected_end_title_contains": "Cell Phones & Accessories",
+        "tags": ["browse", "guest", "category"]
+      },
+      {
+        "id": "browse_category_open_product",
+        "goal": "Open Electronics and navigate from the category page to a product detail page.",
+        "start_url": "/electronics.html",
+        "expected_end_url_contains": ".html",
+        "expected_end_title_not_contains": "Electronics",
+        "tags": ["browse", "guest", "product"]
+      },
+      {
+        "id": "open_advanced_search",
+        "goal": "Open the Advanced Search page from the homepage header.",
+        "start_url": "/",
+        "expected_end_url_contains": "/catalogsearch/advanced/",
+        "expected_end_title_contains": "Advanced Search",
+        "tags": ["search", "guest", "form"]
+      },
+      {
+        "id": "guest_open_contact_form",
+        "goal": "Open Contact Us from the homepage footer. Done when the Contact Us page is open.",
+        "start_url": "/",
+        "max_steps": 6,
+        "expected_end_url_contains": "/contact/",
+        "expected_end_title_contains": "Contact Us",
+        "tags": ["guest", "form", "contact"]
+      },
+      {
+        "id": "guest_open_orders_returns",
+        "goal": "Do NOT sign in and do NOT open Forgot Password or My Account. Scroll to the homepage footer if needed and open the guest link \"Orders and Returns\" (URL contains /sales/guest/form/). Done when the Orders and Returns page is open.",
+        "start_url": "/",
+        "max_steps": 6,
+        "expected_end_url_contains": "/sales/guest/form/",
+        "expected_end_title_contains": "Orders and Returns",
+        "tags": ["guest", "form", "orders"]
+      },
+      {
+        "id": "product_add_to_cart",
+        "goal": "You start on a product page. (1) Click Add to Cart. If a spinner appears, wait 2000. Do not click Add to Cart again. (2) Click My Cart (header cart icon) once to open the minicart dropdown. (3) In the open dropdown, click the mark whose name is exactly \"View and Edit Cart\" (match by mark name, not a nearby low id). Do NOT click Proceed to Checkout (that goes to /checkout/, wrong page). Do NOT keep toggling My Cart. Done only when URL contains /checkout/cart/ and title contains Shopping Cart.",
+        "start_url": "/briess-dme-pilsen-light-1-lb-bag.html",
+        "max_steps": 8,
+        "expected_end_url_contains": "/checkout/cart/",
+        "expected_end_title_contains": "Shopping Cart",
+        "tags": ["cart", "guest", "product"]
+      },
+      {
+        "id": "cart_to_checkout_shipping",
+        "goal": "Add a product to the cart and proceed to the checkout shipping step.",
+        "start_url": "/briess-dme-pilsen-light-1-lb-bag.html",
+        "expected_end_url_contains": "/checkout/",
+        "expected_end_title_contains": "Checkout",
+        "tags": ["checkout", "guest", "cart"]
+      },
+      {
+        "id": "login_to_account",
+        "goal": "Log in with the test customer account and open My Account.",
+        "start_url": "/customer/account/login/",
+        "credentials_ref": "shopping_test_customer",
+        "expected_end_url_contains": "/customer/account/",
+        "expected_end_title_contains": "My Account",
+        "tags": ["auth", "account", "customer"]
+      },
+      {
+        "id": "login_open_order_history",
+        "goal": "Log in with the test customer account and open the order history page.",
+        "start_url": "/customer/account/login/",
+        "credentials_ref": "shopping_test_customer",
+        "expected_end_url_contains": "/sales/order/history/",
+        "expected_end_title_contains": "My Orders",
+        "tags": ["auth", "orders", "customer"]
+      }
+    ],
+    "credentials": {
+      "shopping_test_customer": {
+        "username_env": "SHOPPING_USERNAME",
+        "password_env": "SHOPPING_PASSWORD",
+        "username_fallback": "emma.lopez@gmail.com",
+        "password_fallback": "Password.123"
+      }
+    }
+  }

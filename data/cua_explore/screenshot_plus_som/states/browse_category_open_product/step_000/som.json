@@ -1,0 +1,552 @@
+[
+  {
+    "mark_id": 1,
+    "role": "link",
+    "name": "Navitech Black Hard Carry Bag/Case/Cover with Shoulder Strap Compatible with The VR/Virtual Reality 3D headsets Includin",
+    "bbox_norm": [
+      0.2976345486111111,
+      0.5258522727272728,
+      0.4191623263888889,
+      0.6067613636363637
+    ]
+  },
+  {
+    "mark_id": 2,
+    "role": "link",
+    "name": "ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveilla",
+    "bbox_norm": [
+      0.43157552083333334,
+      0.5258522727272728,
+      0.5461588541666667,
+      0.6203977272727272
+    ]
+  },
+  {
+    "mark_id": 3,
+    "role": "link",
+    "name": "Indoor Pet Camera, HD 1080P No WiFi Security Camera with Night Vision-No Built-in Baterry",
+    "bbox_norm": [
+      0.5655164930555555,
+      0.5258522727272728,
+      0.6842664930555555,
+      0.5658522727272727
+    ]
+  },
+  {
+    "mark_id": 4,
+    "role": "link",
+    "name": "Rockville CH103SP Chuchero Car Audio Enclosure For (2) 10\" Mids + (2) 3\" Tweeter",
+    "bbox_norm": [
+      0.6994574652777777,
+      0.5258522727272728,
+      0.8209852430555555,
+      0.5658522727272727
+    ]
+  },
+  {
+    "mark_id": 5,
+    "role": "link",
+    "name": "Multi Accessory Hub Adapter By JOBY – Get The Right Set Up For Your Vision By Attaching All The GoPro Accessories You Ne",
+    "bbox_norm": [
+      0.43157552083333334,
+      0.9189772727272727,
+      0.5461588541666667,
+      0.98625
+    ]
+  },
+  {
+    "mark_id": 6,
+    "role": "link",
+    "name": "Intel NUC Kit NUC6i7KYK Mini PC-no Power Cord",
+    "bbox_norm": [
+      0.5655164930555555,
+      0.9189772727272727,
+      0.6863498263888889,
+      0.9453409090909091
+    ]
+  },
+  {
+    "mark_id": 7,
+    "role": "link",
+    "name": "CG7060 Apollo Transparency Film - Letter - 8.50quot; x 11quot; - 50 / Box - Transparent",
+    "bbox_norm": [
+      0.6994574652777777,
+      0.9189772727272727,
+      0.8223741319444444,
+      0.9589772727272727
+    ]
+  },
+  {
+    "mark_id": 8,
+    "role": "link",
+    "name": "My Account",
+    "bbox_norm": [
+      0.5012152777777777,
+      0.006818181818181818,
+      0.5435763888888889,
+      0.019545454545454546
+    ]
+  },
+  {
+    "mark_id": 9,
+    "role": "link",
+    "name": "My Wish List",
+    "bbox_norm": [
+      0.5513888888888889,
+      0.006818181818181818,
+      0.5965277777777778,
+      0.019545454545454546
+    ]
+  },
+  {
+    "mark_id": 10,
+    "role": "link",
+    "name": "Sign In",
+    "bbox_norm": [
+      0.6043402777777778,
+      0.006818181818181818,
+      0.6286458333333333,
+      0.019545454545454546
+    ]
+  },
+  {
+    "mark_id": 11,
+    "role": "link",
+    "name": "Create an Account",
+    "bbox_norm": [
+      0.7576388888888889,
+      0.006818181818181818,
+      0.8229166666666666,
+      0.019545454545454546
+    ]
+  },
+  {
+    "mark_id": 12,
+    "role": "link",
+    "name": "store logo",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.04863636363636364,
+      0.28125,
+      0.06723011363636364
+    ]
+  },
+  {
+    "mark_id": 13,
+    "role": "combobox",
+    "name": "Search entire store here...",
+    "bbox_norm": [
+      0.6678819444444445,
+      0.04863636363636364,
+      0.7980902777777777,
+      0.07045454545454545
+    ]
+  },
+  {
+    "mark_id": 14,
+    "role": "button",
+    "name": "Search",
+    "bbox_norm": [
+      0.7810763888888889,
+      0.04863636363636364,
+      0.7928819444444445,
+      0.07045454545454545
+    ]
+  },
+  {
+    "mark_id": 15,
+    "role": "link",
+    "name": "My Cart",
+    "bbox_norm": [
+      0.8048611111111111,
+      0.04863636363636364,
+      0.8229166666666666,
+      0.07113636363636364
+    ]
+  },
+  {
+    "mark_id": 16,
+    "role": "link",
+    "name": "Advanced Search",
+    "bbox_norm": [
+      0.6678819444444445,
+      0.07386363636363637,
+      0.7289930555555556,
+      0.0865909090909091
+    ]
+  },
+  {
+    "mark_id": 17,
+    "role": "menu",
+    "name": "Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme",
+    "bbox_norm": [
+      0.16666666666666666,
+      0.0875,
+      0.8333333333333334,
+      0.1615909090909091
+    ]
+  },
+  {
+    "mark_id": 18,
+    "role": "menuitem",
+    "name": "Beauty & Personal Care",
+    "bbox_norm": [
+      0.17083333333333334,
+      0.0875,
+      0.2777777777777778,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 19,
+    "role": "menuitem",
+    "name": "Sports & Outdoors",
+    "bbox_norm": [
+      0.2829861111111111,
+      0.0875,
+      0.3697916666666667,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 20,
+    "role": "menuitem",
+    "name": "Clothing, Shoes & Jewelry",
+    "bbox_norm": [
+      0.375,
+      0.0875,
+      0.4875,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 21,
+    "role": "menuitem",
+    "name": "Home & Kitchen",
+    "bbox_norm": [
+      0.49270833333333336,
+      0.0875,
+      0.5711805555555556,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 22,
+    "role": "menuitem",
+    "name": "Office Products",
+    "bbox_norm": [
+      0.5763888888888888,
+      0.0875,
+      0.6527777777777778,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 23,
+    "role": "menuitem",
+    "name": "Tools & Home Improvement",
+    "bbox_norm": [
+      0.6579861111111112,
+      0.0875,
+      0.7815972222222223,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 24,
+    "role": "menuitem",
+    "name": "Health & Household",
+    "bbox_norm": [
+      0.17083333333333334,
+      0.12363636363636364,
+      0.26319444444444445,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 25,
+    "role": "menuitem",
+    "name": "Patio, Lawn & Garden",
+    "bbox_norm": [
+      0.26840277777777777,
+      0.12363636363636364,
+      0.36770833333333336,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 26,
+    "role": "menuitem",
+    "name": "Electronics",
+    "bbox_norm": [
+      0.3729166666666667,
+      0.12363636363636364,
+      0.43125,
+      0.1615909090909091
+    ]
+  },
+  {
+    "mark_id": 27,
+    "role": "menuitem",
+    "name": "Cell Phones & Accessories",
+    "bbox_norm": [
+      0.43645833333333334,
+      0.12363636363636364,
+      0.5510416666666667,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 28,
+    "role": "menuitem",
+    "name": "Video Games",
+    "bbox_norm": [
+      0.55625,
+      0.12363636363636364,
+      0.6229166666666667,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 29,
+    "role": "menuitem",
+    "name": "Grocery & Gourmet Food",
+    "bbox_norm": [
+      0.628125,
+      0.12363636363636364,
+      0.740625,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 30,
+    "role": "link",
+    "name": "Home",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.17863636363636365,
+      0.19583333333333333,
+      0.18954545454545454
+    ]
+  },
+  {
+    "mark_id": 31,
+    "role": "link",
+    "name": "View as List",
+    "bbox_norm": [
+      0.32645399305555556,
+      0.26181818181818184,
+      0.35075954861111114,
+      0.28954545454545455
+    ]
+  },
+  {
+    "mark_id": 32,
+    "role": "link",
+    "name": "Set Descending Direction",
+    "bbox_norm": [
+      0.803125,
+      0.2631818181818182,
+      0.8177083333333334,
+      0.285
+    ]
+  },
+  {
+    "mark_id": 33,
+    "role": "combobox",
+    "name": "Position Product Name Price",
+    "bbox_norm": [
+      0.7253472222222223,
+      0.26454545454545453,
+      0.8010416666666667,
+      0.2863636363636364
+    ]
+  },
+  {
+    "mark_id": 34,
+    "role": "button",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.6269748263888889,
+      0.6042613636363636,
+      0.6452039930555555,
+      0.628125
+    ]
+  },
+  {
+    "mark_id": 35,
+    "role": "button",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.6472873263888889,
+      0.6042613636363636,
+      0.6655164930555556,
+      0.628125
+    ]
+  },
+  {
+    "mark_id": 36,
+    "role": "button",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.7609157986111111,
+      0.6042613636363636,
+      0.7791449652777778,
+      0.628125
+    ]
+  },
+  {
+    "mark_id": 37,
+    "role": "button",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.7812282986111111,
+      0.6042613636363636,
+      0.7994574652777777,
+      0.628125
+    ]
+  },
+  {
+    "mark_id": 38,
+    "role": "button",
+    "name": "Add to Cart",
+    "bbox_norm": [
+      0.5655164930555555,
+      0.6050568181818182,
+      0.6269748263888889,
+      0.6273295454545454
+    ]
+  },
+  {
+    "mark_id": 39,
+    "role": "button",
+    "name": "Add to Cart",
+    "bbox_norm": [
+      0.6994574652777777,
+      0.6050568181818182,
+      0.7609157986111111,
+      0.6273295454545454
+    ]
+  },
+  {
+    "mark_id": 40,
+    "role": "button",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.35909288194444444,
+      0.6451704545454545,
+      0.3773220486111111,
+      0.6690340909090909
+    ]
+  },
+  {
+    "mark_id": 41,
+    "role": "button",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.37940538194444445,
+      0.6451704545454545,
+      0.39763454861111114,
+      0.6690340909090909
+    ]
+  },
+  {
+    "mark_id": 42,
+    "role": "button",
+    "name": "Add to Cart",
+    "bbox_norm": [
+      0.2976345486111111,
+      0.6459659090909091,
+      0.35909288194444444,
+      0.6682386363636363
+    ]
+  },
+  {
+    "mark_id": 43,
+    "role": "button",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.4930338541666667,
+      0.6588068181818182,
+      0.5112630208333333,
+      0.6826704545454545
+    ]
+  },
+  {
+    "mark_id": 44,
+    "role": "button",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.5133463541666666,
+      0.6588068181818182,
+      0.5315755208333334,
+      0.6826704545454545
+    ]
+  },
+  {
+    "mark_id": 45,
+    "role": "button",
+    "name": "Add to Cart",
+    "bbox_norm": [
+      0.43157552083333334,
+      0.6596022727272727,
+      0.4930338541666667,
+      0.681875
+    ]
+  },
+  {
+    "mark_id": 46,
+    "role": "link",
+    "name": "Home Audio 1280 item",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.3307528409090909,
+      0.24513888888888888,
+      0.34348011363636366
+    ]
+  },
+  {
+    "mark_id": 47,
+    "role": "link",
+    "name": "Video Projectors 484 item",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.3464346590909091,
+      0.2548611111111111,
+      0.35916193181818185
+    ]
+  },
+  {
+    "mark_id": 48,
+    "role": "link",
+    "name": "Accessories & Supplies 2409 item",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.3621164772727273,
+      0.25972222222222224,
+      0.38848011363636364
+    ]
+  },
+  {
+    "mark_id": 49,
+    "role": "link",
+    "name": "Television & Video 1083 item",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.3914346590909091,
+      0.2659722222222222,
+      0.40416193181818183
+    ]
+  },
+  {
+    "mark_id": 50,
+    "role": "link",
+    "name": "Camera & Photo 3512 item",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.40711647727272726,
+      0.2590277777777778,
+      0.41984375
+    ]
+  }
+]

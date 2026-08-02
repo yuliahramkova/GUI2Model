@@ -28,3 +28,17 @@ HF_TOKEN
 .DS_Store
 Thumbs.dbvenv/
 venv/
+
+# CUA / generated junk
+data/**/videos/
+data/**/tmp/
+data/**/debug/
+data/**/cache/
+data/**/*.log
+
+# Optional large step dumps
+data/**/raw_ax/
+data/**/raw_cdp/
+
+# Playwright / browser leftovers
+playwright/.auth/

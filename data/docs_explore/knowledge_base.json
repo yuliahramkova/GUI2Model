@@ -1,0 +1,289 @@
+{
+  "app": "webarena_shopping",
+  "source": "web_docs",
+  "created_at": "2026-08-06T16:07:52.386574+00:00",
+  "inputs": {
+    "doc_sources": "configs/doc_sources.json",
+    "shopping_intents": "data/docs_explore/shopping_intents.raw.json",
+    "n_shopping_intents": 192,
+    "n_assigned_keyword": 133,
+    "n_assigned_llm": 59,
+    "n_unassigned_intents": 0,
+    "llm_model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "sections": [
+    {
+      "id": "search",
+      "name": "Product search",
+      "summary": "The storefront search box and search results page let shoppers find products by keywords. Results list matching items; empty queries or nonsense queries yield an empty results state. Advanced Search offers extra filters beyond the header search field.",
+      "typical_actions": [
+        "click search field",
+        "type query",
+        "submit Search",
+        "open Advanced Search"
+      ],
+      "related_urls": [
+        "/catalogsearch/result/",
+        "/catalogsearch/advanced/"
+      ],
+      "aliases": [
+        "Search",
+        "Advanced Search",
+        "search results"
+      ],
+      "example_intents": [
+        "I have jaw bruxism problem, show me something that could alleviate the problem.",
+        "What is the price range of wireless earphone in the One Stop Market?",
+        "What is the price range of teeth grinding mouth guard in the One Stop Market?",
+        "What is the price range of Canon photo printer in the One Stop Market?",
+        "I have a lot of Nintendo Switch game cards now, help me find the best storage option to fit all 11 cards",
+        "I have a lot of Nintendo Switch game cards now, help me find the best storage option to fit all 31 cards",
+        "I have a lot of Nintendo Switch game cards now, help me find the best storage option to fit all 6 cards",
+        "I have a lot of Nintendo Switch game cards now, help me find the best storage option to fit all 23 cards"
+      ],
+      "n_intents_matched": 57,
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "browse",
+      "name": "Categories and catalog",
+      "summary": "Category pages (e.g. Electronics) list products in a department. Shoppers open a top-level category, then often a subcategory, then a product from the listing.",
+      "typical_actions": [
+        "open category",
+        "open subcategory",
+        "browse listing"
+      ],
+      "related_urls": [
+        "/electronics.html",
+        "/cell-phones-accessories.html"
+      ],
+      "aliases": [
+        "category",
+        "subcategory",
+        "catalog"
+      ],
+      "example_intents": [
+        "I want to browse the products in the Video Game category",
+        "I want to browse the products in the Headphones category",
+        "I want to browse the products in the Men shoes category",
+        "I want to browse the products in the Woman clothing category",
+        "I want to browse the products in the Cabinets, Racks & Shelves category",
+        "List products from PS4 accessories category by ascending price",
+        "List products from nutrition bars and drinks category by ascending price",
+        "List products from competitive swimwear category by ascending price"
+      ],
+      "n_intents_matched": 31,
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "product",
+      "name": "Product detail page",
+      "summary": "A product page shows title, price, description, images, and actions such as Add to Cart. It is reached from search results or category listings.",
+      "typical_actions": [
+        "open product",
+        "read price",
+        "Add to Cart",
+        "change quantity"
+      ],
+      "related_urls": [
+        ".html"
+      ],
+      "aliases": [
+        "product page",
+        "PDP",
+        "item page"
+      ],
+      "example_intents": [
+        "Add this product to my wishlist",
+        "List out reviewers, if exist, who mention about ear cups being small",
+        "List out reviewers, if exist, who mention about under water photo",
+        "List out reviewers, if exist, who mention about good fingerprint resistant",
+        "List out reviewers, if exist, who mention about price being unfair",
+        "List out reviewers, if exist, who mention about average print quality",
+        "Add Tide PODS Spring Meadow Scent HE Turbo Laundry Detergent Pacs, 81 Count to my wish list",
+        "Add 2 Hawaiian Bamboo Orchid Roots #zc50 - by Discount Hawaiian Gifts to my wish list"
+      ],
+      "n_intents_matched": 17,
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "cart",
+      "name": "Shopping cart",
+      "summary": "The shopping cart holds items the shopper plans to buy. Magento also shows a mini-cart (My Cart) in the header; View and Edit Cart opens the full cart page at /checkout/cart/ where quantities can be updated before checkout.",
+      "typical_actions": [
+        "Add to Cart",
+        "open My Cart",
+        "View and Edit Cart",
+        "update quantity",
+        "remove item"
+      ],
+      "related_urls": [
+        "/checkout/cart/"
+      ],
+      "aliases": [
+        "My Cart",
+        "minicart",
+        "View and Edit Cart",
+        "Shopping Cart"
+      ],
+      "example_intents": [
+        "Add the product with the lowest per unit price from my open tabs to the shopping cart",
+        "Add a chair to my wish list.",
+        "Add a white desk to my wish list.",
+        "Add a white computer desk to my wish list."
+      ],
+      "n_intents_matched": 8,
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "checkout",
+      "name": "Checkout",
+      "summary": "Checkout collects shipping address, shipping method, and payment to place an order. Guests can usually check out without an account. The flow starts from the cart via Proceed to Checkout and lands on /checkout/.",
+      "typical_actions": [
+        "Proceed to Checkout",
+        "enter shipping address",
+        "choose shipping method",
+        "place order"
+      ],
+      "related_urls": [
+        "/checkout/"
+      ],
+      "aliases": [
+        "checkout",
+        "shipping",
+        "payment",
+        "place order"
+      ],
+      "example_intents": [
+        "What is the date when I made my first purchase on this site?",
+        "Show me the shipping method for order number 187.",
+        "Rate my recent purchase of floor lamp with 5 stars, using my nickname Emma Lopez?",
+        "Rate my recent purchase of Jiffy Corn Muffin Cornbread Mix with 4 stars, using my nickname ShoppingEmma?",
+        "Rate my recent purchase of PS3 Remote Controllers with 3 stars, using my nickname GamingEmma?",
+        "Rate my recent purchase of Foundation For Mattress With Frame Set with 1 stars, using my nickname ShoppingEmma?",
+        "Rate my recent purchase of Mini Wireless Bluetooth Speaker with 2 stars, using my nickname SimpleEmma?",
+        "Draft an email to the shop owner via their contact us function for a coupon as I plan to make a bulk purchase"
+      ],
+      "n_intents_matched": 8,
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-process"
+      ]
+    },
+    {
+      "id": "account",
+      "name": "Customer account",
+      "summary": "Registered customers sign in to My Account to manage profile information, addresses, and related account pages. Login is at /customer/account/login/; after success the account dashboard is at /customer/account/.",
+      "typical_actions": [
+        "Sign In",
+        "open My Account",
+        "edit account information",
+        "Create an Account"
+      ],
+      "related_urls": [
+        "/customer/account/",
+        "/customer/account/login/",
+        "/customer/account/create/"
+      ],
+      "aliases": [
+        "My Account",
+        "Sign In",
+        "Login",
+        "register"
+      ],
+      "example_intents": [
+        "I recently moved, my address is 231 Willow Way, Suite 100, Chicago, IL, 60601, update my information on OneStopShopping accordingly",
+        "I recently moved, my address is 654 Aspen Road, House #3, Boston, MA, 02110, update my information on OneStopShopping accordingly",
+        "I recently moved, my address is 987 Sycamore Circle, Philadelphia, PA, 19102, update my information on OneStopShopping accordingly",
+        "I recently moved, my address is 111 Magnolia Path, Atlanta, GA, 30303, update my information on OneStopShopping accordingly",
+        "I recently moved, my address is 222 Redwood Rise, Suite 300, Seattle, WA, 98101, update my information on OneStopShopping accordingly",
+        "Change the delivery address for my most recent order to 4000 Forbes Ave, Pittsburgh, PA.",
+        "Change the delivery address for my most recent order to 6726 McPherson Blvd, Pittsburgh, PA.",
+        "Change the delivery address for my most recent order to 155 5th Street, San Francisco, CA."
+      ],
+      "n_intents_matched": 10,
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "orders",
+      "name": "Orders and returns",
+      "summary": "Logged-in customers open order history (My Orders) from the account area. Guests can use Orders and Returns in the footer (/sales/guest/form/) to look up an order without signing in.",
+      "typical_actions": [
+        "open My Orders",
+        "open Orders and Returns",
+        "view order status"
+      ],
+      "related_urls": [
+        "/sales/order/history/",
+        "/sales/guest/form/"
+      ],
+      "aliases": [
+        "My Orders",
+        "Orders and Returns",
+        "order history"
+      ],
+      "example_intents": [
+        "Today is 6/12/2023. Tell me how many fulfilled orders I have over the past month, and the total amount of money I spent.",
+        "Today is 6/12/2023. Tell me how many fulfilled orders I have over the past three days, and the total amount of money I spent.",
+        "Today is 6/12/2023. Tell me how many fulfilled orders I have over the past four month, and the total amount of money I spent.",
+        "Today is 6/12/2023. Tell me how many fulfilled orders I have over the past year, and the total amount of money I spent.",
+        "Today is 6/12/2023. Tell me how many fulfilled orders I have over the past six month, and the total amount of money I spent.",
+        "Tell me the status of my latest order and when will it arrive",
+        "How much I spent on food-related shopping during March 2023",
+        "How much I spent on hair care and hair style shopping during Jan 2023"
+      ],
+      "n_intents_matched": 49,
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "contact",
+      "name": "Contact Us",
+      "summary": "Contact Us is a storefront form (often linked from the footer) for sending a message to the merchant without completing a purchase.",
+      "typical_actions": [
+        "open Contact Us",
+        "fill contact form",
+        "submit message"
+      ],
+      "related_urls": [
+        "/contact/"
+      ],
+      "aliases": [
+        "Contact Us",
+        "contact form"
+      ],
+      "example_intents": [
+        "List out reviewers, if exist, who mention about complain of the customer service",
+        "Which number to call for the customer service?",
+        "Draft an email to the shop owner via their contact us function for a coupon as I am a loyal customer",
+        "Draft an email to the shop owner via their contact us function for a coupon as they promised me a coupon last time",
+        "Draft an email to the shop owner via their contact us function for a coupon as I am a student",
+        "Draft an email to the shop owner via their contact us function for a coupon as my refund is suppoed to be replaced by a coupon",
+        "I previously ordered some a mattress foundation around Feb or March 2023 and later cancelled. Can you reorder it for me?",
+        "I previously ordered some a table lamp in May 2023 and later cancelled. Can you reorder it for me?"
+      ],
+      "n_intents_matched": 12,
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    }
+  ],
+  "unassigned_intents_sample": [],
+  "summary": {
+    "n_sections": 8,
+    "n_intents_assigned": 192,
+    "n_intents_assigned_keyword": 133,
+    "n_intents_assigned_llm": 59,
+    "n_intents_unassigned": 0
+  }
+}

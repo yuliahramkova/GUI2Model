@@ -1,0 +1,341 @@
+{
+  "app": "webarena_shopping",
+  "source": "web_docs_cleaned",
+  "comment": "Ручная чистка knowledge_base.json: убраны промахи классификации, добавлены секции reviews / wishlist / newsletter. example_intents — репрезентативные, без дублей шаблонов.",
+  "created_at": "2026-08-06T16:15:00+00:00",
+  "based_on": "data/docs_explore/knowledge_base.json",
+  "sections": [
+    {
+      "id": "search",
+      "name": "Product search",
+      "summary": "The storefront search box and search results page let shoppers find products by keywords. Results list matching items; empty queries or nonsense queries yield an empty results state. Advanced Search offers extra filters beyond the header search field.",
+      "typical_actions": [
+        "click search field",
+        "type query",
+        "submit Search",
+        "open Advanced Search"
+      ],
+      "related_urls": [
+        "/catalogsearch/result/",
+        "/catalogsearch/advanced/"
+      ],
+      "aliases": [
+        "Search",
+        "Advanced Search",
+        "search results"
+      ],
+      "example_intents": [
+        "I have jaw bruxism problem, show me something that could alleviate the problem.",
+        "What is the price range of wireless earphone in the One Stop Market?",
+        "What is the price range of Canon photo printer in the One Stop Market?",
+        "I have a lot of Nintendo Switch game cards now, help me find the best storage option to fit all 11 cards",
+        "I am doing a market survey for one stop market, show me the most expensive product from PS4 accessories category",
+        "What is the price range for products from Amazon basic?"
+      ],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "browse",
+      "name": "Categories and catalog",
+      "summary": "Category pages (e.g. Electronics) list products in a department. Shoppers open a top-level category, then often a subcategory, then a product from the listing. Listings can be sorted by price or other attributes.",
+      "typical_actions": [
+        "open category",
+        "open subcategory",
+        "browse listing",
+        "sort by price"
+      ],
+      "related_urls": [
+        "/electronics.html",
+        "/cell-phones-accessories.html"
+      ],
+      "aliases": [
+        "category",
+        "subcategory",
+        "catalog"
+      ],
+      "example_intents": [
+        "I want to browse the products in the Video Game category",
+        "I want to browse the products in the Headphones category",
+        "I want to browse the products in the Men shoes category",
+        "List products from PS4 accessories category by ascending price",
+        "List products from nutrition bars and drinks category by ascending price",
+        "Buy the best rating product from \"Men's shoe\" category with at least 5 reviews and the product is least expensive"
+      ],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "product",
+      "name": "Product detail page",
+      "summary": "A product page shows title, price, description, images, options, and purchase actions such as Add to Cart. It is reached from search results or category listings.",
+      "typical_actions": [
+        "open product",
+        "read price / description",
+        "Add to Cart",
+        "change quantity",
+        "open reviews tab"
+      ],
+      "related_urls": [
+        ".html"
+      ],
+      "aliases": [
+        "product page",
+        "PDP",
+        "item page"
+      ],
+      "example_intents": [
+        "What is the size configuration of the picture frame I bought Sep 2022",
+        "What is the color configuration of the artificial plants I bought Feb 2023",
+        "What is the price configuration of the fake tree I bought Jan 2023"
+      ],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "reviews",
+      "name": "Product reviews",
+      "summary": "On a product page, customers can read existing reviews and leave a star rating / review text for purchases. Review content is tied to the product detail page (often a Reviews section or #reviews).",
+      "typical_actions": [
+        "open Reviews on product page",
+        "read customer reviews",
+        "rate a recent purchase",
+        "submit review"
+      ],
+      "related_urls": [
+        "#reviews"
+      ],
+      "aliases": [
+        "Reviews",
+        "customer reviews",
+        "ratings"
+      ],
+      "example_intents": [
+        "List out reviewers, if exist, who mention about ear cups being small",
+        "List out reviewers, if exist, who mention about price being unfair",
+        "List out reviewers, if exist, who mention about complain of the customer service",
+        "Summarize customer reviews for Amazon Echo Dot 3rd generation.",
+        "What do customers say about brush from sephora",
+        "Rate my recent purchase of floor lamp with 5 stars, using my nickname Emma Lopez?",
+        "Rate my recent purchase of Mini Wireless Bluetooth Speaker with 2 stars, using my nickname SimpleEmma?",
+        "What are the main criticisms of this product? Please extract the relevant sentences."
+      ],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "wishlist",
+      "name": "Wish List",
+      "summary": "The Magento Wish List lets shoppers save products for later without adding them to the cart. From a product page or listing, Add to Wish List stores the item under the customer's Wish List (usually requires login).",
+      "typical_actions": [
+        "Add to Wish List",
+        "open My Wish List",
+        "remove from Wish List"
+      ],
+      "related_urls": [
+        "/wishlist/"
+      ],
+      "aliases": [
+        "Wish List",
+        "wishlist",
+        "wish list"
+      ],
+      "example_intents": [
+        "Add this product to my wishlist",
+        "Add a chair to my wish list.",
+        "Add a white desk to my wish list.",
+        "Add a laundry detergent to my wish list.",
+        "Add Tide PODS Spring Meadow Scent HE Turbo Laundry Detergent Pacs, 81 Count to my wish list",
+        "Add 2 Hawaiian Bamboo Orchid Roots #zc50 - by Discount Hawaiian Gifts to my wish list"
+      ],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "cart",
+      "name": "Shopping cart",
+      "summary": "The shopping cart holds items the shopper plans to buy. Magento also shows a mini-cart (My Cart) in the header; View and Edit Cart opens the full cart page at /checkout/cart/ where quantities can be updated before checkout.",
+      "typical_actions": [
+        "Add to Cart",
+        "open My Cart",
+        "View and Edit Cart",
+        "update quantity",
+        "remove item"
+      ],
+      "related_urls": [
+        "/checkout/cart/"
+      ],
+      "aliases": [
+        "My Cart",
+        "minicart",
+        "View and Edit Cart",
+        "Shopping Cart"
+      ],
+      "example_intents": [
+        "Add the product with the lowest per unit price from my open tabs to the shopping cart"
+      ],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "checkout",
+      "name": "Checkout",
+      "summary": "Checkout collects shipping address, shipping method, and payment to place an order. Guests can usually check out without an account. The flow starts from the cart via Proceed to Checkout and lands on /checkout/.",
+      "typical_actions": [
+        "Proceed to Checkout",
+        "enter shipping address",
+        "choose shipping method",
+        "place order"
+      ],
+      "related_urls": [
+        "/checkout/"
+      ],
+      "aliases": [
+        "checkout",
+        "shipping",
+        "payment",
+        "place order"
+      ],
+      "example_intents": [
+        "Buy the best rating product from \"Home Audio Speaker\" category with at least 5 reviews and the product is least expensive"
+      ],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-process"
+      ]
+    },
+    {
+      "id": "account",
+      "name": "Customer account",
+      "summary": "Registered customers sign in to My Account to manage profile information, addresses, and related account pages. Login is at /customer/account/login/; after success the account dashboard is at /customer/account/.",
+      "typical_actions": [
+        "Sign In",
+        "open My Account",
+        "edit account information",
+        "update address book",
+        "Create an Account"
+      ],
+      "related_urls": [
+        "/customer/account/",
+        "/customer/account/login/",
+        "/customer/account/create/"
+      ],
+      "aliases": [
+        "My Account",
+        "Sign In",
+        "Login",
+        "register",
+        "address book"
+      ],
+      "example_intents": [
+        "I recently moved, my address is 231 Willow Way, Suite 100, Chicago, IL, 60601, update my information on OneStopShopping accordingly",
+        "I recently moved, my address is 654 Aspen Road, House #3, Boston, MA, 02110, update my information on OneStopShopping accordingly",
+        "Change the delivery address for my most recent order to 4000 Forbes Ave, Pittsburgh, PA.",
+        "Change the delivery address for my most recent order to 155 5th Street, San Francisco, CA."
+      ],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "orders",
+      "name": "Orders and returns",
+      "summary": "Logged-in customers open order history (My Orders) from the account area to see past/pending orders, totals, and shipping details. Guests can use Orders and Returns in the footer (/sales/guest/form/) to look up an order without signing in. Reordering a cancelled item also starts from order history / product repurchase.",
+      "typical_actions": [
+        "open My Orders",
+        "open Orders and Returns",
+        "view order status / cost",
+        "reorder a cancelled item"
+      ],
+      "related_urls": [
+        "/sales/order/history/",
+        "/sales/guest/form/"
+      ],
+      "aliases": [
+        "My Orders",
+        "Orders and Returns",
+        "order history"
+      ],
+      "example_intents": [
+        "Today is 6/12/2023. Tell me how many fulfilled orders I have over the past month, and the total amount of money I spent.",
+        "Tell me the status of my latest order and when will it arrive",
+        "Tell me the total cost of my latest cancelled order?",
+        "Tell me the total cost of my latest pending order?",
+        "How much I spent on food-related shopping during March 2023",
+        "How much I spent on hair care and hair style shopping during Jan 2023",
+        "Show me the shipping method for order number 187.",
+        "What is the date when I made my first purchase on this site?",
+        "I previously ordered some a mattress foundation around Feb or March 2023 and later cancelled. Can you reorder it for me?",
+        "I previously ordered some a table lamp in May 2023 and later cancelled. Can you reorder it for me?"
+      ],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "contact",
+      "name": "Contact Us",
+      "summary": "Contact Us is a storefront form (often linked from the footer) for sending a message to the merchant — coupons, refunds drafts, general questions — without completing a purchase flow.",
+      "typical_actions": [
+        "open Contact Us",
+        "fill contact form",
+        "draft message (optional: do not submit)"
+      ],
+      "related_urls": [
+        "/contact/"
+      ],
+      "aliases": [
+        "Contact Us",
+        "contact form"
+      ],
+      "example_intents": [
+        "Which number to call for the customer service?",
+        "Draft an email to the shop owner via their contact us function for a coupon as I am a loyal customer",
+        "Draft an email to the shop owner via their contact us function for a coupon as I am a student",
+        "Draft a refund message via their \"contact us\" form for the phone screen protector I bought March 2023. It broke after three days of use. The shop requires the order id, the reason and the amount to refund in the message. Don't submit yet",
+        "Draft a refund message via their \"contact us\" form for the bluetooth speaker I bought Feb 2023. It broke after three days of use. The shop requires the order id, the reason and the amount to refund in the message. Don't submit yet"
+      ],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter",
+      "summary": "The storefront footer (or account area) may offer Subscribe to Newsletter so the shopper receives marketing emails from the merchant.",
+      "typical_actions": [
+        "subscribe to newsletter",
+        "enter email in newsletter field"
+      ],
+      "related_urls": [
+        "/newsletter/"
+      ],
+      "aliases": [
+        "newsletter",
+        "subscribe"
+      ],
+      "example_intents": [
+        "Subscribe to the newsletter of OneStopMarket"
+      ],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    }
+  ],
+  "summary": {
+    "n_sections": 11,
+    "n_sections_added": ["reviews", "wishlist", "newsletter"],
+    "cleaning": [
+      "wishlist intents removed from product/cart",
+      "review / rate intents moved to reviews",
+      "contact us / refund drafts kept in contact",
+      "reorder / spend / order cost moved to orders",
+      "checkout cleared of reviews/contact/orders noise"
+    ]
+  }
+}

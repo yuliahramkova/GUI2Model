@@ -1,0 +1,139 @@
+{
+  "app": "webarena_shopping",
+  "comment": "Seed for docs exploration: Magento storefront section summaries + keyword rules. Synced with knowledge_base.cleaned.json (reviews / wishlist / newsletter).",
+  "webarena_test_raw_url": "https://raw.githubusercontent.com/web-arena-x/webarena/main/config_files/test.raw.json",
+  "sections": [
+    {
+      "id": "search",
+      "name": "Product search",
+      "summary": "The storefront search box and search results page let shoppers find products by keywords. Results list matching items; empty queries or nonsense queries yield an empty results state. Advanced Search offers extra filters beyond the header search field.",
+      "typical_actions": ["click search field", "type query", "submit Search", "open Advanced Search"],
+      "related_urls": ["/catalogsearch/result/", "/catalogsearch/advanced/"],
+      "aliases": ["Search", "Advanced Search", "search results"],
+      "intent_keywords": ["search", "find", "look for", "looking for", "show me", "what are the", "cheapest", "most expensive", "under $", "price of", "price range", "market survey", "alleviate"],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "browse",
+      "name": "Categories and catalog",
+      "summary": "Category pages (e.g. Electronics) list products in a department. Shoppers open a top-level category, then often a subcategory, then a product from the listing.",
+      "typical_actions": ["open category", "open subcategory", "browse listing", "sort by price"],
+      "related_urls": ["/electronics.html", "/cell-phones-accessories.html"],
+      "aliases": ["category", "subcategory", "catalog"],
+      "intent_keywords": ["category", "categories", "electronics", "browse", "department", "list products from", "ascending price"],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "product",
+      "name": "Product detail page",
+      "summary": "A product page shows title, price, description, images, and actions such as Add to Cart. It is reached from search results or category listings.",
+      "typical_actions": ["open product", "read price", "Add to Cart", "change quantity"],
+      "related_urls": [".html"],
+      "aliases": ["product page", "PDP", "item page"],
+      "intent_keywords": ["product page", "product detail", "configuration of", "brand of", "available in"],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "reviews",
+      "name": "Product reviews",
+      "summary": "On a product page, customers can read existing reviews and leave a star rating / review text for purchases.",
+      "typical_actions": ["open Reviews", "read customer reviews", "rate a purchase", "submit review"],
+      "related_urls": ["#reviews"],
+      "aliases": ["Reviews", "customer reviews", "ratings"],
+      "intent_keywords": ["reviewers", "customer reviews", "rate my recent", "criticisms", "customers say", "summarize customer reviews"],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "wishlist",
+      "name": "Wish List",
+      "summary": "The Magento Wish List lets shoppers save products for later without adding them to the cart.",
+      "typical_actions": ["Add to Wish List", "open My Wish List"],
+      "related_urls": ["/wishlist/"],
+      "aliases": ["Wish List", "wishlist", "wish list"],
+      "intent_keywords": ["wish list", "wishlist"],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "cart",
+      "name": "Shopping cart",
+      "summary": "The shopping cart holds items the shopper plans to buy. Magento also shows a mini-cart (My Cart) in the header; View and Edit Cart opens the full cart page at /checkout/cart/.",
+      "typical_actions": ["Add to Cart", "open My Cart", "View and Edit Cart", "update quantity", "remove item"],
+      "related_urls": ["/checkout/cart/"],
+      "aliases": ["My Cart", "minicart", "View and Edit Cart", "Shopping Cart"],
+      "intent_keywords": ["shopping cart", "my cart", "add to cart", "in my cart", "cart total", "remove from cart", "quantity in cart"],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "checkout",
+      "name": "Checkout",
+      "summary": "Checkout collects shipping address, shipping method, and payment to place an order. Guests can usually check out without an account.",
+      "typical_actions": ["Proceed to Checkout", "enter shipping address", "choose shipping method", "place order"],
+      "related_urls": ["/checkout/"],
+      "aliases": ["checkout", "shipping", "payment", "place order"],
+      "intent_keywords": ["checkout", "place order", "shipping address", "payment method", "buy the highest", "buy the best rating", "buy now"],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-process"
+      ]
+    },
+    {
+      "id": "account",
+      "name": "Customer account",
+      "summary": "Registered customers sign in to My Account to manage profile information, addresses, and related account pages.",
+      "typical_actions": ["Sign In", "open My Account", "edit account information", "Create an Account"],
+      "related_urls": ["/customer/account/", "/customer/account/login/", "/customer/account/create/"],
+      "aliases": ["My Account", "Sign In", "Login", "register"],
+      "intent_keywords": ["log in", "login", "sign in", "my account", "account information", "create an account", "register", "update my information", "delivery address for my most recent"],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "orders",
+      "name": "Orders and returns",
+      "summary": "Logged-in customers open order history (My Orders). Guests can use Orders and Returns in the footer. Includes spend totals and reorder of cancelled items.",
+      "typical_actions": ["open My Orders", "open Orders and Returns", "view order status", "reorder"],
+      "related_urls": ["/sales/order/history/", "/sales/guest/form/"],
+      "aliases": ["My Orders", "Orders and Returns", "order history"],
+      "intent_keywords": ["order history", "my orders", "past orders", "order status", "orders and returns", "cancelled order", "pending order", "complete order", "processing order", "latest order", "i spent", "fulfilled orders", "reorder", "shipping method for order", "first purchase"],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "contact",
+      "name": "Contact Us",
+      "summary": "Contact Us is a storefront form for sending a message to the merchant (coupons, refund drafts, questions).",
+      "typical_actions": ["open Contact Us", "fill contact form", "submit message"],
+      "related_urls": ["/contact/"],
+      "aliases": ["Contact Us", "contact form"],
+      "intent_keywords": ["contact us", "contact form", "draft an email", "draft a refund", "customer service", "number to call"],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter",
+      "summary": "Subscribe to Newsletter so the shopper receives marketing emails from the merchant.",
+      "typical_actions": ["subscribe to newsletter"],
+      "related_urls": ["/newsletter/"],
+      "aliases": ["newsletter", "subscribe"],
+      "intent_keywords": ["newsletter", "subscribe to the newsletter"],
+      "source_urls": [
+        "https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront"
+      ]
+    }
+  ]
+}

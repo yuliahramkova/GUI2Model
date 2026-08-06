@@ -1,0 +1,244 @@
+[
+  {
+    "mark_id": 1,
+    "role": "link",
+    "name": "My Account",
+    "bbox_norm": [
+      0.51484375,
+      0.013888888888888888,
+      0.57578125,
+      0.04027777777777778
+    ]
+  },
+  {
+    "mark_id": 2,
+    "role": "link",
+    "name": "My Wish List",
+    "bbox_norm": [
+      0.5875,
+      0.013888888888888888,
+      0.653125,
+      0.04027777777777778
+    ]
+  },
+  {
+    "mark_id": 3,
+    "role": "link",
+    "name": "Sign In",
+    "bbox_norm": [
+      0.66484375,
+      0.013888888888888888,
+      0.70078125,
+      0.04027777777777778
+    ]
+  },
+  {
+    "mark_id": 4,
+    "role": "link",
+    "name": "Create an Account",
+    "bbox_norm": [
+      0.88828125,
+      0.013888888888888888,
+      0.984375,
+      0.04027777777777778
+    ]
+  },
+  {
+    "mark_id": 5,
+    "role": "link",
+    "name": "store logo",
+    "bbox_norm": [
+      0.015625,
+      0.09861111111111111,
+      0.171875,
+      0.13648003472222223
+    ]
+  },
+  {
+    "mark_id": 6,
+    "role": "combobox",
+    "name": "Search entire store here...",
+    "bbox_norm": [
+      0.7515625,
+      0.09861111111111111,
+      0.946875,
+      0.14305555555555555
+    ]
+  },
+  {
+    "mark_id": 7,
+    "role": "button",
+    "name": "Search",
+    "bbox_norm": [
+      0.921875,
+      0.09861111111111111,
+      0.9390625,
+      0.14305555555555555
+    ]
+  },
+  {
+    "mark_id": 8,
+    "role": "link",
+    "name": "My Cart",
+    "bbox_norm": [
+      0.95703125,
+      0.09861111111111111,
+      0.984375,
+      0.14444444444444443
+    ]
+  },
+  {
+    "mark_id": 9,
+    "role": "link",
+    "name": "Advanced Search",
+    "bbox_norm": [
+      0.7515625,
+      0.15,
+      0.8421875,
+      0.1763888888888889
+    ]
+  },
+  {
+    "mark_id": 10,
+    "role": "menu",
+    "name": "Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme",
+    "bbox_norm": [
+      0.0,
+      0.17777777777777778,
+      1.0,
+      0.325
+    ]
+  },
+  {
+    "mark_id": 11,
+    "role": "menuitem",
+    "name": "Beauty & Personal Care",
+    "bbox_norm": [
+      0.00625,
+      0.17777777777777778,
+      0.1578125,
+      0.2513888888888889
+    ]
+  },
+  {
+    "mark_id": 12,
+    "role": "menuitem",
+    "name": "Sports & Outdoors",
+    "bbox_norm": [
+      0.165625,
+      0.17777777777777778,
+      0.2921875,
+      0.2513888888888889
+    ]
+  },
+  {
+    "mark_id": 13,
+    "role": "menuitem",
+    "name": "Clothing, Shoes & Jewelry",
+    "bbox_norm": [
+      0.3,
+      0.17777777777777778,
+      0.46328125,
+      0.2513888888888889
+    ]
+  },
+  {
+    "mark_id": 14,
+    "role": "menuitem",
+    "name": "Home & Kitchen",
+    "bbox_norm": [
+      0.47109375,
+      0.17777777777777778,
+      0.584375,
+      0.2513888888888889
+    ]
+  },
+  {
+    "mark_id": 15,
+    "role": "menuitem",
+    "name": "Office Products",
+    "bbox_norm": [
+      0.5921875,
+      0.17777777777777778,
+      0.70078125,
+      0.2513888888888889
+    ]
+  },
+  {
+    "mark_id": 16,
+    "role": "menuitem",
+    "name": "Tools & Home Improvement",
+    "bbox_norm": [
+      0.70859375,
+      0.17777777777777778,
+      0.8875,
+      0.2513888888888889
+    ]
+  },
+  {
+    "mark_id": 17,
+    "role": "menuitem",
+    "name": "Health & Household",
+    "bbox_norm": [
+      0.00625,
+      0.2513888888888889,
+      0.140625,
+      0.325
+    ]
+  },
+  {
+    "mark_id": 18,
+    "role": "menuitem",
+    "name": "Patio, Lawn & Garden",
+    "bbox_norm": [
+      0.1484375,
+      0.2513888888888889,
+      0.290625,
+      0.325
+    ]
+  },
+  {
+    "mark_id": 19,
+    "role": "menuitem",
+    "name": "Electronics",
+    "bbox_norm": [
+      0.2984375,
+      0.2513888888888889,
+      0.38203125,
+      0.325
+    ]
+  },
+  {
+    "mark_id": 20,
+    "role": "menuitem",
+    "name": "Cell Phones & Accessories",
+    "bbox_norm": [
+      0.38984375,
+      0.2513888888888889,
+      0.5546875,
+      0.325
+    ]
+  },
+  {
+    "mark_id": 21,
+    "role": "menuitem",
+    "name": "Video Games",
+    "bbox_norm": [
+      0.5625,
+      0.2513888888888889,
+      0.6578125,
+      0.325
+    ]
+  },
+  {
+    "mark_id": 22,
+    "role": "menuitem",
+    "name": "Grocery & Gourmet Food",
+    "bbox_norm": [
+      0.665625,
+      0.2513888888888889,
+      0.8265625,
+      0.325
+    ]
+  }
+]

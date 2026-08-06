@@ -1,0 +1,587 @@
+{
+  "app": "webarena_shopping",
+  "base_url": "https://reiterate-unnamable-upstroke.ngrok-free.dev",
+  "updated_at": "2026-08-02T21:54:36.181295+00:00",
+  "source": "cua_explore",
+  "observation_mode": "screenshot_plus_som",
+  "task_config": "configs/cua_tasks.json",
+  "created_at": "2026-08-01T20:51:10.734737+00:00",
+  "tasks": [
+    {
+      "id": "search_tea_results",
+      "goal": "Search for tea and open the search results page.",
+      "start_url": "https://reiterate-unnamable-upstroke.ngrok-free.dev/",
+      "observation_mode": "screenshot_plus_som",
+      "n_steps_executed": 3,
+      "success": true,
+      "trace_file": "screenshot_plus_som/traces/search_tea_results__screenshot_plus_som.jsonl"
+    },
+    {
+      "id": "open_advanced_search",
+      "goal": "Open the Advanced Search page from the homepage header.",
+      "start_url": "https://reiterate-unnamable-upstroke.ngrok-free.dev/",
+      "observation_mode": "screenshot_plus_som",
+      "n_steps_executed": 1,
+      "success": true,
+      "trace_file": "screenshot_plus_som/traces/open_advanced_search__screenshot_plus_som.jsonl"
+    },
+    {
+      "id": "login_open_order_history",
+      "goal": "Log in with the test customer account and open the order history page.",
+      "start_url": "https://reiterate-unnamable-upstroke.ngrok-free.dev/customer/account/login/",
+      "observation_mode": "screenshot_plus_som",
+      "n_steps_executed": 2,
+      "success": true,
+      "trace_file": "screenshot_plus_som/traces/login_open_order_history__screenshot_plus_som.jsonl"
+    },
+    {
+      "id": "search_open_first_product",
+      "goal": "You are on tea search results. Open any product detail page by clicking a product title (or product link). Done when the URL ends with .html and the page title is not Search results.",
+      "start_url": "https://reiterate-unnamable-upstroke.ngrok-free.dev/catalogsearch/result/?q=tea",
+      "observation_mode": "screenshot_plus_som",
+      "n_steps_executed": 1,
+      "success": true,
+      "trace_file": "screenshot_plus_som/traces/search_open_first_product__screenshot_plus_som.jsonl"
+    },
+    {
+      "id": "product_add_to_cart",
+      "goal": "You start on a product page. (1) Click Add to Cart. If a spinner appears, wait 2000. Do not click Add to Cart again. (2) Click My Cart (header cart icon) once to open the minicart dropdown. (3) In the open dropdown, click the mark whose name is exactly \"View and Edit Cart\" (match by mark name, not a nearby low id). Do NOT click Proceed to Checkout (that goes to /checkout/, wrong page). Do NOT keep toggling My Cart. Done only when URL contains /checkout/cart/ and title contains Shopping Cart.",
+      "start_url": "https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html",
+      "observation_mode": "screenshot_plus_som",
+      "n_steps_executed": 4,
+      "success": true,
+      "trace_file": "screenshot_plus_som/traces/product_add_to_cart__screenshot_plus_som.jsonl"
+    },
+    {
+      "id": "guest_open_orders_returns",
+      "goal": "Do NOT sign in and do NOT open Forgot Password or My Account. Scroll to the homepage footer if needed and open the guest link \"Orders and Returns\" (URL contains /sales/guest/form/). Done when the Orders and Returns page is open.",
+      "start_url": "https://reiterate-unnamable-upstroke.ngrok-free.dev/",
+      "observation_mode": "screenshot_plus_som",
+      "n_steps_executed": 2,
+      "success": true,
+      "trace_file": "screenshot_plus_som/traces/guest_open_orders_returns__screenshot_plus_som.jsonl"
+    },
+    {
+      "id": "guest_open_contact_form",
+      "goal": "Open Contact Us from the homepage footer. Done when the Contact Us page is open.",
+      "start_url": "https://reiterate-unnamable-upstroke.ngrok-free.dev/",
+      "observation_mode": "screenshot_plus_som",
+      "n_steps_executed": 2,
+      "success": true,
+      "trace_file": "screenshot_plus_som/traces/guest_open_contact_form__screenshot_plus_som.jsonl"
+    },
+    {
+      "id": "browse_category_open_product",
+      "goal": "Open Electronics and navigate from the category page to a product detail page.",
+      "start_url": "https://reiterate-unnamable-upstroke.ngrok-free.dev/electronics.html",
+      "observation_mode": "screenshot_plus_som",
+      "n_steps_executed": 1,
+      "success": true,
+      "trace_file": "screenshot_plus_som/traces/browse_category_open_product__screenshot_plus_som.jsonl"
+    },
+    {
+      "id": "browse_category_to_subcategory",
+      "goal": "Open Electronics and then navigate to Cell Phones & Accessories.",
+      "start_url": "https://reiterate-unnamable-upstroke.ngrok-free.dev/",
+      "observation_mode": "screenshot_plus_som",
+      "n_steps_executed": 2,
+      "success": true,
+      "trace_file": "screenshot_plus_som/traces/browse_category_to_subcategory__screenshot_plus_som.jsonl"
+    },
+    {
+      "id": "login_to_account",
+      "goal": "Log in with the test customer account and open My Account.",
+      "start_url": "https://reiterate-unnamable-upstroke.ngrok-free.dev/customer/account/login/",
+      "observation_mode": "screenshot_plus_som",
+      "n_steps_executed": 1,
+      "success": true,
+      "trace_file": "screenshot_plus_som/traces/login_to_account__screenshot_plus_som.jsonl"
+    },
+    {
+      "id": "cart_to_checkout_shipping",
+      "goal": "Add a product to the cart and proceed to the checkout shipping step.",
+      "start_url": "https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html",
+      "observation_mode": "screenshot_plus_som",
+      "n_steps_executed": 4,
+      "success": true,
+      "trace_file": "screenshot_plus_som/traces/cart_to_checkout_shipping__screenshot_plus_som.jsonl"
+    }
+  ],
+  "transitions": [
+    {
+      "task_id": "search_tea_results",
+      "step": 0,
+      "from_state_id": "90d110975ccc",
+      "to_state_id": "90d110975ccc",
+      "action": {
+        "action": "click",
+        "target_mark_id": 6
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/",
+      "title_after": "One Stop Market"
+    },
+    {
+      "task_id": "search_tea_results",
+      "step": 1,
+      "from_state_id": "90d110975ccc",
+      "to_state_id": "90d110975ccc",
+      "action": {
+        "action": "type",
+        "target_mark_id": 6,
+        "value": "tea"
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/",
+      "title_after": "One Stop Market"
+    },
+    {
+      "task_id": "search_tea_results",
+      "step": 2,
+      "from_state_id": "90d110975ccc",
+      "to_state_id": "5aeb2d36affc",
+      "action": {
+        "action": "click",
+        "target_mark_id": 7
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/catalogsearch/result/?q=tea",
+      "title_after": "Search results for: 'tea'"
+    },
+    {
+      "task_id": "open_advanced_search",
+      "step": 0,
+      "from_state_id": "90d110975ccc",
+      "to_state_id": "f06c611aa270",
+      "action": {
+        "action": "click",
+        "target_mark_id": 9
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/catalogsearch/advanced/",
+      "title_after": "Advanced Search"
+    },
+    {
+      "task_id": "login_open_order_history",
+      "step": 0,
+      "from_state_id": "0afc06f4efb1",
+      "to_state_id": "ad1ab870872b",
+      "action": {
+        "action": "click",
+        "target_mark_id": 27
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/customer/account/",
+      "title_after": "My Account"
+    },
+    {
+      "task_id": "login_open_order_history",
+      "step": 1,
+      "from_state_id": "ad1ab870872b",
+      "to_state_id": "6d790fd6aada",
+      "action": {
+        "action": "click",
+        "target_mark_id": 22
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/sales/order/history/",
+      "title_after": "My Orders"
+    },
+    {
+      "task_id": "search_open_first_product",
+      "step": 0,
+      "from_state_id": "5aeb2d36affc",
+      "to_state_id": "680c93c4dbc4",
+      "action": {
+        "action": "click",
+        "target_mark_id": 1
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/ding-ji-loose-leaf-tea-black-tea-organic-oolong-tea-tea-bags-100-natural-high-mountain-tea-from-taiwan-chinese-teabags-oolong-teabags-4-packs.html",
+      "title_after": "【鼎季 DING JI】Loose Leaf Tea Black tea ,Organic Oolong Tea , Tea Bags, 100% Natural High Mountain Tea From Taiwan. Chinese Teabags (Oolong Teabags-4 Packs)"
+    },
+    {
+      "task_id": "product_add_to_cart",
+      "step": 0,
+      "from_state_id": "cf8b5e2010bd",
+      "to_state_id": "cf8b5e2010bd",
+      "action": {
+        "action": "click",
+        "target_mark_id": 26
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html",
+      "title_after": "Briess DME - Pilsen Light - 1 lb Bag"
+    },
+    {
+      "task_id": "product_add_to_cart",
+      "step": 1,
+      "from_state_id": "cf8b5e2010bd",
+      "to_state_id": "cf8b5e2010bd",
+      "action": {
+        "action": "wait",
+        "value": 2000
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html",
+      "title_after": "Briess DME - Pilsen Light - 1 lb Bag"
+    },
+    {
+      "task_id": "product_add_to_cart",
+      "step": 2,
+      "from_state_id": "cf8b5e2010bd",
+      "to_state_id": "cf8b5e2010bd",
+      "action": {
+        "action": "click",
+        "target_mark_id": 8
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html",
+      "title_after": "Briess DME - Pilsen Light - 1 lb Bag"
+    },
+    {
+      "task_id": "product_add_to_cart",
+      "step": 3,
+      "from_state_id": "cf8b5e2010bd",
+      "to_state_id": "afcab86ea55f",
+      "action": {
+        "action": "click",
+        "target_mark_id": 3
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/checkout/cart/",
+      "title_after": "Shopping Cart"
+    },
+    {
+      "task_id": "guest_open_orders_returns",
+      "step": 0,
+      "from_state_id": "90d110975ccc",
+      "to_state_id": "90d110975ccc",
+      "action": {
+        "action": "scroll",
+        "target_mark_id": null,
+        "value": 1000
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/",
+      "title_after": "One Stop Market"
+    },
+    {
+      "task_id": "guest_open_orders_returns",
+      "step": 1,
+      "from_state_id": "90d110975ccc",
+      "to_state_id": "c62d5eb1b8fc",
+      "action": {
+        "action": "click",
+        "target_mark_id": 40
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/sales/guest/form/",
+      "title_after": "Orders and Returns"
+    },
+    {
+      "task_id": "guest_open_contact_form",
+      "step": 0,
+      "from_state_id": "90d110975ccc",
+      "to_state_id": "90d110975ccc",
+      "action": {
+        "action": "scroll",
+        "value": 1500
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/",
+      "title_after": "One Stop Market"
+    },
+    {
+      "task_id": "guest_open_contact_form",
+      "step": 1,
+      "from_state_id": "90d110975ccc",
+      "to_state_id": "54c7e56e66f2",
+      "action": {
+        "action": "click",
+        "target_mark_id": 41
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/contact/",
+      "title_after": "Contact Us"
+    },
+    {
+      "task_id": "browse_category_open_product",
+      "step": 0,
+      "from_state_id": "75c216062265",
+      "to_state_id": "463507b849a4",
+      "action": {
+        "action": "click",
+        "target_mark_id": 1
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/navitech-black-hard-carry-bag-case-cover-with-shoulder-strap-compatible-with-the-vr-virtual-reality-3d-headsets-including-the-crypto-vr-150-virtual-reality-headset-3d-glasses.html",
+      "title_after": "Navitech Black Hard Carry Bag/Case/Cover with Shoulder Strap Compatible with The VR/Virtual Reality 3D headsets Including The Crypto VR 150 Virtual Reality Headset 3D Glasses"
+    },
+    {
+      "task_id": "browse_category_to_subcategory",
+      "step": 0,
+      "from_state_id": "90d110975ccc",
+      "to_state_id": "75c216062265",
+      "action": {
+        "action": "click",
+        "target_mark_id": 29
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/electronics.html",
+      "title_after": "Electronics"
+    },
+    {
+      "task_id": "browse_category_to_subcategory",
+      "step": 1,
+      "from_state_id": "75c216062265",
+      "to_state_id": "059ed3e9d1f1",
+      "action": {
+        "action": "click",
+        "target_mark_id": 27
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/cell-phones-accessories.html",
+      "title_after": "Cell Phones & Accessories"
+    },
+    {
+      "task_id": "login_to_account",
+      "step": 0,
+      "from_state_id": "0afc06f4efb1",
+      "to_state_id": "ad1ab870872b",
+      "action": {
+        "action": "click",
+        "target_mark_id": 27
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/customer/account/",
+      "title_after": "My Account"
+    },
+    {
+      "task_id": "cart_to_checkout_shipping",
+      "step": 0,
+      "from_state_id": "cf8b5e2010bd",
+      "to_state_id": "cf8b5e2010bd",
+      "action": {
+        "action": "click",
+        "target_mark_id": 26
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html",
+      "title_after": "Briess DME - Pilsen Light - 1 lb Bag"
+    },
+    {
+      "task_id": "cart_to_checkout_shipping",
+      "step": 1,
+      "from_state_id": "cf8b5e2010bd",
+      "to_state_id": "cf8b5e2010bd",
+      "action": {
+        "action": "wait",
+        "value": 2000
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html",
+      "title_after": "Briess DME - Pilsen Light - 1 lb Bag"
+    },
+    {
+      "task_id": "cart_to_checkout_shipping",
+      "step": 2,
+      "from_state_id": "cf8b5e2010bd",
+      "to_state_id": "cf8b5e2010bd",
+      "action": {
+        "action": "click",
+        "target_mark_id": 8
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html",
+      "title_after": "Briess DME - Pilsen Light - 1 lb Bag"
+    },
+    {
+      "task_id": "cart_to_checkout_shipping",
+      "step": 3,
+      "from_state_id": "cf8b5e2010bd",
+      "to_state_id": "3ce934580669",
+      "action": {
+        "action": "click",
+        "target_mark_id": 1
+      },
+      "success": true,
+      "error": null,
+      "url_after": "https://reiterate-unnamable-upstroke.ngrok-free.dev/checkout/",
+      "title_after": "Checkout"
+    }
+  ],
+  "procedures": [
+    {
+      "id": "search_tea_results",
+      "task_id": "search_tea_results",
+      "procedure": "click(target_mark_id=6) -> type('tea') -> click(target_mark_id=7)",
+      "n_steps": 3
+    },
+    {
+      "id": "open_advanced_search",
+      "task_id": "open_advanced_search",
+      "procedure": "click(target_mark_id=9)",
+      "n_steps": 1
+    },
+    {
+      "id": "login_open_order_history",
+      "task_id": "login_open_order_history",
+      "procedure": "click(target_mark_id=27) -> click(target_mark_id=22)",
+      "n_steps": 2
+    },
+    {
+      "id": "search_open_first_product",
+      "task_id": "search_open_first_product",
+      "procedure": "click(target_mark_id=1)",
+      "n_steps": 1
+    },
+    {
+      "id": "product_add_to_cart",
+      "task_id": "product_add_to_cart",
+      "procedure": "click(target_mark_id=26) -> wait -> click(target_mark_id=8) -> click(target_mark_id=3)",
+      "n_steps": 4
+    },
+    {
+      "id": "guest_open_orders_returns",
+      "task_id": "guest_open_orders_returns",
+      "procedure": "scroll -> click(target_mark_id=40)",
+      "n_steps": 2
+    },
+    {
+      "id": "guest_open_contact_form",
+      "task_id": "guest_open_contact_form",
+      "procedure": "scroll -> click(target_mark_id=41)",
+      "n_steps": 2
+    },
+    {
+      "id": "browse_category_open_product",
+      "task_id": "browse_category_open_product",
+      "procedure": "click(target_mark_id=1)",
+      "n_steps": 1
+    },
+    {
+      "id": "browse_category_to_subcategory",
+      "task_id": "browse_category_to_subcategory",
+      "procedure": "click(target_mark_id=29) -> click(target_mark_id=27)",
+      "n_steps": 2
+    },
+    {
+      "id": "login_to_account",
+      "task_id": "login_to_account",
+      "procedure": "click(target_mark_id=27)",
+      "n_steps": 1
+    },
+    {
+      "id": "cart_to_checkout_shipping",
+      "task_id": "cart_to_checkout_shipping",
+      "procedure": "click(target_mark_id=26) -> wait -> click(target_mark_id=8) -> click(target_mark_id=1)",
+      "n_steps": 4
+    }
+  ],
+  "states": [
+    {
+      "state_id": "90d110975ccc",
+      "key": "https://reiterate-unnamable-upstroke.ngrok-free.dev/::One Stop Market"
+    },
+    {
+      "state_id": "5aeb2d36affc",
+      "key": "https://reiterate-unnamable-upstroke.ngrok-free.dev/catalogsearch/result/?q=tea::Search results for: 'tea'"
+    },
+    {
+      "state_id": "75c216062265",
+      "key": "https://reiterate-unnamable-upstroke.ngrok-free.dev/electronics.html::Electronics"
+    },
+    {
+      "state_id": "059ed3e9d1f1",
+      "key": "https://reiterate-unnamable-upstroke.ngrok-free.dev/cell-phones-accessories.html::Cell Phones & Accessories"
+    },
+    {
+      "state_id": "f06c611aa270",
+      "key": "https://reiterate-unnamable-upstroke.ngrok-free.dev/catalogsearch/advanced/::Advanced Search"
+    },
+    {
+      "state_id": "9927b561563f",
+      "key": "https://reiterate-unnamable-upstroke.ngrok-free.dev/electronics.html?cat=51::Electronics"
+    },
+    {
+      "state_id": "7a42e03c1ba1",
+      "key": "https://reiterate-unnamable-upstroke.ngrok-free.dev/electronics.html?cat=193::Electronics"
+    },
+    {
+      "state_id": "cf8b5e2010bd",
+      "key": "https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html::Briess DME - Pilsen Light - 1 lb Bag"
+    },
+    {
+      "state_id": "3ce934580669",
+      "key": "https://reiterate-unnamable-upstroke.ngrok-free.dev/checkout/::Checkout"
+    },
+    {
+      "state_id": "0afc06f4efb1",
+      "key": "https://reiterate-unnamable-upstroke.ngrok-free.dev/customer/account/login/::Customer Login"
+    },
+    {
+      "state_id": "5a4ffbb10b05",
+      "key": "https://reiterate-unnamable-upstroke.ngrok-free.dev/customer/account/login/::Loading https://reiterate-unnamable-upstroke.ngrok-free.dev/customer/account/loginPost/"
+    },
+    {
+      "state_id": "ad1ab870872b",
+      "key": "https://reiterate-unnamable-upstroke.ngrok-free.dev/customer/account/::My Account"
+    },
+    {
+      "state_id": "6d790fd6aada",
+      "key": "https://reiterate-unnamable-upstroke.ngrok-free.dev/sales/order/history/::My Orders"
+    },
+    {
+      "state_id": "680c93c4dbc4",
+      "key": "https://reiterate-unnamable-upstroke.ngrok-free.dev/ding-ji-loose-leaf-tea-black-tea-organic-oolong-tea-tea-bags-100-natural-high-mountain-tea-from-taiwan-chinese-teabags-oolong-teabags-4-packs.html::【鼎季 DING JI】Loose Leaf Tea Black tea ,Organic Oolong Tea , Tea Bags, 100% Natural High Mountain Tea From Taiwan. Chinese Teabags (Oolong Teabags-4 Packs)"
+    },
+    {
+      "state_id": "afcab86ea55f",
+      "key": "https://reiterate-unnamable-upstroke.ngrok-free.dev/checkout/cart/::Shopping Cart"
+    },
+    {
+      "state_id": "c62d5eb1b8fc",
+      "key": "https://reiterate-unnamable-upstroke.ngrok-free.dev/sales/guest/form/::Orders and Returns"
+    },
+    {
+      "state_id": "54c7e56e66f2",
+      "key": "https://reiterate-unnamable-upstroke.ngrok-free.dev/contact/::Contact Us"
+    },
+    {
+      "state_id": "463507b849a4",
+      "key": "https://reiterate-unnamable-upstroke.ngrok-free.dev/navitech-black-hard-carry-bag-case-cover-with-shoulder-strap-compatible-with-the-vr-virtual-reality-3d-headsets-including-the-crypto-vr-150-virtual-reality-headset-3d-glasses.html::Navitech Black Hard Carry Bag/Case/Cover with Shoulder Strap Compatible with The VR/Virtual Reality 3D headsets Including The Crypto VR 150 Virtual Reality Headset 3D Glasses"
+    }
+  ],
+  "summary": {
+    "n_tasks_total": 11,
+    "n_tasks_run": 11,
+    "n_tasks_success": 11,
+    "n_tasks_failed": 0,
+    "n_states": 18,
+    "n_transitions": 23,
+    "n_procedures": 11
+  }
+}

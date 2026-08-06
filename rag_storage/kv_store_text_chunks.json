@@ -1,0 +1,44 @@
+{
+  "doc-618cf7f81fe623d98bfb4a922d22fa0a-chunk-000": {
+    "tokens": 58,
+    "content": "On the screen 'Снимок экрана 2026-07-23 в 00.01.52.png', there is a UI element 'click on 'Add to Cart' button for the first product' located at [700, 460, 820, 490].",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-618cf7f81fe623d98bfb4a922d22fa0a",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:f3f1a9537f84c11a74e1d49567885d83",
+      "default:extract:27677ccc6bb1f566038f1d57a3f9e5df"
+    ],
+    "create_time": 1786014576,
+    "update_time": 1786014576,
+    "_id": "doc-618cf7f81fe623d98bfb4a922d22fa0a-chunk-000"
+  },
+  "doc-191917c8c1dc62aaf4cb5b5c652a30c4-chunk-000": {
+    "tokens": 58,
+    "content": "On the screen 'Снимок экрана 2026-07-23 в 00.01.52.png', there is a UI element 'click on 'Add to Cart' button for the second product' located at [700, 640, 820, 670].",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-191917c8c1dc62aaf4cb5b5c652a30c4",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:ffcd46513fb4bfec97f682c6f9cf5423",
+      "default:extract:c0f49766a4065e2f0d440bad6eea3a39"
+    ],
+    "create_time": 1786014576,
+    "update_time": 1786014576,
+    "_id": "doc-191917c8c1dc62aaf4cb5b5c652a30c4-chunk-000"
+  },
+  "doc-ff4caf8819f1b1c7fdad2023d0d5e3f9-chunk-000": {
+    "tokens": 54,
+    "content": "On the screen 'Снимок экрана 2026-07-23 в 00.01.52.png', there is a UI element 'click on the price of the first product' located at [640, 400, 720, 430].",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-ff4caf8819f1b1c7fdad2023d0d5e3f9",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:24a7a254a024c7b6fe4d0fb4f8480eba",
+      "default:extract:50526aba76b86dbf1f8f03564925cab4"
+    ],
+    "create_time": 1786014576,
+    "update_time": 1786014576,
+    "_id": "doc-ff4caf8819f1b1c7fdad2023d0d5e3f9-chunk-000"
+  }
+}

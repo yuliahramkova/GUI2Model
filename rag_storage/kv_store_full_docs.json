@@ -1,0 +1,172 @@
+{
+  "doc-0c7647cbeecc51869bdc0d2fdf6033f9": {
+    "content": "On the screen 'Снимок экрана 2026-07-23 в 00.02.09.png', there is a UI element 'click on 'Add to Cart' button' located at [400, 550, 540, 600].",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "0c7647cbeecc51869bdc0d2fdf6033f9",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1786014575,
+    "update_time": 1786014575,
+    "_id": "doc-0c7647cbeecc51869bdc0d2fdf6033f9"
+  },
+  "doc-191917c8c1dc62aaf4cb5b5c652a30c4": {
+    "content": "On the screen 'Снимок экрана 2026-07-23 в 00.01.52.png', there is a UI element 'click on 'Add to Cart' button for the second product' located at [700, 640, 820, 670].",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "191917c8c1dc62aaf4cb5b5c652a30c4",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1786014575,
+    "update_time": 1786014575,
+    "_id": "doc-191917c8c1dc62aaf4cb5b5c652a30c4"
+  },
+  "doc-fd6074af074252e1c7f56b2ccb2d0199": {
+    "content": "On the screen 'Снимок экрана 2026-07-23 в 00.02.32.png', there is a UI element 'click on 'Clothing, Shoes & Jewelry' category' located at [50, 260, 300, 300].",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "fd6074af074252e1c7f56b2ccb2d0199",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1786014575,
+    "update_time": 1786014575,
+    "_id": "doc-fd6074af074252e1c7f56b2ccb2d0199"
+  },
+  "doc-aa35e9cde92f80f2c88d9333452fdc65": {
+    "content": "On the screen 'Снимок экрана 2026-07-23 в 00.02.09.png', there is a UI element 'click on 'Add to Wish List' link' located at [340, 630, 490, 660].",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "aa35e9cde92f80f2c88d9333452fdc65",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1786014575,
+    "update_time": 1786014575,
+    "_id": "doc-aa35e9cde92f80f2c88d9333452fdc65"
+  },
+  "doc-618cf7f81fe623d98bfb4a922d22fa0a": {
+    "content": "On the screen 'Снимок экрана 2026-07-23 в 00.01.52.png', there is a UI element 'click on 'Add to Cart' button for the first product' located at [700, 460, 820, 490].",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "618cf7f81fe623d98bfb4a922d22fa0a",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1786014575,
+    "update_time": 1786014575,
+    "_id": "doc-618cf7f81fe623d98bfb4a922d22fa0a"
+  },
+  "doc-0a740020b3c96b2d960a53c2b227e4f4": {
+    "content": "On the screen 'Снимок экрана 2026-07-23 в 00.02.09.png', there is a UI element 'click on the quantity field' located at [280, 550, 330, 590].",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "0a740020b3c96b2d960a53c2b227e4f4",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1786014575,
+    "update_time": 1786014575,
+    "_id": "doc-0a740020b3c96b2d960a53c2b227e4f4"
+  },
+  "doc-ff4caf8819f1b1c7fdad2023d0d5e3f9": {
+    "content": "On the screen 'Снимок экрана 2026-07-23 в 00.01.52.png', there is a UI element 'click on the price of the first product' located at [640, 400, 720, 430].",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "ff4caf8819f1b1c7fdad2023d0d5e3f9",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1786014575,
+    "update_time": 1786014575,
+    "_id": "doc-ff4caf8819f1b1c7fdad2023d0d5e3f9"
+  },
+  "doc-b499630f1db39682b85477306a8c0a4d": {
+    "content": "On the screen 'Снимок экрана 2026-07-23 в 00.02.32.png', there is a UI element 'click on 'Beauty & Personal Care' category' located at [50, 200, 250, 240].",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "b499630f1db39682b85477306a8c0a4d",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1786014575,
+    "update_time": 1786014575,
+    "_id": "doc-b499630f1db39682b85477306a8c0a4d"
+  },
+  "doc-a1ee215a2a8d9a183f5e7e334337463f": {
+    "content": "On the screen 'Снимок экрана 2026-07-23 в 00.02.26.png', there is a UI element 'click on 'Electronics' category' located at [150, 420, 310, 460].",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "a1ee215a2a8d9a183f5e7e334337463f",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1786014575,
+    "update_time": 1786014575,
+    "_id": "doc-a1ee215a2a8d9a183f5e7e334337463f"
+  },
+  "doc-fe6db426689b64354d93375d5ec9aa67": {
+    "content": "On the screen 'Снимок экрана 2026-07-23 в 00.02.26.png', there is a UI element 'click on 'Women' category' located at [150, 250, 280, 290].",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "fe6db426689b64354d93375d5ec9aa67",
+    "chunk_options": {
+      "chunk_token_size": 1200,
+      "fixed_token": {
+        "split_by_character": null,
+        "split_by_character_only": false,
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1786014575,
+    "update_time": 1786014575,
+    "_id": "doc-fe6db426689b64354d93375d5ec9aa67"
+  }
+}

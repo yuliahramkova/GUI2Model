@@ -1,0 +1,400 @@
+{
+  "app": "webarena_shopping",
+  "comment": "Held-out eval for target GUI. Grounding uses paraphrased user-style instructions (NOT a11y 'click the X' strings). Multi-step tasks are NOT copies of configs/cua_tasks.json train goals. Bboxes resolved from data/a11y_explore/knowledge_base.json by screen_id + name/role match.",
+  "a11y_kb": "data/a11y_explore/knowledge_base.json",
+  "a11y_states_dir": "data/a11y_explore/states",
+  "train_exclusion": {
+    "cua_task_ids": [
+      "search_tea_results",
+      "search_open_first_product",
+      "browse_category_to_subcategory",
+      "browse_category_open_product",
+      "open_advanced_search",
+      "guest_open_contact_form",
+      "guest_open_orders_returns",
+      "product_add_to_cart",
+      "cart_to_checkout_shipping",
+      "login_to_account",
+      "login_open_order_history"
+    ],
+    "forbid_a11y_instruction_as_eval_prompt": true
+  },
+  "grounding": [
+    {
+      "id": "g_home_search_box",
+      "screen_id": "home",
+      "match": {"name": "Search entire store here...", "role": "combobox"},
+      "instruction": "Where do I type a product query on the storefront?",
+      "difficulty": "easy",
+      "tags": ["search", "home"]
+    },
+    {
+      "id": "g_home_search_submit",
+      "screen_id": "home",
+      "match": {"name": "Search", "role": "button"},
+      "instruction": "Submit the header search after entering keywords.",
+      "difficulty": "easy",
+      "tags": ["search", "home"]
+    },
+    {
+      "id": "g_home_advanced_search",
+      "screen_id": "home",
+      "match": {"name": "Advanced Search", "role": "link"},
+      "instruction": "Open the page with extra search filters beyond the header box.",
+      "difficulty": "medium",
+      "tags": ["search", "home"]
+    },
+    {
+      "id": "g_home_sign_in",
+      "screen_id": "home",
+      "match": {"name": "Sign In", "role": "link"},
+      "instruction": "I already have an account — take me to the login page.",
+      "difficulty": "easy",
+      "tags": ["auth", "home"]
+    },
+    {
+      "id": "g_home_create_account",
+      "screen_id": "home",
+      "match": {"name": "Create an Account", "role": "link"},
+      "instruction": "Register a new customer account from the header.",
+      "difficulty": "easy",
+      "tags": ["auth", "home"]
+    },
+    {
+      "id": "g_home_wishlist",
+      "screen_id": "home",
+      "match": {"name": "My Wish List", "role": "link"},
+      "instruction": "Open my saved wishlist from the top of the page.",
+      "difficulty": "easy",
+      "tags": ["wishlist", "home"]
+    },
+    {
+      "id": "g_home_cart",
+      "screen_id": "home",
+      "match": {"name": "My Cart", "role": "link"},
+      "instruction": "Open the shopping bag / cart icon in the header.",
+      "difficulty": "easy",
+      "tags": ["cart", "home"]
+    },
+    {
+      "id": "g_home_electronics",
+      "screen_id": "home",
+      "match": {"name": "Electronics", "role": "menuitem"},
+      "instruction": "Browse the Electronics department from the main menu.",
+      "difficulty": "medium",
+      "tags": ["browse", "home"]
+    },
+    {
+      "id": "g_home_video_games",
+      "screen_id": "home",
+      "match": {"name": "Video Games", "role": "menuitem"},
+      "instruction": "Go to the Video Games category in the navigation bar.",
+      "difficulty": "medium",
+      "tags": ["browse", "home"]
+    },
+    {
+      "id": "g_product_add_to_cart",
+      "screen_id": "product",
+      "match": {"name": "Add to Cart", "role": "button"},
+      "instruction": "Put this product into the cart.",
+      "difficulty": "easy",
+      "tags": ["cart", "product"]
+    },
+    {
+      "id": "g_product_qty",
+      "screen_id": "product",
+      "match": {"name": "Qty", "role": "textbox"},
+      "instruction": "Change how many units of this item I want to buy.",
+      "difficulty": "medium",
+      "tags": ["product", "qty"]
+    },
+    {
+      "id": "g_product_wishlist",
+      "screen_id": "product",
+      "match": {"name": "Add to Wish List", "role": "link"},
+      "instruction": "Save this item for later without buying it yet.",
+      "difficulty": "medium",
+      "tags": ["wishlist", "product"]
+    },
+    {
+      "id": "g_product_compare",
+      "screen_id": "product",
+      "match": {"name": "Add to Compare", "role": "link"},
+      "instruction": "Add this product to the comparison list.",
+      "difficulty": "medium",
+      "tags": ["product", "compare"]
+    },
+    {
+      "id": "g_login_email",
+      "screen_id": "login",
+      "match": {"name": "Email", "role": "textbox"},
+      "instruction": "Field where I enter my account email to sign in.",
+      "difficulty": "easy",
+      "tags": ["auth", "login"]
+    },
+    {
+      "id": "g_login_password",
+      "screen_id": "login",
+      "match": {"name": "Password", "role": "textbox"},
+      "instruction": "Password input on the customer login form.",
+      "difficulty": "easy",
+      "tags": ["auth", "login"]
+    },
+    {
+      "id": "g_login_forgot",
+      "screen_id": "login",
+      "match": {"name": "Forgot Your Password?", "role": "link"},
+      "instruction": "I forgot my password — open the reset flow.",
+      "difficulty": "medium",
+      "tags": ["auth", "login"]
+    },
+    {
+      "id": "g_contact_name",
+      "screen_id": "contact",
+      "match": {"name": "Name", "role": "textbox"},
+      "instruction": "Where do I type my name on the Contact Us form?",
+      "difficulty": "easy",
+      "tags": ["contact", "form"]
+    },
+    {
+      "id": "g_contact_phone",
+      "screen_id": "contact",
+      "match": {"name": "Phone Number", "role": "textbox"},
+      "instruction": "Phone number field on the contact form.",
+      "difficulty": "easy",
+      "tags": ["contact", "form"]
+    },
+    {
+      "id": "g_adv_product_name",
+      "screen_id": "search_advanced",
+      "match": {"name": "Product Name", "role": "textbox"},
+      "instruction": "On Advanced Search, filter by product title.",
+      "difficulty": "medium",
+      "tags": ["search", "advanced"]
+    },
+    {
+      "id": "g_adv_sku",
+      "screen_id": "search_advanced",
+      "match": {"name": "SKU", "role": "textbox"},
+      "instruction": "Enter a SKU on the advanced search form.",
+      "difficulty": "medium",
+      "tags": ["search", "advanced"]
+    },
+    {
+      "id": "g_cart_checkout",
+      "screen_id": "cart_with_item",
+      "match": {"name": "Proceed to Checkout", "role": "button"},
+      "instruction": "From the cart page, continue to checkout.",
+      "difficulty": "easy",
+      "tags": ["cart", "checkout"]
+    },
+    {
+      "id": "g_cart_remove",
+      "screen_id": "cart_with_item",
+      "match": {"name": "Remove item", "role": "link"},
+      "instruction": "Delete this line item from the shopping cart.",
+      "difficulty": "medium",
+      "tags": ["cart"]
+    },
+    {
+      "id": "g_cart_continue_shopping",
+      "screen_id": "cart_with_item",
+      "match": {"name": "Continue Shopping", "role": "link"},
+      "instruction": "Leave the cart and keep browsing the store.",
+      "difficulty": "medium",
+      "tags": ["cart"]
+    },
+    {
+      "id": "g_minicart_view_cart",
+      "screen_id": "minicart_open",
+      "match": {"name": "View and Edit Cart", "role": "link"},
+      "instruction": "In the mini-cart dropdown, open the full cart page (not checkout).",
+      "difficulty": "hard",
+      "tags": ["cart", "minicart"]
+    },
+    {
+      "id": "g_minicart_checkout",
+      "screen_id": "minicart_open",
+      "match": {"name": "Proceed to Checkout", "role": "button"},
+      "instruction": "From the open mini-cart, go straight to checkout.",
+      "difficulty": "medium",
+      "tags": ["cart", "minicart", "checkout"]
+    },
+    {
+      "id": "g_account_my_orders",
+      "screen_id": "account_logged_in",
+      "match": {"name": "My Orders", "role": "link"},
+      "instruction": "While logged in, open my past orders.",
+      "difficulty": "medium",
+      "tags": ["account", "orders"]
+    },
+    {
+      "id": "g_account_address_book",
+      "screen_id": "account_logged_in",
+      "match": {"name": "Address Book", "role": "link"},
+      "instruction": "Manage saved shipping addresses in my account.",
+      "difficulty": "medium",
+      "tags": ["account"]
+    },
+    {
+      "id": "g_account_sign_out",
+      "screen_id": "account_logged_in",
+      "match": {"name": "Sign Out", "role": "link"},
+      "instruction": "Log out of the customer account.",
+      "difficulty": "easy",
+      "tags": ["auth", "account"]
+    },
+    {
+      "id": "g_forgot_reset",
+      "screen_id": "forgot_password",
+      "match": {"name": "Reset My Password", "role": "button"},
+      "instruction": "Confirm sending a password reset email.",
+      "difficulty": "easy",
+      "tags": ["auth"]
+    },
+    {
+      "id": "g_register_first_name",
+      "screen_id": "register",
+      "match": {"name": "First Name", "role": "textbox"},
+      "instruction": "First name field on the create-account form.",
+      "difficulty": "easy",
+      "tags": ["auth", "register"]
+    },
+    {
+      "id": "g_orders_returns_continue",
+      "screen_id": "orders_returns",
+      "match": {"name": "Continue", "role": "button"},
+      "instruction": "Submit the guest order lookup form.",
+      "difficulty": "medium",
+      "tags": ["orders", "guest"]
+    },
+    {
+      "id": "g_category_headphones",
+      "screen_id": "category",
+      "match": {"name": "Headphones 631 item", "role": "link"},
+      "instruction": "On Electronics, open the Headphones subcategory listing.",
+      "difficulty": "hard",
+      "tags": ["browse", "category"]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "eval_search_shirt_results",
+      "goal": "From the homepage, search for 'shirt' and land on the search results page.",
+      "start_url": "/",
+      "max_steps": 6,
+      "expected_end_url_contains": "/catalogsearch/result/",
+      "expected_end_title_contains": "Search results",
+      "difficulty": "easy",
+      "tags": ["search", "guest"],
+      "notes": "Same skill as train search_tea_results but different query and paraphrased goal — not verbatim train."
+    },
+    {
+      "id": "eval_open_create_account",
+      "goal": "Open the Create New Customer Account form from the storefront header.",
+      "start_url": "/",
+      "max_steps": 4,
+      "expected_end_url_contains": "/customer/account/create/",
+      "expected_end_title_contains": "Create New Customer Account",
+      "difficulty": "easy",
+      "tags": ["auth", "register", "guest"],
+      "notes": "Held-out: register flow not in CUA train tasks."
+    },
+    {
+      "id": "eval_forgot_password_from_login",
+      "goal": "Start on the login page and open the Forgot Your Password recovery page.",
+      "start_url": "/customer/account/login/",
+      "max_steps": 4,
+      "expected_end_url_contains": "/customer/account/forgotpassword/",
+      "expected_end_title_contains": "Forgot Your Password",
+      "difficulty": "easy",
+      "tags": ["auth", "guest"],
+      "notes": "Held-out: forgot-password path not in CUA train."
+    },
+    {
+      "id": "eval_browse_video_games",
+      "goal": "From the homepage, open the Video Games category via the main navigation.",
+      "start_url": "/",
+      "max_steps": 4,
+      "expected_end_url_contains": "video-games",
+      "expected_end_title_contains": "Video Games",
+      "difficulty": "medium",
+      "tags": ["browse", "guest"],
+      "notes": "Held-out category (train used Electronics)."
+    },
+    {
+      "id": "eval_product_add_wishlist",
+      "goal": "You are on a product page. Add the product to the wish list (do not add to cart).",
+      "start_url": "/briess-dme-pilsen-light-1-lb-bag.html",
+      "max_steps": 4,
+      "expected_end_url_contains": "wishlist",
+      "difficulty": "medium",
+      "tags": ["wishlist", "product", "guest"],
+      "notes": "Held-out action vs train product_add_to_cart."
+    },
+    {
+      "id": "eval_empty_cart_from_home",
+      "goal": "From the homepage, open the shopping cart page. Done when the cart URL is open (empty cart is OK).",
+      "start_url": "/",
+      "max_steps": 6,
+      "expected_end_url_contains": "/checkout/cart/",
+      "expected_end_title_contains": "Shopping Cart",
+      "difficulty": "medium",
+      "tags": ["cart", "guest"],
+      "notes": "Does not require add-to-cart; different from train cart flows."
+    },
+    {
+      "id": "eval_advanced_search_fill_name",
+      "goal": "Open Advanced Search, type 'tea' into the Product Name field, and run the search so results appear.",
+      "start_url": "/",
+      "max_steps": 8,
+      "expected_end_url_contains": "/catalogsearch/advanced/result",
+      "difficulty": "hard",
+      "tags": ["search", "advanced", "guest"],
+      "notes": "Train only opened Advanced Search page; this requires fill+submit."
+    },
+    {
+      "id": "eval_login_then_address_book",
+      "goal": "Log in with the test customer account, then open the Address Book.",
+      "start_url": "/customer/account/login/",
+      "max_steps": 10,
+      "credentials_ref": "shopping_test_customer",
+      "expected_end_url_contains": "/customer/address/",
+      "expected_end_title_contains": "Address",
+      "difficulty": "hard",
+      "tags": ["auth", "account", "customer"],
+      "notes": "Train had My Account / My Orders; Address Book is held-out destination."
+    },
+    {
+      "id": "eval_category_to_headphones",
+      "goal": "Start on Electronics. Open the Headphones subcategory from the category sidebar/listing.",
+      "start_url": "/electronics.html",
+      "max_steps": 6,
+      "expected_end_url_contains": "headphones",
+      "expected_end_title_contains": "Headphones",
+      "difficulty": "hard",
+      "tags": ["browse", "guest"],
+      "notes": "Train subcategory was Cell Phones & Accessories."
+    },
+    {
+      "id": "eval_minicart_to_full_cart",
+      "goal": "Assume an item is already in the cart. From the homepage, open the mini-cart and go to the full Shopping Cart page via View and Edit Cart (do NOT use Proceed to Checkout).",
+      "start_url": "/",
+      "max_steps": 8,
+      "setup_hint": "Requires cart with item (same precondition as a11y minicart_open / CUA cart tasks).",
+      "expected_end_url_contains": "/checkout/cart/",
+      "expected_end_title_contains": "Shopping Cart",
+      "difficulty": "hard",
+      "tags": ["cart", "minicart", "guest"],
+      "notes": "Paraphrased trap similar to train product_add_to_cart step 3, but eval starts from home with item already in cart."
+    }
+  ],
+  "credentials": {
+    "shopping_test_customer": {
+      "username_env": "SHOPPING_USERNAME",
+      "password_env": "SHOPPING_PASSWORD",
+      "username_fallback": "emma.lopez@gmail.com",
+      "password_fallback": "Password.123"
+    }
+  }
+}

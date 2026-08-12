@@ -1,0 +1,199 @@
+{
+  "app": "webarena_shopping",
+  "source": "eval_held_out",
+  "credentials": {
+    "shopping_test_customer": {
+      "username_env": "SHOPPING_USERNAME",
+      "password_env": "SHOPPING_PASSWORD",
+      "username_fallback": "emma.lopez@gmail.com",
+      "password_fallback": "Password.123"
+    }
+  },
+  "tasks": [
+    {
+      "id": "eval_search_shirt_results",
+      "type": "multi_step",
+      "goal": "From the homepage, search for 'shirt' and land on the search results page.",
+      "start_url": "/",
+      "max_steps": 6,
+      "credentials_ref": null,
+      "expected_end_url_contains": "/catalogsearch/result/",
+      "expected_end_title_contains": "Search results",
+      "expected_end_title_not_contains": null,
+      "setup_hint": null,
+      "difficulty": "easy",
+      "tags": [
+        "search",
+        "guest"
+      ],
+      "notes": "Same skill as train search_tea_results but different query and paraphrased goal — not verbatim train."
+    },
+    {
+      "id": "eval_open_create_account",
+      "type": "multi_step",
+      "goal": "Open the Create New Customer Account form from the storefront header.",
+      "start_url": "/",
+      "max_steps": 4,
+      "credentials_ref": null,
+      "expected_end_url_contains": "/customer/account/create/",
+      "expected_end_title_contains": "Create New Customer Account",
+      "expected_end_title_not_contains": null,
+      "setup_hint": null,
+      "difficulty": "easy",
+      "tags": [
+        "auth",
+        "register",
+        "guest"
+      ],
+      "notes": "Held-out: register flow not in CUA train tasks."
+    },
+    {
+      "id": "eval_forgot_password_from_login",
+      "type": "multi_step",
+      "goal": "Start on the login page and open the Forgot Your Password recovery page.",
+      "start_url": "/customer/account/login/",
+      "max_steps": 4,
+      "credentials_ref": null,
+      "expected_end_url_contains": "/customer/account/forgotpassword/",
+      "expected_end_title_contains": "Forgot Your Password",
+      "expected_end_title_not_contains": null,
+      "setup_hint": null,
+      "difficulty": "easy",
+      "tags": [
+        "auth",
+        "guest"
+      ],
+      "notes": "Held-out: forgot-password path not in CUA train."
+    },
+    {
+      "id": "eval_browse_video_games",
+      "type": "multi_step",
+      "goal": "From the homepage, open the Video Games category via the main navigation.",
+      "start_url": "/",
+      "max_steps": 4,
+      "credentials_ref": null,
+      "expected_end_url_contains": "video-games",
+      "expected_end_title_contains": "Video Games",
+      "expected_end_title_not_contains": null,
+      "setup_hint": null,
+      "difficulty": "medium",
+      "tags": [
+        "browse",
+        "guest"
+      ],
+      "notes": "Held-out category (train used Electronics)."
+    },
+    {
+      "id": "eval_product_add_wishlist",
+      "type": "multi_step",
+      "goal": "You are on a product page. Add the product to the wish list (do not add to cart).",
+      "start_url": "/briess-dme-pilsen-light-1-lb-bag.html",
+      "max_steps": 4,
+      "credentials_ref": null,
+      "expected_end_url_contains": "wishlist",
+      "expected_end_title_contains": null,
+      "expected_end_title_not_contains": null,
+      "setup_hint": null,
+      "difficulty": "medium",
+      "tags": [
+        "wishlist",
+        "product",
+        "guest"
+      ],
+      "notes": "Held-out action vs train product_add_to_cart."
+    },
+    {
+      "id": "eval_empty_cart_from_home",
+      "type": "multi_step",
+      "goal": "From the homepage, open the shopping cart page. Done when the cart URL is open (empty cart is OK).",
+      "start_url": "/",
+      "max_steps": 6,
+      "credentials_ref": null,
+      "expected_end_url_contains": "/checkout/cart/",
+      "expected_end_title_contains": "Shopping Cart",
+      "expected_end_title_not_contains": null,
+      "setup_hint": null,
+      "difficulty": "medium",
+      "tags": [
+        "cart",
+        "guest"
+      ],
+      "notes": "Does not require add-to-cart; different from train cart flows."
+    },
+    {
+      "id": "eval_advanced_search_fill_name",
+      "type": "multi_step",
+      "goal": "Open Advanced Search, type 'tea' into the Product Name field, and run the search so results appear.",
+      "start_url": "/",
+      "max_steps": 8,
+      "credentials_ref": null,
+      "expected_end_url_contains": "/catalogsearch/advanced/result",
+      "expected_end_title_contains": null,
+      "expected_end_title_not_contains": null,
+      "setup_hint": null,
+      "difficulty": "hard",
+      "tags": [
+        "search",
+        "advanced",
+        "guest"
+      ],
+      "notes": "Train only opened Advanced Search page; this requires fill+submit."
+    },
+    {
+      "id": "eval_login_then_address_book",
+      "type": "multi_step",
+      "goal": "Log in with the test customer account, then open the Address Book.",
+      "start_url": "/customer/account/login/",
+      "max_steps": 10,
+      "credentials_ref": "shopping_test_customer",
+      "expected_end_url_contains": "/customer/address/",
+      "expected_end_title_contains": "Address",
+      "expected_end_title_not_contains": null,
+      "setup_hint": null,
+      "difficulty": "hard",
+      "tags": [
+        "auth",
+        "account",
+        "customer"
+      ],
+      "notes": "Train had My Account / My Orders; Address Book is held-out destination."
+    },
+    {
+      "id": "eval_category_to_headphones",
+      "type": "multi_step",
+      "goal": "Start on Electronics. Open the Headphones subcategory from the category sidebar/listing.",
+      "start_url": "/electronics.html",
+      "max_steps": 6,
+      "credentials_ref": null,
+      "expected_end_url_contains": "headphones",
+      "expected_end_title_contains": "Headphones",
+      "expected_end_title_not_contains": null,
+      "setup_hint": null,
+      "difficulty": "hard",
+      "tags": [
+        "browse",
+        "guest"
+      ],
+      "notes": "Train subcategory was Cell Phones & Accessories."
+    },
+    {
+      "id": "eval_minicart_to_full_cart",
+      "type": "multi_step",
+      "goal": "Assume an item is already in the cart. From the homepage, open the mini-cart and go to the full Shopping Cart page via View and Edit Cart (do NOT use Proceed to Checkout).",
+      "start_url": "/",
+      "max_steps": 8,
+      "credentials_ref": null,
+      "expected_end_url_contains": "/checkout/cart/",
+      "expected_end_title_contains": "Shopping Cart",
+      "expected_end_title_not_contains": null,
+      "setup_hint": "Requires cart with item (same precondition as a11y minicart_open / CUA cart tasks).",
+      "difficulty": "hard",
+      "tags": [
+        "cart",
+        "minicart",
+        "guest"
+      ],
+      "notes": "Paraphrased trap similar to train product_add_to_cart step 3, but eval starts from home with item already in cart."
+    }
+  ]
+}

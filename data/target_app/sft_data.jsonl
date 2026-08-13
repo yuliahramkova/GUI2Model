@@ -1,0 +1,111 @@
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'My Account''?"}, {"from": "gpt", "value": "It is at [674, 10, 750, 29]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'My Wish List''?"}, {"from": "gpt", "value": "It is at [765, 10, 846, 29]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Sign In''?"}, {"from": "gpt", "value": "It is at [861, 10, 905, 29]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Create an Account''?"}, {"from": "gpt", "value": "It is at [1141, 10, 1260, 29]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'store logo''?"}, {"from": "gpt", "value": "It is at [20, 71, 220, 98]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'My Cart''?"}, {"from": "gpt", "value": "It is at [1225, 71, 1260, 104]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the combobox 'Search entire store here...''?"}, {"from": "gpt", "value": "It is at [962, 71, 1212, 103]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Advanced Search''?"}, {"from": "gpt", "value": "It is at [962, 108, 1074, 127]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the button 'Search''?"}, {"from": "gpt", "value": "It is at [1180, 71, 1202, 103]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menu 'Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme''?"}, {"from": "gpt", "value": "It is at [0, 128, 1280, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Beauty & Personal Care''?"}, {"from": "gpt", "value": "It is at [8, 128, 204, 181]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Sports & Outdoors''?"}, {"from": "gpt", "value": "It is at [214, 128, 374, 181]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Clothing, Shoes & Jewelry''?"}, {"from": "gpt", "value": "It is at [384, 128, 592, 181]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Home & Kitchen''?"}, {"from": "gpt", "value": "It is at [602, 128, 747, 181]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Office Products''?"}, {"from": "gpt", "value": "It is at [757, 128, 896, 181]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Tools & Home Improvement''?"}, {"from": "gpt", "value": "It is at [906, 128, 1132, 181]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Health & Household''?"}, {"from": "gpt", "value": "It is at [8, 181, 180, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Patio, Lawn & Garden''?"}, {"from": "gpt", "value": "It is at [190, 181, 372, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Electronics''?"}, {"from": "gpt", "value": "It is at [382, 181, 490, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Cell Phones & Accessories''?"}, {"from": "gpt", "value": "It is at [500, 181, 711, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Video Games''?"}, {"from": "gpt", "value": "It is at [721, 181, 843, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Grocery & Gourmet Food''?"}, {"from": "gpt", "value": "It is at [853, 181, 1058, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link '.product-image-container-104499 { width: 240px; } .product-image-container-104499 span.product-image-wrapper { padding-b''?"}, {"from": "gpt", "value": "It is at [20, 649, 248, 668]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.''?"}, {"from": "gpt", "value": "It is at [20, 674, 239, 733]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link '.product-image-container-104498 { width: 240px; } .product-image-container-104498 span.product-image-wrapper { padding-b''?"}, {"from": "gpt", "value": "It is at [273, 649, 501, 668]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can ,Pack of 24''?"}, {"from": "gpt", "value": "It is at [273, 674, 500, 753]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link '.product-image-container-104497 { width: 240px; } .product-image-container-104497 span.product-image-wrapper { padding-b''?"}, {"from": "gpt", "value": "It is at [526, 649, 754, 668]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Elmwood Inn Fine Teas, Orange Vanilla Caffeine-free Fruit Infusion, 16-Ounce Pouch''?"}, {"from": "gpt", "value": "It is at [526, 674, 751, 733]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link '.product-image-container-104496 { width: 240px; } .product-image-container-104496 span.product-image-wrapper { padding-b''?"}, {"from": "gpt", "value": "It is at [779, 649, 1007, 668]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Belle Of The Ball Princess Sprinkle Mix| Wedding Colorful Sprinkles| Cake Cupcake Cookie Sprinkles| Ice cream Candy Spri''?"}, {"from": "gpt", "value": "It is at [779, 674, 1002, 793]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link '.product-image-container-104495 { width: 240px; } .product-image-container-104495 span.product-image-wrapper { padding-b''?"}, {"from": "gpt", "value": "It is at [1032, 649, 1260, 668]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub''?"}, {"from": "gpt", "value": "It is at [1032, 674, 1250, 733]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'My Account''?"}, {"from": "gpt", "value": "It is at [674, 10, 750, 29]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'My Wish List''?"}, {"from": "gpt", "value": "It is at [765, 10, 846, 29]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Sign In''?"}, {"from": "gpt", "value": "It is at [861, 10, 905, 29]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Create an Account''?"}, {"from": "gpt", "value": "It is at [1141, 10, 1260, 29]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'store logo''?"}, {"from": "gpt", "value": "It is at [20, 71, 220, 98]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'My Cart''?"}, {"from": "gpt", "value": "It is at [1225, 71, 1260, 104]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the combobox 'Search entire store here...''?"}, {"from": "gpt", "value": "It is at [962, 71, 1212, 103]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Advanced Search''?"}, {"from": "gpt", "value": "It is at [962, 108, 1074, 127]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the button 'Search''?"}, {"from": "gpt", "value": "It is at [1180, 71, 1202, 103]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menu 'Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme''?"}, {"from": "gpt", "value": "It is at [0, 128, 1280, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Beauty & Personal Care''?"}, {"from": "gpt", "value": "It is at [8, 128, 204, 181]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Sports & Outdoors''?"}, {"from": "gpt", "value": "It is at [214, 128, 374, 181]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Clothing, Shoes & Jewelry''?"}, {"from": "gpt", "value": "It is at [384, 128, 592, 181]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Home & Kitchen''?"}, {"from": "gpt", "value": "It is at [602, 128, 747, 181]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Office Products''?"}, {"from": "gpt", "value": "It is at [757, 128, 896, 181]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Tools & Home Improvement''?"}, {"from": "gpt", "value": "It is at [906, 128, 1132, 181]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Health & Household''?"}, {"from": "gpt", "value": "It is at [8, 181, 180, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Patio, Lawn & Garden''?"}, {"from": "gpt", "value": "It is at [190, 181, 372, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Electronics''?"}, {"from": "gpt", "value": "It is at [382, 181, 490, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Cell Phones & Accessories''?"}, {"from": "gpt", "value": "It is at [500, 181, 711, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Video Games''?"}, {"from": "gpt", "value": "It is at [721, 181, 843, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Grocery & Gourmet Food''?"}, {"from": "gpt", "value": "It is at [853, 181, 1058, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Home''?"}, {"from": "gpt", "value": "It is at [20, 259, 57, 275]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'View as List''?"}, {"from": "gpt", "value": "It is at [306, 381, 352, 421]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the combobox 'Product Name Price Relevance''?"}, {"from": "gpt", "value": "It is at [1082, 385, 1218, 417]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Set Ascending Direction''?"}, {"from": "gpt", "value": "It is at [1222, 383, 1250, 415]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Beauty & Personal Care 79 item''?"}, {"from": "gpt", "value": "It is at [20, 482, 201, 501]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Sports & Outdoors 434 item''?"}, {"from": "gpt", "value": "It is at [20, 505, 178, 524]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Clothing, Shoes & Jewelry 7603 item''?"}, {"from": "gpt", "value": "It is at [20, 528, 189, 567]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Home & Kitchen 88 item''?"}, {"from": "gpt", "value": "It is at [20, 571, 154, 590]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Office Products 7 item''?"}, {"from": "gpt", "value": "It is at [20, 594, 140, 613]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Tools & Home Improvement 5 item''?"}, {"from": "gpt", "value": "It is at [20, 617, 128, 656]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Health & Household 4 item''?"}, {"from": "gpt", "value": "It is at [20, 660, 172, 679]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Patio, Lawn & Garden 2 item''?"}, {"from": "gpt", "value": "It is at [20, 683, 181, 702]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Electronics 22 item''?"}, {"from": "gpt", "value": "It is at [20, 706, 118, 725]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'My Account''?"}, {"from": "gpt", "value": "It is at [674, 10, 750, 29]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'My Wish List''?"}, {"from": "gpt", "value": "It is at [765, 10, 846, 29]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Sign In''?"}, {"from": "gpt", "value": "It is at [861, 10, 905, 29]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Create an Account''?"}, {"from": "gpt", "value": "It is at [1141, 10, 1260, 29]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'store logo''?"}, {"from": "gpt", "value": "It is at [20, 71, 220, 98]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'My Cart''?"}, {"from": "gpt", "value": "It is at [1225, 71, 1260, 104]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the combobox 'Search entire store here...''?"}, {"from": "gpt", "value": "It is at [962, 71, 1212, 103]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Advanced Search''?"}, {"from": "gpt", "value": "It is at [962, 108, 1074, 127]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the button 'Search''?"}, {"from": "gpt", "value": "It is at [1180, 71, 1202, 103]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menu 'Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme''?"}, {"from": "gpt", "value": "It is at [0, 128, 1280, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Beauty & Personal Care''?"}, {"from": "gpt", "value": "It is at [8, 128, 204, 181]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Sports & Outdoors''?"}, {"from": "gpt", "value": "It is at [214, 128, 374, 181]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Clothing, Shoes & Jewelry''?"}, {"from": "gpt", "value": "It is at [384, 128, 592, 181]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Home & Kitchen''?"}, {"from": "gpt", "value": "It is at [602, 128, 747, 181]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Office Products''?"}, {"from": "gpt", "value": "It is at [757, 128, 896, 181]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Tools & Home Improvement''?"}, {"from": "gpt", "value": "It is at [906, 128, 1132, 181]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Health & Household''?"}, {"from": "gpt", "value": "It is at [8, 181, 180, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Patio, Lawn & Garden''?"}, {"from": "gpt", "value": "It is at [190, 181, 372, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Electronics''?"}, {"from": "gpt", "value": "It is at [382, 181, 490, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Cell Phones & Accessories''?"}, {"from": "gpt", "value": "It is at [500, 181, 711, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Video Games''?"}, {"from": "gpt", "value": "It is at [721, 181, 843, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menuitem 'Grocery & Gourmet Food''?"}, {"from": "gpt", "value": "It is at [853, 181, 1058, 234]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Home''?"}, {"from": "gpt", "value": "It is at [20, 259, 57, 275]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'My Account''?"}, {"from": "gpt", "value": "It is at [674, 10, 750, 29]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'My Wish List''?"}, {"from": "gpt", "value": "It is at [765, 10, 846, 29]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Sign In''?"}, {"from": "gpt", "value": "It is at [861, 10, 905, 29]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Create an Account''?"}, {"from": "gpt", "value": "It is at [1141, 10, 1260, 29]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'store logo''?"}, {"from": "gpt", "value": "It is at [20, 71, 220, 98]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'My Cart''?"}, {"from": "gpt", "value": "It is at [1225, 71, 1260, 104]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the combobox 'Search entire store here...''?"}, {"from": "gpt", "value": "It is at [962, 71, 1212, 103]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the link 'Advanced Search''?"}, {"from": "gpt", "value": "It is at [962, 108, 1074, 127]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the button 'Search''?"}, {"from": "gpt", "value": "It is at [1180, 71, 1202, 103]"}]}
+{"conversations": [{"from": "human", "value": "Where is the element 'click the menu 'Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme''?"}, {"from": "gpt", "value": "It is at [0, 128, 1280, 234]"}]}
+{"conversations": [{"from": "human", "value": "Task: Open Electronics and navigate from the category page to a product detail page."}, {"from": "gpt", "value": "click on element "}]}
+{"conversations": [{"from": "human", "value": "Task: Open Electronics and then navigate to Cell Phones & Accessories."}, {"from": "gpt", "value": "click on element  -> click on element "}]}
+{"conversations": [{"from": "human", "value": "Task: Add a product to the cart and proceed to the checkout shipping step."}, {"from": "gpt", "value": "click on element  -> click on element  -> click on element "}]}
+{"conversations": [{"from": "human", "value": "Task: Open Contact Us from the homepage footer. Done when the Contact Us page is open."}, {"from": "gpt", "value": "click on element "}]}
+{"conversations": [{"from": "human", "value": "Task: Do NOT sign in and do NOT open Forgot Password or My Account. Scroll to the homepage footer if needed and open the guest link \"Orders and Returns\" (URL contains /sales/guest/form/). Done when the Orders and Returns page is open."}, {"from": "gpt", "value": "click on element "}]}
+{"conversations": [{"from": "human", "value": "Task: Log in with the test customer account and open the order history page."}, {"from": "gpt", "value": "click on element  -> click on element "}]}
+{"conversations": [{"from": "human", "value": "Task: Log in with the test customer account and open My Account."}, {"from": "gpt", "value": "click on element "}]}
+{"conversations": [{"from": "human", "value": "Task: Open the Advanced Search page from the homepage header."}, {"from": "gpt", "value": "click on element "}]}
+{"conversations": [{"from": "human", "value": "Task: You start on a product page. (1) Click Add to Cart. If a spinner appears, wait 2000. Do not click Add to Cart again. (2) Click My Cart (header cart icon) once to open the minicart dropdown. (3) In the open dropdown, click the mark whose name is exactly \"View and Edit Cart\" (match by mark name, not a nearby low id). Do NOT click Proceed to Checkout (that goes to /checkout/, wrong page). Do NOT keep toggling My Cart. Done only when URL contains /checkout/cart/ and title contains Shopping Cart."}, {"from": "gpt", "value": "click on element  -> click on element  -> click on element "}]}
+{"conversations": [{"from": "human", "value": "Task: You are on tea search results. Open any product detail page by clicking a product title (or product link). Done when the URL ends with .html and the page title is not Search results."}, {"from": "gpt", "value": "click on element "}]}
+{"conversations": [{"from": "human", "value": "Task: Search for tea and open the search results page."}, {"from": "gpt", "value": "click on element  -> type 'tea' -> click on element "}]}

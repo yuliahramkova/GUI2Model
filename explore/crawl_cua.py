@@ -2,14 +2,11 @@
 
 Скрипт является прототипом exploration-пайплайна:
 - читает задачи из `configs/cua_tasks.json`;
-- поддерживает два режима наблюдения:
-    1) screenshot_only
-    2) screenshot_plus_som
+- наблюдение: screenshot + Set-of-Mark (нумерованные bbox на скрине);
 - пишет пошаговые трейсы (JSONL) и собирает агрегированный knowledge base.
 
 Важные идеи:
-- в режиме screenshot_plus_som список элементов строится заново на каждом шаге
-  по текущему состоянию страницы;
+- список элементов строится заново на каждом шаге по текущему состоянию страницы;
 - knowledge_base.json дописывается между запусками (повтор задачи заменяет запись);
 - `transitions` собираются из реально выполненных шагов: from_state -> action -> to_state.
 """
@@ -25,7 +22,7 @@ import re
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Literal
+from typing import Any
 from urllib.parse import urljoin
 
 from PIL import Image, ImageDraw, ImageFont
@@ -38,9 +35,7 @@ except Exception:  # pragma: no cover
     OpenAI = None  # type: ignore
 
 
-ObservationMode = Literal["screenshot_only", "screenshot_plus_som"]
-
-
+OBSERVATION_MODE = "screenshot_plus_som"
 DEFAULT_CONFIG = Path("configs/cua_tasks.json")
 DEFAULT_OUT_DIR = Path("data/cua_explore")
 DEFAULT_STATES_DIR = "states"
@@ -65,18 +60,16 @@ INTERACTIVE_ROLES = {
 
 
 ACTION_SCHEMA_NOTE = (
-    "Верни ТОЛЬКО JSON-объект без markdown. "
-    "Обязательный ключ: `action`. "
-    "Для click/type/press укажи `target_mark_id`, "
-    "а для screenshot_only как запасной вариант можно вернуть `click_x` и `click_y` "
-    "в нормализованных координатах [0,1]. "
-    "Для action=`type` положи вводимый текст в `value`. "
-    "Для action=`press` положи клавишу в `value` (например, 'Enter' или 'Escape'). "
-    "Для action=`scroll` положи целое смещение dy в `value`: "
-    "строго >0 вниз, <0 вверх. "
-    "Минус НЕ значит «вниз». Если экран не изменился после scroll — не повторяй то же value. "
-    "Для action=`wait` положи время в миллисекундах в `value`. "
-    "Для action=`done` положи пустую строку в `value`."
+    "Return ONLY a JSON object, no markdown. "
+    "Required key: `action`. "
+    "For click/type/press include `target_mark_id`. "
+    "For action=`type` put the text to enter in `value`. "
+    "For action=`press` put the key in `value` (e.g. 'Enter' or 'Escape'). "
+    "For action=`scroll` put integer dy offset in `value`: "
+    "strictly >0 down, <0 up. "
+    "Negative does NOT mean down. If the screen did not change after scroll, do not repeat the same value. "
+    "For action=`wait` put milliseconds in `value`. "
+    "For action=`done` put an empty string in `value`."
 )
 
 
@@ -351,37 +344,35 @@ class OpenAITeacher:
         goal: str,
         url: str,
         title: str,
-        observation_mode: ObservationMode,
+        observation_mode: str,
         screenshot_b64: str,
         som_marks: list[Mark] | None,
         action_history: list[dict[str, Any]] | None = None,
     ) -> dict[str, Any]:
         """Отправляет текущее наблюдение в teacher-модель и парсит действие из ответа."""
-        marks_payload = None
-        if observation_mode == "screenshot_plus_som":
-            marks_payload = [
-                {
-                    "mark_id": m.mark_id,
-                    "role": m.role,
-                    "name": m.name,
-                    "bbox_norm": m.bbox_norm,
-                }
-                for m in (som_marks or [])
-            ]
+        marks_payload = [
+            {
+                "mark_id": m.mark_id,
+                "role": m.role,
+                "name": m.name,
+                "bbox_norm": m.bbox_norm,
+            }
+            for m in (som_marks or [])
+        ]
 
         system_prompt = (
-            "Ты teacher-модель для GUI-агента. "
-            "На каждом шаге выбери ровно одно следующее действие, которое продвигает к цели. "
-            "Учитывай action_history: не повторяй то же действие, если URL/title не изменились. "
-            "Для click выбирай mark по полю name (точное совпадение с целью), "
-            "а не по маленькому mark_id и не по соседней рамке на оверлее. "
-            "Ссылки в футере (Contact Us, Orders and Returns): сначала scroll вниз "
-            "с value>0 (например 1500), value<0 только вверх; затем click по нужному mark. "
-            "Для поиска: сначала click по полю (textbox/combobox/searchbox), "
-            "затем type с value (например 'tea'), затем press Enter или click по кнопке Search. "
-            "Кнопка Search часто disabled, пока поле пустое — сначала type. "
-            "Когда цель достигнута (нужный URL/экран), верни action=done. "
-            "Никаких пояснений и markdown: только корректный JSON. "
+            "You are a teacher model for a GUI agent. "
+            "At each step choose exactly one next action that advances toward the goal. "
+            "Consider action_history: do not repeat the same action if URL/title did not change. "
+            "For click, pick the mark by the name field (exact match with the target), "
+            "not by a small mark_id or a neighboring box on the overlay. "
+            "Footer links (Contact Us, Orders and Returns): scroll down first "
+            "with value>0 (e.g. 1500), value<0 only upward; then click the correct mark. "
+            "For search: first click the field (textbox/combobox/searchbox), "
+            "then type with value (e.g. 'tea'), then press Enter or click the Search button. "
+            "The Search button is often disabled while the field is empty — type first. "
+            "When the goal is reached (expected URL/screen), return action=done. "
+            "No explanations or markdown: only valid JSON. "
             f"{ACTION_SCHEMA_NOTE}"
         )
 
@@ -421,7 +412,7 @@ class OpenAITeacher:
             return {
                 "action": "done",
                 "value": "",
-                "notes": f"Не удалось распарсить JSON teacher-модели: {content[:200]}",
+                "notes": f"Failed to parse teacher model JSON: {content[:200]}",
             }
         return parsed
 
@@ -431,59 +422,41 @@ def execute_action(
     *,
     action: dict[str, Any],
     marks: list[Mark],
-    observation_mode: ObservationMode,
 ) -> tuple[bool, str | None]:
     """Исполняет одно действие агента в браузере и возвращает статус."""
     action_type = (action.get("action") or "").strip().lower()
     value = action.get("value") or ""
-
-    viewport = page.viewport_size or {"width": 1280, "height": 720}
 
     try:
         if action_type == "done":
             return True, None
 
         if action_type == "click":
-            if observation_mode == "screenshot_plus_som" and action.get("target_mark_id") is not None:
-                target_id = int(action["target_mark_id"])
-                mark = next((m for m in marks if m.mark_id == target_id), None)
-                if mark is None:
-                    return False, f"unknown target_mark_id={target_id}"
-                x1, y1, x2, y2 = mark.bbox_px
-                cx = (x1 + x2) // 2
-                cy = (y1 + y2) // 2
-                page.mouse.click(cx, cy)
-            elif action.get("click_x") is not None and action.get("click_y") is not None:
-                # Запасной вариант для режима без marks.
-                x_norm = float(action["click_x"])
-                y_norm = float(action["click_y"])
-                cx = int(x_norm * viewport["width"])
-                cy = int(y_norm * viewport["height"])
-                page.mouse.click(cx, cy)
-            else:
-                return False, "click requires target_mark_id or click_x/click_y"
+            if action.get("target_mark_id") is None:
+                return False, "click requires target_mark_id"
+            target_id = int(action["target_mark_id"])
+            mark = next((m for m in marks if m.mark_id == target_id), None)
+            if mark is None:
+                return False, f"unknown target_mark_id={target_id}"
+            x1, y1, x2, y2 = mark.bbox_px
+            cx = (x1 + x2) // 2
+            cy = (y1 + y2) // 2
+            page.mouse.click(cx, cy)
             return True, None
 
         if action_type == "type":
             if not isinstance(value, str) or not value:
                 return False, "type requires non-empty value"
-            if observation_mode == "screenshot_plus_som" and action.get("target_mark_id") is not None:
-                target_id = int(action["target_mark_id"])
-                mark = next((m for m in marks if m.mark_id == target_id), None)
-                if mark is None:
-                    return False, f"unknown target_mark_id={target_id}"
-                x1, y1, x2, y2 = mark.bbox_px
-                cx = (x1 + x2) // 2
-                cy = (y1 + y2) // 2
-                page.mouse.click(cx, cy)
-            elif action.get("click_x") is not None and action.get("click_y") is not None:
-                x_norm = float(action["click_x"])
-                y_norm = float(action["click_y"])
-                cx = int(x_norm * viewport["width"])
-                cy = int(y_norm * viewport["height"])
-                page.mouse.click(cx, cy)
-            else:
-                return False, "type requires target_mark_id or click_x/click_y"
+            if action.get("target_mark_id") is None:
+                return False, "type requires target_mark_id"
+            target_id = int(action["target_mark_id"])
+            mark = next((m for m in marks if m.mark_id == target_id), None)
+            if mark is None:
+                return False, f"unknown target_mark_id={target_id}"
+            x1, y1, x2, y2 = mark.bbox_px
+            cx = (x1 + x2) // 2
+            cy = (y1 + y2) // 2
+            page.mouse.click(cx, cy)
 
             # Сначала очищаем текущее поле, затем вводим текст.
             page.keyboard.press("Control+A")
@@ -538,14 +511,18 @@ def task_goal_reached(page: Page, task: dict[str, Any]) -> bool:
     title = page.title()
     checks: list[bool] = []
 
-    if "expected_end_url_contains" in task:
-        checks.append(str(task["expected_end_url_contains"]).lower() in url.lower())
-    if "expected_end_title_contains" in task:
-        checks.append(str(task["expected_end_title_contains"]).lower() in title.lower())
-    if "expected_end_url_not_contains" in task:
-        checks.append(str(task["expected_end_url_not_contains"]).lower() not in url.lower())
-    if "expected_end_title_not_contains" in task:
-        checks.append(str(task["expected_end_title_not_contains"]).lower() not in title.lower())
+    url_ok = task.get("expected_end_url_contains")
+    if url_ok:
+        checks.append(str(url_ok).lower() in url.lower())
+    title_ok = task.get("expected_end_title_contains")
+    if title_ok:
+        checks.append(str(title_ok).lower() in title.lower())
+    url_bad = task.get("expected_end_url_not_contains")
+    if url_bad:
+        checks.append(str(url_bad).lower() not in url.lower())
+    title_bad = task.get("expected_end_title_not_contains")
+    if title_bad:
+        checks.append(str(title_bad).lower() not in title.lower())
 
     return bool(checks) and all(checks)
 
@@ -692,7 +669,6 @@ def main() -> None:
     """Запускает обход задач CUA и сохраняет трейсы, состояния и knowledge base."""
     parser = argparse.ArgumentParser(description="Обход GUI-задач через teacher-VLM / CUA-подобного агента.")
     parser.add_argument("--config", default=str(DEFAULT_CONFIG), help="Путь к configs/cua_tasks.json")
-    parser.add_argument("--mode", default="screenshot_plus_som", choices=["screenshot_only", "screenshot_plus_som"])
     parser.add_argument(
         "--from-task",
         type=int,
@@ -744,7 +720,7 @@ def main() -> None:
     args = parser.parse_args()
 
     cfg = json.loads(Path(args.config).read_text(encoding="utf-8"))
-    mode: ObservationMode = args.mode  # type: ignore[assignment]
+    mode = OBSERVATION_MODE
 
     all_tasks = cfg.get("tasks", [])
     if args.list_tasks:
@@ -884,34 +860,28 @@ def main() -> None:
                     screenshot_path = step_dir / "screenshot.png"
                     page.screenshot(path=str(screenshot_path), full_page=False)
 
-                    elements: list[dict[str, Any]] = []
-                    marks: list[Mark] = []
-                    som_path: Path | None = None
-                    som_overlay_path: Path | None = None
+                    elements = collect_elements_dom(page)
+                    marks = build_marks(elements, max_marks=args.max_marks)
 
-                    if mode == "screenshot_plus_som":
-                        elements = collect_elements_dom(page)
-                        marks = build_marks(elements, max_marks=args.max_marks)
-
-                        som_path = step_dir / "som.json"
-                        som_overlay_path = step_dir / "som_overlay.png"
-                        som_path.write_text(
-                            json.dumps(
-                                [
-                                    {
-                                        "mark_id": m.mark_id,
-                                        "role": m.role,
-                                        "name": m.name,
-                                        "bbox_norm": m.bbox_norm,
-                                    }
-                                    for m in marks
-                                ],
-                                ensure_ascii=False,
-                                indent=2,
-                            ),
-                            encoding="utf-8",
-                        )
-                        draw_som_overlay(screenshot_path, marks, som_overlay_path)
+                    som_path = step_dir / "som.json"
+                    som_overlay_path = step_dir / "som_overlay.png"
+                    som_path.write_text(
+                        json.dumps(
+                            [
+                                {
+                                    "mark_id": m.mark_id,
+                                    "role": m.role,
+                                    "name": m.name,
+                                    "bbox_norm": m.bbox_norm,
+                                }
+                                for m in marks
+                            ],
+                            ensure_ascii=False,
+                            indent=2,
+                        ),
+                        encoding="utf-8",
+                    )
+                    draw_som_overlay(screenshot_path, marks, som_overlay_path)
 
                     screenshot_b64 = _read_image_as_b64(screenshot_path)
                     action = teacher.decide_action(
@@ -920,7 +890,7 @@ def main() -> None:
                         title=title,
                         observation_mode=mode,
                         screenshot_b64=screenshot_b64,
-                        som_marks=marks if mode == "screenshot_plus_som" else None,
+                        som_marks=marks,
                         action_history=action_history,
                     )
 
@@ -928,7 +898,6 @@ def main() -> None:
                         page,
                         action=action,
                         marks=marks,
-                        observation_mode=mode,
                     )
 
                     # После действия фиксируем новое состояние страницы.

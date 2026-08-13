@@ -1,0 +1,15 @@
+{
+  "action": {
+    "action": "click",
+    "target_mark_id": 27
+  },
+  "execution": {
+    "success": true,
+    "error": null
+  },
+  "tokens": {
+    "prompt": 8540,
+    "completion": 20,
+    "total": 8560
+  }
+}

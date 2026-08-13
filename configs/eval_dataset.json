@@ -23,258 +23,415 @@
     {
       "id": "g_home_search_box",
       "screen_id": "home",
-      "match": {"name": "Search entire store here...", "role": "combobox"},
+      "match": {
+        "name": "Search entire store here...",
+        "role": "combobox"
+      },
       "instruction": "Where do I type a product query on the storefront?",
-      "difficulty": "easy",
-      "tags": ["search", "home"]
+      "tags": [
+        "search",
+        "home"
+      ]
     },
     {
       "id": "g_home_search_submit",
       "screen_id": "home",
-      "match": {"name": "Search", "role": "button"},
+      "match": {
+        "name": "Search",
+        "role": "button"
+      },
       "instruction": "Submit the header search after entering keywords.",
-      "difficulty": "easy",
-      "tags": ["search", "home"]
+      "tags": [
+        "search",
+        "home"
+      ]
     },
     {
       "id": "g_home_advanced_search",
       "screen_id": "home",
-      "match": {"name": "Advanced Search", "role": "link"},
+      "match": {
+        "name": "Advanced Search",
+        "role": "link"
+      },
       "instruction": "Open the page with extra search filters beyond the header box.",
-      "difficulty": "medium",
-      "tags": ["search", "home"]
+      "tags": [
+        "search",
+        "home"
+      ]
     },
     {
       "id": "g_home_sign_in",
       "screen_id": "home",
-      "match": {"name": "Sign In", "role": "link"},
+      "match": {
+        "name": "Sign In",
+        "role": "link"
+      },
       "instruction": "I already have an account — take me to the login page.",
-      "difficulty": "easy",
-      "tags": ["auth", "home"]
+      "tags": [
+        "auth",
+        "home"
+      ]
     },
     {
       "id": "g_home_create_account",
       "screen_id": "home",
-      "match": {"name": "Create an Account", "role": "link"},
+      "match": {
+        "name": "Create an Account",
+        "role": "link"
+      },
       "instruction": "Register a new customer account from the header.",
-      "difficulty": "easy",
-      "tags": ["auth", "home"]
+      "tags": [
+        "auth",
+        "home"
+      ]
     },
     {
       "id": "g_home_wishlist",
       "screen_id": "home",
-      "match": {"name": "My Wish List", "role": "link"},
+      "match": {
+        "name": "My Wish List",
+        "role": "link"
+      },
       "instruction": "Open my saved wishlist from the top of the page.",
-      "difficulty": "easy",
-      "tags": ["wishlist", "home"]
+      "tags": [
+        "wishlist",
+        "home"
+      ]
     },
     {
       "id": "g_home_cart",
       "screen_id": "home",
-      "match": {"name": "My Cart", "role": "link"},
+      "match": {
+        "name": "My Cart",
+        "role": "link"
+      },
       "instruction": "Open the shopping bag / cart icon in the header.",
-      "difficulty": "easy",
-      "tags": ["cart", "home"]
+      "tags": [
+        "cart",
+        "home"
+      ]
     },
     {
       "id": "g_home_electronics",
       "screen_id": "home",
-      "match": {"name": "Electronics", "role": "menuitem"},
+      "match": {
+        "name": "Electronics",
+        "role": "menuitem"
+      },
       "instruction": "Browse the Electronics department from the main menu.",
-      "difficulty": "medium",
-      "tags": ["browse", "home"]
+      "tags": [
+        "browse",
+        "home"
+      ]
     },
     {
       "id": "g_home_video_games",
       "screen_id": "home",
-      "match": {"name": "Video Games", "role": "menuitem"},
+      "match": {
+        "name": "Video Games",
+        "role": "menuitem"
+      },
       "instruction": "Go to the Video Games category in the navigation bar.",
-      "difficulty": "medium",
-      "tags": ["browse", "home"]
+      "tags": [
+        "browse",
+        "home"
+      ]
     },
     {
       "id": "g_product_add_to_cart",
       "screen_id": "product",
-      "match": {"name": "Add to Cart", "role": "button"},
+      "match": {
+        "name": "Add to Cart",
+        "role": "button"
+      },
       "instruction": "Put this product into the cart.",
-      "difficulty": "easy",
-      "tags": ["cart", "product"]
+      "tags": [
+        "cart",
+        "product"
+      ]
     },
     {
       "id": "g_product_qty",
       "screen_id": "product",
-      "match": {"name": "Qty", "role": "textbox"},
+      "match": {
+        "name": "Qty",
+        "role": "textbox"
+      },
       "instruction": "Change how many units of this item I want to buy.",
-      "difficulty": "medium",
-      "tags": ["product", "qty"]
+      "tags": [
+        "product",
+        "qty"
+      ]
     },
     {
       "id": "g_product_wishlist",
       "screen_id": "product",
-      "match": {"name": "Add to Wish List", "role": "link"},
+      "match": {
+        "name": "Add to Wish List",
+        "role": "link"
+      },
       "instruction": "Save this item for later without buying it yet.",
-      "difficulty": "medium",
-      "tags": ["wishlist", "product"]
+      "tags": [
+        "wishlist",
+        "product"
+      ]
     },
     {
       "id": "g_product_compare",
       "screen_id": "product",
-      "match": {"name": "Add to Compare", "role": "link"},
+      "match": {
+        "name": "Add to Compare",
+        "role": "link"
+      },
       "instruction": "Add this product to the comparison list.",
-      "difficulty": "medium",
-      "tags": ["product", "compare"]
+      "tags": [
+        "product",
+        "compare"
+      ]
     },
     {
       "id": "g_login_email",
       "screen_id": "login",
-      "match": {"name": "Email", "role": "textbox"},
+      "match": {
+        "name": "Email",
+        "role": "textbox"
+      },
       "instruction": "Field where I enter my account email to sign in.",
-      "difficulty": "easy",
-      "tags": ["auth", "login"]
+      "tags": [
+        "auth",
+        "login"
+      ]
     },
     {
       "id": "g_login_password",
       "screen_id": "login",
-      "match": {"name": "Password", "role": "textbox"},
+      "match": {
+        "name": "Password",
+        "role": "textbox"
+      },
       "instruction": "Password input on the customer login form.",
-      "difficulty": "easy",
-      "tags": ["auth", "login"]
+      "tags": [
+        "auth",
+        "login"
+      ]
     },
     {
       "id": "g_login_forgot",
       "screen_id": "login",
-      "match": {"name": "Forgot Your Password?", "role": "link"},
+      "match": {
+        "name": "Forgot Your Password?",
+        "role": "link"
+      },
       "instruction": "I forgot my password — open the reset flow.",
-      "difficulty": "medium",
-      "tags": ["auth", "login"]
+      "tags": [
+        "auth",
+        "login"
+      ]
     },
     {
       "id": "g_contact_name",
       "screen_id": "contact",
-      "match": {"name": "Name", "role": "textbox"},
+      "match": {
+        "name": "Name",
+        "role": "textbox"
+      },
       "instruction": "Where do I type my name on the Contact Us form?",
-      "difficulty": "easy",
-      "tags": ["contact", "form"]
+      "tags": [
+        "contact",
+        "form"
+      ]
     },
     {
       "id": "g_contact_phone",
       "screen_id": "contact",
-      "match": {"name": "Phone Number", "role": "textbox"},
+      "match": {
+        "name": "Phone Number",
+        "role": "textbox"
+      },
       "instruction": "Phone number field on the contact form.",
-      "difficulty": "easy",
-      "tags": ["contact", "form"]
+      "tags": [
+        "contact",
+        "form"
+      ]
     },
     {
       "id": "g_adv_product_name",
       "screen_id": "search_advanced",
-      "match": {"name": "Product Name", "role": "textbox"},
+      "match": {
+        "name": "Product Name",
+        "role": "textbox"
+      },
       "instruction": "On Advanced Search, filter by product title.",
-      "difficulty": "medium",
-      "tags": ["search", "advanced"]
+      "tags": [
+        "search",
+        "advanced"
+      ]
     },
     {
       "id": "g_adv_sku",
       "screen_id": "search_advanced",
-      "match": {"name": "SKU", "role": "textbox"},
+      "match": {
+        "name": "SKU",
+        "role": "textbox"
+      },
       "instruction": "Enter a SKU on the advanced search form.",
-      "difficulty": "medium",
-      "tags": ["search", "advanced"]
+      "tags": [
+        "search",
+        "advanced"
+      ]
     },
     {
       "id": "g_cart_checkout",
       "screen_id": "cart_with_item",
-      "match": {"name": "Proceed to Checkout", "role": "button"},
+      "match": {
+        "name": "Proceed to Checkout",
+        "role": "button"
+      },
       "instruction": "From the cart page, continue to checkout.",
-      "difficulty": "easy",
-      "tags": ["cart", "checkout"]
+      "tags": [
+        "cart",
+        "checkout"
+      ]
     },
     {
       "id": "g_cart_remove",
       "screen_id": "cart_with_item",
-      "match": {"name": "Remove item", "role": "link"},
+      "match": {
+        "name": "Remove item",
+        "role": "link"
+      },
       "instruction": "Delete this line item from the shopping cart.",
-      "difficulty": "medium",
-      "tags": ["cart"]
+      "tags": [
+        "cart"
+      ]
     },
     {
       "id": "g_cart_continue_shopping",
       "screen_id": "cart_with_item",
-      "match": {"name": "Continue Shopping", "role": "link"},
+      "match": {
+        "name": "Continue Shopping",
+        "role": "link"
+      },
       "instruction": "Leave the cart and keep browsing the store.",
-      "difficulty": "medium",
-      "tags": ["cart"]
+      "tags": [
+        "cart"
+      ]
     },
     {
       "id": "g_minicart_view_cart",
       "screen_id": "minicart_open",
-      "match": {"name": "View and Edit Cart", "role": "link"},
+      "match": {
+        "name": "View and Edit Cart",
+        "role": "link"
+      },
       "instruction": "In the mini-cart dropdown, open the full cart page (not checkout).",
-      "difficulty": "hard",
-      "tags": ["cart", "minicart"]
+      "tags": [
+        "cart",
+        "minicart"
+      ]
     },
     {
       "id": "g_minicart_checkout",
       "screen_id": "minicart_open",
-      "match": {"name": "Proceed to Checkout", "role": "button"},
+      "match": {
+        "name": "Proceed to Checkout",
+        "role": "button"
+      },
       "instruction": "From the open mini-cart, go straight to checkout.",
-      "difficulty": "medium",
-      "tags": ["cart", "minicart", "checkout"]
+      "tags": [
+        "cart",
+        "minicart",
+        "checkout"
+      ]
     },
     {
       "id": "g_account_my_orders",
       "screen_id": "account_logged_in",
-      "match": {"name": "My Orders", "role": "link"},
+      "match": {
+        "name": "My Orders",
+        "role": "link"
+      },
       "instruction": "While logged in, open my past orders.",
-      "difficulty": "medium",
-      "tags": ["account", "orders"]
+      "tags": [
+        "account",
+        "orders"
+      ]
     },
     {
       "id": "g_account_address_book",
       "screen_id": "account_logged_in",
-      "match": {"name": "Address Book", "role": "link"},
+      "match": {
+        "name": "Address Book",
+        "role": "link"
+      },
       "instruction": "Manage saved shipping addresses in my account.",
-      "difficulty": "medium",
-      "tags": ["account"]
+      "tags": [
+        "account"
+      ]
     },
     {
       "id": "g_account_sign_out",
       "screen_id": "account_logged_in",
-      "match": {"name": "Sign Out", "role": "link"},
+      "match": {
+        "name": "Sign Out",
+        "role": "link"
+      },
       "instruction": "Log out of the customer account.",
-      "difficulty": "easy",
-      "tags": ["auth", "account"]
+      "tags": [
+        "auth",
+        "account"
+      ]
     },
     {
       "id": "g_forgot_reset",
       "screen_id": "forgot_password",
-      "match": {"name": "Reset My Password", "role": "button"},
+      "match": {
+        "name": "Reset My Password",
+        "role": "button"
+      },
       "instruction": "Confirm sending a password reset email.",
-      "difficulty": "easy",
-      "tags": ["auth"]
+      "tags": [
+        "auth"
+      ]
     },
     {
       "id": "g_register_first_name",
       "screen_id": "register",
-      "match": {"name": "First Name", "role": "textbox"},
+      "match": {
+        "name": "First Name",
+        "role": "textbox"
+      },
       "instruction": "First name field on the create-account form.",
-      "difficulty": "easy",
-      "tags": ["auth", "register"]
+      "tags": [
+        "auth",
+        "register"
+      ]
     },
     {
       "id": "g_orders_returns_continue",
       "screen_id": "orders_returns",
-      "match": {"name": "Continue", "role": "button"},
+      "match": {
+        "name": "Continue",
+        "role": "button"
+      },
       "instruction": "Submit the guest order lookup form.",
-      "difficulty": "medium",
-      "tags": ["orders", "guest"]
+      "tags": [
+        "orders",
+        "guest"
+      ]
     },
     {
       "id": "g_category_headphones",
       "screen_id": "category",
-      "match": {"name": "Headphones 631 item", "role": "link"},
+      "match": {
+        "name": "Headphones 631 item",
+        "role": "link"
+      },
       "instruction": "On Electronics, open the Headphones subcategory listing.",
-      "difficulty": "hard",
-      "tags": ["browse", "category"]
+      "tags": [
+        "browse",
+        "category"
+      ]
     }
   ],
   "tasks": [
@@ -285,9 +442,12 @@
       "max_steps": 6,
       "expected_end_url_contains": "/catalogsearch/result/",
       "expected_end_title_contains": "Search results",
-      "difficulty": "easy",
-      "tags": ["search", "guest"],
-      "notes": "Same skill as train search_tea_results but different query and paraphrased goal — not verbatim train."
+      "tags": [
+        "search",
+        "guest"
+      ],
+      "notes": "Same skill as train search_tea_results but different query and paraphrased goal — not verbatim train.",
+      "expected_steps": 3
     },
     {
       "id": "eval_open_create_account",
@@ -296,9 +456,13 @@
       "max_steps": 4,
       "expected_end_url_contains": "/customer/account/create/",
       "expected_end_title_contains": "Create New Customer Account",
-      "difficulty": "easy",
-      "tags": ["auth", "register", "guest"],
-      "notes": "Held-out: register flow not in CUA train tasks."
+      "tags": [
+        "auth",
+        "register",
+        "guest"
+      ],
+      "notes": "Held-out: register flow not in CUA train tasks.",
+      "expected_steps": 1
     },
     {
       "id": "eval_forgot_password_from_login",
@@ -307,9 +471,12 @@
       "max_steps": 4,
       "expected_end_url_contains": "/customer/account/forgotpassword/",
       "expected_end_title_contains": "Forgot Your Password",
-      "difficulty": "easy",
-      "tags": ["auth", "guest"],
-      "notes": "Held-out: forgot-password path not in CUA train."
+      "tags": [
+        "auth",
+        "guest"
+      ],
+      "notes": "Held-out: forgot-password path not in CUA train.",
+      "expected_steps": 1
     },
     {
       "id": "eval_browse_video_games",
@@ -318,9 +485,12 @@
       "max_steps": 4,
       "expected_end_url_contains": "video-games",
       "expected_end_title_contains": "Video Games",
-      "difficulty": "medium",
-      "tags": ["browse", "guest"],
-      "notes": "Held-out category (train used Electronics)."
+      "tags": [
+        "browse",
+        "guest"
+      ],
+      "notes": "Held-out category (train used Electronics).",
+      "expected_steps": 1
     },
     {
       "id": "eval_product_add_wishlist",
@@ -328,9 +498,13 @@
       "start_url": "/briess-dme-pilsen-light-1-lb-bag.html",
       "max_steps": 4,
       "expected_end_url_contains": "wishlist",
-      "difficulty": "medium",
-      "tags": ["wishlist", "product", "guest"],
-      "notes": "Held-out action vs train product_add_to_cart."
+      "tags": [
+        "wishlist",
+        "product",
+        "guest"
+      ],
+      "notes": "Held-out action vs train product_add_to_cart.",
+      "expected_steps": 2
     },
     {
       "id": "eval_empty_cart_from_home",
@@ -339,9 +513,12 @@
       "max_steps": 6,
       "expected_end_url_contains": "/checkout/cart/",
       "expected_end_title_contains": "Shopping Cart",
-      "difficulty": "medium",
-      "tags": ["cart", "guest"],
-      "notes": "Does not require add-to-cart; different from train cart flows."
+      "tags": [
+        "cart",
+        "guest"
+      ],
+      "notes": "Does not require add-to-cart; different from train cart flows.",
+      "expected_steps": 2
     },
     {
       "id": "eval_advanced_search_fill_name",
@@ -349,9 +526,13 @@
       "start_url": "/",
       "max_steps": 8,
       "expected_end_url_contains": "/catalogsearch/advanced/result",
-      "difficulty": "hard",
-      "tags": ["search", "advanced", "guest"],
-      "notes": "Train only opened Advanced Search page; this requires fill+submit."
+      "tags": [
+        "search",
+        "advanced",
+        "guest"
+      ],
+      "notes": "Train only opened Advanced Search page; this requires fill+submit.",
+      "expected_steps": 5
     },
     {
       "id": "eval_login_then_address_book",
@@ -361,9 +542,13 @@
       "credentials_ref": "shopping_test_customer",
       "expected_end_url_contains": "/customer/address/",
       "expected_end_title_contains": "Address",
-      "difficulty": "hard",
-      "tags": ["auth", "account", "customer"],
-      "notes": "Train had My Account / My Orders; Address Book is held-out destination."
+      "tags": [
+        "auth",
+        "account",
+        "customer"
+      ],
+      "notes": "Train had My Account / My Orders; Address Book is held-out destination.",
+      "expected_steps": 4
     },
     {
       "id": "eval_category_to_headphones",
@@ -372,9 +557,12 @@
       "max_steps": 6,
       "expected_end_url_contains": "headphones",
       "expected_end_title_contains": "Headphones",
-      "difficulty": "hard",
-      "tags": ["browse", "guest"],
-      "notes": "Train subcategory was Cell Phones & Accessories."
+      "tags": [
+        "browse",
+        "guest"
+      ],
+      "notes": "Train subcategory was Cell Phones & Accessories.",
+      "expected_steps": 1
     },
     {
       "id": "eval_minicart_to_full_cart",
@@ -384,9 +572,13 @@
       "setup_hint": "Requires cart with item (same precondition as a11y minicart_open / CUA cart tasks).",
       "expected_end_url_contains": "/checkout/cart/",
       "expected_end_title_contains": "Shopping Cart",
-      "difficulty": "hard",
-      "tags": ["cart", "minicart", "guest"],
-      "notes": "Paraphrased trap similar to train product_add_to_cart step 3, but eval starts from home with item already in cart."
+      "tags": [
+        "cart",
+        "minicart",
+        "guest"
+      ],
+      "notes": "Paraphrased trap similar to train product_add_to_cart step 3, but eval starts from home with item already in cart.",
+      "expected_steps": 3
     }
   ],
   "credentials": {

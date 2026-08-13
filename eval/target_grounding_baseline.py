@@ -5,7 +5,7 @@
 
 Пример:
   python eval/target_grounding_baseline.py
-  python eval/target_grounding_baseline.py --out-dir reports/target_baseline_run
+  python eval/target_grounding_baseline.py --limit 5
 """
 
 from __future__ import annotations
@@ -27,8 +27,15 @@ from openai import OpenAI
 from PIL import Image
 from tqdm import tqdm
 
-DEFAULT_GROUNDING = Path("data/target_app/eval/grounding.json")
-DEFAULT_OUT = Path("reports/target_grounding_baseline")
+REPO_ROOT = Path(__file__).resolve().parent.parent
+REPORTS_DIR = REPO_ROOT / "reports" / "grounding"
+DEFAULT_GROUNDING = REPO_ROOT / "data/target_app/eval/grounding.json"
+DEFAULT_CSV = REPORTS_DIR / "detailed.csv"
+DEFAULT_MD = REPORTS_DIR / "baseline.md"
+
+
+def resolve_repo_path(path: Path) -> Path:
+    return path if path.is_absolute() else REPO_ROOT / path
 
 
 @dataclass
@@ -39,7 +46,6 @@ class GroundingSample:
     image_path: str
     instruction: str
     bbox_px: tuple[int, int, int, int]
-    difficulty: str
     tags: list[str]
     image_width: int
     image_height: int
@@ -51,7 +57,6 @@ class EvalRow:
     screen_id: str
     image_path: str
     instruction: str
-    difficulty: str
     tags: str
     bbox_px: tuple[int, int, int, int]
     raw_response: str
@@ -124,15 +129,11 @@ def is_hit(point: tuple[int, int] | None, bbox: tuple[int, int, int, int]) -> bo
 def load_grounding_dataset(
     path: Path,
     limit: int | None = None,
-    difficulties: set[str] | None = None,
 ) -> list[GroundingSample]:
     raw = json.loads(path.read_text(encoding="utf-8"))
     samples: list[GroundingSample] = []
     for row in raw:
-        difficulty = row.get("difficulty", "medium")
-        if difficulties and difficulty not in difficulties:
-            continue
-        image_path = Path(row["image"])
+        image_path = resolve_repo_path(Path(row["image"]))
         if not image_path.is_file():
             raise FileNotFoundError(f"Screenshot missing: {image_path}")
         image = Image.open(image_path).convert("RGB")
@@ -146,7 +147,6 @@ def load_grounding_dataset(
                 image_path=str(image_path).replace("\\", "/"),
                 instruction=row["instruction"],
                 bbox_px=(int(bbox[0]), int(bbox[1]), int(bbox[2]), int(bbox[3])),
-                difficulty=difficulty,
                 tags=list(row.get("tags") or []),
                 image_width=w,
                 image_height=h,
@@ -202,7 +202,6 @@ def run_eval(client: OpenAI, model: str, samples: list[GroundingSample]) -> list
                 screen_id=sample.screen_id,
                 image_path=sample.image_path,
                 instruction=sample.instruction,
-                difficulty=sample.difficulty,
                 tags=",".join(sample.tags),
                 bbox_px=sample.bbox_px,
                 raw_response=raw,
@@ -222,10 +221,8 @@ def run_eval(client: OpenAI, model: str, samples: list[GroundingSample]) -> list
 
 
 def summarize(rows: list[EvalRow]) -> dict[str, dict[str, float | int]]:
-    by_diff: dict[str, list[EvalRow]] = defaultdict(list)
     by_screen: dict[str, list[EvalRow]] = defaultdict(list)
     for row in rows:
-        by_diff[row.difficulty].append(row)
         by_screen[row.screen_id].append(row)
 
     def pack(subset: list[EvalRow]) -> dict[str, float | int]:
@@ -243,8 +240,6 @@ def summarize(rows: list[EvalRow]) -> dict[str, dict[str, float | int]]:
         }
 
     summary: dict[str, dict[str, float | int]] = {"overall": pack(rows)}
-    for key in sorted(by_diff):
-        summary[f"diff:{key}"] = pack(by_diff[key])
     for key in sorted(by_screen):
         summary[f"screen:{key}"] = pack(by_screen[key])
     return summary
@@ -272,7 +267,6 @@ def save_csv(rows: list[EvalRow], path: Path) -> None:
                 "screen_id",
                 "image_path",
                 "instruction",
-                "difficulty",
                 "tags",
                 "image_width",
                 "image_height",
@@ -287,6 +281,8 @@ def save_csv(rows: list[EvalRow], path: Path) -> None:
                 "total_tokens",
                 "steps",
             ],
+            delimiter=",",
+            quoting=csv.QUOTE_MINIMAL,
         )
         writer.writeheader()
         for row in rows:
@@ -296,7 +292,6 @@ def save_csv(rows: list[EvalRow], path: Path) -> None:
                     "screen_id": row.screen_id,
                     "image_path": row.image_path,
                     "instruction": row.instruction,
-                    "difficulty": row.difficulty,
                     "tags": row.tags,
                     "image_width": row.image_width,
                     "image_height": row.image_height,
@@ -366,14 +361,9 @@ def main() -> None:
         description="Zero-shot Qwen baseline on target GUI grounding set"
     )
     parser.add_argument("--grounding", type=Path, default=DEFAULT_GROUNDING)
-    parser.add_argument("--out-dir", type=Path, default=DEFAULT_OUT)
+    parser.add_argument("--csv", type=Path, default=DEFAULT_CSV, help="Detailed results CSV")
+    parser.add_argument("--md", type=Path, default=DEFAULT_MD, help="Summary markdown report")
     parser.add_argument("--limit", type=int, default=None, help="Optional: only first N samples")
-    parser.add_argument(
-        "--difficulty",
-        action="append",
-        choices=("easy", "medium", "hard"),
-        help="Filter by difficulty (repeatable)",
-    )
     parser.add_argument(
         "--test-model",
         action="store_true",
@@ -383,15 +373,18 @@ def main() -> None:
 
     load_dotenv()
 
-    if not args.grounding.exists():
+    grounding_path = resolve_repo_path(args.grounding)
+    csv_path = resolve_repo_path(args.csv)
+    md_path = resolve_repo_path(args.md)
+
+    if not grounding_path.exists():
         raise SystemExit(
-            f"Grounding set not found: {args.grounding}. "
+            f"Grounding set not found: {grounding_path}. "
             "Run: python eval/build_eval_dataset.py"
         )
 
-    difficulties = set(args.difficulty) if args.difficulty else None
-    samples = load_grounding_dataset(args.grounding, limit=args.limit, difficulties=difficulties)
-    print(f"Loaded {len(samples)} grounding samples from {args.grounding}")
+    samples = load_grounding_dataset(grounding_path, limit=args.limit)
+    print(f"Loaded {len(samples)} grounding samples from {grounding_path}")
     if not samples:
         raise SystemExit("No samples to evaluate")
 
@@ -415,16 +408,13 @@ def main() -> None:
     summary = summarize(rows)
     print_summary(summary)
 
-    out_dir: Path = args.out_dir
-    out_dir.mkdir(parents=True, exist_ok=True)
-    csv_path = out_dir / "detailed.csv"
-    md_path = out_dir / "baseline.md"
+    csv_path.parent.mkdir(parents=True, exist_ok=True)
     save_csv(rows, csv_path)
     save_markdown(
         summary,
         md_path,
         model=model,
-        grounding_path=args.grounding,
+        grounding_path=grounding_path,
         n_samples=len(rows),
     )
     print(f"\nSaved: {csv_path}")

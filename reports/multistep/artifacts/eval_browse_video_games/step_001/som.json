@@ -1,0 +1,552 @@
+[
+  {
+    "mark_id": 1,
+    "role": "link",
+    "name": "Dilwe1 12'' Phone Screen Magnifier, HD Mobile Phone Magnifier Projector Screen, Foldable Phone Stand with Screen Amplifi",
+    "bbox_norm": [
+      0.2976345486111111,
+      0.5258522727272728,
+      0.41863064236111114,
+      0.593125
+    ]
+  },
+  {
+    "mark_id": 2,
+    "role": "link",
+    "name": "NTG [1st Generation] Designed for Samsung S21 Case (Not for S21 Plus&S21 Ultra), Heavy-Duty Tough Rugged Lightweight Sli",
+    "bbox_norm": [
+      0.43157552083333334,
+      0.5258522727272728,
+      0.5497829861111111,
+      0.6203977272727272
+    ]
+  },
+  {
+    "mark_id": 3,
+    "role": "link",
+    "name": "[2+2 Pack] YWXTW Galaxy S21 Privacy Screen Protector 【Support Fingerprint Unlock】【7H Hardness】and Camera Lens Tempered G",
+    "bbox_norm": [
+      0.5655164930555555,
+      0.5258522727272728,
+      0.6846028645833333,
+      0.6203977272727272
+    ]
+  },
+  {
+    "mark_id": 4,
+    "role": "link",
+    "name": "for Huawei Supercharge Power Adapter,4.5V 5A Quick Fast Charger with Super Charging USB Type C Cable Super Charger for H",
+    "bbox_norm": [
+      0.6994574652777777,
+      0.5258522727272728,
+      0.8210177951388888,
+      0.6067613636363637
+    ]
+  },
+  {
+    "mark_id": 5,
+    "role": "link",
+    "name": "My Account",
+    "bbox_norm": [
+      0.5176432291666667,
+      0.006818181818181818,
+      0.5572916666666666,
+      0.019545454545454546
+    ]
+  },
+  {
+    "mark_id": 6,
+    "role": "link",
+    "name": "My Wish List",
+    "bbox_norm": [
+      0.5651041666666666,
+      0.006818181818181818,
+      0.6073893229166667,
+      0.019545454545454546
+    ]
+  },
+  {
+    "mark_id": 7,
+    "role": "link",
+    "name": "Sign In",
+    "bbox_norm": [
+      0.6152018229166667,
+      0.006818181818181818,
+      0.6379231770833333,
+      0.019545454545454546
+    ]
+  },
+  {
+    "mark_id": 8,
+    "role": "link",
+    "name": "Create an Account",
+    "bbox_norm": [
+      0.7608615451388889,
+      0.006818181818181818,
+      0.8229166666666666,
+      0.019545454545454546
+    ]
+  },
+  {
+    "mark_id": 9,
+    "role": "link",
+    "name": "store logo",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.04863636363636364,
+      0.28125,
+      0.06723011363636364
+    ]
+  },
+  {
+    "mark_id": 10,
+    "role": "combobox",
+    "name": "Search entire store here...",
+    "bbox_norm": [
+      0.6677083333333333,
+      0.04863636363636364,
+      0.7979166666666667,
+      0.07045454545454545
+    ]
+  },
+  {
+    "mark_id": 11,
+    "role": "button",
+    "name": "Search",
+    "bbox_norm": [
+      0.78125,
+      0.04863636363636364,
+      0.7927083333333333,
+      0.07045454545454545
+    ]
+  },
+  {
+    "mark_id": 12,
+    "role": "link",
+    "name": "My Cart",
+    "bbox_norm": [
+      0.8046875,
+      0.04863636363636364,
+      0.8229166666666666,
+      0.07113636363636364
+    ]
+  },
+  {
+    "mark_id": 13,
+    "role": "link",
+    "name": "Advanced Search",
+    "bbox_norm": [
+      0.6677083333333333,
+      0.07386363636363637,
+      0.7258246527777777,
+      0.0865909090909091
+    ]
+  },
+  {
+    "mark_id": 14,
+    "role": "menu",
+    "name": "Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme",
+    "bbox_norm": [
+      0.16666666666666666,
+      0.0875,
+      0.8333333333333334,
+      0.1615909090909091
+    ]
+  },
+  {
+    "mark_id": 15,
+    "role": "menuitem",
+    "name": "Beauty & Personal Care",
+    "bbox_norm": [
+      0.17083333333333334,
+      0.0875,
+      0.27265625,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 16,
+    "role": "menuitem",
+    "name": "Sports & Outdoors",
+    "bbox_norm": [
+      0.27786458333333336,
+      0.0875,
+      0.3613823784722222,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 17,
+    "role": "menuitem",
+    "name": "Clothing, Shoes & Jewelry",
+    "bbox_norm": [
+      0.3665907118055556,
+      0.0875,
+      0.4750759548611111,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 18,
+    "role": "menuitem",
+    "name": "Home & Kitchen",
+    "bbox_norm": [
+      0.48028428819444446,
+      0.0875,
+      0.5556532118055556,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 19,
+    "role": "menuitem",
+    "name": "Office Products",
+    "bbox_norm": [
+      0.5608615451388889,
+      0.0875,
+      0.6333550347222222,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 20,
+    "role": "menuitem",
+    "name": "Tools & Home Improvement",
+    "bbox_norm": [
+      0.6385633680555556,
+      0.0875,
+      0.7561414930555556,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 21,
+    "role": "menuitem",
+    "name": "Health & Household",
+    "bbox_norm": [
+      0.17083333333333334,
+      0.12363636363636364,
+      0.2601996527777778,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 22,
+    "role": "menuitem",
+    "name": "Patio, Lawn & Garden",
+    "bbox_norm": [
+      0.2654079861111111,
+      0.12363636363636364,
+      0.3603515625,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 23,
+    "role": "menuitem",
+    "name": "Electronics",
+    "bbox_norm": [
+      0.3655598958333333,
+      0.12363636363636364,
+      0.42183159722222224,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 24,
+    "role": "menuitem",
+    "name": "Cell Phones & Accessories",
+    "bbox_norm": [
+      0.42703993055555556,
+      0.12363636363636364,
+      0.5369466145833334,
+      0.1615909090909091
+    ]
+  },
+  {
+    "mark_id": 25,
+    "role": "menuitem",
+    "name": "Video Games",
+    "bbox_norm": [
+      0.5421549479166666,
+      0.12363636363636364,
+      0.6059027777777778,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 26,
+    "role": "menuitem",
+    "name": "Grocery & Gourmet Food",
+    "bbox_norm": [
+      0.6111111111111112,
+      0.12363636363636364,
+      0.7175889756944445,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 27,
+    "role": "menuitem",
+    "name": "Accessories",
+    "bbox_norm": [
+      0.427734375,
+      0.17198863636363637,
+      0.5475260416666666,
+      0.1965340909090909
+    ]
+  },
+  {
+    "mark_id": 28,
+    "role": "link",
+    "name": "Home",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.17863636363636365,
+      0.19641927083333333,
+      0.18954545454545454
+    ]
+  },
+  {
+    "mark_id": 29,
+    "role": "menuitem",
+    "name": "Cases, Holsters & Sleeves",
+    "bbox_norm": [
+      0.427734375,
+      0.1965340909090909,
+      0.5475260416666666,
+      0.22107954545454545
+    ]
+  },
+  {
+    "mark_id": 30,
+    "role": "menuitem",
+    "name": "Cell Phones",
+    "bbox_norm": [
+      0.427734375,
+      0.22107954545454545,
+      0.5475260416666666,
+      0.245625
+    ]
+  },
+  {
+    "mark_id": 31,
+    "role": "link",
+    "name": "View as List",
+    "bbox_norm": [
+      0.32645399305555556,
+      0.26181818181818184,
+      0.35075954861111114,
+      0.28954545454545455
+    ]
+  },
+  {
+    "mark_id": 32,
+    "role": "link",
+    "name": "Set Descending Direction",
+    "bbox_norm": [
+      0.803125,
+      0.2631818181818182,
+      0.8177083333333334,
+      0.285
+    ]
+  },
+  {
+    "mark_id": 33,
+    "role": "combobox",
+    "name": "Position Product Name Price",
+    "bbox_norm": [
+      0.7276150173611111,
+      0.26454545454545453,
+      0.8012261284722222,
+      0.2863636363636364
+    ]
+  },
+  {
+    "mark_id": 34,
+    "role": "button",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.3559027777777778,
+      0.631534090909091,
+      0.3741319444444444,
+      0.6553977272727273
+    ]
+  },
+  {
+    "mark_id": 35,
+    "role": "button",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.3760308159722222,
+      0.631534090909091,
+      0.3942599826388889,
+      0.6553977272727273
+    ]
+  },
+  {
+    "mark_id": 36,
+    "role": "link",
+    "name": "11 Reviews",
+    "bbox_norm": [
+      0.6149956597222223,
+      0.6317613636363636,
+      0.6485785590277777,
+      0.6426704545454546
+    ]
+  },
+  {
+    "mark_id": 37,
+    "role": "button",
+    "name": "Add to Cart",
+    "bbox_norm": [
+      0.2976345486111111,
+      0.6323295454545454,
+      0.3559027777777778,
+      0.6546022727272728
+    ]
+  },
+  {
+    "mark_id": 38,
+    "role": "button",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.7577256944444445,
+      0.6451704545454545,
+      0.7759548611111111,
+      0.6690340909090909
+    ]
+  },
+  {
+    "mark_id": 39,
+    "role": "button",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.7778537326388889,
+      0.6451704545454545,
+      0.7960828993055555,
+      0.6690340909090909
+    ]
+  },
+  {
+    "mark_id": 40,
+    "role": "button",
+    "name": "Add to Cart",
+    "bbox_norm": [
+      0.6994574652777777,
+      0.6459659090909091,
+      0.7577256944444445,
+      0.6682386363636363
+    ]
+  },
+  {
+    "mark_id": 41,
+    "role": "button",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.48984375,
+      0.6588068181818182,
+      0.5080729166666667,
+      0.6826704545454545
+    ]
+  },
+  {
+    "mark_id": 42,
+    "role": "button",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.5099717881944444,
+      0.6588068181818182,
+      0.5282009548611111,
+      0.6826704545454545
+    ]
+  },
+  {
+    "mark_id": 43,
+    "role": "button",
+    "name": "Add to Cart",
+    "bbox_norm": [
+      0.43157552083333334,
+      0.6596022727272727,
+      0.48984375,
+      0.681875
+    ]
+  },
+  {
+    "mark_id": 44,
+    "role": "button",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.6237847222222223,
+      0.6860795454545454,
+      0.6420138888888889,
+      0.7099431818181818
+    ]
+  },
+  {
+    "mark_id": 45,
+    "role": "button",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.6439127604166667,
+      0.6860795454545454,
+      0.6621419270833333,
+      0.7099431818181818
+    ]
+  },
+  {
+    "mark_id": 46,
+    "role": "button",
+    "name": "Add to Cart",
+    "bbox_norm": [
+      0.5655164930555555,
+      0.686875,
+      0.6237847222222223,
+      0.7091477272727272
+    ]
+  },
+  {
+    "mark_id": 47,
+    "role": "link",
+    "name": "Accessories 1924 item",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.3307528409090909,
+      0.23938802083333333,
+      0.34348011363636366
+    ]
+  },
+  {
+    "mark_id": 48,
+    "role": "link",
+    "name": "Cases, Holsters & Sleeves 457 item",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.3464346590909091,
+      0.26507161458333334,
+      0.37279829545454546
+    ]
+  },
+  {
+    "mark_id": 49,
+    "role": "link",
+    "name": "Cell Phones 68 item",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.3757528409090909,
+      0.23123914930555556,
+      0.38848011363636364
+    ]
+  },
+  {
+    "mark_id": 50,
+    "role": "link",
+    "name": "$0.00 - $999.99 2446 item",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.42375,
+      0.2517035590277778,
+      0.4364772727272727
+    ]
+  }
+]

@@ -25,7 +25,6 @@
     "element_role": "combobox",
     "element_name": "Search entire store here...",
     "a11y_instruction_ref": "click the combobox 'Search entire store here...'",
-    "difficulty": "easy",
     "tags": [
       "search",
       "home"
@@ -57,7 +56,6 @@
     "element_role": "button",
     "element_name": "Search",
     "a11y_instruction_ref": "click the button 'Search'",
-    "difficulty": "easy",
     "tags": [
       "search",
       "home"
@@ -89,7 +87,6 @@
     "element_role": "link",
     "element_name": "Advanced Search",
     "a11y_instruction_ref": "click the link 'Advanced Search'",
-    "difficulty": "medium",
     "tags": [
       "search",
       "home"
@@ -121,7 +118,6 @@
     "element_role": "link",
     "element_name": "Sign In",
     "a11y_instruction_ref": "click the link 'Sign In'",
-    "difficulty": "easy",
     "tags": [
       "auth",
       "home"
@@ -153,7 +149,6 @@
     "element_role": "link",
     "element_name": "Create an Account",
     "a11y_instruction_ref": "click the link 'Create an Account'",
-    "difficulty": "easy",
     "tags": [
       "auth",
       "home"
@@ -185,7 +180,6 @@
     "element_role": "link",
     "element_name": "My Wish List",
     "a11y_instruction_ref": "click the link 'My Wish List'",
-    "difficulty": "easy",
     "tags": [
       "wishlist",
       "home"
@@ -217,7 +211,6 @@
     "element_role": "link",
     "element_name": "My Cart",
     "a11y_instruction_ref": "click the link 'My Cart'",
-    "difficulty": "easy",
     "tags": [
       "cart",
       "home"
@@ -249,7 +242,6 @@
     "element_role": "menuitem",
     "element_name": "Electronics",
     "a11y_instruction_ref": "click the menuitem 'Electronics'",
-    "difficulty": "medium",
     "tags": [
       "browse",
       "home"
@@ -281,7 +273,6 @@
     "element_role": "menuitem",
     "element_name": "Video Games",
     "a11y_instruction_ref": "click the menuitem 'Video Games'",
-    "difficulty": "medium",
     "tags": [
       "browse",
       "home"
@@ -313,7 +304,6 @@
     "element_role": "button",
     "element_name": "Add to Cart",
     "a11y_instruction_ref": "click the button 'Add to Cart'",
-    "difficulty": "easy",
     "tags": [
       "cart",
       "product"
@@ -345,7 +335,6 @@
     "element_role": "textbox",
     "element_name": "Qty",
     "a11y_instruction_ref": "click the textbox 'Qty'",
-    "difficulty": "medium",
     "tags": [
       "product",
       "qty"
@@ -377,7 +366,6 @@
     "element_role": "link",
     "element_name": "Add to Wish List",
     "a11y_instruction_ref": "click the link 'Add to Wish List'",
-    "difficulty": "medium",
     "tags": [
       "wishlist",
       "product"
@@ -409,7 +397,6 @@
     "element_role": "link",
     "element_name": "Add to Compare",
     "a11y_instruction_ref": "click the link 'Add to Compare'",
-    "difficulty": "medium",
     "tags": [
       "product",
       "compare"
@@ -441,7 +428,6 @@
     "element_role": "textbox",
     "element_name": "Email",
     "a11y_instruction_ref": "click the textbox 'Email'",
-    "difficulty": "easy",
     "tags": [
       "auth",
       "login"
@@ -473,7 +459,6 @@
     "element_role": "textbox",
     "element_name": "Password",
     "a11y_instruction_ref": "click the textbox 'Password'",
-    "difficulty": "easy",
     "tags": [
       "auth",
       "login"
@@ -505,7 +490,6 @@
     "element_role": "link",
     "element_name": "Forgot Your Password?",
     "a11y_instruction_ref": "click the link 'Forgot Your Password?'",
-    "difficulty": "medium",
     "tags": [
       "auth",
       "login"
@@ -537,7 +521,6 @@
     "element_role": "textbox",
     "element_name": "Name",
     "a11y_instruction_ref": "click the textbox 'Name'",
-    "difficulty": "easy",
     "tags": [
       "contact",
       "form"
@@ -569,7 +552,6 @@
     "element_role": "textbox",
     "element_name": "Phone Number",
     "a11y_instruction_ref": "click the textbox 'Phone Number'",
-    "difficulty": "easy",
     "tags": [
       "contact",
       "form"
@@ -601,7 +583,6 @@
     "element_role": "textbox",
     "element_name": "Product Name",
     "a11y_instruction_ref": "click the textbox 'Product Name'",
-    "difficulty": "medium",
     "tags": [
       "search",
       "advanced"
@@ -633,7 +614,6 @@
     "element_role": "textbox",
     "element_name": "SKU",
     "a11y_instruction_ref": "click the textbox 'SKU'",
-    "difficulty": "medium",
     "tags": [
       "search",
       "advanced"
@@ -665,7 +645,6 @@
     "element_role": "button",
     "element_name": "Proceed to Checkout",
     "a11y_instruction_ref": "click the button 'Proceed to Checkout'",
-    "difficulty": "easy",
     "tags": [
       "cart",
       "checkout"
@@ -697,7 +676,6 @@
     "element_role": "link",
     "element_name": "Remove item",
     "a11y_instruction_ref": "click the link 'Remove item'",
-    "difficulty": "medium",
     "tags": [
       "cart"
     ]
@@ -728,7 +706,6 @@
     "element_role": "link",
     "element_name": "Continue Shopping",
     "a11y_instruction_ref": "click the link 'Continue Shopping'",
-    "difficulty": "medium",
     "tags": [
       "cart"
     ]
@@ -759,7 +736,6 @@
     "element_role": "link",
     "element_name": "View and Edit Cart",
     "a11y_instruction_ref": "click the link 'View and Edit Cart'",
-    "difficulty": "hard",
     "tags": [
       "cart",
       "minicart"
@@ -791,7 +767,6 @@
     "element_role": "button",
     "element_name": "Proceed to Checkout",
     "a11y_instruction_ref": "click the button 'Proceed to Checkout'",
-    "difficulty": "medium",
     "tags": [
       "cart",
       "minicart",
@@ -824,7 +799,6 @@
     "element_role": "link",
     "element_name": "My Orders",
     "a11y_instruction_ref": "click the link 'My Orders'",
-    "difficulty": "medium",
     "tags": [
       "account",
       "orders"
@@ -856,7 +830,6 @@
     "element_role": "link",
     "element_name": "Address Book",
     "a11y_instruction_ref": "click the link 'Address Book'",
-    "difficulty": "medium",
     "tags": [
       "account"
     ]
@@ -887,7 +860,6 @@
     "element_role": "link",
     "element_name": "Sign Out",
     "a11y_instruction_ref": "click the link 'Sign Out'",
-    "difficulty": "easy",
     "tags": [
       "auth",
       "account"
@@ -919,7 +891,6 @@
     "element_role": "button",
     "element_name": "Reset My Password",
     "a11y_instruction_ref": "click the button 'Reset My Password'",
-    "difficulty": "easy",
     "tags": [
       "auth"
     ]
@@ -950,7 +921,6 @@
     "element_role": "textbox",
     "element_name": "First Name",
     "a11y_instruction_ref": "click the textbox 'First Name'",
-    "difficulty": "easy",
     "tags": [
       "auth",
       "register"
@@ -982,7 +952,6 @@
     "element_role": "button",
     "element_name": "Continue",
     "a11y_instruction_ref": "click the button 'Continue'",
-    "difficulty": "medium",
     "tags": [
       "orders",
       "guest"
@@ -1014,7 +983,6 @@
     "element_role": "link",
     "element_name": "Headphones 631 item",
     "a11y_instruction_ref": "click the link 'Headphones 631 item'",
-    "difficulty": "hard",
     "tags": [
       "browse",
       "category"

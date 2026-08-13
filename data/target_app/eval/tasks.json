@@ -21,7 +21,7 @@
       "expected_end_title_contains": "Search results",
       "expected_end_title_not_contains": null,
       "setup_hint": null,
-      "difficulty": "easy",
+      "expected_steps": 3,
       "tags": [
         "search",
         "guest"
@@ -39,7 +39,7 @@
       "expected_end_title_contains": "Create New Customer Account",
       "expected_end_title_not_contains": null,
       "setup_hint": null,
-      "difficulty": "easy",
+      "expected_steps": 1,
       "tags": [
         "auth",
         "register",
@@ -58,7 +58,7 @@
       "expected_end_title_contains": "Forgot Your Password",
       "expected_end_title_not_contains": null,
       "setup_hint": null,
-      "difficulty": "easy",
+      "expected_steps": 1,
       "tags": [
         "auth",
         "guest"
@@ -76,7 +76,7 @@
       "expected_end_title_contains": "Video Games",
       "expected_end_title_not_contains": null,
       "setup_hint": null,
-      "difficulty": "medium",
+      "expected_steps": 1,
       "tags": [
         "browse",
         "guest"
@@ -94,7 +94,7 @@
       "expected_end_title_contains": null,
       "expected_end_title_not_contains": null,
       "setup_hint": null,
-      "difficulty": "medium",
+      "expected_steps": 2,
       "tags": [
         "wishlist",
         "product",
@@ -113,7 +113,7 @@
       "expected_end_title_contains": "Shopping Cart",
       "expected_end_title_not_contains": null,
       "setup_hint": null,
-      "difficulty": "medium",
+      "expected_steps": 2,
       "tags": [
         "cart",
         "guest"
@@ -131,7 +131,7 @@
       "expected_end_title_contains": null,
       "expected_end_title_not_contains": null,
       "setup_hint": null,
-      "difficulty": "hard",
+      "expected_steps": 5,
       "tags": [
         "search",
         "advanced",
@@ -150,7 +150,7 @@
       "expected_end_title_contains": "Address",
       "expected_end_title_not_contains": null,
       "setup_hint": null,
-      "difficulty": "hard",
+      "expected_steps": 4,
       "tags": [
         "auth",
         "account",
@@ -169,7 +169,7 @@
       "expected_end_title_contains": "Headphones",
       "expected_end_title_not_contains": null,
       "setup_hint": null,
-      "difficulty": "hard",
+      "expected_steps": 1,
       "tags": [
         "browse",
         "guest"
@@ -187,7 +187,7 @@
       "expected_end_title_contains": "Shopping Cart",
       "expected_end_title_not_contains": null,
       "setup_hint": "Requires cart with item (same precondition as a11y minicart_open / CUA cart tasks).",
-      "difficulty": "hard",
+      "expected_steps": 3,
       "tags": [
         "cart",
         "minicart",

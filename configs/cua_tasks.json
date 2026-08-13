@@ -1,10 +1,6 @@
   {
     "app": "webarena_shopping",
     "base_url": "http://localhost:7770",
-    "observation_modes": [
-      "screenshot_only",
-      "screenshot_plus_som"
-    ],
     "defaults": {
       "start_url": "/",
       "max_steps": 12,

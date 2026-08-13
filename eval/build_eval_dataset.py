@@ -9,7 +9,7 @@ Multi-step tasks: отдельные цели, не копии CUA train.
   python eval/build_eval_dataset.py --config configs/eval_dataset.json
 
 Результат: data/target_app/eval/
-  manifest.json, grounding.json, grounding.jsonl, tasks.json, bboxes.json
+  grounding.json, tasks.json
 """
 
 from __future__ import annotations
@@ -17,7 +17,6 @@ from __future__ import annotations
 import argparse
 import json
 import shutil
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -166,7 +165,6 @@ def build_grounding(
                 "element_role": el.get("role"),
                 "element_name": el.get("name"),
                 "a11y_instruction_ref": el.get("instruction"),
-                "difficulty": item.get("difficulty", "medium"),
                 "tags": item.get("tags", []),
             }
         )
@@ -203,27 +201,13 @@ def build_tasks(cfg: dict[str, Any]) -> tuple[list[dict[str, Any]], list[str]]:
                 "expected_end_title_contains": item.get("expected_end_title_contains"),
                 "expected_end_title_not_contains": item.get("expected_end_title_not_contains"),
                 "setup_hint": item.get("setup_hint"),
-                "difficulty": item.get("difficulty", "medium"),
+                "expected_steps": item.get("expected_steps"),
                 "tags": item.get("tags", []),
                 "notes": item.get("notes"),
             }
         )
 
     return tasks, errors
-
-
-def to_bboxes_compat(grounding: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Формат как у data/target_app/ground_truth/bboxes.json (для старых скриптов)."""
-    return [
-        {
-            "image": g["image"],
-            "instruction": g["instruction"],
-            "bbox": g["bbox"],
-            "id": g["id"],
-            "screen_id": g["screen_id"],
-        }
-        for g in grounding
-    ]
 
 
 def main() -> None:
@@ -266,14 +250,6 @@ def main() -> None:
     (out_dir / "grounding.json").write_text(
         json.dumps(grounding, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    with (out_dir / "grounding.jsonl").open("w", encoding="utf-8") as f:
-        for row in grounding:
-            f.write(json.dumps(row, ensure_ascii=False) + "\n")
-
-    bboxes = to_bboxes_compat(grounding)
-    (out_dir / "bboxes.json").write_text(
-        json.dumps(bboxes, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
 
     tasks_doc = {
         "app": cfg.get("app", "webarena_shopping"),
@@ -283,35 +259,6 @@ def main() -> None:
     }
     (out_dir / "tasks.json").write_text(
         json.dumps(tasks_doc, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-
-    manifest = {
-        "created_at": datetime.now(timezone.utc).isoformat(),
-        "config": str(args.config).replace("\\", "/"),
-        "a11y_kb": str(kb_path).replace("\\", "/"),
-        "n_grounding": len(grounding),
-        "n_tasks": len(tasks),
-        "n_errors": len(errors),
-        "errors": errors,
-        "train_exclusion": cfg.get("train_exclusion", {}),
-        "outputs": {
-            "grounding_json": str(out_dir / "grounding.json").replace("\\", "/"),
-            "grounding_jsonl": str(out_dir / "grounding.jsonl").replace("\\", "/"),
-            "bboxes_json": str(out_dir / "bboxes.json").replace("\\", "/"),
-            "tasks_json": str(out_dir / "tasks.json").replace("\\", "/"),
-            "screenshots_dir": str(out_dir / "screenshots").replace("\\", "/"),
-        },
-        "policy": {
-            "grounding_prompts": "paraphrases only; a11y instruction kept as reference field",
-            "multi_step": "held-out goals; ids must not collide with CUA train task ids",
-            "baseline": "run model WITHOUT RAG/LoRA on grounding.json + tasks.json",
-            "distilled": "same splits WITH RAG/LoRA; do not train SFT on these ids/element_ids",
-        },
-        "element_ids_in_eval": [g["element_id"] for g in grounding],
-        "task_ids_in_eval": [t["id"] for t in tasks],
-    }
-    (out_dir / "manifest.json").write_text(
-        json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
     print("\nDone.")

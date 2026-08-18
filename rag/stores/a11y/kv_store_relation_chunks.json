@@ -1,0 +1,1720 @@
+{
+  "Screen<SEP>a11y": {
+    "chunk_ids": [
+      "doc-36f6576613a283888b16c8f9146dbd71-chunk-000",
+      "doc-98635dbb5321900fe07ed4d39d07cf78-chunk-000",
+      "doc-d2a72d64e9d709b745758f4681df3ca6-chunk-000",
+      "doc-6fee16de15adef8f9c158fcdcfc3c3cf-chunk-000"
+    ],
+    "count": 4,
+    "update_time": 1787060558,
+    "_id": "Screen<SEP>a11y"
+  },
+  "a11y<SEP>product": {
+    "chunk_ids": [
+      "doc-7ff218daa648cf801a7184502db5ca24-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059610,
+    "update_time": 1787059610,
+    "_id": "a11y<SEP>product"
+  },
+  "product<SEP>screen": {
+    "chunk_ids": [
+      "doc-7ff218daa648cf801a7184502db5ca24-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059610,
+    "update_time": 1787059610,
+    "_id": "product<SEP>screen"
+  },
+  "Briess DME<SEP>product": {
+    "chunk_ids": [
+      "doc-7ff218daa648cf801a7184502db5ca24-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059610,
+    "update_time": 1787059610,
+    "_id": "Briess DME<SEP>product"
+  },
+  "Pilsen Light<SEP>product": {
+    "chunk_ids": [
+      "doc-7ff218daa648cf801a7184502db5ca24-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059610,
+    "update_time": 1787059610,
+    "_id": "Pilsen Light<SEP>product"
+  },
+  "1 lb Bag<SEP>product": {
+    "chunk_ids": [
+      "doc-7ff218daa648cf801a7184502db5ca24-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059610,
+    "update_time": 1787059610,
+    "_id": "1 lb Bag<SEP>product"
+  },
+  "http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html<SEP>product": {
+    "chunk_ids": [
+      "doc-7ff218daa648cf801a7184502db5ca24-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059610,
+    "update_time": 1787059610,
+    "_id": "http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html<SEP>product"
+  },
+  "Screen<SEP>url": {
+    "chunk_ids": [
+      "doc-d2a72d64e9d709b745758f4681df3ca6-chunk-000",
+      "doc-e71e082796434ad5e7fdfd56adbca8ef-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787059632,
+    "_id": "Screen<SEP>url"
+  },
+  "Screen<SEP>title": {
+    "chunk_ids": [
+      "doc-d2a72d64e9d709b745758f4681df3ca6-chunk-000",
+      "doc-e71e082796434ad5e7fdfd56adbca8ef-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787059632,
+    "_id": "Screen<SEP>title"
+  },
+  "Screen<SEP>description": {
+    "chunk_ids": [
+      "doc-d2a72d64e9d709b745758f4681df3ca6-chunk-000",
+      "doc-e71e082796434ad5e7fdfd56adbca8ef-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787059632,
+    "_id": "Screen<SEP>description"
+  },
+  "Screen<SEP>search_results": {
+    "chunk_ids": [
+      "doc-e71e082796434ad5e7fdfd56adbca8ef-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059632,
+    "update_time": 1787059632,
+    "_id": "Screen<SEP>search_results"
+  },
+  "instruction<SEP>role": {
+    "chunk_ids": [
+      "doc-01c33fc069142df72db73c0a60322bcf-chunk-000",
+      "doc-0ecdec2685406dc115c811677c195f75-chunk-000",
+      "doc-1abb292a251278234ef2aea5585a4cec-chunk-000",
+      "doc-2264c0cbd93197c10fe0a09fdbcf60f8-chunk-000",
+      "doc-269a8ede147006aea65d5f4620f825e3-chunk-000",
+      "doc-323e293277d50c431bbc02b71c78a7a1-chunk-000",
+      "doc-4d2253d679e093ecd355e3b749bc2b59-chunk-000",
+      "doc-547a6ce3129ff5916eefb35f8a299993-chunk-000",
+      "doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000",
+      "doc-6862f8705f500b582cfb681d1c6febc9-chunk-000",
+      "doc-79bdc8c15be295419534818b640a1fab-chunk-000",
+      "doc-96f37bc024c1dd81bce2be42d32fb9a4-chunk-000",
+      "doc-fc1ca9cca3e46ee16fa32c18e0a103c3-chunk-000",
+      "doc-12452d2aa4a1f4053eb75846db92c28d-chunk-000",
+      "doc-194f81eb3c83c9cefd1db2a27051c77c-chunk-000",
+      "doc-268dbaf8f5d2bbfa508f8694007669e8-chunk-000",
+      "doc-29be4ff47307e375f775296be1cde294-chunk-000",
+      "doc-2b681e6ff218bd5e8ea006e583399b46-chunk-000",
+      "doc-3061faa96c0c7a421b9cb59faaceecfd-chunk-000",
+      "doc-3e299beb38700881a5830b1177ab94bc-chunk-000",
+      "doc-3e769a9f3b3124071bf65fc847fda10d-chunk-000",
+      "doc-408a545f2f275edc7f90370680b14ca2-chunk-000",
+      "doc-56ec189439a015283fccdce67a566f82-chunk-000",
+      "doc-5b473242f4933f3f7d91e6f29b742fcf-chunk-000",
+      "doc-5da9c66bf37b64902e06a0dd44ff6fac-chunk-000",
+      "doc-5fb0571aa2079c55a01a22bbe275b3dd-chunk-000",
+      "doc-6eba1c907b5724355bed821c6610610f-chunk-000",
+      "doc-722a96df8df31ddf4201f8e8f11d9525-chunk-000",
+      "doc-7e6f0b9e982b547cc8a70604b6b807cd-chunk-000",
+      "doc-841245dee9b14e5f30aa2d5301576659-chunk-000",
+      "doc-8cc1a03033af241faefa99ff5ed7f098-chunk-000",
+      "doc-8f7f3657b48ba0e4aa88ce986d0a41c7-chunk-000",
+      "doc-9104b63ab39e8f7a3804222796138bfa-chunk-000",
+      "doc-93c0b52f1424d7d36baed79b40514396-chunk-000",
+      "doc-9c770a210ed04e4896b64343058e4e98-chunk-000",
+      "doc-ac63af929d9bcd32b80115e4b7e7f95a-chunk-000",
+      "doc-b0adcdaadab92923be5fd15b79b93955-chunk-000",
+      "doc-ba6726fc258014219f639a6913f23960-chunk-000",
+      "doc-bbdf8ed1ea71a34c7864fc2631add2ca-chunk-000",
+      "doc-c2d276c0713cf9e96a47308ae621ecf4-chunk-000",
+      "doc-c87ec0c898aa8c18b63d3ebadc9a54f2-chunk-000",
+      "doc-d8306c89a6e17662efce0519d4d1ac0c-chunk-000",
+      "doc-d89c30514b52a7d6ffd6faa7abd1e057-chunk-000",
+      "doc-e27876fe1db52767e6bea84ede7067ec-chunk-000",
+      "doc-ef919e12c5fe348ead5108146f7e4376-chunk-000",
+      "doc-f59e9aad16bd73322b3a8ba0f7834165-chunk-000",
+      "doc-f5a58caaa1558773287fa5d393b4dc93-chunk-000",
+      "doc-f68acd2c28a4ffc3bf6cf18c20993ac6-chunk-000",
+      "doc-fc21d8f20a7af54a354c64ea88d5e41b-chunk-000",
+      "doc-4b9e3f195bfccfaa65ac8933d2cfc6cf-chunk-000",
+      "doc-5eb3679f3090c0f5f21ae588efb7e3e5-chunk-000",
+      "doc-beadc75609261f0ea03542f0dc14b49b-chunk-000",
+      "doc-26e09db01a07794a9ce798e10694e907-chunk-000",
+      "doc-525d140f4619ad4f23c939f8bc69dd07-chunk-000",
+      "doc-67ebc805bc05fcb104d97b50eab62a38-chunk-000",
+      "doc-9144974b3bb623c0dfb93ab6e10e5f07-chunk-000",
+      "doc-c08802c5b91256601685a06b453a8f05-chunk-000",
+      "doc-c4a28d4f02fee136845510f4c0e93d17-chunk-000",
+      "doc-c835846818bcaa064fe5becb24be9fa6-chunk-000",
+      "doc-eb7a77743ce6b6fa7440753e6d481bd5-chunk-000",
+      "doc-eea838816eb1d2adf150f2bc5a9dab02-chunk-000",
+      "doc-2094fe41d80830c88a043060dcfc8cdd-chunk-000",
+      "doc-27e21794880bc2e623ae59578cebcf4e-chunk-000",
+      "doc-3068692aae07453a7c411514e1ea3811-chunk-000",
+      "doc-37328452764bee7b0ed4f30f9d666e33-chunk-000",
+      "doc-385fc40248f2f07379e1712028f0604a-chunk-000",
+      "doc-4057121fe5aecd83bbfcbebfb9b55918-chunk-000",
+      "doc-431fc34e58ede86a954c3e17bf1dc768-chunk-000",
+      "doc-456a6331c4b2e35dcde2ad6d2b023cbe-chunk-000",
+      "doc-4a1792213e425380d77cb4179dec8f31-chunk-000",
+      "doc-51ea3b753089aea48ac556d937bd20bc-chunk-000",
+      "doc-5ea9507d14398c33e78fda51bc5387b5-chunk-000",
+      "doc-666c73e55cdecb6b7478d4e60dde6de2-chunk-000",
+      "doc-674a744771d0b8ae6ea5295ac3f9e6f3-chunk-000",
+      "doc-6ed408f6323ee8fccb1c84a1058ff73b-chunk-000",
+      "doc-6f5e9a82e4b6711bf6c7c0f95d1c2e44-chunk-000",
+      "doc-7af4f21ec3736ca946e6f1a58eb89e14-chunk-000",
+      "doc-7e22b2191319343ea81db7795943a9d2-chunk-000",
+      "doc-8188d64419b5b66f55c03fd005cee4c7-chunk-000"
+    ],
+    "count": 79,
+    "update_time": 1787067974,
+    "_id": "instruction<SEP>role"
+  },
+  "name<SEP>role": {
+    "chunk_ids": [
+      "doc-01c33fc069142df72db73c0a60322bcf-chunk-000",
+      "doc-4d2253d679e093ecd355e3b749bc2b59-chunk-000",
+      "doc-547a6ce3129ff5916eefb35f8a299993-chunk-000",
+      "doc-96f37bc024c1dd81bce2be42d32fb9a4-chunk-000",
+      "doc-12452d2aa4a1f4053eb75846db92c28d-chunk-000",
+      "doc-194f81eb3c83c9cefd1db2a27051c77c-chunk-000",
+      "doc-2b681e6ff218bd5e8ea006e583399b46-chunk-000",
+      "doc-3061faa96c0c7a421b9cb59faaceecfd-chunk-000",
+      "doc-56ec189439a015283fccdce67a566f82-chunk-000",
+      "doc-7e6f0b9e982b547cc8a70604b6b807cd-chunk-000",
+      "doc-841245dee9b14e5f30aa2d5301576659-chunk-000",
+      "doc-8cc1a03033af241faefa99ff5ed7f098-chunk-000",
+      "doc-9104b63ab39e8f7a3804222796138bfa-chunk-000",
+      "doc-93c0b52f1424d7d36baed79b40514396-chunk-000",
+      "doc-a0e31ce440868a3d3601a01f6b1c3088-chunk-000",
+      "doc-ac63af929d9bcd32b80115e4b7e7f95a-chunk-000",
+      "doc-b0adcdaadab92923be5fd15b79b93955-chunk-000",
+      "doc-c2d276c0713cf9e96a47308ae621ecf4-chunk-000",
+      "doc-c87ec0c898aa8c18b63d3ebadc9a54f2-chunk-000",
+      "doc-d8306c89a6e17662efce0519d4d1ac0c-chunk-000",
+      "doc-d89c30514b52a7d6ffd6faa7abd1e057-chunk-000",
+      "doc-ef919e12c5fe348ead5108146f7e4376-chunk-000",
+      "doc-f59e9aad16bd73322b3a8ba0f7834165-chunk-000",
+      "doc-f68acd2c28a4ffc3bf6cf18c20993ac6-chunk-000",
+      "doc-5eb3679f3090c0f5f21ae588efb7e3e5-chunk-000",
+      "doc-beadc75609261f0ea03542f0dc14b49b-chunk-000",
+      "doc-26e09db01a07794a9ce798e10694e907-chunk-000",
+      "doc-525d140f4619ad4f23c939f8bc69dd07-chunk-000",
+      "doc-67ebc805bc05fcb104d97b50eab62a38-chunk-000",
+      "doc-c4a28d4f02fee136845510f4c0e93d17-chunk-000",
+      "doc-c835846818bcaa064fe5becb24be9fa6-chunk-000",
+      "doc-d22e70f9c5950a52be1706e3c49cd064-chunk-000",
+      "doc-eea838816eb1d2adf150f2bc5a9dab02-chunk-000",
+      "doc-2094fe41d80830c88a043060dcfc8cdd-chunk-000",
+      "doc-385fc40248f2f07379e1712028f0604a-chunk-000",
+      "doc-4a1792213e425380d77cb4179dec8f31-chunk-000",
+      "doc-51ea3b753089aea48ac556d937bd20bc-chunk-000",
+      "doc-5ea9507d14398c33e78fda51bc5387b5-chunk-000",
+      "doc-6ed408f6323ee8fccb1c84a1058ff73b-chunk-000",
+      "doc-7af4f21ec3736ca946e6f1a58eb89e14-chunk-000",
+      "doc-7e22b2191319343ea81db7795943a9d2-chunk-000"
+    ],
+    "count": 41,
+    "update_time": 1787067969,
+    "_id": "name<SEP>role"
+  },
+  "instruction<SEP>name": {
+    "chunk_ids": [
+      "doc-01c33fc069142df72db73c0a60322bcf-chunk-000",
+      "doc-0ecdec2685406dc115c811677c195f75-chunk-000",
+      "doc-269a8ede147006aea65d5f4620f825e3-chunk-000",
+      "doc-323e293277d50c431bbc02b71c78a7a1-chunk-000",
+      "doc-547a6ce3129ff5916eefb35f8a299993-chunk-000",
+      "doc-6862f8705f500b582cfb681d1c6febc9-chunk-000",
+      "doc-79bdc8c15be295419534818b640a1fab-chunk-000",
+      "doc-96f37bc024c1dd81bce2be42d32fb9a4-chunk-000",
+      "doc-fc1ca9cca3e46ee16fa32c18e0a103c3-chunk-000",
+      "doc-194f81eb3c83c9cefd1db2a27051c77c-chunk-000",
+      "doc-268dbaf8f5d2bbfa508f8694007669e8-chunk-000",
+      "doc-2b681e6ff218bd5e8ea006e583399b46-chunk-000",
+      "doc-3061faa96c0c7a421b9cb59faaceecfd-chunk-000",
+      "doc-3e299beb38700881a5830b1177ab94bc-chunk-000",
+      "doc-3e769a9f3b3124071bf65fc847fda10d-chunk-000",
+      "doc-408a545f2f275edc7f90370680b14ca2-chunk-000",
+      "doc-56ec189439a015283fccdce67a566f82-chunk-000",
+      "doc-5b473242f4933f3f7d91e6f29b742fcf-chunk-000",
+      "doc-5da9c66bf37b64902e06a0dd44ff6fac-chunk-000",
+      "doc-5fb0571aa2079c55a01a22bbe275b3dd-chunk-000",
+      "doc-6eba1c907b5724355bed821c6610610f-chunk-000",
+      "doc-722a96df8df31ddf4201f8e8f11d9525-chunk-000",
+      "doc-7e6f0b9e982b547cc8a70604b6b807cd-chunk-000",
+      "doc-841245dee9b14e5f30aa2d5301576659-chunk-000",
+      "doc-8cc1a03033af241faefa99ff5ed7f098-chunk-000",
+      "doc-8f7f3657b48ba0e4aa88ce986d0a41c7-chunk-000",
+      "doc-9104b63ab39e8f7a3804222796138bfa-chunk-000",
+      "doc-93c0b52f1424d7d36baed79b40514396-chunk-000",
+      "doc-9c770a210ed04e4896b64343058e4e98-chunk-000",
+      "doc-ac63af929d9bcd32b80115e4b7e7f95a-chunk-000",
+      "doc-b0adcdaadab92923be5fd15b79b93955-chunk-000",
+      "doc-ba6726fc258014219f639a6913f23960-chunk-000",
+      "doc-bbdf8ed1ea71a34c7864fc2631add2ca-chunk-000",
+      "doc-c2d276c0713cf9e96a47308ae621ecf4-chunk-000",
+      "doc-c87ec0c898aa8c18b63d3ebadc9a54f2-chunk-000",
+      "doc-d8306c89a6e17662efce0519d4d1ac0c-chunk-000",
+      "doc-d89c30514b52a7d6ffd6faa7abd1e057-chunk-000",
+      "doc-e27876fe1db52767e6bea84ede7067ec-chunk-000",
+      "doc-ef919e12c5fe348ead5108146f7e4376-chunk-000",
+      "doc-f59e9aad16bd73322b3a8ba0f7834165-chunk-000",
+      "doc-f5a58caaa1558773287fa5d393b4dc93-chunk-000",
+      "doc-f68acd2c28a4ffc3bf6cf18c20993ac6-chunk-000",
+      "doc-fc21d8f20a7af54a354c64ea88d5e41b-chunk-000",
+      "doc-4b9e3f195bfccfaa65ac8933d2cfc6cf-chunk-000",
+      "doc-5eb3679f3090c0f5f21ae588efb7e3e5-chunk-000",
+      "doc-26e09db01a07794a9ce798e10694e907-chunk-000",
+      "doc-9144974b3bb623c0dfb93ab6e10e5f07-chunk-000",
+      "doc-c08802c5b91256601685a06b453a8f05-chunk-000",
+      "doc-d22e70f9c5950a52be1706e3c49cd064-chunk-000",
+      "doc-eb7a77743ce6b6fa7440753e6d481bd5-chunk-000",
+      "doc-2094fe41d80830c88a043060dcfc8cdd-chunk-000",
+      "doc-27e21794880bc2e623ae59578cebcf4e-chunk-000",
+      "doc-3068692aae07453a7c411514e1ea3811-chunk-000",
+      "doc-37328452764bee7b0ed4f30f9d666e33-chunk-000",
+      "doc-385fc40248f2f07379e1712028f0604a-chunk-000",
+      "doc-4057121fe5aecd83bbfcbebfb9b55918-chunk-000",
+      "doc-431fc34e58ede86a954c3e17bf1dc768-chunk-000",
+      "doc-456a6331c4b2e35dcde2ad6d2b023cbe-chunk-000",
+      "doc-4a1792213e425380d77cb4179dec8f31-chunk-000",
+      "doc-51ea3b753089aea48ac556d937bd20bc-chunk-000",
+      "doc-5ea9507d14398c33e78fda51bc5387b5-chunk-000",
+      "doc-666c73e55cdecb6b7478d4e60dde6de2-chunk-000",
+      "doc-674a744771d0b8ae6ea5295ac3f9e6f3-chunk-000",
+      "doc-6ed408f6323ee8fccb1c84a1058ff73b-chunk-000",
+      "doc-6f5e9a82e4b6711bf6c7c0f95d1c2e44-chunk-000",
+      "doc-79340cf718f16a6e405de48bf38d7db6-chunk-000",
+      "doc-7af4f21ec3736ca946e6f1a58eb89e14-chunk-000",
+      "doc-7e22b2191319343ea81db7795943a9d2-chunk-000",
+      "doc-8188d64419b5b66f55c03fd005cee4c7-chunk-000"
+    ],
+    "count": 69,
+    "update_time": 1787067974,
+    "_id": "instruction<SEP>name"
+  },
+  "bbox_px<SEP>instruction": {
+    "chunk_ids": [
+      "doc-01c33fc069142df72db73c0a60322bcf-chunk-000",
+      "doc-0ecdec2685406dc115c811677c195f75-chunk-000",
+      "doc-269a8ede147006aea65d5f4620f825e3-chunk-000",
+      "doc-323e293277d50c431bbc02b71c78a7a1-chunk-000",
+      "doc-4d2253d679e093ecd355e3b749bc2b59-chunk-000",
+      "doc-547a6ce3129ff5916eefb35f8a299993-chunk-000",
+      "doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000",
+      "doc-6862f8705f500b582cfb681d1c6febc9-chunk-000",
+      "doc-79bdc8c15be295419534818b640a1fab-chunk-000",
+      "doc-96f37bc024c1dd81bce2be42d32fb9a4-chunk-000",
+      "doc-fc1ca9cca3e46ee16fa32c18e0a103c3-chunk-000",
+      "doc-194f81eb3c83c9cefd1db2a27051c77c-chunk-000",
+      "doc-268dbaf8f5d2bbfa508f8694007669e8-chunk-000",
+      "doc-29be4ff47307e375f775296be1cde294-chunk-000",
+      "doc-2b681e6ff218bd5e8ea006e583399b46-chunk-000",
+      "doc-3061faa96c0c7a421b9cb59faaceecfd-chunk-000",
+      "doc-3e299beb38700881a5830b1177ab94bc-chunk-000",
+      "doc-3e769a9f3b3124071bf65fc847fda10d-chunk-000",
+      "doc-408a545f2f275edc7f90370680b14ca2-chunk-000",
+      "doc-56ec189439a015283fccdce67a566f82-chunk-000",
+      "doc-5b473242f4933f3f7d91e6f29b742fcf-chunk-000",
+      "doc-5da9c66bf37b64902e06a0dd44ff6fac-chunk-000",
+      "doc-5fb0571aa2079c55a01a22bbe275b3dd-chunk-000",
+      "doc-6eba1c907b5724355bed821c6610610f-chunk-000",
+      "doc-722a96df8df31ddf4201f8e8f11d9525-chunk-000",
+      "doc-7e6f0b9e982b547cc8a70604b6b807cd-chunk-000",
+      "doc-841245dee9b14e5f30aa2d5301576659-chunk-000",
+      "doc-8cc1a03033af241faefa99ff5ed7f098-chunk-000",
+      "doc-8f7f3657b48ba0e4aa88ce986d0a41c7-chunk-000",
+      "doc-9104b63ab39e8f7a3804222796138bfa-chunk-000",
+      "doc-93c0b52f1424d7d36baed79b40514396-chunk-000",
+      "doc-9c770a210ed04e4896b64343058e4e98-chunk-000",
+      "doc-9fe24d26583c5858737b13f669bc8ff1-chunk-000",
+      "doc-ac63af929d9bcd32b80115e4b7e7f95a-chunk-000",
+      "doc-aed19f98e30bc8b112d61f39e3e57a4e-chunk-000",
+      "doc-b0adcdaadab92923be5fd15b79b93955-chunk-000",
+      "doc-ba6726fc258014219f639a6913f23960-chunk-000",
+      "doc-bbdf8ed1ea71a34c7864fc2631add2ca-chunk-000",
+      "doc-c2d276c0713cf9e96a47308ae621ecf4-chunk-000",
+      "doc-c87ec0c898aa8c18b63d3ebadc9a54f2-chunk-000",
+      "doc-d8306c89a6e17662efce0519d4d1ac0c-chunk-000",
+      "doc-d89c30514b52a7d6ffd6faa7abd1e057-chunk-000",
+      "doc-e27876fe1db52767e6bea84ede7067ec-chunk-000",
+      "doc-ef919e12c5fe348ead5108146f7e4376-chunk-000",
+      "doc-f59e9aad16bd73322b3a8ba0f7834165-chunk-000",
+      "doc-f5a58caaa1558773287fa5d393b4dc93-chunk-000",
+      "doc-f68acd2c28a4ffc3bf6cf18c20993ac6-chunk-000",
+      "doc-fc21d8f20a7af54a354c64ea88d5e41b-chunk-000",
+      "doc-4b9e3f195bfccfaa65ac8933d2cfc6cf-chunk-000",
+      "doc-5eb3679f3090c0f5f21ae588efb7e3e5-chunk-000",
+      "doc-beadc75609261f0ea03542f0dc14b49b-chunk-000",
+      "doc-26e09db01a07794a9ce798e10694e907-chunk-000",
+      "doc-9144974b3bb623c0dfb93ab6e10e5f07-chunk-000",
+      "doc-c08802c5b91256601685a06b453a8f05-chunk-000",
+      "doc-eb7a77743ce6b6fa7440753e6d481bd5-chunk-000",
+      "doc-2094fe41d80830c88a043060dcfc8cdd-chunk-000",
+      "doc-27e21794880bc2e623ae59578cebcf4e-chunk-000",
+      "doc-3068692aae07453a7c411514e1ea3811-chunk-000",
+      "doc-3189339ea6f4fc6117aef9fec12e38bd-chunk-000",
+      "doc-37328452764bee7b0ed4f30f9d666e33-chunk-000",
+      "doc-385fc40248f2f07379e1712028f0604a-chunk-000",
+      "doc-4057121fe5aecd83bbfcbebfb9b55918-chunk-000",
+      "doc-431fc34e58ede86a954c3e17bf1dc768-chunk-000",
+      "doc-456a6331c4b2e35dcde2ad6d2b023cbe-chunk-000",
+      "doc-4a1792213e425380d77cb4179dec8f31-chunk-000",
+      "doc-51ea3b753089aea48ac556d937bd20bc-chunk-000",
+      "doc-5ea9507d14398c33e78fda51bc5387b5-chunk-000",
+      "doc-666c73e55cdecb6b7478d4e60dde6de2-chunk-000",
+      "doc-674a744771d0b8ae6ea5295ac3f9e6f3-chunk-000",
+      "doc-6ed408f6323ee8fccb1c84a1058ff73b-chunk-000",
+      "doc-79340cf718f16a6e405de48bf38d7db6-chunk-000",
+      "doc-7af4f21ec3736ca946e6f1a58eb89e14-chunk-000",
+      "doc-7e22b2191319343ea81db7795943a9d2-chunk-000",
+      "doc-8188d64419b5b66f55c03fd005cee4c7-chunk-000"
+    ],
+    "count": 74,
+    "update_time": 1787067974,
+    "_id": "bbox_px<SEP>instruction"
+  },
+  "bbox_px<SEP>role": {
+    "chunk_ids": [
+      "doc-01c33fc069142df72db73c0a60322bcf-chunk-000",
+      "doc-547a6ce3129ff5916eefb35f8a299993-chunk-000",
+      "doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000",
+      "doc-96f37bc024c1dd81bce2be42d32fb9a4-chunk-000",
+      "doc-194f81eb3c83c9cefd1db2a27051c77c-chunk-000",
+      "doc-2b681e6ff218bd5e8ea006e583399b46-chunk-000",
+      "doc-3061faa96c0c7a421b9cb59faaceecfd-chunk-000",
+      "doc-56ec189439a015283fccdce67a566f82-chunk-000",
+      "doc-7e6f0b9e982b547cc8a70604b6b807cd-chunk-000",
+      "doc-841245dee9b14e5f30aa2d5301576659-chunk-000",
+      "doc-9104b63ab39e8f7a3804222796138bfa-chunk-000",
+      "doc-93c0b52f1424d7d36baed79b40514396-chunk-000",
+      "doc-ac63af929d9bcd32b80115e4b7e7f95a-chunk-000",
+      "doc-b0adcdaadab92923be5fd15b79b93955-chunk-000",
+      "doc-c87ec0c898aa8c18b63d3ebadc9a54f2-chunk-000",
+      "doc-d8306c89a6e17662efce0519d4d1ac0c-chunk-000",
+      "doc-d89c30514b52a7d6ffd6faa7abd1e057-chunk-000",
+      "doc-ef919e12c5fe348ead5108146f7e4376-chunk-000",
+      "doc-f59e9aad16bd73322b3a8ba0f7834165-chunk-000",
+      "doc-f68acd2c28a4ffc3bf6cf18c20993ac6-chunk-000",
+      "doc-5eb3679f3090c0f5f21ae588efb7e3e5-chunk-000",
+      "doc-26e09db01a07794a9ce798e10694e907-chunk-000",
+      "doc-525d140f4619ad4f23c939f8bc69dd07-chunk-000",
+      "doc-c4a28d4f02fee136845510f4c0e93d17-chunk-000",
+      "doc-c835846818bcaa064fe5becb24be9fa6-chunk-000",
+      "doc-d22e70f9c5950a52be1706e3c49cd064-chunk-000",
+      "doc-eea838816eb1d2adf150f2bc5a9dab02-chunk-000",
+      "doc-2094fe41d80830c88a043060dcfc8cdd-chunk-000",
+      "doc-385fc40248f2f07379e1712028f0604a-chunk-000",
+      "doc-4a1792213e425380d77cb4179dec8f31-chunk-000",
+      "doc-51ea3b753089aea48ac556d937bd20bc-chunk-000",
+      "doc-5ea9507d14398c33e78fda51bc5387b5-chunk-000",
+      "doc-6ed408f6323ee8fccb1c84a1058ff73b-chunk-000",
+      "doc-7e22b2191319343ea81db7795943a9d2-chunk-000"
+    ],
+    "count": 34,
+    "update_time": 1787067970,
+    "_id": "bbox_px<SEP>role"
+  },
+  "bbox_px<SEP>name": {
+    "chunk_ids": [
+      "doc-01c33fc069142df72db73c0a60322bcf-chunk-000",
+      "doc-1abb292a251278234ef2aea5585a4cec-chunk-000",
+      "doc-4d2253d679e093ecd355e3b749bc2b59-chunk-000",
+      "doc-547a6ce3129ff5916eefb35f8a299993-chunk-000",
+      "doc-96f37bc024c1dd81bce2be42d32fb9a4-chunk-000",
+      "doc-12452d2aa4a1f4053eb75846db92c28d-chunk-000",
+      "doc-194f81eb3c83c9cefd1db2a27051c77c-chunk-000",
+      "doc-2b681e6ff218bd5e8ea006e583399b46-chunk-000",
+      "doc-3061faa96c0c7a421b9cb59faaceecfd-chunk-000",
+      "doc-56ec189439a015283fccdce67a566f82-chunk-000",
+      "doc-7e6f0b9e982b547cc8a70604b6b807cd-chunk-000",
+      "doc-841245dee9b14e5f30aa2d5301576659-chunk-000",
+      "doc-8cc1a03033af241faefa99ff5ed7f098-chunk-000",
+      "doc-9104b63ab39e8f7a3804222796138bfa-chunk-000",
+      "doc-93c0b52f1424d7d36baed79b40514396-chunk-000",
+      "doc-a0e31ce440868a3d3601a01f6b1c3088-chunk-000",
+      "doc-ac63af929d9bcd32b80115e4b7e7f95a-chunk-000",
+      "doc-b0adcdaadab92923be5fd15b79b93955-chunk-000",
+      "doc-c2d276c0713cf9e96a47308ae621ecf4-chunk-000",
+      "doc-c87ec0c898aa8c18b63d3ebadc9a54f2-chunk-000",
+      "doc-d8306c89a6e17662efce0519d4d1ac0c-chunk-000",
+      "doc-d89c30514b52a7d6ffd6faa7abd1e057-chunk-000",
+      "doc-f59e9aad16bd73322b3a8ba0f7834165-chunk-000",
+      "doc-f5a58caaa1558773287fa5d393b4dc93-chunk-000",
+      "doc-f68acd2c28a4ffc3bf6cf18c20993ac6-chunk-000",
+      "doc-5eb3679f3090c0f5f21ae588efb7e3e5-chunk-000",
+      "doc-26e09db01a07794a9ce798e10694e907-chunk-000",
+      "doc-67ebc805bc05fcb104d97b50eab62a38-chunk-000",
+      "doc-2094fe41d80830c88a043060dcfc8cdd-chunk-000",
+      "doc-385fc40248f2f07379e1712028f0604a-chunk-000",
+      "doc-4a1792213e425380d77cb4179dec8f31-chunk-000",
+      "doc-51ea3b753089aea48ac556d937bd20bc-chunk-000",
+      "doc-5ea9507d14398c33e78fda51bc5387b5-chunk-000",
+      "doc-6ed408f6323ee8fccb1c84a1058ff73b-chunk-000",
+      "doc-7af4f21ec3736ca946e6f1a58eb89e14-chunk-000",
+      "doc-7e22b2191319343ea81db7795943a9d2-chunk-000"
+    ],
+    "count": 36,
+    "update_time": 1787067970,
+    "_id": "bbox_px<SEP>name"
+  },
+  "instruction<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-1abb292a251278234ef2aea5585a4cec-chunk-000",
+      "doc-336354e68363ca14a619dc9017f3722b-chunk-000",
+      "doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000",
+      "doc-d3f210baa22420bda082ab35ed47c513-chunk-000",
+      "doc-12452d2aa4a1f4053eb75846db92c28d-chunk-000",
+      "doc-29be4ff47307e375f775296be1cde294-chunk-000",
+      "doc-31614258e420804fd40acd6947038f2a-chunk-000",
+      "doc-9104b63ab39e8f7a3804222796138bfa-chunk-000",
+      "doc-a0e31ce440868a3d3601a01f6b1c3088-chunk-000",
+      "doc-c87ec0c898aa8c18b63d3ebadc9a54f2-chunk-000",
+      "doc-d8306c89a6e17662efce0519d4d1ac0c-chunk-000",
+      "doc-d89c30514b52a7d6ffd6faa7abd1e057-chunk-000",
+      "doc-5eb3679f3090c0f5f21ae588efb7e3e5-chunk-000",
+      "doc-67ebc805bc05fcb104d97b50eab62a38-chunk-000",
+      "doc-d22e70f9c5950a52be1706e3c49cd064-chunk-000",
+      "doc-2094fe41d80830c88a043060dcfc8cdd-chunk-000",
+      "doc-3068692aae07453a7c411514e1ea3811-chunk-000",
+      "doc-37328452764bee7b0ed4f30f9d666e33-chunk-000",
+      "doc-4057121fe5aecd83bbfcbebfb9b55918-chunk-000",
+      "doc-6f5e9a82e4b6711bf6c7c0f95d1c2e44-chunk-000"
+    ],
+    "count": 20,
+    "update_time": 1787067405,
+    "_id": "instruction<SEP>screen_id"
+  },
+  "screen_id<SEP>search_results": {
+    "chunk_ids": [
+      "doc-1b170fd51d9decb5d06c4423362c7e10-chunk-000",
+      "doc-45c24883b260d58ce196b2bd5813a10a-chunk-000",
+      "doc-4674831f2c70bf7fc7e44baad9da1bd2-chunk-000",
+      "doc-fb1d5f2fb2b282b67736d797b15263cb-chunk-000"
+    ],
+    "count": 4,
+    "update_time": 1787063642,
+    "_id": "screen_id<SEP>search_results"
+  },
+  "click<SEP>instruction": {
+    "chunk_ids": [
+      "doc-1b170fd51d9decb5d06c4423362c7e10-chunk-000",
+      "doc-4674831f2c70bf7fc7e44baad9da1bd2-chunk-000",
+      "doc-8192fe169bee4a5676a6db5cde9a3209-chunk-000",
+      "doc-a01aa3869759c0df193b39c39a682dfb-chunk-000",
+      "doc-fb1d5f2fb2b282b67736d797b15263cb-chunk-000",
+      "doc-712115b30aa90cdcf9e36fbce4237ebd-chunk-000",
+      "doc-9fe24d26583c5858737b13f669bc8ff1-chunk-000",
+      "doc-aed19f98e30bc8b112d61f39e3e57a4e-chunk-000",
+      "doc-bdc77527a3d323bef3bef65914da4898-chunk-000",
+      "doc-8200c68d4f505cf41f0d2848059e57b9-chunk-000",
+      "doc-fd70a7452985d465deec3203fe4826a6-chunk-000",
+      "doc-0348983a29f95be303fe640ac3a3d375-chunk-000",
+      "doc-3189339ea6f4fc6117aef9fec12e38bd-chunk-000"
+    ],
+    "count": 13,
+    "update_time": 1787066715,
+    "_id": "click<SEP>instruction"
+  },
+  "link<SEP>role": {
+    "chunk_ids": [
+      "doc-1b170fd51d9decb5d06c4423362c7e10-chunk-000",
+      "doc-4674831f2c70bf7fc7e44baad9da1bd2-chunk-000",
+      "doc-712115b30aa90cdcf9e36fbce4237ebd-chunk-000",
+      "doc-fd70a7452985d465deec3203fe4826a6-chunk-000"
+    ],
+    "count": 4,
+    "update_time": 1787066145,
+    "_id": "link<SEP>role"
+  },
+  "Advanced Search<SEP>name": {
+    "chunk_ids": [
+      "doc-1b170fd51d9decb5d06c4423362c7e10-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059682,
+    "update_time": 1787059682,
+    "_id": "Advanced Search<SEP>name"
+  },
+  "[962, 108, 1074, 127]<SEP>bbox_px": {
+    "chunk_ids": [
+      "doc-1b170fd51d9decb5d06c4423362c7e10-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059682,
+    "update_time": 1787059682,
+    "_id": "[962, 108, 1074, 127]<SEP>bbox_px"
+  },
+  "[273, 674, 500, 753]<SEP>bbox_px": {
+    "chunk_ids": [
+      "doc-1c39a269c840c652393b3da52117ee29-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059694,
+    "update_time": 1787059694,
+    "_id": "[273, 674, 500, 753]<SEP>bbox_px"
+  },
+  "Cell Phones & Accessories<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-2264c0cbd93197c10fe0a09fdbcf60f8-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059706,
+    "update_time": 1787059706,
+    "_id": "Cell Phones & Accessories<SEP>screen_id"
+  },
+  "bbox_px<SEP>menuitem": {
+    "chunk_ids": [
+      "doc-2264c0cbd93197c10fe0a09fdbcf60f8-chunk-000",
+      "doc-29be4ff47307e375f775296be1cde294-chunk-000",
+      "doc-5834a32d1d8ba026d1b73b39f15ac3af-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1787067338,
+    "_id": "bbox_px<SEP>menuitem"
+  },
+  "Home<SEP>search_results": {
+    "chunk_ids": [
+      "doc-45c24883b260d58ce196b2bd5813a10a-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059799,
+    "update_time": 1787059799,
+    "_id": "Home<SEP>search_results"
+  },
+  "a11y<SEP>search_results": {
+    "chunk_ids": [
+      "doc-45c24883b260d58ce196b2bd5813a10a-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059799,
+    "update_time": 1787059799,
+    "_id": "a11y<SEP>search_results"
+  },
+  "search_results<SEP>type": {
+    "chunk_ids": [
+      "doc-45c24883b260d58ce196b2bd5813a10a-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059799,
+    "update_time": 1787059799,
+    "_id": "search_results<SEP>type"
+  },
+  "instruction<SEP>search_results": {
+    "chunk_ids": [
+      "doc-45c24883b260d58ce196b2bd5813a10a-chunk-000",
+      "doc-9cf014a55715838cd2e7be449bd106f3-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787061167,
+    "_id": "instruction<SEP>search_results"
+  },
+  "role<SEP>search_results": {
+    "chunk_ids": [
+      "doc-45c24883b260d58ce196b2bd5813a10a-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059799,
+    "update_time": 1787059799,
+    "_id": "role<SEP>search_results"
+  },
+  "name<SEP>search_results": {
+    "chunk_ids": [
+      "doc-45c24883b260d58ce196b2bd5813a10a-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059799,
+    "update_time": 1787059799,
+    "_id": "name<SEP>search_results"
+  },
+  "bbox_px<SEP>search_results": {
+    "chunk_ids": [
+      "doc-45c24883b260d58ce196b2bd5813a10a-chunk-000",
+      "doc-9cf014a55715838cd2e7be449bd106f3-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787061167,
+    "_id": "bbox_px<SEP>search_results"
+  },
+  "My Wish List<SEP>search_results": {
+    "chunk_ids": [
+      "doc-4674831f2c70bf7fc7e44baad9da1bd2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059810,
+    "update_time": 1787059810,
+    "_id": "My Wish List<SEP>search_results"
+  },
+  "click<SEP>link": {
+    "chunk_ids": [
+      "doc-4674831f2c70bf7fc7e44baad9da1bd2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059810,
+    "update_time": 1787059810,
+    "_id": "click<SEP>link"
+  },
+  "My Wish List<SEP>link": {
+    "chunk_ids": [
+      "doc-4674831f2c70bf7fc7e44baad9da1bd2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059810,
+    "update_time": 1787059810,
+    "_id": "My Wish List<SEP>link"
+  },
+  "link<SEP>name": {
+    "chunk_ids": [
+      "doc-4674831f2c70bf7fc7e44baad9da1bd2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059810,
+    "update_time": 1787059810,
+    "_id": "link<SEP>name"
+  },
+  "bbox_px<SEP>link": {
+    "chunk_ids": [
+      "doc-4674831f2c70bf7fc7e44baad9da1bd2-chunk-000",
+      "doc-3ef10f3dea1f5da8dc8423dea18701c2-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787064706,
+    "_id": "bbox_px<SEP>link"
+  },
+  "Office Products<SEP>instruction": {
+    "chunk_ids": [
+      "doc-4cb747e3acc9f125078ffdabdcabbc3e-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059818,
+    "update_time": 1787059818,
+    "_id": "Office Products<SEP>instruction"
+  },
+  "Office Products<SEP>role": {
+    "chunk_ids": [
+      "doc-4cb747e3acc9f125078ffdabdcabbc3e-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059818,
+    "update_time": 1787059818,
+    "_id": "Office Products<SEP>role"
+  },
+  "Office Products<SEP>bbox_px": {
+    "chunk_ids": [
+      "doc-4cb747e3acc9f125078ffdabdcabbc3e-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787059818,
+    "update_time": 1787059818,
+    "_id": "Office Products<SEP>bbox_px"
+  },
+  "My Cart<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-4d2253d679e093ecd355e3b749bc2b59-chunk-000",
+      "doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787060026,
+    "_id": "My Cart<SEP>screen_id"
+  },
+  "a11y<SEP>instruction": {
+    "chunk_ids": [
+      "doc-4d2253d679e093ecd355e3b749bc2b59-chunk-000",
+      "doc-1f7b2c3abc8d8d66c2f091d24f67233a-chunk-000",
+      "doc-29be4ff47307e375f775296be1cde294-chunk-000",
+      "doc-aed19f98e30bc8b112d61f39e3e57a4e-chunk-000",
+      "doc-7edb486cff387c718e8eb48a9fb60ffc-chunk-000",
+      "doc-c08802c5b91256601685a06b453a8f05-chunk-000"
+    ],
+    "count": 6,
+    "update_time": 1787066077,
+    "_id": "a11y<SEP>instruction"
+  },
+  "a11y<SEP>role": {
+    "chunk_ids": [
+      "doc-4d2253d679e093ecd355e3b749bc2b59-chunk-000",
+      "doc-1f7b2c3abc8d8d66c2f091d24f67233a-chunk-000",
+      "doc-7edb486cff387c718e8eb48a9fb60ffc-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1787066048,
+    "_id": "a11y<SEP>role"
+  },
+  "role<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000",
+      "doc-9104b63ab39e8f7a3804222796138bfa-chunk-000",
+      "doc-c87ec0c898aa8c18b63d3ebadc9a54f2-chunk-000",
+      "doc-d8306c89a6e17662efce0519d4d1ac0c-chunk-000",
+      "doc-d89c30514b52a7d6ffd6faa7abd1e057-chunk-000"
+    ],
+    "count": 5,
+    "update_time": 1787065727,
+    "_id": "role<SEP>screen_id"
+  },
+  "bbox_px<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000",
+      "doc-9104b63ab39e8f7a3804222796138bfa-chunk-000",
+      "doc-c87ec0c898aa8c18b63d3ebadc9a54f2-chunk-000",
+      "doc-d8306c89a6e17662efce0519d4d1ac0c-chunk-000",
+      "doc-d89c30514b52a7d6ffd6faa7abd1e057-chunk-000",
+      "doc-5eb3679f3090c0f5f21ae588efb7e3e5-chunk-000"
+    ],
+    "count": 6,
+    "update_time": 1787065967,
+    "_id": "bbox_px<SEP>screen_id"
+  },
+  "Patio, Lawn & Garden<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-644571f9784ce04891f41845bd4a33cf-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787060522,
+    "update_time": 1787060522,
+    "_id": "Patio, Lawn & Garden<SEP>screen_id"
+  },
+  "Grocery & Gourmet Food<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-6f918084db54f057473db40beef298f2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787060538,
+    "update_time": 1787060538,
+    "_id": "Grocery & Gourmet Food<SEP>screen_id"
+  },
+  ".product-image-container-104497<SEP>.product-image-container-104497 span.product-image-wrapper": {
+    "chunk_ids": [
+      "doc-6fdf98cdebdbf6d580bc571f0e63d026-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787060552,
+    "update_time": 1787060552,
+    "_id": ".product-image-container-104497<SEP>.product-image-container-104497 span.product-image-wrapper"
+  },
+  ".product-image-container-104497 span.product-image-wrapper<SEP>.product-image-container-104497 span.product-image-wrapper { padding-b": {
+    "chunk_ids": [
+      "doc-6fdf98cdebdbf6d580bc571f0e63d026-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787060552,
+    "update_time": 1787060552,
+    "_id": ".product-image-container-104497 span.product-image-wrapper<SEP>.product-image-container-104497 span.product-image-wrapper { padding-b"
+  },
+  ".product-image-container-104497<SEP>.product-image-container-104497 { width: 240px": {
+    "chunk_ids": [
+      "doc-6fdf98cdebdbf6d580bc571f0e63d026-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787060552,
+    "update_time": 1787060552,
+    "_id": ".product-image-container-104497<SEP>.product-image-container-104497 { width: 240px"
+  },
+  "Screen<SEP>orders_returns": {
+    "chunk_ids": [
+      "doc-6fee16de15adef8f9c158fcdcfc3c3cf-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787060558,
+    "update_time": 1787060558,
+    "_id": "Screen<SEP>orders_returns"
+  },
+  "Home & Kitchen<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-93994d22ad00beec814080e416a51904-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787060983,
+    "update_time": 1787060983,
+    "_id": "Home & Kitchen<SEP>screen_id"
+  },
+  "Home & Kitchen<SEP>instruction": {
+    "chunk_ids": [
+      "doc-93994d22ad00beec814080e416a51904-chunk-000",
+      "doc-d3f210baa22420bda082ab35ed47c513-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787062455,
+    "_id": "Home & Kitchen<SEP>instruction"
+  },
+  "Home & Kitchen<SEP>role": {
+    "chunk_ids": [
+      "doc-93994d22ad00beec814080e416a51904-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787060983,
+    "update_time": 1787060983,
+    "_id": "Home & Kitchen<SEP>role"
+  },
+  "Home & Kitchen<SEP>bbox_px": {
+    "chunk_ids": [
+      "doc-93994d22ad00beec814080e416a51904-chunk-000",
+      "doc-d3f210baa22420bda082ab35ed47c513-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787062455,
+    "_id": "Home & Kitchen<SEP>bbox_px"
+  },
+  "a11y<SEP>screen": {
+    "chunk_ids": [
+      "doc-998ef6f2a08b055f4cea5fd640aa78ae-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787061155,
+    "update_time": 1787061155,
+    "_id": "a11y<SEP>screen"
+  },
+  "contact<SEP>screen": {
+    "chunk_ids": [
+      "doc-998ef6f2a08b055f4cea5fd640aa78ae-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787061155,
+    "update_time": 1787061155,
+    "_id": "contact<SEP>screen"
+  },
+  "Contact Us<SEP>contact": {
+    "chunk_ids": [
+      "doc-998ef6f2a08b055f4cea5fd640aa78ae-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787061155,
+    "update_time": 1787061155,
+    "_id": "Contact Us<SEP>contact"
+  },
+  "Contact Us form<SEP>contact": {
+    "chunk_ids": [
+      "doc-998ef6f2a08b055f4cea5fd640aa78ae-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787061155,
+    "update_time": 1787061155,
+    "_id": "Contact Us form<SEP>contact"
+  },
+  "contact<SEP>http://localhost:7770/contact/": {
+    "chunk_ids": [
+      "doc-998ef6f2a08b055f4cea5fd640aa78ae-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787061155,
+    "update_time": 1787061155,
+    "_id": "contact<SEP>http://localhost:7770/contact/"
+  },
+  "Contact Us<SEP>Contact Us form": {
+    "chunk_ids": [
+      "doc-998ef6f2a08b055f4cea5fd640aa78ae-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787061155,
+    "update_time": 1787061155,
+    "_id": "Contact Us<SEP>Contact Us form"
+  },
+  "Patio, Lawn & Garden<SEP>search_results": {
+    "chunk_ids": [
+      "doc-9cf014a55715838cd2e7be449bd106f3-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787061167,
+    "update_time": 1787061167,
+    "_id": "Patio, Lawn & Garden<SEP>search_results"
+  },
+  "click<SEP>search_results": {
+    "chunk_ids": [
+      "doc-9cf014a55715838cd2e7be449bd106f3-chunk-000",
+      "doc-a01aa3869759c0df193b39c39a682dfb-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787061321,
+    "_id": "click<SEP>search_results"
+  },
+  "menuitem<SEP>search_results": {
+    "chunk_ids": [
+      "doc-9cf014a55715838cd2e7be449bd106f3-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787061167,
+    "update_time": 1787061167,
+    "_id": "menuitem<SEP>search_results"
+  },
+  "screen_id<SEP>store logo": {
+    "chunk_ids": [
+      "doc-9ecd5e9d22535ece235c555f4d9df437-chunk-000",
+      "doc-afaeae3f07222d6abb05167120cb64e6-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787061809,
+    "_id": "screen_id<SEP>store logo"
+  },
+  "click<SEP>combobox": {
+    "chunk_ids": [
+      "doc-a01aa3869759c0df193b39c39a682dfb-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787061321,
+    "update_time": 1787061321,
+    "_id": "click<SEP>combobox"
+  },
+  "a11y<SEP>click": {
+    "chunk_ids": [
+      "doc-a01aa3869759c0df193b39c39a682dfb-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787061321,
+    "update_time": 1787061321,
+    "_id": "a11y<SEP>click"
+  },
+  "click<SEP>role": {
+    "chunk_ids": [
+      "doc-a01aa3869759c0df193b39c39a682dfb-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787061321,
+    "update_time": 1787061321,
+    "_id": "click<SEP>role"
+  },
+  "click<SEP>name": {
+    "chunk_ids": [
+      "doc-a01aa3869759c0df193b39c39a682dfb-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787061321,
+    "update_time": 1787061321,
+    "_id": "click<SEP>name"
+  },
+  "bbox_px<SEP>click": {
+    "chunk_ids": [
+      "doc-a01aa3869759c0df193b39c39a682dfb-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787061321,
+    "update_time": 1787061321,
+    "_id": "bbox_px<SEP>click"
+  },
+  "instruction<SEP>store logo": {
+    "chunk_ids": [
+      "doc-afaeae3f07222d6abb05167120cb64e6-chunk-000",
+      "doc-1c15c889a922325358d22d1c84770de1-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787063773,
+    "_id": "instruction<SEP>store logo"
+  },
+  "role<SEP>store logo": {
+    "chunk_ids": [
+      "doc-afaeae3f07222d6abb05167120cb64e6-chunk-000",
+      "doc-1c15c889a922325358d22d1c84770de1-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787063773,
+    "_id": "role<SEP>store logo"
+  },
+  "bbox_px<SEP>store logo": {
+    "chunk_ids": [
+      "doc-afaeae3f07222d6abb05167120cb64e6-chunk-000",
+      "doc-1c15c889a922325358d22d1c84770de1-chunk-000",
+      "doc-bdc77527a3d323bef3bef65914da4898-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1787065219,
+    "_id": "bbox_px<SEP>store logo"
+  },
+  "My Wish List<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-d28c12fec97088c620e43fae9ea0396c-chunk-000",
+      "doc-4e57d988d63c9b94876085d3e98172f3-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787067316,
+    "_id": "My Wish List<SEP>screen_id"
+  },
+  "My Wish List<SEP>a11y": {
+    "chunk_ids": [
+      "doc-d28c12fec97088c620e43fae9ea0396c-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787062353,
+    "update_time": 1787062353,
+    "_id": "My Wish List<SEP>a11y"
+  },
+  "My Wish List<SEP>type": {
+    "chunk_ids": [
+      "doc-d28c12fec97088c620e43fae9ea0396c-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787062353,
+    "update_time": 1787062353,
+    "_id": "My Wish List<SEP>type"
+  },
+  "My Wish List<SEP>instruction": {
+    "chunk_ids": [
+      "doc-d28c12fec97088c620e43fae9ea0396c-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787062353,
+    "update_time": 1787062353,
+    "_id": "My Wish List<SEP>instruction"
+  },
+  "My Wish List<SEP>role": {
+    "chunk_ids": [
+      "doc-d28c12fec97088c620e43fae9ea0396c-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787062353,
+    "update_time": 1787062353,
+    "_id": "My Wish List<SEP>role"
+  },
+  "My Wish List<SEP>name": {
+    "chunk_ids": [
+      "doc-d28c12fec97088c620e43fae9ea0396c-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787062353,
+    "update_time": 1787062353,
+    "_id": "My Wish List<SEP>name"
+  },
+  "My Wish List<SEP>bbox_px": {
+    "chunk_ids": [
+      "doc-d28c12fec97088c620e43fae9ea0396c-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787062353,
+    "update_time": 1787062353,
+    "_id": "My Wish List<SEP>bbox_px"
+  },
+  "Cell Phones & Accessories<SEP>instruction": {
+    "chunk_ids": [
+      "doc-ee1aeda9c84d5b356cce352ae39e0746-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787063268,
+    "update_time": 1787063268,
+    "_id": "Cell Phones & Accessories<SEP>instruction"
+  },
+  "Cell Phones & Accessories<SEP>bbox_px": {
+    "chunk_ids": [
+      "doc-ee1aeda9c84d5b356cce352ae39e0746-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787063268,
+    "update_time": 1787063268,
+    "_id": "Cell Phones & Accessories<SEP>bbox_px"
+  },
+  "a11y<SEP>name": {
+    "chunk_ids": [
+      "doc-f694070ad6fd98c3c0c4b0a9c3787bbb-chunk-000",
+      "doc-1f7b2c3abc8d8d66c2f091d24f67233a-chunk-000",
+      "doc-7edb486cff387c718e8eb48a9fb60ffc-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1787066048,
+    "_id": "a11y<SEP>name"
+  },
+  "a11y<SEP>bbox_px": {
+    "chunk_ids": [
+      "doc-f694070ad6fd98c3c0c4b0a9c3787bbb-chunk-000",
+      "doc-1f7b2c3abc8d8d66c2f091d24f67233a-chunk-000",
+      "doc-7edb486cff387c718e8eb48a9fb60ffc-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1787066049,
+    "_id": "a11y<SEP>bbox_px"
+  },
+  "menuitem<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-f9081d114c069483942bd32f623b7876-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787063633,
+    "update_time": 1787063633,
+    "_id": "menuitem<SEP>screen_id"
+  },
+  "a11y<SEP>element": {
+    "chunk_ids": [
+      "doc-fb1d5f2fb2b282b67736d797b15263cb-chunk-000",
+      "doc-3ef10f3dea1f5da8dc8423dea18701c2-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787064706,
+    "_id": "a11y<SEP>element"
+  },
+  "View as List<SEP>link": {
+    "chunk_ids": [
+      "doc-fb1d5f2fb2b282b67736d797b15263cb-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787063642,
+    "update_time": 1787063642,
+    "_id": "View as List<SEP>link"
+  },
+  "View as List<SEP>bbox_px": {
+    "chunk_ids": [
+      "doc-fb1d5f2fb2b282b67736d797b15263cb-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787063642,
+    "update_time": 1787063642,
+    "_id": "View as List<SEP>bbox_px"
+  },
+  "a11y<SEP>category": {
+    "chunk_ids": [
+      "doc-015b8caaec6a57269904cd96648a584a-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787063681,
+    "update_time": 1787063681,
+    "_id": "a11y<SEP>category"
+  },
+  "Search entire store here..<SEP>a11y": {
+    "chunk_ids": [
+      "doc-015b8caaec6a57269904cd96648a584a-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787063681,
+    "update_time": 1787063681,
+    "_id": "Search entire store here..<SEP>a11y"
+  },
+  "name<SEP>store logo": {
+    "chunk_ids": [
+      "doc-1c15c889a922325358d22d1c84770de1-chunk-000",
+      "doc-712115b30aa90cdcf9e36fbce4237ebd-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787064789,
+    "_id": "name<SEP>store logo"
+  },
+  "Tools & Home Improvement 5 item<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-24628cc5a1143e502c68ca86491314b0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787063805,
+    "update_time": 1787063805,
+    "_id": "Tools & Home Improvement 5 item<SEP>screen_id"
+  },
+  "menuitem<SEP>name": {
+    "chunk_ids": [
+      "doc-29be4ff47307e375f775296be1cde294-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787063966,
+    "update_time": 1787063966,
+    "_id": "menuitem<SEP>name"
+  },
+  "instruction<SEP>menuitem": {
+    "chunk_ids": [
+      "doc-29be4ff47307e375f775296be1cde294-chunk-000",
+      "doc-5834a32d1d8ba026d1b73b39f15ac3af-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787067338,
+    "_id": "instruction<SEP>menuitem"
+  },
+  "menuitem<SEP>role": {
+    "chunk_ids": [
+      "doc-29be4ff47307e375f775296be1cde294-chunk-000",
+      "doc-4840aa86644111d5ef3469f7c7b235ed-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787066805,
+    "_id": "menuitem<SEP>role"
+  },
+  "Product_Name<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-2f5966d424551de0ed4fd414c471d245-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787064086,
+    "update_time": 1787064086,
+    "_id": "Product_Name<SEP>screen_id"
+  },
+  "category<SEP>link": {
+    "chunk_ids": [
+      "doc-3ef10f3dea1f5da8dc8423dea18701c2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787064706,
+    "update_time": 1787064706,
+    "_id": "category<SEP>link"
+  },
+  "Advanced Search<SEP>link": {
+    "chunk_ids": [
+      "doc-3ef10f3dea1f5da8dc8423dea18701c2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787064706,
+    "update_time": 1787064706,
+    "_id": "Advanced Search<SEP>link"
+  },
+  "category<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-62259b523c4399851b637448a3e83944-chunk-000",
+      "doc-712115b30aa90cdcf9e36fbce4237ebd-chunk-000",
+      "doc-2d10111161db5057f00b249baab62b6f-chunk-000",
+      "doc-7365a5b79d8ac5979806062ffb468ef8-chunk-000",
+      "doc-525d140f4619ad4f23c939f8bc69dd07-chunk-000",
+      "doc-718e7215853a51b59b1393494ea9df33-chunk-000",
+      "doc-8200c68d4f505cf41f0d2848059e57b9-chunk-000",
+      "doc-c4a28d4f02fee136845510f4c0e93d17-chunk-000",
+      "doc-c835846818bcaa064fe5becb24be9fa6-chunk-000",
+      "doc-cd2c2597257ed277a9e4d453b8933ea7-chunk-000",
+      "doc-e60835aa8b936200661495a56ce99d71-chunk-000",
+      "doc-e7a1f079c1083b2652095a24fdfc0443-chunk-000",
+      "doc-eea838816eb1d2adf150f2bc5a9dab02-chunk-000",
+      "doc-fd70a7452985d465deec3203fe4826a6-chunk-000",
+      "doc-fe6ae527c1c6e0ef5f18af49838184a9-chunk-000"
+    ],
+    "count": 15,
+    "update_time": 1787066151,
+    "_id": "category<SEP>screen_id"
+  },
+  "button<SEP>instruction": {
+    "chunk_ids": [
+      "doc-62259b523c4399851b637448a3e83944-chunk-000",
+      "doc-aed19f98e30bc8b112d61f39e3e57a4e-chunk-000",
+      "doc-7ab8292a2e846a0ba58fe01d10d30067-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1787067941,
+    "_id": "button<SEP>instruction"
+  },
+  "button<SEP>role": {
+    "chunk_ids": [
+      "doc-62259b523c4399851b637448a3e83944-chunk-000",
+      "doc-7ab8292a2e846a0ba58fe01d10d30067-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787067941,
+    "_id": "button<SEP>role"
+  },
+  "button<SEP>name": {
+    "chunk_ids": [
+      "doc-62259b523c4399851b637448a3e83944-chunk-000",
+      "doc-7ab8292a2e846a0ba58fe01d10d30067-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787067941,
+    "_id": "button<SEP>name"
+  },
+  "bbox_px<SEP>button": {
+    "chunk_ids": [
+      "doc-62259b523c4399851b637448a3e83944-chunk-000",
+      "doc-aed19f98e30bc8b112d61f39e3e57a4e-chunk-000",
+      "doc-7ab8292a2e846a0ba58fe01d10d30067-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1787067941,
+    "_id": "bbox_px<SEP>button"
+  },
+  "Office Products 7 item<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-6b02e81836738c20fc78c9f73add60be-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787064773,
+    "update_time": 1787064773,
+    "_id": "Office Products 7 item<SEP>screen_id"
+  },
+  "name<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-9104b63ab39e8f7a3804222796138bfa-chunk-000",
+      "doc-c87ec0c898aa8c18b63d3ebadc9a54f2-chunk-000",
+      "doc-d8306c89a6e17662efce0519d4d1ac0c-chunk-000",
+      "doc-d89c30514b52a7d6ffd6faa7abd1e057-chunk-000",
+      "doc-5eb3679f3090c0f5f21ae588efb7e3e5-chunk-000"
+    ],
+    "count": 5,
+    "update_time": 1787065967,
+    "_id": "name<SEP>screen_id"
+  },
+  "Health & Household 4 item<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-9333fa509488f424a24510692a3b8d34-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787064928,
+    "update_time": 1787064928,
+    "_id": "Health & Household 4 item<SEP>screen_id"
+  },
+  "screen_id<SEP>search_empty": {
+    "chunk_ids": [
+      "doc-9fe24d26583c5858737b13f669bc8ff1-chunk-000",
+      "doc-bdc77527a3d323bef3bef65914da4898-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787065219,
+    "_id": "screen_id<SEP>search_empty"
+  },
+  "button<SEP>click": {
+    "chunk_ids": [
+      "doc-aed19f98e30bc8b112d61f39e3e57a4e-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787065166,
+    "update_time": 1787065166,
+    "_id": "button<SEP>click"
+  },
+  "instruction<SEP>search_empty": {
+    "chunk_ids": [
+      "doc-aed19f98e30bc8b112d61f39e3e57a4e-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787065166,
+    "update_time": 1787065166,
+    "_id": "instruction<SEP>search_empty"
+  },
+  "Search<SEP>button": {
+    "chunk_ids": [
+      "doc-aed19f98e30bc8b112d61f39e3e57a4e-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787065166,
+    "update_time": 1787065166,
+    "_id": "Search<SEP>button"
+  },
+  "element<SEP>instruction": {
+    "chunk_ids": [
+      "doc-aed19f98e30bc8b112d61f39e3e57a4e-chunk-000",
+      "doc-bd5675153b9560186249eb9583bde805-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787065991,
+    "_id": "element<SEP>instruction"
+  },
+  "Home & Kitchen 88 item<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-bc7e8d67dff433b59a975c8568f3eb3b-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787065209,
+    "update_time": 1787065209,
+    "_id": "Home & Kitchen 88 item<SEP>screen_id"
+  },
+  "link<SEP>store logo": {
+    "chunk_ids": [
+      "doc-bdc77527a3d323bef3bef65914da4898-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787065219,
+    "update_time": 1787065219,
+    "_id": "link<SEP>store logo"
+  },
+  "instruction<SEP>type": {
+    "chunk_ids": [
+      "doc-c87ec0c898aa8c18b63d3ebadc9a54f2-chunk-000",
+      "doc-d8306c89a6e17662efce0519d4d1ac0c-chunk-000",
+      "doc-d89c30514b52a7d6ffd6faa7abd1e057-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1787065721,
+    "_id": "instruction<SEP>type"
+  },
+  "name<SEP>type": {
+    "chunk_ids": [
+      "doc-c87ec0c898aa8c18b63d3ebadc9a54f2-chunk-000",
+      "doc-d8306c89a6e17662efce0519d4d1ac0c-chunk-000",
+      "doc-d89c30514b52a7d6ffd6faa7abd1e057-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1787065721,
+    "_id": "name<SEP>type"
+  },
+  "bbox_px<SEP>type": {
+    "chunk_ids": [
+      "doc-c87ec0c898aa8c18b63d3ebadc9a54f2-chunk-000",
+      "doc-d8306c89a6e17662efce0519d4d1ac0c-chunk-000",
+      "doc-d89c30514b52a7d6ffd6faa7abd1e057-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1787065721,
+    "_id": "bbox_px<SEP>type"
+  },
+  "role<SEP>type": {
+    "chunk_ids": [
+      "doc-c87ec0c898aa8c18b63d3ebadc9a54f2-chunk-000",
+      "doc-d8306c89a6e17662efce0519d4d1ac0c-chunk-000",
+      "doc-d89c30514b52a7d6ffd6faa7abd1e057-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1787065721,
+    "_id": "role<SEP>type"
+  },
+  "screen_id<SEP>type": {
+    "chunk_ids": [
+      "doc-c87ec0c898aa8c18b63d3ebadc9a54f2-chunk-000",
+      "doc-d8306c89a6e17662efce0519d4d1ac0c-chunk-000",
+      "doc-d89c30514b52a7d6ffd6faa7abd1e057-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1787065727,
+    "_id": "screen_id<SEP>type"
+  },
+  "Office Products<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-d25584ce082df2e36945fee89019ca59-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787065486,
+    "update_time": 1787065486,
+    "_id": "Office Products<SEP>screen_id"
+  },
+  "Clothing, Shoes & Jewelry<SEP>name": {
+    "chunk_ids": [
+      "doc-d45972e5deb132ffa6f291a23f584155-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787065490,
+    "update_time": 1787065490,
+    "_id": "Clothing, Shoes & Jewelry<SEP>name"
+  },
+  "Clothing, Shoes & Jewelry 7603 item<SEP>name": {
+    "chunk_ids": [
+      "doc-dd8d428d2f06506a83c659eadb472263-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787065737,
+    "update_time": 1787065737,
+    "_id": "Clothing, Shoes & Jewelry 7603 item<SEP>name"
+  },
+  "[20, 528, 189, 567]<SEP>bbox_px": {
+    "chunk_ids": [
+      "doc-dd8d428d2f06506a83c659eadb472263-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787065737,
+    "update_time": 1787065737,
+    "_id": "[20, 528, 189, 567]<SEP>bbox_px"
+  },
+  "element<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-bd5675153b9560186249eb9583bde805-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787065991,
+    "update_time": 1787065991,
+    "_id": "element<SEP>screen_id"
+  },
+  "category<SEP>element": {
+    "chunk_ids": [
+      "doc-bd5675153b9560186249eb9583bde805-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787065991,
+    "update_time": 1787065991,
+    "_id": "category<SEP>element"
+  },
+  "element<SEP>role": {
+    "chunk_ids": [
+      "doc-bd5675153b9560186249eb9583bde805-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787065991,
+    "update_time": 1787065991,
+    "_id": "element<SEP>role"
+  },
+  "element<SEP>name": {
+    "chunk_ids": [
+      "doc-bd5675153b9560186249eb9583bde805-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787065991,
+    "update_time": 1787065991,
+    "_id": "element<SEP>name"
+  },
+  "bbox_px<SEP>element": {
+    "chunk_ids": [
+      "doc-bd5675153b9560186249eb9583bde805-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787065991,
+    "update_time": 1787065991,
+    "_id": "bbox_px<SEP>element"
+  },
+  "combobox<SEP>role": {
+    "chunk_ids": [
+      "doc-8200c68d4f505cf41f0d2848059e57b9-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787066056,
+    "update_time": 1787066056,
+    "_id": "combobox<SEP>role"
+  },
+  "Position Product Name Price<SEP>name": {
+    "chunk_ids": [
+      "doc-8200c68d4f505cf41f0d2848059e57b9-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787066056,
+    "update_time": 1787066056,
+    "_id": "Position Product Name Price<SEP>name"
+  },
+  "Computers & Accessories 2929 item<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-c835846818bcaa064fe5becb24be9fa6-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787066089,
+    "update_time": 1787066089,
+    "_id": "Computers & Accessories 2929 item<SEP>screen_id"
+  },
+  "Computers & Accessories 2929 item<SEP>instruction": {
+    "chunk_ids": [
+      "doc-c835846818bcaa064fe5becb24be9fa6-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787066089,
+    "update_time": 1787066089,
+    "_id": "Computers & Accessories 2929 item<SEP>instruction"
+  },
+  "Computers & Accessories 2929 item<SEP>name": {
+    "chunk_ids": [
+      "doc-c835846818bcaa064fe5becb24be9fa6-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787066089,
+    "update_time": 1787066089,
+    "_id": "Computers & Accessories 2929 item<SEP>name"
+  },
+  "Computers & Accessories 2929 item<SEP>bbox_px": {
+    "chunk_ids": [
+      "doc-c835846818bcaa064fe5becb24be9fa6-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787066089,
+    "update_time": 1787066089,
+    "_id": "Computers & Accessories 2929 item<SEP>bbox_px"
+  },
+  "Home<SEP>name": {
+    "chunk_ids": [
+      "doc-fd70a7452985d465deec3203fe4826a6-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787066145,
+    "update_time": 1787066145,
+    "_id": "Home<SEP>name"
+  },
+  "262<SEP>bbox_px": {
+    "chunk_ids": [
+      "doc-fd70a7452985d465deec3203fe4826a6-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787066145,
+    "update_time": 1787066145,
+    "_id": "262<SEP>bbox_px"
+  },
+  "278<SEP>bbox_px": {
+    "chunk_ids": [
+      "doc-fd70a7452985d465deec3203fe4826a6-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787066145,
+    "update_time": 1787066145,
+    "_id": "278<SEP>bbox_px"
+  },
+  "Sports & Outdoors<SEP>menuitem": {
+    "chunk_ids": [
+      "doc-0348983a29f95be303fe640ac3a3d375-chunk-000",
+      "doc-5834a32d1d8ba026d1b73b39f15ac3af-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787067338,
+    "_id": "Sports & Outdoors<SEP>menuitem"
+  },
+  "click<SEP>menuitem": {
+    "chunk_ids": [
+      "doc-0348983a29f95be303fe640ac3a3d375-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787066159,
+    "update_time": 1787066159,
+    "_id": "click<SEP>menuitem"
+  },
+  "element<SEP>product": {
+    "chunk_ids": [
+      "doc-2e023dc7c92286cf39d9d73024f31c82-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787066697,
+    "update_time": 1787066697,
+    "_id": "element<SEP>product"
+  },
+  "element<SEP>store logo": {
+    "chunk_ids": [
+      "doc-2e023dc7c92286cf39d9d73024f31c82-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787066697,
+    "update_time": 1787066697,
+    "_id": "element<SEP>store logo"
+  },
+  "a11y<SEP>subcategory": {
+    "chunk_ids": [
+      "doc-3189339ea6f4fc6117aef9fec12e38bd-chunk-000",
+      "doc-5834a32d1d8ba026d1b73b39f15ac3af-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787067338,
+    "_id": "a11y<SEP>subcategory"
+  },
+  "instruction<SEP>link": {
+    "chunk_ids": [
+      "doc-3189339ea6f4fc6117aef9fec12e38bd-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787066715,
+    "update_time": 1787066715,
+    "_id": "instruction<SEP>link"
+  },
+  "$1,000.00 and above 3 item<SEP>instruction": {
+    "chunk_ids": [
+      "doc-3189339ea6f4fc6117aef9fec12e38bd-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787066715,
+    "update_time": 1787066715,
+    "_id": "$1,000.00 and above 3 item<SEP>instruction"
+  },
+  "Grocery & Gourmet Food<SEP>name": {
+    "chunk_ids": [
+      "doc-4840aa86644111d5ef3469f7c7b235ed-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787066805,
+    "update_time": 1787066805,
+    "_id": "Grocery & Gourmet Food<SEP>name"
+  },
+  "product<SEP>screen_id": {
+    "chunk_ids": [
+      "doc-5e9818f2bc9515cf1d5bfe497bc3572f-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787067342,
+    "update_time": 1787067342,
+    "_id": "product<SEP>screen_id"
+  },
+  "screen_id<SEP>subcategory": {
+    "chunk_ids": [
+      "doc-7ab8292a2e846a0ba58fe01d10d30067-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787067941,
+    "update_time": 1787067941,
+    "_id": "screen_id<SEP>subcategory"
+  }
+}

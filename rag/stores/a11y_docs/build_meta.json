@@ -1,0 +1,24 @@
+{
+  "mode": "a11y_docs",
+  "sources": [
+    "a11y",
+    "docs"
+  ],
+  "source_doc_counts": {
+    "a11y": 525,
+    "docs": 62
+  },
+  "n_documents": 587,
+  "created_at": "2026-08-18T12:45:03.528493+00:00",
+  "llm_model": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "llm_base_url": "http://lnsigo.mipt.ru:4000/",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dim": 384,
+  "chunk_token_size": 800,
+  "working_dir": "C:/Proga/GUI2Model/rag/stores/a11y_docs",
+  "build_stats": {
+    "llm_calls": 123,
+    "embed_batches": 159,
+    "embed_texts": 404
+  }
+}

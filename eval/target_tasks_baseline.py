@@ -7,6 +7,8 @@
   python eval/target_tasks_baseline.py --base-url http://localhost:7770
   python eval/target_tasks_baseline.py --task-ids eval_search_shirt_results --headed
   python eval/target_tasks_baseline.py --limit 2
+  python eval/target_tasks_baseline.py --rag-mode a11y_cua --out-dir reports/multistep_rag_a11y_cua
+  python eval/target_tasks_baseline.py --rag-mode all --rag-per-step --limit 1
 """
 
 from __future__ import annotations
@@ -27,6 +29,9 @@ from openai import OpenAI
 from playwright.sync_api import Page, sync_playwright
 from tqdm import tqdm
 
+from rag.client import DEFAULT_STORES_ROOT, RagSession
+from rag.modes import ALL_MODES
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
@@ -37,6 +42,7 @@ DEFAULT_BASE_URL = "http://localhost:7770"
 DEFAULT_VIEWPORT = {"width": 1440, "height": 1100}
 DEFAULT_PAGE_ZOOM = 0.75
 DEFAULT_STUCK_LIMIT = 3
+DEFAULT_RAG_MAX_CHARS = 6000
 CART_SETUP_PRODUCT = "/briess-dme-pilsen-light-1-lb-bag.html"
 
 
@@ -83,6 +89,7 @@ class StepRecord:
     completion_tokens: int
     total_tokens: int
     screenshot: str | None = None
+    rag_context: str | None = None
 
 
 @dataclass
@@ -102,6 +109,7 @@ class TaskResult:
     tags: str
     error: str | None = None
     steps: list[StepRecord] = field(default_factory=list)
+    rag_context: str | None = None
 
     @property
     def steps_delta(self) -> int | None:
@@ -126,6 +134,7 @@ class VlmAgent:
         screenshot_b64: str,
         som_marks: list[Any],
         action_history: list[dict[str, Any]] | None = None,
+        rag_context: str | None = None,
     ) -> tuple[dict[str, Any], int, int, int]:
         marks_payload = [
             {
@@ -152,6 +161,12 @@ class VlmAgent:
             "No explanations or markdown: only valid JSON. "
             f"{cua.ACTION_SCHEMA_NOTE}"
         )
+        if rag_context:
+            system_prompt += (
+                "\n\nPrior knowledge about this GUI (from a knowledge base — hints only; "
+                "the screenshot and marks on the current step are authoritative):\n"
+                f"{rag_context}"
+            )
 
         user_text = {
             "goal": goal,
@@ -229,6 +244,65 @@ def enrich_goal(goal: str, credentials: dict[str, str]) -> str:
     )
 
 
+def build_rag_query(*, goal: str, url: str | None = None, title: str | None = None) -> str:
+    lines = [f"Task goal: {goal}"]
+    if url:
+        lines.append(f"Current page URL: {url}")
+    if title:
+        lines.append(f"Current page title: {title}")
+    lines.append(
+        "Which GUI elements, navigation paths, labels, and actions on this storefront "
+        "are most relevant to complete this task?"
+    )
+    return "\n".join(lines)
+
+
+def truncate_rag_context(text: str, max_chars: int) -> str:
+    text = (text or "").strip()
+    if max_chars <= 0 or len(text) <= max_chars:
+        return text
+    return text[: max_chars - 3].rstrip() + "..."
+
+
+def fetch_rag_context(
+    session: RagSession,
+    *,
+    goal: str,
+    url: str | None = None,
+    title: str | None = None,
+    max_chars: int,
+) -> str:
+    query = build_rag_query(goal=goal, url=url, title=title)
+    raw = session.query(query)
+    return truncate_rag_context(raw, max_chars)
+
+
+def prior_knowledge_label(rag_mode: str | None) -> str:
+    if rag_mode:
+        return f"rag ({rag_mode})"
+    return "none (no RAG / no LoRA)"
+
+
+def prior_knowledge_meta(
+    *,
+    rag_mode: str | None,
+    rag_query_mode: str,
+    rag_per_step: bool,
+    rag_max_chars: int,
+    rag_stores_root: Path,
+) -> dict[str, Any] | None:
+    if not rag_mode:
+        return None
+    return {
+        "type": "rag",
+        "mode": rag_mode,
+        "query_mode": rag_query_mode,
+        "per_step": rag_per_step,
+        "max_chars": rag_max_chars,
+        "stores_root": str(rag_stores_root).replace("\\", "/"),
+    }
+
+
 def ensure_cart_has_item(page: Page, base_url: str, page_zoom: float) -> None:
     """Precondition for minicart tasks: add a known product to cart."""
     product_url = cua._abs_url(base_url, CART_SETUP_PRODUCT)
@@ -300,6 +374,9 @@ def run_task(
     max_steps_override: int | None,
     stuck_limit: int,
     artifacts_dir: Path,
+    rag_session: RagSession | None = None,
+    rag_per_step: bool = False,
+    rag_max_chars: int = DEFAULT_RAG_MAX_CHARS,
 ) -> TaskResult:
     task_id = task["id"]
     credentials = resolve_credentials(doc, task)
@@ -329,6 +406,16 @@ def run_task(
     total_pt = total_ct = total_tt = 0
     stuck_repeat_count = 0
     last_stuck_key: tuple[str, str, str, str] | None = None
+    task_rag_context: str | None = None
+    if rag_session is not None:
+        task_rag_context = fetch_rag_context(
+            rag_session,
+            goal=goal,
+            url=start_url,
+            title=None,
+            max_chars=rag_max_chars,
+        )
+        (task_dir / "rag_context.txt").write_text(task_rag_context, encoding="utf-8")
 
     try:
         for step_idx in range(max_steps):
@@ -367,6 +454,17 @@ def run_task(
             cua.draw_som_overlay(screenshot_path, marks, overlay_path)
 
             screenshot_b64 = cua._read_image_as_b64(screenshot_path)
+            step_rag_context = task_rag_context
+            if rag_session is not None and rag_per_step:
+                step_rag_context = fetch_rag_context(
+                    rag_session,
+                    goal=goal,
+                    url=page.url,
+                    title=title,
+                    max_chars=rag_max_chars,
+                )
+                (step_dir / "rag_context.txt").write_text(step_rag_context, encoding="utf-8")
+
             action, pt, ct, tt = agent.decide_action(
                 goal=goal,
                 url=page.url,
@@ -374,6 +472,7 @@ def run_task(
                 screenshot_b64=screenshot_b64,
                 som_marks=marks,
                 action_history=action_history,
+                rag_context=step_rag_context,
             )
             total_pt += pt
             total_ct += ct
@@ -401,6 +500,7 @@ def run_task(
                 completion_tokens=ct,
                 total_tokens=tt,
                 screenshot=str(screenshot_path.relative_to(artifacts_dir.parent)).replace("\\", "/"),
+                rag_context=step_rag_context,
             )
             step_records.append(step_rec)
 
@@ -490,6 +590,7 @@ def run_task(
         tags=",".join(task.get("tags") or []),
         error=error,
         steps=step_records,
+        rag_context=task_rag_context,
     )
 
 
@@ -524,8 +625,13 @@ def summarize(results: list[TaskResult]) -> dict[str, Any]:
     }
 
 
-def print_summary(results: list[TaskResult], summary: dict[str, Any]) -> None:
-    print("\n=== Target GUI multi-step baseline (zero-shot, no prior knowledge) ===")
+def print_summary(
+    results: list[TaskResult],
+    summary: dict[str, Any],
+    *,
+    prior_knowledge: str,
+) -> None:
+    print(f"\n=== Target GUI multi-step baseline ({prior_knowledge}) ===")
     print(
         f"success_rate={summary['success_rate']:.1%} "
         f"({summary['n_success']}/{summary['n_tasks']})  "
@@ -600,6 +706,8 @@ def save_markdown(
     model: str,
     tasks_path: Path,
     base_url: str,
+    prior_knowledge: str,
+    prior_knowledge_detail: dict[str, Any] | None = None,
 ) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     lines = [
@@ -607,29 +715,35 @@ def save_markdown(
         "",
         f"- created_at: `{datetime.now(timezone.utc).isoformat()}`",
         f"- model: `{model}`",
-        "- prior_knowledge: **none** (no RAG / no LoRA)",
+        f"- prior_knowledge: **{prior_knowledge}**",
         f"- dataset: `{tasks_path.as_posix()}`",
         f"- base_url: `{base_url}`",
         f"- tasks: {summary['n_tasks']}",
-        "",
-        "## Summary",
-        "",
-        "| metric | value |",
-        "|---|---:|",
-        f"| success_rate | {summary['success_rate']:.1%} |",
-        f"| n_success | {summary['n_success']} / {summary['n_tasks']} |",
-        f"| avg_steps | {summary['avg_steps']:.1f} |",
-        f"| avg_expected_steps | {summary['avg_expected_steps']:.1f} |",
-        f"| avg_steps_delta | {summary['avg_steps_delta']:+.1f} |",
-        f"| avg_steps (success only) | {summary['avg_steps_success']:.1f} |",
-        f"| total_tokens | {summary['total_tokens']} |",
-        f"| avg_tokens | {summary['avg_tokens']:.1f} |",
-        "",
-        "## Per task",
-        "",
-        "| id | success | steps | expected | delta | tokens |",
-        "|---|---|---:|---:|---:|---:|",
     ]
+    if prior_knowledge_detail:
+        lines.append(f"- rag_config: `{json.dumps(prior_knowledge_detail, ensure_ascii=False)}`")
+    lines.extend(
+        [
+            "",
+            "## Summary",
+            "",
+            "| metric | value |",
+            "|---|---:|",
+            f"| success_rate | {summary['success_rate']:.1%} |",
+            f"| n_success | {summary['n_success']} / {summary['n_tasks']} |",
+            f"| avg_steps | {summary['avg_steps']:.1f} |",
+            f"| avg_expected_steps | {summary['avg_expected_steps']:.1f} |",
+            f"| avg_steps_delta | {summary['avg_steps_delta']:+.1f} |",
+            f"| avg_steps (success only) | {summary['avg_steps_success']:.1f} |",
+            f"| total_tokens | {summary['total_tokens']} |",
+            f"| avg_tokens | {summary['avg_tokens']:.1f} |",
+            "",
+            "## Per task",
+            "",
+            "| id | success | steps | expected | delta | tokens |",
+            "|---|---|---:|---:|---:|---:|",
+        ]
+    )
     for r in results:
         exp = r.expected_steps if r.expected_steps is not None else "-"
         delta = f"{r.steps_delta:+d}" if r.steps_delta is not None else "-"
@@ -659,6 +773,7 @@ def save_results_json(results: list[TaskResult], path: Path, meta: dict[str, Any
                 "total_tokens": r.total_tokens,
                 "tags": r.tags,
                 "error": r.error,
+                "rag_context": r.rag_context,
                 "steps": [
                     {
                         "step": s.step,
@@ -673,6 +788,7 @@ def save_results_json(results: list[TaskResult], path: Path, meta: dict[str, Any
                         "completion_tokens": s.completion_tokens,
                         "total_tokens": s.total_tokens,
                         "screenshot": s.screenshot,
+                        "rag_context": s.rag_context,
                     }
                     for s in r.steps
                 ],
@@ -686,7 +802,7 @@ def save_results_json(results: list[TaskResult], path: Path, meta: dict[str, Any
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Zero-shot multi-step Qwen baseline on target GUI tasks.json"
+        description="Multi-step Qwen baseline on target GUI tasks.json (optional LightRAG prior knowledge)"
     )
     parser.add_argument("--tasks", type=Path, default=DEFAULT_TASKS)
     parser.add_argument("--out-dir", type=Path, default=DEFAULT_OUT)
@@ -704,12 +820,47 @@ def main() -> None:
         help="Fail task after N identical clicks on the same screen with no navigation (0=off)",
     )
     parser.add_argument("--list-tasks", action="store_true")
+    parser.add_argument(
+        "--rag-mode",
+        choices=ALL_MODES,
+        default=None,
+        help="Включить prior knowledge через LightRAG (store rag/stores/<mode>/)",
+    )
+    parser.add_argument(
+        "--rag-query-mode",
+        default="hybrid",
+        choices=["naive", "local", "global", "hybrid", "mix"],
+        help="Режим retrieval LightRAG при --rag-mode",
+    )
+    parser.add_argument(
+        "--rag-stores-root",
+        type=Path,
+        default=DEFAULT_STORES_ROOT,
+        help="Корень готовых RAG stores",
+    )
+    parser.add_argument(
+        "--rag-per-step",
+        action="store_true",
+        help="Обновлять RAG-контекст на каждом шаге (медленнее, точнее)",
+    )
+    parser.add_argument(
+        "--rag-max-chars",
+        type=int,
+        default=DEFAULT_RAG_MAX_CHARS,
+        help="Обрезка RAG-ответа перед подачей в VLM",
+    )
+    parser.add_argument(
+        "--rag-quiet",
+        action="store_true",
+        help="Без пошагового вывода [rag] во время eval",
+    )
     args = parser.parse_args()
 
     load_dotenv()
 
     tasks_path = resolve_repo_path(args.tasks)
     out_dir = resolve_repo_path(args.out_dir)
+    rag_stores_root = resolve_repo_path(args.rag_stores_root)
     if not tasks_path.exists():
         raise SystemExit(
             f"Tasks not found: {tasks_path}. Run: python eval/build_eval_dataset.py"
@@ -729,12 +880,24 @@ def main() -> None:
 
     client, model = load_model_client()
     agent = VlmAgent(client, model)
+    pk_label = prior_knowledge_label(args.rag_mode)
+    pk_meta = prior_knowledge_meta(
+        rag_mode=args.rag_mode,
+        rag_query_mode=args.rag_query_mode,
+        rag_per_step=args.rag_per_step,
+        rag_max_chars=args.rag_max_chars,
+        rag_stores_root=rag_stores_root,
+    )
 
     artifacts_dir = out_dir / "artifacts"
     artifacts_dir.mkdir(parents=True, exist_ok=True)
 
     print(f"Model: {model}")
     print(f"Base:  {args.base_url}")
+    print(f"Prior knowledge: {pk_label}")
+    if args.rag_mode:
+        print(f"RAG store: {rag_stores_root / args.rag_mode}")
+        print(f"RAG query mode: {args.rag_query_mode}  per_step={args.rag_per_step}")
     if args.stuck_limit:
         print(f"Stuck limit: {args.stuck_limit} identical clicks on same screen")
     print(f"Tasks: {len(tasks)}")
@@ -742,41 +905,57 @@ def main() -> None:
         print(f"  - {t['id']}")
 
     results: list[TaskResult] = []
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=not args.headed)
-        context = browser.new_context(
-            viewport=DEFAULT_VIEWPORT,
-            extra_http_headers={"ngrok-skip-browser-warning": "true"},
+    rag_session: RagSession | None = None
+    if args.rag_mode:
+        rag_session = RagSession(
+            args.rag_mode,
+            stores_root=rag_stores_root,
+            query_mode=args.rag_query_mode,
+            verbose=not args.rag_quiet,
         )
-        if abs(float(args.page_zoom) - 1.0) >= 1e-6:
-            context.add_init_script(
-                f"document.documentElement.style.zoom = '{float(args.page_zoom)}';"
+
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=not args.headed)
+            context = browser.new_context(
+                viewport=DEFAULT_VIEWPORT,
+                extra_http_headers={"ngrok-skip-browser-warning": "true"},
             )
-        page = context.new_page()
-        try:
-            for task in tqdm(tasks, desc="Multi-step baseline"):
-                result = run_task(
-                    page=page,
-                    agent=agent,
-                    task=task,
-                    doc=doc,
-                    base_url=args.base_url,
-                    page_zoom=float(args.page_zoom),
-                    max_marks=args.max_marks,
-                    max_steps_override=args.max_steps,
-                    stuck_limit=args.stuck_limit,
-                    artifacts_dir=artifacts_dir,
+            if abs(float(args.page_zoom) - 1.0) >= 1e-6:
+                context.add_init_script(
+                    f"document.documentElement.style.zoom = '{float(args.page_zoom)}';"
                 )
-                results.append(result)
-                print(
-                    f"[{result.id}] success={result.success} "
-                    f"steps={result.n_steps} tokens={result.total_tokens}"
-                )
-        finally:
-            browser.close()
+            page = context.new_page()
+            try:
+                for task in tqdm(tasks, desc="Multi-step baseline"):
+                    result = run_task(
+                        page=page,
+                        agent=agent,
+                        task=task,
+                        doc=doc,
+                        base_url=args.base_url,
+                        page_zoom=float(args.page_zoom),
+                        max_marks=args.max_marks,
+                        max_steps_override=args.max_steps,
+                        stuck_limit=args.stuck_limit,
+                        artifacts_dir=artifacts_dir,
+                        rag_session=rag_session,
+                        rag_per_step=args.rag_per_step,
+                        rag_max_chars=args.rag_max_chars,
+                    )
+                    results.append(result)
+                    print(
+                        f"[{result.id}] success={result.success} "
+                        f"steps={result.n_steps} tokens={result.total_tokens}"
+                    )
+            finally:
+                browser.close()
+    finally:
+        if rag_session is not None:
+            rag_session.close()
 
     summary = summarize(results)
-    print_summary(results, summary)
+    print_summary(results, summary, prior_knowledge=pk_label)
 
     csv_path = out_dir / "detailed.csv"
     md_path = out_dir / "baseline.md"
@@ -789,6 +968,8 @@ def main() -> None:
         model=model,
         tasks_path=tasks_path,
         base_url=args.base_url,
+        prior_knowledge=pk_label,
+        prior_knowledge_detail=pk_meta,
     )
     save_results_json(
         results,
@@ -799,7 +980,7 @@ def main() -> None:
             "base_url": args.base_url,
             "stuck_limit": args.stuck_limit,
             "tasks_path": str(tasks_path).replace("\\", "/"),
-            "prior_knowledge": None,
+            "prior_knowledge": pk_meta,
             "summary": summary,
         },
     )

@@ -1,0 +1,2917 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
+  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d8" for="edge" attr.name="description" attr.type="string" />
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="a11y">
+      <data key="d0">a11y</data>
+      <data key="d1">other</data>
+      <data key="d2">a11y, also known as accessibility, is a term deeply rooted in web development and digital content creation. It refers to various features designed to enhance the usability of web elements and applications for individuals with disabilities. This encompasses a range of attributes and terms used in web development to ensure that websites and digital content are accessible to people with different abilities. Specifically, a11y is a term commonly used in web development to denote accessibility-related features and attributes, including source attributes and other accessibility-related elements that contribute to making web content more usable and inclusive. Accessibility features for web applications are integral to ensuring that users can navigate and interact with digital content effectively, regardless of their physical or cognitive limitations. Additionally, there exists an organization associated with accessibility features, which further emphasizes the importance of a11y in the broader context of web development and usability.&lt;SEP&gt;Accessibility features for web elements&lt;SEP&gt;[source element] screen_id 'minicart_open' instruction click the link 'V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can ,Pack of 24' role 'link' name 'V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can ,Pack of 24' bbox_px '[273, 674, 500, 753]'</data>
+      <data key="d3">doc-01c33fc069142df72db73c0a60322bcf-chunk-000&lt;SEP&gt;doc-01c9fc9ee30d9a60fd968f838ea162d4-chunk-000&lt;SEP&gt;doc-025c703964dec2fe371e10c8415dd613-chunk-000&lt;SEP&gt;doc-0b695dbca7b0baea8472f4b9b8c77cc7-chunk-000&lt;SEP&gt;doc-1abb292a251278234ef2aea5585a4cec-chunk-000&lt;SEP&gt;doc-1b896baf2b5d815d3bbe0eb625a72814-chunk-000&lt;SEP&gt;doc-1c39a269c840c652393b3da52117ee29-chunk-000&lt;SEP&gt;doc-1e69ba803ff29a691deb2111e022bb4d-chunk-000&lt;SEP&gt;doc-2264c0cbd93197c10fe0a09fdbcf60f8-chunk-000&lt;SEP&gt;doc-323e293277d50c431bbc02b71c78a7a1-chunk-000&lt;SEP&gt;doc-336354e68363ca14a619dc9017f3722b-chunk-000&lt;SEP&gt;doc-36f6576613a283888b16c8f9146dbd71-chunk-000&lt;SEP&gt;doc-3881dc8d47b3676c7ac00352787e5b11-chunk-000&lt;SEP&gt;doc-3b63eb4098e5145f7df0c3032404516e-chunk-000&lt;SEP&gt;doc-45c24883b260d58ce196b2bd5813a10a-chunk-000&lt;SEP&gt;doc-53f6ded76ac80a02287a2f5e4d7808cb-chunk-000&lt;SEP&gt;doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000&lt;SEP&gt;doc-57700c1ee10803d54cfcb11e805a1b9e-chunk-000&lt;SEP&gt;doc-5ceb1c3b3128f0d47d1a8d177a4d6780-chunk-000&lt;SEP&gt;doc-644571f9784ce04891f41845bd4a33cf-chunk-000&lt;SEP&gt;doc-6f918084db54f057473db40beef298f2-chunk-000&lt;SEP&gt;doc-6fdf98cdebdbf6d580bc571f0e63d026-chunk-000&lt;SEP&gt;doc-6fee16de15adef8f9c158fcdcfc3c3cf-chunk-000&lt;SEP&gt;doc-79d9878ecf576fac1aa1aa6fe797867f-chunk-000&lt;SEP&gt;doc-7b3dbaa1dc2bafcf6737861428b971a7-chunk-000&lt;SEP&gt;doc-7ff218daa648cf801a7184502db5ca24-chunk-000&lt;SEP&gt;doc-84bb4345d24d03ecc2f6b643d50ef2ec-chunk-000&lt;SEP&gt;doc-8c4c0287492ac47c15df9071249fde66-chunk-000&lt;SEP&gt;doc-93994d22ad00beec814080e416a51904-chunk-000&lt;SEP&gt;doc-998ef6f2a08b055f4cea5fd640aa78ae-chunk-000&lt;SEP&gt;doc-9ecd5e9d22535ece235c555f4d9df437-chunk-000&lt;SEP&gt;doc-9fde1622ef828bc2735ced9dd67f3e79-chunk-000&lt;SEP&gt;doc-a01aa3869759c0df193b39c39a682dfb-chunk-000&lt;SEP&gt;doc-ab0e24a021db35a260177d5f65789313-chunk-000&lt;SEP&gt;doc-afaeae3f07222d6abb05167120cb64e6-chunk-000&lt;SEP&gt;doc-b749abb1d006250866dea057553594bc-chunk-000&lt;SEP&gt;doc-d2791eb69f02804dd822d8ed3284192a-chunk-000&lt;SEP&gt;doc-d2a72d64e9d709b745758f4681df3ca6-chunk-000&lt;SEP&gt;doc-d3f210baa22420bda082ab35ed47c513-chunk-000&lt;SEP&gt;doc-dd8d428d2f06506a83c659eadb472263-chunk-000&lt;SEP&gt;doc-de35d1ab540844b78d0adaeb5ebb47a3-chunk-000&lt;SEP&gt;doc-e00c1708ed4e0a50a037c7d9e2741fa4-chunk-000&lt;SEP&gt;doc-e4dc81cdc7cc78005bebf5e2cebf18ae-chunk-000&lt;SEP&gt;doc-b29ad775cde5b9e8e27a6d6eafeda4a8-chunk-000&lt;SEP&gt;doc-b6509c13ae02e5dc840b8c54add719e2-chunk-000&lt;SEP&gt;doc-ba1791b7a2e156d3fdfe4a129ba66a73-chunk-000&lt;SEP&gt;doc-ba90d6ca176ed689081def0260ad0880-chunk-000&lt;SEP&gt;doc-bd75453a4277ab9e705ed0c6b88b151d-chunk-000&lt;SEP&gt;doc-bf0db5826ed0280c954ef6c7dc9c6466-chunk-000&lt;SEP&gt;doc-c03a55d3ed535c691cb634704db74a30-chunk-000&lt;SEP&gt;doc-ce3a0782e39046b81c406c6b4e1edfff-chunk-000&lt;SEP&gt;doc-d4fb048b780a9f80e0bd16935fc3b137-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000&lt;SEP&gt;doc-e183c3bffbabc03a75bb2382164f1a11-chunk-000&lt;SEP&gt;doc-e89442d6a67c299758956cf8985a34cb-chunk-000&lt;SEP&gt;doc-eb4d81140e50434b97613da88c116fa7-chunk-000&lt;SEP&gt;doc-ed0df97f02121492dfc5d3fd1e1f3c78-chunk-000&lt;SEP&gt;doc-ee53c6412436092f3c03b65b2173ad54-chunk-000&lt;SEP&gt;doc-f7718246a4863503f148e838eec9d4ca-chunk-000&lt;SEP&gt;doc-f92fd7abfc3761b926dfc49b1d4ace41-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055552</data>
+      <data key="d6" />
+    </node>
+    <node id="element">
+      <data key="d0">element</data>
+      <data key="d1">other</data>
+      <data key="d2">Web element&lt;SEP&gt;[type attribute for element]&lt;SEP&gt;[type element] for accessibility&lt;SEP&gt;A component or part of a user interface.&lt;SEP&gt;Web elements</data>
+      <data key="d3">doc-0b695dbca7b0baea8472f4b9b8c77cc7-chunk-000&lt;SEP&gt;doc-45c24883b260d58ce196b2bd5813a10a-chunk-000&lt;SEP&gt;doc-6fdf98cdebdbf6d580bc571f0e63d026-chunk-000&lt;SEP&gt;doc-b29ad775cde5b9e8e27a6d6eafeda4a8-chunk-000&lt;SEP&gt;doc-ba1791b7a2e156d3fdfe4a129ba66a73-chunk-000&lt;SEP&gt;doc-eb4d81140e50434b97613da88c116fa7-chunk-000&lt;SEP&gt;doc-ee53c6412436092f3c03b65b2173ad54-chunk-000&lt;SEP&gt;doc-f7718246a4863503f148e838eec9d4ca-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055544</data>
+      <data key="d6" />
+    </node>
+    <node id="checkout">
+      <data key="d0">checkout</data>
+      <data key="d1">location</data>
+      <data key="d2">Checkout screen&lt;SEP&gt;A location identifier for a checkout screen.</data>
+      <data key="d3">doc-b29ad775cde5b9e8e27a6d6eafeda4a8-chunk-000&lt;SEP&gt;doc-e89442d6a67c299758956cf8985a34cb-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055410</data>
+      <data key="d6" />
+    </node>
+    <node id="button">
+      <data key="d0">button</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Button element&lt;SEP&gt;A clickable element in the interface</data>
+      <data key="d3">doc-b29ad775cde5b9e8e27a6d6eafeda4a8-chunk-000&lt;SEP&gt;doc-c02f14b1e32cdfab5456f0d0d6deb773-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787054846</data>
+      <data key="d6" />
+    </node>
+    <node id="Tooltip">
+      <data key="d0">Tooltip</data>
+      <data key="d1">other</data>
+      <data key="d2">Tooltip button</data>
+      <data key="d3">doc-b29ad775cde5b9e8e27a6d6eafeda4a8-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787054796</data>
+      <data key="d6" />
+    </node>
+    <node id="click">
+      <data key="d0">click</data>
+      <data key="d3">doc-a01aa3869759c0df193b39c39a682dfb-chunk-000&lt;SEP&gt;doc-b29ad775cde5b9e8e27a6d6eafeda4a8-chunk-000&lt;SEP&gt;doc-ba1791b7a2e156d3fdfe4a129ba66a73-chunk-000&lt;SEP&gt;doc-c03a55d3ed535c691cb634704db74a30-chunk-000&lt;SEP&gt;doc-ce3a0782e39046b81c406c6b4e1edfff-chunk-000&lt;SEP&gt;doc-e183c3bffbabc03a75bb2382164f1a11-chunk-000&lt;SEP&gt;doc-e89442d6a67c299758956cf8985a34cb-chunk-000&lt;SEP&gt;doc-ee53c6412436092f3c03b65b2173ad54-chunk-000&lt;SEP&gt;doc-f7718246a4863503f148e838eec9d4ca-chunk-000&lt;SEP&gt;doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d2">Click is an action performed by a user, typically involving the use of a mouse or other input device to press a button or activate a link on a digital interface. This action is often referred to as "clicking" and is a fundamental interaction in computer and web navigation. It can also be described as the action of performing a click, which is an action verb used to denote this specific user interaction. The term "click" is commonly used in various contexts, including web design, software development, and user experience (UX) to describe the act of selecting an element on a screen.&lt;SEP&gt;An action performed by a user to select an item on a screen.</data>
+      <data key="d1">method</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055926</data>
+      <data key="d6" />
+    </node>
+    <node id="screen_id">
+      <data key="d0">screen_id</data>
+      <data key="d3">doc-b29ad775cde5b9e8e27a6d6eafeda4a8-chunk-000&lt;SEP&gt;doc-b6a4ebc813bac50eb0d53c08cb4b08da-chunk-000&lt;SEP&gt;doc-ba90d6ca176ed689081def0260ad0880-chunk-000&lt;SEP&gt;doc-bf0db5826ed0280c954ef6c7dc9c6466-chunk-000&lt;SEP&gt;doc-c02f14b1e32cdfab5456f0d0d6deb773-chunk-000&lt;SEP&gt;doc-c03a55d3ed535c691cb634704db74a30-chunk-000&lt;SEP&gt;doc-c9c69e2a34c295b1586bd3f53b868b4d-chunk-000&lt;SEP&gt;doc-cba959f3b1e47acab4a419f1afb756d1-chunk-000&lt;SEP&gt;doc-ce3a0782e39046b81c406c6b4e1edfff-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000&lt;SEP&gt;doc-024b19b8de0d5b640f27f0a312da5ca5-chunk-000&lt;SEP&gt;doc-1abb292a251278234ef2aea5585a4cec-chunk-000&lt;SEP&gt;doc-323e293277d50c431bbc02b71c78a7a1-chunk-000&lt;SEP&gt;doc-45c24883b260d58ce196b2bd5813a10a-chunk-000&lt;SEP&gt;doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000&lt;SEP&gt;doc-e89442d6a67c299758956cf8985a34cb-chunk-000&lt;SEP&gt;doc-ee53c6412436092f3c03b65b2173ad54-chunk-000&lt;SEP&gt;doc-f067742834b4ccdbde208903ac4ed06c-chunk-000&lt;SEP&gt;doc-f437e42ae366198509c91f29b833f612-chunk-000&lt;SEP&gt;doc-f7718246a4863503f148e838eec9d4ca-chunk-000</data>
+      <data key="d2">Screen ID is a term used across various contexts related to user interactions on a website or application. It serves as a unique identifier for different screens or locations within a digital interface. Specifically, it can refer to the screen where the account logging in process occurs, often denoted by the value 'account_logged_in'. Another common usage of screen ID involves identifying the location where a minicart open event happens, which might be represented by the value 'minicart_open'. Additionally, there is a screen ID associated with the cart containing items, labeled as 'cart_with_item'. These IDs help in tracking user navigation and specific actions within the application, ensuring accurate analytics and user experience management.&lt;SEP&gt;Screen identifier</data>
+      <data key="d1">other</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055544</data>
+      <data key="d6" />
+    </node>
+    <node id="[595, 250, 620, 284]">
+      <data key="d0">[595, 250, 620, 284]</data>
+      <data key="d3">doc-b29ad775cde5b9e8e27a6d6eafeda4a8-chunk-000</data>
+      <data key="d2">Button bounding box coordinates</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787054796</data>
+      <data key="d6" />
+    </node>
+    <node id="name">
+      <data key="d0">name</data>
+      <data key="d3">doc-b29ad775cde5b9e8e27a6d6eafeda4a8-chunk-000&lt;SEP&gt;doc-b6a4ebc813bac50eb0d53c08cb4b08da-chunk-000&lt;SEP&gt;doc-1abb292a251278234ef2aea5585a4cec-chunk-000&lt;SEP&gt;doc-45c24883b260d58ce196b2bd5813a10a-chunk-000&lt;SEP&gt;doc-547a6ce3129ff5916eefb35f8a299993-chunk-000&lt;SEP&gt;doc-6862f8705f500b582cfb681d1c6febc9-chunk-000&lt;SEP&gt;doc-79bdc8c15be295419534818b640a1fab-chunk-000&lt;SEP&gt;doc-7b3dbaa1dc2bafcf6737861428b971a7-chunk-000&lt;SEP&gt;doc-9cf014a55715838cd2e7be449bd106f3-chunk-000&lt;SEP&gt;doc-b64b5d11488f01f9fe0fa193ff7147e5-chunk-000&lt;SEP&gt;doc-024b19b8de0d5b640f27f0a312da5ca5-chunk-000&lt;SEP&gt;doc-0ecdec2685406dc115c811677c195f75-chunk-000&lt;SEP&gt;doc-269a8ede147006aea65d5f4620f825e3-chunk-000&lt;SEP&gt;doc-323e293277d50c431bbc02b71c78a7a1-chunk-000&lt;SEP&gt;doc-96f37bc024c1dd81bce2be42d32fb9a4-chunk-000&lt;SEP&gt;doc-ba90d6ca176ed689081def0260ad0880-chunk-000&lt;SEP&gt;doc-cba959f3b1e47acab4a419f1afb756d1-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000&lt;SEP&gt;doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000&lt;SEP&gt;doc-f067742834b4ccdbde208903ac4ed06c-chunk-000&lt;SEP&gt;doc-f437e42ae366198509c91f29b833f612-chunk-000</data>
+      <data key="d2">Button named Tooltip&lt;SEP&gt;The name of a menu item.&lt;SEP&gt;The name of the link, which is 'Change Password'.&lt;SEP&gt;The name of the menu item being clicked.&lt;SEP&gt;No specific name provided.&lt;SEP&gt;The name of the link being clicked, 'My Wish List'.&lt;SEP&gt;A name associated with an element.</data>
+      <data key="d1">other</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055529</data>
+      <data key="d6" />
+    </node>
+    <node id="instruction">
+      <data key="d0">instruction</data>
+      <data key="d3">doc-a01aa3869759c0df193b39c39a682dfb-chunk-000&lt;SEP&gt;doc-b29ad775cde5b9e8e27a6d6eafeda4a8-chunk-000&lt;SEP&gt;doc-b6a4ebc813bac50eb0d53c08cb4b08da-chunk-000&lt;SEP&gt;doc-024b19b8de0d5b640f27f0a312da5ca5-chunk-000&lt;SEP&gt;doc-0ecdec2685406dc115c811677c195f75-chunk-000&lt;SEP&gt;doc-1abb292a251278234ef2aea5585a4cec-chunk-000&lt;SEP&gt;doc-269a8ede147006aea65d5f4620f825e3-chunk-000&lt;SEP&gt;doc-45c24883b260d58ce196b2bd5813a10a-chunk-000&lt;SEP&gt;doc-547a6ce3129ff5916eefb35f8a299993-chunk-000&lt;SEP&gt;doc-6862f8705f500b582cfb681d1c6febc9-chunk-000&lt;SEP&gt;doc-79bdc8c15be295419534818b640a1fab-chunk-000&lt;SEP&gt;doc-7b3dbaa1dc2bafcf6737861428b971a7-chunk-000&lt;SEP&gt;doc-96f37bc024c1dd81bce2be42d32fb9a4-chunk-000&lt;SEP&gt;doc-9cf014a55715838cd2e7be449bd106f3-chunk-000&lt;SEP&gt;doc-ab0e24a021db35a260177d5f65789313-chunk-000&lt;SEP&gt;doc-b64b5d11488f01f9fe0fa193ff7147e5-chunk-000&lt;SEP&gt;doc-323e293277d50c431bbc02b71c78a7a1-chunk-000&lt;SEP&gt;doc-ba1791b7a2e156d3fdfe4a129ba66a73-chunk-000&lt;SEP&gt;doc-ba90d6ca176ed689081def0260ad0880-chunk-000&lt;SEP&gt;doc-bf0db5826ed0280c954ef6c7dc9c6466-chunk-000&lt;SEP&gt;doc-c02f14b1e32cdfab5456f0d0d6deb773-chunk-000&lt;SEP&gt;doc-cba959f3b1e47acab4a419f1afb756d1-chunk-000&lt;SEP&gt;doc-ce3a0782e39046b81c406c6b4e1edfff-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000&lt;SEP&gt;doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000&lt;SEP&gt;doc-e89442d6a67c299758956cf8985a34cb-chunk-000&lt;SEP&gt;doc-ee53c6412436092f3c03b65b2173ad54-chunk-000&lt;SEP&gt;doc-f067742834b4ccdbde208903ac4ed06c-chunk-000&lt;SEP&gt;doc-f437e42ae366198509c91f29b833f612-chunk-000&lt;SEP&gt;doc-f7718246a4863503f148e838eec9d4ca-chunk-000</data>
+      <data key="d2">The term "instruction" refers to various actions or commands designed to guide a user through a specific process or task. It can encompass a wide range of activities, including clicking on different elements such as buttons, menu items, links, and textboxes. Instructions are often part of a set of steps or commands intended to perform a particular action, such as changing a password. In this context, an instruction typically involves interacting with a user interface element by clicking on it, which could be a button, a menu item, a link, or a textbox.&lt;SEP&gt;An instruction to click a textbox element.&lt;SEP&gt;A set of directions or instructions.&lt;SEP&gt;An instruction to click a link named 'My Wish List'.&lt;SEP&gt;An instruction related to an action.&lt;SEP&gt;An instruction related to an&lt;SEP&gt;Instruction for interaction</data>
+      <data key="d1">other</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055544</data>
+      <data key="d6" />
+    </node>
+    <node id="bbox_px">
+      <data key="d0">bbox_px</data>
+      <data key="d3">doc-b29ad775cde5b9e8e27a6d6eafeda4a8-chunk-000&lt;SEP&gt;doc-b6a4ebc813bac50eb0d53c08cb4b08da-chunk-000&lt;SEP&gt;doc-024b19b8de0d5b640f27f0a312da5ca5-chunk-000&lt;SEP&gt;doc-0ecdec2685406dc115c811677c195f75-chunk-000&lt;SEP&gt;doc-269a8ede147006aea65d5f4620f825e3-chunk-000&lt;SEP&gt;doc-547a6ce3129ff5916eefb35f8a299993-chunk-000&lt;SEP&gt;doc-79bdc8c15be295419534818b640a1fab-chunk-000&lt;SEP&gt;doc-7b3dbaa1dc2bafcf6737861428b971a7-chunk-000&lt;SEP&gt;doc-96f37bc024c1dd81bce2be42d32fb9a4-chunk-000&lt;SEP&gt;doc-9cf014a55715838cd2e7be449bd106f3-chunk-000&lt;SEP&gt;doc-b64b5d11488f01f9fe0fa193ff7147e5-chunk-000&lt;SEP&gt;doc-1abb292a251278234ef2aea5585a4cec-chunk-000&lt;SEP&gt;doc-323e293277d50c431bbc02b71c78a7a1-chunk-000&lt;SEP&gt;doc-45c24883b260d58ce196b2bd5813a10a-chunk-000&lt;SEP&gt;doc-ba1791b7a2e156d3fdfe4a129ba66a73-chunk-000&lt;SEP&gt;doc-ba90d6ca176ed689081def0260ad0880-chunk-000&lt;SEP&gt;doc-bf0db5826ed0280c954ef6c7dc9c6466-chunk-000&lt;SEP&gt;doc-c02f14b1e32cdfab5456f0d0d6deb773-chunk-000&lt;SEP&gt;doc-cba959f3b1e47acab4a419f1afb756d1-chunk-000&lt;SEP&gt;doc-ce3a0782e39046b81c406c6b4e1edfff-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000&lt;SEP&gt;doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000&lt;SEP&gt;doc-e89442d6a67c299758956cf8985a34cb-chunk-000&lt;SEP&gt;doc-ee53c6412436092f3c03b65b2173ad54-chunk-000&lt;SEP&gt;doc-f067742834b4ccdbde208903ac4ed06c-chunk-000&lt;SEP&gt;doc-f437e42ae366198509c91f29b833f612-chunk-000&lt;SEP&gt;doc-f7718246a4863503f148e838eec9d4ca-chunk-000</data>
+      <data key="d2">The entity "bbox_px" refers to bounding box coordinates measured in pixels. These coordinates define the dimensions of an element within a graphical interface or image. Specifically, "bbox_px" encompasses the pixel coordinates that outline the boundaries of an object, ensuring precise placement and sizing. This attribute is crucial for various applications, including computer vision, graphic design, and user interface development, where accurate representation of elements is essential for functionality and aesthetics.&lt;SEP&gt;Pixel coordinates of the bounding box for the link 'My Wish List'.&lt;SEP&gt;Bounding box coordinates in pixel units.&lt;SEP&gt;Bounding box coordinates in pixels</data>
+      <data key="d1">other</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055544</data>
+      <data key="d6" />
+    </node>
+    <node id="role">
+      <data key="d0">role</data>
+      <data key="d1">other</data>
+      <data key="d2">Role refers to various designations assigned to elements within a system. It can denote the function or purpose of a component, such as a textbox, where its role might be to receive user input. Additionally, roles can specify the action to be taken, like linking to another page or performing a specific task. In some contexts, roles are attributes that describe the nature of an element, such as its function or intended use. The term "role" is versatile and can apply to different types of elements, including menu items, where it signifies the function or action associated with that item. Overall, the concept of role encompasses a broad range of meanings depending on the context, from indicating the action to be performed to defining the purpose or function of an element.</data>
+      <data key="d3">doc-01c33fc069142df72db73c0a60322bcf-chunk-000&lt;SEP&gt;doc-01c9fc9ee30d9a60fd968f838ea162d4-chunk-000&lt;SEP&gt;doc-024b19b8de0d5b640f27f0a312da5ca5-chunk-000&lt;SEP&gt;doc-025c703964dec2fe371e10c8415dd613-chunk-000&lt;SEP&gt;doc-0ecdec2685406dc115c811677c195f75-chunk-000&lt;SEP&gt;doc-1abb292a251278234ef2aea5585a4cec-chunk-000&lt;SEP&gt;doc-1e69ba803ff29a691deb2111e022bb4d-chunk-000&lt;SEP&gt;doc-2264c0cbd93197c10fe0a09fdbcf60f8-chunk-000&lt;SEP&gt;doc-269a8ede147006aea65d5f4620f825e3-chunk-000&lt;SEP&gt;doc-323e293277d50c431bbc02b71c78a7a1-chunk-000&lt;SEP&gt;doc-45c24883b260d58ce196b2bd5813a10a-chunk-000&lt;SEP&gt;doc-547a6ce3129ff5916eefb35f8a299993-chunk-000&lt;SEP&gt;doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000&lt;SEP&gt;doc-57700c1ee10803d54cfcb11e805a1b9e-chunk-000&lt;SEP&gt;doc-6862f8705f500b582cfb681d1c6febc9-chunk-000&lt;SEP&gt;doc-79bdc8c15be295419534818b640a1fab-chunk-000&lt;SEP&gt;doc-7b3dbaa1dc2bafcf6737861428b971a7-chunk-000&lt;SEP&gt;doc-8c4c0287492ac47c15df9071249fde66-chunk-000&lt;SEP&gt;doc-93994d22ad00beec814080e416a51904-chunk-000&lt;SEP&gt;doc-96f37bc024c1dd81bce2be42d32fb9a4-chunk-000&lt;SEP&gt;doc-9cf014a55715838cd2e7be449bd106f3-chunk-000&lt;SEP&gt;doc-a01aa3869759c0df193b39c39a682dfb-chunk-000&lt;SEP&gt;doc-ab0e24a021db35a260177d5f65789313-chunk-000&lt;SEP&gt;doc-afaeae3f07222d6abb05167120cb64e6-chunk-000&lt;SEP&gt;doc-b64b5d11488f01f9fe0fa193ff7147e5-chunk-000&lt;SEP&gt;doc-e4dc81cdc7cc78005bebf5e2cebf18ae-chunk-000&lt;SEP&gt;doc-b6a4ebc813bac50eb0d53c08cb4b08da-chunk-000&lt;SEP&gt;doc-ba90d6ca176ed689081def0260ad0880-chunk-000&lt;SEP&gt;doc-cba959f3b1e47acab4a419f1afb756d1-chunk-000&lt;SEP&gt;doc-ce3a0782e39046b81c406c6b4e1edfff-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000&lt;SEP&gt;doc-e89442d6a67c299758956cf8985a34cb-chunk-000&lt;SEP&gt;doc-f067742834b4ccdbde208903ac4ed06c-chunk-000&lt;SEP&gt;doc-f437e42ae366198509c91f29b833f612-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055532</data>
+      <data key="d6" />
+    </node>
+    <node id="minicart_open">
+      <data key="d0">minicart_open</data>
+      <data key="d1">other</data>
+      <data key="d2">[screen ID for minicart open event]</data>
+      <data key="d3">doc-ba1791b7a2e156d3fdfe4a129ba66a73-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787054819</data>
+      <data key="d6" />
+    </node>
+    <node id=".product-image-container-104499">
+      <data key="d0">.product-image-container-104499</data>
+      <data key="d1">other</data>
+      <data key="d2">[CSS selector for product image container]</data>
+      <data key="d3">doc-0b695dbca7b0baea8472f4b9b8c77cc7-chunk-000&lt;SEP&gt;doc-ba1791b7a2e156d3fdfe4a129ba66a73-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787054819</data>
+      <data key="d6" />
+    </node>
+    <node id=".product-image-container-104499 span.product-image-wrapper">
+      <data key="d0">.product-image-container-104499 span.product-image-wrapper</data>
+      <data key="d1">other</data>
+      <data key="d2">[CSS selector for product image wrapper]</data>
+      <data key="d3">doc-0b695dbca7b0baea8472f4b9b8c77cc7-chunk-000&lt;SEP&gt;doc-ba1791b7a2e156d3fdfe4a129ba66a73-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787054819</data>
+      <data key="d6" />
+    </node>
+    <node id="link">
+      <data key="d0">link</data>
+      <data key="d1">other</data>
+      <data key="d2">[type of link]&lt;SEP&gt;Link element&lt;SEP&gt;A hyperlink or clickable element.&lt;SEP&gt;Hyperlink</data>
+      <data key="d3">doc-ab0e24a021db35a260177d5f65789313-chunk-000&lt;SEP&gt;doc-ba1791b7a2e156d3fdfe4a129ba66a73-chunk-000&lt;SEP&gt;doc-ce3a0782e39046b81c406c6b4e1edfff-chunk-000&lt;SEP&gt;doc-ee53c6412436092f3c03b65b2173ad54-chunk-000&lt;SEP&gt;doc-f7718246a4863503f148e838eec9d4ca-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055544</data>
+      <data key="d6" />
+    </node>
+    <node id="width">
+      <data key="d0">width</data>
+      <data key="d1">other</data>
+      <data key="d2">[attribute for width]</data>
+      <data key="d3">doc-ba1791b7a2e156d3fdfe4a129ba66a73-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787054819</data>
+      <data key="d6" />
+    </node>
+    <node id="240px">
+      <data key="d0">240px</data>
+      <data key="d1">other</data>
+      <data key="d2">[value for width]</data>
+      <data key="d3">doc-ba1791b7a2e156d3fdfe4a129ba66a73-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787054819</data>
+      <data key="d6" />
+    </node>
+    <node id="padding">
+      <data key="d0">padding</data>
+      <data key="d1">other</data>
+      <data key="d2">[attribute for padding]</data>
+      <data key="d3">doc-ba1791b7a2e156d3fdfe4a129ba66a73-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787054819</data>
+      <data key="d6" />
+    </node>
+    <node id="type">
+      <data key="d0">type</data>
+      <data key="d1">other</data>
+      <data key="d2">The type of the element, which is 'element'.&lt;SEP&gt;No specific type provided.&lt;SEP&gt;The type of element, indicating it is an element.&lt;SEP&gt;A concept referring to the type of element.&lt;SEP&gt;A type of element.</data>
+      <data key="d3">doc-323e293277d50c431bbc02b71c78a7a1-chunk-000&lt;SEP&gt;doc-9ecd5e9d22535ece235c555f4d9df437-chunk-000&lt;SEP&gt;doc-ba90d6ca176ed689081def0260ad0880-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000&lt;SEP&gt;doc-e89442d6a67c299758956cf8985a34cb-chunk-000&lt;SEP&gt;doc-ee53c6412436092f3c03b65b2173ad54-chunk-000&lt;SEP&gt;doc-f437e42ae366198509c91f29b833f612-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055529</data>
+      <data key="d6" />
+    </node>
+    <node id="store logo">
+      <data key="d0">store logo</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A visual element representing a store logo.</data>
+      <data key="d3">doc-9ecd5e9d22535ece235c555f4d9df437-chunk-000&lt;SEP&gt;doc-afaeae3f07222d6abb05167120cb64e6-chunk-000&lt;SEP&gt;doc-bf0db5826ed0280c954ef6c7dc9c6466-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787054838</data>
+      <data key="d6" />
+    </node>
+    <node id="Proceed to Checkout">
+      <data key="d0">Proceed to Checkout</data>
+      <data key="d1">other</data>
+      <data key="d2">A button label</data>
+      <data key="d3">doc-c02f14b1e32cdfab5456f0d0d6deb773-chunk-000&lt;SEP&gt;doc-62d9053cf6071c97f1a27f1d4e29dbec-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787054846</data>
+      <data key="d6" />
+    </node>
+    <node id="transition">
+      <data key="d0">transition</data>
+      <data key="d1">other</data>
+      <data key="d2">A type of user interface transition</data>
+      <data key="d3">doc-c03a55d3ed535c691cb634704db74a30-chunk-000&lt;SEP&gt;doc-e183c3bffbabc03a75bb2382164f1a11-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055256</data>
+      <data key="d6" />
+    </node>
+    <node id="subcategory">
+      <data key="d0">subcategory</data>
+      <data key="d1">other</data>
+      <data key="d2">A category or subcategory identifier</data>
+      <data key="d3">doc-c03a55d3ed535c691cb634704db74a30-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787054856</data>
+      <data key="d6" />
+    </node>
+    <node id="step">
+      <data key="d0">step</data>
+      <data key="d1">other</data>
+      <data key="d2">A sequence number indicating a step in a process&lt;SEP&gt;A numbered stage in a sequence of actions.&lt;SEP&gt;A numbered stage within a sequence of actions.&lt;SEP&gt;Indicates the current stage or phase of the task.&lt;SEP&gt;A numbered indication of the current stage in a sequence of actions.&lt;SEP&gt;A numbered sequence indicating the progression of a task.</data>
+      <data key="d3">doc-c03a55d3ed535c691cb634704db74a30-chunk-000&lt;SEP&gt;doc-e183c3bffbabc03a75bb2382164f1a11-chunk-000&lt;SEP&gt;doc-14ceb1ebb14936f5b21a23a880dfeaca-chunk-000&lt;SEP&gt;doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000&lt;SEP&gt;doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878-chunk-000&lt;SEP&gt;doc-189de8ba1f681a4ac020519f647f3544-chunk-000&lt;SEP&gt;doc-3df8bd91a6a3d0871e38317475d7b157-chunk-000&lt;SEP&gt;doc-5c82ff2039f325fb23b86afa8c23dcf2-chunk-000&lt;SEP&gt;doc-641918b0c83a0a355d25025600a88524-chunk-000&lt;SEP&gt;doc-a27c3607ebcd1cbf634c7919d8b8e521-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056245</data>
+      <data key="d6" />
+    </node>
+    <node id="target">
+      <data key="d0">target</data>
+      <data key="d1">other</data>
+      <data key="d2">The target of an action, which can be None</data>
+      <data key="d3">doc-c03a55d3ed535c691cb634704db74a30-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787054856</data>
+      <data key="d6" />
+    </node>
+    <node id="url_before">
+      <data key="d0">url_before</data>
+      <data key="d1">other</data>
+      <data key="d2">The URL before a transition</data>
+      <data key="d3">doc-c03a55d3ed535c691cb634704db74a30-chunk-000&lt;SEP&gt;doc-e183c3bffbabc03a75bb2382164f1a11-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787054856</data>
+      <data key="d6" />
+    </node>
+    <node id="url_after">
+      <data key="d0">url_after</data>
+      <data key="d1">other</data>
+      <data key="d2">url_after refers to the URL of a resource or page that changes following an action or task completion. This term is used interchangeably to describe the URL after various actions have been executed, such as a transition, a task action, or simply an action being completed. It indicates the final destination or state of the URL post-action, reflecting the outcome of the interaction or process.&lt;SEP&gt;The URL of the page or resource accessed after an action.&lt;SEP&gt;The URL of the page after the action.&lt;SEP&gt;The URL after the action was completed.&lt;SEP&gt;The URL of the page after an action is completed.</data>
+      <data key="d3">doc-c03a55d3ed535c691cb634704db74a30-chunk-000&lt;SEP&gt;doc-e183c3bffbabc03a75bb2382164f1a11-chunk-000&lt;SEP&gt;doc-14ceb1ebb14936f5b21a23a880dfeaca-chunk-000&lt;SEP&gt;doc-37efc5c1445ce192ca1d962c1d8c91dc-chunk-000&lt;SEP&gt;doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000&lt;SEP&gt;doc-dd334441a53ee71d815874e2a4d2f7c9-chunk-000&lt;SEP&gt;doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878-chunk-000&lt;SEP&gt;doc-189de8ba1f681a4ac020519f647f3544-chunk-000&lt;SEP&gt;doc-3df8bd91a6a3d0871e38317475d7b157-chunk-000&lt;SEP&gt;doc-5c82ff2039f325fb23b86afa8c23dcf2-chunk-000&lt;SEP&gt;doc-641918b0c83a0a355d25025600a88524-chunk-000&lt;SEP&gt;doc-73c6da08c5ad531e9f5e932aac330047-chunk-000&lt;SEP&gt;doc-756d823b08bd1c3abebceb95e49c808b-chunk-000&lt;SEP&gt;doc-a27c3607ebcd1cbf634c7919d8b8e521-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056245</data>
+      <data key="d6" />
+    </node>
+    <node id="action">
+      <data key="d0">action</data>
+      <data key="d3">doc-c03a55d3ed535c691cb634704db74a30-chunk-000&lt;SEP&gt;doc-14ceb1ebb14936f5b21a23a880dfeaca-chunk-000&lt;SEP&gt;doc-37efc5c1445ce192ca1d962c1d8c91dc-chunk-000&lt;SEP&gt;doc-461bb085df60d40466f8b6722f80c025-chunk-000&lt;SEP&gt;doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000&lt;SEP&gt;doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878-chunk-000&lt;SEP&gt;doc-189de8ba1f681a4ac020519f647f3544-chunk-000&lt;SEP&gt;doc-3df8bd91a6a3d0871e38317475d7b157-chunk-000&lt;SEP&gt;doc-5c82ff2039f325fb23b86afa8c23dcf2-chunk-000&lt;SEP&gt;doc-641918b0c83a0a355d25025600a88524-chunk-000&lt;SEP&gt;doc-756d823b08bd1c3abebceb95e49c808b-chunk-000&lt;SEP&gt;doc-a27c3607ebcd1cbf634c7919d8b8e521-chunk-000</data>
+      <data key="d2">Action refers to a step or operation performed during a task or process. It can involve clicking, as mentioned in the first description, and it is often executed by either a user or a system. Actions are integral parts of tasks and processes, serving as maneuvers or operations that contribute to achieving specific goals. Whether it's a simple click or a more complex maneuver, actions are fundamental components of any task or process, ensuring that tasks are carried out efficiently and effectively.&lt;SEP&gt;The action performed during the task.&lt;SEP&gt;An operation performed as part of a task.</data>
+      <data key="d1">other</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056245</data>
+      <data key="d6" />
+    </node>
+    <node id="My Cart 1 1 items">
+      <data key="d0">My Cart 1 1 items</data>
+      <data key="d1">other</data>
+      <data key="d2">A link named 'My Cart 1 1 items'.</data>
+      <data key="d3">doc-c9c69e2a34c295b1586bd3f53b868b4d-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787054861</data>
+      <data key="d6" />
+    </node>
+    <node id="account_logged_in">
+      <data key="d0">account_logged_in</data>
+      <data key="d1">other</data>
+      <data key="d2">Account logged-in screen&lt;SEP&gt;An event indicating account login&lt;SEP&gt;[screen_id account_logged_in] for accessibility&lt;SEP&gt;The event of logging into an account.&lt;SEP&gt;Account logged in state</data>
+      <data key="d3">doc-ce3a0782e39046b81c406c6b4e1edfff-chunk-000&lt;SEP&gt;doc-e183c3bffbabc03a75bb2382164f1a11-chunk-000&lt;SEP&gt;doc-eb4d81140e50434b97613da88c116fa7-chunk-000&lt;SEP&gt;doc-ee53c6412436092f3c03b65b2173ad54-chunk-000&lt;SEP&gt;doc-f7718246a4863503f148e838eec9d4ca-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055544</data>
+      <data key="d6" />
+    </node>
+    <node id="Edit">
+      <data key="d0">Edit</data>
+      <data key="d1">other</data>
+      <data key="d2">Link named "Edit"</data>
+      <data key="d3">doc-ce3a0782e39046b81c406c6b4e1edfff-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055150</data>
+      <data key="d6" />
+    </node>
+    <node id="Elmwood Inn Fine Teas, Orange Vanilla Caffeine-free Fruit Infusion, 16-Ounce Pouch">
+      <data key="d0">Elmwood Inn Fine Teas, Orange Vanilla Caffeine-free Fruit Infusion, 16-Ounce Pouch</data>
+      <data key="d1">other</data>
+      <data key="d2">A product name mentioned in the input text.</data>
+      <data key="d3">doc-97bbec41cf7cab256882bc136224c9af-chunk-000&lt;SEP&gt;doc-d7cba9f493b56512555fe7db9950c1e3-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055164</data>
+      <data key="d6" />
+    </node>
+    <node id="customer">
+      <data key="d0">customer</data>
+      <data key="d1">other</data>
+      <data key="d2">A customer or user of a service</data>
+      <data key="d3">doc-e183c3bffbabc03a75bb2382164f1a11-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055256</data>
+      <data key="d6" />
+    </node>
+    <node id="account">
+      <data key="d0">account</data>
+      <data key="d1">other</data>
+      <data key="d2">An account associated with a user</data>
+      <data key="d3">doc-e183c3bffbabc03a75bb2382164f1a11-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055256</data>
+      <data key="d6" />
+    </node>
+    <node id="login">
+      <data key="d0">login</data>
+      <data key="d1">other</data>
+      <data key="d2">The act of logging into an account</data>
+      <data key="d3">doc-e183c3bffbabc03a75bb2382164f1a11-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055256</data>
+      <data key="d6" />
+    </node>
+    <node id="Afghanistan">
+      <data key="d0">Afghanistan</data>
+      <data key="d1">location</data>
+      <data key="d2">Country located in Asia</data>
+      <data key="d3">doc-e39082606481d023f130b885489e3e2d-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055270</data>
+      <data key="d6" />
+    </node>
+    <node id="Albania">
+      <data key="d0">Albania</data>
+      <data key="d1">location</data>
+      <data key="d2">Country located in Europe</data>
+      <data key="d3">doc-e39082606481d023f130b885489e3e2d-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055270</data>
+      <data key="d6" />
+    </node>
+    <node id="Algeria">
+      <data key="d0">Algeria</data>
+      <data key="d1">location</data>
+      <data key="d2">Country located in North Africa</data>
+      <data key="d3">doc-e39082606481d023f130b885489e3e2d-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055270</data>
+      <data key="d6" />
+    </node>
+    <node id="American Samoa">
+      <data key="d0">American Samoa</data>
+      <data key="d1">location</data>
+      <data key="d2">Territory of the United States in the South Pacific</data>
+      <data key="d3">doc-e39082606481d023f130b885489e3e2d-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055270</data>
+      <data key="d6" />
+    </node>
+    <node id="Andorra">
+      <data key="d0">Andorra</data>
+      <data key="d1">location</data>
+      <data key="d2">Country located in the Pyrenees mountains</data>
+      <data key="d3">doc-e39082606481d023f130b885489e3e2d-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055270</data>
+      <data key="d6" />
+    </node>
+    <node id="Angola">
+      <data key="d0">Angola</data>
+      <data key="d1">location</data>
+      <data key="d2">Country located in Southern Africa</data>
+      <data key="d3">doc-e39082606481d023f130b885489e3e2d-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055270</data>
+      <data key="d6" />
+    </node>
+    <node id="Anguilla">
+      <data key="d0">Anguilla</data>
+      <data key="d1">location</data>
+      <data key="d2">Island in the Caribbean</data>
+      <data key="d3">doc-e39082606481d023f130b885489e3e2d-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055270</data>
+      <data key="d6" />
+    </node>
+    <node id="Antarctica">
+      <data key="d0">Antarctica</data>
+      <data key="d1">location</data>
+      <data key="d2">Continental landmass at the South Pole</data>
+      <data key="d3">doc-e39082606481d023f130b885489e3e2d-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055270</data>
+      <data key="d6" />
+    </node>
+    <node id="Antigua &amp; Barbuda">
+      <data key="d0">Antigua &amp; Barbuda</data>
+      <data key="d1">location</data>
+      <data key="d2">Countries in the Caribbean</data>
+      <data key="d3">doc-e39082606481d023f130b885489e3e2d-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055270</data>
+      <data key="d6" />
+    </node>
+    <node id="Argentina">
+      <data key="d0">Argentina</data>
+      <data key="d1">location</data>
+      <data key="d2">Country located in South America</data>
+      <data key="d3">doc-e39082606481d023f130b885489e3e2d-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055270</data>
+      <data key="d6" />
+    </node>
+    <node id="Armenia">
+      <data key="d0">Armenia</data>
+      <data key="d1">location</data>
+      <data key="d2">Country located in the Caucasus region</data>
+      <data key="d3">doc-e39082606481d023f130b885489e3e2d-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055270</data>
+      <data key="d6" />
+    </node>
+    <node id="Aruba">
+      <data key="d0">Aruba</data>
+      <data key="d1">location</data>
+      <data key="d2">Country in the Caribbean</data>
+      <data key="d3">doc-e39082606481d023f130b885489e3e2d-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055270</data>
+      <data key="d6" />
+    </node>
+    <node id="textbox">
+      <data key="d0">textbox</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A textbox element, a type of artifact.</data>
+      <data key="d3">doc-e89442d6a67c299758956cf8985a34cb-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055409</data>
+      <data key="d6" />
+    </node>
+    <node id="Stored Payment Methods">
+      <data key="d0">Stored Payment Methods</data>
+      <data key="d1">other</data>
+      <data key="d2">[name Stored Payment Methods] for accessibility</data>
+      <data key="d3">doc-eb4d81140e50434b97613da88c116fa7-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055419</data>
+      <data key="d6" />
+    </node>
+    <node id="490">
+      <data key="d0">490</data>
+      <data key="d1">other</data>
+      <data key="d2">[bbox_px 490] for accessibility</data>
+      <data key="d3">doc-eb4d81140e50434b97613da88c116fa7-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055419</data>
+      <data key="d6" />
+    </node>
+    <node id="272">
+      <data key="d0">272</data>
+      <data key="d1">other</data>
+      <data key="d2">[bbox_px 272] for accessibility</data>
+      <data key="d3">doc-eb4d81140e50434b97613da88c116fa7-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055419</data>
+      <data key="d6" />
+    </node>
+    <node id="520">
+      <data key="d0">520</data>
+      <data key="d1">other</data>
+      <data key="d2">[bbox_px 520] for accessibility</data>
+      <data key="d3">doc-eb4d81140e50434b97613da88c116fa7-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055419</data>
+      <data key="d6" />
+    </node>
+    <node id="My Cart 5 5 items">
+      <data key="d0">My Cart 5 5 items</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A clickable link named "My Cart 5 5 items" which represents a cart with five items.</data>
+      <data key="d3">doc-ee53c6412436092f3c03b65b2173ad54-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055435</data>
+      <data key="d6" />
+    </node>
+    <node id="6505551212">
+      <data key="d0">6505551212</data>
+      <data key="d1">other</data>
+      <data key="d2">Unique identifier</data>
+      <data key="d3">doc-f7718246a4863503f148e838eec9d4ca-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055544</data>
+      <data key="d6" />
+    </node>
+    <node id="817">
+      <data key="d0">817</data>
+      <data key="d1">other</data>
+      <data key="d2">Bounding box coordinate</data>
+      <data key="d3">doc-f7718246a4863503f148e838eec9d4ca-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055544</data>
+      <data key="d6" />
+    </node>
+    <node id="709">
+      <data key="d0">709</data>
+      <data key="d1">other</data>
+      <data key="d2">Bounding box coordinate</data>
+      <data key="d3">doc-f7718246a4863503f148e838eec9d4ca-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055544</data>
+      <data key="d6" />
+    </node>
+    <node id="897">
+      <data key="d0">897</data>
+      <data key="d1">other</data>
+      <data key="d2">Bounding box coordinate</data>
+      <data key="d3">doc-f7718246a4863503f148e838eec9d4ca-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055544</data>
+      <data key="d6" />
+    </node>
+    <node id="728">
+      <data key="d0">728</data>
+      <data key="d1">other</data>
+      <data key="d2">Bounding box coordinate</data>
+      <data key="d3">doc-f7718246a4863503f148e838eec9d4ca-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055544</data>
+      <data key="d6" />
+    </node>
+    <node id="state">
+      <data key="d0">state</data>
+      <data key="d1">organization</data>
+      <data key="d2">The entity referred to as "state" can be described as a geographical region within a country, characterized by a specific ID and various URLs associated with it. These URLs include a general URL, an electronics-specific URL, a sales order history URL, a login URL, and a contact URL. Additionally, there is a unique identifier mentioned for this state entity, which is '463507b849a4'. The state entity is consistently identified by its ID across different contexts, indicating a standardized representation within the system.&lt;SEP&gt;A state entity with the identifier '680c93c4dbc4'.</data>
+      <data key="d3">doc-0313cdbbf9e37e1899a0a0af02cdac29-chunk-000&lt;SEP&gt;doc-56ee8cfaad4c3e7787c80d633f3b9fb2-chunk-000&lt;SEP&gt;doc-1761098ff20f891ff04716299843abaf-chunk-000&lt;SEP&gt;doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000&lt;SEP&gt;doc-80ff16dfcb43a231a5b62c9f95f56be9-chunk-000&lt;SEP&gt;doc-8958b6983df1cc2819a9f3f0c180b996-chunk-000&lt;SEP&gt;doc-8d32db36985b997241737a36c8273ebf-chunk-000&lt;SEP&gt;doc-e7b4da8b6c531d24274ef4d30231b38a-chunk-000&lt;SEP&gt;doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="One Stop Market">
+      <data key="d0">One Stop Market</data>
+      <data key="d1">other</data>
+      <data key="d2">A market entity with a URL associated with it.</data>
+      <data key="d3">doc-0313cdbbf9e37e1899a0a0af02cdac29-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055556</data>
+      <data key="d6" />
+    </node>
+    <node id="product_add_to_cart">
+      <data key="d0">product_add_to_cart</data>
+      <data key="d1">task</data>
+      <data key="d2">A task with ID 'product_add_to_cart' that involves adding a product to the cart and navigating through the cart dropdown.&lt;SEP&gt;A task with the ID 'product_add_to_cart' that involves clicking 'Add to Cart' on a product page.&lt;SEP&gt;A task with ID 'product_add_to_cart' that involves clicking Add to Cart on a product page.&lt;SEP&gt;A procedure for adding a product to the cart.&lt;SEP&gt;A task with ID 'product_add_to_cart' that involves adding a product to the cart.&lt;SEP&gt;A task with the ID 'product_add_to_cart' that involves clicking Add to Cart on a product page, waiting for a spinner, opening the minicart dropdown, and navigating to the shopping cart.</data>
+      <data key="d3">doc-0b82f2664c7109af07ee7d643c47aeb3-chunk-000&lt;SEP&gt;doc-62d9053cf6071c97f1a27f1d4e29dbec-chunk-000&lt;SEP&gt;doc-a308514bccdf13f38fc2e196ba602317-chunk-000&lt;SEP&gt;doc-d73a8809013d6a5b52c991960b728802-chunk-000&lt;SEP&gt;doc-dd334441a53ee71d815874e2a4d2f7c9-chunk-000&lt;SEP&gt;doc-3f379752fbd26977545a0317836cb0a9-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056189</data>
+      <data key="d6" />
+    </node>
+    <node id="task">
+      <data key="d0">task</data>
+      <data key="d1">other</data>
+      <data key="d2">A task with ID 'search_open_first_product', which was successful, had 1 step, and its goal is to open a product detail page by clicking a product title or product link, ending with .html and not being a search results page.&lt;SEP&gt;A task with ID 'browse_category_to_subcategory', which was successful and completed in 2 steps, aiming to open the 'Electronics' category and navigate to 'Cell Phones &amp; Accessories'.&lt;SEP&gt;A task with ID 'login_to_account' that was successful, consisting of 1 step, aimed at logging in with the test customer account and opening My Account, starting from the URL 'https://reiterate-unnamable-upstroke.ngrok-free.dev/customer/account/login/'.</data>
+      <data key="d3">doc-2d0074974c4aa4f05a4fad3abaa22278-chunk-000&lt;SEP&gt;doc-6f31dbc98ece4cdaa913484ad6123833-chunk-000&lt;SEP&gt;doc-77d1ef495926eda163315691e8b4e230-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055791</data>
+      <data key="d6" />
+    </node>
+    <node id="goal">
+      <data key="d0">goal</data>
+      <data key="d3">doc-2d0074974c4aa4f05a4fad3abaa22278-chunk-000&lt;SEP&gt;doc-7fac13d51dae2e015b4db54c1583d2ab-chunk-000&lt;SEP&gt;doc-f1af23e03bc1d13b932b10e437599540-chunk-000&lt;SEP&gt;doc-14ceb1ebb14936f5b21a23a880dfeaca-chunk-000&lt;SEP&gt;doc-571153a88f91efe6a07864bf8d36319f-chunk-000&lt;SEP&gt;doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000&lt;SEP&gt;doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878-chunk-000&lt;SEP&gt;doc-189de8ba1f681a4ac020519f647f3544-chunk-000&lt;SEP&gt;doc-3df8bd91a6a3d0871e38317475d7b157-chunk-000&lt;SEP&gt;doc-5c82ff2039f325fb23b86afa8c23dcf2-chunk-000&lt;SEP&gt;doc-641918b0c83a0a355d25025600a88524-chunk-000&lt;SEP&gt;doc-a27c3607ebcd1cbf634c7919d8b8e521-chunk-000</data>
+      <data key="d2">The task's goal is to open a product detail page by clicking a product title or product link, ending with .html and not being a search results page.&lt;SEP&gt;Objective of the task.&lt;SEP&gt;The objective of a task.&lt;SEP&gt;The overall objective of a task.&lt;SEP&gt;The overall objective or purpose of the task.&lt;SEP&gt;A statement describing the overall objective of a task.</data>
+      <data key="d1">other</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056245</data>
+      <data key="d6" />
+    </node>
+    <node id="search_tea_results">
+      <data key="d0">search_tea_results</data>
+      <data key="d1">other</data>
+      <data key="d2">A task with ID 'search_tea_results' that was successful and completed in 3 steps with the goal of searching for tea and opening the search results page.</data>
+      <data key="d3">doc-3806dbc3296f90444ee353346e465466-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055571</data>
+      <data key="d6" />
+    </node>
+    <node id="state_id">
+      <data key="d0">state_id</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier for a state.</data>
+      <data key="d3">doc-56ee8cfaad4c3e7787c80d633f3b9fb2-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055577</data>
+      <data key="d6" />
+    </node>
+    <node id="key">
+      <data key="d0">key</data>
+      <data key="d1">other</data>
+      <data key="d2">A unique identifier associated with a state.</data>
+      <data key="d3">doc-56ee8cfaad4c3e7787c80d633f3b9fb2-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055577</data>
+      <data key="d6" />
+    </node>
+    <node id="https://reiterate-unnamable-upstroke.ngrok-free.dev/electronics.html">
+      <data key="d0">https://reiterate-unnamable-upstroke.ngrok-free.dev/electronics.html</data>
+      <data key="d1">other</data>
+      <data key="d2">A URL pointing to an electronics page.</data>
+      <data key="d3">doc-56ee8cfaad4c3e7787c80d633f3b9fb2-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055577</data>
+      <data key="d6" />
+    </node>
+    <node id="Electronics">
+      <data key="d0">Electronics</data>
+      <data key="d1">location</data>
+      <data key="d2">A category or topic related to electronics.&lt;SEP&gt;A category page related to electronics.</data>
+      <data key="d3">doc-56ee8cfaad4c3e7787c80d633f3b9fb2-chunk-000&lt;SEP&gt;doc-6cd7e66b357fe2de567b9f08b975f69c-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055787</data>
+      <data key="d6" />
+    </node>
+    <node id="Product">
+      <data key="d0">Product</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A specific item that can be viewed on a product detail page.&lt;SEP&gt;An item that can be purchased and sold.</data>
+      <data key="d3">doc-6cd7e66b357fe2de567b9f08b975f69c-chunk-000&lt;SEP&gt;doc-b8e7d73842fa37807be6260d5fb5f6df-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055809</data>
+      <data key="d6" />
+    </node>
+    <node id="Category">
+      <data key="d0">Category</data>
+      <data key="d1">concept</data>
+      <data key="d2">A classification or grouping of products.</data>
+      <data key="d3">doc-6cd7e66b357fe2de567b9f08b975f69c-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055787</data>
+      <data key="d6" />
+    </node>
+    <node id="Product Detail Page">
+      <data key="d0">Product Detail Page</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A webpage displaying detailed information about a product.</data>
+      <data key="d3">doc-6cd7e66b357fe2de567b9f08b975f69c-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055787</data>
+      <data key="d6" />
+    </node>
+    <node id="URL">
+      <data key="d0">URL</data>
+      <data key="d1">other</data>
+      <data key="d2">A web address that leads to a specific page or resource.&lt;SEP&gt;A unique identifier for a web page or resource.&lt;SEP&gt;Uniform Resource Locator, a web address.</data>
+      <data key="d3">doc-6cd7e66b357fe2de567b9f08b975f69c-chunk-000&lt;SEP&gt;doc-b8e7d73842fa37807be6260d5fb5f6df-chunk-000&lt;SEP&gt;doc-bcae0faaf7eee20080007478a61578ec-chunk-000&lt;SEP&gt;doc-f8d6becd2e7480088ec7248b85c0ccb8-chunk-000&lt;SEP&gt;doc-1f9f8b0a605d63d4550fc2372ecc78f3-chunk-000&lt;SEP&gt;doc-f32503d57dbcfb55e9966b8addb40d5f-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055823</data>
+      <data key="d6" />
+    </node>
+    <node id="Task">
+      <data key="d0">Task</data>
+      <data key="d1">other</data>
+      <data key="d2">A sequence of steps to achieve a specific goal.&lt;SEP&gt;A sequence of actions designed to achieve a specific goal.</data>
+      <data key="d3">doc-6cd7e66b357fe2de567b9f08b975f69c-chunk-000&lt;SEP&gt;doc-b8e7d73842fa37807be6260d5fb5f6df-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055809</data>
+      <data key="d6" />
+    </node>
+    <node id="Browse">
+      <data key="d0">Browse</data>
+      <data key="d1">method</data>
+      <data key="d2">To look through or examine a collection of items.</data>
+      <data key="d3">doc-6cd7e66b357fe2de567b9f08b975f69c-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055787</data>
+      <data key="d6" />
+    </node>
+    <node id="Navigate">
+      <data key="d0">Navigate</data>
+      <data key="d1">method</data>
+      <data key="d2">To move from one location to another within a system or interface.</data>
+      <data key="d3">doc-6cd7e66b357fe2de567b9f08b975f69c-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055787</data>
+      <data key="d6" />
+    </node>
+    <node id="Open">
+      <data key="d0">Open</data>
+      <data key="d1">method</data>
+      <data key="d2">To initiate or activate something.</data>
+      <data key="d3">doc-6cd7e66b357fe2de567b9f08b975f69c-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055787</data>
+      <data key="d6" />
+    </node>
+    <node id="Electronics.html">
+      <data key="d0">Electronics.html</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A file or webpage with the name 'Electronics.html'.</data>
+      <data key="d3">doc-6cd7e66b357fe2de567b9f08b975f69c-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055787</data>
+      <data key="d6" />
+    </node>
+    <node id="start_url">
+      <data key="d0">start_url</data>
+      <data key="d3">doc-6f31dbc98ece4cdaa913484ad6123833-chunk-000&lt;SEP&gt;doc-f1af23e03bc1d13b932b10e437599540-chunk-000</data>
+      <data key="d2">Navigates from the task to the URL 'https://reiterate-unnamable-upstroke.ngrok-free.dev/'&lt;SEP&gt;Initial URL of the task.</data>
+      <data key="d1">other</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055818</data>
+      <data key="d6" />
+    </node>
+    <node id="login_open_order_history">
+      <data key="d0">login_open_order_history</data>
+      <data key="d1">procedure</data>
+      <data key="d2">A task with ID 'login_open_order_history', which was successful and had 2 steps, aiming to log in with the test customer account and open the order history page.&lt;SEP&gt;A procedure for logging in with the test customer account and opening the order history page.</data>
+      <data key="d3">doc-7fac13d51dae2e015b4db54c1583d2ab-chunk-000&lt;SEP&gt;doc-68574eb4de0d60ebdd0baff1b2dfe727-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055961</data>
+      <data key="d6" />
+    </node>
+    <node id="Log in with the test customer account and open the order history page.">
+      <data key="d0">Log in with the test customer account and open the order history page.</data>
+      <data key="d3">doc-7fac13d51dae2e015b4db54c1583d2ab-chunk-000</data>
+      <data key="d2">The goal of the task.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055795</data>
+      <data key="d6" />
+    </node>
+    <node id="True">
+      <data key="d0">True</data>
+      <data key="d3">doc-7fac13d51dae2e015b4db54c1583d2ab-chunk-000</data>
+      <data key="d2">Indicates whether the task was successful.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055795</data>
+      <data key="d6" />
+    </node>
+    <node id="success">
+      <data key="d0">success</data>
+      <data key="d3">doc-7fac13d51dae2e015b4db54c1583d2ab-chunk-000&lt;SEP&gt;doc-f1af23e03bc1d13b932b10e437599540-chunk-000&lt;SEP&gt;doc-14ceb1ebb14936f5b21a23a880dfeaca-chunk-000&lt;SEP&gt;doc-37efc5c1445ce192ca1d962c1d8c91dc-chunk-000&lt;SEP&gt;doc-461bb085df60d40466f8b6722f80c025-chunk-000&lt;SEP&gt;doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000&lt;SEP&gt;doc-dd334441a53ee71d815874e2a4d2f7c9-chunk-000&lt;SEP&gt;doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878-chunk-000&lt;SEP&gt;doc-189de8ba1f681a4ac020519f647f3544-chunk-000&lt;SEP&gt;doc-3df8bd91a6a3d0871e38317475d7b157-chunk-000&lt;SEP&gt;doc-5c82ff2039f325fb23b86afa8c23dcf2-chunk-000&lt;SEP&gt;doc-641918b0c83a0a355d25025600a88524-chunk-000&lt;SEP&gt;doc-73c6da08c5ad531e9f5e932aac330047-chunk-000&lt;SEP&gt;doc-756d823b08bd1c3abebceb95e49c808b-chunk-000&lt;SEP&gt;doc-a27c3607ebcd1cbf634c7919d8b8e521-chunk-000</data>
+      <data key="d2">Indicates whether the task was successful.&lt;SEP&gt;Indicates whether the task was completed successfully.&lt;SEP&gt;Indicates whether an action was successful.&lt;SEP&gt;Indicates whether the action was successful.&lt;SEP&gt;Indicates whether an action was completed successfully.&lt;SEP&gt;Indicates whether a task action was successful.&lt;SEP&gt;A boolean indicating whether the action was successful.</data>
+      <data key="d1">other</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056245</data>
+      <data key="d6" />
+    </node>
+    <node id="guest_open_orders_returns">
+      <data key="d0">guest_open_orders_returns</data>
+      <data key="d1">other</data>
+      <data key="d2">A task with ID 'guest_open_orders_returns', success status True, and two steps involved. The goal is to avoid signing in or opening the 'Forgot Password' or 'My Account' sections, scroll to the homepage footer if necessary, and open the guest link 'Orders and Returns' (URL contains /sales/guest/form/). The task is considered done when the Orders and Returns page is open.&lt;SEP&gt;A task ID associated with a specific goal and state transition.</data>
+      <data key="d3">doc-a522bf455c908d9b9485769e838d61ac-chunk-000&lt;SEP&gt;doc-0ec8cadce220fc9e6e5c9c75d9e39c00-chunk-000&lt;SEP&gt;doc-e94c51eb4aa1e06e1aa1c22cf0ca27ef-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056166</data>
+      <data key="d6" />
+    </node>
+    <node id="Cart">
+      <data key="d0">Cart</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A container where products are stored before being added to the shopping cart.</data>
+      <data key="d3">doc-b8e7d73842fa37807be6260d5fb5f6df-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055809</data>
+      <data key="d6" />
+    </node>
+    <node id="Checkout">
+      <data key="d0">Checkout</data>
+      <data key="d1">location</data>
+      <data key="d2">The final stage of an online shopping process where payment details are entered and the purchase is confirmed.</data>
+      <data key="d3">doc-b8e7d73842fa37807be6260d5fb5f6df-chunk-000&lt;SEP&gt;doc-8d32db36985b997241737a36c8273ebf-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055809</data>
+      <data key="d6" />
+    </node>
+    <node id="Shipping">
+      <data key="d0">Shipping</data>
+      <data key="d1">method</data>
+      <data key="d2">The process of transporting goods from the seller to the buyer.</data>
+      <data key="d3">doc-b8e7d73842fa37807be6260d5fb5f6df-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055809</data>
+      <data key="d6" />
+    </node>
+    <node id="Task ID">
+      <data key="d0">Task ID</data>
+      <data key="d1">other</data>
+      <data key="d2">A unique identifier assigned to a task.</data>
+      <data key="d3">doc-b8e7d73842fa37807be6260d5fb5f6df-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055809</data>
+      <data key="d6" />
+    </node>
+    <node id="Start URL">
+      <data key="d0">Start URL</data>
+      <data key="d1">data</data>
+      <data key="d2">The initial URL accessed when starting a task.</data>
+      <data key="d3">doc-b8e7d73842fa37807be6260d5fb5f6df-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055809</data>
+      <data key="d6" />
+    </node>
+    <node id="Briess DME Pilsen Light">
+      <data key="d0">Briess DME Pilsen Light</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A type of malt extract used in brewing beer.</data>
+      <data key="d3">doc-b8e7d73842fa37807be6260d5fb5f6df-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055809</data>
+      <data key="d6" />
+    </node>
+    <node id="State">
+      <data key="d0">State</data>
+      <data key="d1">organization</data>
+      <data key="d2">A state entity with a specific ID and a URL associated with it.&lt;SEP&gt;A state entity with a specific ID and a key pointing to a shopping cart URL.&lt;SEP&gt;A state entity with a specific ID and a URL pointing to an electronics category page.&lt;SEP&gt;A state entity with a specific ID and login URL.&lt;SEP&gt;A state entity with a specific ID and a URL associated with cell phones and accessories.&lt;SEP&gt;A state entity with a specific ID and a customer account URL.&lt;SEP&gt;A state entity with a specific ID and URL for advanced search functionality.</data>
+      <data key="d3">doc-bcae0faaf7eee20080007478a61578ec-chunk-000&lt;SEP&gt;doc-13825eeaaccdec76d561eb444b597191-chunk-000&lt;SEP&gt;doc-13e3368b142d86372c3aba00d6728878-chunk-000&lt;SEP&gt;doc-1961f4266e6b80fa16bbc592b99de29d-chunk-000&lt;SEP&gt;doc-1f9f8b0a605d63d4550fc2372ecc78f3-chunk-000&lt;SEP&gt;doc-29bdae81bbadb36afb4c3dc18dd315cd-chunk-000&lt;SEP&gt;doc-e7f5f3b4b4a72c0b5cd97b1012424459-chunk-000&lt;SEP&gt;doc-f32503d57dbcfb55e9966b8addb40d5f-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056090</data>
+      <data key="d6" />
+    </node>
+    <node id="Contact Us">
+      <data key="d0">Contact Us</data>
+      <data key="d1">location</data>
+      <data key="d2">Page where users can reach out for assistance.</data>
+      <data key="d3">doc-998ef6f2a08b055f4cea5fd640aa78ae-chunk-000&lt;SEP&gt;doc-f1af23e03bc1d13b932b10e437599540-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055818</data>
+      <data key="d6" />
+    </node>
+    <node id="homepage">
+      <data key="d0">homepage</data>
+      <data key="d1">location</data>
+      <data key="d2">Website's main page.</data>
+      <data key="d3">doc-f1af23e03bc1d13b932b10e437599540-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055818</data>
+      <data key="d6" />
+    </node>
+    <node id="footer">
+      <data key="d0">footer</data>
+      <data key="d1">location</data>
+      <data key="d2">Part of a webpage typically located at the bottom.</data>
+      <data key="d3">doc-f1af23e03bc1d13b932b10e437599540-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055818</data>
+      <data key="d6" />
+    </node>
+    <node id="Contact Us page">
+      <data key="d0">Contact Us page</data>
+      <data key="d1">location</data>
+      <data key="d2">Page where users can reach out for assistance.</data>
+      <data key="d3">doc-f1af23e03bc1d13b932b10e437599540-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055818</data>
+      <data key="d6" />
+    </node>
+    <node id="task_id">
+      <data key="d0">task_id</data>
+      <data key="d1">other</data>
+      <data key="d2">Unique identifier for the task.&lt;SEP&gt;A unique identifier for a specific task.&lt;SEP&gt;A unique identifier assigned to a specific task or operation.</data>
+      <data key="d3">doc-f1af23e03bc1d13b932b10e437599540-chunk-000&lt;SEP&gt;doc-0a5a63da749cbe21d94544063fcc3616-chunk-000&lt;SEP&gt;doc-14ceb1ebb14936f5b21a23a880dfeaca-chunk-000&lt;SEP&gt;doc-205a5a11681072ca96979525b7f4165a-chunk-000&lt;SEP&gt;doc-276e6d53f0d22ac09f287851edb96d6b-chunk-000&lt;SEP&gt;doc-2f4357db0dd8e3e999a02a5c40eb44d2-chunk-000&lt;SEP&gt;doc-37efc5c1445ce192ca1d962c1d8c91dc-chunk-000&lt;SEP&gt;doc-461bb085df60d40466f8b6722f80c025-chunk-000&lt;SEP&gt;doc-47265c7e27a116d73c5b5ed905faac86-chunk-000&lt;SEP&gt;doc-571153a88f91efe6a07864bf8d36319f-chunk-000&lt;SEP&gt;doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000&lt;SEP&gt;doc-81aef62da40007eeef6972fe0d5bbc51-chunk-000&lt;SEP&gt;doc-8e6ff17117641e752946e746c149b42a-chunk-000&lt;SEP&gt;doc-eeac6f0a03c2882eb67dee79cd4cc10d-chunk-000&lt;SEP&gt;doc-ef078f1ad1741283015f4345f16bd22f-chunk-000&lt;SEP&gt;doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878-chunk-000&lt;SEP&gt;doc-0ec8cadce220fc9e6e5c9c75d9e39c00-chunk-000&lt;SEP&gt;doc-189de8ba1f681a4ac020519f647f3544-chunk-000&lt;SEP&gt;doc-3df8bd91a6a3d0871e38317475d7b157-chunk-000&lt;SEP&gt;doc-5714c7d2723b44ac5dbeaa297bd0f167-chunk-000&lt;SEP&gt;doc-5c82ff2039f325fb23b86afa8c23dcf2-chunk-000&lt;SEP&gt;doc-641918b0c83a0a355d25025600a88524-chunk-000&lt;SEP&gt;doc-66a866c224a96cd5e27ad6e0cf6f4e39-chunk-000&lt;SEP&gt;doc-73c6da08c5ad531e9f5e932aac330047-chunk-000&lt;SEP&gt;doc-756d823b08bd1c3abebceb95e49c808b-chunk-000&lt;SEP&gt;doc-8f0dc07c5368056f56e87326952d0f18-chunk-000&lt;SEP&gt;doc-a27c3607ebcd1cbf634c7919d8b8e521-chunk-000&lt;SEP&gt;doc-e94c51eb4aa1e06e1aa1c22cf0ca27ef-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056251</data>
+      <data key="d6" />
+    </node>
+    <node id="guest_open_contact_form">
+      <data key="d0">guest_open_contact_form</data>
+      <data key="d1">other</data>
+      <data key="d2">Name of the task.</data>
+      <data key="d3">doc-f1af23e03bc1d13b932b10e437599540-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055818</data>
+      <data key="d6" />
+    </node>
+    <node id="n_steps">
+      <data key="d0">n_steps</data>
+      <data key="d1">other</data>
+      <data key="d2">Number of steps taken to complete the task.</data>
+      <data key="d3">doc-f1af23e03bc1d13b932b10e437599540-chunk-000&lt;SEP&gt;doc-8e6ff17117641e752946e746c149b42a-chunk-000&lt;SEP&gt;doc-c6b4daaebb9f4245ddfba6b7d2ef75cc-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055818</data>
+      <data key="d6" />
+    </node>
+    <node id="https://reiterate-unnamable-upstroke.ngrok-free.dev/">
+      <data key="d0">https://reiterate-unnamable-upstroke.ngrok-free.dev/</data>
+      <data key="d1">other</data>
+      <data key="d2">URL of the task.</data>
+      <data key="d3">doc-f1af23e03bc1d13b932b10e437599540-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055818</data>
+      <data key="d6" />
+    </node>
+    <node id="Advanced Search">
+      <data key="d0">Advanced Search</data>
+      <data key="d1">content</data>
+      <data key="d2">A search feature designed for advanced queries.&lt;SEP&gt;A search feature on a webpage</data>
+      <data key="d3">doc-1b170fd51d9decb5d06c4423362c7e10-chunk-000&lt;SEP&gt;doc-ab0e24a021db35a260177d5f65789313-chunk-000&lt;SEP&gt;doc-f8d6becd2e7480088ec7248b85c0ccb8-chunk-000&lt;SEP&gt;doc-c6b4daaebb9f4245ddfba6b7d2ef75cc-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056066</data>
+      <data key="d6" />
+    </node>
+    <node id="Homepage">
+      <data key="d0">Homepage</data>
+      <data key="d1">location</data>
+      <data key="d2">The main landing page of a website.&lt;SEP&gt;The main page of a website</data>
+      <data key="d3">doc-f8d6becd2e7480088ec7248b85c0ccb8-chunk-000&lt;SEP&gt;doc-c6b4daaebb9f4245ddfba6b7d2ef75cc-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056066</data>
+      <data key="d6" />
+    </node>
+    <node id="Header">
+      <data key="d0">Header</data>
+      <data key="d1">location</data>
+      <data key="d2">The top part of a webpage containing navigation links.&lt;SEP&gt;The top part of a webpage where navigation links are located</data>
+      <data key="d3">doc-f8d6becd2e7480088ec7248b85c0ccb8-chunk-000&lt;SEP&gt;doc-c6b4daaebb9f4245ddfba6b7d2ef75cc-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056066</data>
+      <data key="d6" />
+    </node>
+    <node id="ShoppingCart">
+      <data key="d0">ShoppingCart</data>
+      <data key="d3">doc-13825eeaaccdec76d561eb444b597191-chunk-000</data>
+      <data key="d2">A state is associated with a shopping cart through a URL.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055833</data>
+      <data key="d6" />
+    </node>
+    <node id="from_state">
+      <data key="d0">from_state</data>
+      <data key="d1">other</data>
+      <data key="d2">The initial state of a process or workflow.&lt;SEP&gt;The initial state of the task.&lt;SEP&gt;The initial state or condition of a system or process.&lt;SEP&gt;The initial state or condition of the task.&lt;SEP&gt;The initial state or condition before an action is performed.&lt;SEP&gt;The initial state or condition of a process or system.</data>
+      <data key="d3">doc-14ceb1ebb14936f5b21a23a880dfeaca-chunk-000&lt;SEP&gt;doc-37efc5c1445ce192ca1d962c1d8c91dc-chunk-000&lt;SEP&gt;doc-461bb085df60d40466f8b6722f80c025-chunk-000&lt;SEP&gt;doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000&lt;SEP&gt;doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878-chunk-000&lt;SEP&gt;doc-189de8ba1f681a4ac020519f647f3544-chunk-000&lt;SEP&gt;doc-3df8bd91a6a3d0871e38317475d7b157-chunk-000&lt;SEP&gt;doc-5c82ff2039f325fb23b86afa8c23dcf2-chunk-000&lt;SEP&gt;doc-641918b0c83a0a355d25025600a88524-chunk-000&lt;SEP&gt;doc-756d823b08bd1c3abebceb95e49c808b-chunk-000&lt;SEP&gt;doc-a27c3607ebcd1cbf634c7919d8b8e521-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056245</data>
+      <data key="d6" />
+    </node>
+    <node id="to_state">
+      <data key="d0">to_state</data>
+      <data key="d1">other</data>
+      <data key="d2">The final state of a process or workflow.&lt;SEP&gt;The final state of the task.&lt;SEP&gt;The final state or condition of a system or process.&lt;SEP&gt;The final state or condition of the task.&lt;SEP&gt;The final state or condition after an action is performed.&lt;SEP&gt;The final state or condition of a process or system.</data>
+      <data key="d3">doc-14ceb1ebb14936f5b21a23a880dfeaca-chunk-000&lt;SEP&gt;doc-37efc5c1445ce192ca1d962c1d8c91dc-chunk-000&lt;SEP&gt;doc-461bb085df60d40466f8b6722f80c025-chunk-000&lt;SEP&gt;doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000&lt;SEP&gt;doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878-chunk-000&lt;SEP&gt;doc-189de8ba1f681a4ac020519f647f3544-chunk-000&lt;SEP&gt;doc-3df8bd91a6a3d0871e38317475d7b157-chunk-000&lt;SEP&gt;doc-5c82ff2039f325fb23b86afa8c23dcf2-chunk-000&lt;SEP&gt;doc-641918b0c83a0a355d25025600a88524-chunk-000&lt;SEP&gt;doc-756d823b08bd1c3abebceb95e49c808b-chunk-000&lt;SEP&gt;doc-a27c3607ebcd1cbf634c7919d8b8e521-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056245</data>
+      <data key="d6" />
+    </node>
+    <node id="target_mark_id">
+      <data key="d0">target_mark_id</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier for a target mark.&lt;SEP&gt;An identifier for the target mark clicked.&lt;SEP&gt;An identifier associated with a target mark.&lt;SEP&gt;A unique identifier for a target mark.&lt;SEP&gt;An identifier for a specific target element.&lt;SEP&gt;A unique identifier for a target element or mark.&lt;SEP&gt;A unique identifier for a specific target mark.</data>
+      <data key="d3">doc-14ceb1ebb14936f5b21a23a880dfeaca-chunk-000&lt;SEP&gt;doc-37efc5c1445ce192ca1d962c1d8c91dc-chunk-000&lt;SEP&gt;doc-571153a88f91efe6a07864bf8d36319f-chunk-000&lt;SEP&gt;doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000&lt;SEP&gt;doc-eeac6f0a03c2882eb67dee79cd4cc10d-chunk-000&lt;SEP&gt;doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878-chunk-000&lt;SEP&gt;doc-189de8ba1f681a4ac020519f647f3544-chunk-000&lt;SEP&gt;doc-3df8bd91a6a3d0871e38317475d7b157-chunk-000&lt;SEP&gt;doc-5c82ff2039f325fb23b86afa8c23dcf2-chunk-000&lt;SEP&gt;doc-641918b0c83a0a355d25025600a88524-chunk-000&lt;SEP&gt;doc-756d823b08bd1c3abebceb95e49c808b-chunk-000&lt;SEP&gt;doc-a27c3607ebcd1cbf634c7919d8b8e521-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056245</data>
+      <data key="d6" />
+    </node>
+    <node id="title_after">
+      <data key="d0">title_after</data>
+      <data key="d1">other</data>
+      <data key="d2">The title_after refers to the title of a resource or page following the completion of an action. This term can be applied to various contexts, such as the title of a resource after an action has been taken, the title of a page after a task action has been completed, or the title of a page after an action has been performed. It consistently denotes the updated title of a page or resource that has been accessed after an action has been executed.&lt;SEP&gt;The title of the page after the action.&lt;SEP&gt;The title after the action was completed.&lt;SEP&gt;The title of the page after an action is completed.</data>
+      <data key="d3">doc-14ceb1ebb14936f5b21a23a880dfeaca-chunk-000&lt;SEP&gt;doc-37efc5c1445ce192ca1d962c1d8c91dc-chunk-000&lt;SEP&gt;doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000&lt;SEP&gt;doc-dd334441a53ee71d815874e2a4d2f7c9-chunk-000&lt;SEP&gt;doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878-chunk-000&lt;SEP&gt;doc-189de8ba1f681a4ac020519f647f3544-chunk-000&lt;SEP&gt;doc-3df8bd91a6a3d0871e38317475d7b157-chunk-000&lt;SEP&gt;doc-5c82ff2039f325fb23b86afa8c23dcf2-chunk-000&lt;SEP&gt;doc-641918b0c83a0a355d25025600a88524-chunk-000&lt;SEP&gt;doc-73c6da08c5ad531e9f5e932aac330047-chunk-000&lt;SEP&gt;doc-756d823b08bd1c3abebceb95e49c808b-chunk-000&lt;SEP&gt;doc-a27c3607ebcd1cbf634c7919d8b8e521-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056245</data>
+      <data key="d6" />
+    </node>
+    <node id="My Orders">
+      <data key="d0">My Orders</data>
+      <data key="d1">other</data>
+      <data key="d2">A reference to a specific set of orders.</data>
+      <data key="d3">doc-1761098ff20f891ff04716299843abaf-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055847</data>
+      <data key="d6" />
+    </node>
+    <node id="procedure">
+      <data key="d0">procedure</data>
+      <data key="d3">doc-276e6d53f0d22ac09f287851edb96d6b-chunk-000&lt;SEP&gt;doc-571153a88f91efe6a07864bf8d36319f-chunk-000&lt;SEP&gt;doc-8e6ff17117641e752946e746c149b42a-chunk-000&lt;SEP&gt;doc-eeac6f0a03c2882eb67dee79cd4cc10d-chunk-000&lt;SEP&gt;doc-ef078f1ad1741283015f4345f16bd22f-chunk-000</data>
+      <data key="d2">The task_id is associated with the click procedure.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055862</data>
+      <data key="d6" />
+    </node>
+    <node id="tea">
+      <data key="d0">tea</data>
+      <data key="d1">content</data>
+      <data key="d2">A beverage made from dried leaves of the Camellia sinensis plant, typically consumed hot.&lt;SEP&gt;A general term for a beverage made from tea leaves.</data>
+      <data key="d3">doc-461bb085df60d40466f8b6722f80c025-chunk-000&lt;SEP&gt;doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="tea_bags">
+      <data key="d0">tea_bags</data>
+      <data key="d1">other</data>
+      <data key="d2">A package containing individual servings of tea leaves or flavored tea mixtures.</data>
+      <data key="d3">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055926</data>
+      <data key="d6" />
+    </node>
+    <node id="black_tea">
+      <data key="d0">black_tea</data>
+      <data key="d1">other</data>
+      <data key="d2">A type of tea made from fully oxidized tea leaves.</data>
+      <data key="d3">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055926</data>
+      <data key="d6" />
+    </node>
+    <node id="oolong_tea">
+      <data key="d0">oolong_tea</data>
+      <data key="d1">other</data>
+      <data key="d2">A semi-fermented tea that is partially oxidized, resulting in a unique flavor profile.</data>
+      <data key="d3">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055926</data>
+      <data key="d6" />
+    </node>
+    <node id="Taiwan">
+      <data key="d0">Taiwan</data>
+      <data key="d1">location</data>
+      <data key="d2">A island located off the southeast coast of China, known for its tea production.&lt;SEP&gt;A country where the tea originates.</data>
+      <data key="d3">doc-461bb085df60d40466f8b6722f80c025-chunk-000&lt;SEP&gt;doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="Chinese">
+      <data key="d0">Chinese</data>
+      <data key="d1">location</data>
+      <data key="d2">Refers to the culture, language, and people associated with China.&lt;SEP&gt;A country where the tea originates.</data>
+      <data key="d3">doc-461bb085df60d40466f8b6722f80c025-chunk-000&lt;SEP&gt;doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="tea_search_results">
+      <data key="d0">tea_search_results</data>
+      <data key="d1">other</data>
+      <data key="d2">The results of a search query related to tea products.</data>
+      <data key="d3">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055926</data>
+      <data key="d6" />
+    </node>
+    <node id="product_title">
+      <data key="d0">product_title</data>
+      <data key="d1">other</data>
+      <data key="d2">The title or name of a product displayed on a webpage.</data>
+      <data key="d3">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055926</data>
+      <data key="d6" />
+    </node>
+    <node id="product_link">
+      <data key="d0">product_link</data>
+      <data key="d1">other</data>
+      <data key="d2">A hyperlink pointing to a product detail page.</data>
+      <data key="d3">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055926</data>
+      <data key="d6" />
+    </node>
+    <node id="url">
+      <data key="d0">url</data>
+      <data key="d1">other</data>
+      <data key="d2">A web address that uniquely identifies a resource on the internet.</data>
+      <data key="d3">doc-3881dc8d47b3676c7ac00352787e5b11-chunk-000&lt;SEP&gt;doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055926</data>
+      <data key="d6" />
+    </node>
+    <node id="page_title">
+      <data key="d0">page_title</data>
+      <data key="d1">other</data>
+      <data key="d2">The title of a webpage.</data>
+      <data key="d3">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055926</data>
+      <data key="d6" />
+    </node>
+    <node id="ding_ji">
+      <data key="d0">ding_ji</data>
+      <data key="d1">other</data>
+      <data key="d2">A brand or company name associated with tea products.</data>
+      <data key="d3">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055926</data>
+      <data key="d6" />
+    </node>
+    <node id="Loose_leaf_tea">
+      <data key="d0">Loose_leaf_tea</data>
+      <data key="d1">other</data>
+      <data key="d2">A type of tea that is sold in loose form rather than in bags.</data>
+      <data key="d3">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055926</data>
+      <data key="d6" />
+    </node>
+    <node id="high_mountain_tea">
+      <data key="d0">high_mountain_tea</data>
+      <data key="d1">other</data>
+      <data key="d2">A type of tea grown at high altitudes, often prized for its unique flavor.</data>
+      <data key="d3">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055926</data>
+      <data key="d6" />
+    </node>
+    <node id="Tea_bags">
+      <data key="d0">Tea_bags</data>
+      <data key="d1">other</data>
+      <data key="d2">A package containing individual servings of tea leaves or flavored tea mixtures.</data>
+      <data key="d3">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055926</data>
+      <data key="d6" />
+    </node>
+    <node id="4_packs">
+      <data key="d0">4_packs</data>
+      <data key="d1">other</data>
+      <data key="d2">A quantity of four units.</data>
+      <data key="d3">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055926</data>
+      <data key="d6" />
+    </node>
+    <node id="wait">
+      <data key="d0">wait</data>
+      <data key="d3">doc-47265c7e27a116d73c5b5ed905faac86-chunk-000&lt;SEP&gt;doc-d73a8809013d6a5b52c991960b728802-chunk-000&lt;SEP&gt;doc-dd334441a53ee71d815874e2a4d2f7c9-chunk-000&lt;SEP&gt;doc-73c6da08c5ad531e9f5e932aac330047-chunk-000</data>
+      <data key="d2">The action of waiting for a certain condition to be met.&lt;SEP&gt;An action performed during the transition task.</data>
+      <data key="d1">other</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056221</data>
+      <data key="d6" />
+    </node>
+    <node id="My Cart">
+      <data key="d0">My Cart</data>
+      <data key="d3">doc-62d9053cf6071c97f1a27f1d4e29dbec-chunk-000</data>
+      <data key="d2">Clicking 'My Cart' once to open the minicart dropdown.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055942</data>
+      <data key="d6" />
+    </node>
+    <node id="View and Edit Cart">
+      <data key="d0">View and Edit Cart</data>
+      <data key="d3">doc-62d9053cf6071c97f1a27f1d4e29dbec-chunk-000</data>
+      <data key="d2">Clicking the 'View and Edit Cart' mark in the minicart dropdown.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055942</data>
+      <data key="d6" />
+    </node>
+    <node id="/checkout/">
+      <data key="d0">/checkout/</data>
+      <data key="d3">doc-62d9053cf6071c97f1a27f1d4e29dbec-chunk-000</data>
+      <data key="d2">Not keeping toggling 'My Cart'.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055942</data>
+      <data key="d6" />
+    </node>
+    <node id="/checkout/cart/">
+      <data key="d0">/checkout/cart/</data>
+      <data key="d3">doc-62d9053cf6071c97f1a27f1d4e29dbec-chunk-000</data>
+      <data key="d2">Done when the URL contains '/checkout/cart/' and the title contains 'Shopping Cart'.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055942</data>
+      <data key="d6" />
+    </node>
+    <node id="value">
+      <data key="d0">value</data>
+      <data key="d1">other</data>
+      <data key="d2">The input value provided for a task action.</data>
+      <data key="d3">doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000&lt;SEP&gt;doc-dd334441a53ee71d815874e2a4d2f7c9-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787055954</data>
+      <data key="d6" />
+    </node>
+    <node id="crypto_vr_150">
+      <data key="d0">crypto_vr_150</data>
+      <data key="d1">other</data>
+      <data key="d2">A virtual reality headset model named Crypto VR 150.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="navitech">
+      <data key="d0">navitech</data>
+      <data key="d1">organization</data>
+      <data key="d2">A brand or company associated with the product Navitech Black Hard Carry Bag/Case/Cover with Shoulder Strap.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="vr">
+      <data key="d0">vr</data>
+      <data key="d1">other</data>
+      <data key="d2">Abbreviation for Virtual Reality.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="virtual_reality">
+      <data key="d0">virtual_reality</data>
+      <data key="d1">other</data>
+      <data key="d2">A technology or concept related to VR.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="3d">
+      <data key="d0">3d</data>
+      <data key="d1">other</data>
+      <data key="d2">Abbreviation for Three-dimensional.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="glasses">
+      <data key="d0">glasses</data>
+      <data key="d1">other</data>
+      <data key="d2">A type of eyewear.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="headsets">
+      <data key="d0">headsets</data>
+      <data key="d1">other</data>
+      <data key="d2">A type of electronic device worn on the head.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="shoulder_strap">
+      <data key="d0">shoulder_strap</data>
+      <data key="d1">other</data>
+      <data key="d2">A type of accessory for carrying bags.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="black">
+      <data key="d0">black</data>
+      <data key="d1">data</data>
+      <data key="d2">A color descriptor.&lt;SEP&gt;An adjective describing the tea.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000&lt;SEP&gt;doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="hard">
+      <data key="d0">hard</data>
+      <data key="d1">other</data>
+      <data key="d2">A descriptor indicating durability.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="carry">
+      <data key="d0">carry</data>
+      <data key="d1">other</data>
+      <data key="d2">A verb describing the purpose of the bag.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="case">
+      <data key="d0">case</data>
+      <data key="d1">other</data>
+      <data key="d2">A protective covering for an item.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="cover">
+      <data key="d0">cover</data>
+      <data key="d1">other</data>
+      <data key="d2">A protective covering for an item.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="with">
+      <data key="d0">with</data>
+      <data key="d1">other</data>
+      <data key="d2">A preposition indicating association.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="compatible">
+      <data key="d0">compatible</data>
+      <data key="d1">other</data>
+      <data key="d2">A descriptor indicating suitability.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="the">
+      <data key="d0">the</data>
+      <data key="d1">other</data>
+      <data key="d2">A demonstrative adjective.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="crypto">
+      <data key="d0">crypto</data>
+      <data key="d1">other</data>
+      <data key="d2">A descriptor indicating the brand or product line.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="virtual">
+      <data key="d0">virtual</data>
+      <data key="d1">other</data>
+      <data key="d2">A descriptor indicating the technology.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="reiterate">
+      <data key="d0">reiterate</data>
+      <data key="d1">other</data>
+      <data key="d2">A verb indicating repetition or emphasis.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="unnamable">
+      <data key="d0">unnamable</data>
+      <data key="d1">other</data>
+      <data key="d2">A descriptor indicating the inability to name something.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="upstroke">
+      <data key="d0">upstroke</data>
+      <data key="d1">other</data>
+      <data key="d2">A descriptor indicating a specific design feature.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="ngrok">
+      <data key="d0">ngrok</data>
+      <data key="d1">organization</data>
+      <data key="d2">A company providing a service for testing web applications.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="free">
+      <data key="d0">free</data>
+      <data key="d1">other</data>
+      <data key="d2">A descriptor indicating availability without cost.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="dev">
+      <data key="d0">dev</data>
+      <data key="d1">other</data>
+      <data key="d2">A descriptor indicating development or a domain extension.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="bag">
+      <data key="d0">bag</data>
+      <data key="d1">other</data>
+      <data key="d2">A type of container.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="shoulder">
+      <data key="d0">shoulder</data>
+      <data key="d1">other</data>
+      <data key="d2">A type of accessory for carrying bags.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="strap">
+      <data key="d0">strap</data>
+      <data key="d1">other</data>
+      <data key="d2">A type of accessory for carrying bags.</data>
+      <data key="d3">doc-7aca32fb89c5bf0ba28f8edd9e43b4e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056041</data>
+      <data key="d6" />
+    </node>
+    <node id="cua">
+      <data key="d0">cua</data>
+      <data key="d1">other</data>
+      <data key="d2">A unique identifier for a state.</data>
+      <data key="d3">doc-8958b6983df1cc2819a9f3f0c180b996-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056049</data>
+      <data key="d6" />
+    </node>
+    <node id="Orders and Returns">
+      <data key="d0">Orders and Returns</data>
+      <data key="d1">other</data>
+      <data key="d2">A section of a sales form related to customer orders and returns.</data>
+      <data key="d3">doc-8958b6983df1cc2819a9f3f0c180b996-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056049</data>
+      <data key="d6" />
+    </node>
+    <node id="Procedure">
+      <data key="d0">Procedure</data>
+      <data key="d1">method</data>
+      <data key="d2">A step-by-step guide for performing a task</data>
+      <data key="d3">doc-c6b4daaebb9f4245ddfba6b7d2ef75cc-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056066</data>
+      <data key="d6" />
+    </node>
+    <node id="Click">
+      <data key="d0">Click</data>
+      <data key="d1">method</data>
+      <data key="d2">An action performed by a user to select an element on a webpage</data>
+      <data key="d3">doc-c6b4daaebb9f4245ddfba6b7d2ef75cc-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056066</data>
+      <data key="d6" />
+    </node>
+    <node id="Target">
+      <data key="d0">Target</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A specific element on a webpage that can be interacted with</data>
+      <data key="d3">doc-c6b4daaebb9f4245ddfba6b7d2ef75cc-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056066</data>
+      <data key="d6" />
+    </node>
+    <node id="Mark">
+      <data key="d0">Mark</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A label or identifier for a specific element on a webpage</data>
+      <data key="d3">doc-c6b4daaebb9f4245ddfba6b7d2ef75cc-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056066</data>
+      <data key="d6" />
+    </node>
+    <node id="ID">
+      <data key="d0">ID</data>
+      <data key="d1">data</data>
+      <data key="d2">A unique identifier for a specific element on a webpage</data>
+      <data key="d3">doc-c6b4daaebb9f4245ddfba6b7d2ef75cc-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056066</data>
+      <data key="d6" />
+    </node>
+    <node id="cf8b5e2010bd">
+      <data key="d0">cf8b5e2010bd</data>
+      <data key="d3">doc-dd334441a53ee71d815874e2a4d2f7c9-chunk-000&lt;SEP&gt;doc-fb382c7de6a95390185a15864f664c30-chunk-000&lt;SEP&gt;doc-73c6da08c5ad531e9f5e932aac330047-chunk-000</data>
+      <data key="d2">The task starts from state 'cf8b5e2010bd'.&lt;SEP&gt;The task ends in state 'cf8b5e2010bd'.&lt;SEP&gt;A unique identifier for a state.&lt;SEP&gt;A state identifier associated with the transition task.</data>
+      <data key="d1">other</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056221</data>
+      <data key="d6" />
+    </node>
+    <node id="https://reiterate-unnamable-upstroke.ngrok-free.dev">
+      <data key="d0">https://reiterate-unnamable-upstroke.ngrok-free.dev</data>
+      <data key="d1">location</data>
+      <data key="d2">A URL pointing to a web page.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="ding-ji-loose-leaf-tea-black-tea">
+      <data key="d0">ding-ji-loose-leaf-tea-black-tea</data>
+      <data key="d1">content</data>
+      <data key="d2">A product name for a type of tea.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="organic-oolong-tea">
+      <data key="d0">organic-oolong-tea</data>
+      <data key="d1">content</data>
+      <data key="d2">A product name for a type of tea.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="100-natural-high-mountain-tea-from-taiwan">
+      <data key="d0">100-natural-high-mountain-tea-from-taiwan</data>
+      <data key="d1">content</data>
+      <data key="d2">A product description indicating the origin and characteristics of the tea.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="tea-bags">
+      <data key="d0">tea-bags</data>
+      <data key="d1">content</data>
+      <data key="d2">A product name for a type of tea packaging.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="chinese-teabags">
+      <data key="d0">chinese-teabags</data>
+      <data key="d1">content</data>
+      <data key="d2">A product name for a type of tea packaging.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="oolong-teabags">
+      <data key="d0">oolong-teabags</data>
+      <data key="d1">content</data>
+      <data key="d2">A product name for a type of tea packaging.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="4-packs">
+      <data key="d0">4-packs</data>
+      <data key="d1">content</data>
+      <data key="d2">A product description indicating the quantity of the tea bags.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="【鼎季DING JI】">
+      <data key="d0">【鼎季DING JI】</data>
+      <data key="d1">organization</data>
+      <data key="d2">A brand name for a tea product.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="Loose Leaf Tea">
+      <data key="d0">Loose Leaf Tea</data>
+      <data key="d1">content</data>
+      <data key="d2">A product name for a type of tea.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="Black tea">
+      <data key="d0">Black tea</data>
+      <data key="d1">content</data>
+      <data key="d2">A product name for a type of tea.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="Organic Oolong Tea">
+      <data key="d0">Organic Oolong Tea</data>
+      <data key="d1">content</data>
+      <data key="d2">A product name for a type of tea.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="Tea Bags">
+      <data key="d0">Tea Bags</data>
+      <data key="d1">content</data>
+      <data key="d2">A product name for a type of tea packaging.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="Natural High Mountain Tea">
+      <data key="d0">Natural High Mountain Tea</data>
+      <data key="d1">content</data>
+      <data key="d2">A product description indicating the origin and characteristics of the tea.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="Tea">
+      <data key="d0">Tea</data>
+      <data key="d1">content</data>
+      <data key="d2">A general term for a beverage made from tea leaves.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="Teabags">
+      <data key="d0">Teabags</data>
+      <data key="d1">content</data>
+      <data key="d2">A product name for a type of tea packaging.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="Oolong Teabags">
+      <data key="d0">Oolong Teabags</data>
+      <data key="d1">content</data>
+      <data key="d2">A product name for a type of tea packaging.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="packs">
+      <data key="d0">packs</data>
+      <data key="d1">data</data>
+      <data key="d2">A unit of measurement for the quantity of the tea bags.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="from">
+      <data key="d0">from</data>
+      <data key="d1">other</data>
+      <data key="d2">A preposition indicating origin.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="high">
+      <data key="d0">high</data>
+      <data key="d1">data</data>
+      <data key="d2">An adjective describing the tea.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="mountain">
+      <data key="d0">mountain</data>
+      <data key="d1">data</data>
+      <data key="d2">An adjective describing the tea.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="organic">
+      <data key="d0">organic</data>
+      <data key="d1">data</data>
+      <data key="d2">An adjective describing the tea.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="oolong">
+      <data key="d0">oolong</data>
+      <data key="d1">data</data>
+      <data key="d2">An adjective describing the tea.</data>
+      <data key="d3">doc-f7e2f7ace4b7e7623955ea0f39973b12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056144</data>
+      <data key="d6" />
+    </node>
+    <node id="https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html">
+      <data key="d0">https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html</data>
+      <data key="d1">other</data>
+      <data key="d2">A URL pointing to a product page.</data>
+      <data key="d3">doc-fb382c7de6a95390185a15864f664c30-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056150</data>
+      <data key="d6" />
+    </node>
+    <node id="Briess DME - Pilsen Light">
+      <data key="d0">Briess DME - Pilsen Light</data>
+      <data key="d1">other</data>
+      <data key="d2">A product name.</data>
+      <data key="d3">doc-fb382c7de6a95390185a15864f664c30-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056150</data>
+      <data key="d6" />
+    </node>
+    <node id="Pilsen Light">
+      <data key="d0">Pilsen Light</data>
+      <data key="d1">other</data>
+      <data key="d2">A product name.</data>
+      <data key="d3">doc-7ff218daa648cf801a7184502db5ca24-chunk-000&lt;SEP&gt;doc-fb382c7de6a95390185a15864f664c30-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056150</data>
+      <data key="d6" />
+    </node>
+    <node id="1 lb Bag">
+      <data key="d0">1 lb Bag</data>
+      <data key="d1">other</data>
+      <data key="d2">A product size.</data>
+      <data key="d3">doc-7ff218daa648cf801a7184502db5ca24-chunk-000&lt;SEP&gt;doc-fb382c7de6a95390185a15864f664c30-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056150</data>
+      <data key="d6" />
+    </node>
+    <node id="cart_to_checkout_shipping">
+      <data key="d0">cart_to_checkout_shipping</data>
+      <data key="d1">other</data>
+      <data key="d2">A transition task with the ID 'cart_to_checkout_shipping' aimed at adding a product to the cart and proceeding to the checkout shipping step.</data>
+      <data key="d3">doc-73c6da08c5ad531e9f5e932aac330047-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056221</data>
+      <data key="d6" />
+    </node>
+    <node id="90d110975ccc">
+      <data key="d0">90d110975ccc</data>
+      <data key="d3">doc-e94c51eb4aa1e06e1aa1c22cf0ca27ef-chunk-000</data>
+      <data key="d2">The initial state of the task.&lt;SEP&gt;The final state of the task.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787056253</data>
+      <data key="d6" />
+    </node>
+    <edge source="a11y" target="transition">
+      <data key="d7">1.0</data>
+      <data key="d8">A11Y is a type of transition</data>
+      <data key="d9">type</data>
+      <data key="d10">doc-c03a55d3ed535c691cb634704db74a30-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787054856</data>
+      <data key="d13" />
+    </edge>
+    <edge source="a11y" target="click">
+      <data key="d7">53.0</data>
+      <data key="d8">The action of clicking the textbox, which is associated with accessibility metadata.&lt;SEP&gt;The action of clicking is performed on the organization 'a11y'.</data>
+      <data key="d9">Action,Organization</data>
+      <data key="d10">doc-e89442d6a67c299758956cf8985a34cb-chunk-000&lt;SEP&gt;doc-ee53c6412436092f3c03b65b2173ad54-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055438</data>
+      <data key="d13" />
+    </edge>
+    <edge source="element" target="click">
+      <data key="d7">1.0</data>
+      <data key="d8">The action of clicking is performed on the artifact 'element'.</data>
+      <data key="d9">Artifact</data>
+      <data key="d10">doc-ee53c6412436092f3c03b65b2173ad54-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055438</data>
+      <data key="d13" />
+    </edge>
+    <edge source="checkout" target="screen_id">
+      <data key="d7">1.0</data>
+      <data key="d8">Checkout screen contains button</data>
+      <data key="d9">contains</data>
+      <data key="d10">doc-b29ad775cde5b9e8e27a6d6eafeda4a8-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787054797</data>
+      <data key="d13" />
+    </edge>
+    <edge source="button" target="instruction">
+      <data key="d7">1.0</data>
+      <data key="d8">To perform the action of clicking</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-c02f14b1e32cdfab5456f0d0d6deb773-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787054846</data>
+      <data key="d13" />
+    </edge>
+    <edge source="button" target="Proceed to Checkout">
+      <data key="d7">1.0</data>
+      <data key="d8">The button displays the label "Proceed to Checkout"</data>
+      <data key="d9">label</data>
+      <data key="d10">doc-c02f14b1e32cdfab5456f0d0d6deb773-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787054846</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Tooltip" target="name">
+      <data key="d7">1.0</data>
+      <data key="d8">Button named Tooltip</data>
+      <data key="d9">button</data>
+      <data key="d10">doc-b29ad775cde5b9e8e27a6d6eafeda4a8-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787054797</data>
+      <data key="d13" />
+    </edge>
+    <edge source="click" target="instruction">
+      <data key="d7">57.0</data>
+      <data key="d8">Action to click&lt;SEP&gt;[click action described by instruction]&lt;SEP&gt;The action of clicking the textbox, which is described by the instruction.&lt;SEP&gt;The instruction to perform the action of clicking.&lt;SEP&gt;The action of clicking is performed on the concept 'instruction'.&lt;SEP&gt;Instruction for clicking action</data>
+      <data key="d9">Action,Concept,button,click</data>
+      <data key="d10">doc-a01aa3869759c0df193b39c39a682dfb-chunk-000&lt;SEP&gt;doc-b29ad775cde5b9e8e27a6d6eafeda4a8-chunk-000&lt;SEP&gt;doc-ba1791b7a2e156d3fdfe4a129ba66a73-chunk-000&lt;SEP&gt;doc-e89442d6a67c299758956cf8985a34cb-chunk-000&lt;SEP&gt;doc-ee53c6412436092f3c03b65b2173ad54-chunk-000&lt;SEP&gt;doc-f7718246a4863503f148e838eec9d4ca-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055546</data>
+      <data key="d13" />
+    </edge>
+    <edge source="click" target=".product-image-container-104499">
+      <data key="d7">1.0</data>
+      <data key="d8">[click action on product image container]</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-ba1791b7a2e156d3fdfe4a129ba66a73-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787054819</data>
+      <data key="d13" />
+    </edge>
+    <edge source="click" target=".product-image-container-104499 span.product-image-wrapper">
+      <data key="d7">1.0</data>
+      <data key="d8">[click action on product image wrapper]</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-ba1791b7a2e156d3fdfe4a129ba66a73-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787054819</data>
+      <data key="d13" />
+    </edge>
+    <edge source="click" target="width">
+      <data key="d7">1.0</data>
+      <data key="d8">[click action on width attribute]</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-ba1791b7a2e156d3fdfe4a129ba66a73-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787054819</data>
+      <data key="d13" />
+    </edge>
+    <edge source="click" target="padding">
+      <data key="d7">1.0</data>
+      <data key="d8">[click action on padding attribute]</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-ba1791b7a2e156d3fdfe4a129ba66a73-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787054819</data>
+      <data key="d13" />
+    </edge>
+    <edge source="click" target="bbox_px">
+      <data key="d7">54.0</data>
+      <data key="d8">[click action on bounding box attribute]&lt;SEP&gt;The action of clicking the textbox, which is associated with bounding box coordinates.&lt;SEP&gt;The action of clicking is performed on the data 'bbox_px'.</data>
+      <data key="d9">Action,Data,click</data>
+      <data key="d10">doc-ba1791b7a2e156d3fdfe4a129ba66a73-chunk-000&lt;SEP&gt;doc-e89442d6a67c299758956cf8985a34cb-chunk-000&lt;SEP&gt;doc-ee53c6412436092f3c03b65b2173ad54-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055438</data>
+      <data key="d13" />
+    </edge>
+    <edge source="click" target="account_logged_in">
+      <data key="d7">1.0</data>
+      <data key="d8">click is an action taken during account logged in</data>
+      <data key="d9">action</data>
+      <data key="d10">doc-e183c3bffbabc03a75bb2382164f1a11-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055256</data>
+      <data key="d13" />
+    </edge>
+    <edge source="click" target="customer">
+      <data key="d7">1.0</data>
+      <data key="d8">click is an action taken by a customer</data>
+      <data key="d9">action</data>
+      <data key="d10">doc-e183c3bffbabc03a75bb2382164f1a11-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055256</data>
+      <data key="d13" />
+    </edge>
+    <edge source="click" target="account">
+      <data key="d7">1.0</data>
+      <data key="d8">click is an action related to account</data>
+      <data key="d9">action</data>
+      <data key="d10">doc-e183c3bffbabc03a75bb2382164f1a11-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055256</data>
+      <data key="d13" />
+    </edge>
+    <edge source="click" target="login">
+      <data key="d7">1.0</data>
+      <data key="d8">click is an action related to login</data>
+      <data key="d9">action</data>
+      <data key="d10">doc-e183c3bffbabc03a75bb2382164f1a11-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055256</data>
+      <data key="d13" />
+    </edge>
+    <edge source="click" target="textbox">
+      <data key="d7">1.0</data>
+      <data key="d8">The action of clicking the textbox.</data>
+      <data key="d9">Action</data>
+      <data key="d10">doc-e89442d6a67c299758956cf8985a34cb-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055410</data>
+      <data key="d13" />
+    </edge>
+    <edge source="click" target="role">
+      <data key="d7">53.0</data>
+      <data key="d8">The action of clicking the textbox, which is associated with its role.&lt;SEP&gt;The action of clicking the textbox, which has the role of a textbox.</data>
+      <data key="d9">Action</data>
+      <data key="d10">doc-e89442d6a67c299758956cf8985a34cb-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055410</data>
+      <data key="d13" />
+    </edge>
+    <edge source="click" target="type">
+      <data key="d7">54.0</data>
+      <data key="d8">The action of clicking the textbox, which is associated with its type.&lt;SEP&gt;The action of clicking the textbox, which is an element type.&lt;SEP&gt;The action of clicking the textbox, which is associated&lt;SEP&gt;The action of clicking is performed on the concept 'type'.</data>
+      <data key="d9">Action,Concept</data>
+      <data key="d10">doc-e89442d6a67c299758956cf8985a34cb-chunk-000&lt;SEP&gt;doc-ee53c6412436092f3c03b65b2173ad54-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055438</data>
+      <data key="d13" />
+    </edge>
+    <edge source="click" target="My Cart 5 5 items">
+      <data key="d7">1.0</data>
+      <data key="d8">The action of clicking is performed on the artifact 'My Cart 5 5 items'.</data>
+      <data key="d9">Artifact</data>
+      <data key="d10">doc-ee53c6412436092f3c03b65b2173ad54-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055438</data>
+      <data key="d13" />
+    </edge>
+    <edge source="click" target="link">
+      <data key="d7">2.0</data>
+      <data key="d8">The action of clicking is performed on the artifact 'link'.&lt;SEP&gt;Action of clicking hyperlink</data>
+      <data key="d9">Artifact,click</data>
+      <data key="d10">doc-ee53c6412436092f3c03b65b2173ad54-chunk-000&lt;SEP&gt;doc-f7718246a4863503f148e838eec9d4ca-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055546</data>
+      <data key="d13" />
+    </edge>
+    <edge source="click" target="tea">
+      <data key="d7">8.0</data>
+      <data key="d8">An action performed by a user to select an item on a screen.</data>
+      <data key="d9">action</data>
+      <data key="d10">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="screen_id" target="subcategory">
+      <data key="d7">1.0</data>
+      <data key="d8">subcategory is identified by screen_id</data>
+      <data key="d9">identifier</data>
+      <data key="d10">doc-c03a55d3ed535c691cb634704db74a30-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787054856</data>
+      <data key="d13" />
+    </edge>
+    <edge source="screen_id" target="My Cart 1 1 items">
+      <data key="d7">1.0</data>
+      <data key="d8">Clicking the link 'My Cart 1 1 items' on screen ID 'minicart_open'.</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-c9c69e2a34c295b1586bd3f53b868b4d-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787054861</data>
+      <data key="d13" />
+    </edge>
+    <edge source="screen_id" target="instruction">
+      <data key="d7">9.0</data>
+      <data key="d8">The instruction to click the textbox is related to the screen ID.</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-024b19b8de0d5b640f27f0a312da5ca5-chunk-000&lt;SEP&gt;doc-1abb292a251278234ef2aea5585a4cec-chunk-000&lt;SEP&gt;doc-323e293277d50c431bbc02b71c78a7a1-chunk-000&lt;SEP&gt;doc-45c24883b260d58ce196b2bd5813a10a-chunk-000&lt;SEP&gt;doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="screen_id" target="role">
+      <data key="d7">8.0</data>
+      <data key="d8">The role of the textbox is related to the screen ID.</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="screen_id" target="name">
+      <data key="d7">16.0</data>
+      <data key="d8">The name of the textbox is related to the screen ID.&lt;SEP&gt;The screen ID is related to the name of the textbox.</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="screen_id" target="type">
+      <data key="d7">16.0</data>
+      <data key="d8">The type of the textbox is related to the screen ID.&lt;SEP&gt;The screen ID is related to the type of the textbox.</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-323e293277d50c431bbc02b71c78a7a1-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="screen_id" target="bbox_px">
+      <data key="d7">16.0</data>
+      <data key="d8">The bounding box pixel coordinates are related to the screen ID.&lt;SEP&gt;The screen ID is related to the bounding box pixel coordinates.</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="screen_id" target="account_logged_in">
+      <data key="d7">1.0</data>
+      <data key="d8">The event of logging into an account occurs on the screen with the ID 'account_logged_in'.</data>
+      <data key="d9">Event</data>
+      <data key="d10">doc-ee53c6412436092f3c03b65b2173ad54-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055438</data>
+      <data key="d13" />
+    </edge>
+    <edge source="[595, 250, 620, 284]" target="bbox_px">
+      <data key="d7">1.0</data>
+      <data key="d8">Button bounding box coordinates</data>
+      <data key="d9">button</data>
+      <data key="d10">doc-b29ad775cde5b9e8e27a6d6eafeda4a8-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787054797</data>
+      <data key="d13" />
+    </edge>
+    <edge source="name" target="role">
+      <data key="d7">12.0</data>
+      <data key="d8">The role clicks the name.&lt;SEP&gt;The action to perform is clicking the link.&lt;SEP&gt;The role to click the name.&lt;SEP&gt;The role of the textbox is related to the name of the textbox.</data>
+      <data key="d9">Action,click</data>
+      <data key="d10">doc-1abb292a251278234ef2aea5585a4cec-chunk-000&lt;SEP&gt;doc-45c24883b260d58ce196b2bd5813a10a-chunk-000&lt;SEP&gt;doc-547a6ce3129ff5916eefb35f8a299993-chunk-000&lt;SEP&gt;doc-6862f8705f500b582cfb681d1c6febc9-chunk-000&lt;SEP&gt;doc-79bdc8c15be295419534818b640a1fab-chunk-000&lt;SEP&gt;doc-7b3dbaa1dc2bafcf6737861428b971a7-chunk-000&lt;SEP&gt;doc-9cf014a55715838cd2e7be449bd106f3-chunk-000&lt;SEP&gt;doc-b64b5d11488f01f9fe0fa193ff7147e5-chunk-000&lt;SEP&gt;doc-b6a4ebc813bac50eb0d53c08cb4b08da-chunk-000&lt;SEP&gt;doc-ba90d6ca176ed689081def0260ad0880-chunk-000&lt;SEP&gt;doc-cba959f3b1e47acab4a419f1afb756d1-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="name" target="instruction">
+      <data key="d7">13.0</data>
+      <data key="d8">The instruction to click the name.&lt;SEP&gt;The action to perform is clicking the link named 'Change Password'.&lt;SEP&gt;The instruction to click the textbox is related to the name of the textbox.&lt;SEP&gt;The instruction to click the link is related to the name of the link being clicked.</data>
+      <data key="d9">Action,click</data>
+      <data key="d10">doc-024b19b8de0d5b640f27f0a312da5ca5-chunk-000&lt;SEP&gt;doc-0ecdec2685406dc115c811677c195f75-chunk-000&lt;SEP&gt;doc-269a8ede147006aea65d5f4620f825e3-chunk-000&lt;SEP&gt;doc-323e293277d50c431bbc02b71c78a7a1-chunk-000&lt;SEP&gt;doc-547a6ce3129ff5916eefb35f8a299993-chunk-000&lt;SEP&gt;doc-6862f8705f500b582cfb681d1c6febc9-chunk-000&lt;SEP&gt;doc-79bdc8c15be295419534818b640a1fab-chunk-000&lt;SEP&gt;doc-7b3dbaa1dc2bafcf6737861428b971a7-chunk-000&lt;SEP&gt;doc-96f37bc024c1dd81bce2be42d32fb9a4-chunk-000&lt;SEP&gt;doc-9cf014a55715838cd2e7be449bd106f3-chunk-000&lt;SEP&gt;doc-b64b5d11488f01f9fe0fa193ff7147e5-chunk-000&lt;SEP&gt;doc-b6a4ebc813bac50eb0d53c08cb4b08da-chunk-000&lt;SEP&gt;doc-ba90d6ca176ed689081def0260ad0880-chunk-000&lt;SEP&gt;doc-cba959f3b1e47acab4a419f1afb756d1-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000&lt;SEP&gt;doc-f067742834b4ccdbde208903ac4ed06c-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055444</data>
+      <data key="d13" />
+    </edge>
+    <edge source="name" target="bbox_px">
+      <data key="d7">10.0</data>
+      <data key="d8">The name clicks the bounding box.&lt;SEP&gt;The name to click the bounding box.&lt;SEP&gt;The name of the textbox is related to the bounding box pixel coordinates.</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-323e293277d50c431bbc02b71c78a7a1-chunk-000&lt;SEP&gt;doc-45c24883b260d58ce196b2bd5813a10a-chunk-000&lt;SEP&gt;doc-547a6ce3129ff5916eefb35f8a299993-chunk-000&lt;SEP&gt;doc-79bdc8c15be295419534818b640a1fab-chunk-000&lt;SEP&gt;doc-7b3dbaa1dc2bafcf6737861428b971a7-chunk-000&lt;SEP&gt;doc-9cf014a55715838cd2e7be449bd106f3-chunk-000&lt;SEP&gt;doc-b64b5d11488f01f9fe0fa193ff7147e5-chunk-000&lt;SEP&gt;doc-b6a4ebc813bac50eb0d53c08cb4b08da-chunk-000&lt;SEP&gt;doc-cba959f3b1e47acab4a419f1afb756d1-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="name" target="type">
+      <data key="d7">17.0</data>
+      <data key="d8">The action to perform is clicking the link.&lt;SEP&gt;The name of the textbox is related to the type of the textbox.&lt;SEP&gt;The type of the textbox is related to the name of the textbox.</data>
+      <data key="d9">Action,click</data>
+      <data key="d10">doc-ba90d6ca176ed689081def0260ad0880-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="instruction" target="role">
+      <data key="d7">13.0</data>
+      <data key="d8">The instruction to click the role.&lt;SEP&gt;The action to perform is clicking the link.&lt;SEP&gt;The instruction to click the textbox is related to the role of the textbox.&lt;SEP&gt;The instruction to click the link is related to the role indicating the action to be performed.</data>
+      <data key="d9">Action,click</data>
+      <data key="d10">doc-024b19b8de0d5b640f27f0a312da5ca5-chunk-000&lt;SEP&gt;doc-0ecdec2685406dc115c811677c195f75-chunk-000&lt;SEP&gt;doc-1abb292a251278234ef2aea5585a4cec-chunk-000&lt;SEP&gt;doc-269a8ede147006aea65d5f4620f825e3-chunk-000&lt;SEP&gt;doc-45c24883b260d58ce196b2bd5813a10a-chunk-000&lt;SEP&gt;doc-547a6ce3129ff5916eefb35f8a299993-chunk-000&lt;SEP&gt;doc-6862f8705f500b582cfb681d1c6febc9-chunk-000&lt;SEP&gt;doc-79bdc8c15be295419534818b640a1fab-chunk-000&lt;SEP&gt;doc-7b3dbaa1dc2bafcf6737861428b971a7-chunk-000&lt;SEP&gt;doc-96f37bc024c1dd81bce2be42d32fb9a4-chunk-000&lt;SEP&gt;doc-9cf014a55715838cd2e7be449bd106f3-chunk-000&lt;SEP&gt;doc-ab0e24a021db35a260177d5f65789313-chunk-000&lt;SEP&gt;doc-b64b5d11488f01f9fe0fa193ff7147e5-chunk-000&lt;SEP&gt;doc-b6a4ebc813bac50eb0d53c08cb4b08da-chunk-000&lt;SEP&gt;doc-ba90d6ca176ed689081def0260ad0880-chunk-000&lt;SEP&gt;doc-cba959f3b1e47acab4a419f1afb756d1-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000&lt;SEP&gt;doc-f067742834b4ccdbde208903ac4ed06c-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055444</data>
+      <data key="d13" />
+    </edge>
+    <edge source="instruction" target="bbox_px">
+      <data key="d7">12.0</data>
+      <data key="d8">The instruction to click the bounding box.&lt;SEP&gt;The instruction to click the textbox is related to the bounding box pixel coordinates.&lt;SEP&gt;The instruction to click the link is related to the pixel coordinates of the bounding box for the link.</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-024b19b8de0d5b640f27f0a312da5ca5-chunk-000&lt;SEP&gt;doc-0ecdec2685406dc115c811677c195f75-chunk-000&lt;SEP&gt;doc-269a8ede147006aea65d5f4620f825e3-chunk-000&lt;SEP&gt;doc-547a6ce3129ff5916eefb35f8a299993-chunk-000&lt;SEP&gt;doc-79bdc8c15be295419534818b640a1fab-chunk-000&lt;SEP&gt;doc-7b3dbaa1dc2bafcf6737861428b971a7-chunk-000&lt;SEP&gt;doc-96f37bc024c1dd81bce2be42d32fb9a4-chunk-000&lt;SEP&gt;doc-9cf014a55715838cd2e7be449bd106f3-chunk-000&lt;SEP&gt;doc-b64b5d11488f01f9fe0fa193ff7147e5-chunk-000&lt;SEP&gt;doc-b6a4ebc813bac50eb0d53c08cb4b08da-chunk-000&lt;SEP&gt;doc-cba959f3b1e47acab4a419f1afb756d1-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000&lt;SEP&gt;doc-f067742834b4ccdbde208903ac4ed06c-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055444</data>
+      <data key="d13" />
+    </edge>
+    <edge source="instruction" target="type">
+      <data key="d7">10.0</data>
+      <data key="d8">The action to perform is clicking the link.&lt;SEP&gt;The instruction to click the textbox is related to the type of the textbox.</data>
+      <data key="d9">Action,click</data>
+      <data key="d10">doc-323e293277d50c431bbc02b71c78a7a1-chunk-000&lt;SEP&gt;doc-ba90d6ca176ed689081def0260ad0880-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="instruction" target="account_logged_in">
+      <data key="d7">2.0</data>
+      <data key="d8">Instruction for account logged in state</data>
+      <data key="d9">role</data>
+      <data key="d10">doc-f7718246a4863503f148e838eec9d4ca-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055546</data>
+      <data key="d13" />
+    </edge>
+    <edge source="bbox_px" target="role">
+      <data key="d7">11.0</data>
+      <data key="d8">The role clicks the bounding box.&lt;SEP&gt;The role to click the bounding box.&lt;SEP&gt;The role of the textbox is related to the bounding box pixel coordinates.&lt;SEP&gt;The role of the textbox is related</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-1abb292a251278234ef2aea5585a4cec-chunk-000&lt;SEP&gt;doc-547a6ce3129ff5916eefb35f8a299993-chunk-000&lt;SEP&gt;doc-79bdc8c15be295419534818b640a1fab-chunk-000&lt;SEP&gt;doc-7b3dbaa1dc2bafcf6737861428b971a7-chunk-000&lt;SEP&gt;doc-b6a4ebc813bac50eb0d53c08cb4b08da-chunk-000&lt;SEP&gt;doc-cba959f3b1e47acab4a419f1afb756d1-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="bbox_px" target="type">
+      <data key="d7">8.0</data>
+      <data key="d8">The bounding box pixel coordinates are related to the type of the textbox.</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="role" target="type">
+      <data key="d7">9.0</data>
+      <data key="d8">The action to perform is clicking the link.&lt;SEP&gt;The role of the textbox is related to the type of the textbox.</data>
+      <data key="d9">Action,click</data>
+      <data key="d10">doc-ba90d6ca176ed689081def0260ad0880-chunk-000&lt;SEP&gt;doc-e0a00ecf4aa98abb75f058611cd0bfdf-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="link" target="6505551212">
+      <data key="d7">2.0</data>
+      <data key="d8">Link named 6505551212</data>
+      <data key="d9">name</data>
+      <data key="d10">doc-f7718246a4863503f148e838eec9d4ca-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055546</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Proceed to Checkout" target="product_add_to_cart">
+      <data key="d7">1.0</data>
+      <data key="d8">Not clicking 'Proceed to Checkout'.</data>
+      <data key="d9">do_not_click</data>
+      <data key="d10">doc-62d9053cf6071c97f1a27f1d4e29dbec-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055942</data>
+      <data key="d13" />
+    </edge>
+    <edge source="step" target="action">
+      <data key="d7">1.0</data>
+      <data key="d8">step 1 involves click action</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-c03a55d3ed535c691cb634704db74a30-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787054856</data>
+      <data key="d13" />
+    </edge>
+    <edge source="step" target="account_logged_in">
+      <data key="d7">1.0</data>
+      <data key="d8">account logged in occurs at step 3</data>
+      <data key="d9" />
+      <data key="d10">doc-e183c3bffbabc03a75bb2382164f1a11-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055256</data>
+      <data key="d13" />
+    </edge>
+    <edge source="step" target="from_state">
+      <data key="d7">6.0</data>
+      <data key="d8">The step leads to the from_state.&lt;SEP&gt;The step follows the from_state.&lt;SEP&gt;The step number is derived from the initial state.&lt;SEP&gt;The step follows from the from_state.</data>
+      <data key="d9">follows_from,is derived from,leads to</data>
+      <data key="d10">doc-14ceb1ebb14936f5b21a23a880dfeaca-chunk-000&lt;SEP&gt;doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000&lt;SEP&gt;doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878-chunk-000&lt;SEP&gt;doc-3df8bd91a6a3d0871e38317475d7b157-chunk-000&lt;SEP&gt;doc-5c82ff2039f325fb23b86afa8c23dcf2-chunk-000&lt;SEP&gt;doc-a27c3607ebcd1cbf634c7919d8b8e521-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056245</data>
+      <data key="d13" />
+    </edge>
+    <edge source="step" target="to_state">
+      <data key="d7">6.0</data>
+      <data key="d8">The step leads to the to_state.&lt;SEP&gt;The step number is derived from the final state.&lt;SEP&gt;The step follows to the to_state.</data>
+      <data key="d9">follows_to,is derived from,leads to</data>
+      <data key="d10">doc-14ceb1ebb14936f5b21a23a880dfeaca-chunk-000&lt;SEP&gt;doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000&lt;SEP&gt;doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878-chunk-000&lt;SEP&gt;doc-3df8bd91a6a3d0871e38317475d7b157-chunk-000&lt;SEP&gt;doc-5c82ff2039f325fb23b86afa8c23dcf2-chunk-000&lt;SEP&gt;doc-a27c3607ebcd1cbf634c7919d8b8e521-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056245</data>
+      <data key="d13" />
+    </edge>
+    <edge source="step" target="task_id">
+      <data key="d7">1.0</data>
+      <data key="d8">The task_id is associated with the step.</data>
+      <data key="d9">step</data>
+      <data key="d10">doc-189de8ba1f681a4ac020519f647f3544-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056176</data>
+      <data key="d13" />
+    </edge>
+    <edge source="url_before" target="url_after">
+      <data key="d7">1.0</data>
+      <data key="d8">url changes occur between before and after</data>
+      <data key="d9">change</data>
+      <data key="d10">doc-c03a55d3ed535c691cb634704db74a30-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787054856</data>
+      <data key="d13" />
+    </edge>
+    <edge source="url_before" target="account_logged_in">
+      <data key="d7">1.0</data>
+      <data key="d8">account logged in happens before this URL</data>
+      <data key="d9">http://localhost:7770/customer/account/login/</data>
+      <data key="d10">doc-e183c3bffbabc03a75bb2382164f1a11-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055256</data>
+      <data key="d13" />
+    </edge>
+    <edge source="url_after" target="account_logged_in">
+      <data key="d7">1.0</data>
+      <data key="d8">account logged in happens after this URL</data>
+      <data key="d9">http://localhost:7770/customer/account/</data>
+      <data key="d10">doc-e183c3bffbabc03a75bb2382164f1a11-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055256</data>
+      <data key="d13" />
+    </edge>
+    <edge source="url_after" target="action">
+      <data key="d7">5.0</data>
+      <data key="d8">The URL follows the action.&lt;SEP&gt;The action results in the url_after.&lt;SEP&gt;The action results in the specified URL.</data>
+      <data key="d9">follows,results in,results_in</data>
+      <data key="d10">doc-14ceb1ebb14936f5b21a23a880dfeaca-chunk-000&lt;SEP&gt;doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000&lt;SEP&gt;doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878-chunk-000&lt;SEP&gt;doc-3df8bd91a6a3d0871e38317475d7b157-chunk-000&lt;SEP&gt;doc-5c82ff2039f325fb23b86afa8c23dcf2-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056201</data>
+      <data key="d13" />
+    </edge>
+    <edge source="url_after" target="product_add_to_cart">
+      <data key="d7">1.0</data>
+      <data key="d8">The task's URL after completion is 'https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html'.</data>
+      <data key="d9">https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html</data>
+      <data key="d10">doc-dd334441a53ee71d815874e2a4d2f7c9-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056074</data>
+      <data key="d13" />
+    </edge>
+    <edge source="url_after" target="task_id">
+      <data key="d7">1.0</data>
+      <data key="d8">The task_id is associated with the url_after.</data>
+      <data key="d9">url_after</data>
+      <data key="d10">doc-189de8ba1f681a4ac020519f647f3544-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056176</data>
+      <data key="d13" />
+    </edge>
+    <edge source="url_after" target="title_after">
+      <data key="d7">1.0</data>
+      <data key="d8">The url_after has a title_after.</data>
+      <data key="d9">has_title</data>
+      <data key="d10">doc-3df8bd91a6a3d0871e38317475d7b157-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056183</data>
+      <data key="d13" />
+    </edge>
+    <edge source="url_after" target="success">
+      <data key="d7">1.0</data>
+      <data key="d8">Success indicates the url_after.</data>
+      <data key="d9">indicates_url</data>
+      <data key="d10">doc-a27c3607ebcd1cbf634c7919d8b8e521-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056245</data>
+      <data key="d13" />
+    </edge>
+    <edge source="action" target="target_mark_id">
+      <data key="d7">6.0</data>
+      <data key="d8">The action targets the target_mark_id.&lt;SEP&gt;The action is associated with the target_mark_id.&lt;SEP&gt;The action is applied to the target mark.</data>
+      <data key="d9">is applied to,is associated with,targets</data>
+      <data key="d10">doc-14ceb1ebb14936f5b21a23a880dfeaca-chunk-000&lt;SEP&gt;doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000&lt;SEP&gt;doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878-chunk-000&lt;SEP&gt;doc-3df8bd91a6a3d0871e38317475d7b157-chunk-000&lt;SEP&gt;doc-5c82ff2039f325fb23b86afa8c23dcf2-chunk-000&lt;SEP&gt;doc-a27c3607ebcd1cbf634c7919d8b8e521-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056245</data>
+      <data key="d13" />
+    </edge>
+    <edge source="action" target="success">
+      <data key="d7">5.0</data>
+      <data key="d8">Success indicates the outcome of the action.&lt;SEP&gt;The action indicates the success status.&lt;SEP&gt;The outcome of the action is success.&lt;SEP&gt;The success status indicates the outcome of the action.</data>
+      <data key="d9">indicates,outcome</data>
+      <data key="d10">doc-14ceb1ebb14936f5b21a23a880dfeaca-chunk-000&lt;SEP&gt;doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000&lt;SEP&gt;doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878-chunk-000&lt;SEP&gt;doc-3df8bd91a6a3d0871e38317475d7b157-chunk-000&lt;SEP&gt;doc-5c82ff2039f325fb23b86afa8c23dcf2-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056201</data>
+      <data key="d13" />
+    </edge>
+    <edge source="action" target="title_after">
+      <data key="d7">4.0</data>
+      <data key="d8">The title follows the action.&lt;SEP&gt;The action results in the title_after.&lt;SEP&gt;The action results in the specified title.</data>
+      <data key="d9">follows,results in</data>
+      <data key="d10">doc-14ceb1ebb14936f5b21a23a880dfeaca-chunk-000&lt;SEP&gt;doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000&lt;SEP&gt;doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878-chunk-000&lt;SEP&gt;doc-5c82ff2039f325fb23b86afa8c23dcf2-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056201</data>
+      <data key="d13" />
+    </edge>
+    <edge source="action" target="tea">
+      <data key="d7">8.0</data>
+      <data key="d8">An action taken by a user or system.</data>
+      <data key="d9">performed_by</data>
+      <data key="d10">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="action" target="value">
+      <data key="d7">1.0</data>
+      <data key="d8">The action is set to the value.</data>
+      <data key="d9">is set to</data>
+      <data key="d10">doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055954</data>
+      <data key="d13" />
+    </edge>
+    <edge source="action" target="task_id">
+      <data key="d7">1.0</data>
+      <data key="d8">The task_id is associated with the action.</data>
+      <data key="d9">action</data>
+      <data key="d10">doc-189de8ba1f681a4ac020519f647f3544-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056176</data>
+      <data key="d13" />
+    </edge>
+    <edge source="state" target="key">
+      <data key="d7">1.0</data>
+      <data key="d8">A URL is associated with the state.</data>
+      <data key="d9">URL</data>
+      <data key="d10">doc-56ee8cfaad4c3e7787c80d633f3b9fb2-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055577</data>
+      <data key="d13" />
+    </edge>
+    <edge source="state" target="state_id">
+      <data key="d7">1.0</data>
+      <data key="d8">The state_id is an identifier for the state.</data>
+      <data key="d9">ID</data>
+      <data key="d10">doc-56ee8cfaad4c3e7787c80d633f3b9fb2-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055577</data>
+      <data key="d13" />
+    </edge>
+    <edge source="state" target="https://reiterate-unnamable-upstroke.ngrok-free.dev/electronics.html">
+      <data key="d7">2.0</data>
+      <data key="d8">The URL points to the Electronics category.&lt;SEP&gt;The URL points to the state.</data>
+      <data key="d9">URL</data>
+      <data key="d10">doc-56ee8cfaad4c3e7787c80d633f3b9fb2-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055577</data>
+      <data key="d13" />
+    </edge>
+    <edge source="state" target="Checkout">
+      <data key="d7">1.0</data>
+      <data key="d8">The state is associated with the Checkout key.</data>
+      <data key="d9">key</data>
+      <data key="d10">doc-8d32db36985b997241737a36c8273ebf-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056053</data>
+      <data key="d13" />
+    </edge>
+    <edge source="product_add_to_cart" target="My Cart">
+      <data key="d7">1.0</data>
+      <data key="d8">Clicking 'My Cart' once to open the minicart dropdown.</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-62d9053cf6071c97f1a27f1d4e29dbec-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055942</data>
+      <data key="d13" />
+    </edge>
+    <edge source="product_add_to_cart" target="View and Edit Cart">
+      <data key="d7">1.0</data>
+      <data key="d8">Clicking the 'View and Edit Cart' mark in the minicart dropdown.</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-62d9053cf6071c97f1a27f1d4e29dbec-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055942</data>
+      <data key="d13" />
+    </edge>
+    <edge source="product_add_to_cart" target="/checkout/">
+      <data key="d7">1.0</data>
+      <data key="d8">Not keeping toggling 'My Cart'.</data>
+      <data key="d9">do_not_keep</data>
+      <data key="d10">doc-62d9053cf6071c97f1a27f1d4e29dbec-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055942</data>
+      <data key="d13" />
+    </edge>
+    <edge source="product_add_to_cart" target="/checkout/cart/">
+      <data key="d7">1.0</data>
+      <data key="d8">Done when the URL contains '/checkout/cart/' and the title contains 'Shopping Cart'.</data>
+      <data key="d9">done</data>
+      <data key="d10">doc-62d9053cf6071c97f1a27f1d4e29dbec-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055942</data>
+      <data key="d13" />
+    </edge>
+    <edge source="product_add_to_cart" target="wait">
+      <data key="d7">2.0</data>
+      <data key="d8">Waiting for 2000 milliseconds.&lt;SEP&gt;The task includes an action named 'wait'.</data>
+      <data key="d9">action,wait</data>
+      <data key="d10">doc-d73a8809013d6a5b52c991960b728802-chunk-000&lt;SEP&gt;doc-dd334441a53ee71d815874e2a4d2f7c9-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056074</data>
+      <data key="d13" />
+    </edge>
+    <edge source="product_add_to_cart" target="cf8b5e2010bd">
+      <data key="d7">2.0</data>
+      <data key="d8">The task starts from state 'cf8b5e2010bd'.&lt;SEP&gt;The task ends in state 'cf8b5e2010bd'.</data>
+      <data key="d9">from_state,to_state</data>
+      <data key="d10">doc-dd334441a53ee71d815874e2a4d2f7c9-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056074</data>
+      <data key="d13" />
+    </edge>
+    <edge source="product_add_to_cart" target="title_after">
+      <data key="d7">1.0</data>
+      <data key="d8">The task's title after completion is 'Briess DME - Pilsen Light - 1 lb Bag'.</data>
+      <data key="d9">Briess DME - Pilsen Light - 1 lb Bag</data>
+      <data key="d10">doc-dd334441a53ee71d815874e2a4d2f7c9-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056074</data>
+      <data key="d13" />
+    </edge>
+    <edge source="task" target="goal">
+      <data key="d7">1.0</data>
+      <data key="d8">The task's goal is to open a product detail page by clicking a product title or product link, ending with .html and not being a search results page.</data>
+      <data key="d9">Goal</data>
+      <data key="d10">doc-2d0074974c4aa4f05a4fad3abaa22278-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055568</data>
+      <data key="d13" />
+    </edge>
+    <edge source="task" target="start_url">
+      <data key="d7">1.0</data>
+      <data key="d8">Navigates from the task to the URL 'https://reiterate-unnamable-upstroke.ngrok-free.dev/'</data>
+      <data key="d9">Navigates_from</data>
+      <data key="d10">doc-6f31dbc98ece4cdaa913484ad6123833-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055789</data>
+      <data key="d13" />
+    </edge>
+    <edge source="goal" target="Log in with the test customer account and open the order history page.">
+      <data key="d7">1.0</data>
+      <data key="d8">The goal of the task.</data>
+      <data key="d9">Goal</data>
+      <data key="d10">doc-7fac13d51dae2e015b4db54c1583d2ab-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055795</data>
+      <data key="d13" />
+    </edge>
+    <edge source="goal" target="task_id">
+      <data key="d7">13.0</data>
+      <data key="d8">The task ID is associated with the goal, which indicates completion when the Orders and Returns page is open. The task goal also includes opening the guest link "Orders and Returns" and scrolling to the homepage footer. Additionally, it specifies that the task goal does not include opening the Forgot Password page, the My Account page, or signing in.&lt;SEP&gt;The task ID is associated with the goal.&lt;SEP&gt;The task_id is associated with the goal.&lt;SEP&gt;The task has a specific goal.&lt;SEP&gt;The task_id has a goal.</data>
+      <data key="d9">Do NOT open Forgot Password,Do NOT open My Account,Do NOT sign in,Done when the Orders and Returns page is open,Open the guest link "Orders and Returns",Scroll to the homepage footer,goal,has_goal,is related to</data>
+      <data key="d10">doc-14ceb1ebb14936f5b21a23a880dfeaca-chunk-000&lt;SEP&gt;doc-571153a88f91efe6a07864bf8d36319f-chunk-000&lt;SEP&gt;doc-6371d7766d8a30a1d8aedfb05c069ba8-chunk-000&lt;SEP&gt;doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878-chunk-000&lt;SEP&gt;doc-189de8ba1f681a4ac020519f647f3544-chunk-000&lt;SEP&gt;doc-3df8bd91a6a3d0871e38317475d7b157-chunk-000&lt;SEP&gt;doc-5c82ff2039f325fb23b86afa8c23dcf2-chunk-000&lt;SEP&gt;doc-a27c3607ebcd1cbf634c7919d8b8e521-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056245</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Electronics" target="Category">
+      <data key="d7">1.0</data>
+      <data key="d8">A category page related to electronics.</data>
+      <data key="d9">Is part of</data>
+      <data key="d10">doc-6cd7e66b357fe2de567b9f08b975f69c-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055787</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Product" target="Product Detail Page">
+      <data key="d7">1.0</data>
+      <data key="d8">A product detail page displays a product.</data>
+      <data key="d9">Is displayed</data>
+      <data key="d10">doc-6cd7e66b357fe2de567b9f08b975f69c-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055787</data>
+      <data key="d13" />
+    </edge>
+    <edge source="URL" target="State">
+      <data key="d7">3.0</data>
+      <data key="d8">The State entity is associated with the provided URL.&lt;SEP&gt;The State entity is associated with the URL related to cell phones and accessories.&lt;SEP&gt;A URL is linked to the state entity through its ID.</data>
+      <data key="d9">AssociatedWith,is_linked_to</data>
+      <data key="d10">doc-bcae0faaf7eee20080007478a61578ec-chunk-000&lt;SEP&gt;doc-1f9f8b0a605d63d4550fc2372ecc78f3-chunk-000&lt;SEP&gt;doc-f32503d57dbcfb55e9966b8addb40d5f-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056090</data>
+      <data key="d13" />
+    </edge>
+    <edge source="True" target="success">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates whether the task was successful.</data>
+      <data key="d9">Boolean</data>
+      <data key="d10">doc-7fac13d51dae2e015b4db54c1583d2ab-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055795</data>
+      <data key="d13" />
+    </edge>
+    <edge source="success" target="tea">
+      <data key="d7">8.0</data>
+      <data key="d8">Indicates whether an action was completed successfully.</data>
+      <data key="d9">outcome</data>
+      <data key="d10">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="success" target="wait">
+      <data key="d7">1.0</data>
+      <data key="d8">The wait action was successful.</data>
+      <data key="d9">True</data>
+      <data key="d10">doc-dd334441a53ee71d815874e2a4d2f7c9-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056074</data>
+      <data key="d13" />
+    </edge>
+    <edge source="success" target="task_id">
+      <data key="d7">1.0</data>
+      <data key="d8">The task_id is associated with the success.</data>
+      <data key="d9">success</data>
+      <data key="d10">doc-189de8ba1f681a4ac020519f647f3544-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056176</data>
+      <data key="d13" />
+    </edge>
+    <edge source="success" target="title_after">
+      <data key="d7">1.0</data>
+      <data key="d8">Success indicates the title_after.</data>
+      <data key="d9">indicates_title</data>
+      <data key="d10">doc-a27c3607ebcd1cbf634c7919d8b8e521-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056245</data>
+      <data key="d13" />
+    </edge>
+    <edge source="guest_open_orders_returns" target="task_id">
+      <data key="d7">8.0</data>
+      <data key="d8">The task identified as "guest_open_orders_returns" involved transitioning through various states. Initially, it began from the state "90d110975ccc" and progressed to the state "c62d5eb1b8fc". The task was successfully completed, and the final URL after its completion was "https://reiterate-unnamable-upstroke.ngrok-free.dev/sales/guest/form/", indicating the task's endpoint. The title after the task completion was "Orders and Returns", suggesting the task's purpose was related to managing guest orders and returns. Additionally, the task included a click action targeting a specific mark ID of 40, which was part of the process. This task was specifically designed to handle operations involving guest orders and returns, ensuring a seamless flow from start to finish.</data>
+      <data key="d9">action,from_state,is,success,target_mark_id,title_after,to_state,url_after</data>
+      <data key="d10">doc-0ec8cadce220fc9e6e5c9c75d9e39c00-chunk-000&lt;SEP&gt;doc-e94c51eb4aa1e06e1aa1c22cf0ca27ef-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056253</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Checkout" target="Shipping">
+      <data key="d7">1.0</data>
+      <data key="d8">To proceed to the shipping step during checkout.</data>
+      <data key="d9">Shipping</data>
+      <data key="d10">doc-b8e7d73842fa37807be6260d5fb5f6df-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055809</data>
+      <data key="d13" />
+    </edge>
+    <edge source="State" target="ShoppingCart">
+      <data key="d7">1.0</data>
+      <data key="d8">A state is associated with a shopping cart through a URL.</data>
+      <data key="d9">URL</data>
+      <data key="d10">doc-13825eeaaccdec76d561eb444b597191-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055833</data>
+      <data key="d13" />
+    </edge>
+    <edge source="task_id" target="procedure">
+      <data key="d7">8.0</data>
+      <data key="d8">The task_id is associated with the click procedure.&lt;SEP&gt;The task involves scrolling.&lt;SEP&gt;The task involves clicking.&lt;SEP&gt;The task involves targeting a specific mark ID.&lt;SEP&gt;The task_id is associated with the click action.&lt;SEP&gt;The task_id is associated with the procedure click.</data>
+      <data key="d9">click,scroll,target_mark_id</data>
+      <data key="d10">doc-276e6d53f0d22ac09f287851edb96d6b-chunk-000&lt;SEP&gt;doc-571153a88f91efe6a07864bf8d36319f-chunk-000&lt;SEP&gt;doc-8e6ff17117641e752946e746c149b42a-chunk-000&lt;SEP&gt;doc-eeac6f0a03c2882eb67dee79cd4cc10d-chunk-000&lt;SEP&gt;doc-ef078f1ad1741283015f4345f16bd22f-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056088</data>
+      <data key="d13" />
+    </edge>
+    <edge source="task_id" target="tea">
+      <data key="d7">8.0</data>
+      <data key="d8">A unique identifier assigned to a specific task or operation.</data>
+      <data key="d9">part_of</data>
+      <data key="d10">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="task_id" target="wait">
+      <data key="d7">1.0</data>
+      <data key="d8">The action of waiting for a certain condition to be met.</data>
+      <data key="d9">None</data>
+      <data key="d10">doc-47265c7e27a116d73c5b5ed905faac86-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055930</data>
+      <data key="d13" />
+    </edge>
+    <edge source="task_id" target="n_steps">
+      <data key="d7">1.0</data>
+      <data key="d8">The task involves a number of steps.</data>
+      <data key="d9">number</data>
+      <data key="d10">doc-8e6ff17117641e752946e746c149b42a-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056056</data>
+      <data key="d13" />
+    </edge>
+    <edge source="task_id" target="from_state">
+      <data key="d7">1.0</data>
+      <data key="d8">The task_id is associated with the from_state.</data>
+      <data key="d9">from_state</data>
+      <data key="d10">doc-189de8ba1f681a4ac020519f647f3544-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056176</data>
+      <data key="d13" />
+    </edge>
+    <edge source="task_id" target="to_state">
+      <data key="d7">1.0</data>
+      <data key="d8">The task_id is associated with the to_state.</data>
+      <data key="d9">to_state</data>
+      <data key="d10">doc-189de8ba1f681a4ac020519f647f3544-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056176</data>
+      <data key="d13" />
+    </edge>
+    <edge source="task_id" target="target_mark_id">
+      <data key="d7">1.0</data>
+      <data key="d8">The task_id is associated with the target_mark_id.</data>
+      <data key="d9">target_mark_id</data>
+      <data key="d10">doc-189de8ba1f681a4ac020519f647f3544-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056176</data>
+      <data key="d13" />
+    </edge>
+    <edge source="task_id" target="title_after">
+      <data key="d7">1.0</data>
+      <data key="d8">The task_id is associated with the title_after.</data>
+      <data key="d9">title_after</data>
+      <data key="d10">doc-189de8ba1f681a4ac020519f647f3544-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056176</data>
+      <data key="d13" />
+    </edge>
+    <edge source="task_id" target="cart_to_checkout_shipping">
+      <data key="d7">3.0</data>
+      <data key="d8">returns success status&lt;SEP&gt;returns title&lt;SEP&gt;returns url</data>
+      <data key="d9">success,title_after,url_after</data>
+      <data key="d10">doc-73c6da08c5ad531e9f5e932aac330047-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056221</data>
+      <data key="d13" />
+    </edge>
+    <edge source="task_id" target="90d110975ccc">
+      <data key="d7">2.0</data>
+      <data key="d8">The initial state of the task.&lt;SEP&gt;The final state of the task.</data>
+      <data key="d9">from_state,to_state</data>
+      <data key="d10">doc-e94c51eb4aa1e06e1aa1c22cf0ca27ef-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056253</data>
+      <data key="d13" />
+    </edge>
+    <edge source="n_steps" target="Procedure">
+      <data key="d7">1.0</data>
+      <data key="d8">The Procedure has an n_steps property</data>
+      <data key="d9">Has Property</data>
+      <data key="d10">doc-c6b4daaebb9f4245ddfba6b7d2ef75cc-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056066</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Advanced Search" target="Homepage">
+      <data key="d7">1.0</data>
+      <data key="d8">The Advanced Search feature is located on the Homepage</data>
+      <data key="d9">Located On</data>
+      <data key="d10">doc-c6b4daaebb9f4245ddfba6b7d2ef75cc-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056066</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Advanced Search" target="Header">
+      <data key="d7">1.0</data>
+      <data key="d8">The Advanced Search feature is located in the Header</data>
+      <data key="d9">Located In</data>
+      <data key="d10">doc-c6b4daaebb9f4245ddfba6b7d2ef75cc-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056066</data>
+      <data key="d13" />
+    </edge>
+    <edge source="from_state" target="tea">
+      <data key="d7">8.0</data>
+      <data key="d8">The initial state or condition of a system or process.</data>
+      <data key="d9">initial_state</data>
+      <data key="d10">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="to_state" target="tea">
+      <data key="d7">8.0</data>
+      <data key="d8">The final state or condition of a system or process.</data>
+      <data key="d9">final_state</data>
+      <data key="d10">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="target_mark_id" target="procedure">
+      <data key="d7">2.0</data>
+      <data key="d8">The target mark ID for the click action.&lt;SEP&gt;The procedure is linked to the target_mark_id through the click action.</data>
+      <data key="d9">click</data>
+      <data key="d10">doc-571153a88f91efe6a07864bf8d36319f-chunk-000&lt;SEP&gt;doc-eeac6f0a03c2882eb67dee79cd4cc10d-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056083</data>
+      <data key="d13" />
+    </edge>
+    <edge source="tea" target="black_tea">
+      <data key="d7">1.0</data>
+      <data key="d8">A type of tea.</data>
+      <data key="d9">is_a</data>
+      <data key="d10">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="tea" target="oolong_tea">
+      <data key="d7">1.0</data>
+      <data key="d8">A type of tea.</data>
+      <data key="d9">is_a</data>
+      <data key="d10">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="tea" target="Loose_leaf_tea">
+      <data key="d7">9.0</data>
+      <data key="d8">A type of tea.</data>
+      <data key="d9">is_a</data>
+      <data key="d10">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="tea" target="high_mountain_tea">
+      <data key="d7">9.0</data>
+      <data key="d8">A type of tea.</data>
+      <data key="d9">is_a</data>
+      <data key="d10">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="tea" target="Tea_bags">
+      <data key="d7">8.0</data>
+      <data key="d8">A package containing individual servings of tea leaves or flavored tea mixtures.</data>
+      <data key="d9">is_a</data>
+      <data key="d10">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="tea" target="4_packs">
+      <data key="d7">8.0</data>
+      <data key="d8">A quantity of four units.</data>
+      <data key="d9">quantity</data>
+      <data key="d10">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="tea" target="tea_search_results">
+      <data key="d7">8.0</data>
+      <data key="d8">The results of a search query related to tea products.</data>
+      <data key="d9">result_of</data>
+      <data key="d10">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="tea" target="product_title">
+      <data key="d7">8.0</data>
+      <data key="d8">The title or name of a product displayed on a webpage.</data>
+      <data key="d9">contains</data>
+      <data key="d10">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="tea" target="product_link">
+      <data key="d7">8.0</data>
+      <data key="d8">A hyperlink pointing to a product detail page.</data>
+      <data key="d9">points_to</data>
+      <data key="d10">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="tea" target="url">
+      <data key="d7">8.0</data>
+      <data key="d8">A web address that uniquely identifies a resource on the internet.</data>
+      <data key="d9">contains</data>
+      <data key="d10">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="tea" target="page_title">
+      <data key="d7">8.0</data>
+      <data key="d8">The title of a webpage.</data>
+      <data key="d9">title_of</data>
+      <data key="d10">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="tea" target="ding_ji">
+      <data key="d7">8.0</data>
+      <data key="d8">A brand or company name associated with tea products.</data>
+      <data key="d9">brand</data>
+      <data key="d10">doc-461bb085df60d40466f8b6722f80c025-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787055926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="wait" target="value">
+      <data key="d7">1.0</data>
+      <data key="d8">The wait action has a value of 2000 milliseconds.</data>
+      <data key="d9">2000</data>
+      <data key="d10">doc-dd334441a53ee71d815874e2a4d2f7c9-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056074</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Procedure" target="Click">
+      <data key="d7">1.0</data>
+      <data key="d8">The Procedure contains the Click method</data>
+      <data key="d9">Contains</data>
+      <data key="d10">doc-c6b4daaebb9f4245ddfba6b7d2ef75cc-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056066</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Click" target="Target">
+      <data key="d7">1.0</data>
+      <data key="d8">The Click method interacts with the Target</data>
+      <data key="d9">Interacts With</data>
+      <data key="d10">doc-c6b4daaebb9f4245ddfba6b7d2ef75cc-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056066</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Target" target="Mark">
+      <data key="d7">1.0</data>
+      <data key="d8">The Target is identified by the Mark</data>
+      <data key="d9">Identified By</data>
+      <data key="d10">doc-c6b4daaebb9f4245ddfba6b7d2ef75cc-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056066</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Mark" target="ID">
+      <data key="d7">1.0</data>
+      <data key="d8">The Mark has an ID</data>
+      <data key="d9">Has ID</data>
+      <data key="d10">doc-c6b4daaebb9f4245ddfba6b7d2ef75cc-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056066</data>
+      <data key="d13" />
+    </edge>
+    <edge source="cf8b5e2010bd" target="https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html">
+      <data key="d7">1.0</data>
+      <data key="d8">A unique identifier for a state is associated with a product URL.</data>
+      <data key="d9">Product</data>
+      <data key="d10">doc-fb382c7de6a95390185a15864f664c30-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056150</data>
+      <data key="d13" />
+    </edge>
+    <edge source="cf8b5e2010bd" target="Briess DME - Pilsen Light">
+      <data key="d7">1.0</data>
+      <data key="d8">A unique identifier for a state is associated with a product name.</data>
+      <data key="d9">Product</data>
+      <data key="d10">doc-fb382c7de6a95390185a15864f664c30-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056150</data>
+      <data key="d13" />
+    </edge>
+    <edge source="cf8b5e2010bd" target="Pilsen Light">
+      <data key="d7">1.0</data>
+      <data key="d8">A unique identifier for a state is associated with a product name.</data>
+      <data key="d9">Product</data>
+      <data key="d10">doc-fb382c7de6a95390185a15864f664c30-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056150</data>
+      <data key="d13" />
+    </edge>
+    <edge source="cf8b5e2010bd" target="1 lb Bag">
+      <data key="d7">1.0</data>
+      <data key="d8">A unique identifier for a state is associated with a product size.</data>
+      <data key="d9">Product</data>
+      <data key="d10">doc-fb382c7de6a95390185a15864f664c30-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787056150</data>
+      <data key="d13" />
+    </edge>
+  </graph>
+</graphml>

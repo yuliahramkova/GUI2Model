@@ -7,8 +7,8 @@
   python eval/target_tasks_baseline.py --base-url http://localhost:7770
   python eval/target_tasks_baseline.py --task-ids eval_search_shirt_results --headed
   python eval/target_tasks_baseline.py --limit 2
-  python eval/target_tasks_baseline.py --rag-mode a11y_cua --out-dir reports/multistep_rag_a11y_cua
-  python eval/target_tasks_baseline.py --rag-mode all --rag-per-step --limit 1
+  python eval/target_tasks_baseline.py --rag-mode cua --out-dir reports/multistep_rag_cua
+  python eval/target_tasks_baseline.py --rag-mode cua --limit 2 --headed
 """
 
 from __future__ import annotations
@@ -29,12 +29,18 @@ from openai import OpenAI
 from playwright.sync_api import Page, sync_playwright
 from tqdm import tqdm
 
-from rag.client import DEFAULT_STORES_ROOT, RagSession
-from rag.modes import ALL_MODES
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
+
+from eval.rag_helpers import (  # noqa: E402
+    DEFAULT_RAG_MAX_CHARS,
+    fetch_rag_context,
+    prior_knowledge_label,
+    prior_knowledge_meta,
+)
+from rag.client import DEFAULT_STORES_ROOT, RagSession  # noqa: E402
+from rag.modes import ALL_MODES  # noqa: E402
 
 DEFAULT_TASKS = REPO_ROOT / "data/target_app/eval/tasks.json"
 DEFAULT_OUT = REPO_ROOT / "reports" / "multistep"
@@ -42,7 +48,6 @@ DEFAULT_BASE_URL = "http://localhost:7770"
 DEFAULT_VIEWPORT = {"width": 1440, "height": 1100}
 DEFAULT_PAGE_ZOOM = 0.75
 DEFAULT_STUCK_LIMIT = 3
-DEFAULT_RAG_MAX_CHARS = 6000
 CART_SETUP_PRODUCT = "/briess-dme-pilsen-light-1-lb-bag.html"
 
 
@@ -210,7 +215,7 @@ class VlmAgent:
                 "value": "",
                 "notes": f"Failed to parse model response JSON: {content[:200]}",
             }
-        return parsed, pt, ct, tt
+        return cua.normalize_agent_action(parsed), pt, ct, tt
 
 
 def resolve_credentials(doc: dict[str, Any], task: dict[str, Any]) -> dict[str, str]:
@@ -242,65 +247,6 @@ def enrich_goal(goal: str, credentials: dict[str, str]) -> str:
         f"Use email `{credentials['username']}` and password `{credentials['password']}` "
         f"when signing in (type them into the login form yourself)."
     )
-
-
-def build_rag_query(*, goal: str, url: str | None = None, title: str | None = None) -> str:
-    lines = [f"Task goal: {goal}"]
-    if url:
-        lines.append(f"Current page URL: {url}")
-    if title:
-        lines.append(f"Current page title: {title}")
-    lines.append(
-        "Which GUI elements, navigation paths, labels, and actions on this storefront "
-        "are most relevant to complete this task?"
-    )
-    return "\n".join(lines)
-
-
-def truncate_rag_context(text: str, max_chars: int) -> str:
-    text = (text or "").strip()
-    if max_chars <= 0 or len(text) <= max_chars:
-        return text
-    return text[: max_chars - 3].rstrip() + "..."
-
-
-def fetch_rag_context(
-    session: RagSession,
-    *,
-    goal: str,
-    url: str | None = None,
-    title: str | None = None,
-    max_chars: int,
-) -> str:
-    query = build_rag_query(goal=goal, url=url, title=title)
-    raw = session.query(query)
-    return truncate_rag_context(raw, max_chars)
-
-
-def prior_knowledge_label(rag_mode: str | None) -> str:
-    if rag_mode:
-        return f"rag ({rag_mode})"
-    return "none (no RAG / no LoRA)"
-
-
-def prior_knowledge_meta(
-    *,
-    rag_mode: str | None,
-    rag_query_mode: str,
-    rag_per_step: bool,
-    rag_max_chars: int,
-    rag_stores_root: Path,
-) -> dict[str, Any] | None:
-    if not rag_mode:
-        return None
-    return {
-        "type": "rag",
-        "mode": rag_mode,
-        "query_mode": rag_query_mode,
-        "per_step": rag_per_step,
-        "max_chars": rag_max_chars,
-        "stores_root": str(rag_stores_root).replace("\\", "/"),
-    }
 
 
 def ensure_cart_has_item(page: Page, base_url: str, page_zoom: float) -> None:
@@ -375,7 +321,6 @@ def run_task(
     stuck_limit: int,
     artifacts_dir: Path,
     rag_session: RagSession | None = None,
-    rag_per_step: bool = False,
     rag_max_chars: int = DEFAULT_RAG_MAX_CHARS,
 ) -> TaskResult:
     task_id = task["id"]
@@ -410,9 +355,8 @@ def run_task(
     if rag_session is not None:
         task_rag_context = fetch_rag_context(
             rag_session,
-            goal=goal,
+            task=goal,
             url=start_url,
-            title=None,
             max_chars=rag_max_chars,
         )
         (task_dir / "rag_context.txt").write_text(task_rag_context, encoding="utf-8")
@@ -454,17 +398,6 @@ def run_task(
             cua.draw_som_overlay(screenshot_path, marks, overlay_path)
 
             screenshot_b64 = cua._read_image_as_b64(screenshot_path)
-            step_rag_context = task_rag_context
-            if rag_session is not None and rag_per_step:
-                step_rag_context = fetch_rag_context(
-                    rag_session,
-                    goal=goal,
-                    url=page.url,
-                    title=title,
-                    max_chars=rag_max_chars,
-                )
-                (step_dir / "rag_context.txt").write_text(step_rag_context, encoding="utf-8")
-
             action, pt, ct, tt = agent.decide_action(
                 goal=goal,
                 url=page.url,
@@ -472,7 +405,7 @@ def run_task(
                 screenshot_b64=screenshot_b64,
                 som_marks=marks,
                 action_history=action_history,
-                rag_context=step_rag_context,
+                rag_context=task_rag_context,
             )
             total_pt += pt
             total_ct += ct
@@ -500,7 +433,7 @@ def run_task(
                 completion_tokens=ct,
                 total_tokens=tt,
                 screenshot=str(screenshot_path.relative_to(artifacts_dir.parent)).replace("\\", "/"),
-                rag_context=step_rag_context,
+                rag_context=task_rag_context,
             )
             step_records.append(step_rec)
 
@@ -535,7 +468,7 @@ def run_task(
                 success = True
                 break
 
-            if (action.get("action") or "").strip().lower() == "done":
+            if cua.action_type_name(action) == "done":
                 success = cua.task_goal_reached(page, task)
                 break
 
@@ -544,7 +477,7 @@ def run_task(
                     step_rec.url_before == step_rec.url_after
                     and step_rec.title_before == step_rec.title_after
                 )
-                action_type = (action.get("action") or "").strip().lower()
+                action_type = cua.action_type_name(action)
                 if screen_unchanged and action_type == "click":
                     role, name = _resolve_mark(marks, action.get("target_mark_id"))
                     stuck_key = _click_stuck_key(
@@ -839,11 +772,6 @@ def main() -> None:
         help="Корень готовых RAG stores",
     )
     parser.add_argument(
-        "--rag-per-step",
-        action="store_true",
-        help="Обновлять RAG-контекст на каждом шаге (медленнее, точнее)",
-    )
-    parser.add_argument(
         "--rag-max-chars",
         type=int,
         default=DEFAULT_RAG_MAX_CHARS,
@@ -884,7 +812,6 @@ def main() -> None:
     pk_meta = prior_knowledge_meta(
         rag_mode=args.rag_mode,
         rag_query_mode=args.rag_query_mode,
-        rag_per_step=args.rag_per_step,
         rag_max_chars=args.rag_max_chars,
         rag_stores_root=rag_stores_root,
     )
@@ -897,7 +824,7 @@ def main() -> None:
     print(f"Prior knowledge: {pk_label}")
     if args.rag_mode:
         print(f"RAG store: {rag_stores_root / args.rag_mode}")
-        print(f"RAG query mode: {args.rag_query_mode}  per_step={args.rag_per_step}")
+        print(f"RAG query mode: {args.rag_query_mode}")
     if args.stuck_limit:
         print(f"Stuck limit: {args.stuck_limit} identical clicks on same screen")
     print(f"Tasks: {len(tasks)}")
@@ -940,7 +867,6 @@ def main() -> None:
                         stuck_limit=args.stuck_limit,
                         artifacts_dir=artifacts_dir,
                         rag_session=rag_session,
-                        rag_per_step=args.rag_per_step,
                         rag_max_chars=args.rag_max_chars,
                     )
                     results.append(result)

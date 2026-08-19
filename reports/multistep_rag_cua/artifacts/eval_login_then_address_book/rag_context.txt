@@ -1,0 +1,39 @@
+To achieve the goal of logging in with the test customer account and opening the Address Book, we need to follow these steps:
+
+1. **Navigate to the Login Page**: The current page URL is `http://localhost:7770/customer/account/login/`, which is the correct starting point for logging in.
+
+2. **Enter Credentials**: Enter the email `emma.lopez@gmail.com` and the password `Password.123` into the respective fields. The relevant GUI elements here would be the email and password input fields.
+
+3. **Submit the Form**: After entering the credentials, click the submit button to log in. The submit button is typically labeled as "Login" or "Sign In".
+
+4. **Navigate to the Address Book**: Once logged in, locate and click on the link or menu item labeled "Address Book" or something similar. This will take you to the Address Book page.
+
+Here are the relevant navigation paths and actions based on the provided information:
+
+- **GUI Elements**:
+  - Email Input Field: Labelled as "Email"
+  - Password Input Field: Labelled as "Password"
+  - Submit Button: Labelled as "Login" or "Sign In"
+
+- **Navigation Paths**:
+  - From the login page, navigate to the Address Book by clicking on the "Address Book" link or menu item.
+
+- **Labels and Roles**:
+  - The email input field is a text box (`role='textbox'`).
+  - The password input field is a text box (`role='textbox'`).
+  - The submit button is a button (`role='button'`).
+
+- **Actions**:
+  - Enter the email `emma.lopez@gmail.com` into the email input field.
+  - Enter the password `Password.123` into the password input field.
+  - Click the submit button to log in.
+
+By following these steps, you should be able to successfully log in with the test customer account and navigate to the Address Book page.
+
+### References
+
+- [1] Document Title One
+- [2] Document Title Two
+- [3] Document Title Three
+- [4] Document Title Four
+- [5] Document Title Five

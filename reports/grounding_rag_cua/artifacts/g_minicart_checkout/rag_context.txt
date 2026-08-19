@@ -1,0 +1,29 @@
+To navigate from the open mini-cart to the checkout process on the storefront, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **GUI Elements**:
+   - **My Cart**: This is the link or button that opens the minicart dropdown. It is labeled as "My Cart" and is typically found in the header or a navigation bar.
+   - **Minicart Dropdown**: Once opened, this is the area where the items in the cart are displayed. It may contain a "View and Edit Cart" option.
+   - **View and Edit Cart**: This is a link or button within the minicart dropdown that allows the user to view and modify the items in the cart before proceeding to checkout.
+   - **Proceed to Checkout**: This is the button that takes the user directly to the checkout page. It is usually labeled as "Proceed to Checkout," "Check Out," or similar.
+
+2. **Navigation Paths**:
+   - **Click 'My Cart'**: This is the initial step to open the minicart dropdown.
+   - **Click 'View and Edit Cart'**: After opening the minicart, this link allows the user to view the cart contents and make any necessary adjustments.
+   - **Click 'Proceed to Checkout'**: This is the final step to navigate from the cart to the checkout page.
+
+3. **Labels**:
+   - **My Cart**: The label for the link or button that opens the minicart.
+   - **View and Edit Cart**: The label for the link or button that allows viewing and editing the cart contents.
+   - **Proceed to Checkout**: The label for the button that takes the user to the checkout page.
+
+4. **Roles**:
+   - **Role of 'My Cart'**: This role indicates the function of the 'My Cart' link, which is to open the minicart dropdown.
+   - **Role of 'View and Edit Cart'**: This role describes the function of the 'View and Edit Cart' link, which is to allow the user to view and edit the cart contents.
+   - **Role of 'Proceed to Checkout'**: This role describes the function of the 'Proceed to Checkout' button, which is to take the user to the checkout page.
+
+5. **Actions**:
+   - **Click 'My Cart'**: This action opens the minicart dropdown.
+   - **Click 'View and Edit Cart'**: This action allows the user to view and edit the cart contents.
+   - **Click 'Proceed to Checkout'**: This action navigates the user from the cart to the checkout page.
+
+By following these steps, the user can efficiently proceed from the open mini-cart to the checkout process on the storefront.

@@ -1,0 +1,25 @@
+To accomplish the task of opening the full Shopping Cart page via the "View and Edit Cart" option from the homepage, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **Navigation Path**: 
+   - Start from the homepage.
+   - Click on the "My Cart" link to open the minicart dropdown.
+   - Within the minicart dropdown, click on the "View and Edit Cart" link.
+
+2. **GUI Elements**:
+   - **My Cart Link**: This is the initial link you click to open the minicart dropdown.
+   - **Minicart Dropdown**: This is the dropdown that opens when you click the "My Cart" link.
+   - **View and Edit Cart Link**: This is the link inside the minicart dropdown that allows you to view and edit the cart contents.
+
+3. **Labels**:
+   - **My Cart**: The label for the link that opens the minicart dropdown.
+   - **View and Edit Cart**: The label for the link within the minicart dropdown that leads to the full Shopping Cart page.
+
+4. **Roles**:
+   - **Role of the "My Cart" Link**: This link is responsible for opening the minicart dropdown, which is a container for the cart items.
+   - **Role of the "View and Edit Cart" Link**: This link is responsible for navigating to the full Shopping Cart page, allowing the user to view and edit the cart contents.
+
+5. **Actions**:
+   - **Click on "My Cart"**: This action opens the minicart dropdown.
+   - **Click on "View and Edit Cart"**: This action navigates to the full Shopping Cart page.
+
+By following these steps, you will successfully open the full Shopping Cart page without using the "Proceed to Checkout" option. The relevant actions and elements are clearly defined in the Knowledge Graph and Document Chunks provided.

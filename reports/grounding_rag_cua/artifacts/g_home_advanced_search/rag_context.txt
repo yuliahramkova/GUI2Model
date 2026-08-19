@@ -1,0 +1,16 @@
+To achieve the goal of opening a page with extra search filters beyond the header box, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **Navigation Path**: The Advanced Search feature is located in the Header and on the Homepage. This suggests that accessing the Advanced Search feature will provide additional search filters beyond what is available in the header box.
+
+2. **GUI Elements**:
+   - **Header**: Contains the Advanced Search feature, which is likely to offer more advanced search options.
+   - **Advanced Search Feature**: Located in the Header and on the Homepage, it provides access to more detailed search filters.
+
+3. **Labels and Roles**:
+   - **Advanced Search**: The label for the feature that allows for more detailed search queries.
+   - **Header**: The top part of the webpage containing navigation links, including the Advanced Search option.
+
+4. **Actions**:
+   - **Click the Advanced Search Link**: This action will take you to the Advanced Search page, where you can apply more detailed search filters.
+
+By following these elements and actions, you can navigate to a page that offers extra search filters beyond those available in the header box.

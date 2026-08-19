@@ -1,0 +1,18 @@
+To achieve the goal of opening the Advanced Search, typing 'tea' into the Product Name field, and running the search, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **GUI Elements and Navigation Paths**:
+   - **Advanced Search Feature**: Located in the Header or Homepage. This is the starting point for initiating the search.
+   - **Product Name Field**: Typically found within the Advanced Search form, where users can enter their search terms.
+   - **Search Button**: Usually labeled as 'Search', 'Find', or 'Go' and is used to execute the search after entering the product name.
+
+2. **Labels and Roles**:
+   - **Header**: Contains the Advanced Search link, which is the first step in the navigation path.
+   - **Advanced Search Form**: A form where users can input their search criteria, including the product name.
+   - **Product Name Field Label**: Likely labeled as 'Product Name', 'Search Term', or similar, indicating where the user should type their query.
+
+3. **Actions**:
+   - **Click on Advanced Search Link**: This action navigates to the Advanced Search page.
+   - **Type 'tea' into the Product Name Field**: This action inputs the search term into the designated field.
+   - **Click the Search Button**: This action triggers the search and displays the results.
+
+By following these steps, the user can effectively initiate the search for tea-related products on the storefront. The specific navigation paths and labels may vary depending on the design of the storefront, but the core actions remain consistent across different implementations.

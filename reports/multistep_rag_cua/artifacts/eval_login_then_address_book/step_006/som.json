@@ -1,0 +1,552 @@
+[
+  {
+    "mark_id": 1,
+    "role": "link",
+    "name": "Tweezers For Succulents Duo",
+    "bbox_norm": [
+      0.2976345486111111,
+      0.5258522727272728,
+      0.3966471354166667,
+      0.5385795454545454
+    ]
+  },
+  {
+    "mark_id": 2,
+    "role": "link",
+    "name": "JSY Foldable Bath Body Brush Portable Massager Brush with Long Handle for Wet Dry Brush Bath & Body Brushes (Color : Gre",
+    "bbox_norm": [
+      0.43157552083333334,
+      0.5258522727272728,
+      0.5520290798611112,
+      0.5794886363636363
+    ]
+  },
+  {
+    "mark_id": 3,
+    "role": "link",
+    "name": "BODY Exfoliating Washcloth Mitt, Soft Dual-Sided Wet & Dry Face & Body Exfoliator - Body Scrubber Exfoliating Cloth Pad",
+    "bbox_norm": [
+      0.5655164930555555,
+      0.5258522727272728,
+      0.678515625,
+      0.5794886363636363
+    ]
+  },
+  {
+    "mark_id": 4,
+    "role": "link",
+    "name": "Lip Balm Containers, Refillable Transparent Cosmetic Containers Empty with Lids for Earrings for Travel Use for Cosmetic",
+    "bbox_norm": [
+      0.6994574652777777,
+      0.5258522727272728,
+      0.8124782986111111,
+      0.5794886363636363
+    ]
+  },
+  {
+    "mark_id": 5,
+    "role": "link",
+    "name": "NOZE Rustic Coat Rack Wall Mounted Shelf with 4 Hooks, Hanging Entryway Organizer for Mug Coffee Cup, Holding Solid Wood",
+    "bbox_norm": [
+      0.18645833333333334,
+      0.7569318181818182,
+      0.28400607638888886,
+      0.8651136363636364
+    ]
+  },
+  {
+    "mark_id": 6,
+    "role": "link",
+    "name": "Plus Size Lingerie for Women Sexy for Sex Naughty Eyelash Lace Bodysuit Naughty Mesh One Piece Teddy Bodysuit Outfits",
+    "bbox_norm": [
+      0.18645833333333334,
+      0.8728409090909091,
+      0.28340928819444444,
+      0.9401136363636363
+    ]
+  },
+  {
+    "mark_id": 7,
+    "role": "link",
+    "name": "SureThik 15g Hair Thickening Fiber (Black) and Holding Spray (3oz) Bundle",
+    "bbox_norm": [
+      0.2976345486111111,
+      0.8780681818181818,
+      0.4149197048611111,
+      0.9180681818181818
+    ]
+  },
+  {
+    "mark_id": 8,
+    "role": "link",
+    "name": "VeSunny Tape in Hair Extensions Ombre Blonde Silky Straight Tape on Hair Extensions Brown to Blonde Ombre Double Sided T",
+    "bbox_norm": [
+      0.43157552083333334,
+      0.8780681818181818,
+      0.5538302951388889,
+      0.9589772727272727
+    ]
+  },
+  {
+    "mark_id": 9,
+    "role": "link",
+    "name": "Mineralogie All Natural Lip Gloss, Ruby Rose",
+    "bbox_norm": [
+      0.5655164930555555,
+      0.8780681818181818,
+      0.6771918402777778,
+      0.9044318181818182
+    ]
+  },
+  {
+    "mark_id": 10,
+    "role": "link",
+    "name": "SRURLLUG Tabletop Vanity Mirror Brightness Adjustable Portable Mirrors for Travel with 3 Color Lighting Modes and USB Re",
+    "bbox_norm": [
+      0.6994574652777777,
+      0.8780681818181818,
+      0.8205512152777777,
+      0.9589772727272727
+    ]
+  },
+  {
+    "mark_id": 11,
+    "role": "link",
+    "name": "Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp",
+    "bbox_norm": [
+      0.18645833333333334,
+      0.9478409090909091,
+      0.2811740451388889,
+      0.987840909090909
+    ]
+  },
+  {
+    "mark_id": 12,
+    "role": "link",
+    "name": "My Account",
+    "bbox_norm": [
+      0.5769639756944445,
+      0.006818181818181818,
+      0.6166124131944445,
+      0.019545454545454546
+    ]
+  },
+  {
+    "mark_id": 13,
+    "role": "link",
+    "name": "My Wish List 1 item",
+    "bbox_norm": [
+      0.6244249131944445,
+      0.006818181818181818,
+      0.6899631076388889,
+      0.019545454545454546
+    ]
+  },
+  {
+    "mark_id": 14,
+    "role": "link",
+    "name": "Sign Out",
+    "bbox_norm": [
+      0.6977756076388889,
+      0.006818181818181818,
+      0.7267144097222222,
+      0.019545454545454546
+    ]
+  },
+  {
+    "mark_id": 15,
+    "role": "link",
+    "name": "store logo",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.04863636363636364,
+      0.28125,
+      0.06723011363636364
+    ]
+  },
+  {
+    "mark_id": 16,
+    "role": "combobox",
+    "name": "Search entire store here...",
+    "bbox_norm": [
+      0.6533094618055556,
+      0.04863636363636364,
+      0.7835177951388889,
+      0.07045454545454545
+    ]
+  },
+  {
+    "mark_id": 17,
+    "role": "button",
+    "name": "Search",
+    "bbox_norm": [
+      0.7668511284722223,
+      0.04863636363636364,
+      0.7783094618055556,
+      0.07045454545454545
+    ]
+  },
+  {
+    "mark_id": 18,
+    "role": "link",
+    "name": "My Cart 5 5 items",
+    "bbox_norm": [
+      0.7902886284722223,
+      0.04863636363636364,
+      0.8229166666666666,
+      0.07113636363636364
+    ]
+  },
+  {
+    "mark_id": 19,
+    "role": "link",
+    "name": "Advanced Search",
+    "bbox_norm": [
+      0.6533094618055556,
+      0.07386363636363637,
+      0.71142578125,
+      0.0865909090909091
+    ]
+  },
+  {
+    "mark_id": 20,
+    "role": "menu",
+    "name": "Beauty & Personal Care Oral Care Skin Care Makeup Foot, Hand & Nail Care Hair Care Tools & Accessories Fragrance Persona",
+    "bbox_norm": [
+      0.16666666666666666,
+      0.0875,
+      0.8333333333333334,
+      0.1615909090909091
+    ]
+  },
+  {
+    "mark_id": 21,
+    "role": "menuitem",
+    "name": "Beauty & Personal Care",
+    "bbox_norm": [
+      0.17083333333333334,
+      0.0875,
+      0.27265625,
+      0.12545454545454546
+    ]
+  },
+  {
+    "mark_id": 22,
+    "role": "menuitem",
+    "name": "Sports & Outdoors",
+    "bbox_norm": [
+      0.27786458333333336,
+      0.0875,
+      0.3613823784722222,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 23,
+    "role": "menuitem",
+    "name": "Clothing, Shoes & Jewelry",
+    "bbox_norm": [
+      0.3665907118055556,
+      0.0875,
+      0.4750759548611111,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 24,
+    "role": "menuitem",
+    "name": "Home & Kitchen",
+    "bbox_norm": [
+      0.48028428819444446,
+      0.0875,
+      0.5556532118055556,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 25,
+    "role": "menuitem",
+    "name": "Office Products",
+    "bbox_norm": [
+      0.5608615451388889,
+      0.0875,
+      0.6333550347222222,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 26,
+    "role": "menuitem",
+    "name": "Tools & Home Improvement",
+    "bbox_norm": [
+      0.6385633680555556,
+      0.0875,
+      0.7561414930555556,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 27,
+    "role": "menuitem",
+    "name": "Health & Household",
+    "bbox_norm": [
+      0.17083333333333334,
+      0.12545454545454546,
+      0.2601996527777778,
+      0.1615909090909091
+    ]
+  },
+  {
+    "mark_id": 28,
+    "role": "menuitem",
+    "name": "Patio, Lawn & Garden",
+    "bbox_norm": [
+      0.2654079861111111,
+      0.12545454545454546,
+      0.3603515625,
+      0.1615909090909091
+    ]
+  },
+  {
+    "mark_id": 29,
+    "role": "menuitem",
+    "name": "Electronics",
+    "bbox_norm": [
+      0.3655598958333333,
+      0.12545454545454546,
+      0.42183159722222224,
+      0.1615909090909091
+    ]
+  },
+  {
+    "mark_id": 30,
+    "role": "menuitem",
+    "name": "Cell Phones & Accessories",
+    "bbox_norm": [
+      0.42703993055555556,
+      0.12545454545454546,
+      0.5369466145833334,
+      0.1615909090909091
+    ]
+  },
+  {
+    "mark_id": 31,
+    "role": "menuitem",
+    "name": "Video Games",
+    "bbox_norm": [
+      0.5421549479166666,
+      0.12545454545454546,
+      0.6059027777777778,
+      0.1615909090909091
+    ]
+  },
+  {
+    "mark_id": 32,
+    "role": "menuitem",
+    "name": "Grocery & Gourmet Food",
+    "bbox_norm": [
+      0.6111111111111112,
+      0.12545454545454546,
+      0.7175889756944445,
+      0.1615909090909091
+    ]
+  },
+  {
+    "mark_id": 33,
+    "role": "menuitem",
+    "name": "Oral Care",
+    "bbox_norm": [
+      0.17152777777777778,
+      0.13585227272727274,
+      0.29131944444444446,
+      0.16039772727272728
+    ]
+  },
+  {
+    "mark_id": 34,
+    "role": "menuitem",
+    "name": "Skin Care",
+    "bbox_norm": [
+      0.17152777777777778,
+      0.16039772727272728,
+      0.29131944444444446,
+      0.1849431818181818
+    ]
+  },
+  {
+    "mark_id": 35,
+    "role": "link",
+    "name": "Home",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.17863636363636365,
+      0.19641927083333333,
+      0.18954545454545454
+    ]
+  },
+  {
+    "mark_id": 36,
+    "role": "menuitem",
+    "name": "Makeup",
+    "bbox_norm": [
+      0.17152777777777778,
+      0.1849431818181818,
+      0.29131944444444446,
+      0.20948863636363638
+    ]
+  },
+  {
+    "mark_id": 37,
+    "role": "menuitem",
+    "name": "Foot, Hand & Nail Care",
+    "bbox_norm": [
+      0.17152777777777778,
+      0.20948863636363638,
+      0.29131944444444446,
+      0.2340340909090909
+    ]
+  },
+  {
+    "mark_id": 38,
+    "role": "menuitem",
+    "name": "Hair Care",
+    "bbox_norm": [
+      0.17152777777777778,
+      0.2340340909090909,
+      0.29131944444444446,
+      0.2585795454545455
+    ]
+  },
+  {
+    "mark_id": 39,
+    "role": "menuitem",
+    "name": "Tools & Accessories",
+    "bbox_norm": [
+      0.17152777777777778,
+      0.2585795454545455,
+      0.29131944444444446,
+      0.283125
+    ]
+  },
+  {
+    "mark_id": 40,
+    "role": "link",
+    "name": "View as List",
+    "bbox_norm": [
+      0.32645399305555556,
+      0.26181818181818184,
+      0.35075954861111114,
+      0.28954545454545455
+    ]
+  },
+  {
+    "mark_id": 41,
+    "role": "link",
+    "name": "Set Descending Direction",
+    "bbox_norm": [
+      0.803125,
+      0.2631818181818182,
+      0.8177083333333334,
+      0.285
+    ]
+  },
+  {
+    "mark_id": 42,
+    "role": "combobox",
+    "name": "Position Product Name Price",
+    "bbox_norm": [
+      0.7276150173611111,
+      0.26454545454545453,
+      0.8012261284722222,
+      0.2863636363636364
+    ]
+  },
+  {
+    "mark_id": 43,
+    "role": "menuitem",
+    "name": "Fragrance",
+    "bbox_norm": [
+      0.17152777777777778,
+      0.283125,
+      0.29131944444444446,
+      0.30767045454545455
+    ]
+  },
+  {
+    "mark_id": 44,
+    "role": "menuitem",
+    "name": "Personal Care",
+    "bbox_norm": [
+      0.17152777777777778,
+      0.30767045454545455,
+      0.29131944444444446,
+      0.3322159090909091
+    ]
+  },
+  {
+    "mark_id": 45,
+    "role": "menuitem",
+    "name": "Shave & Hair Removal",
+    "bbox_norm": [
+      0.17152777777777778,
+      0.3322159090909091,
+      0.29131944444444446,
+      0.3567613636363636
+    ]
+  },
+  {
+    "mark_id": 46,
+    "role": "menuitem",
+    "name": "Salon & Spa Equipment",
+    "bbox_norm": [
+      0.17152777777777778,
+      0.3567613636363636,
+      0.29131944444444446,
+      0.38130681818181816
+    ]
+  },
+  {
+    "mark_id": 47,
+    "role": "button",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.3559027777777778,
+      0.5769886363636364,
+      0.3741319444444444,
+      0.6008522727272727
+    ]
+  },
+  {
+    "mark_id": 48,
+    "role": "button",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.3760308159722222,
+      0.5769886363636364,
+      0.3942599826388889,
+      0.6008522727272727
+    ]
+  },
+  {
+    "mark_id": 49,
+    "role": "button",
+    "name": "Add to Cart",
+    "bbox_norm": [
+      0.2976345486111111,
+      0.5777840909090909,
+      0.3559027777777778,
+      0.6000568181818182
+    ]
+  },
+  {
+    "mark_id": 50,
+    "role": "button",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.48984375,
+      0.6178977272727273,
+      0.5080729166666667,
+      0.6417613636363636
+    ]
+  }
+]

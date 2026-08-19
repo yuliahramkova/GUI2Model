@@ -120,6 +120,62 @@ def _extract_json_obj(text: str) -> dict[str, Any] | None:
         return None
 
 
+def _coerce_action_str(value: Any) -> str:
+    if value is None:
+        return ""
+    if isinstance(value, str):
+        return value.strip()
+    if isinstance(value, (int, float, bool)):
+        return str(value).strip()
+    return ""
+
+
+def normalize_agent_action(raw: dict[str, Any] | None) -> dict[str, Any]:
+    """Приводит JSON от VLM к плоскому action-объекту.
+
+    Модель иногда возвращает вложенный объект:
+    {"action": {"action": "click", "target_mark_id": 1}}
+    """
+    if not isinstance(raw, dict):
+        return {
+            "action": "done",
+            "value": "",
+            "notes": "invalid action payload (not a JSON object)",
+        }
+
+    action = dict(raw)
+    inner = action.get("action")
+    if isinstance(inner, dict):
+        merged = dict(inner)
+        for key, val in action.items():
+            if key != "action" and key not in merged:
+                merged[key] = val
+        action = merged
+
+    action["action"] = _coerce_action_str(action.get("action")).lower()
+
+    mark_id = action.get("target_mark_id")
+    if mark_id is not None:
+        try:
+            action["target_mark_id"] = int(mark_id)
+        except (TypeError, ValueError):
+            action["target_mark_id"] = None
+
+    value = action.get("value")
+    if value is None:
+        action["value"] = ""
+    elif isinstance(value, (dict, list)):
+        action["value"] = ""
+    elif not isinstance(value, str):
+        action["value"] = str(value)
+
+    return action
+
+
+def action_type_name(action: dict[str, Any]) -> str:
+    return _coerce_action_str(action.get("action")).lower()
+
+
 def collect_elements_dom(page: Page) -> list[dict[str, Any]]:
     """Собирает видимые интерактивные элементы и их bbox на текущей странице."""
     return page.evaluate(
@@ -414,7 +470,7 @@ class OpenAITeacher:
                 "value": "",
                 "notes": f"Failed to parse teacher model JSON: {content[:200]}",
             }
-        return parsed
+        return normalize_agent_action(parsed)
 
 
 def execute_action(
@@ -424,7 +480,8 @@ def execute_action(
     marks: list[Mark],
 ) -> tuple[bool, str | None]:
     """Исполняет одно действие агента в браузере и возвращает статус."""
-    action_type = (action.get("action") or "").strip().lower()
+    action = normalize_agent_action(action)
+    action_type = action_type_name(action)
     value = action.get("value") or ""
 
     try:
@@ -969,7 +1026,7 @@ def main() -> None:
                         success = True
                         break
 
-                    if (action.get("action") or "").strip().lower() == "done":
+                    if (action_type_name(action) == "done"):
                         has_expected = any(k.startswith("expected_end_") for k in task)
                         success = task_goal_reached(page, task) if has_expected else bool(action_success)
                         break

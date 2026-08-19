@@ -1,0 +1,17 @@
+To change the number of units you want to buy for an item on this storefront, you would typically interact with the following elements:
+
+1. **Quantity Selector**: This is usually a dropdown or slider that allows you to choose the desired number of units. It might be located near the "Add to Cart" button or within the product detail page.
+
+2. **Add to Cart Button**: After selecting the desired quantity, you would click the "Add to Cart" button to add the specified number of units to your cart.
+
+3. **Navigation Paths**: You may need to navigate back to the product detail page if you're currently on a different page. This could involve clicking on the product title or product link to return to the product detail page.
+
+4. **Labels**: Labels like "Quantity," "Units," or "Number of Items" might appear next to the quantity selector to clarify what you're adjusting.
+
+5. **Roles**: As a customer, you would perform actions like clicking on the quantity selector and then the "Add to Cart" button.
+
+6. **Actions**: The relevant actions would include:
+   - Clicking on the quantity selector to adjust the number of units.
+   - Clicking the "Add to Cart" button to add the selected quantity to your cart.
+
+If you provide a specific product URL or more details about the storefront layout, I can give you a more precise navigation path. However, based on the information given, these are the key elements and actions you would need to focus on to change the quantity of an item you wish to buy.

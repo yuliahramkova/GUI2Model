@@ -1,4 +1,4 @@
-"""Baseline grounding на target GUI (без RAG/LoRA) — Qwen2.5-VL zero-shot.
+"""Baseline grounding на target GUI — Qwen2.5-VL (zero-shot или LightRAG prior knowledge).
 
 Читает data/target_app/eval/grounding.json.
 Метрики: click accuracy (точка в GT bbox), токены на пример.
@@ -6,6 +6,7 @@
 Пример:
   python eval/target_grounding_baseline.py
   python eval/target_grounding_baseline.py --limit 5
+  python eval/target_grounding_baseline.py --rag-mode cua --out-dir reports/grounding_rag_cua
 """
 
 from __future__ import annotations
@@ -17,10 +18,12 @@ import io
 import json
 import os
 import re
+import sys
 from collections import defaultdict
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Any
 
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -28,10 +31,20 @@ from PIL import Image
 from tqdm import tqdm
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-REPORTS_DIR = REPO_ROOT / "reports" / "grounding"
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from eval.rag_helpers import (  # noqa: E402
+    DEFAULT_RAG_MAX_CHARS,
+    fetch_rag_context,
+    prior_knowledge_label,
+    prior_knowledge_meta,
+)
+from rag.client import DEFAULT_STORES_ROOT, RagSession  # noqa: E402
+from rag.modes import ALL_MODES  # noqa: E402
+
+DEFAULT_OUT = REPO_ROOT / "reports" / "grounding"
 DEFAULT_GROUNDING = REPO_ROOT / "data/target_app/eval/grounding.json"
-DEFAULT_CSV = REPORTS_DIR / "detailed.csv"
-DEFAULT_MD = REPORTS_DIR / "baseline.md"
 
 
 def resolve_repo_path(path: Path) -> Path:
@@ -70,6 +83,7 @@ class EvalRow:
     image_width: int
     image_height: int
     parse_ok: bool
+    rag_context: str | None = None
 
 
 def load_model_client() -> tuple[OpenAI, str]:
@@ -161,26 +175,39 @@ def predict_point(
     client: OpenAI,
     model: str,
     sample: GroundingSample,
+    *,
+    rag_context: str | None = None,
 ) -> tuple[str, int, int, int]:
-    response = client.chat.completions.create(
-        model=model,
-        messages=[
+    messages: list[dict[str, Any]] = []
+    if rag_context:
+        messages.append(
             {
-                "role": "user",
-                "content": [
-                    {"type": "image_url", "image_url": {"url": image_to_data_url(sample.image)}},
-                    {
-                        "type": "text",
-                        "text": build_grounding_prompt(
-                            sample.instruction,
-                            sample.image_width,
-                            sample.image_height,
-                        ),
-                    },
-                ],
+                "role": "system",
+                "content": (
+                    "Prior knowledge about this GUI (from a knowledge base — hints only; "
+                    "the screenshot is authoritative):\n"
+                    f"{rag_context}"
+                ),
             }
-        ],
+        )
+    messages.append(
+        {
+            "role": "user",
+            "content": [
+                {"type": "image_url", "image_url": {"url": image_to_data_url(sample.image)}},
+                {
+                    "type": "text",
+                    "text": build_grounding_prompt(
+                        sample.instruction,
+                        sample.image_width,
+                        sample.image_height,
+                    ),
+                },
+            ],
+        }
     )
+
+    response = client.chat.completions.create(model=model, messages=messages)
     text = response.choices[0].message.content or ""
     usage = response.usage
     return (
@@ -191,10 +218,37 @@ def predict_point(
     )
 
 
-def run_eval(client: OpenAI, model: str, samples: list[GroundingSample]) -> list[EvalRow]:
+def run_eval(
+    client: OpenAI,
+    model: str,
+    samples: list[GroundingSample],
+    *,
+    rag_session: RagSession | None = None,
+    rag_max_chars: int = DEFAULT_RAG_MAX_CHARS,
+    artifacts_dir: Path | None = None,
+) -> list[EvalRow]:
     rows: list[EvalRow] = []
-    for sample in tqdm(samples, desc="Target grounding baseline"):
-        raw, prompt_tokens, completion_tokens, total_tokens = predict_point(client, model, sample)
+    desc = "Target grounding (RAG)" if rag_session else "Target grounding baseline"
+    for sample in tqdm(samples, desc=desc):
+        rag_context: str | None = None
+        if rag_session is not None:
+            rag_context = fetch_rag_context(
+                rag_session,
+                task=sample.instruction,
+                screen_id=sample.screen_id,
+                max_chars=rag_max_chars,
+            )
+            if artifacts_dir is not None:
+                sample_dir = artifacts_dir / sample.id
+                sample_dir.mkdir(parents=True, exist_ok=True)
+                (sample_dir / "rag_context.txt").write_text(rag_context, encoding="utf-8")
+
+        raw, prompt_tokens, completion_tokens, total_tokens = predict_point(
+            client,
+            model,
+            sample,
+            rag_context=rag_context,
+        )
         point = extract_raw_point(raw)
         rows.append(
             EvalRow(
@@ -215,6 +269,7 @@ def run_eval(client: OpenAI, model: str, samples: list[GroundingSample]) -> list
                 image_width=sample.image_width,
                 image_height=sample.image_height,
                 parse_ok=point is not None,
+                rag_context=rag_context,
             )
         )
     return rows
@@ -245,8 +300,8 @@ def summarize(rows: list[EvalRow]) -> dict[str, dict[str, float | int]]:
     return summary
 
 
-def print_summary(summary: dict[str, dict[str, float | int]]) -> None:
-    print("\n=== Target GUI grounding baseline (zero-shot, no prior knowledge) ===")
+def print_summary(summary: dict[str, dict[str, float | int]], *, prior_knowledge: str) -> None:
+    print(f"\n=== Target GUI grounding ({prior_knowledge}) ===")
     print(
         f"{'slice':<28} {'n':>4} {'acc':>8} {'tokens':>10} {'avg_tok':>10} {'parse_fail':>10}"
     )
@@ -280,6 +335,7 @@ def save_csv(rows: list[EvalRow], path: Path) -> None:
                 "completion_tokens",
                 "total_tokens",
                 "steps",
+                "rag_context",
             ],
             delimiter=",",
             quoting=csv.QUOTE_MINIMAL,
@@ -305,6 +361,7 @@ def save_csv(rows: list[EvalRow], path: Path) -> None:
                     "completion_tokens": row.completion_tokens,
                     "total_tokens": row.total_tokens,
                     "steps": row.steps,
+                    "rag_context": row.rag_context or "",
                 }
             )
 
@@ -316,6 +373,8 @@ def save_markdown(
     model: str,
     grounding_path: Path,
     n_samples: int,
+    prior_knowledge: str,
+    prior_knowledge_detail: dict[str, Any] | None = None,
 ) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     lines = [
@@ -323,13 +382,19 @@ def save_markdown(
         "",
         f"- created_at: `{datetime.now(timezone.utc).isoformat()}`",
         f"- model: `{model}`",
-        "- prior_knowledge: **none** (no RAG / no LoRA)",
+        f"- prior_knowledge: **{prior_knowledge}**",
         f"- dataset: `{grounding_path.as_posix()}`",
         f"- samples: {n_samples}",
-        "",
-        "| slice | n | accuracy | total_tokens | avg_tokens | parse_fail |",
-        "|---|---:|---:|---:|---:|---:|",
     ]
+    if prior_knowledge_detail:
+        lines.append(f"- rag_config: `{json.dumps(prior_knowledge_detail, ensure_ascii=False)}`")
+    lines.extend(
+        [
+            "",
+            "| slice | n | accuracy | total_tokens | avg_tokens | parse_fail |",
+            "|---|---:|---:|---:|---:|---:|",
+        ]
+    )
     for name, s in summary.items():
         if name.startswith("screen:"):
             continue
@@ -356,26 +421,86 @@ def save_markdown(
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def save_results_json(
+    rows: list[EvalRow],
+    summary: dict[str, dict[str, float | int]],
+    path: Path,
+    meta: dict[str, Any],
+) -> None:
+    payload = {
+        **meta,
+        "summary": summary,
+        "results": [
+            {
+                "id": r.id,
+                "screen_id": r.screen_id,
+                "instruction": r.instruction,
+                "hit": r.hit,
+                "parse_ok": r.parse_ok,
+                "pred_px": r.pred_px,
+                "pred_py": r.pred_py,
+                "bbox_px": list(r.bbox_px),
+                "total_tokens": r.total_tokens,
+                "rag_context": r.rag_context,
+            }
+            for r in rows
+        ],
+    }
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Zero-shot Qwen baseline on target GUI grounding set"
+        description="Qwen grounding on target GUI (optional LightRAG prior knowledge)"
     )
     parser.add_argument("--grounding", type=Path, default=DEFAULT_GROUNDING)
-    parser.add_argument("--csv", type=Path, default=DEFAULT_CSV, help="Detailed results CSV")
-    parser.add_argument("--md", type=Path, default=DEFAULT_MD, help="Summary markdown report")
+    parser.add_argument("--out-dir", type=Path, default=DEFAULT_OUT)
     parser.add_argument("--limit", type=int, default=None, help="Optional: only first N samples")
     parser.add_argument(
         "--test-model",
         action="store_true",
         help="Debug one sample: print raw response / hit, no CSV",
     )
+    parser.add_argument(
+        "--rag-mode",
+        choices=ALL_MODES,
+        default=None,
+        help="Включить prior knowledge через LightRAG (store rag/stores/<mode>/)",
+    )
+    parser.add_argument(
+        "--rag-query-mode",
+        default="hybrid",
+        choices=["naive", "local", "global", "hybrid", "mix"],
+        help="Режим retrieval LightRAG при --rag-mode",
+    )
+    parser.add_argument(
+        "--rag-stores-root",
+        type=Path,
+        default=DEFAULT_STORES_ROOT,
+        help="Корень готовых RAG stores",
+    )
+    parser.add_argument(
+        "--rag-max-chars",
+        type=int,
+        default=DEFAULT_RAG_MAX_CHARS,
+        help="Обрезка RAG-ответа перед подачей в VLM",
+    )
+    parser.add_argument(
+        "--rag-quiet",
+        action="store_true",
+        help="Без пошагового вывода [rag] во время eval",
+    )
     args = parser.parse_args()
 
     load_dotenv()
 
     grounding_path = resolve_repo_path(args.grounding)
-    csv_path = resolve_repo_path(args.csv)
-    md_path = resolve_repo_path(args.md)
+    out_dir = resolve_repo_path(args.out_dir)
+    rag_stores_root = resolve_repo_path(args.rag_stores_root)
+    csv_path = out_dir / "detailed.csv"
+    md_path = out_dir / "baseline.md"
+    json_path = out_dir / "results.json"
 
     if not grounding_path.exists():
         raise SystemExit(
@@ -389,36 +514,96 @@ def main() -> None:
         raise SystemExit("No samples to evaluate")
 
     client, model = load_model_client()
-
-    if args.test_model:
-        s = samples[0]
-        raw, pt, ct, tt = predict_point(client, model, s)
-        point = extract_raw_point(raw)
-        print(f"id: {s.id}")
-        print(f"instruction: {s.instruction!r}")
-        print(f"image: {s.image_path} ({s.image_width}x{s.image_height})")
-        print(f"GT bbox_px: {s.bbox_px}")
-        print(f"raw: {raw!r}")
-        print(f"parsed: {point}")
-        print(f"hit: {is_hit(point, s.bbox_px)}")
-        print(f"tokens: prompt={pt} completion={ct} total={tt}")
-        return
-
-    rows = run_eval(client, model, samples)
-    summary = summarize(rows)
-    print_summary(summary)
-
-    csv_path.parent.mkdir(parents=True, exist_ok=True)
-    save_csv(rows, csv_path)
-    save_markdown(
-        summary,
-        md_path,
-        model=model,
-        grounding_path=grounding_path,
-        n_samples=len(rows),
+    pk_label = prior_knowledge_label(args.rag_mode)
+    pk_meta = prior_knowledge_meta(
+        rag_mode=args.rag_mode,
+        rag_query_mode=args.rag_query_mode,
+        rag_max_chars=args.rag_max_chars,
+        rag_stores_root=rag_stores_root,
     )
-    print(f"\nSaved: {csv_path}")
-    print(f"Saved: {md_path}")
+
+    print(f"Model: {model}")
+    print(f"Prior knowledge: {pk_label}")
+    if args.rag_mode:
+        print(f"RAG store: {rag_stores_root / args.rag_mode}")
+        print(f"RAG query mode: {args.rag_query_mode}")
+
+    rag_session: RagSession | None = None
+    if args.rag_mode:
+        rag_session = RagSession(
+            args.rag_mode,
+            stores_root=rag_stores_root,
+            query_mode=args.rag_query_mode,
+            verbose=not args.rag_quiet,
+        )
+
+    artifacts_dir = out_dir / "artifacts" if args.rag_mode else None
+
+    try:
+        if args.test_model:
+            s = samples[0]
+            rag_context: str | None = None
+            if rag_session is not None:
+                rag_context = fetch_rag_context(
+                    rag_session,
+                    task=s.instruction,
+                    screen_id=s.screen_id,
+                    max_chars=args.rag_max_chars,
+                )
+                print(f"RAG context ({len(rag_context or '')} chars):\n{rag_context[:500]}...")
+            raw, pt, ct, tt = predict_point(client, model, s, rag_context=rag_context)
+            point = extract_raw_point(raw)
+            print(f"id: {s.id}")
+            print(f"instruction: {s.instruction!r}")
+            print(f"image: {s.image_path} ({s.image_width}x{s.image_height})")
+            print(f"GT bbox_px: {s.bbox_px}")
+            print(f"raw: {raw!r}")
+            print(f"parsed: {point}")
+            print(f"hit: {is_hit(point, s.bbox_px)}")
+            print(f"tokens: prompt={pt} completion={ct} total={tt}")
+            return
+
+        rows = run_eval(
+            client,
+            model,
+            samples,
+            rag_session=rag_session,
+            rag_max_chars=args.rag_max_chars,
+            artifacts_dir=artifacts_dir,
+        )
+        summary = summarize(rows)
+        print_summary(summary, prior_knowledge=pk_label)
+
+        out_dir.mkdir(parents=True, exist_ok=True)
+        save_csv(rows, csv_path)
+        save_markdown(
+            summary,
+            md_path,
+            model=model,
+            grounding_path=grounding_path,
+            n_samples=len(rows),
+            prior_knowledge=pk_label,
+            prior_knowledge_detail=pk_meta,
+        )
+        save_results_json(
+            rows,
+            summary,
+            json_path,
+            meta={
+                "created_at": datetime.now(timezone.utc).isoformat(),
+                "model": model,
+                "grounding_path": str(grounding_path).replace("\\", "/"),
+                "prior_knowledge": pk_meta,
+            },
+        )
+        print(f"\nSaved: {csv_path}")
+        print(f"Saved: {md_path}")
+        print(f"Saved: {json_path}")
+        if artifacts_dir is not None:
+            print(f"Artifacts: {artifacts_dir}")
+    finally:
+        if rag_session is not None:
+            rag_session.close()
 
 
 if __name__ == "__main__":

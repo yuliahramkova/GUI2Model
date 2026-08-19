@@ -1,32 +1,4 @@
 {
-  "doc-10590a974d11935a433560ab608cc4ab-chunk-000": {
-    "tokens": 39,
-    "content": "[source=a11y] [type=screen] Screen id='cart_empty' title='Shopping Cart' description='Empty shopping cart' url='http://localhost:7770/checkout/cart/'",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-10590a974d11935a433560ab608cc4ab",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:48e52b579c5cf84520a93e3a7d34dfda",
-      "default:extract:0b3b1052ed90bcdac7d940cbcad4f964"
-    ],
-    "create_time": 1787059488,
-    "update_time": 1787059499,
-    "_id": "doc-10590a974d11935a433560ab608cc4ab-chunk-000"
-  },
-  "doc-18737c929f0e58f64d4f20637bd214c3-chunk-000": {
-    "tokens": 40,
-    "content": "[source=a11y] [type=screen] Screen id='category' title='Electronics' description='Electronics category listing' url='http://localhost:7770/electronics.html'",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-18737c929f0e58f64d4f20637bd214c3",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:b92f614d3b73a001ad9c0a06ff453a15",
-      "default:extract:df7688a26433231d64c77d80574a59d0"
-    ],
-    "create_time": 1787059503,
-    "update_time": 1787059507,
-    "_id": "doc-18737c929f0e58f64d4f20637bd214c3-chunk-000"
-  },
   "doc-1e655bdbe42e94b57b5af114fcde92d5-chunk-000": {
     "tokens": 35,
     "content": "[source=a11y] [type=screen] Screen id='home' title='One Stop Market' description='Store homepage' url='http://localhost:7770/'",
@@ -35,151 +7,11 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:14480ff1df8f242975831a4a251b2448",
-      "default:extract:c1be8a7bfdf3d908a123b29dbf6aaf12"
+      "default:extract:ec056a61bd80090c5f4c4420c9176891"
     ],
-    "create_time": 1787059510,
-    "update_time": 1787059596,
+    "create_time": 1787076996,
+    "update_time": 1787077053,
     "_id": "doc-1e655bdbe42e94b57b5af114fcde92d5-chunk-000"
-  },
-  "doc-36f6576613a283888b16c8f9146dbd71-chunk-000": {
-    "tokens": 41,
-    "content": "[source=a11y] [type=screen] Screen id='search_advanced' title='Advanced Search' description='Advanced search form' url='http://localhost:7770/catalogsearch/advanced/'",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-36f6576613a283888b16c8f9146dbd71",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:ab243513c99f809299b48f23e1e57560",
-      "default:extract:9e45a87e0418086802e1456b85be7ed1"
-    ],
-    "create_time": 1787059597,
-    "update_time": 1787059598,
-    "_id": "doc-36f6576613a283888b16c8f9146dbd71-chunk-000"
-  },
-  "doc-3881dc8d47b3676c7ac00352787e5b11-chunk-000": {
-    "tokens": 38,
-    "content": "[source=a11y] [type=screen] Screen id='login' title='Customer Login' description='Customer login form' url='http://localhost:7770/customer/account/login/'",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-3881dc8d47b3676c7ac00352787e5b11",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:994ec51fe948d07493cd1747b3c92f0b",
-      "default:extract:4c7d11a49c8337b042d6054134bba8ba"
-    ],
-    "create_time": 1787059599,
-    "update_time": 1787059604,
-    "_id": "doc-3881dc8d47b3676c7ac00352787e5b11-chunk-000"
-  },
-  "doc-7ff218daa648cf801a7184502db5ca24-chunk-000": {
-    "tokens": 62,
-    "content": "[source=a11y] [type=screen] Screen id='product' title='Briess DME - Pilsen Light - 1 lb Bag' description='Product detail page' url='http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html'",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-7ff218daa648cf801a7184502db5ca24",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:fed46d9463021d7ce98647d105a60f33",
-      "default:extract:410b8ce07e0427cbffca9e2cdee05635"
-    ],
-    "create_time": 1787059604,
-    "update_time": 1787059610,
-    "_id": "doc-7ff218daa648cf801a7184502db5ca24-chunk-000"
-  },
-  "doc-98635dbb5321900fe07ed4d39d07cf78-chunk-000": {
-    "tokens": 60,
-    "content": "[source=a11y] [type=screen] Screen id='search_empty' title=\"Search results for: 'zzzxxyynotfound999'\" description='Search with zero results' url='http://localhost:7770/catalogsearch/result/?q=zzzxxyynotfound999'",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-98635dbb5321900fe07ed4d39d07cf78",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:ca142837cd009eedd9401798cdb4b319",
-      "default:extract:55e4a6e922fbd2a34c5399fac5ae39a7"
-    ],
-    "create_time": 1787059611,
-    "update_time": 1787059612,
-    "_id": "doc-98635dbb5321900fe07ed4d39d07cf78-chunk-000"
-  },
-  "doc-9e92b01bfe3c2300574d5d397bef740c-chunk-000": {
-    "tokens": 48,
-    "content": "[source=a11y] [type=screen] Screen id='subcategory' title='Cell Phones & Accessories' description='Subcategory via nav click from Electronics' url='http://localhost:7770/cell-phones-accessories.html'",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-9e92b01bfe3c2300574d5d397bef740c",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:06dce486c8abdeebef341c4045a2e12e",
-      "default:extract:0cc4e978ddc602e2ae5bdae99fd0f942"
-    ],
-    "create_time": 1787059613,
-    "update_time": 1787059616,
-    "_id": "doc-9e92b01bfe3c2300574d5d397bef740c-chunk-000"
-  },
-  "doc-bc7fa509f6089f64c49c65f0ceb6b8ff-chunk-000": {
-    "tokens": 41,
-    "content": "[source=a11y] [type=screen] Screen id='register' title='Create New Customer Account' description='Create customer account form' url='http://localhost:7770/customer/account/create/'",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-bc7fa509f6089f64c49c65f0ceb6b8ff",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:d466945e70b98264ca33ff6b45bd251b",
-      "default:extract:7cfe4e20d424412c747268597704f39f"
-    ],
-    "create_time": 1787059616,
-    "update_time": 1787059621,
-    "_id": "doc-bc7fa509f6089f64c49c65f0ceb6b8ff-chunk-000"
-  },
-  "doc-d2a72d64e9d709b745758f4681df3ca6-chunk-000": {
-    "tokens": 42,
-    "content": "[source=a11y] [type=screen] Screen id='forgot_password' title='Forgot Your Password?' description='Forgot password form' url='http://localhost:7770/customer/account/forgotpassword/'",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-d2a72d64e9d709b745758f4681df3ca6",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:69585cfeae3cd5299da2ff8cc889a18f",
-      "default:extract:c8f5d5d75f83492ca4a390cc447da838"
-    ],
-    "create_time": 1787059625,
-    "update_time": 1787059628,
-    "_id": "doc-d2a72d64e9d709b745758f4681df3ca6-chunk-000"
-  },
-  "doc-e71e082796434ad5e7fdfd56adbca8ef-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=screen] Screen id='search_results' title=\"Search results for: 'shirt'\" description=\"Search results for 'shirt'\" url='http://localhost:7770/catalogsearch/result/?q=shirt'",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-e71e082796434ad5e7fdfd56adbca8ef",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:ceb47ec1ebccf101ce07e136008d8e99",
-      "default:extract:2f31d7766db8197840682c0f87ac94e2"
-    ],
-    "create_time": 1787059629,
-    "update_time": 1787059632,
-    "_id": "doc-e71e082796434ad5e7fdfd56adbca8ef-chunk-000"
-  },
-  "doc-01c33fc069142df72db73c0a60322bcf-chunk-000": {
-    "tokens": 52,
-    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the menuitem 'Health & Household'\" role='menuitem' name='Health & Household' bbox_px=[8, 181, 180, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-01c33fc069142df72db73c0a60322bcf",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:29df4e8a3b08a7229500298e76428816",
-      "default:extract:d58b12efcda2a6d07a5f9956737b8e7c"
-    ],
-    "create_time": 1787059633,
-    "update_time": 1787059638,
-    "_id": "doc-01c33fc069142df72db73c0a60322bcf-chunk-000"
-  },
-  "doc-01c9fc9ee30d9a60fd968f838ea162d4-chunk-000": {
-    "tokens": 50,
-    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the menuitem 'Video Games'\" role='menuitem' name='Video Games' bbox_px=[721, 181, 843, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-01c9fc9ee30d9a60fd968f838ea162d4",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:ffe4ae801a4b7859aff95f8d643d3757",
-      "default:extract:bd701f53c34821addae0d96d7c561149"
-    ],
-    "create_time": 1787059638,
-    "update_time": 1787059641,
-    "_id": "doc-01c9fc9ee30d9a60fd968f838ea162d4-chunk-000"
   },
   "doc-024b19b8de0d5b640f27f0a312da5ca5-chunk-000": {
     "tokens": 49,
@@ -191,8 +23,8 @@
       "default:extract:a04af60fec480f1f6985f0b77d8f5319",
       "default:extract:fcace0b126b5ea385035c3a299b158dc"
     ],
-    "create_time": 1787059642,
-    "update_time": 1787059647,
+    "create_time": 1787077054,
+    "update_time": 1787077065,
     "_id": "doc-024b19b8de0d5b640f27f0a312da5ca5-chunk-000"
   },
   "doc-025c703964dec2fe371e10c8415dd613-chunk-000": {
@@ -205,8 +37,8 @@
       "default:extract:56c45cc260c25cd723d8a6fbdbe8ee9a",
       "default:extract:4401f62c6c9039937cc0b3d0740d8e0e"
     ],
-    "create_time": 1787059648,
-    "update_time": 1787059652,
+    "create_time": 1787077066,
+    "update_time": 1787077068,
     "_id": "doc-025c703964dec2fe371e10c8415dd613-chunk-000"
   },
   "doc-035e7b9e2f8521711975d04dc94e090f-chunk-000": {
@@ -217,10 +49,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:f1c29382aaec1e67f009f4e93575578d",
-      "default:extract:6a35c0c2f5d39e3d9802484e3531a9af"
+      "default:extract:edb322808274eb6ee611e90d38533f7e"
     ],
-    "create_time": 1787059653,
-    "update_time": 1787059656,
+    "create_time": 1787077069,
+    "update_time": 1787077076,
     "_id": "doc-035e7b9e2f8521711975d04dc94e090f-chunk-000"
   },
   "doc-0b695dbca7b0baea8472f4b9b8c77cc7-chunk-000": {
@@ -231,10 +63,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:88cff60121bec549834855519334cbeb",
-      "default:extract:af73c355c5dfd1424fe275925eb4eecb"
+      "default:extract:cd53e48e0889cce326312dd911038daa"
     ],
-    "create_time": 1787059657,
-    "update_time": 1787059664,
+    "create_time": 1787077078,
+    "update_time": 1787077091,
     "_id": "doc-0b695dbca7b0baea8472f4b9b8c77cc7-chunk-000"
   },
   "doc-0ecdec2685406dc115c811677c195f75-chunk-000": {
@@ -245,11 +77,39 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:9c888b332da2bd8b89927553203e7a41",
-      "default:extract:56b31f86ba0cf65356ef3cdbf7a6ac11"
+      "default:extract:13de0abe01bce740103c4d1dab54ba26"
     ],
-    "create_time": 1787059666,
-    "update_time": 1787059669,
+    "create_time": 1787077093,
+    "update_time": 1787077104,
     "_id": "doc-0ecdec2685406dc115c811677c195f75-chunk-000"
+  },
+  "doc-10590a974d11935a433560ab608cc4ab-chunk-000": {
+    "tokens": 39,
+    "content": "[source=a11y] [type=screen] Screen id='cart_empty' title='Shopping Cart' description='Empty shopping cart' url='http://localhost:7770/checkout/cart/'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-10590a974d11935a433560ab608cc4ab",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:48e52b579c5cf84520a93e3a7d34dfda",
+      "default:extract:dc5083771186ca14f296ac703bc6f4e8"
+    ],
+    "create_time": 1787077105,
+    "update_time": 1787077112,
+    "_id": "doc-10590a974d11935a433560ab608cc4ab-chunk-000"
+  },
+  "doc-18737c929f0e58f64d4f20637bd214c3-chunk-000": {
+    "tokens": 40,
+    "content": "[source=a11y] [type=screen] Screen id='category' title='Electronics' description='Electronics category listing' url='http://localhost:7770/electronics.html'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-18737c929f0e58f64d4f20637bd214c3",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:b92f614d3b73a001ad9c0a06ff453a15",
+      "default:extract:df7688a26433231d64c77d80574a59d0"
+    ],
+    "create_time": 1787077113,
+    "update_time": 1787077115,
+    "_id": "doc-18737c929f0e58f64d4f20637bd214c3-chunk-000"
   },
   "doc-1abb292a251278234ef2aea5585a4cec-chunk-000": {
     "tokens": 51,
@@ -259,10 +119,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:7c5d393fb2126149fab3191ec04de5fd",
-      "default:extract:8db873151bac6f56c42a9c856326d82c"
+      "default:extract:0c4561cc61c68d8e102f7cd33432665e"
     ],
-    "create_time": 1787059673,
-    "update_time": 1787059678,
+    "create_time": 1787077116,
+    "update_time": 1787077118,
     "_id": "doc-1abb292a251278234ef2aea5585a4cec-chunk-000"
   },
   "doc-1b170fd51d9decb5d06c4423362c7e10-chunk-000": {
@@ -273,10 +133,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:33658a34c0cb3c31ea0f0e45167de22a",
-      "default:extract:69328a0395b78a308475303b53578589"
+      "default:extract:d91125376d5140945272e7bdb094464e"
     ],
-    "create_time": 1787059679,
-    "update_time": 1787059682,
+    "create_time": 1787077119,
+    "update_time": 1787077126,
     "_id": "doc-1b170fd51d9decb5d06c4423362c7e10-chunk-000"
   },
   "doc-1b896baf2b5d815d3bbe0eb625a72814-chunk-000": {
@@ -289,8 +149,8 @@
       "default:extract:de06484e79aa6c17872820721c1fefc7",
       "default:extract:e80e2b2163248e709d5432030b7fa8a7"
     ],
-    "create_time": 1787059683,
-    "update_time": 1787059687,
+    "create_time": 1787077127,
+    "update_time": 1787077134,
     "_id": "doc-1b896baf2b5d815d3bbe0eb625a72814-chunk-000"
   },
   "doc-1c39a269c840c652393b3da52117ee29-chunk-000": {
@@ -303,8 +163,8 @@
       "default:extract:3d19abd0efcac1771188271d23bd5c3b",
       "default:extract:a02080867f623be766dcd9a0b7c2c1f1"
     ],
-    "create_time": 1787059687,
-    "update_time": 1787059692,
+    "create_time": 1787077137,
+    "update_time": 1787077147,
     "_id": "doc-1c39a269c840c652393b3da52117ee29-chunk-000"
   },
   "doc-1e69ba803ff29a691deb2111e022bb4d-chunk-000": {
@@ -314,26 +174,11 @@
     "full_doc_id": "doc-1e69ba803ff29a691deb2111e022bb4d",
     "file_path": "unknown_source",
     "llm_cache_list": [
-      "default:extract:894900c7356105d85a76181bc9b8218f",
-      "default:extract:978c5aad9cdc1f059e812ea88139530b"
+      "default:extract:894900c7356105d85a76181bc9b8218f"
     ],
-    "create_time": 1787059695,
-    "update_time": 1787059699,
+    "create_time": 1787077148,
+    "update_time": 1787077363,
     "_id": "doc-1e69ba803ff29a691deb2111e022bb4d-chunk-000"
-  },
-  "doc-2264c0cbd93197c10fe0a09fdbcf60f8-chunk-000": {
-    "tokens": 54,
-    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the menuitem 'Cell Phones & Accessories'\" role='menuitem' name='Cell Phones & Accessories' bbox_px=[500, 181, 711, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-2264c0cbd93197c10fe0a09fdbcf60f8",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:30a52acb44a839999053dcf1b764f787",
-      "default:extract:51332cd05299fb9ee41332143d7353f1"
-    ],
-    "create_time": 1787059700,
-    "update_time": 1787059704,
-    "_id": "doc-2264c0cbd93197c10fe0a09fdbcf60f8-chunk-000"
   },
   "doc-251472ea8351de945743e3a79d872336-chunk-000": {
     "tokens": 45,
@@ -345,8 +190,8 @@
       "default:extract:21c24eaac5b3352e5a56fab5fb2c6d51",
       "default:extract:941351efc5133f8aad09cb42108f37f7"
     ],
-    "create_time": 1787059707,
-    "update_time": 1787059712,
+    "create_time": 1787077365,
+    "update_time": 1787077375,
     "_id": "doc-251472ea8351de945743e3a79d872336-chunk-000"
   },
   "doc-269a8ede147006aea65d5f4620f825e3-chunk-000": {
@@ -357,10 +202,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:772c361b60a0ec7e73681daf3412cb0d",
-      "default:extract:48f5a2da88e6be2932bbc47bef9e99b6"
+      "default:extract:78b232de9bfad06e3fd60d5d17fc52ab"
     ],
-    "create_time": 1787059714,
-    "update_time": 1787059719,
+    "create_time": 1787077376,
+    "update_time": 1787077391,
     "_id": "doc-269a8ede147006aea65d5f4620f825e3-chunk-000"
   },
   "doc-323e293277d50c431bbc02b71c78a7a1-chunk-000": {
@@ -371,10 +216,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:3916e1735b7a23390e2cede8d34618ec",
-      "default:extract:d3225ab12492b31862b0c77dc4a7ab5c"
+      "default:extract:757205fde38ec4acebb7c711c3dee482"
     ],
-    "create_time": 1787059723,
-    "update_time": 1787059726,
+    "create_time": 1787077392,
+    "update_time": 1787077396,
     "_id": "doc-323e293277d50c431bbc02b71c78a7a1-chunk-000"
   },
   "doc-336354e68363ca14a619dc9017f3722b-chunk-000": {
@@ -385,10 +230,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:f7664dea2dbf374c8c7ca771f1627a6b",
-      "default:extract:11bb1542b2f56e0a6064421958ce36dc"
+      "default:extract:a3886a785e7267a8aee7fb44ce0db22c"
     ],
-    "create_time": 1787059727,
-    "update_time": 1787059733,
+    "create_time": 1787077402,
+    "update_time": 1787077412,
     "_id": "doc-336354e68363ca14a619dc9017f3722b-chunk-000"
   },
   "doc-34a4752269e7cb15e0bdf4bc87ed2fff-chunk-000": {
@@ -399,11 +244,39 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:a8f4fb5b71fc7dade6e3c6e59b9bceb3",
-      "default:extract:9a60ca14f4a63a5c60314933ea443bc9"
+      "default:extract:37ad393b7980a793fa6bbbb23e56fe02"
     ],
-    "create_time": 1787059735,
-    "update_time": 1787059788,
+    "create_time": 1787077415,
+    "update_time": 1787077476,
     "_id": "doc-34a4752269e7cb15e0bdf4bc87ed2fff-chunk-000"
+  },
+  "doc-36f6576613a283888b16c8f9146dbd71-chunk-000": {
+    "tokens": 41,
+    "content": "[source=a11y] [type=screen] Screen id='search_advanced' title='Advanced Search' description='Advanced search form' url='http://localhost:7770/catalogsearch/advanced/'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-36f6576613a283888b16c8f9146dbd71",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:ab243513c99f809299b48f23e1e57560",
+      "default:extract:10afa995d1b02c5d3fdaa2fa89f488a2"
+    ],
+    "create_time": 1787077477,
+    "update_time": 1787077478,
+    "_id": "doc-36f6576613a283888b16c8f9146dbd71-chunk-000"
+  },
+  "doc-3881dc8d47b3676c7ac00352787e5b11-chunk-000": {
+    "tokens": 38,
+    "content": "[source=a11y] [type=screen] Screen id='login' title='Customer Login' description='Customer login form' url='http://localhost:7770/customer/account/login/'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-3881dc8d47b3676c7ac00352787e5b11",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:994ec51fe948d07493cd1747b3c92f0b",
+      "default:extract:0cfeb9942ae3bccd85fe7c348c0f8fe7"
+    ],
+    "create_time": 1787077479,
+    "update_time": 1787077481,
+    "_id": "doc-3881dc8d47b3676c7ac00352787e5b11-chunk-000"
   },
   "doc-3b63eb4098e5145f7df0c3032404516e-chunk-000": {
     "tokens": 89,
@@ -415,23 +288,9 @@
       "default:extract:e12abb4a66d3a9de5762d22edd946198",
       "default:extract:eef323839963379e4dd046a5f20344e2"
     ],
-    "create_time": 1787059790,
-    "update_time": 1787059792,
+    "create_time": 1787077481,
+    "update_time": 1787077484,
     "_id": "doc-3b63eb4098e5145f7df0c3032404516e-chunk-000"
-  },
-  "doc-45c24883b260d58ce196b2bd5813a10a-chunk-000": {
-    "tokens": 46,
-    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the link 'Home'\" role='link' name='Home' bbox_px=[20, 259, 57, 275]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-45c24883b260d58ce196b2bd5813a10a",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:80f1c4f4949834c54a1e49c706ee767d",
-      "default:extract:f0ce90b780e9a36bf2f9be548cca3c94"
-    ],
-    "create_time": 1787059793,
-    "update_time": 1787059799,
-    "_id": "doc-45c24883b260d58ce196b2bd5813a10a-chunk-000"
   },
   "doc-4674831f2c70bf7fc7e44baad9da1bd2-chunk-000": {
     "tokens": 50,
@@ -439,12 +298,9 @@
     "chunk_order_index": 0,
     "full_doc_id": "doc-4674831f2c70bf7fc7e44baad9da1bd2",
     "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:ecb8cad61bba483f06baa7b3508f4d54",
-      "default:extract:5192bc912ce0b27484dc1bf5501cd975"
-    ],
-    "create_time": 1787059801,
-    "update_time": 1787059807,
+    "llm_cache_list": [],
+    "create_time": 1787077487,
+    "update_time": 1787077487,
     "_id": "doc-4674831f2c70bf7fc7e44baad9da1bd2-chunk-000"
   },
   "doc-4cb747e3acc9f125078ffdabdcabbc3e-chunk-000": {
@@ -455,10 +311,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:97017e89fc80ad7ae8ae7d1aa7351691",
-      "default:extract:92eb71f0296e2c09ad5358aaa734f21e"
+      "default:extract:54f8a50bb34400cbd588536f9669323a"
     ],
-    "create_time": 1787059811,
-    "update_time": 1787059818,
+    "create_time": 1787080356,
+    "update_time": 1787080374,
     "_id": "doc-4cb747e3acc9f125078ffdabdcabbc3e-chunk-000"
   },
   "doc-4d2253d679e093ecd355e3b749bc2b59-chunk-000": {
@@ -469,10 +325,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:2b6fb1c0ed2b6df707c08681cc922238",
-      "default:extract:5f8851fff33b68d1bb6cd6117d88b4e9"
+      "default:extract:5f464ea5fddc8c4906aa013ea830c39d"
     ],
-    "create_time": 1787059819,
-    "update_time": 1787059904,
+    "create_time": 1787080387,
+    "update_time": 1787080398,
     "_id": "doc-4d2253d679e093ecd355e3b749bc2b59-chunk-000"
   },
   "doc-53f6ded76ac80a02287a2f5e4d7808cb-chunk-000": {
@@ -485,8 +341,8 @@
       "default:extract:f42685fa5d3bf989f344ba72b74c6925",
       "default:extract:c67709ff156e6c8ea98d34431f57d50a"
     ],
-    "create_time": 1787059908,
-    "update_time": 1787059911,
+    "create_time": 1787080400,
+    "update_time": 1787080403,
     "_id": "doc-53f6ded76ac80a02287a2f5e4d7808cb-chunk-000"
   },
   "doc-547a6ce3129ff5916eefb35f8a299993-chunk-000": {
@@ -497,10 +353,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:ca500a963795fe21b79a816b92fd57fc",
-      "default:extract:8ac6c5c92017fdd9428fc3e0bd79920f"
+      "default:extract:a7132ff237200372660a7cb6bba72601"
     ],
-    "create_time": 1787059912,
-    "update_time": 1787059916,
+    "create_time": 1787080403,
+    "update_time": 1787080413,
     "_id": "doc-547a6ce3129ff5916eefb35f8a299993-chunk-000"
   },
   "doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000": {
@@ -511,10 +367,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:047cc90a687b94fddd7839ed5b58d309",
-      "default:extract:50d10868fa88cb50aa3d79615cede907"
+      "default:extract:126a95d7707b4a51f89d836809523d43"
     ],
-    "create_time": 1787059921,
-    "update_time": 1787060026,
+    "create_time": 1787080416,
+    "update_time": 1787080420,
     "_id": "doc-575df4d1d4a9a71fa3b40c1f3ed4f6be-chunk-000"
   },
   "doc-57700c1ee10803d54cfcb11e805a1b9e-chunk-000": {
@@ -525,10 +381,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:618c7debdc7a945890cdf3a14f1e1593",
-      "default:extract:a14f3c0c24da21a0d4407557ab1b6117"
+      "default:extract:d7b45b23c58a2567d0b647f1adc25fe1"
     ],
-    "create_time": 1787060031,
-    "update_time": 1787060037,
+    "create_time": 1787080424,
+    "update_time": 1787080430,
     "_id": "doc-57700c1ee10803d54cfcb11e805a1b9e-chunk-000"
   },
   "doc-5ceb1c3b3128f0d47d1a8d177a4d6780-chunk-000": {
@@ -537,9 +393,12 @@
     "chunk_order_index": 0,
     "full_doc_id": "doc-5ceb1c3b3128f0d47d1a8d177a4d6780",
     "file_path": "unknown_source",
-    "llm_cache_list": [],
-    "create_time": 1787060039,
-    "update_time": 1787060039,
+    "llm_cache_list": [
+      "default:extract:517e64ea696c30e403ca2c24011350b1",
+      "default:extract:2f8ca04c3d960db47752b840a0a135e2"
+    ],
+    "create_time": 1787080432,
+    "update_time": 1787080437,
     "_id": "doc-5ceb1c3b3128f0d47d1a8d177a4d6780-chunk-000"
   },
   "doc-644571f9784ce04891f41845bd4a33cf-chunk-000": {
@@ -552,8 +411,8 @@
       "default:extract:2c3678a51574cbb69e4f61f765db547d",
       "default:extract:4a5e2bc150339254098d945f9513a100"
     ],
-    "create_time": 1787060519,
-    "update_time": 1787060522,
+    "create_time": 1787080438,
+    "update_time": 1787080443,
     "_id": "doc-644571f9784ce04891f41845bd4a33cf-chunk-000"
   },
   "doc-6862f8705f500b582cfb681d1c6febc9-chunk-000": {
@@ -564,25 +423,11 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:37f6f571ae936242de0453c25985f60a",
-      "default:extract:b2aedc2496a66dde9851312a189684bf"
+      "default:extract:2ba7c12eeba232f30ed1a86d521ecd2e"
     ],
-    "create_time": 1787060523,
-    "update_time": 1787060527,
+    "create_time": 1787080444,
+    "update_time": 1787080450,
     "_id": "doc-6862f8705f500b582cfb681d1c6febc9-chunk-000"
-  },
-  "doc-6f918084db54f057473db40beef298f2-chunk-000": {
-    "tokens": 57,
-    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the menuitem 'Grocery & Gourmet Food'\" role='menuitem' name='Grocery & Gourmet Food' bbox_px=[853, 181, 1058, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-6f918084db54f057473db40beef298f2",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:e122b60567d9004d985b24945e3fec4d",
-      "default:extract:ed13b64b7e786865a8f0d13225261378"
-    ],
-    "create_time": 1787060535,
-    "update_time": 1787060538,
-    "_id": "doc-6f918084db54f057473db40beef298f2-chunk-000"
   },
   "doc-6fdf98cdebdbf6d580bc571f0e63d026-chunk-000": {
     "tokens": 99,
@@ -592,10 +437,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:a8fc682b9c7c17f577398c2d0f33e52b",
-      "default:extract:fad4912a99f341427d992f83698fd2ee"
+      "default:extract:f9b2ebb02a1cd04076ed5aa46ab8080e"
     ],
-    "create_time": 1787060538,
-    "update_time": 1787060552,
+    "create_time": 1787080453,
+    "update_time": 1787080463,
     "_id": "doc-6fdf98cdebdbf6d580bc571f0e63d026-chunk-000"
   },
   "doc-6fee16de15adef8f9c158fcdcfc3c3cf-chunk-000": {
@@ -606,10 +451,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:3373f91916f3888ee0bdb1182ad9890f",
-      "default:extract:cf69d01686539dd66134ec5be187c7c1"
+      "default:extract:3b801e6f310a27838cfbb6a739432b3b"
     ],
-    "create_time": 1787060555,
-    "update_time": 1787060558,
+    "create_time": 1787080468,
+    "update_time": 1787080474,
     "_id": "doc-6fee16de15adef8f9c158fcdcfc3c3cf-chunk-000"
   },
   "doc-79bdc8c15be295419534818b640a1fab-chunk-000": {
@@ -620,25 +465,11 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:6e72f982b4fd2f8cc5c4a6b3549b05ab",
-      "default:extract:b0c83a4ac74ee9c75df3c95725d237e2"
+      "default:extract:c6c0eaac051d5ad274c4ff95c9337cb5"
     ],
-    "create_time": 1787060559,
-    "update_time": 1787060564,
+    "create_time": 1787080478,
+    "update_time": 1787080484,
     "_id": "doc-79bdc8c15be295419534818b640a1fab-chunk-000"
-  },
-  "doc-79d9878ecf576fac1aa1aa6fe797867f-chunk-000": {
-    "tokens": 58,
-    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the combobox 'Product Name Price Relevance'\" role='combobox' name='Product Name Price Relevance' bbox_px=[1082, 385, 1218, 417]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-79d9878ecf576fac1aa1aa6fe797867f",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:9d3b56ce70b54e38cf2ffbc779f71a58",
-      "default:extract:53055fd109a9ad80a161bfb3850d160f"
-    ],
-    "create_time": 1787060566,
-    "update_time": 1787060590,
-    "_id": "doc-79d9878ecf576fac1aa1aa6fe797867f-chunk-000"
   },
   "doc-7b3dbaa1dc2bafcf6737861428b971a7-chunk-000": {
     "tokens": 47,
@@ -648,11 +479,25 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:efaa18abca9f55dcd2673d438d811934",
-      "default:extract:c3e8956d349e4f19c449858153f53ed5"
+      "default:extract:6c69d0b8182ebdfd9de48740c53f80b4"
     ],
-    "create_time": 1787060591,
-    "update_time": 1787060618,
+    "create_time": 1787080489,
+    "update_time": 1787080624,
     "_id": "doc-7b3dbaa1dc2bafcf6737861428b971a7-chunk-000"
+  },
+  "doc-7ff218daa648cf801a7184502db5ca24-chunk-000": {
+    "tokens": 62,
+    "content": "[source=a11y] [type=screen] Screen id='product' title='Briess DME - Pilsen Light - 1 lb Bag' description='Product detail page' url='http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-7ff218daa648cf801a7184502db5ca24",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:fed46d9463021d7ce98647d105a60f33",
+      "default:extract:623609289d018309c59e308473f45c71"
+    ],
+    "create_time": 1787080626,
+    "update_time": 1787080631,
+    "_id": "doc-7ff218daa648cf801a7184502db5ca24-chunk-000"
   },
   "doc-8192fe169bee4a5676a6db5cde9a3209-chunk-000": {
     "tokens": 48,
@@ -661,25 +506,12 @@
     "full_doc_id": "doc-8192fe169bee4a5676a6db5cde9a3209",
     "file_path": "unknown_source",
     "llm_cache_list": [
-      "default:extract:569cbd19071d795d6363abcf75b701ee"
+      "default:extract:569cbd19071d795d6363abcf75b701ee",
+      "default:extract:7cc9c6f7d898148b8ee12995a078b944"
     ],
-    "create_time": 1787060620,
-    "update_time": 1787060958,
+    "create_time": 1787080633,
+    "update_time": 1787080723,
     "_id": "doc-8192fe169bee4a5676a6db5cde9a3209-chunk-000"
-  },
-  "doc-84bb4345d24d03ecc2f6b643d50ef2ec-chunk-000": {
-    "tokens": 54,
-    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the link 'Set Ascending Direction'\" role='link' name='Set Ascending Direction' bbox_px=[1222, 383, 1250, 415]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-84bb4345d24d03ecc2f6b643d50ef2ec",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:14f6f2135d57970fb792ee0b5fbe7678",
-      "default:extract:a31d77daa914f1801ec7aa2400d09b8c"
-    ],
-    "create_time": 1787060962,
-    "update_time": 1787060967,
-    "_id": "doc-84bb4345d24d03ecc2f6b643d50ef2ec-chunk-000"
   },
   "doc-8c4c0287492ac47c15df9071249fde66-chunk-000": {
     "tokens": 50,
@@ -691,8 +523,8 @@
       "default:extract:9d258510f402123c6104aa1f3c5a10e9",
       "default:extract:e32429e52418b4a78f08c7f6e280dcc8"
     ],
-    "create_time": 1787060968,
-    "update_time": 1787060972,
+    "create_time": 1787080729,
+    "update_time": 1787080732,
     "_id": "doc-8c4c0287492ac47c15df9071249fde66-chunk-000"
   },
   "doc-93994d22ad00beec814080e416a51904-chunk-000": {
@@ -703,10 +535,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:1990f0a645eab7cdfd0c094453e2c0c6",
-      "default:extract:752b13c397df6be5552927e51a359e02"
+      "default:extract:48d6909f05cba2a22f58d68fffb72a60"
     ],
-    "create_time": 1787060973,
-    "update_time": 1787060978,
+    "create_time": 1787080733,
+    "update_time": 1787080742,
     "_id": "doc-93994d22ad00beec814080e416a51904-chunk-000"
   },
   "doc-96f37bc024c1dd81bce2be42d32fb9a4-chunk-000": {
@@ -717,10 +549,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:9a6b26a809a7087c48c8985dbb6e6fa6",
-      "default:extract:cb4cfe288dd66d6b30ebd136221d375a"
+      "default:extract:f75aabe6f0da0be69c7f9656ba12bb5c"
     ],
-    "create_time": 1787060984,
-    "update_time": 1787061129,
+    "create_time": 1787080743,
+    "update_time": 1787080748,
     "_id": "doc-96f37bc024c1dd81bce2be42d32fb9a4-chunk-000"
   },
   "doc-97bbec41cf7cab256882bc136224c9af-chunk-000": {
@@ -733,9 +565,23 @@
       "default:extract:ce4af9d8c7658c644d8152f655fe5537",
       "default:extract:6bea88d97ce29705d0e1f201f05b3168"
     ],
-    "create_time": 1787061138,
-    "update_time": 1787061143,
+    "create_time": 1787080750,
+    "update_time": 1787080755,
     "_id": "doc-97bbec41cf7cab256882bc136224c9af-chunk-000"
+  },
+  "doc-98635dbb5321900fe07ed4d39d07cf78-chunk-000": {
+    "tokens": 60,
+    "content": "[source=a11y] [type=screen] Screen id='search_empty' title=\"Search results for: 'zzzxxyynotfound999'\" description='Search with zero results' url='http://localhost:7770/catalogsearch/result/?q=zzzxxyynotfound999'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-98635dbb5321900fe07ed4d39d07cf78",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:ca142837cd009eedd9401798cdb4b319",
+      "default:extract:55e4a6e922fbd2a34c5399fac5ae39a7"
+    ],
+    "create_time": 1787080756,
+    "update_time": 1787080757,
+    "_id": "doc-98635dbb5321900fe07ed4d39d07cf78-chunk-000"
   },
   "doc-998ef6f2a08b055f4cea5fd640aa78ae-chunk-000": {
     "tokens": 36,
@@ -745,25 +591,25 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:7cf260dcdae5bf9b82740c7208d7a8b0",
-      "default:extract:5b98ccc724c6eecf3ce4beefdb431177"
+      "default:extract:1ace8d0321c0d3c1fee04aa9b43f3684"
     ],
-    "create_time": 1787061144,
-    "update_time": 1787061155,
+    "create_time": 1787080758,
+    "update_time": 1787080815,
     "_id": "doc-998ef6f2a08b055f4cea5fd640aa78ae-chunk-000"
   },
-  "doc-9cf014a55715838cd2e7be449bd106f3-chunk-000": {
-    "tokens": 58,
-    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the menuitem 'Patio, Lawn & Garden'\" role='menuitem' name='Patio, Lawn & Garden' bbox_px=[190, 181, 372, 234]",
+  "doc-9e92b01bfe3c2300574d5d397bef740c-chunk-000": {
+    "tokens": 48,
+    "content": "[source=a11y] [type=screen] Screen id='subcategory' title='Cell Phones & Accessories' description='Subcategory via nav click from Electronics' url='http://localhost:7770/cell-phones-accessories.html'",
     "chunk_order_index": 0,
-    "full_doc_id": "doc-9cf014a55715838cd2e7be449bd106f3",
+    "full_doc_id": "doc-9e92b01bfe3c2300574d5d397bef740c",
     "file_path": "unknown_source",
     "llm_cache_list": [
-      "default:extract:a68c16ff36e5b6ff77841b1d15a54bed",
-      "default:extract:40de051ac66ccf5c71b324a763c6b930"
+      "default:extract:06dce486c8abdeebef341c4045a2e12e",
+      "default:extract:0cc4e978ddc602e2ae5bdae99fd0f942"
     ],
-    "create_time": 1787061157,
-    "update_time": 1787061163,
-    "_id": "doc-9cf014a55715838cd2e7be449bd106f3-chunk-000"
+    "create_time": 1787080817,
+    "update_time": 1787080819,
+    "_id": "doc-9e92b01bfe3c2300574d5d397bef740c-chunk-000"
   },
   "doc-9ecd5e9d22535ece235c555f4d9df437-chunk-000": {
     "tokens": 48,
@@ -773,10 +619,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:9a3d44c7df571ac6d5b5265fde3001aa",
-      "default:extract:4a71ad9f98cd9c07904c9dc619d85d7b"
+      "default:extract:2bb53fc93c16a22d8dde2cd2ebda20bc"
     ],
-    "create_time": 1787061170,
-    "update_time": 1787061180,
+    "create_time": 1787080820,
+    "update_time": 1787080821,
     "_id": "doc-9ecd5e9d22535ece235c555f4d9df437-chunk-000"
   },
   "doc-9fde1622ef828bc2735ced9dd67f3e79-chunk-000": {
@@ -789,8 +635,8 @@
       "default:extract:66660d015da29162fc607515a766ca56",
       "default:extract:558c418e504686a5d6e12c498f7ccaa5"
     ],
-    "create_time": 1787061182,
-    "update_time": 1787061185,
+    "create_time": 1787080822,
+    "update_time": 1787080824,
     "_id": "doc-9fde1622ef828bc2735ced9dd67f3e79-chunk-000"
   },
   "doc-a01aa3869759c0df193b39c39a682dfb-chunk-000": {
@@ -801,10 +647,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:a08ecf5954ea6ec87c758d6ec8abf184",
-      "default:extract:af8bdba194e1c9ae396bb853b6b3dc15"
+      "default:extract:4fe83264afb07e74856117076e3df43b"
     ],
-    "create_time": 1787061186,
-    "update_time": 1787061320,
+    "create_time": 1787080825,
+    "update_time": 1787080836,
     "_id": "doc-a01aa3869759c0df193b39c39a682dfb-chunk-000"
   },
   "doc-ab0e24a021db35a260177d5f65789313-chunk-000": {
@@ -814,8 +660,8 @@
     "full_doc_id": "doc-ab0e24a021db35a260177d5f65789313",
     "file_path": "unknown_source",
     "llm_cache_list": [],
-    "create_time": 1787061322,
-    "update_time": 1787061322,
+    "create_time": 1787080840,
+    "update_time": 1787080840,
     "_id": "doc-ab0e24a021db35a260177d5f65789313-chunk-000"
   },
   "doc-afaeae3f07222d6abb05167120cb64e6-chunk-000": {
@@ -825,26 +671,11 @@
     "full_doc_id": "doc-afaeae3f07222d6abb05167120cb64e6",
     "file_path": "unknown_source",
     "llm_cache_list": [
-      "default:extract:85ac49c12d5685023f20c3cfe6782398",
-      "default:extract:caa0f38d0430f49d937a2ac7a6aab282"
+      "default:extract:85ac49c12d5685023f20c3cfe6782398"
     ],
-    "create_time": 1787061803,
-    "update_time": 1787061806,
+    "create_time": 1787081320,
+    "update_time": 1787081574,
     "_id": "doc-afaeae3f07222d6abb05167120cb64e6-chunk-000"
-  },
-  "doc-b64b5d11488f01f9fe0fa193ff7147e5-chunk-000": {
-    "tokens": 50,
-    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the menuitem 'Electronics'\" role='menuitem' name='Electronics' bbox_px=[382, 181, 490, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-b64b5d11488f01f9fe0fa193ff7147e5",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:3bfd47d226c72d7263477ccc768e699c",
-      "default:extract:8965ee7d56212036954aa438d75366a4"
-    ],
-    "create_time": 1787061810,
-    "update_time": 1787061819,
-    "_id": "doc-b64b5d11488f01f9fe0fa193ff7147e5-chunk-000"
   },
   "doc-b749abb1d006250866dea057553594bc-chunk-000": {
     "tokens": 57,
@@ -856,9 +687,23 @@
       "default:extract:90f3f5fc6619181a20d732f02786242f",
       "default:extract:5219b02c5a42235144be45e0282fd5b2"
     ],
-    "create_time": 1787061840,
-    "update_time": 1787061862,
+    "create_time": 1787081594,
+    "update_time": 1787081598,
     "_id": "doc-b749abb1d006250866dea057553594bc-chunk-000"
+  },
+  "doc-bc7fa509f6089f64c49c65f0ceb6b8ff-chunk-000": {
+    "tokens": 41,
+    "content": "[source=a11y] [type=screen] Screen id='register' title='Create New Customer Account' description='Create customer account form' url='http://localhost:7770/customer/account/create/'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-bc7fa509f6089f64c49c65f0ceb6b8ff",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d466945e70b98264ca33ff6b45bd251b",
+      "default:extract:7cfe4e20d424412c747268597704f39f"
+    ],
+    "create_time": 1787081598,
+    "update_time": 1787081613,
+    "_id": "doc-bc7fa509f6089f64c49c65f0ceb6b8ff-chunk-000"
   },
   "doc-d2791eb69f02804dd822d8ed3284192a-chunk-000": {
     "tokens": 101,
@@ -867,8 +712,8 @@
     "full_doc_id": "doc-d2791eb69f02804dd822d8ed3284192a",
     "file_path": "unknown_source",
     "llm_cache_list": [],
-    "create_time": 1787061862,
-    "update_time": 1787061862,
+    "create_time": 1787081613,
+    "update_time": 1787081613,
     "_id": "doc-d2791eb69f02804dd822d8ed3284192a-chunk-000"
   },
   "doc-d28c12fec97088c620e43fae9ea0396c-chunk-000": {
@@ -879,11 +724,25 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:0cd68d89b0ff6079960887fdfcbb04b1",
-      "default:extract:0aeb508451f42f28fafa21b4950cfd79"
+      "default:extract:293f545323cc793acef68dedf0c27963"
     ],
-    "create_time": 1787062343,
-    "update_time": 1787062350,
+    "create_time": 1787083031,
+    "update_time": 1787083054,
     "_id": "doc-d28c12fec97088c620e43fae9ea0396c-chunk-000"
+  },
+  "doc-d2a72d64e9d709b745758f4681df3ca6-chunk-000": {
+    "tokens": 42,
+    "content": "[source=a11y] [type=screen] Screen id='forgot_password' title='Forgot Your Password?' description='Forgot password form' url='http://localhost:7770/customer/account/forgotpassword/'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d2a72d64e9d709b745758f4681df3ca6",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:69585cfeae3cd5299da2ff8cc889a18f",
+      "default:extract:0f308daa33e1965a11be9bbfe5a13393"
+    ],
+    "create_time": 1787083056,
+    "update_time": 1787083058,
+    "_id": "doc-d2a72d64e9d709b745758f4681df3ca6-chunk-000"
   },
   "doc-d3f210baa22420bda082ab35ed47c513-chunk-000": {
     "tokens": 51,
@@ -893,10 +752,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:ef0859cab1ffc05ca29252e80160c46c",
-      "default:extract:d6b4635e88eaeadfb84cf9732ecd1171"
+      "default:extract:9120b86ee6b493ad64c5802de072c61e"
     ],
-    "create_time": 1787062356,
-    "update_time": 1787062455,
+    "create_time": 1787083060,
+    "update_time": 1787083065,
     "_id": "doc-d3f210baa22420bda082ab35ed47c513-chunk-000"
   },
   "doc-dbbea0d67fc7a8a8d91f72b4050e0de3-chunk-000": {
@@ -909,8 +768,8 @@
       "default:extract:46589bc29e580c38a32e4ac38fd74410",
       "default:extract:3a88f4a308ea1c1d5d0f974145b19b9e"
     ],
-    "create_time": 1787062458,
-    "update_time": 1787062460,
+    "create_time": 1787083085,
+    "update_time": 1787083087,
     "_id": "doc-dbbea0d67fc7a8a8d91f72b4050e0de3-chunk-000"
   },
   "doc-de35d1ab540844b78d0adaeb5ebb47a3-chunk-000": {
@@ -921,10 +780,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:ce2f38e2d9b4d27ea61aaeeb5263c25d",
-      "default:extract:499991b02d32956cd3f0c281dc921e2a"
+      "default:extract:da6e2cd053a39619ca8e12f1a256fa59"
     ],
-    "create_time": 1787062461,
-    "update_time": 1787062467,
+    "create_time": 1787083089,
+    "update_time": 1787083094,
     "_id": "doc-de35d1ab540844b78d0adaeb5ebb47a3-chunk-000"
   },
   "doc-e4dc81cdc7cc78005bebf5e2cebf18ae-chunk-000": {
@@ -935,11 +794,25 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:5ef16dbb748745ee4a9ced76c7137ff7",
-      "default:extract:ce6a5ed6d5ce474dc89a8762d5ebb723"
+      "default:extract:2d0cbe07fb8f9c3924a3cb116fd5edaa"
     ],
-    "create_time": 1787062468,
-    "update_time": 1787062485,
+    "create_time": 1787083095,
+    "update_time": 1787083104,
     "_id": "doc-e4dc81cdc7cc78005bebf5e2cebf18ae-chunk-000"
+  },
+  "doc-e71e082796434ad5e7fdfd56adbca8ef-chunk-000": {
+    "tokens": 49,
+    "content": "[source=a11y] [type=screen] Screen id='search_results' title=\"Search results for: 'shirt'\" description=\"Search results for 'shirt'\" url='http://localhost:7770/catalogsearch/result/?q=shirt'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e71e082796434ad5e7fdfd56adbca8ef",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:ceb47ec1ebccf101ce07e136008d8e99",
+      "default:extract:0d4275f39958ae885cc56ec3ac9d5a81"
+    ],
+    "create_time": 1787083105,
+    "update_time": 1787083113,
+    "_id": "doc-e71e082796434ad5e7fdfd56adbca8ef-chunk-000"
   },
   "doc-e82d1c6e818db2c2331a5e7d9a0ef845-chunk-000": {
     "tokens": 99,
@@ -949,10 +822,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:49e1178dea8700d9af1dcd6dee50072e",
-      "default:extract:63ee1cb7f4367c055d9aa2456b93e504"
+      "default:extract:b6725e8cf7a025333b4b7871a2aa44d7"
     ],
-    "create_time": 1787062488,
-    "update_time": 1787062548,
+    "create_time": 1787083114,
+    "update_time": 1787083158,
     "_id": "doc-e82d1c6e818db2c2331a5e7d9a0ef845-chunk-000"
   },
   "doc-ea805575f497a9c1254552acd0a1daf1-chunk-000": {
@@ -961,9 +834,12 @@
     "chunk_order_index": 0,
     "full_doc_id": "doc-ea805575f497a9c1254552acd0a1daf1",
     "file_path": "unknown_source",
-    "llm_cache_list": [],
-    "create_time": 1787062550,
-    "update_time": 1787062550,
+    "llm_cache_list": [
+      "default:extract:b0026c5bb50aaaa96fa376724dee91b1",
+      "default:extract:9b0c3482434b1ea118678fffc7b52e99"
+    ],
+    "create_time": 1787083160,
+    "update_time": 1787083340,
     "_id": "doc-ea805575f497a9c1254552acd0a1daf1-chunk-000"
   },
   "doc-ee1aeda9c84d5b356cce352ae39e0746-chunk-000": {
@@ -976,8 +852,8 @@
       "default:extract:7dbf9f52c700967ee702e94aa55350de",
       "default:extract:2a082413422c368bfbb5c6e03e3583a6"
     ],
-    "create_time": 1787063031,
-    "update_time": 1787063268,
+    "create_time": 1787083353,
+    "update_time": 1787083357,
     "_id": "doc-ee1aeda9c84d5b356cce352ae39e0746-chunk-000"
   },
   "doc-f694070ad6fd98c3c0c4b0a9c3787bbb-chunk-000": {
@@ -988,10 +864,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:8fc45aa9383bd8fc9a31c32128055989",
-      "default:extract:b565756850564526e6ee9307a56034a3"
+      "default:extract:69d9bcf4e3a7ca2b06922a6a547032ce"
     ],
-    "create_time": 1787063271,
-    "update_time": 1787063299,
+    "create_time": 1787083358,
+    "update_time": 1787083362,
     "_id": "doc-f694070ad6fd98c3c0c4b0a9c3787bbb-chunk-000"
   },
   "doc-f9081d114c069483942bd32f623b7876-chunk-000": {
@@ -1001,25 +877,12 @@
     "full_doc_id": "doc-f9081d114c069483942bd32f623b7876",
     "file_path": "unknown_source",
     "llm_cache_list": [
-      "default:extract:4199c5ee31a86899017c409144af3506"
+      "default:extract:4199c5ee31a86899017c409144af3506",
+      "default:extract:9e46436cb4781e555dee941b742eca9c"
     ],
-    "create_time": 1787063301,
-    "update_time": 1787063633,
+    "create_time": 1787083366,
+    "update_time": 1787083372,
     "_id": "doc-f9081d114c069483942bd32f623b7876-chunk-000"
-  },
-  "doc-fb1d5f2fb2b282b67736d797b15263cb-chunk-000": {
-    "tokens": 50,
-    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the link 'View as List'\" role='link' name='View as List' bbox_px=[306, 381, 352, 421]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-fb1d5f2fb2b282b67736d797b15263cb",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:94a299b66c7cbedccb555f1d7ad86c57",
-      "default:extract:26f60f2052d77e62370c91718bcf6746"
-    ],
-    "create_time": 1787063635,
-    "update_time": 1787063642,
-    "_id": "doc-fb1d5f2fb2b282b67736d797b15263cb-chunk-000"
   },
   "doc-fc1ca9cca3e46ee16fa32c18e0a103c3-chunk-000": {
     "tokens": 47,
@@ -1029,10 +892,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:ddc56a4786367f8d9bf6181fb2cb6fb7",
-      "default:extract:2a90d55a61f1bbe8a4e5652a6b3ff35f"
+      "default:extract:613e28931e533d62635f2f9100e5759c"
     ],
-    "create_time": 1787063643,
-    "update_time": 1787063649,
+    "create_time": 1787083373,
+    "update_time": 1787083377,
     "_id": "doc-fc1ca9cca3e46ee16fa32c18e0a103c3-chunk-000"
   },
   "doc-015b8caaec6a57269904cd96648a584a-chunk-000": {
@@ -1043,11 +906,39 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:0f672941569cc56220bf7dbdea064946",
-      "default:extract:178cfee406e2d1fefcec6bdc634dee56"
+      "default:extract:20a6bad0ae0a16ad82a2e795687f6057"
     ],
-    "create_time": 1787063654,
-    "update_time": 1787063672,
+    "create_time": 1787083378,
+    "update_time": 1787083389,
     "_id": "doc-015b8caaec6a57269904cd96648a584a-chunk-000"
+  },
+  "doc-01c33fc069142df72db73c0a60322bcf-chunk-000": {
+    "tokens": 52,
+    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the menuitem 'Health & Household'\" role='menuitem' name='Health & Household' bbox_px=[8, 181, 180, 234]",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-01c33fc069142df72db73c0a60322bcf",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:29df4e8a3b08a7229500298e76428816",
+      "default:extract:d58b12efcda2a6d07a5f9956737b8e7c"
+    ],
+    "create_time": 1787083390,
+    "update_time": 1787083399,
+    "_id": "doc-01c33fc069142df72db73c0a60322bcf-chunk-000"
+  },
+  "doc-01c9fc9ee30d9a60fd968f838ea162d4-chunk-000": {
+    "tokens": 50,
+    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the menuitem 'Video Games'\" role='menuitem' name='Video Games' bbox_px=[721, 181, 843, 234]",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-01c9fc9ee30d9a60fd968f838ea162d4",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:ffe4ae801a4b7859aff95f8d643d3757",
+      "default:extract:56a1e5c61fe256d134a94fc24cf69163"
+    ],
+    "create_time": 1787083404,
+    "update_time": 1787083413,
+    "_id": "doc-01c9fc9ee30d9a60fd968f838ea162d4-chunk-000"
   },
   "doc-12452d2aa4a1f4053eb75846db92c28d-chunk-000": {
     "tokens": 49,
@@ -1059,8 +950,8 @@
       "default:extract:8e49d441c10ed3dee7de61c1e0db216b",
       "default:extract:863292f73aaa92853cceef065ac8c0fb"
     ],
-    "create_time": 1787063682,
-    "update_time": 1787063697,
+    "create_time": 1787083414,
+    "update_time": 1787083420,
     "_id": "doc-12452d2aa4a1f4053eb75846db92c28d-chunk-000"
   },
   "doc-194f81eb3c83c9cefd1db2a27051c77c-chunk-000": {
@@ -1071,10 +962,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:b4e76b6a2ddee8ba37d80f1d790f6e4b",
-      "default:extract:711f455367ff75ad90f4ff9ea3bbf074"
+      "default:extract:6175542af8712880c7ae47a03f2a6605"
     ],
-    "create_time": 1787063709,
-    "update_time": 1787063735,
+    "create_time": 1787083425,
+    "update_time": 1787083429,
     "_id": "doc-194f81eb3c83c9cefd1db2a27051c77c-chunk-000"
   },
   "doc-1c15c889a922325358d22d1c84770de1-chunk-000": {
@@ -1085,10 +976,10 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:2f9e149ed1965607bad011de031439d7",
-      "default:extract:2ea10199e128f20d358078405817c5c3"
+      "default:extract:49e4d717fad53b67ca296e6ab00d3d33"
     ],
-    "create_time": 1787063764,
-    "update_time": 1787063773,
+    "create_time": 1787083434,
+    "update_time": 1787083437,
     "_id": "doc-1c15c889a922325358d22d1c84770de1-chunk-000"
   },
   "doc-1f7b2c3abc8d8d66c2f091d24f67233a-chunk-000": {
@@ -1101,9 +992,37 @@
       "default:extract:196d3285f238fb077bae9e9842fc4703",
       "default:extract:b1b2852839fa7b4103c4f3fe35bbb5a1"
     ],
-    "create_time": 1787063779,
-    "update_time": 1787063789,
+    "create_time": 1787083438,
+    "update_time": 1787083449,
     "_id": "doc-1f7b2c3abc8d8d66c2f091d24f67233a-chunk-000"
+  },
+  "doc-2264c0cbd93197c10fe0a09fdbcf60f8-chunk-000": {
+    "tokens": 54,
+    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the menuitem 'Cell Phones & Accessories'\" role='menuitem' name='Cell Phones & Accessories' bbox_px=[500, 181, 711, 234]",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-2264c0cbd93197c10fe0a09fdbcf60f8",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:30a52acb44a839999053dcf1b764f787",
+      "default:extract:a1c4ec7bd3086b0bb2ea22000c48ff16"
+    ],
+    "create_time": 1787083455,
+    "update_time": 1787083460,
+    "_id": "doc-2264c0cbd93197c10fe0a09fdbcf60f8-chunk-000"
+  },
+  "doc-2425ff05274b38ff401705494a0d825c-chunk-000": {
+    "tokens": 51,
+    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the menuitem 'Home & Kitchen'\" role='menuitem' name='Home & Kitchen' bbox_px=[602, 128, 747, 181]",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-2425ff05274b38ff401705494a0d825c",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:1b2574d2bcda3845372077ba18cdd3e8",
+      "default:extract:b5fd10ed7e6f81e3b6a751d57f213e33"
+    ],
+    "create_time": 1787083462,
+    "update_time": 1787083472,
+    "_id": "doc-2425ff05274b38ff401705494a0d825c-chunk-000"
   },
   "doc-24628cc5a1143e502c68ca86491314b0-chunk-000": {
     "tokens": 58,
@@ -1115,8 +1034,8 @@
       "default:extract:be32a0d1e5860c9ff074d34d137dea21",
       "default:extract:fa2c11c8fd923201c036d772c223f4f0"
     ],
-    "create_time": 1787063790,
-    "update_time": 1787063799,
+    "create_time": 1787083475,
+    "update_time": 1787083478,
     "_id": "doc-24628cc5a1143e502c68ca86491314b0-chunk-000"
   },
   "doc-268dbaf8f5d2bbfa508f8694007669e8-chunk-000": {
@@ -1127,1001 +1046,11 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:ca1b6f0d2859480236413948e9d9be1d",
-      "default:extract:9ad474b4abfc851b04f5b4552a94c5c9"
+      "default:extract:ac65e7e73905f95ed7851880ea42d201"
     ],
-    "create_time": 1787063806,
-    "update_time": 1787063819,
+    "create_time": 1787083479,
+    "update_time": 1787083483,
     "_id": "doc-268dbaf8f5d2bbfa508f8694007669e8-chunk-000"
-  },
-  "doc-29be4ff47307e375f775296be1cde294-chunk-000": {
-    "tokens": 52,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the menuitem 'Sports & Outdoors'\" role='menuitem' name='Sports & Outdoors' bbox_px=[214, 128, 374, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-29be4ff47307e375f775296be1cde294",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:fc249aa6e6bdc4fe4180f7c5c4524c22",
-      "default:extract:527ddda3b9f8e92cfa3bb1f807598157"
-    ],
-    "create_time": 1787063821,
-    "update_time": 1787063965,
-    "_id": "doc-29be4ff47307e375f775296be1cde294-chunk-000"
-  },
-  "doc-2b681e6ff218bd5e8ea006e583399b46-chunk-000": {
-    "tokens": 51,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the menuitem 'Video Games'\" role='menuitem' name='Video Games' bbox_px=[721, 181, 843, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-2b681e6ff218bd5e8ea006e583399b46",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:0ed2a308ca0a732ece3e5d3096f9385d",
-      "default:extract:1a638c2ce294f1edcdf02f7119eb9e60"
-    ],
-    "create_time": 1787063968,
-    "update_time": 1787064002,
-    "_id": "doc-2b681e6ff218bd5e8ea006e583399b46-chunk-000"
-  },
-  "doc-2f5966d424551de0ed4fd414c471d245-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the textbox 'Product Name'\" role='textbox' name='Product Name' bbox_px=[180, 430, 640, 462]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-2f5966d424551de0ed4fd414c471d245",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:9efef98e6330b1bc2fc32832690d144f",
-      "default:extract:2505ee077737578c92a4e0a8e0e9acbe"
-    ],
-    "create_time": 1787064070,
-    "update_time": 1787064085,
-    "_id": "doc-2f5966d424551de0ed4fd414c471d245-chunk-000"
-  },
-  "doc-3061faa96c0c7a421b9cb59faaceecfd-chunk-000": {
-    "tokens": 55,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the menuitem 'Beauty & Personal Care'\" role='menuitem' name='Beauty & Personal Care' bbox_px=[8, 128, 204, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-3061faa96c0c7a421b9cb59faaceecfd",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:e817e2c71a952a8891afe15ff9de0ed0",
-      "default:extract:ab7b0fff48d082f0db516700582f24f7"
-    ],
-    "create_time": 1787064088,
-    "update_time": 1787064111,
-    "_id": "doc-3061faa96c0c7a421b9cb59faaceecfd-chunk-000"
-  },
-  "doc-31614258e420804fd40acd6947038f2a-chunk-000": {
-    "tokens": 57,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the combobox 'Search entire store here...'\" role='combobox' name='Search entire store here...' bbox_px=[962, 71, 1212, 103]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-31614258e420804fd40acd6947038f2a",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:1656a45a616dc22dec07c9d6744e7a1d",
-      "default:extract:d3c5d5749ee54ad307152fe646144f43"
-    ],
-    "create_time": 1787064168,
-    "update_time": 1787064170,
-    "_id": "doc-31614258e420804fd40acd6947038f2a-chunk-000"
-  },
-  "doc-35febc2127cbc36e3b4418c2125e83a4-chunk-000": {
-    "tokens": 54,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the menuitem 'Cell Phones & Accessories'\" role='menuitem' name='Cell Phones & Accessories' bbox_px=[500, 181, 711, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-35febc2127cbc36e3b4418c2125e83a4",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:1f39c2e45d1f7ab3db2d140efc0ca084",
-      "default:extract:b33c435e85db3446d5e9ca637e53ba14"
-    ],
-    "create_time": 1787064177,
-    "update_time": 1787064184,
-    "_id": "doc-35febc2127cbc36e3b4418c2125e83a4-chunk-000"
-  },
-  "doc-364c8d31ece0f7e9e65c9d104776c34b-chunk-000": {
-    "tokens": 51,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the link 'Create an Account'\" role='link' name='Create an Account' bbox_px=[1141, 10, 1260, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-364c8d31ece0f7e9e65c9d104776c34b",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:1c3a0f44e6f288b11f0562f5e98daa87",
-      "default:extract:7fad88e1c02dc94844cc74a6ca85ca0a"
-    ],
-    "create_time": 1787064186,
-    "update_time": 1787064189,
-    "_id": "doc-364c8d31ece0f7e9e65c9d104776c34b-chunk-000"
-  },
-  "doc-3a1f9fb8187ebb695d7395642f45c378-chunk-000": {
-    "tokens": 50,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the link 'My Cart'\" role='link' name='My Cart' bbox_px=[1225, 71, 1260, 104]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-3a1f9fb8187ebb695d7395642f45c378",
-    "file_path": "unknown_source",
-    "llm_cache_list": [],
-    "create_time": 1787064191,
-    "update_time": 1787064191,
-    "_id": "doc-3a1f9fb8187ebb695d7395642f45c378-chunk-000"
-  },
-  "doc-3e299beb38700881a5830b1177ab94bc-chunk-000": {
-    "tokens": 53,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the menuitem 'Sports & Outdoors'\" role='menuitem' name='Sports & Outdoors' bbox_px=[214, 128, 374, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-3e299beb38700881a5830b1177ab94bc",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:fafc56f78339f05194c39ff4d080a991",
-      "default:extract:5feab5a7a91223c9c18cf95c7db4a4bf"
-    ],
-    "create_time": 1787064672,
-    "update_time": 1787064688,
-    "_id": "doc-3e299beb38700881a5830b1177ab94bc-chunk-000"
-  },
-  "doc-3e769a9f3b3124071bf65fc847fda10d-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the link 'My Wish List'\" role='link' name='My Wish List' bbox_px=[765, 10, 846, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-3e769a9f3b3124071bf65fc847fda10d",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:61998214a527101f83aed9c9dc9f58b8",
-      "default:extract:f5bc723f3897ffa6421d0aec065ac82b"
-    ],
-    "create_time": 1787064694,
-    "update_time": 1787064699,
-    "_id": "doc-3e769a9f3b3124071bf65fc847fda10d-chunk-000"
-  },
-  "doc-3ef10f3dea1f5da8dc8423dea18701c2-chunk-000": {
-    "tokens": 48,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the link 'Advanced Search'\" role='link' name='Advanced Search' bbox_px=[962, 108, 1074, 127]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-3ef10f3dea1f5da8dc8423dea18701c2",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:d4658db003b15934ebe80592c2de8fa1",
-      "default:extract:40964c85af1186b01525deec07b3ec1e"
-    ],
-    "create_time": 1787064703,
-    "update_time": 1787064706,
-    "_id": "doc-3ef10f3dea1f5da8dc8423dea18701c2-chunk-000"
-  },
-  "doc-4029119d4b2b9c7ff35206e552a64d88-chunk-000": {
-    "tokens": 58,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the menuitem 'Patio, Lawn & Garden'\" role='menuitem' name='Patio, Lawn & Garden' bbox_px=[190, 181, 372, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-4029119d4b2b9c7ff35206e552a64d88",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:61d336a394e2fb8fa811a6be85b3dcb7",
-      "default:extract:36c85061e52d4a43bb4db7a45f886369"
-    ],
-    "create_time": 1787064708,
-    "update_time": 1787064712,
-    "_id": "doc-4029119d4b2b9c7ff35206e552a64d88-chunk-000"
-  },
-  "doc-408a545f2f275edc7f90370680b14ca2-chunk-000": {
-    "tokens": 55,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the menuitem 'Tools & Home Improvement'\" role='menuitem' name='Tools & Home Improvement' bbox_px=[906, 128, 1132, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-408a545f2f275edc7f90370680b14ca2",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:30ab2edc7519323048dd279de5872c24",
-      "default:extract:84cd8cd7eea8506a1adb19295baec08d"
-    ],
-    "create_time": 1787064715,
-    "update_time": 1787064719,
-    "_id": "doc-408a545f2f275edc7f90370680b14ca2-chunk-000"
-  },
-  "doc-4b8b44fb9a808fdbf68751389d341643-chunk-000": {
-    "tokens": 59,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the menuitem 'Clothing, Shoes & Jewelry'\" role='menuitem' name='Clothing, Shoes & Jewelry' bbox_px=[384, 128, 592, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-4b8b44fb9a808fdbf68751389d341643",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:82d0f5ba4661abef66cb1c663a0becbd",
-      "default:extract:972492ef23673f701c3045b6eddb81ef"
-    ],
-    "create_time": 1787064731,
-    "update_time": 1787064734,
-    "_id": "doc-4b8b44fb9a808fdbf68751389d341643-chunk-000"
-  },
-  "doc-56ec189439a015283fccdce67a566f82-chunk-000": {
-    "tokens": 52,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the menuitem 'Home & Kitchen'\" role='menuitem' name='Home & Kitchen' bbox_px=[602, 128, 747, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-56ec189439a015283fccdce67a566f82",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:ea4761a04b6a66ab050f61775866aad3",
-      "default:extract:6e5d8d958583744a3bf40f01e1cdffa8"
-    ],
-    "create_time": 1787064735,
-    "update_time": 1787064739,
-    "_id": "doc-56ec189439a015283fccdce67a566f82-chunk-000"
-  },
-  "doc-5b473242f4933f3f7d91e6f29b742fcf-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the link 'Sign In'\" role='link' name='Sign In' bbox_px=[861, 10, 905, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-5b473242f4933f3f7d91e6f29b742fcf",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:18be2c6a228fb1e131aaa2084eda6f9b",
-      "default:extract:974abaae336d9c0a9b7978604b5a281a"
-    ],
-    "create_time": 1787064741,
-    "update_time": 1787064744,
-    "_id": "doc-5b473242f4933f3f7d91e6f29b742fcf-chunk-000"
-  },
-  "doc-5da9c66bf37b64902e06a0dd44ff6fac-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the button 'Search'\" role='button' name='Search' bbox_px=[1180, 71, 1202, 103]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-5da9c66bf37b64902e06a0dd44ff6fac",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:bce10d405bbed00b557707df56369c9c",
-      "default:extract:47f7fa48f01c844ecc4366a8134d67aa"
-    ],
-    "create_time": 1787064745,
-    "update_time": 1787064750,
-    "_id": "doc-5da9c66bf37b64902e06a0dd44ff6fac-chunk-000"
-  },
-  "doc-5fb0571aa2079c55a01a22bbe275b3dd-chunk-000": {
-    "tokens": 50,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the menuitem 'Electronics'\" role='menuitem' name='Electronics' bbox_px=[382, 181, 490, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-5fb0571aa2079c55a01a22bbe275b3dd",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:4fe6a7f573f54b414584c7622fa0d36f",
-      "default:extract:ab0953fe38f94524d619c871b7f74381"
-    ],
-    "create_time": 1787064758,
-    "update_time": 1787064762,
-    "_id": "doc-5fb0571aa2079c55a01a22bbe275b3dd-chunk-000"
-  },
-  "doc-62259b523c4399851b637448a3e83944-chunk-000": {
-    "tokens": 47,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the button 'Search'\" role='button' name='Search' bbox_px=[1180, 71, 1202, 103]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-62259b523c4399851b637448a3e83944",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:a17d17cd8069bd9e8023d30cb6ad78c5",
-      "default:extract:09f94f383a869840418797e6fa5f7c19"
-    ],
-    "create_time": 1787064763,
-    "update_time": 1787064768,
-    "_id": "doc-62259b523c4399851b637448a3e83944-chunk-000"
-  },
-  "doc-6b02e81836738c20fc78c9f73add60be-chunk-000": {
-    "tokens": 54,
-    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the link 'Office Products 7 item'\" role='link' name='Office Products 7 item' bbox_px=[20, 594, 140, 613]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-6b02e81836738c20fc78c9f73add60be",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:4fea5ef9c2033513e66f454661063fd9",
-      "default:extract:8ad7665423574100e60ebf340d40b14d"
-    ],
-    "create_time": 1787064770,
-    "update_time": 1787064773,
-    "_id": "doc-6b02e81836738c20fc78c9f73add60be-chunk-000"
-  },
-  "doc-6eba1c907b5724355bed821c6610610f-chunk-000": {
-    "tokens": 91,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the menu 'Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme'\" role='menu' name='Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme' bbox_px=[0, 128, 1280, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-6eba1c907b5724355bed821c6610610f",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:242949e9b5140acbb20e829aede1e8e5",
-      "default:extract:58256206520af1261c9680a059282e39"
-    ],
-    "create_time": 1787064774,
-    "update_time": 1787064779,
-    "_id": "doc-6eba1c907b5724355bed821c6610610f-chunk-000"
-  },
-  "doc-712115b30aa90cdcf9e36fbce4237ebd-chunk-000": {
-    "tokens": 47,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the link 'store logo'\" role='link' name='store logo' bbox_px=[20, 71, 220, 98]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-712115b30aa90cdcf9e36fbce4237ebd",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:920022251afa9a3d300aea4b561c660b",
-      "default:extract:5299ff840307ab7c8a535a1c69dcd7c9"
-    ],
-    "create_time": 1787064786,
-    "update_time": 1787064789,
-    "_id": "doc-712115b30aa90cdcf9e36fbce4237ebd-chunk-000"
-  },
-  "doc-722a96df8df31ddf4201f8e8f11d9525-chunk-000": {
-    "tokens": 53,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the menuitem 'Health & Household'\" role='menuitem' name='Health & Household' bbox_px=[8, 181, 180, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-722a96df8df31ddf4201f8e8f11d9525",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:3760a82779fa81730dcb05358355f9cd",
-      "default:extract:f92b3b380fda3065a8ad8c60282d8065"
-    ],
-    "create_time": 1787064791,
-    "update_time": 1787064795,
-    "_id": "doc-722a96df8df31ddf4201f8e8f11d9525-chunk-000"
-  },
-  "doc-739327665f2014ada5bc9dc6fc1d0968-chunk-000": {
-    "tokens": 54,
-    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the link 'Electronics 22 item'\" role='link' name='Electronics 22 item' bbox_px=[20, 706, 118, 725]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-739327665f2014ada5bc9dc6fc1d0968",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:c416511b3451fb2da7da99a6a5b7298d",
-      "default:extract:998da7ae0c7ee947816ba8381a39ee94"
-    ],
-    "create_time": 1787064798,
-    "update_time": 1787064800,
-    "_id": "doc-739327665f2014ada5bc9dc6fc1d0968-chunk-000"
-  },
-  "doc-7e6f0b9e982b547cc8a70604b6b807cd-chunk-000": {
-    "tokens": 47,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the link 'My Account'\" role='link' name='My Account' bbox_px=[674, 10, 750, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-7e6f0b9e982b547cc8a70604b6b807cd",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:0f5ff52e902d56a3fd8a3e582445011a",
-      "default:extract:4493aa09defea07a1752b315020c5732"
-    ],
-    "create_time": 1787064801,
-    "update_time": 1787064807,
-    "_id": "doc-7e6f0b9e982b547cc8a70604b6b807cd-chunk-000"
-  },
-  "doc-81a8f3e81ce5be9998db95239a0a1db3-chunk-000": {
-    "tokens": 52,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the link 'Create an Account'\" role='link' name='Create an Account' bbox_px=[1141, 10, 1260, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-81a8f3e81ce5be9998db95239a0a1db3",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:7b1b82cb9c4d74e1cc48b14bb7f3d229",
-      "default:extract:d2f78f7660ac48db5160e92bce819b0b"
-    ],
-    "create_time": 1787064820,
-    "update_time": 1787064824,
-    "_id": "doc-81a8f3e81ce5be9998db95239a0a1db3-chunk-000"
-  },
-  "doc-841245dee9b14e5f30aa2d5301576659-chunk-000": {
-    "tokens": 51,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the menuitem 'Office Products'\" role='menuitem' name='Office Products' bbox_px=[757, 128, 896, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-841245dee9b14e5f30aa2d5301576659",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:216e523d813e167796b7cd32d81b126f",
-      "default:extract:2586ed92a6b31a392b99738ab7c1ba28"
-    ],
-    "create_time": 1787064824,
-    "update_time": 1787064832,
-    "_id": "doc-841245dee9b14e5f30aa2d5301576659-chunk-000"
-  },
-  "doc-8cc1a03033af241faefa99ff5ed7f098-chunk-000": {
-    "tokens": 48,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the link 'Sign In'\" role='link' name='Sign In' bbox_px=[861, 10, 905, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-8cc1a03033af241faefa99ff5ed7f098",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:5d2ae8bf96db52a4a1ee19423f90e81b",
-      "default:extract:0ee82d8fdd06ab072cd4a9ce7786fae0"
-    ],
-    "create_time": 1787064834,
-    "update_time": 1787064840,
-    "_id": "doc-8cc1a03033af241faefa99ff5ed7f098-chunk-000"
-  },
-  "doc-8ebab9432b078c2baa74ff1c9274526e-chunk-000": {
-    "tokens": 62,
-    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the link 'Patio, Lawn & Garden 2 item'\" role='link' name='Patio, Lawn & Garden 2 item' bbox_px=[20, 683, 181, 702]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-8ebab9432b078c2baa74ff1c9274526e",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:06210b279fbc71ad4ddf753883e930eb",
-      "default:extract:573eb4b0b62e63f3c7c4c9cf7beeac52"
-    ],
-    "create_time": 1787064848,
-    "update_time": 1787064851,
-    "_id": "doc-8ebab9432b078c2baa74ff1c9274526e-chunk-000"
-  },
-  "doc-8f7f3657b48ba0e4aa88ce986d0a41c7-chunk-000": {
-    "tokens": 51,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the menuitem 'Electronics'\" role='menuitem' name='Electronics' bbox_px=[382, 181, 490, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-8f7f3657b48ba0e4aa88ce986d0a41c7",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:d9d131245e349db76fa55f4f8b497e62",
-      "default:extract:bccf5b4ad9e8136303964b10d9c74ff4"
-    ],
-    "create_time": 1787064852,
-    "update_time": 1787064856,
-    "_id": "doc-8f7f3657b48ba0e4aa88ce986d0a41c7-chunk-000"
-  },
-  "doc-9104b63ab39e8f7a3804222796138bfa-chunk-000": {
-    "tokens": 58,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the menuitem 'Grocery & Gourmet Food'\" role='menuitem' name='Grocery & Gourmet Food' bbox_px=[853, 181, 1058, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-9104b63ab39e8f7a3804222796138bfa",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:ce90b5649d84762ead2ab83b41c3e870",
-      "default:extract:941b5237db8f16f1427c9d2fcd9bb611"
-    ],
-    "create_time": 1787064860,
-    "update_time": 1787064918,
-    "_id": "doc-9104b63ab39e8f7a3804222796138bfa-chunk-000"
-  },
-  "doc-9333fa509488f424a24510692a3b8d34-chunk-000": {
-    "tokens": 56,
-    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the link 'Health & Household 4 item'\" role='link' name='Health & Household 4 item' bbox_px=[20, 660, 172, 679]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-9333fa509488f424a24510692a3b8d34",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:d47f0fec7d3561db4ac31655c1271dca",
-      "default:extract:3d5314a1335a6850e6fdc09d2cb24413"
-    ],
-    "create_time": 1787064923,
-    "update_time": 1787064928,
-    "_id": "doc-9333fa509488f424a24510692a3b8d34-chunk-000"
-  },
-  "doc-93c0b52f1424d7d36baed79b40514396-chunk-000": {
-    "tokens": 52,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the menuitem 'Health & Household'\" role='menuitem' name='Health & Household' bbox_px=[8, 181, 180, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-93c0b52f1424d7d36baed79b40514396",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:cffe72febf844e8b3e9c01a25c6bd048",
-      "default:extract:1552268f0e06da9141f392ef2039d457"
-    ],
-    "create_time": 1787064929,
-    "update_time": 1787064934,
-    "_id": "doc-93c0b52f1424d7d36baed79b40514396-chunk-000"
-  },
-  "doc-9c770a210ed04e4896b64343058e4e98-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the link 'My Account'\" role='link' name='My Account' bbox_px=[674, 10, 750, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-9c770a210ed04e4896b64343058e4e98",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:8f7dfc634b7d391a22f5d36152686d97",
-      "default:extract:f29bb84a1e8dff074dd1a32e9be42be4"
-    ],
-    "create_time": 1787064946,
-    "update_time": 1787064949,
-    "_id": "doc-9c770a210ed04e4896b64343058e4e98-chunk-000"
-  },
-  "doc-9fe24d26583c5858737b13f669bc8ff1-chunk-000": {
-    "tokens": 54,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the menuitem 'Beauty & Personal Care'\" role='menuitem' name='Beauty & Personal Care' bbox_px=[8, 128, 204, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-9fe24d26583c5858737b13f669bc8ff1",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:f83e7bbecd41efdfc6813c6e2442a71b",
-      "default:extract:02bc312bb7d21d6189fc8a33efdae0a0"
-    ],
-    "create_time": 1787064963,
-    "update_time": 1787064969,
-    "_id": "doc-9fe24d26583c5858737b13f669bc8ff1-chunk-000"
-  },
-  "doc-a0e31ce440868a3d3601a01f6b1c3088-chunk-000": {
-    "tokens": 56,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the combobox 'Search entire store here...'\" role='combobox' name='Search entire store here...' bbox_px=[962, 71, 1212, 103]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-a0e31ce440868a3d3601a01f6b1c3088",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:7ccdd37a3fa1d7cca8edc1ac084fad20",
-      "default:extract:24bfd38a7b9c2a2945cc2bfe37c86c62"
-    ],
-    "create_time": 1787064977,
-    "update_time": 1787064984,
-    "_id": "doc-a0e31ce440868a3d3601a01f6b1c3088-chunk-000"
-  },
-  "doc-a38f01529d7e4dbc6a24e45769ece8ee-chunk-000": {
-    "tokens": 48,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the link 'My Account'\" role='link' name='My Account' bbox_px=[674, 10, 750, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-a38f01529d7e4dbc6a24e45769ece8ee",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:d2dbe760c8b3e2773302811245007531",
-      "default:extract:d3d4703c0d83f8b183287e96da2cf5ac"
-    ],
-    "create_time": 1787064985,
-    "update_time": 1787065035,
-    "_id": "doc-a38f01529d7e4dbc6a24e45769ece8ee-chunk-000"
-  },
-  "doc-a8a1377ef68d488899bdb4dc961c9296-chunk-000": {
-    "tokens": 47,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the link 'Home'\" role='link' name='Home' bbox_px=[20, 259, 57, 275]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-a8a1377ef68d488899bdb4dc961c9296",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:505f25a74703ef5b86d202599cd7f0db",
-      "default:extract:3d4cea1ddf078e346b6ef69aa3e03a1c"
-    ],
-    "create_time": 1787065041,
-    "update_time": 1787065046,
-    "_id": "doc-a8a1377ef68d488899bdb4dc961c9296-chunk-000"
-  },
-  "doc-ac63af929d9bcd32b80115e4b7e7f95a-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the textbox 'Short Description'\" role='textbox' name='Short Description' bbox_px=[180, 613, 640, 645]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-ac63af929d9bcd32b80115e4b7e7f95a",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:53fedf064cea47c5aa8ede19638df88c",
-      "default:extract:2b5cfa3b74317c7b3793e2aaac9165f7"
-    ],
-    "create_time": 1787065048,
-    "update_time": 1787065057,
-    "_id": "doc-ac63af929d9bcd32b80115e4b7e7f95a-chunk-000"
-  },
-  "doc-ad1353cf7ac09de38b512eb9b3cfadc2-chunk-000": {
-    "tokens": 47,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the link 'Sign In'\" role='link' name='Sign In' bbox_px=[861, 10, 905, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-ad1353cf7ac09de38b512eb9b3cfadc2",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:75569ee548d0161f939a44a9026b371e",
-      "default:extract:994ab16c6e215441e8026b43323131cc"
-    ],
-    "create_time": 1787065061,
-    "update_time": 1787065072,
-    "_id": "doc-ad1353cf7ac09de38b512eb9b3cfadc2-chunk-000"
-  },
-  "doc-aed19f98e30bc8b112d61f39e3e57a4e-chunk-000": {
-    "tokens": 48,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the button 'Search'\" role='button' name='Search' bbox_px=[1180, 71, 1202, 103]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-aed19f98e30bc8b112d61f39e3e57a4e",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:b5e4403d819142ed675578f44b6ecfc6",
-      "default:extract:92a0a66dfd8b93ab7745d41784daceaa"
-    ],
-    "create_time": 1787065073,
-    "update_time": 1787065162,
-    "_id": "doc-aed19f98e30bc8b112d61f39e3e57a4e-chunk-000"
-  },
-  "doc-b0adcdaadab92923be5fd15b79b93955-chunk-000": {
-    "tokens": 55,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the menuitem 'Cell Phones & Accessories'\" role='menuitem' name='Cell Phones & Accessories' bbox_px=[500, 181, 711, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-b0adcdaadab92923be5fd15b79b93955",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:779bfb9a84b0c75a99f68fad9187b50c",
-      "default:extract:54d6792e618b1af01672e03d38caad43"
-    ],
-    "create_time": 1787065172,
-    "update_time": 1787065176,
-    "_id": "doc-b0adcdaadab92923be5fd15b79b93955-chunk-000"
-  },
-  "doc-ba6726fc258014219f639a6913f23960-chunk-000": {
-    "tokens": 51,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the link 'My Wish List'\" role='link' name='My Wish List' bbox_px=[765, 10, 846, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-ba6726fc258014219f639a6913f23960",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:88672d92ceeaaa761318c7ffd72a9df3",
-      "default:extract:06abe6cf4b80dbbf29fcc10240608ffa"
-    ],
-    "create_time": 1787065185,
-    "update_time": 1787065189,
-    "_id": "doc-ba6726fc258014219f639a6913f23960-chunk-000"
-  },
-  "doc-bbdf8ed1ea71a34c7864fc2631add2ca-chunk-000": {
-    "tokens": 50,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the link 'Advanced Search'\" role='link' name='Advanced Search' bbox_px=[962, 108, 1074, 127]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-bbdf8ed1ea71a34c7864fc2631add2ca",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:81bf3c4bc824d3a826c562e02183843a",
-      "default:extract:e2c0a6e147581a1ee08d636a1a2f86fa"
-    ],
-    "create_time": 1787065191,
-    "update_time": 1787065194,
-    "_id": "doc-bbdf8ed1ea71a34c7864fc2631add2ca-chunk-000"
-  },
-  "doc-bc7e8d67dff433b59a975c8568f3eb3b-chunk-000": {
-    "tokens": 56,
-    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the link 'Home & Kitchen 88 item'\" role='link' name='Home & Kitchen 88 item' bbox_px=[20, 571, 154, 590]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-bc7e8d67dff433b59a975c8568f3eb3b",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:72ed8fd4e946f889ff62dfc455685f79",
-      "default:extract:e513f560c452ba6fa774123f517a4211"
-    ],
-    "create_time": 1787065200,
-    "update_time": 1787065209,
-    "_id": "doc-bc7e8d67dff433b59a975c8568f3eb3b-chunk-000"
-  },
-  "doc-bdc77527a3d323bef3bef65914da4898-chunk-000": {
-    "tokens": 48,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the link 'store logo'\" role='link' name='store logo' bbox_px=[20, 71, 220, 98]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-bdc77527a3d323bef3bef65914da4898",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:f4d80b1216518c6c24db40b861e102d8",
-      "default:extract:45bc4d9786c488cf02385e16dd1dbf1d"
-    ],
-    "create_time": 1787065210,
-    "update_time": 1787065216,
-    "_id": "doc-bdc77527a3d323bef3bef65914da4898-chunk-000"
-  },
-  "doc-c2d276c0713cf9e96a47308ae621ecf4-chunk-000": {
-    "tokens": 53,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the link 'Create an Account'\" role='link' name='Create an Account' bbox_px=[1141, 10, 1260, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-c2d276c0713cf9e96a47308ae621ecf4",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:1016e2cdd72851ec9af34bcd2523f399",
-      "default:extract:59ac9d5326258bff61adfb3a72242876"
-    ],
-    "create_time": 1787065221,
-    "update_time": 1787065225,
-    "_id": "doc-c2d276c0713cf9e96a47308ae621ecf4-chunk-000"
-  },
-  "doc-c87ec0c898aa8c18b63d3ebadc9a54f2-chunk-000": {
-    "tokens": 47,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the textbox 'Price'\" role='textbox' name='Price' bbox_px=[410, 674, 595, 706]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-c87ec0c898aa8c18b63d3ebadc9a54f2",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:64ea27a66ec43067ec6345c0116298ce"
-    ],
-    "create_time": 1787065226,
-    "update_time": 1787065473,
-    "_id": "doc-c87ec0c898aa8c18b63d3ebadc9a54f2-chunk-000"
-  },
-  "doc-d25584ce082df2e36945fee89019ca59-chunk-000": {
-    "tokens": 50,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the menuitem 'Office Products'\" role='menuitem' name='Office Products' bbox_px=[757, 128, 896, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-d25584ce082df2e36945fee89019ca59",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:2705307ebde698efad51bbec50ddb2e6",
-      "default:extract:c963320abe2f66c336247725ac1f539d"
-    ],
-    "create_time": 1787065481,
-    "update_time": 1787065486,
-    "_id": "doc-d25584ce082df2e36945fee89019ca59-chunk-000"
-  },
-  "doc-d45972e5deb132ffa6f291a23f584155-chunk-000": {
-    "tokens": 58,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the menuitem 'Clothing, Shoes & Jewelry'\" role='menuitem' name='Clothing, Shoes & Jewelry' bbox_px=[384, 128, 592, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-d45972e5deb132ffa6f291a23f584155",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:a96ea88aca431dd4ab078f0d13eb1979",
-      "default:extract:1129bbfc5a410918329a50c25430d674"
-    ],
-    "create_time": 1787065487,
-    "update_time": 1787065490,
-    "_id": "doc-d45972e5deb132ffa6f291a23f584155-chunk-000"
-  },
-  "doc-d8306c89a6e17662efce0519d4d1ac0c-chunk-000": {
-    "tokens": 47,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the textbox 'SKU'\" role='textbox' name='SKU' bbox_px=[180, 491, 640, 523]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-d8306c89a6e17662efce0519d4d1ac0c",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:ec7c1327ecb5f044f256d1385b0f64cc",
-      "default:extract:41d23cffbc5d04840b25275be18a06d0"
-    ],
-    "create_time": 1787065491,
-    "update_time": 1787065598,
-    "_id": "doc-d8306c89a6e17662efce0519d4d1ac0c-chunk-000"
-  },
-  "doc-d89c30514b52a7d6ffd6faa7abd1e057-chunk-000": {
-    "tokens": 47,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the textbox 'Price'\" role='textbox' name='Price' bbox_px=[180, 674, 385, 706]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-d89c30514b52a7d6ffd6faa7abd1e057",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:1d8f22b3cf657eba06452b11710fe9d3",
-      "default:extract:562997357558c7615e32224bd170d1b1"
-    ],
-    "create_time": 1787065607,
-    "update_time": 1787065713,
-    "_id": "doc-d89c30514b52a7d6ffd6faa7abd1e057-chunk-000"
-  },
-  "doc-dd8d428d2f06506a83c659eadb472263-chunk-000": {
-    "tokens": 64,
-    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the link 'Clothing, Shoes & Jewelry 7603 item'\" role='link' name='Clothing, Shoes & Jewelry 7603 item' bbox_px=[20, 528, 189, 567]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-dd8d428d2f06506a83c659eadb472263",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:8806ba742bf8f8fac651c4a5f1ae55f5",
-      "default:extract:a85204b7b4ddef798b2c0967143c2689"
-    ],
-    "create_time": 1787065733,
-    "update_time": 1787065737,
-    "_id": "doc-dd8d428d2f06506a83c659eadb472263-chunk-000"
-  },
-  "doc-e00c1708ed4e0a50a037c7d9e2741fa4-chunk-000": {
-    "tokens": 58,
-    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the link 'Beauty & Personal Care 79 item'\" role='link' name='Beauty & Personal Care 79 item' bbox_px=[20, 482, 201, 501]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-e00c1708ed4e0a50a037c7d9e2741fa4",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:f98efb18be12937c43e8afb4d2119c39",
-      "default:extract:9c383665e6018f58ad687306168e1d6d"
-    ],
-    "create_time": 1787065739,
-    "update_time": 1787065744,
-    "_id": "doc-e00c1708ed4e0a50a037c7d9e2741fa4-chunk-000"
-  },
-  "doc-e27876fe1db52767e6bea84ede7067ec-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the link 'My Cart'\" role='link' name='My Cart' bbox_px=[1225, 71, 1260, 104]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-e27876fe1db52767e6bea84ede7067ec",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:5e68383b49f535035886ca64b23fa559",
-      "default:extract:7fab0407e6cb5173bb23119f666de59b"
-    ],
-    "create_time": 1787065748,
-    "update_time": 1787065755,
-    "_id": "doc-e27876fe1db52767e6bea84ede7067ec-chunk-000"
-  },
-  "doc-ed7b0c15cb56893876e96860b8f2ec71-chunk-000": {
-    "tokens": 46,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the link 'Home'\" role='link' name='Home' bbox_px=[20, 259, 57, 275]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-ed7b0c15cb56893876e96860b8f2ec71",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:41bc23531d0e6983c4a5728ccb13392f",
-      "default:extract:4c5253a258f2b66db5cedbf5367a0889"
-    ],
-    "create_time": 1787065761,
-    "update_time": 1787065772,
-    "_id": "doc-ed7b0c15cb56893876e96860b8f2ec71-chunk-000"
-  },
-  "doc-ef919e12c5fe348ead5108146f7e4376-chunk-000": {
-    "tokens": 50,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the link 'My Wish List'\" role='link' name='My Wish List' bbox_px=[765, 10, 846, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-ef919e12c5fe348ead5108146f7e4376",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:e7e11453bd1b22512af0520cde530523",
-      "default:extract:6d7683e965ea382ac6edf051a9dff0ba"
-    ],
-    "create_time": 1787065774,
-    "update_time": 1787065779,
-    "_id": "doc-ef919e12c5fe348ead5108146f7e4376-chunk-000"
-  },
-  "doc-f3e4e5b81a08fe23889774a998640a7c-chunk-000": {
-    "tokens": 56,
-    "content": "[source=a11y] [type=element] screen_id='search_results' instruction=\"click the link 'Sports & Outdoors 434 item'\" role='link' name='Sports & Outdoors 434 item' bbox_px=[20, 505, 178, 524]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-f3e4e5b81a08fe23889774a998640a7c",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:aa6b8c240ccb6513dd835db9611f0944",
-      "default:extract:d068a33c075fd09b576de186bb930512"
-    ],
-    "create_time": 1787065781,
-    "update_time": 1787065786,
-    "_id": "doc-f3e4e5b81a08fe23889774a998640a7c-chunk-000"
-  },
-  "doc-f4ef414d260df5e8bd4ce0b4592a5685-chunk-000": {
-    "tokens": 57,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the menuitem 'Grocery & Gourmet Food'\" role='menuitem' name='Grocery & Gourmet Food' bbox_px=[853, 181, 1058, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-f4ef414d260df5e8bd4ce0b4592a5685",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:007b7f718a34e2b6580a1025a7163d19",
-      "default:extract:3c2c9fd74a0ffbe351828adb0516e96b"
-    ],
-    "create_time": 1787065787,
-    "update_time": 1787065792,
-    "_id": "doc-f4ef414d260df5e8bd4ce0b4592a5685-chunk-000"
-  },
-  "doc-f59e9aad16bd73322b3a8ba0f7834165-chunk-000": {
-    "tokens": 53,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the menuitem 'Home & Kitchen'\" role='menuitem' name='Home & Kitchen' bbox_px=[602, 128, 747, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-f59e9aad16bd73322b3a8ba0f7834165",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:0e066b999d1f8682f77e80455baf61e4",
-      "default:extract:7f0e9aa39825aa5a94caeb902c9105d5"
-    ],
-    "create_time": 1787065794,
-    "update_time": 1787065801,
-    "_id": "doc-f59e9aad16bd73322b3a8ba0f7834165-chunk-000"
-  },
-  "doc-f5a58caaa1558773287fa5d393b4dc93-chunk-000": {
-    "tokens": 47,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the textbox 'Description'\" role='textbox' name='Description' bbox_px=[180, 552, 640, 584]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-f5a58caaa1558773287fa5d393b4dc93",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:f4b2ec7f5cd6778220497f53aa7f6c79",
-      "default:extract:28fd06082dd79a813731d20ec711c60e"
-    ],
-    "create_time": 1787065807,
-    "update_time": 1787065812,
-    "_id": "doc-f5a58caaa1558773287fa5d393b4dc93-chunk-000"
-  },
-  "doc-f68acd2c28a4ffc3bf6cf18c20993ac6-chunk-000": {
-    "tokens": 50,
-    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the menuitem 'Video Games'\" role='menuitem' name='Video Games' bbox_px=[721, 181, 843, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-f68acd2c28a4ffc3bf6cf18c20993ac6",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:aee5e9d807ef13bd4573dc88f7761ae2",
-      "default:extract:1805be9b1f70e00b953480509db82ffa"
-    ],
-    "create_time": 1787065822,
-    "update_time": 1787065827,
-    "_id": "doc-f68acd2c28a4ffc3bf6cf18c20993ac6-chunk-000"
-  },
-  "doc-fc21d8f20a7af54a354c64ea88d5e41b-chunk-000": {
-    "tokens": 51,
-    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the link 'My Cart'\" role='link' name='My Cart' bbox_px=[1225, 71, 1260, 104]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-fc21d8f20a7af54a354c64ea88d5e41b",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:6fbf3b853654807465e25c8cda535ab9",
-      "default:extract:03c275daad35e377f39f3b26ca3462fd"
-    ],
-    "create_time": 1787065843,
-    "update_time": 1787065846,
-    "_id": "doc-fc21d8f20a7af54a354c64ea88d5e41b-chunk-000"
-  },
-  "doc-2425ff05274b38ff401705494a0d825c-chunk-000": {
-    "tokens": 51,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the menuitem 'Home & Kitchen'\" role='menuitem' name='Home & Kitchen' bbox_px=[602, 128, 747, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-2425ff05274b38ff401705494a0d825c",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:1b2574d2bcda3845372077ba18cdd3e8",
-      "default:extract:f4c1f8d853484d8de6c8ebef66312f3d"
-    ],
-    "create_time": 1787065852,
-    "update_time": 1787065855,
-    "_id": "doc-2425ff05274b38ff401705494a0d825c-chunk-000"
-  },
-  "doc-2d10111161db5057f00b249baab62b6f-chunk-000": {
-    "tokens": 57,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the menuitem 'Clothing, Shoes & Jewelry'\" role='menuitem' name='Clothing, Shoes & Jewelry' bbox_px=[384, 128, 592, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-2d10111161db5057f00b249baab62b6f",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:47ff87604de42a0b1e0be194b4a6a50d",
-      "default:extract:bd103a61841e7968d6d54e3f68b6ab49"
-    ],
-    "create_time": 1787065859,
-    "update_time": 1787065866,
-    "_id": "doc-2d10111161db5057f00b249baab62b6f-chunk-000"
-  },
-  "doc-4b9e3f195bfccfaa65ac8933d2cfc6cf-chunk-000": {
-    "tokens": 54,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the menuitem 'Tools & Home Improvement'\" role='menuitem' name='Tools & Home Improvement' bbox_px=[906, 128, 1132, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-4b9e3f195bfccfaa65ac8933d2cfc6cf",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:9018fc9823192b3c4fa7bb263ff92207",
-      "default:extract:422d8e2ef269f266af552f230e09e955"
-    ],
-    "create_time": 1787065867,
-    "update_time": 1787065870,
-    "_id": "doc-4b9e3f195bfccfaa65ac8933d2cfc6cf-chunk-000"
-  },
-  "doc-5eb3679f3090c0f5f21ae588efb7e3e5-chunk-000": {
-    "tokens": 53,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the menuitem 'Beauty & Personal Care'\" role='menuitem' name='Beauty & Personal Care' bbox_px=[8, 128, 204, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-5eb3679f3090c0f5f21ae588efb7e3e5",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:83dedac94daf0fa0505dcd057951a5a1",
-      "default:extract:4281615413b15b17cec6e09b3635ec63"
-    ],
-    "create_time": 1787065879,
-    "update_time": 1787065964,
-    "_id": "doc-5eb3679f3090c0f5f21ae588efb7e3e5-chunk-000"
-  },
-  "doc-7365a5b79d8ac5979806062ffb468ef8-chunk-000": {
-    "tokens": 51,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the menuitem 'Sports & Outdoors'\" role='menuitem' name='Sports & Outdoors' bbox_px=[214, 128, 374, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-7365a5b79d8ac5979806062ffb468ef8",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:2c5943c7837810f059eeec1092d6972a",
-      "default:extract:69f4d25497a3d2588547f266dd111907"
-    ],
-    "create_time": 1787065969,
-    "update_time": 1787065973,
-    "_id": "doc-7365a5b79d8ac5979806062ffb468ef8-chunk-000"
-  },
-  "doc-7a9051144f4967a92b9291d2e61f8400-chunk-000": {
-    "tokens": 90,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the menu 'Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme'\" role='menu' name='Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme' bbox_px=[0, 128, 1280, 237]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-7a9051144f4967a92b9291d2e61f8400",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:7320ae1a577e9d1a6ec36a73e1b00357",
-      "default:extract:f609c582af4415719e2b77a76c9226f7"
-    ],
-    "create_time": 1787065974,
-    "update_time": 1787065980,
-    "_id": "doc-7a9051144f4967a92b9291d2e61f8400-chunk-000"
-  },
-  "doc-bd5675153b9560186249eb9583bde805-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the menuitem 'Office Products'\" role='menuitem' name='Office Products' bbox_px=[757, 128, 896, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-bd5675153b9560186249eb9583bde805",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:d65e820d3b20491de276852da723f57c",
-      "default:extract:db7bbd984fb5f9e6a8e85a0c15aac93a"
-    ],
-    "create_time": 1787065981,
-    "update_time": 1787065986,
-    "_id": "doc-bd5675153b9560186249eb9583bde805-chunk-000"
-  },
-  "doc-beadc75609261f0ea03542f0dc14b49b-chunk-000": {
-    "tokens": 51,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the menuitem 'Health & Household'\" role='menuitem' name='Health & Household' bbox_px=[8, 181, 180, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-beadc75609261f0ea03542f0dc14b49b",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:f45b3a87bad157b40af1c74d3a02afd9",
-      "default:extract:41e02273f75f5164365d4e4c3510464f"
-    ],
-    "create_time": 1787065993,
-    "update_time": 1787065997,
-    "_id": "doc-beadc75609261f0ea03542f0dc14b49b-chunk-000"
   },
   "doc-26e09db01a07794a9ce798e10694e907-chunk-000": {
     "tokens": 51,
@@ -2133,373 +1062,9 @@
       "default:extract:3424f6e663bf21a038345ca2e0045841",
       "default:extract:9e0a69a50d533eddd3fa68ae10a2f978"
     ],
-    "create_time": 1787066006,
-    "update_time": 1787066010,
+    "create_time": 1787083494,
+    "update_time": 1787083503,
     "_id": "doc-26e09db01a07794a9ce798e10694e907-chunk-000"
-  },
-  "doc-525d140f4619ad4f23c939f8bc69dd07-chunk-000": {
-    "tokens": 55,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the link 'Video Projectors 484 item'\" role='link' name='Video Projectors 484 item' bbox_px=[20, 508, 163, 527]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-525d140f4619ad4f23c939f8bc69dd07",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:f6e65a556fa8a10ff1dd4fe2d731746a",
-      "default:extract:62ff108e1f333d3ebb82d4ab7c4f06a1"
-    ],
-    "create_time": 1787066015,
-    "update_time": 1787066020,
-    "_id": "doc-525d140f4619ad4f23c939f8bc69dd07-chunk-000"
-  },
-  "doc-5692dc50e5021be5bc4e8fdf8f5b2efb-chunk-000": {
-    "tokens": 57,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the link 'Accessories & Supplies 2409 item'\" role='link' name='Accessories & Supplies 2409 item' bbox_px=[20, 531, 172, 570]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-5692dc50e5021be5bc4e8fdf8f5b2efb",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:eb414d31d009dda30fcff00fcf9f1b05",
-      "default:extract:8945bf067ad90d928dfc6bfb18c2c22a"
-    ],
-    "create_time": 1787066022,
-    "update_time": 1787066026,
-    "_id": "doc-5692dc50e5021be5bc4e8fdf8f5b2efb-chunk-000"
-  },
-  "doc-67ebc805bc05fcb104d97b50eab62a38-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the menuitem 'Electronics'\" role='menuitem' name='Electronics' bbox_px=[382, 181, 490, 237]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-67ebc805bc05fcb104d97b50eab62a38",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:fff0c98d37e553c281659f52c4d8eac5",
-      "default:extract:f2e55cfa4b5192e970986e0ec993a9b2"
-    ],
-    "create_time": 1787066026,
-    "update_time": 1787066033,
-    "_id": "doc-67ebc805bc05fcb104d97b50eab62a38-chunk-000"
-  },
-  "doc-718e7215853a51b59b1393494ea9df33-chunk-000": {
-    "tokens": 53,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the link 'Set Descending Direction'\" role='link' name='Set Descending Direction' bbox_px=[1222, 386, 1250, 418]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-718e7215853a51b59b1393494ea9df33",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:716bb4a8509088ef9ba31d0edf723bc4",
-      "default:extract:7126eb43077998411e1844882f33fa73"
-    ],
-    "create_time": 1787066035,
-    "update_time": 1787066039,
-    "_id": "doc-718e7215853a51b59b1393494ea9df33-chunk-000"
-  },
-  "doc-7edb486cff387c718e8eb48a9fb60ffc-chunk-000": {
-    "tokens": 53,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the menuitem 'Cell Phones & Accessories'\" role='menuitem' name='Cell Phones & Accessories' bbox_px=[500, 181, 711, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-7edb486cff387c718e8eb48a9fb60ffc",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:65e0241261b23c5e3c4311370b0c1c28",
-      "default:extract:1fac59fdfc111c02b2c93dce1048e210"
-    ],
-    "create_time": 1787066040,
-    "update_time": 1787066044,
-    "_id": "doc-7edb486cff387c718e8eb48a9fb60ffc-chunk-000"
-  },
-  "doc-8200c68d4f505cf41f0d2848059e57b9-chunk-000": {
-    "tokens": 55,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the combobox 'Position Product Name Price'\" role='combobox' name='Position Product Name Price' bbox_px=[1082, 388, 1218, 420]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-8200c68d4f505cf41f0d2848059e57b9",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:451b4daacf6ad8126d2c926d2c5aa0a6",
-      "default:extract:610b723ab147822e47e90088004b8e36"
-    ],
-    "create_time": 1787066051,
-    "update_time": 1787066056,
-    "_id": "doc-8200c68d4f505cf41f0d2848059e57b9-chunk-000"
-  },
-  "doc-9144974b3bb623c0dfb93ab6e10e5f07-chunk-000": {
-    "tokens": 47,
-    "content": "[source=a11y] [type=element] screen_id='subcategory' instruction=\"click the link 'My Account'\" role='link' name='My Account' bbox_px=[674, 10, 750, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-9144974b3bb623c0dfb93ab6e10e5f07",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:4b33100f9467676136a38d1393c3f523",
-      "default:extract:226c3edc3cdf37b0789f9becd35d1662"
-    ],
-    "create_time": 1787066058,
-    "update_time": 1787066061,
-    "_id": "doc-9144974b3bb623c0dfb93ab6e10e5f07-chunk-000"
-  },
-  "doc-a2e6a03b1a442e2d2bc4469cfc821746-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the link 'View as List'\" role='link' name='View as List' bbox_px=[306, 384, 352, 424]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-a2e6a03b1a442e2d2bc4469cfc821746",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:a110b1b94fdd5634c602eb11be324af6",
-      "default:extract:3ba0955b80ff1cf75343ebfcc2231fbe"
-    ],
-    "create_time": 1787066067,
-    "update_time": 1787066071,
-    "_id": "doc-a2e6a03b1a442e2d2bc4469cfc821746-chunk-000"
-  },
-  "doc-c08802c5b91256601685a06b453a8f05-chunk-000": {
-    "tokens": 56,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the menuitem 'Grocery & Gourmet Food'\" role='menuitem' name='Grocery & Gourmet Food' bbox_px=[853, 181, 1058, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-c08802c5b91256601685a06b453a8f05",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:02cc382802b9fa4b5d9f929842746fc2",
-      "default:extract:a5f5c8a20d52ab59bb3b5e7062347b9f"
-    ],
-    "create_time": 1787066073,
-    "update_time": 1787066077,
-    "_id": "doc-c08802c5b91256601685a06b453a8f05-chunk-000"
-  },
-  "doc-c4a28d4f02fee136845510f4c0e93d17-chunk-000": {
-    "tokens": 59,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the link 'Television & Video 1083 item'\" role='link' name='Television & Video 1083 item' bbox_px=[20, 574, 182, 593]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-c4a28d4f02fee136845510f4c0e93d17",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:ea0e7323efd9e7116aa9f24347c00156",
-      "default:extract:024405f41842d2c2f8f24232c6c61b21"
-    ],
-    "create_time": 1787066080,
-    "update_time": 1787066082,
-    "_id": "doc-c4a28d4f02fee136845510f4c0e93d17-chunk-000"
-  },
-  "doc-c835846818bcaa064fe5becb24be9fa6-chunk-000": {
-    "tokens": 59,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the link 'Computers & Accessories 2929 item'\" role='link' name='Computers & Accessories 2929 item' bbox_px=[20, 620, 190, 659]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-c835846818bcaa064fe5becb24be9fa6",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:e4cbbbe9ae1a67fb2ad31f98a20276f2",
-      "default:extract:935357d9333e25e3fe4d2520b99210d0"
-    ],
-    "create_time": 1787066084,
-    "update_time": 1787066089,
-    "_id": "doc-c835846818bcaa064fe5becb24be9fa6-chunk-000"
-  },
-  "doc-cd2c2597257ed277a9e4d453b8933ea7-chunk-000": {
-    "tokens": 53,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the link 'Headphones 631 item'\" role='link' name='Headphones 631 item' bbox_px=[20, 663, 139, 682]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-cd2c2597257ed277a9e4d453b8933ea7",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:2c42df2adecfd4e6ac73719191f02a39",
-      "default:extract:d57ad0d616bd5be55f7204bbb951a93d"
-    ],
-    "create_time": 1787066092,
-    "update_time": 1787066095,
-    "_id": "doc-cd2c2597257ed277a9e4d453b8933ea7-chunk-000"
-  },
-  "doc-ce039320c9d2bb1e5c1d70cb2b331daf-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the menuitem 'Video Games'\" role='menuitem' name='Video Games' bbox_px=[721, 181, 843, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-ce039320c9d2bb1e5c1d70cb2b331daf",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:88e9d18a0dd6eb40f85dafc743676c4e",
-      "default:extract:b5beac02bb9eddec105cd24268afcb5d"
-    ],
-    "create_time": 1787066096,
-    "update_time": 1787066099,
-    "_id": "doc-ce039320c9d2bb1e5c1d70cb2b331daf-chunk-000"
-  },
-  "doc-d22e70f9c5950a52be1706e3c49cd064-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='subcategory' instruction=\"click the link 'My Wish List'\" role='link' name='My Wish List' bbox_px=[765, 10, 846, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-d22e70f9c5950a52be1706e3c49cd064",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:c5de1dd592c259a4145ba74bbb58b5a3",
-      "default:extract:8a4ac4c0c8e7dca38a762acdf13e8363"
-    ],
-    "create_time": 1787066101,
-    "update_time": 1787066107,
-    "_id": "doc-d22e70f9c5950a52be1706e3c49cd064-chunk-000"
-  },
-  "doc-e60835aa8b936200661495a56ce99d71-chunk-000": {
-    "tokens": 57,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the menuitem 'Patio, Lawn & Garden'\" role='menuitem' name='Patio, Lawn & Garden' bbox_px=[190, 181, 372, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-e60835aa8b936200661495a56ce99d71",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:7954fedac09684329bc49f5305f81a00",
-      "default:extract:59e46a53935d232a9ac9d01ddb490767"
-    ],
-    "create_time": 1787066114,
-    "update_time": 1787066118,
-    "_id": "doc-e60835aa8b936200661495a56ce99d71-chunk-000"
-  },
-  "doc-e7a1f079c1083b2652095a24fdfc0443-chunk-000": {
-    "tokens": 57,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the link 'Camera & Photo 3512 item'\" role='link' name='Camera & Photo 3512 item' bbox_px=[20, 597, 171, 616]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-e7a1f079c1083b2652095a24fdfc0443",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:da5684d9030a5efc7e7c66bec1bafb0d",
-      "default:extract:578e8069a9335f1f983bb11388e6bb32"
-    ],
-    "create_time": 1787066122,
-    "update_time": 1787066125,
-    "_id": "doc-e7a1f079c1083b2652095a24fdfc0443-chunk-000"
-  },
-  "doc-eb7a77743ce6b6fa7440753e6d481bd5-chunk-000": {
-    "tokens": 47,
-    "content": "[source=a11y] [type=element] screen_id='subcategory' instruction=\"click the link 'Sign In'\" role='link' name='Sign In' bbox_px=[861, 10, 905, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-eb7a77743ce6b6fa7440753e6d481bd5",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:cc172d387fe8db2013f67b4ddc9002dd",
-      "default:extract:82fe28ec27db0361c63be6aae502824b"
-    ],
-    "create_time": 1787066126,
-    "update_time": 1787066129,
-    "_id": "doc-eb7a77743ce6b6fa7440753e6d481bd5-chunk-000"
-  },
-  "doc-eea838816eb1d2adf150f2bc5a9dab02-chunk-000": {
-    "tokens": 57,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the link 'Portable Audio & Video 824 item'\" role='link' name='Portable Audio & Video 824 item' bbox_px=[20, 686, 175, 725]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-eea838816eb1d2adf150f2bc5a9dab02",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:c8ecf0e3f828944cc4969d4df31cd895",
-      "default:extract:b17a0222cfa53179554e7c588f90072d"
-    ],
-    "create_time": 1787066135,
-    "update_time": 1787066139,
-    "_id": "doc-eea838816eb1d2adf150f2bc5a9dab02-chunk-000"
-  },
-  "doc-fd70a7452985d465deec3203fe4826a6-chunk-000": {
-    "tokens": 45,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the link 'Home'\" role='link' name='Home' bbox_px=[20, 262, 57, 278]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-fd70a7452985d465deec3203fe4826a6",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:e69b9d56a75cdde3709b0b94e61dc23e",
-      "default:extract:60dfead041ca15f6dd627024bfb2b4e5"
-    ],
-    "create_time": 1787066141,
-    "update_time": 1787066145,
-    "_id": "doc-fd70a7452985d465deec3203fe4826a6-chunk-000"
-  },
-  "doc-fe6ae527c1c6e0ef5f18af49838184a9-chunk-000": {
-    "tokens": 55,
-    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the link 'Home Audio 1280 item'\" role='link' name='Home Audio 1280 item' bbox_px=[20, 485, 145, 504]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-fe6ae527c1c6e0ef5f18af49838184a9",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:35308c815c5371ee2d0362109ff02501",
-      "default:extract:561c010e46b37b6d64f72b84de867500"
-    ],
-    "create_time": 1787066148,
-    "update_time": 1787066150,
-    "_id": "doc-fe6ae527c1c6e0ef5f18af49838184a9-chunk-000"
-  },
-  "doc-0348983a29f95be303fe640ac3a3d375-chunk-000": {
-    "tokens": 51,
-    "content": "[source=a11y] [type=element] screen_id='product' instruction=\"click the menuitem 'Sports & Outdoors'\" role='menuitem' name='Sports & Outdoors' bbox_px=[214, 128, 374, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-0348983a29f95be303fe640ac3a3d375",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:ca54966f8909d08e66abab764c24d0d8",
-      "default:extract:214dde4b7bf6ac468270b010afe567da"
-    ],
-    "create_time": 1787066152,
-    "update_time": 1787066159,
-    "_id": "doc-0348983a29f95be303fe640ac3a3d375-chunk-000"
-  },
-  "doc-06e81b5f4f476b2ad2e73f0190dcaee1-chunk-000": {
-    "tokens": 53,
-    "content": "[source=a11y] [type=element] screen_id='subcategory' instruction=\"click the link 'Cell Phones 68 item'\" role='link' name='Cell Phones 68 item' bbox_px=[20, 551, 124, 570]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-06e81b5f4f476b2ad2e73f0190dcaee1",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:a317389b06a4b3e220257445d030b3cf",
-      "default:extract:71166692e1ee2ce78cdf925cdad6108d"
-    ],
-    "create_time": 1787066161,
-    "update_time": 1787066166,
-    "_id": "doc-06e81b5f4f476b2ad2e73f0190dcaee1-chunk-000"
-  },
-  "doc-0b01eda290fe703325e12f1396c96ce5-chunk-000": {
-    "tokens": 52,
-    "content": "[source=a11y] [type=element] screen_id='cart_empty' instruction=\"click the link 'Create an Account'\" role='link' name='Create an Account' bbox_px=[1141, 10, 1260, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-0b01eda290fe703325e12f1396c96ce5",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:165cd6d8a5f3a923d1d6aae930888900",
-      "default:extract:401e370e4e125efbf05de7063844caf0"
-    ],
-    "create_time": 1787066167,
-    "update_time": 1787066171,
-    "_id": "doc-0b01eda290fe703325e12f1396c96ce5-chunk-000"
-  },
-  "doc-18aab13c426f81096cef5dacf269592f-chunk-000": {
-    "tokens": 57,
-    "content": "[source=a11y] [type=element] screen_id='product' instruction=\"click the menuitem 'Clothing, Shoes & Jewelry'\" role='menuitem' name='Clothing, Shoes & Jewelry' bbox_px=[384, 128, 592, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-18aab13c426f81096cef5dacf269592f",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:23275ee74dedb3623a2fe821f2daa020",
-      "default:extract:4919bcc26a4a55503df913ea1538e02f"
-    ],
-    "create_time": 1787066181,
-    "update_time": 1787066186,
-    "_id": "doc-18aab13c426f81096cef5dacf269592f-chunk-000"
-  },
-  "doc-1d992112b13accee6ac0cf9a96181f84-chunk-000": {
-    "tokens": 58,
-    "content": "[source=a11y] [type=element] screen_id='cart_empty' instruction=\"click the menuitem 'Clothing, Shoes & Jewelry'\" role='menuitem' name='Clothing, Shoes & Jewelry' bbox_px=[384, 128, 592, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-1d992112b13accee6ac0cf9a96181f84",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:7764ce74e84b875013493c41f5f07ab0",
-      "default:extract:05b6c6e972112d79e0dcb6393d38bc89"
-    ],
-    "create_time": 1787066187,
-    "update_time": 1787066196,
-    "_id": "doc-1d992112b13accee6ac0cf9a96181f84-chunk-000"
-  },
-  "doc-2094fe41d80830c88a043060dcfc8cdd-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='subcategory' instruction=\"click the menuitem 'Electronics'\" role='menuitem' name='Electronics' bbox_px=[382, 181, 490, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-2094fe41d80830c88a043060dcfc8cdd",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:27c13687384f3287c648bf8e21f52a9e",
-      "default:extract:515bafe4350425a0f8d457104a3b9966"
-    ],
-    "create_time": 1787066198,
-    "update_time": 1787066204,
-    "_id": "doc-2094fe41d80830c88a043060dcfc8cdd-chunk-000"
   },
   "doc-27e21794880bc2e623ae59578cebcf4e-chunk-000": {
     "tokens": 47,
@@ -2509,396 +1074,65 @@
     "file_path": "unknown_source",
     "llm_cache_list": [
       "default:extract:61fca05b1f63c6c9addc4d038e515d9a",
-      "default:extract:2cb9f8f8efded88edc37640985c621a3"
+      "default:extract:ebe58b64c32fdb5673ce2d8c08ce9611"
     ],
-    "create_time": 1787066209,
-    "update_time": 1787066212,
+    "create_time": 1787083509,
+    "update_time": 1787083513,
     "_id": "doc-27e21794880bc2e623ae59578cebcf4e-chunk-000"
   },
-  "doc-2ad10977a5b441f3d6aba76d7d65d80f-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='cart_empty' instruction=\"click the link 'Advanced Search'\" role='link' name='Advanced Search' bbox_px=[962, 108, 1074, 127]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-2ad10977a5b441f3d6aba76d7d65d80f",
-    "file_path": "unknown_source",
-    "llm_cache_list": [],
-    "create_time": 1787066214,
-    "update_time": 1787066214,
-    "_id": "doc-2ad10977a5b441f3d6aba76d7d65d80f-chunk-000"
-  },
-  "doc-2e023dc7c92286cf39d9d73024f31c82-chunk-000": {
-    "tokens": 47,
-    "content": "[source=a11y] [type=element] screen_id='product' instruction=\"click the link 'store logo'\" role='link' name='store logo' bbox_px=[20, 71, 220, 98]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-2e023dc7c92286cf39d9d73024f31c82",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:b07bf21cc09b47476f25d4327678cbf8",
-      "default:extract:f3542cce210fe2069f7f4152954cce1d"
-    ],
-    "create_time": 1787066694,
-    "update_time": 1787066697,
-    "_id": "doc-2e023dc7c92286cf39d9d73024f31c82-chunk-000"
-  },
-  "doc-3068692aae07453a7c411514e1ea3811-chunk-000": {
-    "tokens": 56,
-    "content": "[source=a11y] [type=element] screen_id='subcategory' instruction=\"click the menuitem 'Grocery & Gourmet Food'\" role='menuitem' name='Grocery & Gourmet Food' bbox_px=[853, 181, 1058, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-3068692aae07453a7c411514e1ea3811",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:0830aadffe09a907ac1d996f21916e80",
-      "default:extract:7b1d321092d03390295628c75eceb3fa"
-    ],
-    "create_time": 1787066698,
-    "update_time": 1787066703,
-    "_id": "doc-3068692aae07453a7c411514e1ea3811-chunk-000"
-  },
-  "doc-3189339ea6f4fc6117aef9fec12e38bd-chunk-000": {
-    "tokens": 63,
-    "content": "[source=a11y] [type=element] screen_id='subcategory' instruction=\"click the link '$1,000.00 and above 3 item'\" role='link' name='$1,000.00 and above 3 item' bbox_px=[20, 644, 175, 663]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-3189339ea6f4fc6117aef9fec12e38bd",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:104ce571197b64346a62c34117fbeacd",
-      "default:extract:c105672bd13128bdd2b01b1ad97bb0a4"
-    ],
-    "create_time": 1787066704,
-    "update_time": 1787066712,
-    "_id": "doc-3189339ea6f4fc6117aef9fec12e38bd-chunk-000"
-  },
-  "doc-37328452764bee7b0ed4f30f9d666e33-chunk-000": {
-    "tokens": 55,
-    "content": "[source=a11y] [type=element] screen_id='subcategory' instruction=\"click the combobox 'Search entire store here...'\" role='combobox' name='Search entire store here...' bbox_px=[962, 71, 1212, 103]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-37328452764bee7b0ed4f30f9d666e33",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:eeddb25e934ad65c431a1bf66669df6c",
-      "default:extract:e5ad37415ad204a4ef9bbddf1af0a77d"
-    ],
-    "create_time": 1787066717,
-    "update_time": 1787066726,
-    "_id": "doc-37328452764bee7b0ed4f30f9d666e33-chunk-000"
-  },
-  "doc-385fc40248f2f07379e1712028f0604a-chunk-000": {
-    "tokens": 53,
-    "content": "[source=a11y] [type=element] screen_id='product' instruction=\"click the menuitem 'Beauty & Personal Care'\" role='menuitem' name='Beauty & Personal Care' bbox_px=[8, 128, 204, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-385fc40248f2f07379e1712028f0604a",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:04a3d43f23af32a0887e6d9e5c1397e1",
-      "default:extract:6bcffb65231471a26b766dade262714c"
-    ],
-    "create_time": 1787066737,
-    "update_time": 1787066746,
-    "_id": "doc-385fc40248f2f07379e1712028f0604a-chunk-000"
-  },
-  "doc-4057121fe5aecd83bbfcbebfb9b55918-chunk-000": {
-    "tokens": 57,
-    "content": "[source=a11y] [type=element] screen_id='subcategory' instruction=\"click the menuitem 'Patio, Lawn & Garden'\" role='menuitem' name='Patio, Lawn & Garden' bbox_px=[190, 181, 372, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-4057121fe5aecd83bbfcbebfb9b55918",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:502882fab0dc428d20ed0725fc34a110",
-      "default:extract:f631907fd7050e074d39a406844da88e"
-    ],
-    "create_time": 1787066756,
-    "update_time": 1787066763,
-    "_id": "doc-4057121fe5aecd83bbfcbebfb9b55918-chunk-000"
-  },
-  "doc-431fc34e58ede86a954c3e17bf1dc768-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='product' instruction=\"click the link 'My Cart'\" role='link' name='My Cart' bbox_px=[1225, 71, 1260, 104]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-431fc34e58ede86a954c3e17bf1dc768",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:3a5746ad9482b2393a0bac618a34de85",
-      "default:extract:707b891508524da8e9ddccf7ada3ca81"
-    ],
-    "create_time": 1787066770,
-    "update_time": 1787066774,
-    "_id": "doc-431fc34e58ede86a954c3e17bf1dc768-chunk-000"
-  },
-  "doc-456a6331c4b2e35dcde2ad6d2b023cbe-chunk-000": {
-    "tokens": 53,
-    "content": "[source=a11y] [type=element] screen_id='product' instruction=\"click the menuitem 'Cell Phones & Accessories'\" role='menuitem' name='Cell Phones & Accessories' bbox_px=[500, 181, 711, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-456a6331c4b2e35dcde2ad6d2b023cbe",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:16b1ec734dcd22cf6321c8936a1d88ce",
-      "default:extract:b6f332777bcb95e9794de833d34cdf39"
-    ],
-    "create_time": 1787066780,
-    "update_time": 1787066783,
-    "_id": "doc-456a6331c4b2e35dcde2ad6d2b023cbe-chunk-000"
-  },
-  "doc-4840aa86644111d5ef3469f7c7b235ed-chunk-000": {
-    "tokens": 56,
-    "content": "[source=a11y] [type=element] screen_id='product' instruction=\"click the menuitem 'Grocery & Gourmet Food'\" role='menuitem' name='Grocery & Gourmet Food' bbox_px=[853, 181, 1058, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-4840aa86644111d5ef3469f7c7b235ed",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:15792d165de23214f3b737c27e498607",
-      "default:extract:08e04d8b19d7eaefb6b147a78de1a29b"
-    ],
-    "create_time": 1787066792,
-    "update_time": 1787066805,
-    "_id": "doc-4840aa86644111d5ef3469f7c7b235ed-chunk-000"
-  },
-  "doc-4a1792213e425380d77cb4179dec8f31-chunk-000": {
-    "tokens": 57,
-    "content": "[source=a11y] [type=element] screen_id='product' instruction=\"click the menuitem 'Patio, Lawn & Garden'\" role='menuitem' name='Patio, Lawn & Garden' bbox_px=[190, 181, 372, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-4a1792213e425380d77cb4179dec8f31",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:0cf0178ddf7255e39e433d8f8facaaed",
-      "default:extract:a8303a09b3d29720b7648e79b2bce9e5"
-    ],
-    "create_time": 1787066806,
-    "update_time": 1787066815,
-    "_id": "doc-4a1792213e425380d77cb4179dec8f31-chunk-000"
-  },
-  "doc-4baaa76efee505b7044be0c79cfc9dc2-chunk-000": {
-    "tokens": 90,
-    "content": "[source=a11y] [type=element] screen_id='product' instruction=\"click the menu 'Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme'\" role='menu' name='Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme' bbox_px=[0, 128, 1280, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-4baaa76efee505b7044be0c79cfc9dc2",
-    "file_path": "unknown_source",
-    "llm_cache_list": [],
-    "create_time": 1787066817,
-    "update_time": 1787066817,
-    "_id": "doc-4baaa76efee505b7044be0c79cfc9dc2-chunk-000"
-  },
-  "doc-4e57d988d63c9b94876085d3e98172f3-chunk-000": {
-    "tokens": 50,
-    "content": "[source=a11y] [type=element] screen_id='cart_empty' instruction=\"click the link 'My Wish List'\" role='link' name='My Wish List' bbox_px=[765, 10, 846, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-4e57d988d63c9b94876085d3e98172f3",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:e9166403f63eb4a946eda6f6fd096672",
-      "default:extract:9cb3dcc12246e4155e263af7002feb0f"
-    ],
-    "create_time": 1787067299,
-    "update_time": 1787067305,
-    "_id": "doc-4e57d988d63c9b94876085d3e98172f3-chunk-000"
-  },
-  "doc-51ea3b753089aea48ac556d937bd20bc-chunk-000": {
+  "doc-29be4ff47307e375f775296be1cde294-chunk-000": {
     "tokens": 52,
-    "content": "[source=a11y] [type=element] screen_id='cart_empty' instruction=\"click the menuitem 'Home & Kitchen'\" role='menuitem' name='Home & Kitchen' bbox_px=[602, 128, 747, 181]",
+    "content": "[source=a11y] [type=element] screen_id='search_empty' instruction=\"click the menuitem 'Sports & Outdoors'\" role='menuitem' name='Sports & Outdoors' bbox_px=[214, 128, 374, 181]",
     "chunk_order_index": 0,
-    "full_doc_id": "doc-51ea3b753089aea48ac556d937bd20bc",
+    "full_doc_id": "doc-29be4ff47307e375f775296be1cde294",
     "file_path": "unknown_source",
     "llm_cache_list": [
-      "default:extract:ac12bf3bc892e013026e4895482f4890",
-      "default:extract:543f8b02ac787b43144b9a330a5e315c"
+      "default:extract:fc249aa6e6bdc4fe4180f7c5c4524c22"
     ],
-    "create_time": 1787067318,
-    "update_time": 1787067324,
-    "_id": "doc-51ea3b753089aea48ac556d937bd20bc-chunk-000"
+    "create_time": 1787083517,
+    "update_time": 1787083892,
+    "_id": "doc-29be4ff47307e375f775296be1cde294-chunk-000"
   },
-  "doc-5834a32d1d8ba026d1b73b39f15ac3af-chunk-000": {
+  "doc-2b681e6ff218bd5e8ea006e583399b46-chunk-000": {
     "tokens": 51,
-    "content": "[source=a11y] [type=element] screen_id='subcategory' instruction=\"click the menuitem 'Sports & Outdoors'\" role='menuitem' name='Sports & Outdoors' bbox_px=[214, 128, 374, 181]",
+    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the menuitem 'Video Games'\" role='menuitem' name='Video Games' bbox_px=[721, 181, 843, 234]",
     "chunk_order_index": 0,
-    "full_doc_id": "doc-5834a32d1d8ba026d1b73b39f15ac3af",
+    "full_doc_id": "doc-2b681e6ff218bd5e8ea006e583399b46",
     "file_path": "unknown_source",
     "llm_cache_list": [
-      "default:extract:7cc66c840c8782212aac01d26132c0a7",
-      "default:extract:fb775220f16230ceb6883d195bcfc365"
+      "default:extract:0ed2a308ca0a732ece3e5d3096f9385d",
+      "default:extract:3f68aa2aa504f474c8b657ac98d67423"
     ],
-    "create_time": 1787067332,
-    "update_time": 1787067338,
-    "_id": "doc-5834a32d1d8ba026d1b73b39f15ac3af-chunk-000"
+    "create_time": 1787083897,
+    "update_time": 1787083902,
+    "_id": "doc-2b681e6ff218bd5e8ea006e583399b46-chunk-000"
   },
-  "doc-5e9818f2bc9515cf1d5bfe497bc3572f-chunk-000": {
+  "doc-2d10111161db5057f00b249baab62b6f-chunk-000": {
+    "tokens": 57,
+    "content": "[source=a11y] [type=element] screen_id='category' instruction=\"click the menuitem 'Clothing, Shoes & Jewelry'\" role='menuitem' name='Clothing, Shoes & Jewelry' bbox_px=[384, 128, 592, 181]",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-2d10111161db5057f00b249baab62b6f",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:47ff87604de42a0b1e0be194b4a6a50d",
+      "default:extract:66468b4771668ff3421ea8363b46aefc"
+    ],
+    "create_time": 1787083905,
+    "update_time": 1787083909,
+    "_id": "doc-2d10111161db5057f00b249baab62b6f-chunk-000"
+  },
+  "doc-2f5966d424551de0ed4fd414c471d245-chunk-000": {
     "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='product' instruction=\"click the menuitem 'Office Products'\" role='menuitem' name='Office Products' bbox_px=[757, 128, 896, 181]",
+    "content": "[source=a11y] [type=element] screen_id='search_advanced' instruction=\"click the textbox 'Product Name'\" role='textbox' name='Product Name' bbox_px=[180, 430, 640, 462]",
     "chunk_order_index": 0,
-    "full_doc_id": "doc-5e9818f2bc9515cf1d5bfe497bc3572f",
+    "full_doc_id": "doc-2f5966d424551de0ed4fd414c471d245",
     "file_path": "unknown_source",
     "llm_cache_list": [
-      "default:extract:f0381702fdd80dc09da8be021344b421",
-      "default:extract:7ab1ab6ce881a95c5c60434a2c693ae7"
+      "default:extract:9efef98e6330b1bc2fc32832690d144f",
+      "default:extract:8647137c9e1a50a46df24319775f5134"
     ],
-    "create_time": 1787067339,
-    "update_time": 1787067342,
-    "_id": "doc-5e9818f2bc9515cf1d5bfe497bc3572f-chunk-000"
-  },
-  "doc-5ea9507d14398c33e78fda51bc5387b5-chunk-000": {
-    "tokens": 54,
-    "content": "[source=a11y] [type=element] screen_id='cart_empty' instruction=\"click the menuitem 'Beauty & Personal Care'\" role='menuitem' name='Beauty & Personal Care' bbox_px=[8, 128, 204, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-5ea9507d14398c33e78fda51bc5387b5",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:b90434a7760b23e5ae7cbdcf5b862fc6",
-      "default:extract:0e47eaa2533f4fbd5a45fa47d4508e2b"
-    ],
-    "create_time": 1787067343,
-    "update_time": 1787067349,
-    "_id": "doc-5ea9507d14398c33e78fda51bc5387b5-chunk-000"
-  },
-  "doc-666c73e55cdecb6b7478d4e60dde6de2-chunk-000": {
-    "tokens": 53,
-    "content": "[source=a11y] [type=element] screen_id='subcategory' instruction=\"click the link 'Accessories 1924 item'\" role='link' name='Accessories 1924 item' bbox_px=[20, 485, 140, 504]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-666c73e55cdecb6b7478d4e60dde6de2",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:58abaadf6fdbb62cd809864b2db25fd9",
-      "default:extract:6b46f6081da73b1b14ecb6e338907ba5"
-    ],
-    "create_time": 1787067358,
-    "update_time": 1787067362,
-    "_id": "doc-666c73e55cdecb6b7478d4e60dde6de2-chunk-000"
-  },
-  "doc-674a744771d0b8ae6ea5295ac3f9e6f3-chunk-000": {
-    "tokens": 47,
-    "content": "[source=a11y] [type=element] screen_id='product' instruction=\"click the link 'Sign In'\" role='link' name='Sign In' bbox_px=[861, 10, 905, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-674a744771d0b8ae6ea5295ac3f9e6f3",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:5396861252169598d7fe27f393a75a2b",
-      "default:extract:e1154d69a999bcf60802a1dd36b06438"
-    ],
-    "create_time": 1787067364,
-    "update_time": 1787067368,
-    "_id": "doc-674a744771d0b8ae6ea5295ac3f9e6f3-chunk-000"
-  },
-  "doc-6e36e0e4f840a90ec2fc862b6e526900-chunk-000": {
-    "tokens": 56,
-    "content": "[source=a11y] [type=element] screen_id='cart_empty' instruction=\"click the combobox 'Search entire store here...'\" role='combobox' name='Search entire store here...' bbox_px=[962, 71, 1212, 103]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-6e36e0e4f840a90ec2fc862b6e526900",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:864ec6e158142c9905d37edad28e0f71",
-      "default:extract:f86d9a343cc5a051c837f1c4f2b94969"
-    ],
-    "create_time": 1787067370,
-    "update_time": 1787067377,
-    "_id": "doc-6e36e0e4f840a90ec2fc862b6e526900-chunk-000"
-  },
-  "doc-6ed408f6323ee8fccb1c84a1058ff73b-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='subcategory' instruction=\"click the menuitem 'Office Products'\" role='menuitem' name='Office Products' bbox_px=[757, 128, 896, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-6ed408f6323ee8fccb1c84a1058ff73b",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:40a4fef709c807dfae52926e24267cf5",
-      "default:extract:567ec37bc01bfa8ee02c39e93a8aa9ff"
-    ],
-    "create_time": 1787067384,
-    "update_time": 1787067390,
-    "_id": "doc-6ed408f6323ee8fccb1c84a1058ff73b-chunk-000"
-  },
-  "doc-6f5e9a82e4b6711bf6c7c0f95d1c2e44-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='subcategory' instruction=\"click the menuitem 'Video Games'\" role='menuitem' name='Video Games' bbox_px=[721, 181, 843, 234]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-6f5e9a82e4b6711bf6c7c0f95d1c2e44",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:65f551af7b17f381d65ab6b71d352673",
-      "default:extract:81c17c9fa665ba46c5f186f053e51590"
-    ],
-    "create_time": 1787067398,
-    "update_time": 1787067405,
-    "_id": "doc-6f5e9a82e4b6711bf6c7c0f95d1c2e44-chunk-000"
-  },
-  "doc-782d5b7280f59b6dec6235ac536bd41d-chunk-000": {
-    "tokens": 48,
-    "content": "[source=a11y] [type=element] screen_id='product' instruction=\"click the link 'Advanced Search'\" role='link' name='Advanced Search' bbox_px=[962, 108, 1074, 127]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-782d5b7280f59b6dec6235ac536bd41d",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:8bab321936d96b88db5bf0bf1f25d253",
-      "default:extract:3f553005687ec3630063a329343b3062"
-    ],
-    "create_time": 1787067886,
-    "update_time": 1787067918,
-    "_id": "doc-782d5b7280f59b6dec6235ac536bd41d-chunk-000"
-  },
-  "doc-79340cf718f16a6e405de48bf38d7db6-chunk-000": {
-    "tokens": 49,
-    "content": "[source=a11y] [type=element] screen_id='product' instruction=\"click the link 'My Wish List'\" role='link' name='My Wish List' bbox_px=[765, 10, 846, 29]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-79340cf718f16a6e405de48bf38d7db6",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:2ff920042a6c2f43fafb0d7e5f7a7d85",
-      "default:extract:e4e59453b0a77f71056ff5ffb19edd6d"
-    ],
-    "create_time": 1787067924,
-    "update_time": 1787067929,
-    "_id": "doc-79340cf718f16a6e405de48bf38d7db6-chunk-000"
-  },
-  "doc-7ab8292a2e846a0ba58fe01d10d30067-chunk-000": {
-    "tokens": 47,
-    "content": "[source=a11y] [type=element] screen_id='subcategory' instruction=\"click the button 'Search'\" role='button' name='Search' bbox_px=[1180, 71, 1202, 103]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-7ab8292a2e846a0ba58fe01d10d30067",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:c7fff4c4523a5b90cf712bde68c9c0ad",
-      "default:extract:640877fa2eaaeb714ec5d7667aeb2735"
-    ],
-    "create_time": 1787067937,
-    "update_time": 1787067941,
-    "_id": "doc-7ab8292a2e846a0ba58fe01d10d30067-chunk-000"
-  },
-  "doc-7af4f21ec3736ca946e6f1a58eb89e14-chunk-000": {
-    "tokens": 54,
-    "content": "[source=a11y] [type=element] screen_id='product' instruction=\"click the menuitem 'Tools & Home Improvement'\" role='menuitem' name='Tools & Home Improvement' bbox_px=[906, 128, 1132, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-7af4f21ec3736ca946e6f1a58eb89e14",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:bf52f8f1d6793bd3736ffb1b31de90bd",
-      "default:extract:b69602951822c72139fbe11b78774b2e"
-    ],
-    "create_time": 1787067943,
-    "update_time": 1787067947,
-    "_id": "doc-7af4f21ec3736ca946e6f1a58eb89e14-chunk-000"
-  },
-  "doc-7e22b2191319343ea81db7795943a9d2-chunk-000": {
-    "tokens": 51,
-    "content": "[source=a11y] [type=element] screen_id='product' instruction=\"click the menuitem 'Home & Kitchen'\" role='menuitem' name='Home & Kitchen' bbox_px=[602, 128, 747, 181]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-7e22b2191319343ea81db7795943a9d2",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:dc3d0e37ea8504056809969e84acd3c5",
-      "default:extract:34fe56805c9c4189de949dfdf1a77cc2"
-    ],
-    "create_time": 1787067958,
-    "update_time": 1787067963,
-    "_id": "doc-7e22b2191319343ea81db7795943a9d2-chunk-000"
-  },
-  "doc-8188d64419b5b66f55c03fd005cee4c7-chunk-000": {
-    "tokens": 67,
-    "content": "[source=a11y] [type=element] screen_id='subcategory' instruction=\"click the link '$0.00 - $999.99 2446 item'\" role='link' name='$0.00 - $999.99 2446 item' bbox_px=[20, 621, 163, 640]",
-    "chunk_order_index": 0,
-    "full_doc_id": "doc-8188d64419b5b66f55c03fd005cee4c7",
-    "file_path": "unknown_source",
-    "llm_cache_list": [
-      "default:extract:853ae596c97034bde56e8c0664046bee",
-      "default:extract:ca1cf4c78922543b69f1bc784e3d9f74"
-    ],
-    "create_time": 1787067971,
-    "update_time": 1787067974,
-    "_id": "doc-8188d64419b5b66f55c03fd005cee4c7-chunk-000"
+    "create_time": 1787083910,
+    "update_time": 1787083916,
+    "_id": "doc-2f5966d424551de0ed4fd414c471d245-chunk-000"
   }
 }

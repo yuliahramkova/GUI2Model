@@ -1,0 +1,24 @@
+To submit the header search after entering keywords on the storefront, the following elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **GUI Elements**: 
+   - **Header**: This is the top part of the webpage where navigation links are located. It is crucial for accessing the search functionality.
+   - **Search Input Field**: This is the area where keywords are entered.
+   - **Search Button**: This is the button that triggers the search submission after the keywords are entered.
+
+2. **Navigation Paths**:
+   - **Header → Search Input Field**: The user navigates to the search input field by clicking on the header.
+   - **Search Input Field → Search Button**: After entering the keywords, the user clicks the search button to submit the search.
+
+3. **Labels**:
+   - **Search Input Field Label**: This label indicates what the user needs to enter (e.g., "Enter Keywords").
+   - **Search Button Label**: This label indicates the action to be performed (e.g., "Search").
+
+4. **Roles**:
+   - **Search Input Field Role**: This role describes the function of the search input field, which is to receive user input.
+   - **Search Button Role**: This role describes the function of the search button, which is to initiate the search based on the input.
+
+5. **Actions**:
+   - **Enter Keywords**: The user inputs the desired search terms into the search input field.
+   - **Click Search Button**: The user clicks the search button to submit the search request.
+
+By focusing on these elements, labels, roles, and actions, the user can effectively navigate and perform the search on the storefront.

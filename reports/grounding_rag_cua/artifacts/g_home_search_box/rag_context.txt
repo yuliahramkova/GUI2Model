@@ -1,0 +1,19 @@
+To type a product query on the storefront, you would typically interact with the search bar, which is a common feature on many e-commerce websites. Here’s how you can identify the relevant elements and actions based on the information provided:
+
+1. **Navigation Path**: Start by navigating to the homepage of the website. The homepage is usually the main landing page of a website, often featuring a header with navigation links.
+
+2. **Labels and Roles**: On the homepage, you will likely find a search bar labeled as "Search" or "Find Products." This search bar is a GUI element that allows users to enter product queries. The label "Search" or "Find Products" is the role of this element, indicating its function.
+
+3. **Actions**: To type a product query, you would need to click on the search bar to activate it, allowing you to input your query. This action is described as "click the textbox," which is a role indicating the action to be performed.
+
+4. **Screen ID**: The screen ID 'home' refers to the homepage of the website. This is the initial screen where you would start your navigation.
+
+Given these points, here is a step-by-step breakdown of what you would do:
+
+1. Navigate to the homepage of the website.
+2. Locate the search bar on the homepage, which is typically labeled as "Search" or "Find Products."
+3. Click on the search bar to activate it.
+4. Type your product query into the search bar.
+5. Press Enter or click the search icon to execute the search.
+
+This process ensures that you can effectively type a product query on the storefront. The search bar is the key GUI element for this task, and the action of clicking it is crucial for activating the input field.

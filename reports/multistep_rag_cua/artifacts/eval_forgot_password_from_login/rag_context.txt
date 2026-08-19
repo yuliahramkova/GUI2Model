@@ -1,0 +1,29 @@
+To achieve the goal of opening the "Forgot Your Password" recovery page from the login page, we need to identify the relevant GUI elements, navigation paths, labels, roles, and actions on the storefront. Here’s how you can proceed:
+
+1. **Identify the Login Page Elements**: 
+   - The current page URL is `http://localhost:7770/customer/account/login/`, which indicates that you are already on the login page.
+   - Look for a label or link that says "Forgot Your Password" or something similar. This will likely be a clickable element that leads to the password recovery page.
+
+2. **Locate the "Forgot Your Password" Link**:
+   - Typically, the "Forgot Your Password" link is placed near the login form. It usually appears as a link or button next to the login fields or below them.
+   - The label for this link might be something like "Forgot Your Password?" or "Reset Password".
+
+3. **Action to Perform**:
+   - Click on the "Forgot Your Password" link to initiate the password recovery process.
+
+4. **Navigation Path**:
+   - The navigation path would be straightforward since you are already on the login page. The path would be: `Login Page -> Click on "Forgot Your Password" Link`.
+
+5. **Labels and Roles**:
+   - The label for the "Forgot Your Password" link is crucial for identifying it. It may be labeled as "Forgot Your Password?" or "Reset Password".
+   - The role of this element is to facilitate the user in recovering their password by redirecting them to the password recovery page.
+
+By following these steps, you should be able to navigate from the login page to the password recovery page without needing to leave the current page. If the "Forgot Your Password" link is not visible, check the page layout for alternative placements, such as in the footer or within a secondary navigation menu.
+
+### References
+
+- [1] Document Title One
+- [2] Document Title Two
+- [3] Document Title Three
+- [4] Document Title Four
+- [5] Document Title Five

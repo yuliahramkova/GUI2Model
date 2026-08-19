@@ -1,0 +1,17 @@
+To add the product to the wish list without adding it to the cart, you'll need to identify the relevant GUI elements and navigation paths on the product page. Here’s how you can proceed:
+
+1. **Identify the Product Page URL**: The current page URL is `http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html`. This indicates that you're on the product detail page for the "Briess DME - Pilsen Light - 1 lb Bag."
+
+2. **Locate the "Add to Wish List" Button**: Typically, the "Add to Wish List" button is located near the product details or on the right side of the product image. It may be labeled as "Add to Wish List," "Save for Later," or similar. You can usually find it below the product image or next to the "Add to Cart" button.
+
+3. **Click the "Add to Wish List" Button**: Once you locate the "Add to Wish List" button, click it to add the product to your wish list. Ensure that you do not click the "Add to Cart" button, as this will add the product to the cart instead.
+
+4. **Verify the Action**: After clicking the "Add to Wish List" button, verify that the product has been added to your wish list. This can often be seen in a notification message or by checking the wish list section later.
+
+If you don't see the "Add to Wish List" button, it might be located in a different area of the page. You can try scrolling down or looking for a "Wish List" or "Saved Items" link in the navigation menu.
+
+### References
+
+- [1] Document Title One
+- [2] Document Title Two
+- [3] Document Title Three

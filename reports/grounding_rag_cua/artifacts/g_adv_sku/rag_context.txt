@@ -1,0 +1,25 @@
+To enter a SKU on the advanced search form, the following elements and actions are most relevant:
+
+1. **Navigation Path**: The user needs to navigate to the advanced search form. This can be accessed via the "Advanced Search" link located in the Header of the homepage. The navigation path would be:
+   - Homepage
+   - Header
+   - Advanced Search link
+
+2. **GUI Elements**:
+   - **Advanced Search Form**: This is the primary element where the SKU will be entered. It is likely a textbox with a role of "input" or "text".
+   - **Submit Button**: After entering the SKU, the user will need to submit the form. This is usually a button labeled "Search" or "Find".
+
+3. **Labels and Roles**:
+   - **SKU Input Field**: The field where the SKU is entered will have a role of "input" or "text" and a label indicating it is for entering a SKU.
+   - **Submit Button**: The button will have a role of "button" and a label indicating it performs the search action.
+
+4. **Actions**:
+   - **Enter SKU**: The user needs to type the SKU into the input field.
+   - **Submit Form**: After entering the SKU, the user clicks the submit button to perform the search.
+
+Given the context, the relevant document chunks and references are:
+
+- **Document Chunk**: "The Advanced Search feature is located on the Homepage."
+- **Reference**: [1] Document Title One
+
+This indicates that the advanced search feature is available on the homepage, which is crucial for navigating to the form where the SKU can be entered.

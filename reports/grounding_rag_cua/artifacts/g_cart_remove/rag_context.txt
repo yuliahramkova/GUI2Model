@@ -1,0 +1,25 @@
+To delete a line item from the shopping cart, you would need to follow these steps based on the information available:
+
+1. **Identify the Line Item**: Locate the specific line item you want to delete in your shopping cart. This could be done by clicking on the "My Cart" link, which opens the minicart dropdown. From there, you may need to view and edit the cart to find the specific item you wish to remove.
+
+2. **Navigate to the Cart**: Click on the "My Cart" link to open the minicart dropdown. This will take you to the cart where you can see all the items currently in the cart.
+
+3. **View and Edit Cart**: Once in the cart, click on the "View and Edit Cart" mark in the minicart dropdown. This will allow you to manage the items in the cart, including deleting them.
+
+4. **Locate the Delete Option**: Within the "View and Edit Cart" section, locate the option to delete the specific line item. This could be a button or link next to the item that says something like "Remove," "Delete," or "Remove from Cart."
+
+5. **Confirm Deletion**: After clicking the delete option, confirm the deletion if prompted. This ensures that the item is removed from the cart.
+
+6. **Verify Deletion**: Check the cart to ensure the item has been successfully removed. You can do this by clicking on the "My Cart" link again to refresh the cart view.
+
+The relevant GUI elements and navigation paths include:
+- **"My Cart" Link**: This is the starting point to access the cart.
+- **"View and Edit Cart" Mark**: This allows you to manage the items in the cart.
+- **Delete Option**: This is the specific button or link that removes the item from the cart.
+
+The relevant actions include:
+- Clicking on the "My Cart" link to open the minicart dropdown.
+- Clicking on the "View and Edit Cart" mark to manage the cart contents.
+- Clicking the delete option for the specific item you wish to remove.
+
+These steps should guide you through the process of deleting a line item from the shopping cart.

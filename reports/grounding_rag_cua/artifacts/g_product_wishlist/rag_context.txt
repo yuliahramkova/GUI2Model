@@ -1,0 +1,23 @@
+To save an item for later without purchasing it, several GUI elements, navigation paths, labels, roles, and actions are relevant on the storefront. Here’s a breakdown:
+
+1. **GUI Elements**: 
+   - **Product Title**: The title of the product displayed on the webpage is crucial. It helps identify the item you want to save for later.
+   - **Product Link**: The hyperlink pointing to the product detail page is essential for accessing detailed information about the product.
+   - **Save for Later Button/Link**: This is the primary GUI element that allows users to save the item for future consideration without making a purchase.
+
+2. **Navigation Paths**:
+   - **Navigate to Product Detail Page**: Clicking on the product title or product link will take you to the product detail page where you can find the option to save the item for later.
+   - **Return to Previous Page**: If you need to return to the previous page after viewing the product details, ensure there is a back button or a way to navigate back to the product listing.
+
+3. **Labels**:
+   - **"Save for Later" Label**: This label should clearly indicate the option to save the item for future reference. It may appear as a button or a link on the product detail page.
+
+4. **Roles**:
+   - **Role of the Product Title**: The product title acts as a label for the product and is used to identify the item. Its role is to provide a clear and descriptive name for the product.
+   - **Role of the Product Link**: The product link serves as a navigational role, directing users to the product detail page where they can view more information and potentially save the item.
+
+5. **Actions**:
+   - **Click on Product Title or Product Link**: This action takes you to the product detail page where you can find the option to save the item.
+   - **Click on "Save for Later" Button/Link**: This action saves the item for later without making a purchase.
+
+By following these steps and interacting with the relevant GUI elements, labels, and roles, you can save an item for later without buying it yet.

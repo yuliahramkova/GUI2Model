@@ -1,0 +1,17 @@
+To guide you to the login page, we need to identify the relevant navigation paths and GUI elements on the storefront. Here’s what you need to do:
+
+1. **Identify the Login Button**: Look for a button labeled "Login" or something similar. This button will likely be located in the header or footer of the page, as these areas are common places for login options.
+
+2. **Navigate to the Login Page**: Once you find the "Login" button, click on it. This action will take you to the login page where you can enter your credentials.
+
+3. **Verify the Navigation Path**: Ensure that the navigation path from the home screen to the login page is clear and direct. You may need to click on the "Login" button to proceed.
+
+4. **Confirm the Screen ID**: The screen ID for the login page is 'account_logged_in', which helps in tracking the user's progress and ensures that they are indeed on the correct page.
+
+Here’s a step-by-step breakdown based on the provided information:
+
+- **Action**: Click on the "Login" button located in the header or footer of the home screen.
+- **Navigation Path**: From the home screen to the login page.
+- **Screen ID**: 'account_logged_in'
+
+By following these steps, you should be able to reach the login page successfully. If you encounter any issues, ensure that the "Login" button is correctly identified and accessible.

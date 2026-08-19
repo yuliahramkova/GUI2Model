@@ -1,0 +1,690 @@
+{
+  "created_at": "2026-08-19T04:09:54.167337+00:00",
+  "model": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "grounding_path": "C:/Proga/GUI2Model/data/target_app/eval/grounding.json",
+  "prior_knowledge": {
+    "type": "rag",
+    "mode": "cua",
+    "query_mode": "hybrid",
+    "max_chars": 6000,
+    "stores_root": "C:/Proga/GUI2Model/rag/stores"
+  },
+  "summary": {
+    "overall": {
+      "n": 32,
+      "hits": 25,
+      "accuracy": 0.78125,
+      "total_tokens": 56482,
+      "avg_tokens": 1765.0625,
+      "total_prompt_tokens": 56131,
+      "total_completion_tokens": 351,
+      "parse_fail": 0
+    },
+    "screen:account_logged_in": {
+      "n": 3,
+      "hits": 2,
+      "accuracy": 0.6666666666666666,
+      "total_tokens": 5374,
+      "avg_tokens": 1791.3333333333333,
+      "total_prompt_tokens": 5342,
+      "total_completion_tokens": 32,
+      "parse_fail": 0
+    },
+    "screen:cart_with_item": {
+      "n": 3,
+      "hits": 3,
+      "accuracy": 1.0,
+      "total_tokens": 5304,
+      "avg_tokens": 1768.0,
+      "total_prompt_tokens": 5271,
+      "total_completion_tokens": 33,
+      "parse_fail": 0
+    },
+    "screen:category": {
+      "n": 1,
+      "hits": 1,
+      "accuracy": 1.0,
+      "total_tokens": 2948,
+      "avg_tokens": 2948.0,
+      "total_prompt_tokens": 2938,
+      "total_completion_tokens": 10,
+      "parse_fail": 0
+    },
+    "screen:contact": {
+      "n": 2,
+      "hits": 1,
+      "accuracy": 0.5,
+      "total_tokens": 3489,
+      "avg_tokens": 1744.5,
+      "total_prompt_tokens": 3467,
+      "total_completion_tokens": 22,
+      "parse_fail": 0
+    },
+    "screen:forgot_password": {
+      "n": 1,
+      "hits": 1,
+      "accuracy": 1.0,
+      "total_tokens": 1734,
+      "avg_tokens": 1734.0,
+      "total_prompt_tokens": 1723,
+      "total_completion_tokens": 11,
+      "parse_fail": 0
+    },
+    "screen:home": {
+      "n": 9,
+      "hits": 6,
+      "accuracy": 0.6666666666666666,
+      "total_tokens": 14424,
+      "avg_tokens": 1602.6666666666667,
+      "total_prompt_tokens": 14326,
+      "total_completion_tokens": 98,
+      "parse_fail": 0
+    },
+    "screen:login": {
+      "n": 3,
+      "hits": 2,
+      "accuracy": 0.6666666666666666,
+      "total_tokens": 5547,
+      "avg_tokens": 1849.0,
+      "total_prompt_tokens": 5514,
+      "total_completion_tokens": 33,
+      "parse_fail": 0
+    },
+    "screen:minicart_open": {
+      "n": 2,
+      "hits": 2,
+      "accuracy": 1.0,
+      "total_tokens": 3746,
+      "avg_tokens": 1873.0,
+      "total_prompt_tokens": 3722,
+      "total_completion_tokens": 24,
+      "parse_fail": 0
+    },
+    "screen:orders_returns": {
+      "n": 1,
+      "hits": 1,
+      "accuracy": 1.0,
+      "total_tokens": 1589,
+      "avg_tokens": 1589.0,
+      "total_prompt_tokens": 1578,
+      "total_completion_tokens": 11,
+      "parse_fail": 0
+    },
+    "screen:product": {
+      "n": 4,
+      "hits": 4,
+      "accuracy": 1.0,
+      "total_tokens": 7147,
+      "avg_tokens": 1786.75,
+      "total_prompt_tokens": 7103,
+      "total_completion_tokens": 44,
+      "parse_fail": 0
+    },
+    "screen:register": {
+      "n": 1,
+      "hits": 1,
+      "accuracy": 1.0,
+      "total_tokens": 1767,
+      "avg_tokens": 1767.0,
+      "total_prompt_tokens": 1756,
+      "total_completion_tokens": 11,
+      "parse_fail": 0
+    },
+    "screen:search_advanced": {
+      "n": 2,
+      "hits": 1,
+      "accuracy": 0.5,
+      "total_tokens": 3413,
+      "avg_tokens": 1706.5,
+      "total_prompt_tokens": 3391,
+      "total_completion_tokens": 22,
+      "parse_fail": 0
+    }
+  },
+  "results": [
+    {
+      "id": "g_home_search_box",
+      "screen_id": "home",
+      "instruction": "Where do I type a product query on the storefront?",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 1062,
+      "pred_py": 84,
+      "bbox_px": [
+        962,
+        71,
+        1212,
+        103
+      ],
+      "total_tokens": 1694,
+      "rag_context": "To type a product query on the storefront, you would typically interact with the search bar, which is a common feature on many e-commerce websites. Here’s how you can identify the relevant elements and actions based on the information provided:\n\n1. **Navigation Path**: Start by navigating to the homepage of the website. The homepage is usually the main landing page of a website, often featuring a header with navigation links.\n\n2. **Labels and Roles**: On the homepage, you will likely find a search bar labeled as \"Search\" or \"Find Products.\" This search bar is a GUI element that allows users to enter product queries. The label \"Search\" or \"Find Products\" is the role of this element, indicating its function.\n\n3. **Actions**: To type a product query, you would need to click on the search bar to activate it, allowing you to input your query. This action is described as \"click the textbox,\" which is a role indicating the action to be performed.\n\n4. **Screen ID**: The screen ID 'home' refers to the homepage of the website. This is the initial screen where you would start your navigation.\n\nGiven these points, here is a step-by-step breakdown of what you would do:\n\n1. Navigate to the homepage of the website.\n2. Locate the search bar on the homepage, which is typically labeled as \"Search\" or \"Find Products.\"\n3. Click on the search bar to activate it.\n4. Type your product query into the search bar.\n5. Press Enter or click the search icon to execute the search.\n\nThis process ensures that you can effectively type a product query on the storefront. The search bar is the key GUI element for this task, and the action of clicking it is crucial for activating the input field."
+    },
+    {
+      "id": "g_home_search_submit",
+      "screen_id": "home",
+      "instruction": "Submit the header search after entering keywords.",
+      "hit": false,
+      "parse_ok": true,
+      "pred_px": 1062,
+      "pred_py": 84,
+      "bbox_px": [
+        1180,
+        71,
+        1202,
+        103
+      ],
+      "total_tokens": 1675,
+      "rag_context": "To submit the header search after entering keywords on the storefront, the following elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **GUI Elements**: \n   - **Header**: This is the top part of the webpage where navigation links are located. It is crucial for accessing the search functionality.\n   - **Search Input Field**: This is the area where keywords are entered.\n   - **Search Button**: This is the button that triggers the search submission after the keywords are entered.\n\n2. **Navigation Paths**:\n   - **Header → Search Input Field**: The user navigates to the search input field by clicking on the header.\n   - **Search Input Field → Search Button**: After entering the keywords, the user clicks the search button to submit the search.\n\n3. **Labels**:\n   - **Search Input Field Label**: This label indicates what the user needs to enter (e.g., \"Enter Keywords\").\n   - **Search Button Label**: This label indicates the action to be performed (e.g., \"Search\").\n\n4. **Roles**:\n   - **Search Input Field Role**: This role describes the function of the search input field, which is to receive user input.\n   - **Search Button Role**: This role describes the function of the search button, which is to initiate the search based on the input.\n\n5. **Actions**:\n   - **Enter Keywords**: The user inputs the desired search terms into the search input field.\n   - **Click Search Button**: The user clicks the search button to submit the search request.\n\nBy focusing on these elements, labels, roles, and actions, the user can effectively navigate and perform the search on the storefront."
+    },
+    {
+      "id": "g_home_advanced_search",
+      "screen_id": "home",
+      "instruction": "Open the page with extra search filters beyond the header box.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 1022,
+      "pred_py": 116,
+      "bbox_px": [
+        962,
+        108,
+        1074,
+        127
+      ],
+      "total_tokens": 1578,
+      "rag_context": "To achieve the goal of opening a page with extra search filters beyond the header box, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **Navigation Path**: The Advanced Search feature is located in the Header and on the Homepage. This suggests that accessing the Advanced Search feature will provide additional search filters beyond what is available in the header box.\n\n2. **GUI Elements**:\n   - **Header**: Contains the Advanced Search feature, which is likely to offer more advanced search options.\n   - **Advanced Search Feature**: Located in the Header and on the Homepage, it provides access to more detailed search filters.\n\n3. **Labels and Roles**:\n   - **Advanced Search**: The label for the feature that allows for more detailed search queries.\n   - **Header**: The top part of the webpage containing navigation links, including the Advanced Search option.\n\n4. **Actions**:\n   - **Click the Advanced Search Link**: This action will take you to the Advanced Search page, where you can apply more detailed search filters.\n\nBy following these elements and actions, you can navigate to a page that offers extra search filters beyond those available in the header box."
+    },
+    {
+      "id": "g_home_sign_in",
+      "screen_id": "home",
+      "instruction": "I already have an account — take me to the login page.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 865,
+      "pred_py": 17,
+      "bbox_px": [
+        861,
+        10,
+        905,
+        29
+      ],
+      "total_tokens": 1627,
+      "rag_context": "To guide you to the login page, we need to identify the relevant navigation paths and GUI elements on the storefront. Here’s what you need to do:\n\n1. **Identify the Login Button**: Look for a button labeled \"Login\" or something similar. This button will likely be located in the header or footer of the page, as these areas are common places for login options.\n\n2. **Navigate to the Login Page**: Once you find the \"Login\" button, click on it. This action will take you to the login page where you can enter your credentials.\n\n3. **Verify the Navigation Path**: Ensure that the navigation path from the home screen to the login page is clear and direct. You may need to click on the \"Login\" button to proceed.\n\n4. **Confirm the Screen ID**: The screen ID for the login page is 'account_logged_in', which helps in tracking the user's progress and ensures that they are indeed on the correct page.\n\nHere’s a step-by-step breakdown based on the provided information:\n\n- **Action**: Click on the \"Login\" button located in the header or footer of the home screen.\n- **Navigation Path**: From the home screen to the login page.\n- **Screen ID**: 'account_logged_in'\n\nBy following these steps, you should be able to reach the login page successfully. If you encounter any issues, ensure that the \"Login\" button is correctly identified and accessible."
+    },
+    {
+      "id": "g_home_create_account",
+      "screen_id": "home",
+      "instruction": "Register a new customer account from the header.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 1192,
+      "pred_py": 15,
+      "bbox_px": [
+        1141,
+        10,
+        1260,
+        29
+      ],
+      "total_tokens": 1490,
+      "rag_context": "To register a new customer account from the header on the storefront, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **Navigation Path**: Start from the homepage (`screen_id='home'`).\n2. **Label**: Look for a label or link that says \"Create an Account\" (`name='Create an Account'`, `bbox_px=[1141, 10, 1260, 29]`).\n3. **Action**: Click on the \"Create an Account\" link to proceed to the account registration page (`instruction=\"click the link 'Create an Account'\"`).\n\nThese elements and actions will guide you through the initial step of creating a new customer account on the storefront."
+    },
+    {
+      "id": "g_home_wishlist",
+      "screen_id": "home",
+      "instruction": "Open my saved wishlist from the top of the page.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 816,
+      "pred_py": 16,
+      "bbox_px": [
+        765,
+        10,
+        846,
+        29
+      ],
+      "total_tokens": 1620,
+      "rag_context": "To open your saved wishlist from the top of the page, you would typically follow these steps:\n\n1. **Identify the Navigation Path**: Look for a navigation bar or header at the top of the page where you can find a link or icon labeled \"Wish List\" or something similar. This is usually a common place to find such features.\n\n2. **Locate the Wishlist Link**: Click on the \"Wish List\" link or icon. This will likely take you to a page where you can view your saved items.\n\n3. **Access the Wishlist**: Once you're on the wishlist page, you can review and manage your saved items.\n\nIf the \"Wish List\" link is not immediately visible in the header, you may need to scroll down to find it. Alternatively, you might need to explore other sections of the site, such as the \"Account\" or \"My Account\" area, depending on the site's layout and design.\n\nFor a more precise answer, I would need to see the actual layout of the storefront you are referring to. However, based on typical website designs, the \"Wish List\" link is often located in the header or the \"Account\" section.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+    },
+    {
+      "id": "g_home_cart",
+      "screen_id": "home",
+      "instruction": "Open the shopping bag / cart icon in the header.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 1246,
+      "pred_py": 84,
+      "bbox_px": [
+        1225,
+        71,
+        1260,
+        104
+      ],
+      "total_tokens": 1625,
+      "rag_context": "To open the shopping bag/cart icon in the header of the storefront, the following elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **GUI Elements**: The shopping bag/cart icon itself is the primary element to interact with. It is typically a small icon, often resembling a bag or a cart, located in the header area of the website.\n\n2. **Navigation Paths**: The path to reach the shopping bag/cart icon usually involves navigating to the homepage. From there, the icon is typically located in the top right corner of the header.\n\n3. **Labels**: The label for the shopping bag/cart icon is usually something like \"Cart,\" \"My Cart,\" or \"Shopping Bag.\" It may also be accompanied by a number indicating the number of items in the cart.\n\n4. **Roles**: The role of the shopping bag/cart icon is to represent the cart, allowing users to view and manage the items they have added to their shopping cart.\n\n5. **Actions**: The action required to open the shopping bag/cart icon is a click. This action will typically open the minicart dropdown, allowing users to view the items in their cart, adjust quantities, or proceed to checkout.\n\nGiven these points, the specific navigation and interaction details would depend on the exact layout and design of the storefront. However, the above elements provide a general framework for locating and interacting with the shopping bag/cart icon in the header."
+    },
+    {
+      "id": "g_home_electronics",
+      "screen_id": "home",
+      "instruction": "Browse the Electronics department from the main menu.",
+      "hit": false,
+      "parse_ok": true,
+      "pred_px": 426,
+      "pred_py": 154,
+      "bbox_px": [
+        382,
+        181,
+        490,
+        234
+      ],
+      "total_tokens": 1522,
+      "rag_context": "To browse the Electronics department from the main menu on this storefront, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **Navigation Path**: Start from the **Home** screen.\n2. **GUI Elements**:\n   - **Menu Item**: Click on the **\"Electronics\"** menu item to navigate to the Electronics category page.\n3. **Labels**:\n   - **Menu Item Label**: The label for the **Electronics** menu item is **\"Electronics\"**.\n4. **Roles**:\n   - **Menu Item Role**: The role of the **Electronics** menu item is to navigate to the Electronics category page.\n5. **Actions**:\n   - **Click Action**: Click on the **\"Electronics\"** menu item to proceed to the Electronics category page.\n\nThese elements and actions will guide you to the desired Electronics department on the storefront."
+    },
+    {
+      "id": "g_home_video_games",
+      "screen_id": "home",
+      "instruction": "Go to the Video Games category in the navigation bar.",
+      "hit": false,
+      "parse_ok": true,
+      "pred_px": 764,
+      "pred_py": 155,
+      "bbox_px": [
+        721,
+        181,
+        843,
+        234
+      ],
+      "total_tokens": 1593,
+      "rag_context": "To navigate to the Video Games category in the navigation bar on the storefront, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **Navigation Bar**: This is the top part of the webpage containing navigation links. It is the primary location where categories like Video Games would be listed.\n\n2. **Navigation Path**: The path to reach the Video Games category will likely involve clicking on a menu item labeled \"Video Games\" or something similar in the navigation bar.\n\n3. **Labels**: The label for the Video Games category should be clearly visible in the navigation bar. It may be labeled as \"Video Games,\" \"Gaming,\" or a similar term.\n\n4. **Roles**: The role of the navigation bar is to provide a structured way for users to access different sections of the website. The Video Games category is an element within this structure.\n\n5. **Actions**: The action required to navigate to the Video Games category is to click on the corresponding menu item in the navigation bar.\n\nGiven the information available, the relevant navigation path would be to click on the \"Video Games\" or equivalent label in the navigation bar. The exact label and the precise action (clicking) depend on the specific implementation of the navigation bar on the storefront."
+    },
+    {
+      "id": "g_product_add_to_cart",
+      "screen_id": "product",
+      "instruction": "Put this product into the cart.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 903,
+      "pred_py": 546,
+      "bbox_px": [
+        831,
+        516,
+        969,
+        568
+      ],
+      "total_tokens": 1893,
+      "rag_context": "To put the product into the cart on the storefront, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **GUI Elements**:\n   - **Product Image**: The image of the product, which is likely to be found within the `.product-image-container-104499` CSS selector.\n   - **Add to Cart Button**: The button labeled \"Add to Cart\" which is typically found on the product detail page.\n   - **Minicart Dropdown**: The dropdown menu that opens when you click the \"My Cart\" link, which is usually located in the header or sidebar.\n   - **View and Edit Cart Mark**: The mark in the minicart dropdown that allows you to view and edit the cart contents.\n\n2. **Navigation Paths**:\n   - **Product Page**: Start by navigating to the product detail page, which can be accessed via the product link or product title.\n   - **Minicart Dropdown**: After adding the product to the cart, you will need to navigate to the minicart dropdown to view and edit the cart contents.\n\n3. **Labels**:\n   - **Add to Cart**: The label of the button that adds the product to the cart.\n   - **My Cart**: The label of the link that opens the minicart dropdown.\n   - **View and Edit Cart**: The label of the mark in the minicart dropdown that allows you to view and edit the cart contents.\n\n4. **Roles**:\n   - **Role of the Add to Cart Button**: The role of the \"Add to Cart\" button is to add the product to the cart.\n   - **Role of the Minicart Dropdown**: The role of the minicart dropdown is to provide access to the cart contents.\n   - **Role of the View and Edit Cart Mark**: The role of the \"View and Edit Cart\" mark is to allow the user to view and edit the cart contents.\n\n5. **Actions**:\n   - **Click the Product Image**: Click on the product image to view the product detail page.\n   - **Click the Add to Cart Button**: Click the \"Add to Cart\" button to add the product to the cart.\n   - **Wait for the Spinner**: If a spinner appears, wait for 2000 milliseconds before taking further action.\n   - **Click the My Cart Link**: Click the \"My Cart\" link to open the minicart dropdown.\n   - **Click the View and Edit Cart Mark**: Click the \"View and Edit Cart\" mark in the minicart dropdown to view and edit the cart contents.\n\nBy following these steps, you can successfully put the product into the cart and manage your cart contents as needed."
+    },
+    {
+      "id": "g_product_qty",
+      "screen_id": "product",
+      "instruction": "Change how many units of this item I want to buy.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 782,
+      "pred_py": 546,
+      "bbox_px": [
+        764,
+        516,
+        816,
+        568
+      ],
+      "total_tokens": 1653,
+      "rag_context": "To change the number of units you want to buy for an item on this storefront, you would typically interact with the following elements:\n\n1. **Quantity Selector**: This is usually a dropdown or slider that allows you to choose the desired number of units. It might be located near the \"Add to Cart\" button or within the product detail page.\n\n2. **Add to Cart Button**: After selecting the desired quantity, you would click the \"Add to Cart\" button to add the specified number of units to your cart.\n\n3. **Navigation Paths**: You may need to navigate back to the product detail page if you're currently on a different page. This could involve clicking on the product title or product link to return to the product detail page.\n\n4. **Labels**: Labels like \"Quantity,\" \"Units,\" or \"Number of Items\" might appear next to the quantity selector to clarify what you're adjusting.\n\n5. **Roles**: As a customer, you would perform actions like clicking on the quantity selector and then the \"Add to Cart\" button.\n\n6. **Actions**: The relevant actions would include:\n   - Clicking on the quantity selector to adjust the number of units.\n   - Clicking the \"Add to Cart\" button to add the selected quantity to your cart.\n\nIf you provide a specific product URL or more details about the storefront layout, I can give you a more precise navigation path. However, based on the information given, these are the key elements and actions you would need to focus on to change the quantity of an item you wish to buy."
+    },
+    {
+      "id": "g_product_wishlist",
+      "screen_id": "product",
+      "instruction": "Save this item for later without buying it yet.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 816,
+      "pred_py": 625,
+      "bbox_px": [
+        764,
+        608,
+        870,
+        632
+      ],
+      "total_tokens": 1771,
+      "rag_context": "To save an item for later without purchasing it, several GUI elements, navigation paths, labels, roles, and actions are relevant on the storefront. Here’s a breakdown:\n\n1. **GUI Elements**: \n   - **Product Title**: The title of the product displayed on the webpage is crucial. It helps identify the item you want to save for later.\n   - **Product Link**: The hyperlink pointing to the product detail page is essential for accessing detailed information about the product.\n   - **Save for Later Button/Link**: This is the primary GUI element that allows users to save the item for future consideration without making a purchase.\n\n2. **Navigation Paths**:\n   - **Navigate to Product Detail Page**: Clicking on the product title or product link will take you to the product detail page where you can find the option to save the item for later.\n   - **Return to Previous Page**: If you need to return to the previous page after viewing the product details, ensure there is a back button or a way to navigate back to the product listing.\n\n3. **Labels**:\n   - **\"Save for Later\" Label**: This label should clearly indicate the option to save the item for future reference. It may appear as a button or a link on the product detail page.\n\n4. **Roles**:\n   - **Role of the Product Title**: The product title acts as a label for the product and is used to identify the item. Its role is to provide a clear and descriptive name for the product.\n   - **Role of the Product Link**: The product link serves as a navigational role, directing users to the product detail page where they can view more information and potentially save the item.\n\n5. **Actions**:\n   - **Click on Product Title or Product Link**: This action takes you to the product detail page where you can find the option to save the item.\n   - **Click on \"Save for Later\" Button/Link**: This action saves the item for later without making a purchase.\n\nBy following these steps and interacting with the relevant GUI elements, labels, and roles, you can save an item for later without buying it yet."
+    },
+    {
+      "id": "g_product_compare",
+      "screen_id": "product",
+      "instruction": "Add this product to the comparison list.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 931,
+      "pred_py": 625,
+      "bbox_px": [
+        874,
+        608,
+        980,
+        632
+      ],
+      "total_tokens": 1830,
+      "rag_context": "To add a product to the comparison list on this storefront, several GUI elements, navigation paths, labels, roles, and actions will be relevant:\n\n1. **GUI Elements**: \n   - **Product Image**: The product image is likely the first element users see, which helps them identify the product they're interested in.\n   - **Product Title**: The title of the product, which is displayed prominently, provides the name and description of the product.\n   - **Add to Comparison Button/Link**: This is the key element that allows users to add the product to their comparison list. It may be labeled as \"Add to Compare,\" \"Compare Now,\" or similar.\n   - **Comparison List Link/Button**: This navigates to the comparison list where users can view the products they've added for comparison.\n\n2. **Navigation Paths**:\n   - **Product Detail Page**: Users typically arrive at the product detail page by clicking on a product title or a product link. This page contains all the necessary information about the product.\n   - **Comparison List**: After adding the product to the comparison list, users can navigate back to the comparison list to review the products they've selected.\n\n3. **Labels**:\n   - **Product Title**: The title of the product, which is usually displayed at the top of the product detail page.\n   - **Add to Comparison Label**: The label on the button or link that adds the product to the comparison list.\n   - **Comparison List Label**: The label on the link or button that navigates to the comparison list.\n\n4. **Roles**:\n   - **User Role**: The user's role determines what actions they can perform. For example, a user might have the ability to add products to their comparison list but not edit or delete them.\n   - **Product Role**: The role of the product itself, which might indicate its nature (e.g., a product that can be added to a comparison list).\n\n5. **Actions**:\n   - **Clicking the Product Title or Product Link**: This action takes the user to the product detail page.\n   - **Clicking the Add to Comparison Button/Link**: This action adds the product to the comparison list.\n   - **Navigating to the Comparison List**: This action allows the user to view the products they've added for comparison.\n\nBy focusing on these elements, labels, roles, and actions, users can effectively add a product to the comparison list on this storefront."
+    },
+    {
+      "id": "g_login_email",
+      "screen_id": "login",
+      "instruction": "Field where I enter my account email to sign in.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 260,
+      "pred_py": 465,
+      "bbox_px": [
+        176,
+        446,
+        625,
+        478
+      ],
+      "total_tokens": 1719,
+      "rag_context": "To address your query about the GUI elements, navigation paths, labels, roles, and actions on the storefront where you need to enter your account email to sign in, let's break down the relevant information based on the provided context:\n\n1. **GUI Elements**: \n   - The most relevant GUI element here would be the textbox where you input your email. This is typically labeled as \"Email\" or \"Username\" on many login pages.\n\n2. **Navigation Paths**:\n   - The navigation path leading to the login screen is important. Typically, this involves going to the homepage and finding the \"Login\" link or button, which usually leads to the login screen.\n\n3. **Labels**:\n   - The label for the textbox where you enter your email is crucial. Common labels include \"Email,\" \"Username,\" \"Sign In,\" or \"Log In.\"\n\n4. **Roles**:\n   - The role of the textbox is to receive user input, specifically the email address needed for authentication purposes.\n\n5. **Actions**:\n   - The action required is to click on the \"Login\" link or button, which navigates to the login screen. Once on the login screen, you need to click on the textbox to focus on it, then type your email address.\n\nGiven the context, the following steps are relevant:\n- Navigate to the homepage.\n- Locate the \"Login\" link or button.\n- Click on the \"Login\" link or button to go to the login screen.\n- Focus on the textbox labeled \"Email\" or \"Username.\"\n- Enter your email address into the textbox.\n\nThis sequence ensures that you are correctly positioned to enter your account email for the sign-in process.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+    },
+    {
+      "id": "g_login_password",
+      "screen_id": "login",
+      "instruction": "Password input on the customer login form.",
+      "hit": false,
+      "parse_ok": true,
+      "pred_px": 175,
+      "pred_py": 526,
+      "bbox_px": [
+        176,
+        507,
+        625,
+        539
+      ],
+      "total_tokens": 2029,
+      "rag_context": "To address the task of password input on the customer login form, we need to identify the relevant GUI elements, navigation paths, labels, roles, and actions on the storefront. Here’s a breakdown based on the provided context:\n\n### Relevant GUI Elements:\n1. **Password Input Field**: This is the primary element where the user will enter their password. It is typically a textbox with a label indicating what the user needs to input.\n2. **Login Button**: This button is usually labeled \"Login\" or \"Submit\" and is the action button that the user will click after entering their credentials.\n\n### Navigation Paths:\n1. **Customer Login Path**: The user navigates to the login page by clicking on the \"Log in\" link or button, which is usually located in the top right corner of the homepage or in the footer.\n\n### Labels:\n1. **Password Label**: The label next to the password input field will likely say something like \"Password\" or \"Enter your password\".\n2. **Login Button Label**: The label on the login button will be \"Login\" or \"Submit\".\n\n### Roles:\n1. **User Role**: The user is expected to be a customer who needs to log in to access their account or perform certain actions on the site.\n\n### Actions:\n1. **Click Action**: The user performs a click action on the password input field to focus on it, allowing them to type their password.\n2. **Type Action**: The user types their password into the focused password input field.\n3. **Click Action**: The user then clicks the login button to submit the form and log in.\n\n### Example of a Click Action:\n```json\n{\n  \"reference_id\": \"\",\n  \"content\": \"[source=a11y] [type=element] screen_id='login' instruction='click the textbox' role='textbox' name='' bbox_px=[175, 368, 620, 400]\"\n}\n```\n\nThis example shows a click action on a textbox, which is a common element for password input fields. The exact coordinates (bbox_px) would depend on the specific layout of the login form.\n\n### Example of a Type Action:\n```json\n{\n  \"reference_id\": \"\",\n  \"content\": \"[source=a11y] [type=element] screen_id='login' instruction='type the password' role='password' name='password'\"\n}\n```\n\nThis example illustrates typing the password into the textbox.\n\n### Example of a Click Action on the Login Button:\n```json\n{\n  \"reference_id\": \"\",\n  \"content\": \"[source=a11y] [type=element] screen_id='login' instruction='click the button 'Login'' role='button' name='Login' bbox_px=[595, 250, 620, 284]\"\n}\n```\n\nThis example shows a click action on the login button, which is the final step in the login process.\n\n### Summary:\nTo complete the task of password input on the customer login form, the user needs to:\n1. Navigate to the login page.\n2. Focus on the password input field by clicking on it.\n3. Type their password into the focused field.\n4. Click the login button to submit the form and log in.\n\nThese actions are supported by the relevant GUI elements, navigation paths, labels, roles, and actions described above."
+    },
+    {
+      "id": "g_login_forgot",
+      "screen_id": "login",
+      "instruction": "I forgot my password — open the reset flow.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 349,
+      "pred_py": 639,
+      "bbox_px": [
+        290,
+        623,
+        438,
+        643
+      ],
+      "total_tokens": 1799,
+      "rag_context": "To assist you in resetting your password, let's identify the relevant GUI elements, navigation paths, labels, roles, and actions on the storefront:\n\n1. **GUI Elements**:\n   - **Login Screen**: This is the starting point where you will enter your email or username to proceed with the password reset process.\n   - **Password Reset Link**: Typically, there will be a link or button labeled \"Forgot Password\" or similar, which initiates the password reset flow.\n   - **Email/Username Input Field**: This is where you would enter your registered email or username to receive a password reset link.\n   - **Reset Password Button**: After entering your credentials, there will be a button labeled \"Reset Password\" or \"Send Reset Email\" that you need to click to proceed.\n\n2. **Navigation Paths**:\n   - **From Login Screen to Password Reset**: Clicking the \"Forgot Password\" link will take you to the password reset page.\n   - **From Password Reset Page to Reset Password**: After entering your credentials, you'll need to click the \"Reset Password\" button to complete the process.\n\n3. **Labels**:\n   - **Forgot Password Label**: This is the label you should look for on the login screen to initiate the password reset process.\n   - **Reset Password Label**: This label is present on the password reset page and should be clicked to submit the form.\n\n4. **Roles**:\n   - **User Role**: You are a user who needs to reset their password.\n   - **Admin Role**: If you are an admin, you may have additional options or permissions, but for a standard user, the focus is on the user role.\n\n5. **Actions**:\n   - **Click on the \"Forgot Password\" Link**: This action navigates you to the password reset page.\n   - **Enter Email/Username**: This action provides the necessary credentials to identify your account.\n   - **Click the \"Reset Password\" Button**: This action submits the form and sends a reset link to your email.\n\nBy following these steps, you should be able to successfully navigate to the password reset flow on the storefront. If you encounter any issues, please ensure that the email address or username you provide is correct and that you are following the exact instructions provided by the storefront."
+    },
+    {
+      "id": "g_contact_name",
+      "screen_id": "contact",
+      "instruction": "Where do I type my name on the Contact Us form?",
+      "hit": false,
+      "parse_ok": true,
+      "pred_px": 179,
+      "pred_py": 459,
+      "bbox_px": [
+        180,
+        441,
+        640,
+        473
+      ],
+      "total_tokens": 1685,
+      "rag_context": "To help you locate where to type your name on the Contact Us form, let's analyze the relevant information from the provided context:\n\n1. **Navigation Paths and Labels**: \n   - The Contact Us form is accessible via the \"Contact Us\" link located in the homepage footer. This link is labeled as \"Contact Us\" and is a clickable element.\n\n2. **GUI Elements**:\n   - The form itself is likely structured with various fields, including one for the user's name. The specific field for typing the name is typically labeled as \"Name\" or \"Full Name\".\n\n3. **Roles and Actions**:\n   - When interacting with the form, you would need to click on the \"Contact Us\" link first to navigate to the form page.\n   - Once on the form page, you would need to interact with the \"Name\" field to enter your name.\n\n4. **Labels and Roles**:\n   - The label for the field where you type your name is usually \"Name\" or \"Full Name\".\n   - The role of the element is to serve as a textbox where you can input text.\n\nGiven these points, here’s how you might proceed:\n\n1. **Navigate to the Contact Us Form**:\n   - Click on the \"Contact Us\" link located in the homepage footer.\n\n2. **Locate the Name Field**:\n   - On the Contact Us form, look for a field labeled \"Name\" or \"Full Name\". This is where you will type your name.\n\n3. **Enter Your Information**:\n   - Type your name into the designated field.\n\nIf you need more specific details or if there are additional fields or steps involved, please provide further instructions or clarify any doubts."
+    },
+    {
+      "id": "g_contact_phone",
+      "screen_id": "contact",
+      "instruction": "Phone number field on the contact form.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 406,
+      "pred_py": 584,
+      "bbox_px": [
+        180,
+        563,
+        640,
+        595
+      ],
+      "total_tokens": 1804,
+      "rag_context": "To address the query about the phone number field on the contact form and identify relevant GUI elements, navigation paths, labels, roles, and actions on the storefront, we need to analyze the provided context and document chunks. Here’s a breakdown:\n\n1. **GUI Elements**: \n   - The phone number field itself would be a textbox or input field, which is a type of web element. It is likely labeled as \"Phone Number\" or something similar to indicate its purpose.\n\n2. **Navigation Paths**:\n   - The contact form is typically found on the homepage or within a specific section of the site dedicated to customer service or contact us. The navigation path leading to the contact form may involve clicking on a menu item labeled \"Contact Us,\" \"Customer Service,\" or something similar.\n\n3. **Labels**:\n   - The label for the phone number field will likely be \"Phone Number\" or \"Enter your phone number.\"\n\n4. **Roles**:\n   - The role of the phone number field is to collect the user's phone number for communication purposes. It could be part of a larger form that includes fields for name, email, and message.\n\n5. **Actions**:\n   - The action associated with the phone number field is the user entering their phone number. This action is part of the form submission process, which typically involves clicking a submit button.\n\nGiven the context, here are the relevant elements and actions:\n\n- **GUI Element**: The phone number field is a textbox or input field.\n- **Navigation Path**: Typically, the user navigates to the contact form via a menu item like \"Contact Us\" or \"Customer Service.\"\n- **Label**: The label for the phone number field is likely \"Phone Number.\"\n- **Role**: The role of the phone number field is to collect the user's phone number.\n- **Action**: The action is the user entering their phone number into the textbox.\n\nThese elements and actions are consistent with standard contact form practices on e-commerce and other websites. However, without specific document chunks or references to the exact screen or form, these are general guidelines based on typical web forms.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+    },
+    {
+      "id": "g_adv_product_name",
+      "screen_id": "search_advanced",
+      "instruction": "On Advanced Search, filter by product title.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 181,
+      "pred_py": 446,
+      "bbox_px": [
+        180,
+        430,
+        640,
+        462
+      ],
+      "total_tokens": 1744,
+      "rag_context": "To address the task of filtering by product title on the Advanced Search page, we need to identify the relevant GUI elements, navigation paths, labels, roles, and actions based on the provided context. Here’s a breakdown:\n\n1. **GUI Elements**: \n   - The \"Advanced Search\" link is located in the Header of the homepage. This is crucial for initiating the search process.\n   - The search bar itself is where users input their search terms.\n   - The \"Submit\" button is used to execute the search query once the search term is entered.\n\n2. **Navigation Paths**:\n   - The user navigates from the homepage to the Advanced Search page by clicking the \"Advanced Search\" link in the Header.\n   - Once on the Advanced Search page, the user inputs the search term and submits it to view the search results.\n\n3. **Labels**:\n   - The label for the \"Advanced Search\" link is \"Advanced Search\".\n   - The search bar is labeled as \"Search for products\".\n   - The \"Submit\" button is labeled as \"Search\".\n\n4. **Roles**:\n   - The role of the \"Advanced Search\" link is to navigate to the Advanced Search page.\n   - The role of the search bar is to allow users to enter their search terms.\n   - The role of the \"Submit\" button is to initiate the search process.\n\n5. **Actions**:\n   - Clicking the \"Advanced Search\" link initiates the search process.\n   - Entering a search term in the search bar and clicking the \"Submit\" button executes the search.\n\nIn summary, the relevant GUI elements, navigation paths, labels, roles, and actions for filtering by product title on the Advanced Search page include:\n- Clicking the \"Advanced Search\" link in the Header.\n- Entering a search term in the search bar.\n- Submitting the search by clicking the \"Submit\" button.\n\nThese actions will lead to the display of search results, where the user can then filter by product title."
+    },
+    {
+      "id": "g_adv_sku",
+      "screen_id": "search_advanced",
+      "instruction": "Enter a SKU on the advanced search form.",
+      "hit": false,
+      "parse_ok": true,
+      "pred_px": 165,
+      "pred_py": 509,
+      "bbox_px": [
+        180,
+        491,
+        640,
+        523
+      ],
+      "total_tokens": 1669,
+      "rag_context": "To enter a SKU on the advanced search form, the following elements and actions are most relevant:\n\n1. **Navigation Path**: The user needs to navigate to the advanced search form. This can be accessed via the \"Advanced Search\" link located in the Header of the homepage. The navigation path would be:\n   - Homepage\n   - Header\n   - Advanced Search link\n\n2. **GUI Elements**:\n   - **Advanced Search Form**: This is the primary element where the SKU will be entered. It is likely a textbox with a role of \"input\" or \"text\".\n   - **Submit Button**: After entering the SKU, the user will need to submit the form. This is usually a button labeled \"Search\" or \"Find\".\n\n3. **Labels and Roles**:\n   - **SKU Input Field**: The field where the SKU is entered will have a role of \"input\" or \"text\" and a label indicating it is for entering a SKU.\n   - **Submit Button**: The button will have a role of \"button\" and a label indicating it performs the search action.\n\n4. **Actions**:\n   - **Enter SKU**: The user needs to type the SKU into the input field.\n   - **Submit Form**: After entering the SKU, the user clicks the submit button to perform the search.\n\nGiven the context, the relevant document chunks and references are:\n\n- **Document Chunk**: \"The Advanced Search feature is located on the Homepage.\"\n- **Reference**: [1] Document Title One\n\nThis indicates that the advanced search feature is available on the homepage, which is crucial for navigating to the form where the SKU can be entered."
+    },
+    {
+      "id": "g_cart_checkout",
+      "screen_id": "cart_with_item",
+      "instruction": "From the cart page, continue to checkout.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 1116,
+      "pred_py": 643,
+      "bbox_px": [
+        990,
+        612,
+        1245,
+        664
+      ],
+      "total_tokens": 1760,
+      "rag_context": "To continue from the cart page to the checkout process, several GUI elements, navigation paths, labels, roles, and actions are relevant:\n\n1. **GUI Elements**:\n   - **Cart Dropdown**: This is likely the element that allows users to view and manage the items in their cart. It may be labeled as \"My Cart\" or similar.\n   - **Proceed to Checkout Button**: This button is typically labeled as \"Proceed to Checkout,\" \"Go to Checkout,\" or something similar, and it is the primary action needed to move from the cart to the checkout page.\n   - **Minicart Dropdown**: This is the dropdown that appears when the cart icon is clicked, showing the items currently in the cart.\n\n2. **Navigation Paths**:\n   - **Click on the Cart Dropdown**: This action opens the minicart dropdown, revealing the items in the cart.\n   - **Click on the \"Proceed to Checkout\" Button**: This action takes the user from the cart page to the checkout page.\n\n3. **Labels**:\n   - **\"My Cart\" Label**: This is the label for the cart icon or the link that opens the cart dropdown.\n   - **\"Proceed to Checkout\" Label**: This is the label for the button that initiates the checkout process.\n\n4. **Roles**:\n   - **Role of the Cart Dropdown**: The role here is to provide access to the cart contents and options, such as viewing, editing, or removing items.\n   - **Role of the \"Proceed to Checkout\" Button**: The role of this button is to initiate the checkout process, guiding the user to the next stage of the purchasing journey.\n\n5. **Actions**:\n   - **Click Action**: The primary action required is to click on the \"My Cart\" link to open the cart dropdown.\n   - **Click Action**: After viewing the cart contents, the next action is to click the \"Proceed to Checkout\" button to navigate to the checkout page.\n\nThese elements and actions are critical for transitioning from the cart page to the checkout page, ensuring a smooth and efficient user experience."
+    },
+    {
+      "id": "g_cart_remove",
+      "screen_id": "cart_with_item",
+      "instruction": "Delete this line item from the shopping cart.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 149,
+      "pred_py": 624,
+      "bbox_px": [
+        103,
+        602,
+        227,
+        634
+      ],
+      "total_tokens": 1781,
+      "rag_context": "To delete a line item from the shopping cart, you would need to follow these steps based on the information available:\n\n1. **Identify the Line Item**: Locate the specific line item you want to delete in your shopping cart. This could be done by clicking on the \"My Cart\" link, which opens the minicart dropdown. From there, you may need to view and edit the cart to find the specific item you wish to remove.\n\n2. **Navigate to the Cart**: Click on the \"My Cart\" link to open the minicart dropdown. This will take you to the cart where you can see all the items currently in the cart.\n\n3. **View and Edit Cart**: Once in the cart, click on the \"View and Edit Cart\" mark in the minicart dropdown. This will allow you to manage the items in the cart, including deleting them.\n\n4. **Locate the Delete Option**: Within the \"View and Edit Cart\" section, locate the option to delete the specific line item. This could be a button or link next to the item that says something like \"Remove,\" \"Delete,\" or \"Remove from Cart.\"\n\n5. **Confirm Deletion**: After clicking the delete option, confirm the deletion if prompted. This ensures that the item is removed from the cart.\n\n6. **Verify Deletion**: Check the cart to ensure the item has been successfully removed. You can do this by clicking on the \"My Cart\" link again to refresh the cart view.\n\nThe relevant GUI elements and navigation paths include:\n- **\"My Cart\" Link**: This is the starting point to access the cart.\n- **\"View and Edit Cart\" Mark**: This allows you to manage the items in the cart.\n- **Delete Option**: This is the specific button or link that removes the item from the cart.\n\nThe relevant actions include:\n- Clicking on the \"My Cart\" link to open the minicart dropdown.\n- Clicking on the \"View and Edit Cart\" mark to manage the cart contents.\n- Clicking the delete option for the specific item you wish to remove.\n\nThese steps should guide you through the process of deleting a line item from the shopping cart."
+    },
+    {
+      "id": "g_cart_continue_shopping",
+      "screen_id": "cart_with_item",
+      "instruction": "Leave the cart and keep browsing the store.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 64,
+      "pred_py": 696,
+      "bbox_px": [
+        20,
+        675,
+        205,
+        707
+      ],
+      "total_tokens": 1763,
+      "rag_context": "To leave the cart and continue browsing the store, several GUI elements, navigation paths, labels, roles, and actions are relevant:\n\n1. **GUI Elements**:\n   - **My Cart**: This is likely a link or button that allows users to view and manage their cart contents. It is typically labeled as \"My Cart\" or similar, and clicking it will open the minicart dropdown.\n   - **Minicart Dropdown**: Once the \"My Cart\" link is clicked, it opens a dropdown that shows the cart contents. This is where you can see the items currently in the cart.\n   - **Close Button**: There may be a close button or an option to exit the minicart dropdown without leaving the cart page.\n\n2. **Navigation Paths**:\n   - **Clicking \"My Cart\"**: This action opens the minicart dropdown, allowing you to view the cart contents.\n   - **Closing the Minicart Dropdown**: After reviewing the cart, you can close the minicart dropdown to return to browsing the store.\n\n3. **Labels**:\n   - **\"My Cart\" Label**: This is the label for the link that opens the minicart dropdown.\n   - **\"Close\" Label**: This is the label for the button that closes the minicart dropdown.\n\n4. **Roles**:\n   - **Role of \"My Cart\" Link**: The role here is to provide access to the cart contents, enabling users to review and manage their items.\n   - **Role of \"Close\" Button**: The role of the close button is to allow users to exit the minicart dropdown without leaving the current page.\n\n5. **Actions**:\n   - **Click Action**: The action required to open the minicart dropdown is to click on the \"My Cart\" link.\n   - **Close Action**: The action to close the minicart dropdown is to click the close button.\n\nBy following these steps, you can leave the cart and continue browsing the store. The relevant elements and actions are designed to facilitate easy navigation between the cart and the rest of the store."
+    },
+    {
+      "id": "g_minicart_view_cart",
+      "screen_id": "minicart_open",
+      "instruction": "In the mini-cart dropdown, open the full cart page (not checkout).",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 1069,
+      "pred_py": 432,
+      "bbox_px": [
+        1021,
+        419,
+        1139,
+        438
+      ],
+      "total_tokens": 1846,
+      "rag_context": "To achieve the goal of opening the full cart page from the mini-cart dropdown without proceeding to checkout, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **GUI Elements**:\n   - **My Cart**: This is the link that opens the mini-cart dropdown. It is labeled as \"My Cart\" and is typically found in the header or footer of the website.\n   - **My Cart 1 1 items**: This is a clickable link that represents a cart with one item. It is part of the mini-cart dropdown and leads to the full cart page.\n   - **View and Edit Cart**: This is a mark in the minicart dropdown that allows you to view and edit the contents of the cart.\n\n2. **Navigation Paths**:\n   - **Click 'My Cart'**: This action initiates the opening of the mini-cart dropdown.\n   - **Click 'My Cart 1 1 items'**: This action navigates to the full cart page with one item.\n   - **Click 'View and Edit Cart'**: This action allows you to view and edit the cart contents but does not proceed to checkout.\n\n3. **Labels**:\n   - **My Cart**: The label for the link that opens the mini-cart dropdown.\n   - **My Cart 1 1 items**: The label for the link that leads to the full cart page with one item.\n   - **View and Edit Cart**: The label for the mark in the minicart dropdown that allows viewing and editing the cart.\n\n4. **Roles**:\n   - **Link Role**: The role of the 'My Cart' and 'My Cart 1 1 items' links is to serve as navigation elements leading to the cart page.\n   - **Mark Role**: The role of the 'View and Edit Cart' mark is to allow interaction for viewing and editing the cart contents.\n\n5. **Actions**:\n   - **Click**: The action required to open the mini-cart dropdown by clicking 'My Cart'.\n   - **Click**: The action required to navigate to the full cart page by clicking 'My Cart 1 1 items'.\n   - **Click**: The action required to view and edit the cart contents by clicking 'View and Edit Cart'.\n\nBy following these steps, you can successfully open the full cart page from the mini-cart dropdown without proceeding to checkout. The relevant actions and elements are clearly defined in the Knowledge Graph and Document Chunks provided."
+    },
+    {
+      "id": "g_minicart_checkout",
+      "screen_id": "minicart_open",
+      "instruction": "From the open mini-cart, go straight to checkout.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 1069,
+      "pred_py": 221,
+      "bbox_px": [
+        916,
+        195,
+        1244,
+        247
+      ],
+      "total_tokens": 1900,
+      "rag_context": "To navigate from the open mini-cart to the checkout process on the storefront, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **GUI Elements**:\n   - **My Cart**: This is the link or button that opens the minicart dropdown. It is labeled as \"My Cart\" and is typically found in the header or a navigation bar.\n   - **Minicart Dropdown**: Once opened, this is the area where the items in the cart are displayed. It may contain a \"View and Edit Cart\" option.\n   - **View and Edit Cart**: This is a link or button within the minicart dropdown that allows the user to view and modify the items in the cart before proceeding to checkout.\n   - **Proceed to Checkout**: This is the button that takes the user directly to the checkout page. It is usually labeled as \"Proceed to Checkout,\" \"Check Out,\" or similar.\n\n2. **Navigation Paths**:\n   - **Click 'My Cart'**: This is the initial step to open the minicart dropdown.\n   - **Click 'View and Edit Cart'**: After opening the minicart, this link allows the user to view the cart contents and make any necessary adjustments.\n   - **Click 'Proceed to Checkout'**: This is the final step to navigate from the cart to the checkout page.\n\n3. **Labels**:\n   - **My Cart**: The label for the link or button that opens the minicart.\n   - **View and Edit Cart**: The label for the link or button that allows viewing and editing the cart contents.\n   - **Proceed to Checkout**: The label for the button that takes the user to the checkout page.\n\n4. **Roles**:\n   - **Role of 'My Cart'**: This role indicates the function of the 'My Cart' link, which is to open the minicart dropdown.\n   - **Role of 'View and Edit Cart'**: This role describes the function of the 'View and Edit Cart' link, which is to allow the user to view and edit the cart contents.\n   - **Role of 'Proceed to Checkout'**: This role describes the function of the 'Proceed to Checkout' button, which is to take the user to the checkout page.\n\n5. **Actions**:\n   - **Click 'My Cart'**: This action opens the minicart dropdown.\n   - **Click 'View and Edit Cart'**: This action allows the user to view and edit the cart contents.\n   - **Click 'Proceed to Checkout'**: This action navigates the user from the cart to the checkout page.\n\nBy following these steps, the user can efficiently proceed from the open mini-cart to the checkout process on the storefront."
+    },
+    {
+      "id": "g_account_my_orders",
+      "screen_id": "account_logged_in",
+      "instruction": "While logged in, open my past orders.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 68,
+      "pred_py": 324,
+      "bbox_px": [
+        20,
+        307,
+        272,
+        337
+      ],
+      "total_tokens": 1654,
+      "rag_context": "To achieve the goal of opening your past orders while logged in, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **Navigation Paths**: \n   - From the `account_logged_in` screen, you need to navigate to the 'Orders and Returns' section. This section is likely to be found under the 'My Account' area, which is typically accessible via a menu or a link labeled 'My Account'.\n\n2. **Labels**:\n   - Look for a label or link that reads 'Orders and Returns'. This will direct you to the page where you can view your past orders.\n\n3. **Roles**:\n   - The role of the textbox or input field may be relevant if you need to enter credentials or confirm your identity, but since you're already logged in, this step is bypassed.\n\n4. **Actions**:\n   - The action required is to click on the 'Orders and Returns' link or button. This action will take you to the page where you can view your past orders.\n\n5. **GUI Elements**:\n   - The 'Orders and Returns' link or button is the key GUI element you need to interact with. Ensure that the element is correctly identified based on its label or position on the screen.\n\nBy following these steps, you should be able to navigate to the 'Orders and Returns' section and access your past orders. If you encounter any issues, ensure that you are on the correct screen (`account_logged_in`) and that the 'Orders and Returns' link or button is clearly visible and accessible."
+    },
+    {
+      "id": "g_account_address_book",
+      "screen_id": "account_logged_in",
+      "instruction": "Manage saved shipping addresses in my account.",
+      "hit": false,
+      "parse_ok": true,
+      "pred_px": 513,
+      "pred_py": 556,
+      "bbox_px": [
+        20,
+        424,
+        272,
+        454
+      ],
+      "total_tokens": 1813,
+      "rag_context": "To manage saved shipping addresses in your account, you will need to navigate to the account settings or preferences section where such options are typically located. Given the context, here are the relevant elements and actions based on the provided information:\n\n1. **Navigation Path**: You need to first log into your account. The relevant action is to click on the \"Login\" link or button, which is likely labeled as \"Login\" or something similar. This action is associated with the `account_logged_in` screen.\n\n2. **GUI Elements**:\n   - **Login Link/Button**: Click on the \"Login\" link or button to initiate the login process. This action is associated with the `click` method and the `login` entity.\n   - **Account Settings Menu**: After logging in, you may need to navigate to the account settings or preferences section. This could involve clicking on a menu item like \"Account Settings,\" \"Preferences,\" or \"Saved Addresses.\" The exact label might vary depending on the website's design but is generally something related to personalization or account management.\n\n3. **Labels and Roles**:\n   - **Login Label**: The label for the login action is \"Login.\"\n   - **Account Settings Menu Item**: The label for navigating to the account settings or preferences section could be \"Account Settings,\" \"Preferences,\" or \"Saved Addresses.\"\n\n4. **Actions**:\n   - **Click Action**: The action required to log in is a click action, which is associated with the `click` method and the `login` entity.\n   - **Navigation Action**: After logging in, you would need to navigate to the account settings or preferences section. This could involve clicking on a menu item or link labeled as \"Account Settings,\" \"Preferences,\" or \"Saved Addresses.\"\n\nGiven the context, the relevant document chunks and their reference IDs are:\n\n- `reference_id`: \"account_logged_in\" for the login action.\n- `reference_id`: \"account_logged_in\" for the account logged-in screen.\n- `reference_id`: \"login\" for the login action.\n\nThese references indicate the steps and actions required to access the account settings where you can manage saved shipping addresses.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+    },
+    {
+      "id": "g_account_sign_out",
+      "screen_id": "account_logged_in",
+      "instruction": "Log out of the customer account.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 1037,
+      "pred_py": 18,
+      "bbox_px": [
+        1020,
+        10,
+        1075,
+        29
+      ],
+      "total_tokens": 1907,
+      "rag_context": "To log out of the customer account on the storefront, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **Navigation Path**: The user needs to navigate to the account logged-in screen, which is identified by the `screen_id` 'account_logged_in'.\n\n2. **GUI Elements**:\n   - **Link to 'Edit'**: This link is likely present on the account logged-in screen and may lead to account settings where the user can manage their profile, including logging out.\n   - **Link to 'My Cart 5 5 items'**: This link is visible on the account logged-in screen and leads to the shopping cart, which is not directly related to logging out but might be a distraction.\n   - **Link to '6505551212'**: This link might be related to payment methods or account details, which could be useful for managing the account.\n   - **Link to 'Stored Payment Methods'**: This link is related to payment settings, which might be useful for managing the account but is not directly related to logging out.\n\n3. **Labels**:\n   - **Link 'Edit'**: This link is likely labeled as 'Edit' and is positioned on the account logged-in screen.\n   - **Link 'My Cart 5 5 items'**: This link is labeled as 'My Cart 5 5 items'.\n   - **Link '6505551212'**: This link is labeled with a phone number.\n   - **Link 'Stored Payment Methods'**: This link is labeled as 'Stored Payment Methods'.\n\n4. **Roles**:\n   - The role of the textbox is not directly relevant to logging out, but it might be used for entering credentials or other account-related inputs.\n   - The role of the link 'Edit' suggests it is associated with editing account details, which could include logging out.\n\n5. **Actions**:\n   - **Click on 'Edit'**: This action is relevant because it likely leads to the account settings where the user can find the option to log out.\n   - **Click on 'My Cart 5 5 items'**: This action is not directly related to logging out but might be a distraction.\n   - **Click on '6505551212'**: This action is not directly related to logging out but might be related to payment methods.\n   - **Click on 'Stored Payment Methods'**: This action is not directly related to logging out but might be related to payment methods.\n\nBy clicking on the 'Edit' link, the user can access the account settings where they will likely find the option to log out. This action aligns with the navigation path and the relevant GUI elements and labels on the account logged-in screen."
+    },
+    {
+      "id": "g_forgot_reset",
+      "screen_id": "forgot_password",
+      "instruction": "Confirm sending a password reset email.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 216,
+      "pred_py": 483,
+      "bbox_px": [
+        180,
+        464,
+        346,
+        496
+      ],
+      "total_tokens": 1734,
+      "rag_context": "To confirm sending a password reset email, the following elements and actions are most relevant based on the provided context:\n\n1. **GUI Elements**: \n   - **Link/Menu Item**: \"Forgot Password\" - This is likely the initial link or menu item that initiates the password reset process.\n   - **Textbox**: \"Email\" - This is where the user inputs their email address to receive the password reset email.\n   - **Button**: \"Send Reset Email\" - This button is typically clicked after entering the email to send the reset email.\n\n2. **Navigation Paths**:\n   - **Path**: Start from the homepage or any page on the site, navigate to the \"Forgot Password\" link or menu item, enter the email address, and then click the \"Send Reset Email\" button.\n\n3. **Labels**:\n   - **Label**: \"Forgot Password\" - This label is used for the link or menu item that leads to the password reset form.\n   - **Label**: \"Email\" - This label is placed next to the textbox where the user enters their email address.\n   - **Label**: \"Send Reset Email\" - This label is placed next to the button that sends the password reset email.\n\n4. **Roles**:\n   - **Role**: \"Textbox\" - The textbox role is associated with the email input field.\n   - **Role**: \"Button\" - The button role is associated with the \"Send Reset Email\" button.\n\n5. **Actions**:\n   - **Action**: Click on the \"Forgot Password\" link or menu item.\n   - **Action**: Enter the email address in the textbox.\n   - **Action**: Click the \"Send Reset Email\" button.\n\nThese elements and actions are crucial for guiding the user through the process of requesting a password reset email. The \"Forgot Password\" link or menu item is the starting point, followed by entering the email address, and finally clicking the \"Send Reset Email\" button to complete the process."
+    },
+    {
+      "id": "g_register_first_name",
+      "screen_id": "register",
+      "instruction": "First name field on the create-account form.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 180,
+      "pred_py": 406,
+      "bbox_px": [
+        180,
+        392,
+        640,
+        424
+      ],
+      "total_tokens": 1767,
+      "rag_context": "To address your query regarding the first name field on the create-account form within the context of the provided Knowledge Graph and Document Chunks, let's break down the relevant information:\n\n1. **Navigation Paths**: The relevant navigation path seems to involve the account login process, as indicated by the `account_logged_in` screen_id. This suggests that the user needs to navigate to the account creation form after logging in.\n\n2. **Labels and Roles**: The label for the first name field is not explicitly mentioned in the provided data. However, based on typical forms, the label for the first name field would likely be something like \"First Name\" or \"First Name (Required)\".\n\n3. **GUI Elements**: The relevant GUI element for the first name field is a textbox. This is supported by the `click` action associated with the `textbox` entity, indicating that the user needs to interact with a textbox to enter their first name.\n\n4. **Actions**: The action required is to click on the textbox where the first name will be entered. This aligns with the `click` action mentioned in the Document Chunk, which is associated with the `textbox` entity.\n\nGiven the above points, here’s a summary of the relevant elements and actions:\n\n- **Navigation Path**: The user needs to log into their account first, as indicated by the `account_logged_in` screen_id.\n- **Label**: The label for the first name field is not explicitly provided but would typically be something like \"First Name\".\n- **GUI Element**: The first name field is a textbox, which can be identified by the `click` action associated with the `textbox` entity.\n- **Action**: The user needs to click on the textbox to enter their first name.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five\n\nPlease note that the actual document titles are placeholders since the reference document list is empty. In a real scenario, these would be replaced with the actual document titles from the reference document list."
+    },
+    {
+      "id": "g_orders_returns_continue",
+      "screen_id": "orders_returns",
+      "instruction": "Submit the guest order lookup form.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 216,
+      "pred_py": 707,
+      "bbox_px": [
+        180,
+        685,
+        276,
+        717
+      ],
+      "total_tokens": 1589,
+      "rag_context": "To submit the guest order lookup form, the following elements and actions are most relevant:\n\n1. **Navigation Path**: \n   - Start from the homepage.\n   - Scroll down to the homepage footer if necessary.\n   - Click on the \"Orders and Returns\" link located in the footer. The URL should contain `/sales/guest/form/`.\n\n2. **GUI Elements**:\n   - The \"Orders and Returns\" link in the footer is crucial. Its role is to direct users to the guest order lookup form.\n   - Ensure the URL matches the expected pattern `/sales/guest/form/` to confirm the correct page is reached.\n\n3. **Labels**:\n   - The label for the \"Orders and Returns\" link is \"Orders and Returns\".\n   - The title of the page after accessing the link should be \"Orders and Returns\".\n\n4. **Roles**:\n   - The role of the \"Orders and Returns\" link is to navigate to the guest order lookup form.\n\n5. **Actions**:\n   - Click on the \"Orders and Returns\" link in the footer.\n   - Ensure the URL and title match the expected values to confirm the task is completed successfully.\n\nBy following these steps, you will be able to successfully submit the guest order lookup form."
+    },
+    {
+      "id": "g_category_headphones",
+      "screen_id": "category",
+      "instruction": "On Electronics, open the Headphones subcategory listing.",
+      "hit": true,
+      "parse_ok": true,
+      "pred_px": 68,
+      "pred_py": 677,
+      "bbox_px": [
+        20,
+        663,
+        139,
+        682
+      ],
+      "total_tokens": 2948,
+      "rag_context": "To achieve the task of opening the Headphones subcategory listing on the Electronics page, we need to identify the relevant GUI elements, navigation paths, labels, roles, and actions based on the provided context.\n\n1. **GUI Elements**: The relevant GUI elements include the \"Electronics\" category page and the \"Headphones\" subcategory link or button. The \"Electronics\" category page is the starting point, and the \"Headphones\" subcategory link or button will lead to the desired subcategory listing.\n\n2. **Navigation Paths**: The navigation path would involve clicking on the \"Electronics\" category page to access the main electronics listings. From there, the user would need to locate and click on the \"Headphones\" subcategory link or button to proceed to the subcategory listing.\n\n3. **Labels**: The label for the \"Electronics\" category page is \"Electronics,\" and the label for the \"Headphones\" subcategory link or button is likely to be something like \"Headphones.\"\n\n4. **Roles**: The role here is the action of clicking on the \"Headphones\" subcategory link or button. This action is associated with the role of navigating to a specific subcategory within the Electronics category.\n\n5. **Actions**: The action required is to click on the \"Headphones\" subcategory link or button. This action is part of the task to navigate from the main Electronics category page to the specific subcategory listing.\n\nGiven the context, the relevant document chunks and their reference IDs are:\n\n- **Reference ID**: \"document_chunk_1\"\n  - **Content**: \"instruction=\\\"click the link 'store logo'\\\" role='link' name='store logo' bbox_px=[20, 30, 220, 57]\"\n  - **Relevance**: This chunk describes the action of clicking the \"store logo\" link, but it is not directly relevant to the task of opening the Headphones subcategory on the Electronics page.\n\n- **Reference ID**: \"document_chunk_2\"\n  - **Content**: \"instruction=\\\"click the link 'store logo'\\\" role='link' name='store logo' bbox_px=[20, 71, 220, 98]\"\n  - **Relevance**: Similar to the previous chunk, this one also describes the action of clicking the \"store logo\" link, which is not directly relevant to the task.\n\n- **Reference ID**: \"document_chunk_3\"\n  - **Content**: \"instruction=\\\"click the link 'store logo'\\\" role='link' name='store logo' bbox_px=[20, 71, 220, 98]\"\n  - **Relevance**: Again, this chunk describes the action of clicking the \"store logo\" link, which is not directly relevant to the task.\n\n- **Reference ID**: \"document_chunk_4\"\n  - **Content**: \"instruction=\\\"click the link 'store logo'\\\" role='link' name='store logo' bbox_px=[20, 71, 220, 98]\"\n  - **Relevance**: This chunk also describes the action of clicking the \"store logo\" link, which is not directly relevant to the task.\n\n- **Reference ID**: \"document_chunk_5\"\n  - **Content**: \"instruction=\\\"click the link 'store logo'\\\" role='link' name='store logo' bbox_px=[20, 71, 220, 98]\"\n  - **Relevance**: This chunk describes the action of clicking the \"store logo\" link, which is not directly relevant to the task.\n\n- **Reference ID**: \"document_chunk_6\"\n  - **Content**: \"instruction=\\\"click the link 'store logo'\\\" role='link' name='store logo' bbox_px=[20, 71, 220, 98]\"\n  - **Relevance**: This chunk also describes the action of clicking the \"store logo\" link, which is not directly relevant to the task.\n\n- **Reference ID**: \"document_chunk_7\"\n  - **Content**: \"instruction=\\\"click the link 'store logo'\\\" role='link' name='store logo' bbox_px=[20, 71, 220, 98]\"\n  - **Relevance**: This chunk describes the action of clicking the \"store logo\" link, which is not directly relevant to the task.\n\n- **Reference ID**: \"document_chunk_8\"\n  - **Content**: \"instruction=\\\"click the link 'store logo'\\\" role='link' name='store logo' bbox_px=[20, 71, 220, 98]\"\n  - **Relevance**: This chunk also describes the action of clicking the \"store logo\" link, which is not directly relevant to the task.\n\n- **Reference ID**: \"document_chunk_9\"\n  - **Content**: \"instruction=\\\"click the link 'store logo'\\\" role='link' name='store logo' bbox_px=[20, 71, 220, 98]\"\n  - **Relevance**: This chunk describes the action of clicking the \"store logo\" link, which is not directly relevant to the task.\n\n- **Reference ID**: \"document_chunk_10\"\n  - **Content**: \"instruction=\\\"click the link 'store logo'\\\" role='link' name='store logo' bbox_px=[20, 71, 220, 98]\"\n  - **Relevance**: This chunk also describes the action of clicking the \"store logo\" link, which is not directly relevant to the task.\n\n- **Reference ID**: \"document_chunk_11\"\n  - **Content**: \"instruction=\\\"click the link 'store logo'\\\" role='link' name='store logo' bbox_px=[20, 71, 220, 98]\"\n  - **Relevance**: This chunk describes the action of clicking the \"store logo\" link, which is not directly relevant to the task.\n\n- **Reference ID**: \"document_chunk_12\"\n  - **Content**: \"instruction=\\\"click the link 'store logo'\\\" role='link' name='store logo' bbox_px=[20, 71, 220, 98]\"\n  - **Relevance**: This chunk also describes the action of clicking the \"store logo\" link, which is not directly relevant to the task.\n\n- **Reference ID**: \"document_chunk_13\"\n  - **Content**: \"instruction=\\\"click the link 'store logo'\\\" role='link' name='store logo' bbox_px=[20, 71, 220, 98]\"\n  - **Relevance**: This chunk describes the action of clicking the \"store logo\" link, which is not directly relevant to the task.\n\n- **Reference ID**: \"document_chunk_14\"\n  - **Content**: \"instruction=\\\"click the link 'store logo'\\\" role='link' name='store logo' bbox_px=[20, 71, 220, 98]\"\n  - **Relevance**: This chunk also describes the action of clicking the \"store logo\" link, which is not directly relevant to the task.\n\n- **Reference ID**: \"document_chunk_15\"\n  - **Content**: \"instruction=\\\"click the link 'store logo'\\\" role='link' name='store logo' bbox_px=[20, 71, 220, 98]\"\n  - **Relevance**: This chunk describes the action of clicking the \"store logo\" link, which is not directly relevant to the task.\n\n- **Reference ID**: \"document_chunk_16\"..."
+    }
+  ]
+}

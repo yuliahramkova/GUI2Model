@@ -1,0 +1,26 @@
+To assist you in resetting your password, let's identify the relevant GUI elements, navigation paths, labels, roles, and actions on the storefront:
+
+1. **GUI Elements**:
+   - **Login Screen**: This is the starting point where you will enter your email or username to proceed with the password reset process.
+   - **Password Reset Link**: Typically, there will be a link or button labeled "Forgot Password" or similar, which initiates the password reset flow.
+   - **Email/Username Input Field**: This is where you would enter your registered email or username to receive a password reset link.
+   - **Reset Password Button**: After entering your credentials, there will be a button labeled "Reset Password" or "Send Reset Email" that you need to click to proceed.
+
+2. **Navigation Paths**:
+   - **From Login Screen to Password Reset**: Clicking the "Forgot Password" link will take you to the password reset page.
+   - **From Password Reset Page to Reset Password**: After entering your credentials, you'll need to click the "Reset Password" button to complete the process.
+
+3. **Labels**:
+   - **Forgot Password Label**: This is the label you should look for on the login screen to initiate the password reset process.
+   - **Reset Password Label**: This label is present on the password reset page and should be clicked to submit the form.
+
+4. **Roles**:
+   - **User Role**: You are a user who needs to reset their password.
+   - **Admin Role**: If you are an admin, you may have additional options or permissions, but for a standard user, the focus is on the user role.
+
+5. **Actions**:
+   - **Click on the "Forgot Password" Link**: This action navigates you to the password reset page.
+   - **Enter Email/Username**: This action provides the necessary credentials to identify your account.
+   - **Click the "Reset Password" Button**: This action submits the form and sends a reset link to your email.
+
+By following these steps, you should be able to successfully navigate to the password reset flow on the storefront. If you encounter any issues, please ensure that the email address or username you provide is correct and that you are following the exact instructions provided by the storefront.

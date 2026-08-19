@@ -1,0 +1,552 @@
+[
+  {
+    "mark_id": 1,
+    "role": "link",
+    "name": "Navitech Black Hard Carry Bag/Case/Cover with Shoulder Strap Compatible with The VR/Virtual Reality 3D headsets Includin",
+    "bbox_norm": [
+      0.2976345486111111,
+      0.5258522727272728,
+      0.4204861111111111,
+      0.6067613636363637
+    ]
+  },
+  {
+    "mark_id": 2,
+    "role": "link",
+    "name": "ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveilla",
+    "bbox_norm": [
+      0.43157552083333334,
+      0.5258522727272728,
+      0.55048828125,
+      0.6067613636363637
+    ]
+  },
+  {
+    "mark_id": 3,
+    "role": "link",
+    "name": "Indoor Pet Camera, HD 1080P No WiFi Security Camera with Night Vision-No Built-in Baterry",
+    "bbox_norm": [
+      0.5655164930555555,
+      0.5258522727272728,
+      0.6786783854166667,
+      0.5658522727272727
+    ]
+  },
+  {
+    "mark_id": 4,
+    "role": "link",
+    "name": "Rockville CH103SP Chuchero Car Audio Enclosure For (2) 10\" Mids + (2) 3\" Tweeter",
+    "bbox_norm": [
+      0.6994574652777777,
+      0.5258522727272728,
+      0.8151909722222223,
+      0.5658522727272727
+    ]
+  },
+  {
+    "mark_id": 5,
+    "role": "link",
+    "name": "NOZE Rustic Coat Rack Wall Mounted Shelf with 4 Hooks, Hanging Entryway Organizer for Mug Coffee Cup, Holding Solid Wood",
+    "bbox_norm": [
+      0.18645833333333334,
+      0.8114772727272728,
+      0.28400607638888886,
+      0.9196590909090909
+    ]
+  },
+  {
+    "mark_id": 6,
+    "role": "link",
+    "name": "150ft Quad Shield Solid Copper 3GHZ RG-6 Coaxial Cable 75 Ohm (DIRECTV Satellite TV or Broadband Internet) Anti Corrosio",
+    "bbox_norm": [
+      0.2976345486111111,
+      0.9053409090909091,
+      0.4168836805555556,
+      0.98625
+    ]
+  },
+  {
+    "mark_id": 7,
+    "role": "link",
+    "name": "Multi Accessory Hub Adapter By JOBY – Get The Right Set Up For Your Vision By Attaching All The GoPro Accessories You Ne",
+    "bbox_norm": [
+      0.43157552083333334,
+      0.9053409090909091,
+      0.5532877604166667,
+      0.9726136363636364
+    ]
+  },
+  {
+    "mark_id": 8,
+    "role": "link",
+    "name": "Intel NUC Kit NUC6i7KYK Mini PC-no Power Cord",
+    "bbox_norm": [
+      0.5655164930555555,
+      0.9053409090909091,
+      0.687890625,
+      0.9317045454545455
+    ]
+  },
+  {
+    "mark_id": 9,
+    "role": "link",
+    "name": "CG7060 Apollo Transparency Film - Letter - 8.50quot; x 11quot; - 50 / Box - Transparent",
+    "bbox_norm": [
+      0.6994574652777777,
+      0.9053409090909091,
+      0.8172200520833334,
+      0.9453409090909091
+    ]
+  },
+  {
+    "mark_id": 10,
+    "role": "link",
+    "name": "Plus Size Lingerie for Women Sexy for Sex Naughty Eyelash Lace Bodysuit Naughty Mesh One Piece Teddy Bodysuit Outfits",
+    "bbox_norm": [
+      0.18645833333333334,
+      0.9273863636363636,
+      0.28340928819444444,
+      0.9946590909090909
+    ]
+  },
+  {
+    "mark_id": 11,
+    "role": "link",
+    "name": "My Account",
+    "bbox_norm": [
+      0.5769639756944445,
+      0.006818181818181818,
+      0.6166124131944445,
+      0.019545454545454546
+    ]
+  },
+  {
+    "mark_id": 12,
+    "role": "link",
+    "name": "My Wish List 1 item",
+    "bbox_norm": [
+      0.6244249131944445,
+      0.006818181818181818,
+      0.6899631076388889,
+      0.019545454545454546
+    ]
+  },
+  {
+    "mark_id": 13,
+    "role": "link",
+    "name": "Sign Out",
+    "bbox_norm": [
+      0.6977756076388889,
+      0.006818181818181818,
+      0.7267144097222222,
+      0.019545454545454546
+    ]
+  },
+  {
+    "mark_id": 14,
+    "role": "link",
+    "name": "store logo",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.04863636363636364,
+      0.28125,
+      0.06723011363636364
+    ]
+  },
+  {
+    "mark_id": 15,
+    "role": "combobox",
+    "name": "Search entire store here...",
+    "bbox_norm": [
+      0.6533094618055556,
+      0.04863636363636364,
+      0.7835177951388889,
+      0.07045454545454545
+    ]
+  },
+  {
+    "mark_id": 16,
+    "role": "button",
+    "name": "Search",
+    "bbox_norm": [
+      0.7668511284722223,
+      0.04863636363636364,
+      0.7783094618055556,
+      0.07045454545454545
+    ]
+  },
+  {
+    "mark_id": 17,
+    "role": "link",
+    "name": "My Cart 5 5 items",
+    "bbox_norm": [
+      0.7902886284722223,
+      0.04863636363636364,
+      0.8229166666666666,
+      0.07113636363636364
+    ]
+  },
+  {
+    "mark_id": 18,
+    "role": "link",
+    "name": "Advanced Search",
+    "bbox_norm": [
+      0.6533094618055556,
+      0.07386363636363637,
+      0.71142578125,
+      0.0865909090909091
+    ]
+  },
+  {
+    "mark_id": 19,
+    "role": "menu",
+    "name": "Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme",
+    "bbox_norm": [
+      0.16666666666666666,
+      0.0875,
+      0.8333333333333334,
+      0.1615909090909091
+    ]
+  },
+  {
+    "mark_id": 20,
+    "role": "menuitem",
+    "name": "Beauty & Personal Care",
+    "bbox_norm": [
+      0.17083333333333334,
+      0.0875,
+      0.27265625,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 21,
+    "role": "menuitem",
+    "name": "Sports & Outdoors",
+    "bbox_norm": [
+      0.27786458333333336,
+      0.0875,
+      0.3613823784722222,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 22,
+    "role": "menuitem",
+    "name": "Clothing, Shoes & Jewelry",
+    "bbox_norm": [
+      0.3665907118055556,
+      0.0875,
+      0.4750759548611111,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 23,
+    "role": "menuitem",
+    "name": "Home & Kitchen",
+    "bbox_norm": [
+      0.48028428819444446,
+      0.0875,
+      0.5556532118055556,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 24,
+    "role": "menuitem",
+    "name": "Office Products",
+    "bbox_norm": [
+      0.5608615451388889,
+      0.0875,
+      0.6333550347222222,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 25,
+    "role": "menuitem",
+    "name": "Tools & Home Improvement",
+    "bbox_norm": [
+      0.6385633680555556,
+      0.0875,
+      0.7561414930555556,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 26,
+    "role": "menuitem",
+    "name": "Health & Household",
+    "bbox_norm": [
+      0.17083333333333334,
+      0.12363636363636364,
+      0.2601996527777778,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 27,
+    "role": "menuitem",
+    "name": "Patio, Lawn & Garden",
+    "bbox_norm": [
+      0.2654079861111111,
+      0.12363636363636364,
+      0.3603515625,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 28,
+    "role": "menuitem",
+    "name": "Electronics",
+    "bbox_norm": [
+      0.3655598958333333,
+      0.12363636363636364,
+      0.42183159722222224,
+      0.1615909090909091
+    ]
+  },
+  {
+    "mark_id": 29,
+    "role": "menuitem",
+    "name": "Cell Phones & Accessories",
+    "bbox_norm": [
+      0.42703993055555556,
+      0.12363636363636364,
+      0.5369466145833334,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 30,
+    "role": "menuitem",
+    "name": "Video Games",
+    "bbox_norm": [
+      0.5421549479166666,
+      0.12363636363636364,
+      0.6059027777777778,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 31,
+    "role": "menuitem",
+    "name": "Grocery & Gourmet Food",
+    "bbox_norm": [
+      0.6111111111111112,
+      0.12363636363636364,
+      0.7175889756944445,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 32,
+    "role": "menuitem",
+    "name": "Accessories",
+    "bbox_norm": [
+      0.427734375,
+      0.16971590909090908,
+      0.5475260416666666,
+      0.19426136363636365
+    ]
+  },
+  {
+    "mark_id": 33,
+    "role": "link",
+    "name": "Home",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.17863636363636365,
+      0.19641927083333333,
+      0.18954545454545454
+    ]
+  },
+  {
+    "mark_id": 34,
+    "role": "menuitem",
+    "name": "Cases, Holsters & Sleeves",
+    "bbox_norm": [
+      0.427734375,
+      0.19426136363636365,
+      0.5475260416666666,
+      0.21880681818181819
+    ]
+  },
+  {
+    "mark_id": 35,
+    "role": "menuitem",
+    "name": "Cell Phones",
+    "bbox_norm": [
+      0.427734375,
+      0.21880681818181819,
+      0.5475260416666666,
+      0.24335227272727272
+    ]
+  },
+  {
+    "mark_id": 36,
+    "role": "link",
+    "name": "View as List",
+    "bbox_norm": [
+      0.32645399305555556,
+      0.26181818181818184,
+      0.35075954861111114,
+      0.28954545454545455
+    ]
+  },
+  {
+    "mark_id": 37,
+    "role": "link",
+    "name": "Set Descending Direction",
+    "bbox_norm": [
+      0.803125,
+      0.2631818181818182,
+      0.8177083333333334,
+      0.285
+    ]
+  },
+  {
+    "mark_id": 38,
+    "role": "combobox",
+    "name": "Position Product Name Price",
+    "bbox_norm": [
+      0.7276150173611111,
+      0.26454545454545453,
+      0.8012261284722222,
+      0.2863636363636364
+    ]
+  },
+  {
+    "mark_id": 39,
+    "role": "button",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.6237847222222223,
+      0.6042613636363636,
+      0.6420138888888889,
+      0.628125
+    ]
+  },
+  {
+    "mark_id": 40,
+    "role": "button",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.6439127604166667,
+      0.6042613636363636,
+      0.6621419270833333,
+      0.628125
+    ]
+  },
+  {
+    "mark_id": 41,
+    "role": "button",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.7577256944444445,
+      0.6042613636363636,
+      0.7759548611111111,
+      0.628125
+    ]
+  },
+  {
+    "mark_id": 42,
+    "role": "button",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.7778537326388889,
+      0.6042613636363636,
+      0.7960828993055555,
+      0.628125
+    ]
+  },
+  {
+    "mark_id": 43,
+    "role": "button",
+    "name": "Add to Cart",
+    "bbox_norm": [
+      0.5655164930555555,
+      0.6050568181818182,
+      0.6237847222222223,
+      0.6273295454545454
+    ]
+  },
+  {
+    "mark_id": 44,
+    "role": "button",
+    "name": "Add to Cart",
+    "bbox_norm": [
+      0.6994574652777777,
+      0.6050568181818182,
+      0.7577256944444445,
+      0.6273295454545454
+    ]
+  },
+  {
+    "mark_id": 45,
+    "role": "button",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.3559027777777778,
+      0.6451704545454545,
+      0.3741319444444444,
+      0.6690340909090909
+    ]
+  },
+  {
+    "mark_id": 46,
+    "role": "button",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.3760308159722222,
+      0.6451704545454545,
+      0.3942599826388889,
+      0.6690340909090909
+    ]
+  },
+  {
+    "mark_id": 47,
+    "role": "button",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.48984375,
+      0.6451704545454545,
+      0.5080729166666667,
+      0.6690340909090909
+    ]
+  },
+  {
+    "mark_id": 48,
+    "role": "button",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.5099717881944444,
+      0.6451704545454545,
+      0.5282009548611111,
+      0.6690340909090909
+    ]
+  },
+  {
+    "mark_id": 49,
+    "role": "button",
+    "name": "Add to Cart",
+    "bbox_norm": [
+      0.2976345486111111,
+      0.6459659090909091,
+      0.3559027777777778,
+      0.6682386363636363
+    ]
+  },
+  {
+    "mark_id": 50,
+    "role": "button",
+    "name": "Add to Cart",
+    "bbox_norm": [
+      0.43157552083333334,
+      0.6459659090909091,
+      0.48984375,
+      0.6682386363636363
+    ]
+  }
+]

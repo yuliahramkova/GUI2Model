@@ -6,6 +6,7 @@ import asyncio
 import json
 import os
 import shutil
+import threading
 import time
 from datetime import datetime, timezone
 from functools import lru_cache
@@ -272,7 +273,10 @@ async def build_rag_store(
 
 
 class RagSession:
-    """Держит LightRAG открытым между query — для eval-цикла (Playwright sync)."""
+    """Держит LightRAG открытым между query — для eval-цикла (Playwright sync).
+
+    Asyncio крутится в отдельном потоке, чтобы не конфликтовать с event loop Playwright.
+    """
 
     def __init__(
         self,
@@ -286,7 +290,6 @@ class RagSession:
         self.stores_root = stores_root
         self.query_param = default_query_param(mode=query_mode)
         self._rag: LightRAG | None = None
-        self._loop = asyncio.new_event_loop()
         self._prev_verbose = _verbose
         set_verbose(verbose)
 
@@ -297,8 +300,32 @@ class RagSession:
                 f"Run: python rag/build_stores.py --mode {self.mode}"
             )
 
+        self._loop: asyncio.AbstractEventLoop | None = None
+        self._thread: threading.Thread | None = None
+        self._loop_ready = threading.Event()
+        self._start_worker()
+
+    def _start_worker(self) -> None:
+        def _run() -> None:
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+            self._loop = loop
+            self._loop_ready.set()
+            loop.run_forever()
+            loop.close()
+
+        self._thread = threading.Thread(target=_run, name=f"rag-{self.mode}", daemon=True)
+        self._thread.start()
+        self._loop_ready.wait()
+
+    def _run_async(self, coro: Any) -> Any:
+        if self._loop is None:
+            raise RuntimeError("RagSession worker loop is not running")
+        future = asyncio.run_coroutine_threadsafe(coro, self._loop)
+        return future.result()
+
     def query(self, text: str) -> str:
-        return self._loop.run_until_complete(self._aquery(text))
+        return self._run_async(self._aquery(text))
 
     async def _aquery(self, text: str) -> str:
         _reset_progress()
@@ -313,11 +340,28 @@ class RagSession:
         _log(f"aquery готово за {time.monotonic() - t0:.1f}s (LLM вызовов: {_llm_calls})")
         return result or ""
 
-    def close(self) -> None:
+    async def _shutdown(self) -> None:
         if self._rag is not None:
-            self._loop.run_until_complete(self._rag.finalize_storages())
+            await self._rag.finalize_storages()
             self._rag = None
-        self._loop.close()
+        current = asyncio.current_task()
+        pending = [t for t in asyncio.all_tasks() if t is not current and not t.done()]
+        for task in pending:
+            task.cancel()
+        if pending:
+            await asyncio.gather(*pending, return_exceptions=True)
+
+    def close(self) -> None:
+        if self._loop is not None and self._loop.is_running():
+            try:
+                self._run_async(self._shutdown())
+            except Exception:
+                pass
+            self._loop.call_soon_threadsafe(self._loop.stop)
+            if self._thread is not None:
+                self._thread.join(timeout=120)
+            self._loop = None
+            self._thread = None
         set_verbose(self._prev_verbose)
 
     def __enter__(self) -> RagSession:

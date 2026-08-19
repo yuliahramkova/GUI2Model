@@ -1,0 +1,28 @@
+To accomplish the task of searching for 'shirt' on the homepage and landing on the search results page, we need to identify the relevant GUI elements, navigation paths, labels, roles, and actions based on the available information.
+
+1. **GUI Elements and Navigation Paths**:
+   - **Header**: The top part of the webpage containing navigation links. This is likely where the 'Advanced Search' link is located.
+   - **Advanced Search Feature**: A search feature designed for advanced queries, which is typically located in the header or a designated area on the homepage.
+
+2. **Labels and Roles**:
+   - **Advanced Search Label**: The label for the search feature, which is usually a link or button labeled 'Advanced Search'.
+   - **Search Input Field**: The textbox where the user inputs the search term ('shirt' in this case).
+
+3. **Actions**:
+   - **Click Action**: The action required to trigger the search feature. This would involve clicking on the 'Advanced Search' link or button.
+
+Given the context, here’s how you can proceed:
+
+1. **Locate the Advanced Search Feature**:
+   - Navigate to the homepage and locate the 'Advanced Search' feature, which is typically found in the header.
+
+2. **Initiate the Search**:
+   - Click on the 'Advanced Search' link or button to open the search interface.
+
+3. **Enter the Search Term**:
+   - Enter the search term 'shirt' into the search input field.
+
+4. **Submit the Search**:
+   - Submit the search by pressing the 'Search' button or hitting enter.
+
+By following these steps, you will be able to search for 'shirt' on the homepage and land on the search results page. The exact implementation may vary slightly depending on the specific layout and design of the storefront, but the above steps should provide a general guideline.

@@ -1,0 +1,31 @@
+To address the task of filtering by product title on the Advanced Search page, we need to identify the relevant GUI elements, navigation paths, labels, roles, and actions based on the provided context. Here’s a breakdown:
+
+1. **GUI Elements**: 
+   - The "Advanced Search" link is located in the Header of the homepage. This is crucial for initiating the search process.
+   - The search bar itself is where users input their search terms.
+   - The "Submit" button is used to execute the search query once the search term is entered.
+
+2. **Navigation Paths**:
+   - The user navigates from the homepage to the Advanced Search page by clicking the "Advanced Search" link in the Header.
+   - Once on the Advanced Search page, the user inputs the search term and submits it to view the search results.
+
+3. **Labels**:
+   - The label for the "Advanced Search" link is "Advanced Search".
+   - The search bar is labeled as "Search for products".
+   - The "Submit" button is labeled as "Search".
+
+4. **Roles**:
+   - The role of the "Advanced Search" link is to navigate to the Advanced Search page.
+   - The role of the search bar is to allow users to enter their search terms.
+   - The role of the "Submit" button is to initiate the search process.
+
+5. **Actions**:
+   - Clicking the "Advanced Search" link initiates the search process.
+   - Entering a search term in the search bar and clicking the "Submit" button executes the search.
+
+In summary, the relevant GUI elements, navigation paths, labels, roles, and actions for filtering by product title on the Advanced Search page include:
+- Clicking the "Advanced Search" link in the Header.
+- Entering a search term in the search bar.
+- Submitting the search by clicking the "Submit" button.
+
+These actions will lead to the display of search results, where the user can then filter by product title.

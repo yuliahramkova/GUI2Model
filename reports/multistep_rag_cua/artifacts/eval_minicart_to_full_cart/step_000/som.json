@@ -1,0 +1,552 @@
+[
+  {
+    "mark_id": 1,
+    "role": "link",
+    "name": "Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.4603409090909091,
+      0.29133029513888886,
+      0.5003409090909091
+    ]
+  },
+  {
+    "mark_id": 2,
+    "role": "link",
+    "name": "V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can ,Pack of 24",
+    "bbox_norm": [
+      0.30882161458333335,
+      0.4603409090909091,
+      0.42724609375,
+      0.5139772727272728
+    ]
+  },
+  {
+    "mark_id": 3,
+    "role": "link",
+    "name": "Elmwood Inn Fine Teas, Orange Vanilla Caffeine-free Fruit Infusion, 16-Ounce Pouch",
+    "bbox_norm": [
+      0.4405598958333333,
+      0.4603409090909091,
+      0.5575629340277778,
+      0.5003409090909091
+    ]
+  },
+  {
+    "mark_id": 4,
+    "role": "link",
+    "name": "Belle Of The Ball Princess Sprinkle Mix| Wedding Colorful Sprinkles| Cake Cupcake Cookie Sprinkles| Ice cream Candy Spri",
+    "bbox_norm": [
+      0.5722981770833333,
+      0.4603409090909091,
+      0.6884331597222222,
+      0.54125
+    ]
+  },
+  {
+    "mark_id": 5,
+    "role": "link",
+    "name": "So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub",
+    "bbox_norm": [
+      0.7040364583333333,
+      0.4603409090909091,
+      0.8178493923611111,
+      0.5003409090909091
+    ]
+  },
+  {
+    "mark_id": 6,
+    "role": "link",
+    "name": "Cheongeun Sweet Potato Starch Powder 500g, 2ea(Sweet Potato 55%, Corn 45%)",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.8595454545454545,
+      0.28608940972222224,
+      0.8995454545454545
+    ]
+  },
+  {
+    "mark_id": 7,
+    "role": "link",
+    "name": "Q Mixers Premium Ginger Ale: Real Ingredients & Less Sweet, 6.7 Fl Oz (24 Bottles)",
+    "bbox_norm": [
+      0.30882161458333335,
+      0.8595454545454545,
+      0.4274956597222222,
+      0.8995454545454545
+    ]
+  },
+  {
+    "mark_id": 8,
+    "role": "link",
+    "name": "Stove Top Turkey Stuffing Mix (12 oz Boxes, Pack of 2)",
+    "bbox_norm": [
+      0.4405598958333333,
+      0.8595454545454545,
+      0.5524956597222223,
+      0.8859090909090909
+    ]
+  },
+  {
+    "mark_id": 9,
+    "role": "link",
+    "name": "Briess DME - Pilsen Light - 1 lb Bag",
+    "bbox_norm": [
+      0.5722981770833333,
+      0.8595454545454545,
+      0.6887478298611112,
+      0.8722727272727273
+    ]
+  },
+  {
+    "mark_id": 10,
+    "role": "link",
+    "name": "Tony Chachere's More Spice Creole Seasoning - 14 oz",
+    "bbox_norm": [
+      0.7040364583333333,
+      0.8595454545454545,
+      0.8222330729166667,
+      0.8859090909090909
+    ]
+  },
+  {
+    "mark_id": 11,
+    "role": "link",
+    "name": "My Account",
+    "bbox_norm": [
+      0.5769639756944445,
+      0.006818181818181818,
+      0.6166124131944445,
+      0.019545454545454546
+    ]
+  },
+  {
+    "mark_id": 12,
+    "role": "link",
+    "name": "My Wish List 1 item",
+    "bbox_norm": [
+      0.6244249131944445,
+      0.006818181818181818,
+      0.6899631076388889,
+      0.019545454545454546
+    ]
+  },
+  {
+    "mark_id": 13,
+    "role": "link",
+    "name": "Sign Out",
+    "bbox_norm": [
+      0.6977756076388889,
+      0.006818181818181818,
+      0.7267144097222222,
+      0.019545454545454546
+    ]
+  },
+  {
+    "mark_id": 14,
+    "role": "link",
+    "name": "store logo",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.04863636363636364,
+      0.28125,
+      0.06723011363636364
+    ]
+  },
+  {
+    "mark_id": 15,
+    "role": "combobox",
+    "name": "Search entire store here...",
+    "bbox_norm": [
+      0.6533094618055556,
+      0.04863636363636364,
+      0.7835177951388889,
+      0.07045454545454545
+    ]
+  },
+  {
+    "mark_id": 16,
+    "role": "button",
+    "name": "Search",
+    "bbox_norm": [
+      0.7668511284722223,
+      0.04863636363636364,
+      0.7783094618055556,
+      0.07045454545454545
+    ]
+  },
+  {
+    "mark_id": 17,
+    "role": "link",
+    "name": "My Cart 6 6 items",
+    "bbox_norm": [
+      0.7902886284722223,
+      0.04863636363636364,
+      0.8229166666666666,
+      0.07113636363636364
+    ]
+  },
+  {
+    "mark_id": 18,
+    "role": "link",
+    "name": "Advanced Search",
+    "bbox_norm": [
+      0.6533094618055556,
+      0.07386363636363637,
+      0.71142578125,
+      0.0865909090909091
+    ]
+  },
+  {
+    "mark_id": 19,
+    "role": "menu",
+    "name": "Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme",
+    "bbox_norm": [
+      0.16666666666666666,
+      0.0875,
+      0.8333333333333334,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 20,
+    "role": "menuitem",
+    "name": "Beauty & Personal Care",
+    "bbox_norm": [
+      0.17083333333333334,
+      0.0875,
+      0.27265625,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 21,
+    "role": "menuitem",
+    "name": "Sports & Outdoors",
+    "bbox_norm": [
+      0.27786458333333336,
+      0.0875,
+      0.3613823784722222,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 22,
+    "role": "menuitem",
+    "name": "Clothing, Shoes & Jewelry",
+    "bbox_norm": [
+      0.3665907118055556,
+      0.0875,
+      0.4750759548611111,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 23,
+    "role": "menuitem",
+    "name": "Home & Kitchen",
+    "bbox_norm": [
+      0.48028428819444446,
+      0.0875,
+      0.5556532118055556,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 24,
+    "role": "menuitem",
+    "name": "Office Products",
+    "bbox_norm": [
+      0.5608615451388889,
+      0.0875,
+      0.6333550347222222,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 25,
+    "role": "menuitem",
+    "name": "Tools & Home Improvement",
+    "bbox_norm": [
+      0.6385633680555556,
+      0.0875,
+      0.7561414930555556,
+      0.12363636363636364
+    ]
+  },
+  {
+    "mark_id": 26,
+    "role": "menuitem",
+    "name": "Health & Household",
+    "bbox_norm": [
+      0.17083333333333334,
+      0.12363636363636364,
+      0.2601996527777778,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 27,
+    "role": "menuitem",
+    "name": "Patio, Lawn & Garden",
+    "bbox_norm": [
+      0.2654079861111111,
+      0.12363636363636364,
+      0.3603515625,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 28,
+    "role": "menuitem",
+    "name": "Electronics",
+    "bbox_norm": [
+      0.3655598958333333,
+      0.12363636363636364,
+      0.42183159722222224,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 29,
+    "role": "menuitem",
+    "name": "Cell Phones & Accessories",
+    "bbox_norm": [
+      0.42703993055555556,
+      0.12363636363636364,
+      0.5369466145833334,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 30,
+    "role": "menuitem",
+    "name": "Video Games",
+    "bbox_norm": [
+      0.5421549479166666,
+      0.12363636363636364,
+      0.6059027777777778,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 31,
+    "role": "menuitem",
+    "name": "Grocery & Gourmet Food",
+    "bbox_norm": [
+      0.6111111111111112,
+      0.12363636363636364,
+      0.7175889756944445,
+      0.15977272727272726
+    ]
+  },
+  {
+    "mark_id": 32,
+    "role": "link",
+    "name": "1 Review",
+    "bbox_norm": [
+      0.2265625,
+      0.5117045454545455,
+      0.25359157986111114,
+      0.5226136363636363
+    ]
+  },
+  {
+    "mark_id": 33,
+    "role": "link",
+    "name": "4 Reviews",
+    "bbox_norm": [
+      0.4900390625,
+      0.5117045454545455,
+      0.5200520833333333,
+      0.5226136363636363
+    ]
+  },
+  {
+    "mark_id": 34,
+    "role": "link",
+    "name": "12 Reviews",
+    "bbox_norm": [
+      0.753515625,
+      0.5117045454545455,
+      0.7870985243055556,
+      0.5226136363636363
+    ]
+  },
+  {
+    "mark_id": 35,
+    "role": "link",
+    "name": "12 Reviews",
+    "bbox_norm": [
+      0.35830078125,
+      0.5253409090909091,
+      0.39188368055555556,
+      0.53625
+    ]
+  },
+  {
+    "mark_id": 36,
+    "role": "link",
+    "name": "12 Reviews",
+    "bbox_norm": [
+      0.62177734375,
+      0.5526136363636364,
+      0.6553602430555555,
+      0.5635227272727272
+    ]
+  },
+  {
+    "mark_id": 37,
+    "role": "link",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.2353515625,
+      0.5660227272727273,
+      0.2535807291666667,
+      0.5898863636363636
+    ]
+  },
+  {
+    "mark_id": 38,
+    "role": "link",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.2554796006944444,
+      0.5660227272727273,
+      0.2737087673611111,
+      0.5898863636363636
+    ]
+  },
+  {
+    "mark_id": 39,
+    "role": "link",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.498828125,
+      0.5660227272727273,
+      0.5170572916666667,
+      0.5898863636363636
+    ]
+  },
+  {
+    "mark_id": 40,
+    "role": "link",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.5189561631944445,
+      0.5660227272727273,
+      0.5371853298611111,
+      0.5898863636363636
+    ]
+  },
+  {
+    "mark_id": 41,
+    "role": "link",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.7623046875,
+      0.5660227272727273,
+      0.7805338541666667,
+      0.5898863636363636
+    ]
+  },
+  {
+    "mark_id": 42,
+    "role": "link",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.7824327256944444,
+      0.5660227272727273,
+      0.8006618923611111,
+      0.5898863636363636
+    ]
+  },
+  {
+    "mark_id": 43,
+    "role": "button",
+    "name": "Add to Cart",
+    "bbox_norm": [
+      0.17708333333333334,
+      0.5668181818181818,
+      0.2353515625,
+      0.5890909090909091
+    ]
+  },
+  {
+    "mark_id": 44,
+    "role": "button",
+    "name": "Add to Cart",
+    "bbox_norm": [
+      0.4405598958333333,
+      0.5668181818181818,
+      0.498828125,
+      0.5890909090909091
+    ]
+  },
+  {
+    "mark_id": 45,
+    "role": "button",
+    "name": "Add to Cart",
+    "bbox_norm": [
+      0.7040364583333333,
+      0.5668181818181818,
+      0.7623046875,
+      0.5890909090909091
+    ]
+  },
+  {
+    "mark_id": 46,
+    "role": "link",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.36708984375,
+      0.579659090909091,
+      0.38531901041666666,
+      0.6035227272727273
+    ]
+  },
+  {
+    "mark_id": 47,
+    "role": "link",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.38721788194444445,
+      0.579659090909091,
+      0.40544704861111114,
+      0.6035227272727273
+    ]
+  },
+  {
+    "mark_id": 48,
+    "role": "button",
+    "name": "Add to Cart",
+    "bbox_norm": [
+      0.30882161458333335,
+      0.5804545454545454,
+      0.36708984375,
+      0.6027272727272728
+    ]
+  },
+  {
+    "mark_id": 49,
+    "role": "link",
+    "name": "Add to Wish List",
+    "bbox_norm": [
+      0.63056640625,
+      0.6069318181818182,
+      0.6487955729166667,
+      0.6307954545454545
+    ]
+  },
+  {
+    "mark_id": 50,
+    "role": "link",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.6506944444444445,
+      0.6069318181818182,
+      0.6689236111111111,
+      0.6307954545454545
+    ]
+  }
+]

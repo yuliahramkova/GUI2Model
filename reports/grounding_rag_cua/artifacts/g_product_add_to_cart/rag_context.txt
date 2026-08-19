@@ -1,0 +1,30 @@
+To put the product into the cart on the storefront, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **GUI Elements**:
+   - **Product Image**: The image of the product, which is likely to be found within the `.product-image-container-104499` CSS selector.
+   - **Add to Cart Button**: The button labeled "Add to Cart" which is typically found on the product detail page.
+   - **Minicart Dropdown**: The dropdown menu that opens when you click the "My Cart" link, which is usually located in the header or sidebar.
+   - **View and Edit Cart Mark**: The mark in the minicart dropdown that allows you to view and edit the cart contents.
+
+2. **Navigation Paths**:
+   - **Product Page**: Start by navigating to the product detail page, which can be accessed via the product link or product title.
+   - **Minicart Dropdown**: After adding the product to the cart, you will need to navigate to the minicart dropdown to view and edit the cart contents.
+
+3. **Labels**:
+   - **Add to Cart**: The label of the button that adds the product to the cart.
+   - **My Cart**: The label of the link that opens the minicart dropdown.
+   - **View and Edit Cart**: The label of the mark in the minicart dropdown that allows you to view and edit the cart contents.
+
+4. **Roles**:
+   - **Role of the Add to Cart Button**: The role of the "Add to Cart" button is to add the product to the cart.
+   - **Role of the Minicart Dropdown**: The role of the minicart dropdown is to provide access to the cart contents.
+   - **Role of the View and Edit Cart Mark**: The role of the "View and Edit Cart" mark is to allow the user to view and edit the cart contents.
+
+5. **Actions**:
+   - **Click the Product Image**: Click on the product image to view the product detail page.
+   - **Click the Add to Cart Button**: Click the "Add to Cart" button to add the product to the cart.
+   - **Wait for the Spinner**: If a spinner appears, wait for 2000 milliseconds before taking further action.
+   - **Click the My Cart Link**: Click the "My Cart" link to open the minicart dropdown.
+   - **Click the View and Edit Cart Mark**: Click the "View and Edit Cart" mark in the minicart dropdown to view and edit the cart contents.
+
+By following these steps, you can successfully put the product into the cart and manage your cart contents as needed.

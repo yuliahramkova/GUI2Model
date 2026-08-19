@@ -1,0 +1,876 @@
+{
+  "created_at": "2026-08-19T09:30:12.213346+00:00",
+  "model": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "base_url": "http://localhost:7770",
+  "stuck_limit": 3,
+  "tasks_path": "C:/Proga/GUI2Model/data/target_app/eval/tasks.json",
+  "prior_knowledge": {
+    "type": "rag",
+    "mode": "cua",
+    "query_mode": "hybrid",
+    "max_chars": 6000,
+    "stores_root": "C:/Proga/GUI2Model/rag/stores"
+  },
+  "summary": {
+    "n_tasks": 10,
+    "n_success": 6,
+    "success_rate": 0.6,
+    "total_steps": 34,
+    "avg_steps": 3.4,
+    "avg_steps_success": 2.3333333333333335,
+    "avg_expected_steps": 2.3,
+    "avg_steps_delta": 1.1,
+    "total_tokens": 290411,
+    "avg_tokens": 29041.1,
+    "total_prompt_tokens": 289537,
+    "total_completion_tokens": 874
+  },
+  "results": [
+    {
+      "id": "eval_search_shirt_results",
+      "goal": "From the homepage, search for 'shirt' and land on the search results page.",
+      "success": false,
+      "n_steps": 3,
+      "expected_steps": 3,
+      "steps_delta": 0,
+      "max_steps": 6,
+      "start_url": "http://localhost:7770/",
+      "end_url": "http://localhost:7770/",
+      "end_title": "One Stop Market",
+      "prompt_tokens": 27082,
+      "completion_tokens": 78,
+      "total_tokens": 27160,
+      "tags": "search,guest",
+      "error": "stuck_loop: repeated click on combobox 'Search entire store here...' 3x without leaving 'http://localhost:7770/' / 'One Stop Market'",
+      "rag_context": "To accomplish the task of searching for 'shirt' on the homepage and landing on the search results page, we need to identify the relevant GUI elements, navigation paths, labels, roles, and actions based on the available information.\n\n1. **GUI Elements and Navigation Paths**:\n   - **Header**: The top part of the webpage containing navigation links. This is likely where the 'Advanced Search' link is located.\n   - **Advanced Search Feature**: A search feature designed for advanced queries, which is typically located in the header or a designated area on the homepage.\n\n2. **Labels and Roles**:\n   - **Advanced Search Label**: The label for the search feature, which is usually a link or button labeled 'Advanced Search'.\n   - **Search Input Field**: The textbox where the user inputs the search term ('shirt' in this case).\n\n3. **Actions**:\n   - **Click Action**: The action required to trigger the search feature. This would involve clicking on the 'Advanced Search' link or button.\n\nGiven the context, here’s how you can proceed:\n\n1. **Locate the Advanced Search Feature**:\n   - Navigate to the homepage and locate the 'Advanced Search' feature, which is typically found in the header.\n\n2. **Initiate the Search**:\n   - Click on the 'Advanced Search' link or button to open the search interface.\n\n3. **Enter the Search Term**:\n   - Enter the search term 'shirt' into the search input field.\n\n4. **Submit the Search**:\n   - Submit the search by pressing the 'Search' button or hitting enter.\n\nBy following these steps, you will be able to search for 'shirt' on the homepage and land on the search results page. The exact implementation may vary slightly depending on the specific layout and design of the storefront, but the above steps should provide a general guideline.",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 16,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8925,
+          "completion_tokens": 24,
+          "total_tokens": 8949,
+          "screenshot": "artifacts/eval_search_shirt_results/step_000/screenshot.png",
+          "rag_context": "To accomplish the task of searching for 'shirt' on the homepage and landing on the search results page, we need to identify the relevant GUI elements, navigation paths, labels, roles, and actions based on the available information.\n\n1. **GUI Elements and Navigation Paths**:\n   - **Header**: The top part of the webpage containing navigation links. This is likely where the 'Advanced Search' link is located.\n   - **Advanced Search Feature**: A search feature designed for advanced queries, which is typically located in the header or a designated area on the homepage.\n\n2. **Labels and Roles**:\n   - **Advanced Search Label**: The label for the search feature, which is usually a link or button labeled 'Advanced Search'.\n   - **Search Input Field**: The textbox where the user inputs the search term ('shirt' in this case).\n\n3. **Actions**:\n   - **Click Action**: The action required to trigger the search feature. This would involve clicking on the 'Advanced Search' link or button.\n\nGiven the context, here’s how you can proceed:\n\n1. **Locate the Advanced Search Feature**:\n   - Navigate to the homepage and locate the 'Advanced Search' feature, which is typically found in the header.\n\n2. **Initiate the Search**:\n   - Click on the 'Advanced Search' link or button to open the search interface.\n\n3. **Enter the Search Term**:\n   - Enter the search term 'shirt' into the search input field.\n\n4. **Submit the Search**:\n   - Submit the search by pressing the 'Search' button or hitting enter.\n\nBy following these steps, you will be able to search for 'shirt' on the homepage and land on the search results page. The exact implementation may vary slightly depending on the specific layout and design of the storefront, but the above steps should provide a general guideline."
+        },
+        {
+          "step": 1,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 16,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 9028,
+          "completion_tokens": 25,
+          "total_tokens": 9053,
+          "screenshot": "artifacts/eval_search_shirt_results/step_001/screenshot.png",
+          "rag_context": "To accomplish the task of searching for 'shirt' on the homepage and landing on the search results page, we need to identify the relevant GUI elements, navigation paths, labels, roles, and actions based on the available information.\n\n1. **GUI Elements and Navigation Paths**:\n   - **Header**: The top part of the webpage containing navigation links. This is likely where the 'Advanced Search' link is located.\n   - **Advanced Search Feature**: A search feature designed for advanced queries, which is typically located in the header or a designated area on the homepage.\n\n2. **Labels and Roles**:\n   - **Advanced Search Label**: The label for the search feature, which is usually a link or button labeled 'Advanced Search'.\n   - **Search Input Field**: The textbox where the user inputs the search term ('shirt' in this case).\n\n3. **Actions**:\n   - **Click Action**: The action required to trigger the search feature. This would involve clicking on the 'Advanced Search' link or button.\n\nGiven the context, here’s how you can proceed:\n\n1. **Locate the Advanced Search Feature**:\n   - Navigate to the homepage and locate the 'Advanced Search' feature, which is typically found in the header.\n\n2. **Initiate the Search**:\n   - Click on the 'Advanced Search' link or button to open the search interface.\n\n3. **Enter the Search Term**:\n   - Enter the search term 'shirt' into the search input field.\n\n4. **Submit the Search**:\n   - Submit the search by pressing the 'Search' button or hitting enter.\n\nBy following these steps, you will be able to search for 'shirt' on the homepage and land on the search results page. The exact implementation may vary slightly depending on the specific layout and design of the storefront, but the above steps should provide a general guideline."
+        },
+        {
+          "step": 2,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 16,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 9129,
+          "completion_tokens": 29,
+          "total_tokens": 9158,
+          "screenshot": "artifacts/eval_search_shirt_results/step_002/screenshot.png",
+          "rag_context": "To accomplish the task of searching for 'shirt' on the homepage and landing on the search results page, we need to identify the relevant GUI elements, navigation paths, labels, roles, and actions based on the available information.\n\n1. **GUI Elements and Navigation Paths**:\n   - **Header**: The top part of the webpage containing navigation links. This is likely where the 'Advanced Search' link is located.\n   - **Advanced Search Feature**: A search feature designed for advanced queries, which is typically located in the header or a designated area on the homepage.\n\n2. **Labels and Roles**:\n   - **Advanced Search Label**: The label for the search feature, which is usually a link or button labeled 'Advanced Search'.\n   - **Search Input Field**: The textbox where the user inputs the search term ('shirt' in this case).\n\n3. **Actions**:\n   - **Click Action**: The action required to trigger the search feature. This would involve clicking on the 'Advanced Search' link or button.\n\nGiven the context, here’s how you can proceed:\n\n1. **Locate the Advanced Search Feature**:\n   - Navigate to the homepage and locate the 'Advanced Search' feature, which is typically found in the header.\n\n2. **Initiate the Search**:\n   - Click on the 'Advanced Search' link or button to open the search interface.\n\n3. **Enter the Search Term**:\n   - Enter the search term 'shirt' into the search input field.\n\n4. **Submit the Search**:\n   - Submit the search by pressing the 'Search' button or hitting enter.\n\nBy following these steps, you will be able to search for 'shirt' on the homepage and land on the search results page. The exact implementation may vary slightly depending on the specific layout and design of the storefront, but the above steps should provide a general guideline."
+        }
+      ]
+    },
+    {
+      "id": "eval_open_create_account",
+      "goal": "Open the Create New Customer Account form from the storefront header.",
+      "success": true,
+      "n_steps": 1,
+      "expected_steps": 1,
+      "steps_delta": 0,
+      "max_steps": 4,
+      "start_url": "http://localhost:7770/",
+      "end_url": "http://localhost:7770/customer/account/create/",
+      "end_title": "Create New Customer Account",
+      "prompt_tokens": 9097,
+      "completion_tokens": 24,
+      "total_tokens": 9121,
+      "tags": "auth,register,guest",
+      "error": null,
+      "rag_context": "To open the Create New Customer Account form from the storefront header, we need to identify the relevant GUI elements, navigation paths, labels, roles, and actions. Here’s a breakdown based on the available information:\n\n1. **GUI Elements**: \n   - The storefront header likely contains a menu or navigation bar where options such as \"Create New Account\" or \"Sign Up\" might be listed. These are typically represented as menu items or links.\n\n2. **Navigation Paths**:\n   - The navigation path would involve moving from the homepage to the account creation section. This usually means clicking on a menu item or link that leads to the account creation form.\n\n3. **Labels**:\n   - The label for the \"Create New Account\" or \"Sign Up\" option will be the text displayed on the menu item or link.\n\n4. **Roles**:\n   - The role here is the action of clicking on the \"Create New Account\" or \"Sign Up\" link, which is a user action.\n\n5. **Actions**:\n   - The action required is to click on the \"Create New Account\" or \"Sign Up\" link located in the storefront header.\n\nGiven the information provided, the relevant document chunks and their reference IDs are:\n\n- **Reference ID**: `document_chunk_1`\n  - **Content**: `[source=a11y] [type=element] screen_id='header' instruction='click the menuitem 'Create New Account'' role='menuitem' name='Create New Account' bbox_px=[10, 128, 204, 181]`\n  - **Description**: This chunk describes the action of clicking the \"Create New Account\" link in the header, which aligns with the goal of opening the Create New Customer Account form.\n\n- **Reference ID**: `document_chunk_2`\n  - **Content**: `[source=a11y] [type=element] screen_id='account_creation_form' instruction='fill out the form fields' role='form' name='Create New Account Form' bbox_px=[175, 368, 620, 400]`\n  - **Description**: This chunk describes the action of filling out the form fields after clicking the \"Create New Account\" link, which is the next step after accessing the form.\n\nBy following these steps, you can navigate to the Create New Customer Account form from the storefront header. The relevant actions and elements are:\n\n- Click on the \"Create New Account\" link in the storefront header.\n- Fill out the form fields on the Create New Customer Account form.\n\nThis approach ensures that you follow the correct navigation path and perform the necessary actions to reach the desired form.",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/customer/account/create/",
+          "title_before": "One Stop Market",
+          "title_after": "Create New Customer Account",
+          "action": {
+            "action": "click",
+            "target_mark_id": 14,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 9097,
+          "completion_tokens": 24,
+          "total_tokens": 9121,
+          "screenshot": "artifacts/eval_open_create_account/step_000/screenshot.png",
+          "rag_context": "To open the Create New Customer Account form from the storefront header, we need to identify the relevant GUI elements, navigation paths, labels, roles, and actions. Here’s a breakdown based on the available information:\n\n1. **GUI Elements**: \n   - The storefront header likely contains a menu or navigation bar where options such as \"Create New Account\" or \"Sign Up\" might be listed. These are typically represented as menu items or links.\n\n2. **Navigation Paths**:\n   - The navigation path would involve moving from the homepage to the account creation section. This usually means clicking on a menu item or link that leads to the account creation form.\n\n3. **Labels**:\n   - The label for the \"Create New Account\" or \"Sign Up\" option will be the text displayed on the menu item or link.\n\n4. **Roles**:\n   - The role here is the action of clicking on the \"Create New Account\" or \"Sign Up\" link, which is a user action.\n\n5. **Actions**:\n   - The action required is to click on the \"Create New Account\" or \"Sign Up\" link located in the storefront header.\n\nGiven the information provided, the relevant document chunks and their reference IDs are:\n\n- **Reference ID**: `document_chunk_1`\n  - **Content**: `[source=a11y] [type=element] screen_id='header' instruction='click the menuitem 'Create New Account'' role='menuitem' name='Create New Account' bbox_px=[10, 128, 204, 181]`\n  - **Description**: This chunk describes the action of clicking the \"Create New Account\" link in the header, which aligns with the goal of opening the Create New Customer Account form.\n\n- **Reference ID**: `document_chunk_2`\n  - **Content**: `[source=a11y] [type=element] screen_id='account_creation_form' instruction='fill out the form fields' role='form' name='Create New Account Form' bbox_px=[175, 368, 620, 400]`\n  - **Description**: This chunk describes the action of filling out the form fields after clicking the \"Create New Account\" link, which is the next step after accessing the form.\n\nBy following these steps, you can navigate to the Create New Customer Account form from the storefront header. The relevant actions and elements are:\n\n- Click on the \"Create New Account\" link in the storefront header.\n- Fill out the form fields on the Create New Customer Account form.\n\nThis approach ensures that you follow the correct navigation path and perform the necessary actions to reach the desired form."
+        }
+      ]
+    },
+    {
+      "id": "eval_forgot_password_from_login",
+      "goal": "Start on the login page and open the Forgot Your Password recovery page.",
+      "success": true,
+      "n_steps": 1,
+      "expected_steps": 1,
+      "steps_delta": 0,
+      "max_steps": 4,
+      "start_url": "http://localhost:7770/customer/account/login/",
+      "end_url": "http://localhost:7770/customer/account/forgotpassword/",
+      "end_title": "Forgot Your Password?",
+      "prompt_tokens": 7125,
+      "completion_tokens": 20,
+      "total_tokens": 7145,
+      "tags": "auth,guest",
+      "error": null,
+      "rag_context": "To achieve the goal of opening the \"Forgot Your Password\" recovery page from the login page, we need to identify the relevant GUI elements, navigation paths, labels, roles, and actions on the storefront. Here’s how you can proceed:\n\n1. **Identify the Login Page Elements**: \n   - The current page URL is `http://localhost:7770/customer/account/login/`, which indicates that you are already on the login page.\n   - Look for a label or link that says \"Forgot Your Password\" or something similar. This will likely be a clickable element that leads to the password recovery page.\n\n2. **Locate the \"Forgot Your Password\" Link**:\n   - Typically, the \"Forgot Your Password\" link is placed near the login form. It usually appears as a link or button next to the login fields or below them.\n   - The label for this link might be something like \"Forgot Your Password?\" or \"Reset Password\".\n\n3. **Action to Perform**:\n   - Click on the \"Forgot Your Password\" link to initiate the password recovery process.\n\n4. **Navigation Path**:\n   - The navigation path would be straightforward since you are already on the login page. The path would be: `Login Page -> Click on \"Forgot Your Password\" Link`.\n\n5. **Labels and Roles**:\n   - The label for the \"Forgot Your Password\" link is crucial for identifying it. It may be labeled as \"Forgot Your Password?\" or \"Reset Password\".\n   - The role of this element is to facilitate the user in recovering their password by redirecting them to the password recovery page.\n\nBy following these steps, you should be able to navigate from the login page to the password recovery page without needing to leave the current page. If the \"Forgot Your Password\" link is not visible, check the page layout for alternative placements, such as in the footer or within a secondary navigation menu.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/customer/account/login/",
+          "url_after": "http://localhost:7770/customer/account/forgotpassword/",
+          "title_before": "Customer Login",
+          "title_after": "Forgot Your Password?",
+          "action": {
+            "action": "click",
+            "target_mark_id": 28,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 7125,
+          "completion_tokens": 20,
+          "total_tokens": 7145,
+          "screenshot": "artifacts/eval_forgot_password_from_login/step_000/screenshot.png",
+          "rag_context": "To achieve the goal of opening the \"Forgot Your Password\" recovery page from the login page, we need to identify the relevant GUI elements, navigation paths, labels, roles, and actions on the storefront. Here’s how you can proceed:\n\n1. **Identify the Login Page Elements**: \n   - The current page URL is `http://localhost:7770/customer/account/login/`, which indicates that you are already on the login page.\n   - Look for a label or link that says \"Forgot Your Password\" or something similar. This will likely be a clickable element that leads to the password recovery page.\n\n2. **Locate the \"Forgot Your Password\" Link**:\n   - Typically, the \"Forgot Your Password\" link is placed near the login form. It usually appears as a link or button next to the login fields or below them.\n   - The label for this link might be something like \"Forgot Your Password?\" or \"Reset Password\".\n\n3. **Action to Perform**:\n   - Click on the \"Forgot Your Password\" link to initiate the password recovery process.\n\n4. **Navigation Path**:\n   - The navigation path would be straightforward since you are already on the login page. The path would be: `Login Page -> Click on \"Forgot Your Password\" Link`.\n\n5. **Labels and Roles**:\n   - The label for the \"Forgot Your Password\" link is crucial for identifying it. It may be labeled as \"Forgot Your Password?\" or \"Reset Password\".\n   - The role of this element is to facilitate the user in recovering their password by redirecting them to the password recovery page.\n\nBy following these steps, you should be able to navigate from the login page to the password recovery page without needing to leave the current page. If the \"Forgot Your Password\" link is not visible, check the page layout for alternative placements, such as in the footer or within a secondary navigation menu.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+        }
+      ]
+    },
+    {
+      "id": "eval_browse_video_games",
+      "goal": "From the homepage, open the Video Games category via the main navigation.",
+      "success": true,
+      "n_steps": 3,
+      "expected_steps": 1,
+      "steps_delta": 2,
+      "max_steps": 4,
+      "start_url": "http://localhost:7770/",
+      "end_url": "http://localhost:7770/video-games.html",
+      "end_title": "Video Games",
+      "prompt_tokens": 27743,
+      "completion_tokens": 82,
+      "total_tokens": 27825,
+      "tags": "browse,guest",
+      "error": null,
+      "rag_context": "To achieve the goal of opening the Video Games category from the homepage, we need to identify the relevant navigation elements and actions based on the available information. Here’s a breakdown of the necessary steps:\n\n1. **Identify the Main Navigation**: The main navigation typically includes links to different categories like Electronics, Video Games, etc. Since the current page URL is `http://localhost:7770/`, it suggests that the homepage is the starting point.\n\n2. **Locate the Video Games Category**: The goal is to find the Video Games category. Based on the provided Knowledge Graph and Document Chunks, the `Electronics` category is mentioned, but there is no direct mention of the Video Games category. However, the `Category` entity might represent a broader concept that includes multiple subcategories, such as Video Games.\n\n3. **Navigate to the Video Games Category**: Assuming the Video Games category is a subcategory under the broader `Electronics` category, we would need to follow these steps:\n   - Click on the `Electronics` category link to navigate to the `Electronics` category page.\n   - Once on the `Electronics` page, locate the Video Games subcategory link and click on it.\n\n4. **GUI Elements and Actions**:\n   - **Navigation Links**: Look for a link labeled \"Electronics\" in the main navigation bar.\n   - **Click Action**: Click on the \"Electronics\" link to navigate to the Electronics category page.\n   - **Subcategory Link**: On the Electronics page, find the Video Games subcategory link and click on it.\n\n5. **Labels and Roles**:\n   - **Electronics Link Label**: The label for the link to the Electronics category is likely \"Electronics\".\n   - **Video Games Subcategory Label**: The label for the Video Games subcategory will depend on how it is named on the page, but it may be something like \"Video Games\".\n\n6. **Actions**:\n   - **Navigate to Electronics**: Click on the \"Electronics\" link.\n   - **Navigate to Video Games**: Click on the Video Games subcategory link once on the Electronics page.\n\nGiven the lack of explicit information about the Video Games category in the provided data, we can infer that the Video Games category might be a subcategory under the Electronics category. Therefore, the relevant navigation path would involve clicking on the \"Electronics\" link first, followed by navigating to the Video Games subcategory on the Electronics page.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/electronics.html",
+          "title_before": "One Stop Market",
+          "title_after": "Electronics",
+          "action": {
+            "action": "click",
+            "target_mark_id": 29,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 9089,
+          "completion_tokens": 24,
+          "total_tokens": 9113,
+          "screenshot": "artifacts/eval_browse_video_games/step_000/screenshot.png",
+          "rag_context": "To achieve the goal of opening the Video Games category from the homepage, we need to identify the relevant navigation elements and actions based on the available information. Here’s a breakdown of the necessary steps:\n\n1. **Identify the Main Navigation**: The main navigation typically includes links to different categories like Electronics, Video Games, etc. Since the current page URL is `http://localhost:7770/`, it suggests that the homepage is the starting point.\n\n2. **Locate the Video Games Category**: The goal is to find the Video Games category. Based on the provided Knowledge Graph and Document Chunks, the `Electronics` category is mentioned, but there is no direct mention of the Video Games category. However, the `Category` entity might represent a broader concept that includes multiple subcategories, such as Video Games.\n\n3. **Navigate to the Video Games Category**: Assuming the Video Games category is a subcategory under the broader `Electronics` category, we would need to follow these steps:\n   - Click on the `Electronics` category link to navigate to the `Electronics` category page.\n   - Once on the `Electronics` page, locate the Video Games subcategory link and click on it.\n\n4. **GUI Elements and Actions**:\n   - **Navigation Links**: Look for a link labeled \"Electronics\" in the main navigation bar.\n   - **Click Action**: Click on the \"Electronics\" link to navigate to the Electronics category page.\n   - **Subcategory Link**: On the Electronics page, find the Video Games subcategory link and click on it.\n\n5. **Labels and Roles**:\n   - **Electronics Link Label**: The label for the link to the Electronics category is likely \"Electronics\".\n   - **Video Games Subcategory Label**: The label for the Video Games subcategory will depend on how it is named on the page, but it may be something like \"Video Games\".\n\n6. **Actions**:\n   - **Navigate to Electronics**: Click on the \"Electronics\" link.\n   - **Navigate to Video Games**: Click on the Video Games subcategory link once on the Electronics page.\n\nGiven the lack of explicit information about the Video Games category in the provided data, we can infer that the Video Games category might be a subcategory under the Electronics category. Therefore, the relevant navigation path would involve clicking on the \"Electronics\" link first, followed by navigating to the Video Games subcategory on the Electronics page.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+        },
+        {
+          "step": 1,
+          "url_before": "http://localhost:7770/electronics.html",
+          "url_after": "http://localhost:7770/electronics.html",
+          "title_before": "Electronics",
+          "title_after": "Electronics",
+          "action": {
+            "action": "click",
+            "target_mark_id": 27,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 9273,
+          "completion_tokens": 29,
+          "total_tokens": 9302,
+          "screenshot": "artifacts/eval_browse_video_games/step_001/screenshot.png",
+          "rag_context": "To achieve the goal of opening the Video Games category from the homepage, we need to identify the relevant navigation elements and actions based on the available information. Here’s a breakdown of the necessary steps:\n\n1. **Identify the Main Navigation**: The main navigation typically includes links to different categories like Electronics, Video Games, etc. Since the current page URL is `http://localhost:7770/`, it suggests that the homepage is the starting point.\n\n2. **Locate the Video Games Category**: The goal is to find the Video Games category. Based on the provided Knowledge Graph and Document Chunks, the `Electronics` category is mentioned, but there is no direct mention of the Video Games category. However, the `Category` entity might represent a broader concept that includes multiple subcategories, such as Video Games.\n\n3. **Navigate to the Video Games Category**: Assuming the Video Games category is a subcategory under the broader `Electronics` category, we would need to follow these steps:\n   - Click on the `Electronics` category link to navigate to the `Electronics` category page.\n   - Once on the `Electronics` page, locate the Video Games subcategory link and click on it.\n\n4. **GUI Elements and Actions**:\n   - **Navigation Links**: Look for a link labeled \"Electronics\" in the main navigation bar.\n   - **Click Action**: Click on the \"Electronics\" link to navigate to the Electronics category page.\n   - **Subcategory Link**: On the Electronics page, find the Video Games subcategory link and click on it.\n\n5. **Labels and Roles**:\n   - **Electronics Link Label**: The label for the link to the Electronics category is likely \"Electronics\".\n   - **Video Games Subcategory Label**: The label for the Video Games subcategory will depend on how it is named on the page, but it may be something like \"Video Games\".\n\n6. **Actions**:\n   - **Navigate to Electronics**: Click on the \"Electronics\" link.\n   - **Navigate to Video Games**: Click on the Video Games subcategory link once on the Electronics page.\n\nGiven the lack of explicit information about the Video Games category in the provided data, we can infer that the Video Games category might be a subcategory under the Electronics category. Therefore, the relevant navigation path would involve clicking on the \"Electronics\" link first, followed by navigating to the Video Games subcategory on the Electronics page.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+        },
+        {
+          "step": 2,
+          "url_before": "http://localhost:7770/electronics.html",
+          "url_after": "http://localhost:7770/video-games.html",
+          "title_before": "Electronics",
+          "title_after": "Video Games",
+          "action": {
+            "action": "click",
+            "target_mark_id": 29,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 9381,
+          "completion_tokens": 29,
+          "total_tokens": 9410,
+          "screenshot": "artifacts/eval_browse_video_games/step_002/screenshot.png",
+          "rag_context": "To achieve the goal of opening the Video Games category from the homepage, we need to identify the relevant navigation elements and actions based on the available information. Here’s a breakdown of the necessary steps:\n\n1. **Identify the Main Navigation**: The main navigation typically includes links to different categories like Electronics, Video Games, etc. Since the current page URL is `http://localhost:7770/`, it suggests that the homepage is the starting point.\n\n2. **Locate the Video Games Category**: The goal is to find the Video Games category. Based on the provided Knowledge Graph and Document Chunks, the `Electronics` category is mentioned, but there is no direct mention of the Video Games category. However, the `Category` entity might represent a broader concept that includes multiple subcategories, such as Video Games.\n\n3. **Navigate to the Video Games Category**: Assuming the Video Games category is a subcategory under the broader `Electronics` category, we would need to follow these steps:\n   - Click on the `Electronics` category link to navigate to the `Electronics` category page.\n   - Once on the `Electronics` page, locate the Video Games subcategory link and click on it.\n\n4. **GUI Elements and Actions**:\n   - **Navigation Links**: Look for a link labeled \"Electronics\" in the main navigation bar.\n   - **Click Action**: Click on the \"Electronics\" link to navigate to the Electronics category page.\n   - **Subcategory Link**: On the Electronics page, find the Video Games subcategory link and click on it.\n\n5. **Labels and Roles**:\n   - **Electronics Link Label**: The label for the link to the Electronics category is likely \"Electronics\".\n   - **Video Games Subcategory Label**: The label for the Video Games subcategory will depend on how it is named on the page, but it may be something like \"Video Games\".\n\n6. **Actions**:\n   - **Navigate to Electronics**: Click on the \"Electronics\" link.\n   - **Navigate to Video Games**: Click on the Video Games subcategory link once on the Electronics page.\n\nGiven the lack of explicit information about the Video Games category in the provided data, we can infer that the Video Games category might be a subcategory under the Electronics category. Therefore, the relevant navigation path would involve clicking on the \"Electronics\" link first, followed by navigating to the Video Games subcategory on the Electronics page.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+        }
+      ]
+    },
+    {
+      "id": "eval_product_add_wishlist",
+      "goal": "You are on a product page. Add the product to the wish list (do not add to cart).",
+      "success": false,
+      "n_steps": 4,
+      "expected_steps": 2,
+      "steps_delta": 2,
+      "max_steps": 4,
+      "start_url": "http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html",
+      "end_url": "http://localhost:7770/customer/account/create/",
+      "end_title": "Create New Customer Account",
+      "prompt_tokens": 30072,
+      "completion_tokens": 95,
+      "total_tokens": 30167,
+      "tags": "wishlist,product,guest",
+      "error": null,
+      "rag_context": "To add the product to the wish list without adding it to the cart, you'll need to identify the relevant GUI elements and navigation paths on the product page. Here’s how you can proceed:\n\n1. **Identify the Product Page URL**: The current page URL is `http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html`. This indicates that you're on the product detail page for the \"Briess DME - Pilsen Light - 1 lb Bag.\"\n\n2. **Locate the \"Add to Wish List\" Button**: Typically, the \"Add to Wish List\" button is located near the product details or on the right side of the product image. It may be labeled as \"Add to Wish List,\" \"Save for Later,\" or similar. You can usually find it below the product image or next to the \"Add to Cart\" button.\n\n3. **Click the \"Add to Wish List\" Button**: Once you locate the \"Add to Wish List\" button, click it to add the product to your wish list. Ensure that you do not click the \"Add to Cart\" button, as this will add the product to the cart instead.\n\n4. **Verify the Action**: After clicking the \"Add to Wish List\" button, verify that the product has been added to your wish list. This can often be seen in a notification message or by checking the wish list section later.\n\nIf you don't see the \"Add to Wish List\" button, it might be located in a different area of the page. You can try scrolling down or looking for a \"Wish List\" or \"Saved Items\" link in the navigation menu.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html",
+          "url_after": "http://localhost:7770/customer/account/login/",
+          "title_before": "Briess DME - Pilsen Light - 1 lb Bag",
+          "title_after": "Customer Login",
+          "action": {
+            "action": "click",
+            "target_mark_id": 32,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 7272,
+          "completion_tokens": 20,
+          "total_tokens": 7292,
+          "screenshot": "artifacts/eval_product_add_wishlist/step_000/screenshot.png",
+          "rag_context": "To add the product to the wish list without adding it to the cart, you'll need to identify the relevant GUI elements and navigation paths on the product page. Here’s how you can proceed:\n\n1. **Identify the Product Page URL**: The current page URL is `http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html`. This indicates that you're on the product detail page for the \"Briess DME - Pilsen Light - 1 lb Bag.\"\n\n2. **Locate the \"Add to Wish List\" Button**: Typically, the \"Add to Wish List\" button is located near the product details or on the right side of the product image. It may be labeled as \"Add to Wish List,\" \"Save for Later,\" or similar. You can usually find it below the product image or next to the \"Add to Cart\" button.\n\n3. **Click the \"Add to Wish List\" Button**: Once you locate the \"Add to Wish List\" button, click it to add the product to your wish list. Ensure that you do not click the \"Add to Cart\" button, as this will add the product to the cart instead.\n\n4. **Verify the Action**: After clicking the \"Add to Wish List\" button, verify that the product has been added to your wish list. This can often be seen in a notification message or by checking the wish list section later.\n\nIf you don't see the \"Add to Wish List\" button, it might be located in a different area of the page. You can try scrolling down or looking for a \"Wish List\" or \"Saved Items\" link in the navigation menu.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three"
+        },
+        {
+          "step": 1,
+          "url_before": "http://localhost:7770/customer/account/login/",
+          "url_after": "http://localhost:7770/customer/account/create/",
+          "title_before": "Customer Login",
+          "title_after": "Create New Customer Account",
+          "action": {
+            "action": "click",
+            "target_mark_id": 24,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 7205,
+          "completion_tokens": 25,
+          "total_tokens": 7230,
+          "screenshot": "artifacts/eval_product_add_wishlist/step_001/screenshot.png",
+          "rag_context": "To add the product to the wish list without adding it to the cart, you'll need to identify the relevant GUI elements and navigation paths on the product page. Here’s how you can proceed:\n\n1. **Identify the Product Page URL**: The current page URL is `http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html`. This indicates that you're on the product detail page for the \"Briess DME - Pilsen Light - 1 lb Bag.\"\n\n2. **Locate the \"Add to Wish List\" Button**: Typically, the \"Add to Wish List\" button is located near the product details or on the right side of the product image. It may be labeled as \"Add to Wish List,\" \"Save for Later,\" or similar. You can usually find it below the product image or next to the \"Add to Cart\" button.\n\n3. **Click the \"Add to Wish List\" Button**: Once you locate the \"Add to Wish List\" button, click it to add the product to your wish list. Ensure that you do not click the \"Add to Cart\" button, as this will add the product to the cart instead.\n\n4. **Verify the Action**: After clicking the \"Add to Wish List\" button, verify that the product has been added to your wish list. This can often be seen in a notification message or by checking the wish list section later.\n\nIf you don't see the \"Add to Wish List\" button, it might be located in a different area of the page. You can try scrolling down or looking for a \"Wish List\" or \"Saved Items\" link in the navigation menu.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three"
+        },
+        {
+          "step": 2,
+          "url_before": "http://localhost:7770/customer/account/create/",
+          "url_after": "http://localhost:7770/customer/account/create/",
+          "title_before": "Create New Customer Account",
+          "title_after": "Create New Customer Account",
+          "action": {
+            "action": "click",
+            "target_mark_id": 32,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 7791,
+          "completion_tokens": 25,
+          "total_tokens": 7816,
+          "screenshot": "artifacts/eval_product_add_wishlist/step_002/screenshot.png",
+          "rag_context": "To add the product to the wish list without adding it to the cart, you'll need to identify the relevant GUI elements and navigation paths on the product page. Here’s how you can proceed:\n\n1. **Identify the Product Page URL**: The current page URL is `http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html`. This indicates that you're on the product detail page for the \"Briess DME - Pilsen Light - 1 lb Bag.\"\n\n2. **Locate the \"Add to Wish List\" Button**: Typically, the \"Add to Wish List\" button is located near the product details or on the right side of the product image. It may be labeled as \"Add to Wish List,\" \"Save for Later,\" or similar. You can usually find it below the product image or next to the \"Add to Cart\" button.\n\n3. **Click the \"Add to Wish List\" Button**: Once you locate the \"Add to Wish List\" button, click it to add the product to your wish list. Ensure that you do not click the \"Add to Cart\" button, as this will add the product to the cart instead.\n\n4. **Verify the Action**: After clicking the \"Add to Wish List\" button, verify that the product has been added to your wish list. This can often be seen in a notification message or by checking the wish list section later.\n\nIf you don't see the \"Add to Wish List\" button, it might be located in a different area of the page. You can try scrolling down or looking for a \"Wish List\" or \"Saved Items\" link in the navigation menu.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three"
+        },
+        {
+          "step": 3,
+          "url_before": "http://localhost:7770/customer/account/create/",
+          "url_after": "http://localhost:7770/customer/account/create/",
+          "title_before": "Create New Customer Account",
+          "title_after": "Create New Customer Account",
+          "action": {
+            "action": "click",
+            "target_mark_id": 32,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 7804,
+          "completion_tokens": 25,
+          "total_tokens": 7829,
+          "screenshot": "artifacts/eval_product_add_wishlist/step_003/screenshot.png",
+          "rag_context": "To add the product to the wish list without adding it to the cart, you'll need to identify the relevant GUI elements and navigation paths on the product page. Here’s how you can proceed:\n\n1. **Identify the Product Page URL**: The current page URL is `http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html`. This indicates that you're on the product detail page for the \"Briess DME - Pilsen Light - 1 lb Bag.\"\n\n2. **Locate the \"Add to Wish List\" Button**: Typically, the \"Add to Wish List\" button is located near the product details or on the right side of the product image. It may be labeled as \"Add to Wish List,\" \"Save for Later,\" or similar. You can usually find it below the product image or next to the \"Add to Cart\" button.\n\n3. **Click the \"Add to Wish List\" Button**: Once you locate the \"Add to Wish List\" button, click it to add the product to your wish list. Ensure that you do not click the \"Add to Cart\" button, as this will add the product to the cart instead.\n\n4. **Verify the Action**: After clicking the \"Add to Wish List\" button, verify that the product has been added to your wish list. This can often be seen in a notification message or by checking the wish list section later.\n\nIf you don't see the \"Add to Wish List\" button, it might be located in a different area of the page. You can try scrolling down or looking for a \"Wish List\" or \"Saved Items\" link in the navigation menu.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three"
+        }
+      ]
+    },
+    {
+      "id": "eval_empty_cart_from_home",
+      "goal": "From the homepage, open the shopping cart page. Done when the cart URL is open (empty cart is OK).",
+      "success": false,
+      "n_steps": 3,
+      "expected_steps": 2,
+      "steps_delta": 1,
+      "max_steps": 6,
+      "start_url": "http://localhost:7770/",
+      "end_url": "http://localhost:7770/",
+      "end_title": "One Stop Market",
+      "prompt_tokens": 27434,
+      "completion_tokens": 78,
+      "total_tokens": 27512,
+      "tags": "cart,guest",
+      "error": "stuck_loop: repeated click on link 'My Cart' 3x without leaving 'http://localhost:7770/' / 'One Stop Market'",
+      "rag_context": "To achieve the goal of opening the shopping cart page from the homepage, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **Navigation Path**: Start from the homepage (`http://localhost:7770/`). The homepage is the main landing page of the website.\n\n2. **GUI Elements**:\n   - **Header**: The top part of the webpage containing navigation links. This is where you would typically find links to the shopping cart.\n   - **Menu Items**: Look for menu items that lead to the shopping cart or a section where you can view your cart. Common labels for these sections include \"My Cart,\" \"Shopping Cart,\" or similar.\n\n3. **Labels**:\n   - **\"My Cart\"**: This is a common label for accessing the shopping cart. You may see a link labeled \"My Cart\" or something similar.\n   - **\"Shopping Cart\"**: Another common label for the shopping cart page.\n\n4. **Roles**:\n   - **Click**: The action required to interact with the GUI elements. For example, clicking on the \"My Cart\" link will take you to the shopping cart page.\n\n5. **Actions**:\n   - **Click \"My Cart\"**: This action involves clicking on the \"My Cart\" link to open the shopping cart page. Ensure that the URL after this action contains `/checkout/cart/` and the title contains \"Shopping Cart.\"\n\nBy following these steps, you should be able to navigate to the shopping cart page from the homepage. The relevant document chunks and references are as follows:\n\n- **Document Chunk**: \n  ```json\n  {\"reference_id\": \"\", \"content\": \"[source=cua] [type=state] state_id='afcab86ea55f' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/checkout/cart/::Shopping Cart'\"\n  ```\n\n- **Reference Document**:\n  - **Reference Document List**: The reference document corresponding to the above content is not provided in the given JSON data. However, based on the context, the relevant document would be the one that describes the state associated with the shopping cart URL.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 18,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 9041,
+          "completion_tokens": 24,
+          "total_tokens": 9065,
+          "screenshot": "artifacts/eval_empty_cart_from_home/step_000/screenshot.png",
+          "rag_context": "To achieve the goal of opening the shopping cart page from the homepage, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **Navigation Path**: Start from the homepage (`http://localhost:7770/`). The homepage is the main landing page of the website.\n\n2. **GUI Elements**:\n   - **Header**: The top part of the webpage containing navigation links. This is where you would typically find links to the shopping cart.\n   - **Menu Items**: Look for menu items that lead to the shopping cart or a section where you can view your cart. Common labels for these sections include \"My Cart,\" \"Shopping Cart,\" or similar.\n\n3. **Labels**:\n   - **\"My Cart\"**: This is a common label for accessing the shopping cart. You may see a link labeled \"My Cart\" or something similar.\n   - **\"Shopping Cart\"**: Another common label for the shopping cart page.\n\n4. **Roles**:\n   - **Click**: The action required to interact with the GUI elements. For example, clicking on the \"My Cart\" link will take you to the shopping cart page.\n\n5. **Actions**:\n   - **Click \"My Cart\"**: This action involves clicking on the \"My Cart\" link to open the shopping cart page. Ensure that the URL after this action contains `/checkout/cart/` and the title contains \"Shopping Cart.\"\n\nBy following these steps, you should be able to navigate to the shopping cart page from the homepage. The relevant document chunks and references are as follows:\n\n- **Document Chunk**: \n  ```json\n  {\"reference_id\": \"\", \"content\": \"[source=cua] [type=state] state_id='afcab86ea55f' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/checkout/cart/::Shopping Cart'\"\n  ```\n\n- **Reference Document**:\n  - **Reference Document List**: The reference document corresponding to the above content is not provided in the given JSON data. However, based on the context, the relevant document would be the one that describes the state associated with the shopping cart URL.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+        },
+        {
+          "step": 1,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 18,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 9148,
+          "completion_tokens": 25,
+          "total_tokens": 9173,
+          "screenshot": "artifacts/eval_empty_cart_from_home/step_001/screenshot.png",
+          "rag_context": "To achieve the goal of opening the shopping cart page from the homepage, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **Navigation Path**: Start from the homepage (`http://localhost:7770/`). The homepage is the main landing page of the website.\n\n2. **GUI Elements**:\n   - **Header**: The top part of the webpage containing navigation links. This is where you would typically find links to the shopping cart.\n   - **Menu Items**: Look for menu items that lead to the shopping cart or a section where you can view your cart. Common labels for these sections include \"My Cart,\" \"Shopping Cart,\" or similar.\n\n3. **Labels**:\n   - **\"My Cart\"**: This is a common label for accessing the shopping cart. You may see a link labeled \"My Cart\" or something similar.\n   - **\"Shopping Cart\"**: Another common label for the shopping cart page.\n\n4. **Roles**:\n   - **Click**: The action required to interact with the GUI elements. For example, clicking on the \"My Cart\" link will take you to the shopping cart page.\n\n5. **Actions**:\n   - **Click \"My Cart\"**: This action involves clicking on the \"My Cart\" link to open the shopping cart page. Ensure that the URL after this action contains `/checkout/cart/` and the title contains \"Shopping Cart.\"\n\nBy following these steps, you should be able to navigate to the shopping cart page from the homepage. The relevant document chunks and references are as follows:\n\n- **Document Chunk**: \n  ```json\n  {\"reference_id\": \"\", \"content\": \"[source=cua] [type=state] state_id='afcab86ea55f' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/checkout/cart/::Shopping Cart'\"\n  ```\n\n- **Reference Document**:\n  - **Reference Document List**: The reference document corresponding to the above content is not provided in the given JSON data. However, based on the context, the relevant document would be the one that describes the state associated with the shopping cart URL.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+        },
+        {
+          "step": 2,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 18,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 9245,
+          "completion_tokens": 29,
+          "total_tokens": 9274,
+          "screenshot": "artifacts/eval_empty_cart_from_home/step_002/screenshot.png",
+          "rag_context": "To achieve the goal of opening the shopping cart page from the homepage, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **Navigation Path**: Start from the homepage (`http://localhost:7770/`). The homepage is the main landing page of the website.\n\n2. **GUI Elements**:\n   - **Header**: The top part of the webpage containing navigation links. This is where you would typically find links to the shopping cart.\n   - **Menu Items**: Look for menu items that lead to the shopping cart or a section where you can view your cart. Common labels for these sections include \"My Cart,\" \"Shopping Cart,\" or similar.\n\n3. **Labels**:\n   - **\"My Cart\"**: This is a common label for accessing the shopping cart. You may see a link labeled \"My Cart\" or something similar.\n   - **\"Shopping Cart\"**: Another common label for the shopping cart page.\n\n4. **Roles**:\n   - **Click**: The action required to interact with the GUI elements. For example, clicking on the \"My Cart\" link will take you to the shopping cart page.\n\n5. **Actions**:\n   - **Click \"My Cart\"**: This action involves clicking on the \"My Cart\" link to open the shopping cart page. Ensure that the URL after this action contains `/checkout/cart/` and the title contains \"Shopping Cart.\"\n\nBy following these steps, you should be able to navigate to the shopping cart page from the homepage. The relevant document chunks and references are as follows:\n\n- **Document Chunk**: \n  ```json\n  {\"reference_id\": \"\", \"content\": \"[source=cua] [type=state] state_id='afcab86ea55f' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/checkout/cart/::Shopping Cart'\"\n  ```\n\n- **Reference Document**:\n  - **Reference Document List**: The reference document corresponding to the above content is not provided in the given JSON data. However, based on the context, the relevant document would be the one that describes the state associated with the shopping cart URL.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+        }
+      ]
+    },
+    {
+      "id": "eval_advanced_search_fill_name",
+      "goal": "Open Advanced Search, type 'tea' into the Product Name field, and run the search so results appear.",
+      "success": true,
+      "n_steps": 5,
+      "expected_steps": 5,
+      "steps_delta": 0,
+      "max_steps": 8,
+      "start_url": "http://localhost:7770/",
+      "end_url": "http://localhost:7770/catalogsearch/advanced/result/?name=tea&sku=&description=&short_description=&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD",
+      "end_title": "Advanced Search Results",
+      "prompt_tokens": 40231,
+      "completion_tokens": 120,
+      "total_tokens": 40351,
+      "tags": "search,advanced,guest",
+      "error": null,
+      "rag_context": "To achieve the goal of opening the Advanced Search, typing 'tea' into the Product Name field, and running the search, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **GUI Elements and Navigation Paths**:\n   - **Advanced Search Feature**: Located in the Header or Homepage. This is the starting point for initiating the search.\n   - **Product Name Field**: Typically found within the Advanced Search form, where users can enter their search terms.\n   - **Search Button**: Usually labeled as 'Search', 'Find', or 'Go' and is used to execute the search after entering the product name.\n\n2. **Labels and Roles**:\n   - **Header**: Contains the Advanced Search link, which is the first step in the navigation path.\n   - **Advanced Search Form**: A form where users can input their search criteria, including the product name.\n   - **Product Name Field Label**: Likely labeled as 'Product Name', 'Search Term', or similar, indicating where the user should type their query.\n\n3. **Actions**:\n   - **Click on Advanced Search Link**: This action navigates to the Advanced Search page.\n   - **Type 'tea' into the Product Name Field**: This action inputs the search term into the designated field.\n   - **Click the Search Button**: This action triggers the search and displays the results.\n\nBy following these steps, the user can effectively initiate the search for tea-related products on the storefront. The specific navigation paths and labels may vary depending on the design of the storefront, but the core actions remain consistent across different implementations.",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 16,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8879,
+          "completion_tokens": 24,
+          "total_tokens": 8903,
+          "screenshot": "artifacts/eval_advanced_search_fill_name/step_000/screenshot.png",
+          "rag_context": "To achieve the goal of opening the Advanced Search, typing 'tea' into the Product Name field, and running the search, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **GUI Elements and Navigation Paths**:\n   - **Advanced Search Feature**: Located in the Header or Homepage. This is the starting point for initiating the search.\n   - **Product Name Field**: Typically found within the Advanced Search form, where users can enter their search terms.\n   - **Search Button**: Usually labeled as 'Search', 'Find', or 'Go' and is used to execute the search after entering the product name.\n\n2. **Labels and Roles**:\n   - **Header**: Contains the Advanced Search link, which is the first step in the navigation path.\n   - **Advanced Search Form**: A form where users can input their search criteria, including the product name.\n   - **Product Name Field Label**: Likely labeled as 'Product Name', 'Search Term', or similar, indicating where the user should type their query.\n\n3. **Actions**:\n   - **Click on Advanced Search Link**: This action navigates to the Advanced Search page.\n   - **Type 'tea' into the Product Name Field**: This action inputs the search term into the designated field.\n   - **Click the Search Button**: This action triggers the search and displays the results.\n\nBy following these steps, the user can effectively initiate the search for tea-related products on the storefront. The specific navigation paths and labels may vary depending on the design of the storefront, but the core actions remain consistent across different implementations."
+        },
+        {
+          "step": 1,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/catalogsearch/advanced/",
+          "title_before": "One Stop Market",
+          "title_after": "Advanced Search",
+          "action": {
+            "action": "click",
+            "target_mark_id": 19,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8982,
+          "completion_tokens": 24,
+          "total_tokens": 9006,
+          "screenshot": "artifacts/eval_advanced_search_fill_name/step_001/screenshot.png",
+          "rag_context": "To achieve the goal of opening the Advanced Search, typing 'tea' into the Product Name field, and running the search, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **GUI Elements and Navigation Paths**:\n   - **Advanced Search Feature**: Located in the Header or Homepage. This is the starting point for initiating the search.\n   - **Product Name Field**: Typically found within the Advanced Search form, where users can enter their search terms.\n   - **Search Button**: Usually labeled as 'Search', 'Find', or 'Go' and is used to execute the search after entering the product name.\n\n2. **Labels and Roles**:\n   - **Header**: Contains the Advanced Search link, which is the first step in the navigation path.\n   - **Advanced Search Form**: A form where users can input their search criteria, including the product name.\n   - **Product Name Field Label**: Likely labeled as 'Product Name', 'Search Term', or similar, indicating where the user should type their query.\n\n3. **Actions**:\n   - **Click on Advanced Search Link**: This action navigates to the Advanced Search page.\n   - **Type 'tea' into the Product Name Field**: This action inputs the search term into the designated field.\n   - **Click the Search Button**: This action triggers the search and displays the results.\n\nBy following these steps, the user can effectively initiate the search for tea-related products on the storefront. The specific navigation paths and labels may vary depending on the design of the storefront, but the core actions remain consistent across different implementations."
+        },
+        {
+          "step": 2,
+          "url_before": "http://localhost:7770/catalogsearch/advanced/",
+          "url_after": "http://localhost:7770/catalogsearch/advanced/",
+          "title_before": "Advanced Search",
+          "title_after": "Advanced Search",
+          "action": {
+            "action": "click",
+            "target_mark_id": 24,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 7348,
+          "completion_tokens": 25,
+          "total_tokens": 7373,
+          "screenshot": "artifacts/eval_advanced_search_fill_name/step_002/screenshot.png",
+          "rag_context": "To achieve the goal of opening the Advanced Search, typing 'tea' into the Product Name field, and running the search, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **GUI Elements and Navigation Paths**:\n   - **Advanced Search Feature**: Located in the Header or Homepage. This is the starting point for initiating the search.\n   - **Product Name Field**: Typically found within the Advanced Search form, where users can enter their search terms.\n   - **Search Button**: Usually labeled as 'Search', 'Find', or 'Go' and is used to execute the search after entering the product name.\n\n2. **Labels and Roles**:\n   - **Header**: Contains the Advanced Search link, which is the first step in the navigation path.\n   - **Advanced Search Form**: A form where users can input their search criteria, including the product name.\n   - **Product Name Field Label**: Likely labeled as 'Product Name', 'Search Term', or similar, indicating where the user should type their query.\n\n3. **Actions**:\n   - **Click on Advanced Search Link**: This action navigates to the Advanced Search page.\n   - **Type 'tea' into the Product Name Field**: This action inputs the search term into the designated field.\n   - **Click the Search Button**: This action triggers the search and displays the results.\n\nBy following these steps, the user can effectively initiate the search for tea-related products on the storefront. The specific navigation paths and labels may vary depending on the design of the storefront, but the core actions remain consistent across different implementations."
+        },
+        {
+          "step": 3,
+          "url_before": "http://localhost:7770/catalogsearch/advanced/",
+          "url_after": "http://localhost:7770/catalogsearch/advanced/",
+          "title_before": "Advanced Search",
+          "title_after": "Advanced Search",
+          "action": {
+            "action": "type",
+            "target_mark_id": 24,
+            "value": "tea"
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 7456,
+          "completion_tokens": 27,
+          "total_tokens": 7483,
+          "screenshot": "artifacts/eval_advanced_search_fill_name/step_003/screenshot.png",
+          "rag_context": "To achieve the goal of opening the Advanced Search, typing 'tea' into the Product Name field, and running the search, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **GUI Elements and Navigation Paths**:\n   - **Advanced Search Feature**: Located in the Header or Homepage. This is the starting point for initiating the search.\n   - **Product Name Field**: Typically found within the Advanced Search form, where users can enter their search terms.\n   - **Search Button**: Usually labeled as 'Search', 'Find', or 'Go' and is used to execute the search after entering the product name.\n\n2. **Labels and Roles**:\n   - **Header**: Contains the Advanced Search link, which is the first step in the navigation path.\n   - **Advanced Search Form**: A form where users can input their search criteria, including the product name.\n   - **Product Name Field Label**: Likely labeled as 'Product Name', 'Search Term', or similar, indicating where the user should type their query.\n\n3. **Actions**:\n   - **Click on Advanced Search Link**: This action navigates to the Advanced Search page.\n   - **Type 'tea' into the Product Name Field**: This action inputs the search term into the designated field.\n   - **Click the Search Button**: This action triggers the search and displays the results.\n\nBy following these steps, the user can effectively initiate the search for tea-related products on the storefront. The specific navigation paths and labels may vary depending on the design of the storefront, but the core actions remain consistent across different implementations."
+        },
+        {
+          "step": 4,
+          "url_before": "http://localhost:7770/catalogsearch/advanced/",
+          "url_after": "http://localhost:7770/catalogsearch/advanced/result/?name=tea&sku=&description=&short_description=&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD",
+          "title_before": "Advanced Search",
+          "title_after": "Advanced Search Results",
+          "action": {
+            "action": "click",
+            "target_mark_id": 30,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 7566,
+          "completion_tokens": 20,
+          "total_tokens": 7586,
+          "screenshot": "artifacts/eval_advanced_search_fill_name/step_004/screenshot.png",
+          "rag_context": "To achieve the goal of opening the Advanced Search, typing 'tea' into the Product Name field, and running the search, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **GUI Elements and Navigation Paths**:\n   - **Advanced Search Feature**: Located in the Header or Homepage. This is the starting point for initiating the search.\n   - **Product Name Field**: Typically found within the Advanced Search form, where users can enter their search terms.\n   - **Search Button**: Usually labeled as 'Search', 'Find', or 'Go' and is used to execute the search after entering the product name.\n\n2. **Labels and Roles**:\n   - **Header**: Contains the Advanced Search link, which is the first step in the navigation path.\n   - **Advanced Search Form**: A form where users can input their search criteria, including the product name.\n   - **Product Name Field Label**: Likely labeled as 'Product Name', 'Search Term', or similar, indicating where the user should type their query.\n\n3. **Actions**:\n   - **Click on Advanced Search Link**: This action navigates to the Advanced Search page.\n   - **Type 'tea' into the Product Name Field**: This action inputs the search term into the designated field.\n   - **Click the Search Button**: This action triggers the search and displays the results.\n\nBy following these steps, the user can effectively initiate the search for tea-related products on the storefront. The specific navigation paths and labels may vary depending on the design of the storefront, but the core actions remain consistent across different implementations."
+        }
+      ]
+    },
+    {
+      "id": "eval_login_then_address_book",
+      "goal": "Log in with the test customer account, then open the Address Book.",
+      "success": false,
+      "n_steps": 10,
+      "expected_steps": 4,
+      "steps_delta": 6,
+      "max_steps": 10,
+      "start_url": "http://localhost:7770/customer/account/login/",
+      "end_url": "http://localhost:7770/cell-phones-accessories.html",
+      "end_title": "Cell Phones & Accessories",
+      "prompt_tokens": 84273,
+      "completion_tokens": 264,
+      "total_tokens": 84537,
+      "tags": "auth,account,customer",
+      "error": "stuck_loop: repeated click on menuitem 'Cell Phones & Accessories' 3x without leaving 'http://localhost:7770/cell-phones-accessories.html' / 'Cell Phones & Accessories'",
+      "rag_context": "To achieve the goal of logging in with the test customer account and opening the Address Book, we need to follow these steps:\n\n1. **Navigate to the Login Page**: The current page URL is `http://localhost:7770/customer/account/login/`, which is the correct starting point for logging in.\n\n2. **Enter Credentials**: Enter the email `emma.lopez@gmail.com` and the password `Password.123` into the respective fields. The relevant GUI elements here would be the email and password input fields.\n\n3. **Submit the Form**: After entering the credentials, click the submit button to log in. The submit button is typically labeled as \"Login\" or \"Sign In\".\n\n4. **Navigate to the Address Book**: Once logged in, locate and click on the link or menu item labeled \"Address Book\" or something similar. This will take you to the Address Book page.\n\nHere are the relevant navigation paths and actions based on the provided information:\n\n- **GUI Elements**:\n  - Email Input Field: Labelled as \"Email\"\n  - Password Input Field: Labelled as \"Password\"\n  - Submit Button: Labelled as \"Login\" or \"Sign In\"\n\n- **Navigation Paths**:\n  - From the login page, navigate to the Address Book by clicking on the \"Address Book\" link or menu item.\n\n- **Labels and Roles**:\n  - The email input field is a text box (`role='textbox'`).\n  - The password input field is a text box (`role='textbox'`).\n  - The submit button is a button (`role='button'`).\n\n- **Actions**:\n  - Enter the email `emma.lopez@gmail.com` into the email input field.\n  - Enter the password `Password.123` into the password input field.\n  - Click the submit button to log in.\n\nBy following these steps, you should be able to successfully log in with the test customer account and navigate to the Address Book page.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/customer/account/login/",
+          "url_after": "http://localhost:7770/customer/account/login/",
+          "title_before": "Customer Login",
+          "title_after": "Customer Login",
+          "action": {
+            "action": "click",
+            "target_mark_id": 23,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 7177,
+          "completion_tokens": 20,
+          "total_tokens": 7197,
+          "screenshot": "artifacts/eval_login_then_address_book/step_000/screenshot.png",
+          "rag_context": "To achieve the goal of logging in with the test customer account and opening the Address Book, we need to follow these steps:\n\n1. **Navigate to the Login Page**: The current page URL is `http://localhost:7770/customer/account/login/`, which is the correct starting point for logging in.\n\n2. **Enter Credentials**: Enter the email `emma.lopez@gmail.com` and the password `Password.123` into the respective fields. The relevant GUI elements here would be the email and password input fields.\n\n3. **Submit the Form**: After entering the credentials, click the submit button to log in. The submit button is typically labeled as \"Login\" or \"Sign In\".\n\n4. **Navigate to the Address Book**: Once logged in, locate and click on the link or menu item labeled \"Address Book\" or something similar. This will take you to the Address Book page.\n\nHere are the relevant navigation paths and actions based on the provided information:\n\n- **GUI Elements**:\n  - Email Input Field: Labelled as \"Email\"\n  - Password Input Field: Labelled as \"Password\"\n  - Submit Button: Labelled as \"Login\" or \"Sign In\"\n\n- **Navigation Paths**:\n  - From the login page, navigate to the Address Book by clicking on the \"Address Book\" link or menu item.\n\n- **Labels and Roles**:\n  - The email input field is a text box (`role='textbox'`).\n  - The password input field is a text box (`role='textbox'`).\n  - The submit button is a button (`role='button'`).\n\n- **Actions**:\n  - Enter the email `emma.lopez@gmail.com` into the email input field.\n  - Enter the password `Password.123` into the password input field.\n  - Click the submit button to log in.\n\nBy following these steps, you should be able to successfully log in with the test customer account and navigate to the Address Book page.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+        },
+        {
+          "step": 1,
+          "url_before": "http://localhost:7770/customer/account/login/",
+          "url_after": "http://localhost:7770/customer/account/login/",
+          "title_before": "Customer Login",
+          "title_after": "Customer Login",
+          "action": {
+            "action": "type",
+            "target_mark_id": 23,
+            "value": "emma.lopez@gmail.com"
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 7285,
+          "completion_tokens": 32,
+          "total_tokens": 7317,
+          "screenshot": "artifacts/eval_login_then_address_book/step_001/screenshot.png",
+          "rag_context": "To achieve the goal of logging in with the test customer account and opening the Address Book, we need to follow these steps:\n\n1. **Navigate to the Login Page**: The current page URL is `http://localhost:7770/customer/account/login/`, which is the correct starting point for logging in.\n\n2. **Enter Credentials**: Enter the email `emma.lopez@gmail.com` and the password `Password.123` into the respective fields. The relevant GUI elements here would be the email and password input fields.\n\n3. **Submit the Form**: After entering the credentials, click the submit button to log in. The submit button is typically labeled as \"Login\" or \"Sign In\".\n\n4. **Navigate to the Address Book**: Once logged in, locate and click on the link or menu item labeled \"Address Book\" or something similar. This will take you to the Address Book page.\n\nHere are the relevant navigation paths and actions based on the provided information:\n\n- **GUI Elements**:\n  - Email Input Field: Labelled as \"Email\"\n  - Password Input Field: Labelled as \"Password\"\n  - Submit Button: Labelled as \"Login\" or \"Sign In\"\n\n- **Navigation Paths**:\n  - From the login page, navigate to the Address Book by clicking on the \"Address Book\" link or menu item.\n\n- **Labels and Roles**:\n  - The email input field is a text box (`role='textbox'`).\n  - The password input field is a text box (`role='textbox'`).\n  - The submit button is a button (`role='button'`).\n\n- **Actions**:\n  - Enter the email `emma.lopez@gmail.com` into the email input field.\n  - Enter the password `Password.123` into the password input field.\n  - Click the submit button to log in.\n\nBy following these steps, you should be able to successfully log in with the test customer account and navigate to the Address Book page.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+        },
+        {
+          "step": 2,
+          "url_before": "http://localhost:7770/customer/account/login/",
+          "url_after": "http://localhost:7770/customer/account/login/",
+          "title_before": "Customer Login",
+          "title_after": "Customer Login",
+          "action": {
+            "action": "type",
+            "target_mark_id": 25,
+            "value": "Password.123"
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 7398,
+          "completion_tokens": 31,
+          "total_tokens": 7429,
+          "screenshot": "artifacts/eval_login_then_address_book/step_002/screenshot.png",
+          "rag_context": "To achieve the goal of logging in with the test customer account and opening the Address Book, we need to follow these steps:\n\n1. **Navigate to the Login Page**: The current page URL is `http://localhost:7770/customer/account/login/`, which is the correct starting point for logging in.\n\n2. **Enter Credentials**: Enter the email `emma.lopez@gmail.com` and the password `Password.123` into the respective fields. The relevant GUI elements here would be the email and password input fields.\n\n3. **Submit the Form**: After entering the credentials, click the submit button to log in. The submit button is typically labeled as \"Login\" or \"Sign In\".\n\n4. **Navigate to the Address Book**: Once logged in, locate and click on the link or menu item labeled \"Address Book\" or something similar. This will take you to the Address Book page.\n\nHere are the relevant navigation paths and actions based on the provided information:\n\n- **GUI Elements**:\n  - Email Input Field: Labelled as \"Email\"\n  - Password Input Field: Labelled as \"Password\"\n  - Submit Button: Labelled as \"Login\" or \"Sign In\"\n\n- **Navigation Paths**:\n  - From the login page, navigate to the Address Book by clicking on the \"Address Book\" link or menu item.\n\n- **Labels and Roles**:\n  - The email input field is a text box (`role='textbox'`).\n  - The password input field is a text box (`role='textbox'`).\n  - The submit button is a button (`role='button'`).\n\n- **Actions**:\n  - Enter the email `emma.lopez@gmail.com` into the email input field.\n  - Enter the password `Password.123` into the password input field.\n  - Click the submit button to log in.\n\nBy following these steps, you should be able to successfully log in with the test customer account and navigate to the Address Book page.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+        },
+        {
+          "step": 3,
+          "url_before": "http://localhost:7770/customer/account/login/",
+          "url_after": "http://localhost:7770/wishlist/index/index/wishlist_id/5/",
+          "title_before": "Customer Login",
+          "title_after": "My Wish List",
+          "action": {
+            "action": "click",
+            "target_mark_id": 27,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 7510,
+          "completion_tokens": 32,
+          "total_tokens": 7542,
+          "screenshot": "artifacts/eval_login_then_address_book/step_003/screenshot.png",
+          "rag_context": "To achieve the goal of logging in with the test customer account and opening the Address Book, we need to follow these steps:\n\n1. **Navigate to the Login Page**: The current page URL is `http://localhost:7770/customer/account/login/`, which is the correct starting point for logging in.\n\n2. **Enter Credentials**: Enter the email `emma.lopez@gmail.com` and the password `Password.123` into the respective fields. The relevant GUI elements here would be the email and password input fields.\n\n3. **Submit the Form**: After entering the credentials, click the submit button to log in. The submit button is typically labeled as \"Login\" or \"Sign In\".\n\n4. **Navigate to the Address Book**: Once logged in, locate and click on the link or menu item labeled \"Address Book\" or something similar. This will take you to the Address Book page.\n\nHere are the relevant navigation paths and actions based on the provided information:\n\n- **GUI Elements**:\n  - Email Input Field: Labelled as \"Email\"\n  - Password Input Field: Labelled as \"Password\"\n  - Submit Button: Labelled as \"Login\" or \"Sign In\"\n\n- **Navigation Paths**:\n  - From the login page, navigate to the Address Book by clicking on the \"Address Book\" link or menu item.\n\n- **Labels and Roles**:\n  - The email input field is a text box (`role='textbox'`).\n  - The password input field is a text box (`role='textbox'`).\n  - The submit button is a button (`role='button'`).\n\n- **Actions**:\n  - Enter the email `emma.lopez@gmail.com` into the email input field.\n  - Enter the password `Password.123` into the password input field.\n  - Click the submit button to log in.\n\nBy following these steps, you should be able to successfully log in with the test customer account and navigate to the Address Book page.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+        },
+        {
+          "step": 4,
+          "url_before": "http://localhost:7770/wishlist/index/index/wishlist_id/5/",
+          "url_after": "http://localhost:7770/privacy-policy-cookie-restriction-mode",
+          "title_before": "My Wish List",
+          "title_after": "Privacy and Cookie Policy",
+          "action": {
+            "action": "click",
+            "target_mark_id": 33,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8913,
+          "completion_tokens": 25,
+          "total_tokens": 8938,
+          "screenshot": "artifacts/eval_login_then_address_book/step_004/screenshot.png",
+          "rag_context": "To achieve the goal of logging in with the test customer account and opening the Address Book, we need to follow these steps:\n\n1. **Navigate to the Login Page**: The current page URL is `http://localhost:7770/customer/account/login/`, which is the correct starting point for logging in.\n\n2. **Enter Credentials**: Enter the email `emma.lopez@gmail.com` and the password `Password.123` into the respective fields. The relevant GUI elements here would be the email and password input fields.\n\n3. **Submit the Form**: After entering the credentials, click the submit button to log in. The submit button is typically labeled as \"Login\" or \"Sign In\".\n\n4. **Navigate to the Address Book**: Once logged in, locate and click on the link or menu item labeled \"Address Book\" or something similar. This will take you to the Address Book page.\n\nHere are the relevant navigation paths and actions based on the provided information:\n\n- **GUI Elements**:\n  - Email Input Field: Labelled as \"Email\"\n  - Password Input Field: Labelled as \"Password\"\n  - Submit Button: Labelled as \"Login\" or \"Sign In\"\n\n- **Navigation Paths**:\n  - From the login page, navigate to the Address Book by clicking on the \"Address Book\" link or menu item.\n\n- **Labels and Roles**:\n  - The email input field is a text box (`role='textbox'`).\n  - The password input field is a text box (`role='textbox'`).\n  - The submit button is a button (`role='button'`).\n\n- **Actions**:\n  - Enter the email `emma.lopez@gmail.com` into the email input field.\n  - Enter the password `Password.123` into the password input field.\n  - Click the submit button to log in.\n\nBy following these steps, you should be able to successfully log in with the test customer account and navigate to the Address Book page.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+        },
+        {
+          "step": 5,
+          "url_before": "http://localhost:7770/privacy-policy-cookie-restriction-mode",
+          "url_after": "http://localhost:7770/beauty-personal-care.html",
+          "title_before": "Privacy and Cookie Policy",
+          "title_after": "Beauty & Personal Care",
+          "action": {
+            "action": "click",
+            "target_mark_id": 10,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 6245,
+          "completion_tokens": 25,
+          "total_tokens": 6270,
+          "screenshot": "artifacts/eval_login_then_address_book/step_005/screenshot.png",
+          "rag_context": "To achieve the goal of logging in with the test customer account and opening the Address Book, we need to follow these steps:\n\n1. **Navigate to the Login Page**: The current page URL is `http://localhost:7770/customer/account/login/`, which is the correct starting point for logging in.\n\n2. **Enter Credentials**: Enter the email `emma.lopez@gmail.com` and the password `Password.123` into the respective fields. The relevant GUI elements here would be the email and password input fields.\n\n3. **Submit the Form**: After entering the credentials, click the submit button to log in. The submit button is typically labeled as \"Login\" or \"Sign In\".\n\n4. **Navigate to the Address Book**: Once logged in, locate and click on the link or menu item labeled \"Address Book\" or something similar. This will take you to the Address Book page.\n\nHere are the relevant navigation paths and actions based on the provided information:\n\n- **GUI Elements**:\n  - Email Input Field: Labelled as \"Email\"\n  - Password Input Field: Labelled as \"Password\"\n  - Submit Button: Labelled as \"Login\" or \"Sign In\"\n\n- **Navigation Paths**:\n  - From the login page, navigate to the Address Book by clicking on the \"Address Book\" link or menu item.\n\n- **Labels and Roles**:\n  - The email input field is a text box (`role='textbox'`).\n  - The password input field is a text box (`role='textbox'`).\n  - The submit button is a button (`role='button'`).\n\n- **Actions**:\n  - Enter the email `emma.lopez@gmail.com` into the email input field.\n  - Enter the password `Password.123` into the password input field.\n  - Click the submit button to log in.\n\nBy following these steps, you should be able to successfully log in with the test customer account and navigate to the Address Book page.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+        },
+        {
+          "step": 6,
+          "url_before": "http://localhost:7770/beauty-personal-care.html",
+          "url_after": "http://localhost:7770/cell-phones-accessories.html",
+          "title_before": "Beauty & Personal Care",
+          "title_after": "Cell Phones & Accessories",
+          "action": {
+            "action": "click",
+            "target_mark_id": 30,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 9823,
+          "completion_tokens": 20,
+          "total_tokens": 9843,
+          "screenshot": "artifacts/eval_login_then_address_book/step_006/screenshot.png",
+          "rag_context": "To achieve the goal of logging in with the test customer account and opening the Address Book, we need to follow these steps:\n\n1. **Navigate to the Login Page**: The current page URL is `http://localhost:7770/customer/account/login/`, which is the correct starting point for logging in.\n\n2. **Enter Credentials**: Enter the email `emma.lopez@gmail.com` and the password `Password.123` into the respective fields. The relevant GUI elements here would be the email and password input fields.\n\n3. **Submit the Form**: After entering the credentials, click the submit button to log in. The submit button is typically labeled as \"Login\" or \"Sign In\".\n\n4. **Navigate to the Address Book**: Once logged in, locate and click on the link or menu item labeled \"Address Book\" or something similar. This will take you to the Address Book page.\n\nHere are the relevant navigation paths and actions based on the provided information:\n\n- **GUI Elements**:\n  - Email Input Field: Labelled as \"Email\"\n  - Password Input Field: Labelled as \"Password\"\n  - Submit Button: Labelled as \"Login\" or \"Sign In\"\n\n- **Navigation Paths**:\n  - From the login page, navigate to the Address Book by clicking on the \"Address Book\" link or menu item.\n\n- **Labels and Roles**:\n  - The email input field is a text box (`role='textbox'`).\n  - The password input field is a text box (`role='textbox'`).\n  - The submit button is a button (`role='button'`).\n\n- **Actions**:\n  - Enter the email `emma.lopez@gmail.com` into the email input field.\n  - Enter the password `Password.123` into the password input field.\n  - Click the submit button to log in.\n\nBy following these steps, you should be able to successfully log in with the test customer account and navigate to the Address Book page.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+        },
+        {
+          "step": 7,
+          "url_before": "http://localhost:7770/cell-phones-accessories.html",
+          "url_after": "http://localhost:7770/cell-phones-accessories.html",
+          "title_before": "Cell Phones & Accessories",
+          "title_after": "Cell Phones & Accessories",
+          "action": {
+            "action": "click",
+            "target_mark_id": 27,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 9858,
+          "completion_tokens": 25,
+          "total_tokens": 9883,
+          "screenshot": "artifacts/eval_login_then_address_book/step_007/screenshot.png",
+          "rag_context": "To achieve the goal of logging in with the test customer account and opening the Address Book, we need to follow these steps:\n\n1. **Navigate to the Login Page**: The current page URL is `http://localhost:7770/customer/account/login/`, which is the correct starting point for logging in.\n\n2. **Enter Credentials**: Enter the email `emma.lopez@gmail.com` and the password `Password.123` into the respective fields. The relevant GUI elements here would be the email and password input fields.\n\n3. **Submit the Form**: After entering the credentials, click the submit button to log in. The submit button is typically labeled as \"Login\" or \"Sign In\".\n\n4. **Navigate to the Address Book**: Once logged in, locate and click on the link or menu item labeled \"Address Book\" or something similar. This will take you to the Address Book page.\n\nHere are the relevant navigation paths and actions based on the provided information:\n\n- **GUI Elements**:\n  - Email Input Field: Labelled as \"Email\"\n  - Password Input Field: Labelled as \"Password\"\n  - Submit Button: Labelled as \"Login\" or \"Sign In\"\n\n- **Navigation Paths**:\n  - From the login page, navigate to the Address Book by clicking on the \"Address Book\" link or menu item.\n\n- **Labels and Roles**:\n  - The email input field is a text box (`role='textbox'`).\n  - The password input field is a text box (`role='textbox'`).\n  - The submit button is a button (`role='button'`).\n\n- **Actions**:\n  - Enter the email `emma.lopez@gmail.com` into the email input field.\n  - Enter the password `Password.123` into the password input field.\n  - Click the submit button to log in.\n\nBy following these steps, you should be able to successfully log in with the test customer account and navigate to the Address Book page.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+        },
+        {
+          "step": 8,
+          "url_before": "http://localhost:7770/cell-phones-accessories.html",
+          "url_after": "http://localhost:7770/cell-phones-accessories.html",
+          "title_before": "Cell Phones & Accessories",
+          "title_after": "Cell Phones & Accessories",
+          "action": {
+            "action": "click",
+            "target_mark_id": 27,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 9974,
+          "completion_tokens": 25,
+          "total_tokens": 9999,
+          "screenshot": "artifacts/eval_login_then_address_book/step_008/screenshot.png",
+          "rag_context": "To achieve the goal of logging in with the test customer account and opening the Address Book, we need to follow these steps:\n\n1. **Navigate to the Login Page**: The current page URL is `http://localhost:7770/customer/account/login/`, which is the correct starting point for logging in.\n\n2. **Enter Credentials**: Enter the email `emma.lopez@gmail.com` and the password `Password.123` into the respective fields. The relevant GUI elements here would be the email and password input fields.\n\n3. **Submit the Form**: After entering the credentials, click the submit button to log in. The submit button is typically labeled as \"Login\" or \"Sign In\".\n\n4. **Navigate to the Address Book**: Once logged in, locate and click on the link or menu item labeled \"Address Book\" or something similar. This will take you to the Address Book page.\n\nHere are the relevant navigation paths and actions based on the provided information:\n\n- **GUI Elements**:\n  - Email Input Field: Labelled as \"Email\"\n  - Password Input Field: Labelled as \"Password\"\n  - Submit Button: Labelled as \"Login\" or \"Sign In\"\n\n- **Navigation Paths**:\n  - From the login page, navigate to the Address Book by clicking on the \"Address Book\" link or menu item.\n\n- **Labels and Roles**:\n  - The email input field is a text box (`role='textbox'`).\n  - The password input field is a text box (`role='textbox'`).\n  - The submit button is a button (`role='button'`).\n\n- **Actions**:\n  - Enter the email `emma.lopez@gmail.com` into the email input field.\n  - Enter the password `Password.123` into the password input field.\n  - Click the submit button to log in.\n\nBy following these steps, you should be able to successfully log in with the test customer account and navigate to the Address Book page.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+        },
+        {
+          "step": 9,
+          "url_before": "http://localhost:7770/cell-phones-accessories.html",
+          "url_after": "http://localhost:7770/cell-phones-accessories.html",
+          "title_before": "Cell Phones & Accessories",
+          "title_after": "Cell Phones & Accessories",
+          "action": {
+            "action": "click",
+            "target_mark_id": 27,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 10090,
+          "completion_tokens": 29,
+          "total_tokens": 10119,
+          "screenshot": "artifacts/eval_login_then_address_book/step_009/screenshot.png",
+          "rag_context": "To achieve the goal of logging in with the test customer account and opening the Address Book, we need to follow these steps:\n\n1. **Navigate to the Login Page**: The current page URL is `http://localhost:7770/customer/account/login/`, which is the correct starting point for logging in.\n\n2. **Enter Credentials**: Enter the email `emma.lopez@gmail.com` and the password `Password.123` into the respective fields. The relevant GUI elements here would be the email and password input fields.\n\n3. **Submit the Form**: After entering the credentials, click the submit button to log in. The submit button is typically labeled as \"Login\" or \"Sign In\".\n\n4. **Navigate to the Address Book**: Once logged in, locate and click on the link or menu item labeled \"Address Book\" or something similar. This will take you to the Address Book page.\n\nHere are the relevant navigation paths and actions based on the provided information:\n\n- **GUI Elements**:\n  - Email Input Field: Labelled as \"Email\"\n  - Password Input Field: Labelled as \"Password\"\n  - Submit Button: Labelled as \"Login\" or \"Sign In\"\n\n- **Navigation Paths**:\n  - From the login page, navigate to the Address Book by clicking on the \"Address Book\" link or menu item.\n\n- **Labels and Roles**:\n  - The email input field is a text box (`role='textbox'`).\n  - The password input field is a text box (`role='textbox'`).\n  - The submit button is a button (`role='button'`).\n\n- **Actions**:\n  - Enter the email `emma.lopez@gmail.com` into the email input field.\n  - Enter the password `Password.123` into the password input field.\n  - Click the submit button to log in.\n\nBy following these steps, you should be able to successfully log in with the test customer account and navigate to the Address Book page.\n\n### References\n\n- [1] Document Title One\n- [2] Document Title Two\n- [3] Document Title Three\n- [4] Document Title Four\n- [5] Document Title Five"
+        }
+      ]
+    },
+    {
+      "id": "eval_category_to_headphones",
+      "goal": "Start on Electronics. Open the Headphones subcategory from the category sidebar/listing.",
+      "success": true,
+      "n_steps": 2,
+      "expected_steps": 1,
+      "steps_delta": 1,
+      "max_steps": 6,
+      "start_url": "http://localhost:7770/electronics.html",
+      "end_url": "http://localhost:7770/electronics/headphones.html",
+      "end_title": "Headphones - Electronics",
+      "prompt_tokens": 18244,
+      "completion_tokens": 60,
+      "total_tokens": 18304,
+      "tags": "browse,guest",
+      "error": null,
+      "rag_context": "To achieve the goal of opening the Headphones subcategory from the category sidebar/listing on the Electronics page, we need to identify the relevant GUI elements, navigation paths, labels, roles, and actions based on the available information.\n\n1. **Identify the Category Sidebar/Listing**: The category sidebar or listing is likely to be present on the page at `http://localhost:7770/electronics.html`. This is where categories like Headphones would be listed.\n\n2. **Locate the Headphones Subcategory**: Once the category sidebar is identified, locate the \"Headphones\" subcategory. This will require scanning the list for the \"Headphones\" label or similar text.\n\n3. **Navigate to the Headphones Subcategory**: Click on the \"Headphones\" label to navigate to the subcategory page.\n\n4. **GUI Elements and Roles**:\n   - **GUI Element**: The \"Headphones\" label or link in the category sidebar.\n   - **Role**: The role of the \"Headphones\" label or link is to represent the subcategory.\n   - **Action**: Clicking on the \"Headphones\" label or link.\n\n5. **Navigation Paths**:\n   - The navigation path would be: `Electronics > Headphones`.\n\n6. **Labels**:\n   - The label for the \"Headphones\" subcategory is \"Headphones\".\n\n7. **Actions**:\n   - The action required is to click on the \"Headphones\" label or link in the category sidebar.\n\nGiven the information provided, the relevant actions and elements are:\n\n- **GUI Element**: The \"Headphones\" label or link in the category sidebar.\n- **Role**: The role of the \"Headphones\" label or link is to represent the subcategory.\n- **Action**: Click on the \"Headphones\" label or link.\n\nBy following these steps, you will successfully navigate to the Headphones subcategory from the category sidebar on the Electronics page.",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/electronics.html",
+          "url_after": "http://localhost:7770/electronics.html",
+          "title_before": "Electronics",
+          "title_after": "Electronics",
+          "action": {
+            "action": "click",
+            "target_mark_id": 28,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 9030,
+          "completion_tokens": 24,
+          "total_tokens": 9054,
+          "screenshot": "artifacts/eval_category_to_headphones/step_000/screenshot.png",
+          "rag_context": "To achieve the goal of opening the Headphones subcategory from the category sidebar/listing on the Electronics page, we need to identify the relevant GUI elements, navigation paths, labels, roles, and actions based on the available information.\n\n1. **Identify the Category Sidebar/Listing**: The category sidebar or listing is likely to be present on the page at `http://localhost:7770/electronics.html`. This is where categories like Headphones would be listed.\n\n2. **Locate the Headphones Subcategory**: Once the category sidebar is identified, locate the \"Headphones\" subcategory. This will require scanning the list for the \"Headphones\" label or similar text.\n\n3. **Navigate to the Headphones Subcategory**: Click on the \"Headphones\" label to navigate to the subcategory page.\n\n4. **GUI Elements and Roles**:\n   - **GUI Element**: The \"Headphones\" label or link in the category sidebar.\n   - **Role**: The role of the \"Headphones\" label or link is to represent the subcategory.\n   - **Action**: Clicking on the \"Headphones\" label or link.\n\n5. **Navigation Paths**:\n   - The navigation path would be: `Electronics > Headphones`.\n\n6. **Labels**:\n   - The label for the \"Headphones\" subcategory is \"Headphones\".\n\n7. **Actions**:\n   - The action required is to click on the \"Headphones\" label or link in the category sidebar.\n\nGiven the information provided, the relevant actions and elements are:\n\n- **GUI Element**: The \"Headphones\" label or link in the category sidebar.\n- **Role**: The role of the \"Headphones\" label or link is to represent the subcategory.\n- **Action**: Click on the \"Headphones\" label or link.\n\nBy following these steps, you will successfully navigate to the Headphones subcategory from the category sidebar on the Electronics page."
+        },
+        {
+          "step": 1,
+          "url_before": "http://localhost:7770/electronics.html",
+          "url_after": "http://localhost:7770/electronics/headphones.html",
+          "title_before": "Electronics",
+          "title_after": "Headphones - Electronics",
+          "action": {
+            "action": "click",
+            "target_mark_id": 42,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 9214,
+          "completion_tokens": 36,
+          "total_tokens": 9250,
+          "screenshot": "artifacts/eval_category_to_headphones/step_001/screenshot.png",
+          "rag_context": "To achieve the goal of opening the Headphones subcategory from the category sidebar/listing on the Electronics page, we need to identify the relevant GUI elements, navigation paths, labels, roles, and actions based on the available information.\n\n1. **Identify the Category Sidebar/Listing**: The category sidebar or listing is likely to be present on the page at `http://localhost:7770/electronics.html`. This is where categories like Headphones would be listed.\n\n2. **Locate the Headphones Subcategory**: Once the category sidebar is identified, locate the \"Headphones\" subcategory. This will require scanning the list for the \"Headphones\" label or similar text.\n\n3. **Navigate to the Headphones Subcategory**: Click on the \"Headphones\" label to navigate to the subcategory page.\n\n4. **GUI Elements and Roles**:\n   - **GUI Element**: The \"Headphones\" label or link in the category sidebar.\n   - **Role**: The role of the \"Headphones\" label or link is to represent the subcategory.\n   - **Action**: Clicking on the \"Headphones\" label or link.\n\n5. **Navigation Paths**:\n   - The navigation path would be: `Electronics > Headphones`.\n\n6. **Labels**:\n   - The label for the \"Headphones\" subcategory is \"Headphones\".\n\n7. **Actions**:\n   - The action required is to click on the \"Headphones\" label or link in the category sidebar.\n\nGiven the information provided, the relevant actions and elements are:\n\n- **GUI Element**: The \"Headphones\" label or link in the category sidebar.\n- **Role**: The role of the \"Headphones\" label or link is to represent the subcategory.\n- **Action**: Click on the \"Headphones\" label or link.\n\nBy following these steps, you will successfully navigate to the Headphones subcategory from the category sidebar on the Electronics page."
+        }
+      ]
+    },
+    {
+      "id": "eval_minicart_to_full_cart",
+      "goal": "Assume an item is already in the cart. From the homepage, open the mini-cart and go to the full Shopping Cart page via View and Edit Cart (do NOT use Proceed to Checkout).",
+      "success": true,
+      "n_steps": 2,
+      "expected_steps": 3,
+      "steps_delta": -1,
+      "max_steps": 8,
+      "start_url": "http://localhost:7770/",
+      "end_url": "http://localhost:7770/checkout/cart/",
+      "end_title": "Shopping Cart",
+      "prompt_tokens": 18236,
+      "completion_tokens": 53,
+      "total_tokens": 18289,
+      "tags": "cart,minicart,guest",
+      "error": null,
+      "rag_context": "To accomplish the task of opening the full Shopping Cart page via the \"View and Edit Cart\" option from the homepage, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **Navigation Path**: \n   - Start from the homepage.\n   - Click on the \"My Cart\" link to open the minicart dropdown.\n   - Within the minicart dropdown, click on the \"View and Edit Cart\" link.\n\n2. **GUI Elements**:\n   - **My Cart Link**: This is the initial link you click to open the minicart dropdown.\n   - **Minicart Dropdown**: This is the dropdown that opens when you click the \"My Cart\" link.\n   - **View and Edit Cart Link**: This is the link inside the minicart dropdown that allows you to view and edit the cart contents.\n\n3. **Labels**:\n   - **My Cart**: The label for the link that opens the minicart dropdown.\n   - **View and Edit Cart**: The label for the link within the minicart dropdown that leads to the full Shopping Cart page.\n\n4. **Roles**:\n   - **Role of the \"My Cart\" Link**: This link is responsible for opening the minicart dropdown, which is a container for the cart items.\n   - **Role of the \"View and Edit Cart\" Link**: This link is responsible for navigating to the full Shopping Cart page, allowing the user to view and edit the cart contents.\n\n5. **Actions**:\n   - **Click on \"My Cart\"**: This action opens the minicart dropdown.\n   - **Click on \"View and Edit Cart\"**: This action navigates to the full Shopping Cart page.\n\nBy following these steps, you will successfully open the full Shopping Cart page without using the \"Proceed to Checkout\" option. The relevant actions and elements are clearly defined in the Knowledge Graph and Document Chunks provided.",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 17,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8986,
+          "completion_tokens": 24,
+          "total_tokens": 9010,
+          "screenshot": "artifacts/eval_minicart_to_full_cart/step_000/screenshot.png",
+          "rag_context": "To accomplish the task of opening the full Shopping Cart page via the \"View and Edit Cart\" option from the homepage, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **Navigation Path**: \n   - Start from the homepage.\n   - Click on the \"My Cart\" link to open the minicart dropdown.\n   - Within the minicart dropdown, click on the \"View and Edit Cart\" link.\n\n2. **GUI Elements**:\n   - **My Cart Link**: This is the initial link you click to open the minicart dropdown.\n   - **Minicart Dropdown**: This is the dropdown that opens when you click the \"My Cart\" link.\n   - **View and Edit Cart Link**: This is the link inside the minicart dropdown that allows you to view and edit the cart contents.\n\n3. **Labels**:\n   - **My Cart**: The label for the link that opens the minicart dropdown.\n   - **View and Edit Cart**: The label for the link within the minicart dropdown that leads to the full Shopping Cart page.\n\n4. **Roles**:\n   - **Role of the \"My Cart\" Link**: This link is responsible for opening the minicart dropdown, which is a container for the cart items.\n   - **Role of the \"View and Edit Cart\" Link**: This link is responsible for navigating to the full Shopping Cart page, allowing the user to view and edit the cart contents.\n\n5. **Actions**:\n   - **Click on \"My Cart\"**: This action opens the minicart dropdown.\n   - **Click on \"View and Edit Cart\"**: This action navigates to the full Shopping Cart page.\n\nBy following these steps, you will successfully open the full Shopping Cart page without using the \"Proceed to Checkout\" option. The relevant actions and elements are clearly defined in the Knowledge Graph and Document Chunks provided."
+        },
+        {
+          "step": 1,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/checkout/cart/",
+          "title_before": "One Stop Market",
+          "title_after": "Shopping Cart",
+          "action": {
+            "action": "click",
+            "target_mark_id": 11,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 9250,
+          "completion_tokens": 29,
+          "total_tokens": 9279,
+          "screenshot": "artifacts/eval_minicart_to_full_cart/step_001/screenshot.png",
+          "rag_context": "To accomplish the task of opening the full Shopping Cart page via the \"View and Edit Cart\" option from the homepage, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:\n\n1. **Navigation Path**: \n   - Start from the homepage.\n   - Click on the \"My Cart\" link to open the minicart dropdown.\n   - Within the minicart dropdown, click on the \"View and Edit Cart\" link.\n\n2. **GUI Elements**:\n   - **My Cart Link**: This is the initial link you click to open the minicart dropdown.\n   - **Minicart Dropdown**: This is the dropdown that opens when you click the \"My Cart\" link.\n   - **View and Edit Cart Link**: This is the link inside the minicart dropdown that allows you to view and edit the cart contents.\n\n3. **Labels**:\n   - **My Cart**: The label for the link that opens the minicart dropdown.\n   - **View and Edit Cart**: The label for the link within the minicart dropdown that leads to the full Shopping Cart page.\n\n4. **Roles**:\n   - **Role of the \"My Cart\" Link**: This link is responsible for opening the minicart dropdown, which is a container for the cart items.\n   - **Role of the \"View and Edit Cart\" Link**: This link is responsible for navigating to the full Shopping Cart page, allowing the user to view and edit the cart contents.\n\n5. **Actions**:\n   - **Click on \"My Cart\"**: This action opens the minicart dropdown.\n   - **Click on \"View and Edit Cart\"**: This action navigates to the full Shopping Cart page.\n\nBy following these steps, you will successfully open the full Shopping Cart page without using the \"Proceed to Checkout\" option. The relevant actions and elements are clearly defined in the Knowledge Graph and Document Chunks provided."
+        }
+      ]
+    }
+  ]
+}

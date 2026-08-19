@@ -1,0 +1,23 @@
+To submit the guest order lookup form, the following elements and actions are most relevant:
+
+1. **Navigation Path**: 
+   - Start from the homepage.
+   - Scroll down to the homepage footer if necessary.
+   - Click on the "Orders and Returns" link located in the footer. The URL should contain `/sales/guest/form/`.
+
+2. **GUI Elements**:
+   - The "Orders and Returns" link in the footer is crucial. Its role is to direct users to the guest order lookup form.
+   - Ensure the URL matches the expected pattern `/sales/guest/form/` to confirm the correct page is reached.
+
+3. **Labels**:
+   - The label for the "Orders and Returns" link is "Orders and Returns".
+   - The title of the page after accessing the link should be "Orders and Returns".
+
+4. **Roles**:
+   - The role of the "Orders and Returns" link is to navigate to the guest order lookup form.
+
+5. **Actions**:
+   - Click on the "Orders and Returns" link in the footer.
+   - Ensure the URL and title match the expected values to confirm the task is completed successfully.
+
+By following these steps, you will be able to successfully submit the guest order lookup form.

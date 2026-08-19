@@ -1,0 +1,16 @@
+{
+  "action": {
+    "action": "type",
+    "target_mark_id": 23,
+    "value": "emma.lopez@gmail.com"
+  },
+  "execution": {
+    "success": true,
+    "error": null
+  },
+  "tokens": {
+    "prompt": 7285,
+    "completion": 32,
+    "total": 7317
+  }
+}

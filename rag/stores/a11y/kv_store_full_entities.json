@@ -1,145 +1,12 @@
 {
-  "doc-10590a974d11935a433560ab608cc4ab": {
-    "entity_names": [
-      "Screen"
-    ],
-    "count": 1,
-    "create_time": 1787059500,
-    "update_time": 1787059500,
-    "_id": "doc-10590a974d11935a433560ab608cc4ab"
-  },
-  "doc-18737c929f0e58f64d4f20637bd214c3": {
-    "entity_names": [
-      "Screen"
-    ],
-    "count": 1,
-    "create_time": 1787059508,
-    "update_time": 1787059508,
-    "_id": "doc-18737c929f0e58f64d4f20637bd214c3"
-  },
   "doc-1e655bdbe42e94b57b5af114fcde92d5": {
     "entity_names": [
       "Screen"
     ],
     "count": 1,
-    "create_time": 1787059596,
-    "update_time": 1787059596,
+    "create_time": 1787077053,
+    "update_time": 1787077053,
     "_id": "doc-1e655bdbe42e94b57b5af114fcde92d5"
-  },
-  "doc-36f6576613a283888b16c8f9146dbd71": {
-    "entity_names": [
-      "Screen",
-      "a11y"
-    ],
-    "count": 2,
-    "create_time": 1787059598,
-    "update_time": 1787059598,
-    "_id": "doc-36f6576613a283888b16c8f9146dbd71"
-  },
-  "doc-3881dc8d47b3676c7ac00352787e5b11": {
-    "entity_names": [
-      "Screen"
-    ],
-    "count": 1,
-    "create_time": 1787059604,
-    "update_time": 1787059604,
-    "_id": "doc-3881dc8d47b3676c7ac00352787e5b11"
-  },
-  "doc-7ff218daa648cf801a7184502db5ca24": {
-    "entity_names": [
-      "1 lb Bag",
-      "Briess DME",
-      "Pilsen Light",
-      "a11y",
-      "http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html",
-      "product",
-      "screen"
-    ],
-    "count": 7,
-    "create_time": 1787059610,
-    "update_time": 1787059610,
-    "_id": "doc-7ff218daa648cf801a7184502db5ca24"
-  },
-  "doc-98635dbb5321900fe07ed4d39d07cf78": {
-    "entity_names": [
-      "Screen",
-      "a11y"
-    ],
-    "count": 2,
-    "create_time": 1787059613,
-    "update_time": 1787059613,
-    "_id": "doc-98635dbb5321900fe07ed4d39d07cf78"
-  },
-  "doc-9e92b01bfe3c2300574d5d397bef740c": {
-    "entity_names": [
-      "Screen"
-    ],
-    "count": 1,
-    "create_time": 1787059616,
-    "update_time": 1787059616,
-    "_id": "doc-9e92b01bfe3c2300574d5d397bef740c"
-  },
-  "doc-bc7fa509f6089f64c49c65f0ceb6b8ff": {
-    "entity_names": [
-      "Screen"
-    ],
-    "count": 1,
-    "create_time": 1787059621,
-    "update_time": 1787059621,
-    "_id": "doc-bc7fa509f6089f64c49c65f0ceb6b8ff"
-  },
-  "doc-d2a72d64e9d709b745758f4681df3ca6": {
-    "entity_names": [
-      "Screen",
-      "a11y",
-      "description",
-      "title",
-      "url"
-    ],
-    "count": 5,
-    "create_time": 1787059628,
-    "update_time": 1787059628,
-    "_id": "doc-d2a72d64e9d709b745758f4681df3ca6"
-  },
-  "doc-e71e082796434ad5e7fdfd56adbca8ef": {
-    "entity_names": [
-      "Screen",
-      "description",
-      "search_results",
-      "title",
-      "url"
-    ],
-    "count": 5,
-    "create_time": 1787059632,
-    "update_time": 1787059632,
-    "_id": "doc-e71e082796434ad5e7fdfd56adbca8ef"
-  },
-  "doc-01c33fc069142df72db73c0a60322bcf": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787059638,
-    "update_time": 1787059638,
-    "_id": "doc-01c33fc069142df72db73c0a60322bcf"
-  },
-  "doc-01c9fc9ee30d9a60fd968f838ea162d4": {
-    "entity_names": [
-      "Video Games",
-      "a11y",
-      "bbox_px",
-      "instruction",
-      "role",
-      "screen_id"
-    ],
-    "count": 6,
-    "create_time": 1787059641,
-    "update_time": 1787059641,
-    "_id": "doc-01c9fc9ee30d9a60fd968f838ea162d4"
   },
   "doc-024b19b8de0d5b640f27f0a312da5ca5": {
     "entity_names": [
@@ -150,8 +17,8 @@
       "screen_id"
     ],
     "count": 5,
-    "create_time": 1787059647,
-    "update_time": 1787059647,
+    "create_time": 1787077065,
+    "update_time": 1787077065,
     "_id": "doc-024b19b8de0d5b640f27f0a312da5ca5"
   },
   "doc-025c703964dec2fe371e10c8415dd613": {
@@ -160,8 +27,8 @@
       "screen_id"
     ],
     "count": 2,
-    "create_time": 1787059652,
-    "update_time": 1787059652,
+    "create_time": 1787077068,
+    "update_time": 1787077068,
     "_id": "doc-025c703964dec2fe371e10c8415dd613"
   },
   "doc-035e7b9e2f8521711975d04dc94e090f": {
@@ -174,8 +41,8 @@
       "screen_id"
     ],
     "count": 6,
-    "create_time": 1787059656,
-    "update_time": 1787059656,
+    "create_time": 1787077076,
+    "update_time": 1787077076,
     "_id": "doc-035e7b9e2f8521711975d04dc94e090f"
   },
   "doc-0b695dbca7b0baea8472f4b9b8c77cc7": {
@@ -193,8 +60,8 @@
       "width"
     ],
     "count": 11,
-    "create_time": 1787059664,
-    "update_time": 1787059664,
+    "create_time": 1787077091,
+    "update_time": 1787077091,
     "_id": "doc-0b695dbca7b0baea8472f4b9b8c77cc7"
   },
   "doc-0ecdec2685406dc115c811677c195f75": {
@@ -206,9 +73,27 @@
       "screen_id"
     ],
     "count": 5,
-    "create_time": 1787059669,
-    "update_time": 1787059669,
+    "create_time": 1787077104,
+    "update_time": 1787077104,
     "_id": "doc-0ecdec2685406dc115c811677c195f75"
+  },
+  "doc-10590a974d11935a433560ab608cc4ab": {
+    "entity_names": [
+      "Screen"
+    ],
+    "count": 1,
+    "create_time": 1787077112,
+    "update_time": 1787077112,
+    "_id": "doc-10590a974d11935a433560ab608cc4ab"
+  },
+  "doc-18737c929f0e58f64d4f20637bd214c3": {
+    "entity_names": [
+      "Screen"
+    ],
+    "count": 1,
+    "create_time": 1787077115,
+    "update_time": 1787077115,
+    "_id": "doc-18737c929f0e58f64d4f20637bd214c3"
   },
   "doc-1abb292a251278234ef2aea5585a4cec": {
     "entity_names": [
@@ -220,27 +105,22 @@
       "screen_id"
     ],
     "count": 6,
-    "create_time": 1787059678,
-    "update_time": 1787059678,
+    "create_time": 1787077118,
+    "update_time": 1787077118,
     "_id": "doc-1abb292a251278234ef2aea5585a4cec"
   },
   "doc-1b170fd51d9decb5d06c4423362c7e10": {
     "entity_names": [
-      "Advanced Search",
-      "[962, 108, 1074, 127]",
       "a11y",
       "bbox_px",
-      "click",
       "instruction",
-      "link",
       "name",
       "role",
-      "screen_id",
-      "search_results"
+      "screen_id"
     ],
-    "count": 11,
-    "create_time": 1787059682,
-    "update_time": 1787059682,
+    "count": 6,
+    "create_time": 1787077126,
+    "update_time": 1787077126,
     "_id": "doc-1b170fd51d9decb5d06c4423362c7e10"
   },
   "doc-1b896baf2b5d815d3bbe0eb625a72814": {
@@ -248,8 +128,8 @@
       "a11y"
     ],
     "count": 1,
-    "create_time": 1787059687,
-    "update_time": 1787059687,
+    "create_time": 1787077134,
+    "update_time": 1787077134,
     "_id": "doc-1b896baf2b5d815d3bbe0eb625a72814"
   },
   "doc-1c39a269c840c652393b3da52117ee29": {
@@ -259,8 +139,8 @@
       "bbox_px"
     ],
     "count": 3,
-    "create_time": 1787059692,
-    "update_time": 1787059692,
+    "create_time": 1787077147,
+    "update_time": 1787077147,
     "_id": "doc-1c39a269c840c652393b3da52117ee29"
   },
   "doc-1e69ba803ff29a691deb2111e022bb4d": {
@@ -273,32 +153,17 @@
       "screen_id"
     ],
     "count": 6,
-    "create_time": 1787059699,
-    "update_time": 1787059699,
+    "create_time": 1787077363,
+    "update_time": 1787077363,
     "_id": "doc-1e69ba803ff29a691deb2111e022bb4d"
-  },
-  "doc-2264c0cbd93197c10fe0a09fdbcf60f8": {
-    "entity_names": [
-      "Cell Phones & Accessories",
-      "a11y",
-      "bbox_px",
-      "instruction",
-      "menuitem",
-      "role",
-      "screen_id"
-    ],
-    "count": 7,
-    "create_time": 1787059704,
-    "update_time": 1787059704,
-    "_id": "doc-2264c0cbd93197c10fe0a09fdbcf60f8"
   },
   "doc-251472ea8351de945743e3a79d872336": {
     "entity_names": [
       "Screen"
     ],
     "count": 1,
-    "create_time": 1787059712,
-    "update_time": 1787059712,
+    "create_time": 1787077375,
+    "update_time": 1787077375,
     "_id": "doc-251472ea8351de945743e3a79d872336"
   },
   "doc-269a8ede147006aea65d5f4620f825e3": {
@@ -310,8 +175,8 @@
       "screen_id"
     ],
     "count": 5,
-    "create_time": 1787059719,
-    "update_time": 1787059719,
+    "create_time": 1787077391,
+    "update_time": 1787077391,
     "_id": "doc-269a8ede147006aea65d5f4620f825e3"
   },
   "doc-323e293277d50c431bbc02b71c78a7a1": {
@@ -323,8 +188,8 @@
       "screen_id"
     ],
     "count": 5,
-    "create_time": 1787059726,
-    "update_time": 1787059726,
+    "create_time": 1787077396,
+    "update_time": 1787077396,
     "_id": "doc-323e293277d50c431bbc02b71c78a7a1"
   },
   "doc-336354e68363ca14a619dc9017f3722b": {
@@ -336,8 +201,8 @@
       "screen_id"
     ],
     "count": 5,
-    "create_time": 1787059733,
-    "update_time": 1787059733,
+    "create_time": 1787077412,
+    "update_time": 1787077412,
     "_id": "doc-336354e68363ca14a619dc9017f3722b"
   },
   "doc-34a4752269e7cb15e0bdf4bc87ed2fff": {
@@ -345,53 +210,36 @@
       "Screen"
     ],
     "count": 1,
-    "create_time": 1787059789,
-    "update_time": 1787059789,
+    "create_time": 1787077476,
+    "update_time": 1787077476,
     "_id": "doc-34a4752269e7cb15e0bdf4bc87ed2fff"
+  },
+  "doc-36f6576613a283888b16c8f9146dbd71": {
+    "entity_names": [
+      "Screen"
+    ],
+    "count": 1,
+    "create_time": 1787077478,
+    "update_time": 1787077478,
+    "_id": "doc-36f6576613a283888b16c8f9146dbd71"
+  },
+  "doc-3881dc8d47b3676c7ac00352787e5b11": {
+    "entity_names": [
+      "Screen"
+    ],
+    "count": 1,
+    "create_time": 1787077481,
+    "update_time": 1787077481,
+    "_id": "doc-3881dc8d47b3676c7ac00352787e5b11"
   },
   "doc-3b63eb4098e5145f7df0c3032404516e": {
     "entity_names": [
       "a11y"
     ],
     "count": 1,
-    "create_time": 1787059792,
-    "update_time": 1787059792,
+    "create_time": 1787077484,
+    "update_time": 1787077484,
     "_id": "doc-3b63eb4098e5145f7df0c3032404516e"
-  },
-  "doc-45c24883b260d58ce196b2bd5813a10a": {
-    "entity_names": [
-      "Home",
-      "a11y",
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id",
-      "search_results",
-      "type"
-    ],
-    "count": 9,
-    "create_time": 1787059799,
-    "update_time": 1787059799,
-    "_id": "doc-45c24883b260d58ce196b2bd5813a10a"
-  },
-  "doc-4674831f2c70bf7fc7e44baad9da1bd2": {
-    "entity_names": [
-      "My Wish List",
-      "a11y",
-      "bbox_px",
-      "click",
-      "instruction",
-      "link",
-      "name",
-      "role",
-      "screen_id",
-      "search_results"
-    ],
-    "count": 10,
-    "create_time": 1787059807,
-    "update_time": 1787059807,
-    "_id": "doc-4674831f2c70bf7fc7e44baad9da1bd2"
   },
   "doc-4cb747e3acc9f125078ffdabdcabbc3e": {
     "entity_names": [
@@ -399,13 +247,12 @@
       "a11y",
       "bbox_px",
       "instruction",
-      "menuitem",
       "role",
       "screen_id"
     ],
-    "count": 7,
-    "create_time": 1787059818,
-    "update_time": 1787059818,
+    "count": 6,
+    "create_time": 1787080374,
+    "update_time": 1787080374,
     "_id": "doc-4cb747e3acc9f125078ffdabdcabbc3e"
   },
   "doc-4d2253d679e093ecd355e3b749bc2b59": {
@@ -419,8 +266,8 @@
       "screen_id"
     ],
     "count": 7,
-    "create_time": 1787059904,
-    "update_time": 1787059904,
+    "create_time": 1787080398,
+    "update_time": 1787080398,
     "_id": "doc-4d2253d679e093ecd355e3b749bc2b59"
   },
   "doc-53f6ded76ac80a02287a2f5e4d7808cb": {
@@ -428,8 +275,8 @@
       "a11y"
     ],
     "count": 1,
-    "create_time": 1787059911,
-    "update_time": 1787059911,
+    "create_time": 1787080403,
+    "update_time": 1787080403,
     "_id": "doc-53f6ded76ac80a02287a2f5e4d7808cb"
   },
   "doc-547a6ce3129ff5916eefb35f8a299993": {
@@ -441,8 +288,8 @@
       "screen_id"
     ],
     "count": 5,
-    "create_time": 1787059916,
-    "update_time": 1787059916,
+    "create_time": 1787080413,
+    "update_time": 1787080413,
     "_id": "doc-547a6ce3129ff5916eefb35f8a299993"
   },
   "doc-575df4d1d4a9a71fa3b40c1f3ed4f6be": {
@@ -455,25 +302,39 @@
       "screen_id"
     ],
     "count": 6,
-    "create_time": 1787060026,
-    "update_time": 1787060026,
+    "create_time": 1787080420,
+    "update_time": 1787080420,
     "_id": "doc-575df4d1d4a9a71fa3b40c1f3ed4f6be"
   },
   "doc-57700c1ee10803d54cfcb11e805a1b9e": {
     "entity_names": [
-      "Beauty & Personal Care",
-      "Clothing, Shoes & Jewelry",
-      "Home & Kitchen",
-      "Office Products",
-      "Sports & Outdoors",
-      "Tools & Home Improvement",
+      "Other",
       "a11y",
-      "search_results"
+      "bbox_px",
+      "instruction",
+      "name",
+      "role",
+      "screen_id"
     ],
-    "count": 8,
-    "create_time": 1787060037,
-    "update_time": 1787060037,
+    "count": 7,
+    "create_time": 1787080430,
+    "update_time": 1787080430,
     "_id": "doc-57700c1ee10803d54cfcb11e805a1b9e"
+  },
+  "doc-5ceb1c3b3128f0d47d1a8d177a4d6780": {
+    "entity_names": [
+      "a11y",
+      "bbox_px",
+      "element",
+      "instruction",
+      "name",
+      "role",
+      "screen_id"
+    ],
+    "count": 7,
+    "create_time": 1787080437,
+    "update_time": 1787080437,
+    "_id": "doc-5ceb1c3b3128f0d47d1a8d177a4d6780"
   },
   "doc-644571f9784ce04891f41845bd4a33cf": {
     "entity_names": [
@@ -481,8 +342,8 @@
       "screen_id"
     ],
     "count": 2,
-    "create_time": 1787060522,
-    "update_time": 1787060522,
+    "create_time": 1787080443,
+    "update_time": 1787080443,
     "_id": "doc-644571f9784ce04891f41845bd4a33cf"
   },
   "doc-6862f8705f500b582cfb681d1c6febc9": {
@@ -494,19 +355,9 @@
       "screen_id"
     ],
     "count": 5,
-    "create_time": 1787060527,
-    "update_time": 1787060527,
+    "create_time": 1787080450,
+    "update_time": 1787080450,
     "_id": "doc-6862f8705f500b582cfb681d1c6febc9"
-  },
-  "doc-6f918084db54f057473db40beef298f2": {
-    "entity_names": [
-      "Grocery & Gourmet Food",
-      "screen_id"
-    ],
-    "count": 2,
-    "create_time": 1787060538,
-    "update_time": 1787060538,
-    "_id": "doc-6f918084db54f057473db40beef298f2"
   },
   "doc-6fdf98cdebdbf6d580bc571f0e63d026": {
     "entity_names": [
@@ -520,8 +371,8 @@
       "home"
     ],
     "count": 8,
-    "create_time": 1787060552,
-    "update_time": 1787060552,
+    "create_time": 1787080463,
+    "update_time": 1787080463,
     "_id": "doc-6fdf98cdebdbf6d580bc571f0e63d026"
   },
   "doc-6fee16de15adef8f9c158fcdcfc3c3cf": {
@@ -531,8 +382,8 @@
       "orders_returns"
     ],
     "count": 3,
-    "create_time": 1787060558,
-    "update_time": 1787060558,
+    "create_time": 1787080474,
+    "update_time": 1787080474,
     "_id": "doc-6fee16de15adef8f9c158fcdcfc3c3cf"
   },
   "doc-79bdc8c15be295419534818b640a1fab": {
@@ -544,18 +395,9 @@
       "screen_id"
     ],
     "count": 5,
-    "create_time": 1787060564,
-    "update_time": 1787060564,
+    "create_time": 1787080484,
+    "update_time": 1787080484,
     "_id": "doc-79bdc8c15be295419534818b640a1fab"
-  },
-  "doc-79d9878ecf576fac1aa1aa6fe797867f": {
-    "entity_names": [
-      "a11y"
-    ],
-    "count": 1,
-    "create_time": 1787060590,
-    "update_time": 1787060590,
-    "_id": "doc-79d9878ecf576fac1aa1aa6fe797867f"
   },
   "doc-7b3dbaa1dc2bafcf6737861428b971a7": {
     "entity_names": [
@@ -568,9 +410,24 @@
       "screen_id"
     ],
     "count": 7,
-    "create_time": 1787060618,
-    "update_time": 1787060618,
+    "create_time": 1787080624,
+    "update_time": 1787080624,
     "_id": "doc-7b3dbaa1dc2bafcf6737861428b971a7"
+  },
+  "doc-7ff218daa648cf801a7184502db5ca24": {
+    "entity_names": [
+      "1 lb Bag",
+      "Briess DME",
+      "Pilsen Light",
+      "a11y",
+      "http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html",
+      "product",
+      "screen"
+    ],
+    "count": 7,
+    "create_time": 1787080631,
+    "update_time": 1787080631,
+    "_id": "doc-7ff218daa648cf801a7184502db5ca24"
   },
   "doc-8192fe169bee4a5676a6db5cde9a3209": {
     "entity_names": [
@@ -580,23 +437,17 @@
       "click",
       "instruction",
       "link",
+      "method",
       "name",
+      "organization",
       "role",
-      "screen_id"
+      "screen_id",
+      "search_results"
     ],
-    "count": 9,
-    "create_time": 1787060958,
-    "update_time": 1787060958,
+    "count": 12,
+    "create_time": 1787080723,
+    "update_time": 1787080723,
     "_id": "doc-8192fe169bee4a5676a6db5cde9a3209"
-  },
-  "doc-84bb4345d24d03ecc2f6b643d50ef2ec": {
-    "entity_names": [
-      "a11y"
-    ],
-    "count": 1,
-    "create_time": 1787060967,
-    "update_time": 1787060967,
-    "_id": "doc-84bb4345d24d03ecc2f6b643d50ef2ec"
   },
   "doc-8c4c0287492ac47c15df9071249fde66": {
     "entity_names": [
@@ -608,8 +459,8 @@
       "screen_id"
     ],
     "count": 6,
-    "create_time": 1787060972,
-    "update_time": 1787060972,
+    "create_time": 1787080732,
+    "update_time": 1787080732,
     "_id": "doc-8c4c0287492ac47c15df9071249fde66"
   },
   "doc-93994d22ad00beec814080e416a51904": {
@@ -622,8 +473,8 @@
       "screen_id"
     ],
     "count": 6,
-    "create_time": 1787060978,
-    "update_time": 1787060978,
+    "create_time": 1787080742,
+    "update_time": 1787080742,
     "_id": "doc-93994d22ad00beec814080e416a51904"
   },
   "doc-96f37bc024c1dd81bce2be42d32fb9a4": {
@@ -635,8 +486,8 @@
       "screen_id"
     ],
     "count": 5,
-    "create_time": 1787061129,
-    "update_time": 1787061129,
+    "create_time": 1787080748,
+    "update_time": 1787080748,
     "_id": "doc-96f37bc024c1dd81bce2be42d32fb9a4"
   },
   "doc-97bbec41cf7cab256882bc136224c9af": {
@@ -644,9 +495,19 @@
       "Elmwood Inn Fine Teas, Orange Vanilla Caffeine-free Fruit Infusion, 16-Ounce Pouch"
     ],
     "count": 1,
-    "create_time": 1787061143,
-    "update_time": 1787061143,
+    "create_time": 1787080755,
+    "update_time": 1787080755,
     "_id": "doc-97bbec41cf7cab256882bc136224c9af"
+  },
+  "doc-98635dbb5321900fe07ed4d39d07cf78": {
+    "entity_names": [
+      "Screen",
+      "a11y"
+    ],
+    "count": 2,
+    "create_time": 1787080757,
+    "update_time": 1787080757,
+    "_id": "doc-98635dbb5321900fe07ed4d39d07cf78"
   },
   "doc-998ef6f2a08b055f4cea5fd640aa78ae": {
     "entity_names": [
@@ -658,37 +519,27 @@
       "screen"
     ],
     "count": 6,
-    "create_time": 1787061155,
-    "update_time": 1787061155,
+    "create_time": 1787080815,
+    "update_time": 1787080815,
     "_id": "doc-998ef6f2a08b055f4cea5fd640aa78ae"
   },
-  "doc-9cf014a55715838cd2e7be449bd106f3": {
+  "doc-9e92b01bfe3c2300574d5d397bef740c": {
     "entity_names": [
-      "Patio, Lawn & Garden",
-      "a11y",
-      "bbox_px",
-      "click",
-      "instruction",
-      "menuitem",
-      "screen_id",
-      "search_results"
+      "Screen"
     ],
-    "count": 8,
-    "create_time": 1787061163,
-    "update_time": 1787061163,
-    "_id": "doc-9cf014a55715838cd2e7be449bd106f3"
+    "count": 1,
+    "create_time": 1787080819,
+    "update_time": 1787080819,
+    "_id": "doc-9e92b01bfe3c2300574d5d397bef740c"
   },
   "doc-9ecd5e9d22535ece235c555f4d9df437": {
     "entity_names": [
-      "a11y",
-      "bbox_px",
-      "instruction",
       "screen_id",
       "store logo"
     ],
-    "count": 5,
-    "create_time": 1787061180,
-    "update_time": 1787061180,
+    "count": 2,
+    "create_time": 1787080821,
+    "update_time": 1787080821,
     "_id": "doc-9ecd5e9d22535ece235c555f4d9df437"
   },
   "doc-9fde1622ef828bc2735ced9dd67f3e79": {
@@ -696,8 +547,8 @@
       "a11y"
     ],
     "count": 1,
-    "create_time": 1787061185,
-    "update_time": 1787061185,
+    "create_time": 1787080824,
+    "update_time": 1787080824,
     "_id": "doc-9fde1622ef828bc2735ced9dd67f3e79"
   },
   "doc-a01aa3869759c0df193b39c39a682dfb": {
@@ -713,8 +564,8 @@
       "search_results"
     ],
     "count": 9,
-    "create_time": 1787061320,
-    "update_time": 1787061320,
+    "create_time": 1787080836,
+    "update_time": 1787080836,
     "_id": "doc-a01aa3869759c0df193b39c39a682dfb"
   },
   "doc-afaeae3f07222d6abb05167120cb64e6": {
@@ -722,52 +573,53 @@
       "a11y",
       "bbox_px",
       "instruction",
+      "name",
       "role",
       "screen_id",
       "store logo"
     ],
-    "count": 6,
-    "create_time": 1787061806,
-    "update_time": 1787061806,
+    "count": 7,
+    "create_time": 1787081574,
+    "update_time": 1787081574,
     "_id": "doc-afaeae3f07222d6abb05167120cb64e6"
-  },
-  "doc-b64b5d11488f01f9fe0fa193ff7147e5": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787061819,
-    "update_time": 1787061819,
-    "_id": "doc-b64b5d11488f01f9fe0fa193ff7147e5"
   },
   "doc-b749abb1d006250866dea057553594bc": {
     "entity_names": [
       "a11y"
     ],
     "count": 1,
-    "create_time": 1787061862,
-    "update_time": 1787061862,
+    "create_time": 1787081598,
+    "update_time": 1787081598,
     "_id": "doc-b749abb1d006250866dea057553594bc"
+  },
+  "doc-bc7fa509f6089f64c49c65f0ceb6b8ff": {
+    "entity_names": [
+      "Screen"
+    ],
+    "count": 1,
+    "create_time": 1787081613,
+    "update_time": 1787081613,
+    "_id": "doc-bc7fa509f6089f64c49c65f0ceb6b8ff"
   },
   "doc-d28c12fec97088c620e43fae9ea0396c": {
     "entity_names": [
       "My Wish List",
-      "a11y",
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id",
-      "type"
+      "screen_id"
     ],
-    "count": 8,
-    "create_time": 1787062350,
-    "update_time": 1787062350,
+    "count": 2,
+    "create_time": 1787083054,
+    "update_time": 1787083054,
     "_id": "doc-d28c12fec97088c620e43fae9ea0396c"
+  },
+  "doc-d2a72d64e9d709b745758f4681df3ca6": {
+    "entity_names": [
+      "Screen",
+      "a11y"
+    ],
+    "count": 2,
+    "create_time": 1787083058,
+    "update_time": 1787083058,
+    "_id": "doc-d2a72d64e9d709b745758f4681df3ca6"
   },
   "doc-d3f210baa22420bda082ab35ed47c513": {
     "entity_names": [
@@ -779,8 +631,8 @@
       "screen_id"
     ],
     "count": 6,
-    "create_time": 1787062455,
-    "update_time": 1787062455,
+    "create_time": 1787083065,
+    "update_time": 1787083065,
     "_id": "doc-d3f210baa22420bda082ab35ed47c513"
   },
   "doc-dbbea0d67fc7a8a8d91f72b4050e0de3": {
@@ -788,8 +640,8 @@
       "Screen"
     ],
     "count": 1,
-    "create_time": 1787062460,
-    "update_time": 1787062460,
+    "create_time": 1787083088,
+    "update_time": 1787083088,
     "_id": "doc-dbbea0d67fc7a8a8d91f72b4050e0de3"
   },
   "doc-de35d1ab540844b78d0adaeb5ebb47a3": {
@@ -797,8 +649,8 @@
       "a11y"
     ],
     "count": 1,
-    "create_time": 1787062467,
-    "update_time": 1787062467,
+    "create_time": 1787083094,
+    "update_time": 1787083094,
     "_id": "doc-de35d1ab540844b78d0adaeb5ebb47a3"
   },
   "doc-e4dc81cdc7cc78005bebf5e2cebf18ae": {
@@ -807,14 +659,23 @@
       "a11y",
       "bbox_px",
       "instruction",
-      "name",
       "role",
       "screen_id"
     ],
-    "count": 7,
-    "create_time": 1787062485,
-    "update_time": 1787062485,
+    "count": 6,
+    "create_time": 1787083104,
+    "update_time": 1787083104,
     "_id": "doc-e4dc81cdc7cc78005bebf5e2cebf18ae"
+  },
+  "doc-e71e082796434ad5e7fdfd56adbca8ef": {
+    "entity_names": [
+      "Screen",
+      "url"
+    ],
+    "count": 2,
+    "create_time": 1787083113,
+    "update_time": 1787083113,
+    "_id": "doc-e71e082796434ad5e7fdfd56adbca8ef"
   },
   "doc-e82d1c6e818db2c2331a5e7d9a0ef845": {
     "entity_names": [
@@ -826,9 +687,19 @@
       "home"
     ],
     "count": 6,
-    "create_time": 1787062548,
-    "update_time": 1787062548,
+    "create_time": 1787083158,
+    "update_time": 1787083158,
     "_id": "doc-e82d1c6e818db2c2331a5e7d9a0ef845"
+  },
+  "doc-ea805575f497a9c1254552acd0a1daf1": {
+    "entity_names": [
+      "Checkout",
+      "Screen"
+    ],
+    "count": 2,
+    "create_time": 1787083340,
+    "update_time": 1787083340,
+    "_id": "doc-ea805575f497a9c1254552acd0a1daf1"
   },
   "doc-ee1aeda9c84d5b356cce352ae39e0746": {
     "entity_names": [
@@ -840,54 +711,28 @@
       "screen_id"
     ],
     "count": 6,
-    "create_time": 1787063268,
-    "update_time": 1787063268,
+    "create_time": 1787083357,
+    "update_time": 1787083357,
     "_id": "doc-ee1aeda9c84d5b356cce352ae39e0746"
   },
   "doc-f694070ad6fd98c3c0c4b0a9c3787bbb": {
     "entity_names": [
-      "a11y",
-      "bbox_px",
-      "name"
+      "a11y"
     ],
-    "count": 3,
-    "create_time": 1787063299,
-    "update_time": 1787063299,
+    "count": 1,
+    "create_time": 1787083362,
+    "update_time": 1787083362,
     "_id": "doc-f694070ad6fd98c3c0c4b0a9c3787bbb"
   },
   "doc-f9081d114c069483942bd32f623b7876": {
     "entity_names": [
       "Video Games",
-      "a11y",
-      "bbox_px",
-      "click",
-      "instruction",
-      "menuitem",
-      "name",
-      "role",
       "screen_id"
     ],
-    "count": 9,
-    "create_time": 1787063633,
-    "update_time": 1787063633,
+    "count": 2,
+    "create_time": 1787083372,
+    "update_time": 1787083372,
     "_id": "doc-f9081d114c069483942bd32f623b7876"
-  },
-  "doc-fb1d5f2fb2b282b67736d797b15263cb": {
-    "entity_names": [
-      "View as List",
-      "a11y",
-      "bbox_px",
-      "click",
-      "element",
-      "instruction",
-      "link",
-      "screen_id",
-      "search_results"
-    ],
-    "count": 9,
-    "create_time": 1787063642,
-    "update_time": 1787063642,
-    "_id": "doc-fb1d5f2fb2b282b67736d797b15263cb"
   },
   "doc-fc1ca9cca3e46ee16fa32c18e0a103c3": {
     "entity_names": [
@@ -898,8 +743,8 @@
       "screen_id"
     ],
     "count": 5,
-    "create_time": 1787063649,
-    "update_time": 1787063649,
+    "create_time": 1787083377,
+    "update_time": 1787083377,
     "_id": "doc-fc1ca9cca3e46ee16fa32c18e0a103c3"
   },
   "doc-015b8caaec6a57269904cd96648a584a": {
@@ -913,9 +758,36 @@
       "element"
     ],
     "count": 7,
-    "create_time": 1787063672,
-    "update_time": 1787063672,
+    "create_time": 1787083389,
+    "update_time": 1787083389,
     "_id": "doc-015b8caaec6a57269904cd96648a584a"
+  },
+  "doc-01c33fc069142df72db73c0a60322bcf": {
+    "entity_names": [
+      "bbox_px",
+      "instruction",
+      "name",
+      "role",
+      "screen_id"
+    ],
+    "count": 5,
+    "create_time": 1787083399,
+    "update_time": 1787083399,
+    "_id": "doc-01c33fc069142df72db73c0a60322bcf"
+  },
+  "doc-01c9fc9ee30d9a60fd968f838ea162d4": {
+    "entity_names": [
+      "Video Games",
+      "a11y",
+      "bbox_px",
+      "instruction",
+      "role",
+      "screen_id"
+    ],
+    "count": 6,
+    "create_time": 1787083413,
+    "update_time": 1787083413,
+    "_id": "doc-01c9fc9ee30d9a60fd968f838ea162d4"
   },
   "doc-12452d2aa4a1f4053eb75846db92c28d": {
     "entity_names": [
@@ -928,8 +800,8 @@
       "screen_id"
     ],
     "count": 7,
-    "create_time": 1787063697,
-    "update_time": 1787063697,
+    "create_time": 1787083420,
+    "update_time": 1787083420,
     "_id": "doc-12452d2aa4a1f4053eb75846db92c28d"
   },
   "doc-194f81eb3c83c9cefd1db2a27051c77c": {
@@ -941,22 +813,19 @@
       "screen_id"
     ],
     "count": 5,
-    "create_time": 1787063735,
-    "update_time": 1787063735,
+    "create_time": 1787083429,
+    "update_time": 1787083429,
     "_id": "doc-194f81eb3c83c9cefd1db2a27051c77c"
   },
   "doc-1c15c889a922325358d22d1c84770de1": {
     "entity_names": [
       "bbox_px",
-      "instruction",
-      "name",
-      "role",
       "screen_id",
       "store logo"
     ],
-    "count": 6,
-    "create_time": 1787063773,
-    "update_time": 1787063773,
+    "count": 3,
+    "create_time": 1787083437,
+    "update_time": 1787083437,
     "_id": "doc-1c15c889a922325358d22d1c84770de1"
   },
   "doc-1f7b2c3abc8d8d66c2f091d24f67233a": {
@@ -968,9 +837,41 @@
       "role"
     ],
     "count": 5,
-    "create_time": 1787063789,
-    "update_time": 1787063789,
+    "create_time": 1787083449,
+    "update_time": 1787083449,
     "_id": "doc-1f7b2c3abc8d8d66c2f091d24f67233a"
+  },
+  "doc-2264c0cbd93197c10fe0a09fdbcf60f8": {
+    "entity_names": [
+      "Cell Phones & Accessories",
+      "a11y",
+      "bbox_px",
+      "instruction",
+      "role",
+      "screen_id"
+    ],
+    "count": 6,
+    "create_time": 1787083460,
+    "update_time": 1787083460,
+    "_id": "doc-2264c0cbd93197c10fe0a09fdbcf60f8"
+  },
+  "doc-2425ff05274b38ff401705494a0d825c": {
+    "entity_names": [
+      "Home & Kitchen",
+      "a11y",
+      "bbox_px",
+      "category",
+      "element",
+      "instruction",
+      "menuitem",
+      "name",
+      "role",
+      "screen_id"
+    ],
+    "count": 10,
+    "create_time": 1787083472,
+    "update_time": 1787083472,
+    "_id": "doc-2425ff05274b38ff401705494a0d825c"
   },
   "doc-24628cc5a1143e502c68ca86491314b0": {
     "entity_names": [
@@ -978,8 +879,8 @@
       "screen_id"
     ],
     "count": 2,
-    "create_time": 1787063799,
-    "update_time": 1787063799,
+    "create_time": 1787083478,
+    "update_time": 1787083478,
     "_id": "doc-24628cc5a1143e502c68ca86491314b0"
   },
   "doc-268dbaf8f5d2bbfa508f8694007669e8": {
@@ -991,25 +892,49 @@
       "screen_id"
     ],
     "count": 5,
-    "create_time": 1787063819,
-    "update_time": 1787063819,
+    "create_time": 1787083483,
+    "update_time": 1787083483,
     "_id": "doc-268dbaf8f5d2bbfa508f8694007669e8"
   },
-  "doc-29be4ff47307e375f775296be1cde294": {
+  "doc-26e09db01a07794a9ce798e10694e907": {
     "entity_names": [
-      "Sports & Outdoors",
-      "a11y",
       "bbox_px",
-      "element",
       "instruction",
-      "menuitem",
       "name",
       "role",
       "screen_id"
     ],
-    "count": 9,
-    "create_time": 1787063965,
-    "update_time": 1787063965,
+    "count": 5,
+    "create_time": 1787083503,
+    "update_time": 1787083503,
+    "_id": "doc-26e09db01a07794a9ce798e10694e907"
+  },
+  "doc-27e21794880bc2e623ae59578cebcf4e": {
+    "entity_names": [
+      "bbox_px",
+      "instruction",
+      "name",
+      "role",
+      "screen_id"
+    ],
+    "count": 5,
+    "create_time": 1787083513,
+    "update_time": 1787083513,
+    "_id": "doc-27e21794880bc2e623ae59578cebcf4e"
+  },
+  "doc-29be4ff47307e375f775296be1cde294": {
+    "entity_names": [
+      "a11y",
+      "bbox_px",
+      "element",
+      "instruction",
+      "name",
+      "role",
+      "screen_id"
+    ],
+    "count": 7,
+    "create_time": 1787083892,
+    "update_time": 1787083892,
     "_id": "doc-29be4ff47307e375f775296be1cde294"
   },
   "doc-2b681e6ff218bd5e8ea006e583399b46": {
@@ -1021,9 +946,22 @@
       "screen_id"
     ],
     "count": 5,
-    "create_time": 1787064002,
-    "update_time": 1787064002,
+    "create_time": 1787083902,
+    "update_time": 1787083902,
     "_id": "doc-2b681e6ff218bd5e8ea006e583399b46"
+  },
+  "doc-2d10111161db5057f00b249baab62b6f": {
+    "entity_names": [
+      "Clothing, Shoes & Jewelry",
+      "a11y",
+      "category",
+      "name",
+      "screen_id"
+    ],
+    "count": 5,
+    "create_time": 1787083909,
+    "update_time": 1787083909,
+    "_id": "doc-2d10111161db5057f00b249baab62b6f"
   },
   "doc-2f5966d424551de0ed4fd414c471d245": {
     "entity_names": [
@@ -1032,1597 +970,8 @@
       "screen_id"
     ],
     "count": 3,
-    "create_time": 1787064085,
-    "update_time": 1787064085,
+    "create_time": 1787083916,
+    "update_time": 1787083916,
     "_id": "doc-2f5966d424551de0ed4fd414c471d245"
-  },
-  "doc-3061faa96c0c7a421b9cb59faaceecfd": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787064111,
-    "update_time": 1787064111,
-    "_id": "doc-3061faa96c0c7a421b9cb59faaceecfd"
-  },
-  "doc-31614258e420804fd40acd6947038f2a": {
-    "entity_names": [
-      "instruction",
-      "screen_id"
-    ],
-    "count": 2,
-    "create_time": 1787064170,
-    "update_time": 1787064170,
-    "_id": "doc-31614258e420804fd40acd6947038f2a"
-  },
-  "doc-35febc2127cbc36e3b4418c2125e83a4": {
-    "entity_names": [
-      "Cell Phones & Accessories",
-      "a11y",
-      "bbox_px",
-      "menuitem"
-    ],
-    "count": 4,
-    "create_time": 1787064184,
-    "update_time": 1787064184,
-    "_id": "doc-35febc2127cbc36e3b4418c2125e83a4"
-  },
-  "doc-364c8d31ece0f7e9e65c9d104776c34b": {
-    "entity_names": [
-      "a11y"
-    ],
-    "count": 1,
-    "create_time": 1787064189,
-    "update_time": 1787064189,
-    "_id": "doc-364c8d31ece0f7e9e65c9d104776c34b"
-  },
-  "doc-3e299beb38700881a5830b1177ab94bc": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787064688,
-    "update_time": 1787064688,
-    "_id": "doc-3e299beb38700881a5830b1177ab94bc"
-  },
-  "doc-3e769a9f3b3124071bf65fc847fda10d": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787064699,
-    "update_time": 1787064699,
-    "_id": "doc-3e769a9f3b3124071bf65fc847fda10d"
-  },
-  "doc-3ef10f3dea1f5da8dc8423dea18701c2": {
-    "entity_names": [
-      "Advanced Search",
-      "a11y",
-      "bbox_px",
-      "category",
-      "element",
-      "link"
-    ],
-    "count": 6,
-    "create_time": 1787064706,
-    "update_time": 1787064706,
-    "_id": "doc-3ef10f3dea1f5da8dc8423dea18701c2"
-  },
-  "doc-4029119d4b2b9c7ff35206e552a64d88": {
-    "entity_names": [
-      "a11y",
-      "search_empty"
-    ],
-    "count": 2,
-    "create_time": 1787064712,
-    "update_time": 1787064712,
-    "_id": "doc-4029119d4b2b9c7ff35206e552a64d88"
-  },
-  "doc-408a545f2f275edc7f90370680b14ca2": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787064719,
-    "update_time": 1787064719,
-    "_id": "doc-408a545f2f275edc7f90370680b14ca2"
-  },
-  "doc-4b8b44fb9a808fdbf68751389d341643": {
-    "entity_names": [
-      "a11y"
-    ],
-    "count": 1,
-    "create_time": 1787064734,
-    "update_time": 1787064734,
-    "_id": "doc-4b8b44fb9a808fdbf68751389d341643"
-  },
-  "doc-56ec189439a015283fccdce67a566f82": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787064739,
-    "update_time": 1787064739,
-    "_id": "doc-56ec189439a015283fccdce67a566f82"
-  },
-  "doc-5b473242f4933f3f7d91e6f29b742fcf": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787064744,
-    "update_time": 1787064744,
-    "_id": "doc-5b473242f4933f3f7d91e6f29b742fcf"
-  },
-  "doc-5da9c66bf37b64902e06a0dd44ff6fac": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787064750,
-    "update_time": 1787064750,
-    "_id": "doc-5da9c66bf37b64902e06a0dd44ff6fac"
-  },
-  "doc-5fb0571aa2079c55a01a22bbe275b3dd": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787064762,
-    "update_time": 1787064762,
-    "_id": "doc-5fb0571aa2079c55a01a22bbe275b3dd"
-  },
-  "doc-62259b523c4399851b637448a3e83944": {
-    "entity_names": [
-      "103",
-      "1180",
-      "1202",
-      "Search",
-      "a11y",
-      "bbox_px",
-      "button",
-      "category",
-      "element",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 13,
-    "create_time": 1787064768,
-    "update_time": 1787064768,
-    "_id": "doc-62259b523c4399851b637448a3e83944"
-  },
-  "doc-6b02e81836738c20fc78c9f73add60be": {
-    "entity_names": [
-      "Office Products 7 item",
-      "screen_id"
-    ],
-    "count": 2,
-    "create_time": 1787064773,
-    "update_time": 1787064773,
-    "_id": "doc-6b02e81836738c20fc78c9f73add60be"
-  },
-  "doc-6eba1c907b5724355bed821c6610610f": {
-    "entity_names": [
-      "a11y",
-      "bbox_px",
-      "instruction",
-      "name",
-      "role"
-    ],
-    "count": 5,
-    "create_time": 1787064779,
-    "update_time": 1787064779,
-    "_id": "doc-6eba1c907b5724355bed821c6610610f"
-  },
-  "doc-712115b30aa90cdcf9e36fbce4237ebd": {
-    "entity_names": [
-      "a11y",
-      "bbox_px",
-      "category",
-      "click",
-      "element",
-      "instruction",
-      "link",
-      "name",
-      "role",
-      "screen_id",
-      "store logo"
-    ],
-    "count": 11,
-    "create_time": 1787064789,
-    "update_time": 1787064789,
-    "_id": "doc-712115b30aa90cdcf9e36fbce4237ebd"
-  },
-  "doc-722a96df8df31ddf4201f8e8f11d9525": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787064795,
-    "update_time": 1787064795,
-    "_id": "doc-722a96df8df31ddf4201f8e8f11d9525"
-  },
-  "doc-739327665f2014ada5bc9dc6fc1d0968": {
-    "entity_names": [
-      "Electronics 22 item",
-      "screen_id"
-    ],
-    "count": 2,
-    "create_time": 1787064800,
-    "update_time": 1787064800,
-    "_id": "doc-739327665f2014ada5bc9dc6fc1d0968"
-  },
-  "doc-7e6f0b9e982b547cc8a70604b6b807cd": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787064807,
-    "update_time": 1787064807,
-    "_id": "doc-7e6f0b9e982b547cc8a70604b6b807cd"
-  },
-  "doc-81a8f3e81ce5be9998db95239a0a1db3": {
-    "entity_names": [
-      "a11y"
-    ],
-    "count": 1,
-    "create_time": 1787064824,
-    "update_time": 1787064824,
-    "_id": "doc-81a8f3e81ce5be9998db95239a0a1db3"
-  },
-  "doc-841245dee9b14e5f30aa2d5301576659": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787064832,
-    "update_time": 1787064832,
-    "_id": "doc-841245dee9b14e5f30aa2d5301576659"
-  },
-  "doc-8cc1a03033af241faefa99ff5ed7f098": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787064840,
-    "update_time": 1787064840,
-    "_id": "doc-8cc1a03033af241faefa99ff5ed7f098"
-  },
-  "doc-8ebab9432b078c2baa74ff1c9274526e": {
-    "entity_names": [
-      "a11y"
-    ],
-    "count": 1,
-    "create_time": 1787064851,
-    "update_time": 1787064851,
-    "_id": "doc-8ebab9432b078c2baa74ff1c9274526e"
-  },
-  "doc-8f7f3657b48ba0e4aa88ce986d0a41c7": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787064856,
-    "update_time": 1787064856,
-    "_id": "doc-8f7f3657b48ba0e4aa88ce986d0a41c7"
-  },
-  "doc-9104b63ab39e8f7a3804222796138bfa": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787064918,
-    "update_time": 1787064918,
-    "_id": "doc-9104b63ab39e8f7a3804222796138bfa"
-  },
-  "doc-9333fa509488f424a24510692a3b8d34": {
-    "entity_names": [
-      "Health & Household 4 item",
-      "screen_id"
-    ],
-    "count": 2,
-    "create_time": 1787064928,
-    "update_time": 1787064928,
-    "_id": "doc-9333fa509488f424a24510692a3b8d34"
-  },
-  "doc-93c0b52f1424d7d36baed79b40514396": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787064934,
-    "update_time": 1787064934,
-    "_id": "doc-93c0b52f1424d7d36baed79b40514396"
-  },
-  "doc-9c770a210ed04e4896b64343058e4e98": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787064949,
-    "update_time": 1787064949,
-    "_id": "doc-9c770a210ed04e4896b64343058e4e98"
-  },
-  "doc-9fe24d26583c5858737b13f669bc8ff1": {
-    "entity_names": [
-      "Beauty & Personal Care",
-      "a11y",
-      "bbox_px",
-      "click",
-      "element",
-      "instruction",
-      "menuitem",
-      "name",
-      "role",
-      "screen_id",
-      "search_empty"
-    ],
-    "count": 11,
-    "create_time": 1787064969,
-    "update_time": 1787064969,
-    "_id": "doc-9fe24d26583c5858737b13f669bc8ff1"
-  },
-  "doc-a0e31ce440868a3d3601a01f6b1c3088": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787064984,
-    "update_time": 1787064984,
-    "_id": "doc-a0e31ce440868a3d3601a01f6b1c3088"
-  },
-  "doc-a38f01529d7e4dbc6a24e45769ece8ee": {
-    "entity_names": [
-      "My Account",
-      "a11y",
-      "bbox_px",
-      "click",
-      "instruction",
-      "link",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 9,
-    "create_time": 1787065035,
-    "update_time": 1787065035,
-    "_id": "doc-a38f01529d7e4dbc6a24e45769ece8ee"
-  },
-  "doc-a8a1377ef68d488899bdb4dc961c9296": {
-    "entity_names": [
-      "259",
-      "275",
-      "Home",
-      "a11y",
-      "element",
-      "search_advanced"
-    ],
-    "count": 6,
-    "create_time": 1787065046,
-    "update_time": 1787065046,
-    "_id": "doc-a8a1377ef68d488899bdb4dc961c9296"
-  },
-  "doc-ac63af929d9bcd32b80115e4b7e7f95a": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787065057,
-    "update_time": 1787065057,
-    "_id": "doc-ac63af929d9bcd32b80115e4b7e7f95a"
-  },
-  "doc-ad1353cf7ac09de38b512eb9b3cfadc2": {
-    "entity_names": [
-      "861",
-      "Sign In",
-      "a11y",
-      "category",
-      "element"
-    ],
-    "count": 5,
-    "create_time": 1787065072,
-    "update_time": 1787065072,
-    "_id": "doc-ad1353cf7ac09de38b512eb9b3cfadc2"
-  },
-  "doc-aed19f98e30bc8b112d61f39e3e57a4e": {
-    "entity_names": [
-      "Search",
-      "a11y",
-      "bbox_px",
-      "button",
-      "click",
-      "element",
-      "instruction",
-      "screen_id",
-      "search_empty"
-    ],
-    "count": 9,
-    "create_time": 1787065162,
-    "update_time": 1787065162,
-    "_id": "doc-aed19f98e30bc8b112d61f39e3e57a4e"
-  },
-  "doc-b0adcdaadab92923be5fd15b79b93955": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787065176,
-    "update_time": 1787065176,
-    "_id": "doc-b0adcdaadab92923be5fd15b79b93955"
-  },
-  "doc-ba6726fc258014219f639a6913f23960": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787065189,
-    "update_time": 1787065189,
-    "_id": "doc-ba6726fc258014219f639a6913f23960"
-  },
-  "doc-bbdf8ed1ea71a34c7864fc2631add2ca": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787065194,
-    "update_time": 1787065194,
-    "_id": "doc-bbdf8ed1ea71a34c7864fc2631add2ca"
-  },
-  "doc-bc7e8d67dff433b59a975c8568f3eb3b": {
-    "entity_names": [
-      "Home & Kitchen 88 item",
-      "screen_id"
-    ],
-    "count": 2,
-    "create_time": 1787065209,
-    "update_time": 1787065209,
-    "_id": "doc-bc7e8d67dff433b59a975c8568f3eb3b"
-  },
-  "doc-bdc77527a3d323bef3bef65914da4898": {
-    "entity_names": [
-      "a11y",
-      "bbox_px",
-      "click",
-      "element",
-      "instruction",
-      "link",
-      "screen_id",
-      "search_empty",
-      "store logo"
-    ],
-    "count": 9,
-    "create_time": 1787065216,
-    "update_time": 1787065216,
-    "_id": "doc-bdc77527a3d323bef3bef65914da4898"
-  },
-  "doc-c2d276c0713cf9e96a47308ae621ecf4": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787065225,
-    "update_time": 1787065225,
-    "_id": "doc-c2d276c0713cf9e96a47308ae621ecf4"
-  },
-  "doc-c87ec0c898aa8c18b63d3ebadc9a54f2": {
-    "entity_names": [
-      "a11y",
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id",
-      "type"
-    ],
-    "count": 7,
-    "create_time": 1787065473,
-    "update_time": 1787065473,
-    "_id": "doc-c87ec0c898aa8c18b63d3ebadc9a54f2"
-  },
-  "doc-d25584ce082df2e36945fee89019ca59": {
-    "entity_names": [
-      "Office Products",
-      "a11y",
-      "instruction",
-      "menuitem",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787065486,
-    "update_time": 1787065486,
-    "_id": "doc-d25584ce082df2e36945fee89019ca59"
-  },
-  "doc-d45972e5deb132ffa6f291a23f584155": {
-    "entity_names": [
-      "Clothing, Shoes & Jewelry",
-      "a11y",
-      "name"
-    ],
-    "count": 3,
-    "create_time": 1787065490,
-    "update_time": 1787065490,
-    "_id": "doc-d45972e5deb132ffa6f291a23f584155"
-  },
-  "doc-d8306c89a6e17662efce0519d4d1ac0c": {
-    "entity_names": [
-      "a11y",
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id",
-      "type"
-    ],
-    "count": 7,
-    "create_time": 1787065598,
-    "update_time": 1787065598,
-    "_id": "doc-d8306c89a6e17662efce0519d4d1ac0c"
-  },
-  "doc-d89c30514b52a7d6ffd6faa7abd1e057": {
-    "entity_names": [
-      "a11y",
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id",
-      "type"
-    ],
-    "count": 7,
-    "create_time": 1787065713,
-    "update_time": 1787065713,
-    "_id": "doc-d89c30514b52a7d6ffd6faa7abd1e057"
-  },
-  "doc-dd8d428d2f06506a83c659eadb472263": {
-    "entity_names": [
-      "Clothing, Shoes & Jewelry 7603 item",
-      "[20, 528, 189, 567]",
-      "a11y",
-      "bbox_px",
-      "name"
-    ],
-    "count": 5,
-    "create_time": 1787065737,
-    "update_time": 1787065737,
-    "_id": "doc-dd8d428d2f06506a83c659eadb472263"
-  },
-  "doc-e00c1708ed4e0a50a037c7d9e2741fa4": {
-    "entity_names": [
-      "a11y"
-    ],
-    "count": 1,
-    "create_time": 1787065744,
-    "update_time": 1787065744,
-    "_id": "doc-e00c1708ed4e0a50a037c7d9e2741fa4"
-  },
-  "doc-e27876fe1db52767e6bea84ede7067ec": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787065755,
-    "update_time": 1787065755,
-    "_id": "doc-e27876fe1db52767e6bea84ede7067ec"
-  },
-  "doc-ed7b0c15cb56893876e96860b8f2ec71": {
-    "entity_names": [
-      "Home",
-      "a11y",
-      "bbox_px",
-      "click",
-      "element",
-      "instruction",
-      "link",
-      "screen_id",
-      "search_empty"
-    ],
-    "count": 9,
-    "create_time": 1787065772,
-    "update_time": 1787065772,
-    "_id": "doc-ed7b0c15cb56893876e96860b8f2ec71"
-  },
-  "doc-ef919e12c5fe348ead5108146f7e4376": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787065779,
-    "update_time": 1787065779,
-    "_id": "doc-ef919e12c5fe348ead5108146f7e4376"
-  },
-  "doc-f3e4e5b81a08fe23889774a998640a7c": {
-    "entity_names": [
-      "a11y"
-    ],
-    "count": 1,
-    "create_time": 1787065786,
-    "update_time": 1787065786,
-    "_id": "doc-f3e4e5b81a08fe23889774a998640a7c"
-  },
-  "doc-f4ef414d260df5e8bd4ce0b4592a5685": {
-    "entity_names": [
-      "Grocery & Gourmet Food",
-      "a11y",
-      "bbox_px",
-      "click",
-      "element",
-      "instruction",
-      "menuitem",
-      "screen_id",
-      "search_empty"
-    ],
-    "count": 9,
-    "create_time": 1787065792,
-    "update_time": 1787065792,
-    "_id": "doc-f4ef414d260df5e8bd4ce0b4592a5685"
-  },
-  "doc-f59e9aad16bd73322b3a8ba0f7834165": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787065801,
-    "update_time": 1787065801,
-    "_id": "doc-f59e9aad16bd73322b3a8ba0f7834165"
-  },
-  "doc-f5a58caaa1558773287fa5d393b4dc93": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787065812,
-    "update_time": 1787065812,
-    "_id": "doc-f5a58caaa1558773287fa5d393b4dc93"
-  },
-  "doc-f68acd2c28a4ffc3bf6cf18c20993ac6": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787065827,
-    "update_time": 1787065827,
-    "_id": "doc-f68acd2c28a4ffc3bf6cf18c20993ac6"
-  },
-  "doc-fc21d8f20a7af54a354c64ea88d5e41b": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787065846,
-    "update_time": 1787065846,
-    "_id": "doc-fc21d8f20a7af54a354c64ea88d5e41b"
-  },
-  "doc-2425ff05274b38ff401705494a0d825c": {
-    "entity_names": [
-      "a11y"
-    ],
-    "count": 1,
-    "create_time": 1787065855,
-    "update_time": 1787065855,
-    "_id": "doc-2425ff05274b38ff401705494a0d825c"
-  },
-  "doc-2d10111161db5057f00b249baab62b6f": {
-    "entity_names": [
-      "a11y",
-      "category",
-      "screen_id"
-    ],
-    "count": 3,
-    "create_time": 1787065866,
-    "update_time": 1787065866,
-    "_id": "doc-2d10111161db5057f00b249baab62b6f"
-  },
-  "doc-4b9e3f195bfccfaa65ac8933d2cfc6cf": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787065870,
-    "update_time": 1787065870,
-    "_id": "doc-4b9e3f195bfccfaa65ac8933d2cfc6cf"
-  },
-  "doc-5eb3679f3090c0f5f21ae588efb7e3e5": {
-    "entity_names": [
-      "a11y",
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 6,
-    "create_time": 1787065964,
-    "update_time": 1787065964,
-    "_id": "doc-5eb3679f3090c0f5f21ae588efb7e3e5"
-  },
-  "doc-7365a5b79d8ac5979806062ffb468ef8": {
-    "entity_names": [
-      "a11y",
-      "category",
-      "screen_id"
-    ],
-    "count": 3,
-    "create_time": 1787065973,
-    "update_time": 1787065973,
-    "_id": "doc-7365a5b79d8ac5979806062ffb468ef8"
-  },
-  "doc-7a9051144f4967a92b9291d2e61f8400": {
-    "entity_names": [
-      "a11y",
-      "bbox_px",
-      "instruction",
-      "name",
-      "role"
-    ],
-    "count": 5,
-    "create_time": 1787065980,
-    "update_time": 1787065980,
-    "_id": "doc-7a9051144f4967a92b9291d2e61f8400"
-  },
-  "doc-bd5675153b9560186249eb9583bde805": {
-    "entity_names": [
-      "a11y",
-      "bbox_px",
-      "category",
-      "element",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 8,
-    "create_time": 1787065986,
-    "update_time": 1787065986,
-    "_id": "doc-bd5675153b9560186249eb9583bde805"
-  },
-  "doc-beadc75609261f0ea03542f0dc14b49b": {
-    "entity_names": [
-      "a11y",
-      "bbox_px",
-      "category",
-      "element",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 8,
-    "create_time": 1787065997,
-    "update_time": 1787065997,
-    "_id": "doc-beadc75609261f0ea03542f0dc14b49b"
-  },
-  "doc-26e09db01a07794a9ce798e10694e907": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787066010,
-    "update_time": 1787066010,
-    "_id": "doc-26e09db01a07794a9ce798e10694e907"
-  },
-  "doc-525d140f4619ad4f23c939f8bc69dd07": {
-    "entity_names": [
-      "a11y",
-      "bbox_px",
-      "category",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 7,
-    "create_time": 1787066020,
-    "update_time": 1787066020,
-    "_id": "doc-525d140f4619ad4f23c939f8bc69dd07"
-  },
-  "doc-5692dc50e5021be5bc4e8fdf8f5b2efb": {
-    "entity_names": [
-      "a11y"
-    ],
-    "count": 1,
-    "create_time": 1787066026,
-    "update_time": 1787066026,
-    "_id": "doc-5692dc50e5021be5bc4e8fdf8f5b2efb"
-  },
-  "doc-67ebc805bc05fcb104d97b50eab62a38": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787066033,
-    "update_time": 1787066033,
-    "_id": "doc-67ebc805bc05fcb104d97b50eab62a38"
-  },
-  "doc-718e7215853a51b59b1393494ea9df33": {
-    "entity_names": [
-      "a11y",
-      "category",
-      "screen_id"
-    ],
-    "count": 3,
-    "create_time": 1787066039,
-    "update_time": 1787066039,
-    "_id": "doc-718e7215853a51b59b1393494ea9df33"
-  },
-  "doc-7edb486cff387c718e8eb48a9fb60ffc": {
-    "entity_names": [
-      "a11y",
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id",
-      "type"
-    ],
-    "count": 7,
-    "create_time": 1787066044,
-    "update_time": 1787066044,
-    "_id": "doc-7edb486cff387c718e8eb48a9fb60ffc"
-  },
-  "doc-8200c68d4f505cf41f0d2848059e57b9": {
-    "entity_names": [
-      "Position Product Name Price",
-      "a11y",
-      "bbox_px",
-      "category",
-      "click",
-      "combobox",
-      "instruction",
-      "name",
-      "role",
-      "screen_id",
-      "type"
-    ],
-    "count": 11,
-    "create_time": 1787066056,
-    "update_time": 1787066056,
-    "_id": "doc-8200c68d4f505cf41f0d2848059e57b9"
-  },
-  "doc-9144974b3bb623c0dfb93ab6e10e5f07": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787066061,
-    "update_time": 1787066061,
-    "_id": "doc-9144974b3bb623c0dfb93ab6e10e5f07"
-  },
-  "doc-a2e6a03b1a442e2d2bc4469cfc821746": {
-    "entity_names": [
-      "306",
-      "352",
-      "384",
-      "424",
-      "View as List",
-      "a11y",
-      "category"
-    ],
-    "count": 7,
-    "create_time": 1787066071,
-    "update_time": 1787066071,
-    "_id": "doc-a2e6a03b1a442e2d2bc4469cfc821746"
-  },
-  "doc-c08802c5b91256601685a06b453a8f05": {
-    "entity_names": [
-      "a11y",
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id",
-      "type"
-    ],
-    "count": 7,
-    "create_time": 1787066077,
-    "update_time": 1787066077,
-    "_id": "doc-c08802c5b91256601685a06b453a8f05"
-  },
-  "doc-c4a28d4f02fee136845510f4c0e93d17": {
-    "entity_names": [
-      "a11y",
-      "bbox_px",
-      "category",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 7,
-    "create_time": 1787066082,
-    "update_time": 1787066082,
-    "_id": "doc-c4a28d4f02fee136845510f4c0e93d17"
-  },
-  "doc-c835846818bcaa064fe5becb24be9fa6": {
-    "entity_names": [
-      "Computers & Accessories 2929 item",
-      "a11y",
-      "bbox_px",
-      "category",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 8,
-    "create_time": 1787066089,
-    "update_time": 1787066089,
-    "_id": "doc-c835846818bcaa064fe5becb24be9fa6"
-  },
-  "doc-cd2c2597257ed277a9e4d453b8933ea7": {
-    "entity_names": [
-      "a11y",
-      "category",
-      "screen_id"
-    ],
-    "count": 3,
-    "create_time": 1787066095,
-    "update_time": 1787066095,
-    "_id": "doc-cd2c2597257ed277a9e4d453b8933ea7"
-  },
-  "doc-ce039320c9d2bb1e5c1d70cb2b331daf": {
-    "entity_names": [
-      "a11y"
-    ],
-    "count": 1,
-    "create_time": 1787066099,
-    "update_time": 1787066099,
-    "_id": "doc-ce039320c9d2bb1e5c1d70cb2b331daf"
-  },
-  "doc-d22e70f9c5950a52be1706e3c49cd064": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787066107,
-    "update_time": 1787066107,
-    "_id": "doc-d22e70f9c5950a52be1706e3c49cd064"
-  },
-  "doc-e60835aa8b936200661495a56ce99d71": {
-    "entity_names": [
-      "a11y",
-      "category",
-      "screen_id"
-    ],
-    "count": 3,
-    "create_time": 1787066118,
-    "update_time": 1787066118,
-    "_id": "doc-e60835aa8b936200661495a56ce99d71"
-  },
-  "doc-e7a1f079c1083b2652095a24fdfc0443": {
-    "entity_names": [
-      "a11y",
-      "category",
-      "screen_id"
-    ],
-    "count": 3,
-    "create_time": 1787066125,
-    "update_time": 1787066125,
-    "_id": "doc-e7a1f079c1083b2652095a24fdfc0443"
-  },
-  "doc-eb7a77743ce6b6fa7440753e6d481bd5": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787066129,
-    "update_time": 1787066129,
-    "_id": "doc-eb7a77743ce6b6fa7440753e6d481bd5"
-  },
-  "doc-eea838816eb1d2adf150f2bc5a9dab02": {
-    "entity_names": [
-      "a11y",
-      "bbox_px",
-      "category",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 7,
-    "create_time": 1787066139,
-    "update_time": 1787066139,
-    "_id": "doc-eea838816eb1d2adf150f2bc5a9dab02"
-  },
-  "doc-fd70a7452985d465deec3203fe4826a6": {
-    "entity_names": [
-      "262",
-      "278",
-      "Home",
-      "a11y",
-      "bbox_px",
-      "category",
-      "click",
-      "element",
-      "instruction",
-      "link",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 13,
-    "create_time": 1787066145,
-    "update_time": 1787066145,
-    "_id": "doc-fd70a7452985d465deec3203fe4826a6"
-  },
-  "doc-fe6ae527c1c6e0ef5f18af49838184a9": {
-    "entity_names": [
-      "a11y",
-      "category",
-      "screen_id"
-    ],
-    "count": 3,
-    "create_time": 1787066150,
-    "update_time": 1787066150,
-    "_id": "doc-fe6ae527c1c6e0ef5f18af49838184a9"
-  },
-  "doc-0348983a29f95be303fe640ac3a3d375": {
-    "entity_names": [
-      "Sports & Outdoors",
-      "a11y",
-      "bbox_px",
-      "click",
-      "element",
-      "instruction",
-      "menuitem",
-      "product",
-      "screen_id"
-    ],
-    "count": 9,
-    "create_time": 1787066159,
-    "update_time": 1787066159,
-    "_id": "doc-0348983a29f95be303fe640ac3a3d375"
-  },
-  "doc-06e81b5f4f476b2ad2e73f0190dcaee1": {
-    "entity_names": [
-      "a11y"
-    ],
-    "count": 1,
-    "create_time": 1787066166,
-    "update_time": 1787066166,
-    "_id": "doc-06e81b5f4f476b2ad2e73f0190dcaee1"
-  },
-  "doc-0b01eda290fe703325e12f1396c96ce5": {
-    "entity_names": [
-      "Create an Account",
-      "a11y",
-      "bbox_px",
-      "instruction",
-      "role",
-      "screen_id"
-    ],
-    "count": 6,
-    "create_time": 1787066171,
-    "update_time": 1787066171,
-    "_id": "doc-0b01eda290fe703325e12f1396c96ce5"
-  },
-  "doc-18aab13c426f81096cef5dacf269592f": {
-    "entity_names": [
-      "a11y"
-    ],
-    "count": 1,
-    "create_time": 1787066186,
-    "update_time": 1787066186,
-    "_id": "doc-18aab13c426f81096cef5dacf269592f"
-  },
-  "doc-1d992112b13accee6ac0cf9a96181f84": {
-    "entity_names": [
-      "Clothing, Shoes & Jewelry",
-      "a11y",
-      "bbox_px",
-      "click",
-      "instruction",
-      "menuitem",
-      "screen_id"
-    ],
-    "count": 7,
-    "create_time": 1787066196,
-    "update_time": 1787066196,
-    "_id": "doc-1d992112b13accee6ac0cf9a96181f84"
-  },
-  "doc-2094fe41d80830c88a043060dcfc8cdd": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787066204,
-    "update_time": 1787066204,
-    "_id": "doc-2094fe41d80830c88a043060dcfc8cdd"
-  },
-  "doc-27e21794880bc2e623ae59578cebcf4e": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787066212,
-    "update_time": 1787066212,
-    "_id": "doc-27e21794880bc2e623ae59578cebcf4e"
-  },
-  "doc-2e023dc7c92286cf39d9d73024f31c82": {
-    "entity_names": [
-      "a11y",
-      "element",
-      "product",
-      "store logo"
-    ],
-    "count": 4,
-    "create_time": 1787066697,
-    "update_time": 1787066697,
-    "_id": "doc-2e023dc7c92286cf39d9d73024f31c82"
-  },
-  "doc-3068692aae07453a7c411514e1ea3811": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787066703,
-    "update_time": 1787066703,
-    "_id": "doc-3068692aae07453a7c411514e1ea3811"
-  },
-  "doc-3189339ea6f4fc6117aef9fec12e38bd": {
-    "entity_names": [
-      "$1,000.00 and above 3 item",
-      "a11y",
-      "bbox_px",
-      "click",
-      "element",
-      "instruction",
-      "link",
-      "subcategory"
-    ],
-    "count": 8,
-    "create_time": 1787066712,
-    "update_time": 1787066712,
-    "_id": "doc-3189339ea6f4fc6117aef9fec12e38bd"
-  },
-  "doc-37328452764bee7b0ed4f30f9d666e33": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787066726,
-    "update_time": 1787066726,
-    "_id": "doc-37328452764bee7b0ed4f30f9d666e33"
-  },
-  "doc-385fc40248f2f07379e1712028f0604a": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787066746,
-    "update_time": 1787066746,
-    "_id": "doc-385fc40248f2f07379e1712028f0604a"
-  },
-  "doc-4057121fe5aecd83bbfcbebfb9b55918": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787066763,
-    "update_time": 1787066763,
-    "_id": "doc-4057121fe5aecd83bbfcbebfb9b55918"
-  },
-  "doc-431fc34e58ede86a954c3e17bf1dc768": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787066774,
-    "update_time": 1787066774,
-    "_id": "doc-431fc34e58ede86a954c3e17bf1dc768"
-  },
-  "doc-456a6331c4b2e35dcde2ad6d2b023cbe": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787066783,
-    "update_time": 1787066783,
-    "_id": "doc-456a6331c4b2e35dcde2ad6d2b023cbe"
-  },
-  "doc-4840aa86644111d5ef3469f7c7b235ed": {
-    "entity_names": [
-      "Grocery & Gourmet Food",
-      "a11y",
-      "menuitem",
-      "name",
-      "role"
-    ],
-    "count": 5,
-    "create_time": 1787066805,
-    "update_time": 1787066805,
-    "_id": "doc-4840aa86644111d5ef3469f7c7b235ed"
-  },
-  "doc-4a1792213e425380d77cb4179dec8f31": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787066815,
-    "update_time": 1787066815,
-    "_id": "doc-4a1792213e425380d77cb4179dec8f31"
-  },
-  "doc-4e57d988d63c9b94876085d3e98172f3": {
-    "entity_names": [
-      "My Wish List",
-      "a11y",
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id",
-      "type"
-    ],
-    "count": 8,
-    "create_time": 1787067305,
-    "update_time": 1787067305,
-    "_id": "doc-4e57d988d63c9b94876085d3e98172f3"
-  },
-  "doc-51ea3b753089aea48ac556d937bd20bc": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787067324,
-    "update_time": 1787067324,
-    "_id": "doc-51ea3b753089aea48ac556d937bd20bc"
-  },
-  "doc-5834a32d1d8ba026d1b73b39f15ac3af": {
-    "entity_names": [
-      "Sports & Outdoors",
-      "a11y",
-      "bbox_px",
-      "element",
-      "instruction",
-      "menuitem",
-      "subcategory"
-    ],
-    "count": 7,
-    "create_time": 1787067338,
-    "update_time": 1787067338,
-    "_id": "doc-5834a32d1d8ba026d1b73b39f15ac3af"
-  },
-  "doc-5e9818f2bc9515cf1d5bfe497bc3572f": {
-    "entity_names": [
-      "product",
-      "screen_id"
-    ],
-    "count": 2,
-    "create_time": 1787067342,
-    "update_time": 1787067342,
-    "_id": "doc-5e9818f2bc9515cf1d5bfe497bc3572f"
-  },
-  "doc-5ea9507d14398c33e78fda51bc5387b5": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787067349,
-    "update_time": 1787067349,
-    "_id": "doc-5ea9507d14398c33e78fda51bc5387b5"
-  },
-  "doc-666c73e55cdecb6b7478d4e60dde6de2": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787067362,
-    "update_time": 1787067362,
-    "_id": "doc-666c73e55cdecb6b7478d4e60dde6de2"
-  },
-  "doc-674a744771d0b8ae6ea5295ac3f9e6f3": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787067368,
-    "update_time": 1787067368,
-    "_id": "doc-674a744771d0b8ae6ea5295ac3f9e6f3"
-  },
-  "doc-6e36e0e4f840a90ec2fc862b6e526900": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787067377,
-    "update_time": 1787067377,
-    "_id": "doc-6e36e0e4f840a90ec2fc862b6e526900"
-  },
-  "doc-6ed408f6323ee8fccb1c84a1058ff73b": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787067390,
-    "update_time": 1787067390,
-    "_id": "doc-6ed408f6323ee8fccb1c84a1058ff73b"
-  },
-  "doc-6f5e9a82e4b6711bf6c7c0f95d1c2e44": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787067405,
-    "update_time": 1787067405,
-    "_id": "doc-6f5e9a82e4b6711bf6c7c0f95d1c2e44"
-  },
-  "doc-782d5b7280f59b6dec6235ac536bd41d": {
-    "entity_names": [
-      "a11y"
-    ],
-    "count": 1,
-    "create_time": 1787067918,
-    "update_time": 1787067918,
-    "_id": "doc-782d5b7280f59b6dec6235ac536bd41d"
-  },
-  "doc-79340cf718f16a6e405de48bf38d7db6": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "screen_id"
-    ],
-    "count": 4,
-    "create_time": 1787067929,
-    "update_time": 1787067929,
-    "_id": "doc-79340cf718f16a6e405de48bf38d7db6"
-  },
-  "doc-7ab8292a2e846a0ba58fe01d10d30067": {
-    "entity_names": [
-      "Search",
-      "a11y",
-      "bbox_px",
-      "button",
-      "element",
-      "instruction",
-      "name",
-      "role",
-      "screen_id",
-      "subcategory"
-    ],
-    "count": 10,
-    "create_time": 1787067941,
-    "update_time": 1787067941,
-    "_id": "doc-7ab8292a2e846a0ba58fe01d10d30067"
-  },
-  "doc-7af4f21ec3736ca946e6f1a58eb89e14": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787067947,
-    "update_time": 1787067947,
-    "_id": "doc-7af4f21ec3736ca946e6f1a58eb89e14"
-  },
-  "doc-7e22b2191319343ea81db7795943a9d2": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787067963,
-    "update_time": 1787067963,
-    "_id": "doc-7e22b2191319343ea81db7795943a9d2"
-  },
-  "doc-8188d64419b5b66f55c03fd005cee4c7": {
-    "entity_names": [
-      "bbox_px",
-      "instruction",
-      "name",
-      "role",
-      "screen_id"
-    ],
-    "count": 5,
-    "create_time": 1787067974,
-    "update_time": 1787067974,
-    "_id": "doc-8188d64419b5b66f55c03fd005cee4c7"
   }
 }

@@ -1,0 +1,31 @@
+To manage saved shipping addresses in your account, you will need to navigate to the account settings or preferences section where such options are typically located. Given the context, here are the relevant elements and actions based on the provided information:
+
+1. **Navigation Path**: You need to first log into your account. The relevant action is to click on the "Login" link or button, which is likely labeled as "Login" or something similar. This action is associated with the `account_logged_in` screen.
+
+2. **GUI Elements**:
+   - **Login Link/Button**: Click on the "Login" link or button to initiate the login process. This action is associated with the `click` method and the `login` entity.
+   - **Account Settings Menu**: After logging in, you may need to navigate to the account settings or preferences section. This could involve clicking on a menu item like "Account Settings," "Preferences," or "Saved Addresses." The exact label might vary depending on the website's design but is generally something related to personalization or account management.
+
+3. **Labels and Roles**:
+   - **Login Label**: The label for the login action is "Login."
+   - **Account Settings Menu Item**: The label for navigating to the account settings or preferences section could be "Account Settings," "Preferences," or "Saved Addresses."
+
+4. **Actions**:
+   - **Click Action**: The action required to log in is a click action, which is associated with the `click` method and the `login` entity.
+   - **Navigation Action**: After logging in, you would need to navigate to the account settings or preferences section. This could involve clicking on a menu item or link labeled as "Account Settings," "Preferences," or "Saved Addresses."
+
+Given the context, the relevant document chunks and their reference IDs are:
+
+- `reference_id`: "account_logged_in" for the login action.
+- `reference_id`: "account_logged_in" for the account logged-in screen.
+- `reference_id`: "login" for the login action.
+
+These references indicate the steps and actions required to access the account settings where you can manage saved shipping addresses.
+
+### References
+
+- [1] Document Title One
+- [2] Document Title Two
+- [3] Document Title Three
+- [4] Document Title Four
+- [5] Document Title Five

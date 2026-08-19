@@ -1,0 +1,842 @@
+{
+  "hybrid:keywords:0c46dca6a8c0aa5ef5e0686d96cb1542": {
+    "return": "{\"high_level_keywords\": [\"product query\", \"storefront\"], \"low_level_keywords\": [\"type\", \"query\", \"storefront\", \"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Where do I type a product query on the storefront?\nScreen: home\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133003,
+    "update_time": 1787133003,
+    "_id": "hybrid:keywords:0c46dca6a8c0aa5ef5e0686d96cb1542"
+  },
+  "hybrid:keywords:233cfb40fa24f354c424f4446e589e66": {
+    "return": "{\"high_level_keywords\": [\"header search\", \"submit\", \"keywords\", \"storefront\"], \"low_level_keywords\": [\"search\", \"enter\", \"navigation\", \"path\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Submit the header search after entering keywords.\nScreen: home\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133007,
+    "update_time": 1787133007,
+    "_id": "hybrid:keywords:233cfb40fa24f354c424f4446e589e66"
+  },
+  "hybrid:keywords:0400ac0d01257f817b13812448e52e35": {
+    "return": "{\"high_level_keywords\": [\"search filters\", \"header box\", \"storefront\"], \"low_level_keywords\": [\"extra search filters\", \"header box\", \"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Open the page with extra search filters beyond the header box.\nScreen: home\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133009,
+    "update_time": 1787133009,
+    "_id": "hybrid:keywords:0400ac0d01257f817b13812448e52e35"
+  },
+  "hybrid:keywords:d0fdfd84a11b438751597a63a30b47f0": {
+    "return": "{\"high_level_keywords\": [\"login\", \"account\", \"login page\"], \"low_level_keywords\": []}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: I already have an account — take me to the login page.\nScreen: home\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133010,
+    "update_time": 1787133010,
+    "_id": "hybrid:keywords:d0fdfd84a11b438751597a63a30b47f0"
+  },
+  "hybrid:keywords:35281f395d23fd55b18e4f1a34623317": {
+    "return": "{\"high_level_keywords\": [\"register\", \"customer\", \"account\"], \"low_level_keywords\": [\"header\", \"storefront\", \"GUI\", \"navigation\", \"path\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Register a new customer account from the header.\nScreen: home\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133012,
+    "update_time": 1787133012,
+    "_id": "hybrid:keywords:35281f395d23fd55b18e4f1a34623317"
+  },
+  "hybrid:keywords:f4ec0c6c4c39327bf7f4d27d6cbcdbcf": {
+    "return": "{\"high_level_keywords\": [\"wishlist\", \"open\", \"saved\", \"page\"], \"low_level_keywords\": [\"top\", \"home\", \"storefront\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Open my saved wishlist from the top of the page.\nScreen: home\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133028,
+    "update_time": 1787133028,
+    "_id": "hybrid:keywords:f4ec0c6c4c39327bf7f4d27d6cbcdbcf"
+  },
+  "hybrid:keywords:6a5a1b9808ae6aebec281b48f62b5cde": {
+    "return": "{\"high_level_keywords\": [\"shopping bag\", \"cart icon\", \"header\", \"storefront\"], \"low_level_keywords\": [\"shopping\", \"cart\", \"header\", \"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Open the shopping bag / cart icon in the header.\nScreen: home\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133034,
+    "update_time": 1787133034,
+    "_id": "hybrid:keywords:6a5a1b9808ae6aebec281b48f62b5cde"
+  },
+  "hybrid:keywords:50d3599ca03266086a92938f175c173e": {
+    "return": "{\"high_level_keywords\": [\"Electronics department\", \"main menu\", \"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"], \"low_level_keywords\": [\"storefront\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Browse the Electronics department from the main menu.\nScreen: home\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133036,
+    "update_time": 1787133036,
+    "_id": "hybrid:keywords:50d3599ca03266086a92938f175c173e"
+  },
+  "hybrid:keywords:c2885d4e5555e2473dd0b0724456a0ba": {
+    "return": "{\"high_level_keywords\": [\"Video Games\", \"navigation bar\", \"storefront\"], \"low_level_keywords\": [\"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Go to the Video Games category in the navigation bar.\nScreen: home\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133038,
+    "update_time": 1787133038,
+    "_id": "hybrid:keywords:c2885d4e5555e2473dd0b0724456a0ba"
+  },
+  "hybrid:keywords:a63b3701ee1f2483ff230133dd18d978": {
+    "return": "{\"high_level_keywords\": [\"product\", \"cart\"], \"low_level_keywords\": [\"storefront\", \"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Put this product into the cart.\nScreen: product\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133045,
+    "update_time": 1787133045,
+    "_id": "hybrid:keywords:a63b3701ee1f2483ff230133dd18d978"
+  },
+  "hybrid:keywords:d722d35420629215d50ddfb2d164987e": {
+    "return": "{\"high_level_keywords\": [\"change\", \"units\", \"item\", \"buy\"], \"low_level_keywords\": [\"product\", \"storefront\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Change how many units of this item I want to buy.\nScreen: product\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133056,
+    "update_time": 1787133056,
+    "_id": "hybrid:keywords:d722d35420629215d50ddfb2d164987e"
+  },
+  "hybrid:keywords:d1535537f50d42441cf4d0d978ac9e07": {
+    "return": "{\"high_level_keywords\": [\"storefront\", \"navigation\", \"GUI elements\", \"labels\", \"actions\"], \"low_level_keywords\": [\"product\", \"later\", \"buying\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Save this item for later without buying it yet.\nScreen: product\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133064,
+    "update_time": 1787133064,
+    "_id": "hybrid:keywords:d1535537f50d42441cf4d0d978ac9e07"
+  },
+  "hybrid:keywords:00a15fc0d0931e64fc406a40f61e7247": {
+    "return": "{\"high_level_keywords\": [\"product comparison\", \"storefront\"], \"low_level_keywords\": [\"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Add this product to the comparison list.\nScreen: product\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133066,
+    "update_time": 1787133066,
+    "_id": "hybrid:keywords:00a15fc0d0931e64fc406a40f61e7247"
+  },
+  "hybrid:keywords:15f7f7b637c580b43b858c0e85c54163": {
+    "return": "{\"high_level_keywords\": [\"account\", \"sign in\", \"login\", \"email\", \"storefront\"], \"low_level_keywords\": [\"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Field where I enter my account email to sign in.\nScreen: login\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133068,
+    "update_time": 1787133068,
+    "_id": "hybrid:keywords:15f7f7b637c580b43b858c0e85c54163"
+  },
+  "hybrid:keywords:fab77a23d3956f1500563f8c1eb5a8ea": {
+    "return": "{\"high_level_keywords\": [\"password\", \"customer login\", \"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"], \"low_level_keywords\": [\"input\", \"form\", \"storefront\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Password input on the customer login form.\nScreen: login\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133070,
+    "update_time": 1787133070,
+    "_id": "hybrid:keywords:fab77a23d3956f1500563f8c1eb5a8ea"
+  },
+  "hybrid:keywords:2d2c564344a8d795596082f7a7051c69": {
+    "return": "{\"high_level_keywords\": [\"password reset\", \"login screen\"], \"low_level_keywords\": [\"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: I forgot my password — open the reset flow.\nScreen: login\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133077,
+    "update_time": 1787133077,
+    "_id": "hybrid:keywords:2d2c564344a8d795596082f7a7051c69"
+  },
+  "hybrid:keywords:921913f88e1f6f1da173653038c640fb": {
+    "return": "{\"high_level_keywords\": [\"Contact Us form\", \"name\", \"type\"], \"low_level_keywords\": [\"form\", \"name\", \"type\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Where do I type my name on the Contact Us form?\nScreen: contact\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133086,
+    "update_time": 1787133086,
+    "_id": "hybrid:keywords:921913f88e1f6f1da173653038c640fb"
+  },
+  "hybrid:keywords:ee8c6566aafb1c2ff95796d85b975c24": {
+    "return": "{\"high_level_keywords\": [\"contact form\", \"phone number field\"], \"low_level_keywords\": [\"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Phone number field on the contact form.\nScreen: contact\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133096,
+    "update_time": 1787133096,
+    "_id": "hybrid:keywords:ee8c6566aafb1c2ff95796d85b975c24"
+  },
+  "hybrid:keywords:192a6fb904145bb3986b38e100011fa1": {
+    "return": "{\"high_level_keywords\": [\"Advanced Search\", \"Product Title\"], \"low_level_keywords\": [\"filter\", \"search\", \"storefront\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: On Advanced Search, filter by product title.\nScreen: search_advanced\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133098,
+    "update_time": 1787133098,
+    "_id": "hybrid:keywords:192a6fb904145bb3986b38e100011fa1"
+  },
+  "hybrid:keywords:92164c7edc4204913bab041ebdbc41fe": {
+    "return": "{\"high_level_keywords\": [\"advanced search\", \"SKU\", \"storefront\"], \"low_level_keywords\": [\"search form\", \"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Enter a SKU on the advanced search form.\nScreen: search_advanced\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133100,
+    "update_time": 1787133100,
+    "_id": "hybrid:keywords:92164c7edc4204913bab041ebdbc41fe"
+  },
+  "hybrid:keywords:5d6190cf46387a6b67849deea41de076": {
+    "return": "{\"high_level_keywords\": [\"cart\", \"checkout\", \"storefront\"], \"low_level_keywords\": [\"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: From the cart page, continue to checkout.\nScreen: cart_with_item\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133103,
+    "update_time": 1787133103,
+    "_id": "hybrid:keywords:5d6190cf46387a6b67849deea41de076"
+  },
+  "hybrid:keywords:7a02a1eea1359479b861bc3efad6276f": {
+    "return": "{\"high_level_keywords\": [\"delete\", \"shopping cart\", \"line item\"], \"low_level_keywords\": [\"cart\", \"item\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Delete this line item from the shopping cart.\nScreen: cart_with_item\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133124,
+    "update_time": 1787133124,
+    "_id": "hybrid:keywords:7a02a1eea1359479b861bc3efad6276f"
+  },
+  "hybrid:keywords:e3039d997a23c52ab9196b5ea3b7b141": {
+    "return": "{\"high_level_keywords\": [\"cart\", \"storefront\", \"navigation\"], \"low_level_keywords\": [\"GUI elements\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Leave the cart and keep browsing the store.\nScreen: cart_with_item\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133125,
+    "update_time": 1787133125,
+    "_id": "hybrid:keywords:e3039d997a23c52ab9196b5ea3b7b141"
+  },
+  "hybrid:keywords:61f9b9a8b971598075e8416bb0350c78": {
+    "return": "{\"high_level_keywords\": [\"mini-cart\", \"full cart page\", \"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"], \"low_level_keywords\": [\"dropdown\", \"open\", \"storefront\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: In the mini-cart dropdown, open the full cart page (not checkout).\nScreen: minicart_open\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133126,
+    "update_time": 1787133126,
+    "_id": "hybrid:keywords:61f9b9a8b971598075e8416bb0350c78"
+  },
+  "hybrid:keywords:b4b8e5fea18cb38aed8dd99dca43c0f3": {
+    "return": "{\"high_level_keywords\": [\"mini-cart\", \"checkout\"], \"low_level_keywords\": [\"open\", \"straight\", \"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\", \"storefront\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: From the open mini-cart, go straight to checkout.\nScreen: minicart_open\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133128,
+    "update_time": 1787133128,
+    "_id": "hybrid:keywords:b4b8e5fea18cb38aed8dd99dca43c0f3"
+  },
+  "hybrid:keywords:00f90ad24808aa0e6fc661ba71eec295": {
+    "return": "{\"high_level_keywords\": [\"past orders\", \"account logged in\", \"storefront\"], \"low_level_keywords\": [\"logged in\", \"open\", \"orders\", \"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: While logged in, open my past orders.\nScreen: account_logged_in\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133137,
+    "update_time": 1787133137,
+    "_id": "hybrid:keywords:00f90ad24808aa0e6fc661ba71eec295"
+  },
+  "hybrid:keywords:bc3e4e6674a1b25a678dd85ff4ddc6d7": {
+    "return": "{\"high_level_keywords\": [\"shipping addresses\", \"account management\"], \"low_level_keywords\": [\"manage\", \"saved\", \"account\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Manage saved shipping addresses in my account.\nScreen: account_logged_in\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133146,
+    "update_time": 1787133146,
+    "_id": "hybrid:keywords:bc3e4e6674a1b25a678dd85ff4ddc6d7"
+  },
+  "hybrid:keywords:fc08877e84ebd3e793fc0f6072981be2": {
+    "return": "{\"high_level_keywords\": [\"logout\", \"customer account\"], \"low_level_keywords\": [\"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\", \"storefront\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Log out of the customer account.\nScreen: account_logged_in\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133148,
+    "update_time": 1787133148,
+    "_id": "hybrid:keywords:fc08877e84ebd3e793fc0f6072981be2"
+  },
+  "hybrid:keywords:695611222f8d7809cad057c68db9dbb1": {
+    "return": "{\"high_level_keywords\": [\"password reset\", \"email confirmation\"], \"low_level_keywords\": [\"forgot_password\", \"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\", \"storefront\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Confirm sending a password reset email.\nScreen: forgot_password\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133154,
+    "update_time": 1787133154,
+    "_id": "hybrid:keywords:695611222f8d7809cad057c68db9dbb1"
+  },
+  "hybrid:keywords:5c17b0399ca77fd47ed819d3ba085af8": {
+    "return": "{\"high_level_keywords\": [\"create-account\", \"first-name\", \"register\"], \"low_level_keywords\": [\"field\", \"form\", \"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\", \"storefront\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: First name field on the create-account form.\nScreen: register\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133155,
+    "update_time": 1787133155,
+    "_id": "hybrid:keywords:5c17b0399ca77fd47ed819d3ba085af8"
+  },
+  "hybrid:keywords:32a7eba0bac111e62d84a20466ba2370": {
+    "return": "{\"high_level_keywords\": [\"guest order lookup\", \"submit\", \"form\"], \"low_level_keywords\": [\"orders_returns\", \"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\", \"storefront\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Submit the guest order lookup form.\nScreen: orders_returns\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133166,
+    "update_time": 1787133166,
+    "_id": "hybrid:keywords:32a7eba0bac111e62d84a20466ba2370"
+  },
+  "hybrid:keywords:543823686201b15cabae03c4649c7288": {
+    "return": "{\"high_level_keywords\": [\"Electronics\", \"Headphones\", \"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"], \"low_level_keywords\": [\"storefront\", \"category\", \"screen\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: On Electronics, open the Headphones subcategory listing.\nScreen: category\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787133169,
+    "update_time": 1787133169,
+    "_id": "hybrid:keywords:543823686201b15cabae03c4649c7288"
+  },
+  "hybrid:keywords:148de0b156c90e329c6fff69a33a47c6": {
+    "return": "{\"high_level_keywords\": [\"search\", \"storefront\", \"navigation\"], \"low_level_keywords\": [\"shirt\", \"homepage\", \"search results page\", \"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: From the homepage, search for 'shirt' and land on the search results page.\nCurrent page URL: http://localhost:7770/\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787134478,
+    "update_time": 1787134478,
+    "_id": "hybrid:keywords:148de0b156c90e329c6fff69a33a47c6"
+  },
+  "hybrid:keywords:d5f36f8eb279cb2a39fcaeb3fb4397b7": {
+    "return": "{\"high_level_keywords\": [\"Create New Customer Account\", \"Storefront Header\", \"GUI Elements\", \"Navigation Paths\", \"Labels\", \"Roles\", \"Actions\"], \"low_level_keywords\": [\"Customer Account\", \"Form\", \"Storefront\", \"Header\", \"GUI\", \"Navigation\", \"Path\", \"Label\", \"Role\", \"Action\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Open the Create New Customer Account form from the storefront header.\nCurrent page URL: http://localhost:7770/\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787134534,
+    "update_time": 1787134534,
+    "_id": "hybrid:keywords:d5f36f8eb279cb2a39fcaeb3fb4397b7"
+  },
+  "hybrid:keywords:10396fd1a423418f22ba397973b27edc": {
+    "return": "{\"high_level_keywords\": [\"login\", \"forgot password\", \"recovery page\"], \"low_level_keywords\": [\"customer account\", \"login page\", \"password recovery\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Start on the login page and open the Forgot Your Password recovery page.\nCurrent page URL: http://localhost:7770/customer/account/login/\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787134564,
+    "update_time": 1787134564,
+    "_id": "hybrid:keywords:10396fd1a423418f22ba397973b27edc"
+  },
+  "hybrid:keywords:26887f1de1431d69ebd0a07642f8be43": {
+    "return": "{\"high_level_keywords\": [\"Video Games\", \"homepage\", \"navigation\"], \"low_level_keywords\": [\"main navigation\", \"GUI elements\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: From the homepage, open the Video Games category via the main navigation.\nCurrent page URL: http://localhost:7770/\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787134579,
+    "update_time": 1787134579,
+    "_id": "hybrid:keywords:26887f1de1431d69ebd0a07642f8be43"
+  },
+  "hybrid:keywords:396d91374c32f57b8921a1b78b3cd2b6": {
+    "return": "{\"high_level_keywords\": [\"product page\", \"wish list\", \"cart\", \"storefront\"], \"low_level_keywords\": [\"add\", \"product\", \"to\", \"wish list\", \"not\", \"add\", \"to\", \"cart\", \"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: You are on a product page. Add the product to the wish list (do not add to cart).\nCurrent page URL: http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787134604,
+    "update_time": 1787134604,
+    "_id": "hybrid:keywords:396d91374c32f57b8921a1b78b3cd2b6"
+  },
+  "hybrid:keywords:dd9c036427ff66296a794de8e0ac516b": {
+    "return": "{\"high_level_keywords\": [\"shopping cart\", \"homepage\", \"navigation\", \"storefront\"], \"low_level_keywords\": [\"cart URL\", \"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: From the homepage, open the shopping cart page. Done when the cart URL is open (empty cart is OK).\nCurrent page URL: http://localhost:7770/\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787134677,
+    "update_time": 1787134677,
+    "_id": "hybrid:keywords:dd9c036427ff66296a794de8e0ac516b"
+  },
+  "hybrid:keywords:9dc4c9585704f1434b62135e38baffce": {
+    "return": "{\"high_level_keywords\": [\"Advanced Search\", \"Product Name\", \"Search Results\"], \"low_level_keywords\": [\"tea\", \"Product Name field\", \"run search\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Open Advanced Search, type 'tea' into the Product Name field, and run the search so results appear.\nCurrent page URL: http://localhost:7770/\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787134759,
+    "update_time": 1787134759,
+    "_id": "hybrid:keywords:9dc4c9585704f1434b62135e38baffce"
+  },
+  "hybrid:keywords:19819a3eeb79c810d595d3864d9a771c": {
+    "return": "{\"high_level_keywords\": [\"login\", \"customer account\", \"address book\", \"email\", \"password\"], \"low_level_keywords\": [\"test customer account\", \"emma.lopez@gmail.com\", \"Password.123\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Log in with the test customer account, then open the Address Book. Use email `emma.lopez@gmail.com` and password `Password.123` when signing in (type them into the login form yourself).\nCurrent page URL: http://localhost:7770/customer/account/login/\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787134851,
+    "update_time": 1787134851,
+    "_id": "hybrid:keywords:19819a3eeb79c810d595d3864d9a771c"
+  },
+  "hybrid:keywords:b3e1856295668006318b0c8133ab3c69": {
+    "return": "{\"high_level_keywords\": [\"Electronics\", \"Headphones\", \"GUI elements\", \"navigation paths\", \"labels\", \"roles\", \"actions\"], \"low_level_keywords\": [\"storefront\", \"sidebar\", \"listing\", \"URL\", \"http://localhost:7770/electronics.html\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Start on Electronics. Open the Headphones subcategory from the category sidebar/listing.\nCurrent page URL: http://localhost:7770/electronics.html\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787134895,
+    "update_time": 1787134895,
+    "_id": "hybrid:keywords:b3e1856295668006318b0c8133ab3c69"
+  },
+  "hybrid:keywords:94665ea1abf9fec2f120140570efbae0": {
+    "return": "{\"high_level_keywords\": [\"Shopping Cart\", \"Mini-Cart\", \"Full Shopping Cart Page\", \"View and Edit Cart\"], \"low_level_keywords\": [\"Cart\", \"Homepage\", \"Navigation Paths\", \"GUI Elements\", \"Labels\", \"Roles\", \"Actions\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Task: Assume an item is already in the cart. From the homepage, open the mini-cart and go to the full Shopping Cart page via View and Edit Cart (do NOT use Proceed to Checkout).\nCurrent page URL: http://localhost:7770/\nWhich GUI elements, navigation paths, labels, roles, and actions on this storefront are most relevant?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 15,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787134941,
+    "update_time": 1787134941,
+    "_id": "hybrid:keywords:94665ea1abf9fec2f120140570efbae0"
+  }
+}

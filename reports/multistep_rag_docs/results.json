@@ -1,0 +1,686 @@
+{
+  "created_at": "2026-08-19T10:46:16.670191+00:00",
+  "model": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "base_url": "http://localhost:7770",
+  "stuck_limit": 3,
+  "tasks_path": "C:/Proga/GUI2Model/data/target_app/eval/tasks.json",
+  "prior_knowledge": {
+    "type": "rag",
+    "mode": "docs",
+    "query_mode": "hybrid",
+    "max_chars": 6000,
+    "stores_root": "C:/Proga/GUI2Model/rag/stores"
+  },
+  "summary": {
+    "n_tasks": 10,
+    "n_success": 4,
+    "success_rate": 0.4,
+    "total_steps": 24,
+    "avg_steps": 2.4,
+    "avg_steps_success": 1.25,
+    "avg_expected_steps": 2.3,
+    "avg_steps_delta": 0.1,
+    "total_tokens": 195161,
+    "avg_tokens": 19516.1,
+    "total_prompt_tokens": 194673,
+    "total_completion_tokens": 488
+  },
+  "results": [
+    {
+      "id": "eval_search_shirt_results",
+      "goal": "From the homepage, search for 'shirt' and land on the search results page.",
+      "success": false,
+      "n_steps": 3,
+      "expected_steps": 3,
+      "steps_delta": 0,
+      "max_steps": 6,
+      "start_url": "http://localhost:7770/",
+      "end_url": "http://localhost:7770/",
+      "end_title": "One Stop Market",
+      "prompt_tokens": 25999,
+      "completion_tokens": 60,
+      "total_tokens": 26059,
+      "tags": "search,guest",
+      "error": "stuck_loop: repeated click on combobox 'Search entire store here...' 3x without leaving 'http://localhost:7770/' / 'One Stop Market'",
+      "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 16,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8564,
+          "completion_tokens": 20,
+          "total_tokens": 8584,
+          "screenshot": "artifacts/eval_search_shirt_results/step_000/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        },
+        {
+          "step": 1,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 16,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8667,
+          "completion_tokens": 20,
+          "total_tokens": 8687,
+          "screenshot": "artifacts/eval_search_shirt_results/step_001/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        },
+        {
+          "step": 2,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 16,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8768,
+          "completion_tokens": 20,
+          "total_tokens": 8788,
+          "screenshot": "artifacts/eval_search_shirt_results/step_002/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        }
+      ]
+    },
+    {
+      "id": "eval_open_create_account",
+      "goal": "Open the Create New Customer Account form from the storefront header.",
+      "success": true,
+      "n_steps": 1,
+      "expected_steps": 1,
+      "steps_delta": 0,
+      "max_steps": 4,
+      "start_url": "http://localhost:7770/",
+      "end_url": "http://localhost:7770/customer/account/create/",
+      "end_title": "Create New Customer Account",
+      "prompt_tokens": 8559,
+      "completion_tokens": 20,
+      "total_tokens": 8579,
+      "tags": "auth,register,guest",
+      "error": null,
+      "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/customer/account/create/",
+          "title_before": "One Stop Market",
+          "title_after": "Create New Customer Account",
+          "action": {
+            "action": "click",
+            "target_mark_id": 14,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8559,
+          "completion_tokens": 20,
+          "total_tokens": 8579,
+          "screenshot": "artifacts/eval_open_create_account/step_000/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        }
+      ]
+    },
+    {
+      "id": "eval_forgot_password_from_login",
+      "goal": "Start on the login page and open the Forgot Your Password recovery page.",
+      "success": true,
+      "n_steps": 1,
+      "expected_steps": 1,
+      "steps_delta": 0,
+      "max_steps": 4,
+      "start_url": "http://localhost:7770/customer/account/login/",
+      "end_url": "http://localhost:7770/customer/account/forgotpassword/",
+      "end_title": "Forgot Your Password?",
+      "prompt_tokens": 6710,
+      "completion_tokens": 20,
+      "total_tokens": 6730,
+      "tags": "auth,guest",
+      "error": null,
+      "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/customer/account/login/",
+          "url_after": "http://localhost:7770/customer/account/forgotpassword/",
+          "title_before": "Customer Login",
+          "title_after": "Forgot Your Password?",
+          "action": {
+            "action": "click",
+            "target_mark_id": 28,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 6710,
+          "completion_tokens": 20,
+          "total_tokens": 6730,
+          "screenshot": "artifacts/eval_forgot_password_from_login/step_000/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        }
+      ]
+    },
+    {
+      "id": "eval_browse_video_games",
+      "goal": "From the homepage, open the Video Games category via the main navigation.",
+      "success": true,
+      "n_steps": 1,
+      "expected_steps": 1,
+      "steps_delta": 0,
+      "max_steps": 4,
+      "start_url": "http://localhost:7770/",
+      "end_url": "http://localhost:7770/video-games.html",
+      "end_title": "Video Games",
+      "prompt_tokens": 8561,
+      "completion_tokens": 20,
+      "total_tokens": 8581,
+      "tags": "browse,guest",
+      "error": null,
+      "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/video-games.html",
+          "title_before": "One Stop Market",
+          "title_after": "Video Games",
+          "action": {
+            "action": "click",
+            "target_mark_id": 31,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8561,
+          "completion_tokens": 20,
+          "total_tokens": 8581,
+          "screenshot": "artifacts/eval_browse_video_games/step_000/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        }
+      ]
+    },
+    {
+      "id": "eval_product_add_wishlist",
+      "goal": "You are on a product page. Add the product to the wish list (do not add to cart).",
+      "success": false,
+      "n_steps": 4,
+      "expected_steps": 2,
+      "steps_delta": 2,
+      "max_steps": 4,
+      "start_url": "http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html",
+      "end_url": "http://localhost:7770/customer/account/create/",
+      "end_title": "Create New Customer Account",
+      "prompt_tokens": 28739,
+      "completion_tokens": 80,
+      "total_tokens": 28819,
+      "tags": "wishlist,product,guest",
+      "error": null,
+      "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/briess-dme-pilsen-light-1-lb-bag.html",
+          "url_after": "http://localhost:7770/customer/account/login/",
+          "title_before": "Briess DME - Pilsen Light - 1 lb Bag",
+          "title_after": "Customer Login",
+          "action": {
+            "action": "click",
+            "target_mark_id": 32,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 6915,
+          "completion_tokens": 20,
+          "total_tokens": 6935,
+          "screenshot": "artifacts/eval_product_add_wishlist/step_000/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        },
+        {
+          "step": 1,
+          "url_before": "http://localhost:7770/customer/account/login/",
+          "url_after": "http://localhost:7770/customer/account/create/",
+          "title_before": "Customer Login",
+          "title_after": "Create New Customer Account",
+          "action": {
+            "action": "click",
+            "target_mark_id": 24,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 6848,
+          "completion_tokens": 20,
+          "total_tokens": 6868,
+          "screenshot": "artifacts/eval_product_add_wishlist/step_001/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        },
+        {
+          "step": 2,
+          "url_before": "http://localhost:7770/customer/account/create/",
+          "url_after": "http://localhost:7770/customer/account/create/",
+          "title_before": "Create New Customer Account",
+          "title_after": "Create New Customer Account",
+          "action": {
+            "action": "click",
+            "target_mark_id": 24,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 7434,
+          "completion_tokens": 20,
+          "total_tokens": 7454,
+          "screenshot": "artifacts/eval_product_add_wishlist/step_002/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        },
+        {
+          "step": 3,
+          "url_before": "http://localhost:7770/customer/account/create/",
+          "url_after": "http://localhost:7770/customer/account/create/",
+          "title_before": "Create New Customer Account",
+          "title_after": "Create New Customer Account",
+          "action": {
+            "action": "click",
+            "target_mark_id": 24,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 7542,
+          "completion_tokens": 20,
+          "total_tokens": 7562,
+          "screenshot": "artifacts/eval_product_add_wishlist/step_003/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        }
+      ]
+    },
+    {
+      "id": "eval_empty_cart_from_home",
+      "goal": "From the homepage, open the shopping cart page. Done when the cart URL is open (empty cart is OK).",
+      "success": false,
+      "n_steps": 3,
+      "expected_steps": 2,
+      "steps_delta": 1,
+      "max_steps": 6,
+      "start_url": "http://localhost:7770/",
+      "end_url": "http://localhost:7770/",
+      "end_title": "One Stop Market",
+      "prompt_tokens": 26024,
+      "completion_tokens": 60,
+      "total_tokens": 26084,
+      "tags": "cart,guest",
+      "error": "stuck_loop: repeated click on link 'My Cart' 3x without leaving 'http://localhost:7770/' / 'One Stop Market'",
+      "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 18,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8571,
+          "completion_tokens": 20,
+          "total_tokens": 8591,
+          "screenshot": "artifacts/eval_empty_cart_from_home/step_000/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        },
+        {
+          "step": 1,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 18,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8678,
+          "completion_tokens": 20,
+          "total_tokens": 8698,
+          "screenshot": "artifacts/eval_empty_cart_from_home/step_001/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        },
+        {
+          "step": 2,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 18,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8775,
+          "completion_tokens": 20,
+          "total_tokens": 8795,
+          "screenshot": "artifacts/eval_empty_cart_from_home/step_002/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        }
+      ]
+    },
+    {
+      "id": "eval_advanced_search_fill_name",
+      "goal": "Open Advanced Search, type 'tea' into the Product Name field, and run the search so results appear.",
+      "success": false,
+      "n_steps": 3,
+      "expected_steps": 5,
+      "steps_delta": -2,
+      "max_steps": 8,
+      "start_url": "http://localhost:7770/",
+      "end_url": "http://localhost:7770/",
+      "end_title": "One Stop Market",
+      "prompt_tokens": 26014,
+      "completion_tokens": 60,
+      "total_tokens": 26074,
+      "tags": "search,advanced,guest",
+      "error": "stuck_loop: repeated click on combobox 'Search entire store here...' 3x without leaving 'http://localhost:7770/' / 'One Stop Market'",
+      "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 16,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8569,
+          "completion_tokens": 20,
+          "total_tokens": 8589,
+          "screenshot": "artifacts/eval_advanced_search_fill_name/step_000/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        },
+        {
+          "step": 1,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 16,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8672,
+          "completion_tokens": 20,
+          "total_tokens": 8692,
+          "screenshot": "artifacts/eval_advanced_search_fill_name/step_001/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        },
+        {
+          "step": 2,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 16,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8773,
+          "completion_tokens": 20,
+          "total_tokens": 8793,
+          "screenshot": "artifacts/eval_advanced_search_fill_name/step_002/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        }
+      ]
+    },
+    {
+      "id": "eval_login_then_address_book",
+      "goal": "Log in with the test customer account, then open the Address Book.",
+      "success": false,
+      "n_steps": 3,
+      "expected_steps": 4,
+      "steps_delta": -1,
+      "max_steps": 10,
+      "start_url": "http://localhost:7770/customer/account/login/",
+      "end_url": "http://localhost:7770/customer/account/login/",
+      "end_title": "Customer Login",
+      "prompt_tokens": 20548,
+      "completion_tokens": 60,
+      "total_tokens": 20608,
+      "tags": "auth,account,customer",
+      "error": "stuck_loop: repeated click on textbox 'Email' 3x without leaving 'http://localhost:7770/customer/account/login/' / 'Customer Login'",
+      "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/customer/account/login/",
+          "url_after": "http://localhost:7770/customer/account/login/",
+          "title_before": "Customer Login",
+          "title_after": "Customer Login",
+          "action": {
+            "action": "click",
+            "target_mark_id": 23,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 6742,
+          "completion_tokens": 20,
+          "total_tokens": 6762,
+          "screenshot": "artifacts/eval_login_then_address_book/step_000/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        },
+        {
+          "step": 1,
+          "url_before": "http://localhost:7770/customer/account/login/",
+          "url_after": "http://localhost:7770/customer/account/login/",
+          "title_before": "Customer Login",
+          "title_after": "Customer Login",
+          "action": {
+            "action": "click",
+            "target_mark_id": 23,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 6850,
+          "completion_tokens": 20,
+          "total_tokens": 6870,
+          "screenshot": "artifacts/eval_login_then_address_book/step_001/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        },
+        {
+          "step": 2,
+          "url_before": "http://localhost:7770/customer/account/login/",
+          "url_after": "http://localhost:7770/customer/account/login/",
+          "title_before": "Customer Login",
+          "title_after": "Customer Login",
+          "action": {
+            "action": "click",
+            "target_mark_id": 23,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 6956,
+          "completion_tokens": 20,
+          "total_tokens": 6976,
+          "screenshot": "artifacts/eval_login_then_address_book/step_002/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        }
+      ]
+    },
+    {
+      "id": "eval_category_to_headphones",
+      "goal": "Start on Electronics. Open the Headphones subcategory from the category sidebar/listing.",
+      "success": true,
+      "n_steps": 2,
+      "expected_steps": 1,
+      "steps_delta": 1,
+      "max_steps": 6,
+      "start_url": "http://localhost:7770/electronics.html",
+      "end_url": "http://localhost:7770/electronics/headphones.html",
+      "end_title": "Headphones - Electronics",
+      "prompt_tokens": 17334,
+      "completion_tokens": 40,
+      "total_tokens": 17374,
+      "tags": "browse,guest",
+      "error": null,
+      "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/electronics.html",
+          "url_after": "http://localhost:7770/electronics.html",
+          "title_before": "Electronics",
+          "title_after": "Electronics",
+          "action": {
+            "action": "click",
+            "target_mark_id": 27,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8582,
+          "completion_tokens": 20,
+          "total_tokens": 8602,
+          "screenshot": "artifacts/eval_category_to_headphones/step_000/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        },
+        {
+          "step": 1,
+          "url_before": "http://localhost:7770/electronics.html",
+          "url_after": "http://localhost:7770/electronics/headphones.html",
+          "title_before": "Electronics",
+          "title_after": "Headphones - Electronics",
+          "action": {
+            "action": "click",
+            "target_mark_id": 41,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8752,
+          "completion_tokens": 20,
+          "total_tokens": 8772,
+          "screenshot": "artifacts/eval_category_to_headphones/step_001/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        }
+      ]
+    },
+    {
+      "id": "eval_minicart_to_full_cart",
+      "goal": "Assume an item is already in the cart. From the homepage, open the mini-cart and go to the full Shopping Cart page via View and Edit Cart (do NOT use Proceed to Checkout).",
+      "success": false,
+      "n_steps": 3,
+      "expected_steps": 3,
+      "steps_delta": 0,
+      "max_steps": 8,
+      "start_url": "http://localhost:7770/",
+      "end_url": "http://localhost:7770/",
+      "end_title": "One Stop Market",
+      "prompt_tokens": 26185,
+      "completion_tokens": 68,
+      "total_tokens": 26253,
+      "tags": "cart,minicart,guest",
+      "error": "stuck_loop: repeated click on link 'My Cart 1 1 items' 3x without leaving 'http://localhost:7770/' / 'One Stop Market'",
+      "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]",
+      "steps": [
+        {
+          "step": 0,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 18,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8607,
+          "completion_tokens": 24,
+          "total_tokens": 8631,
+          "screenshot": "artifacts/eval_minicart_to_full_cart/step_000/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        },
+        {
+          "step": 1,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 21,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8767,
+          "completion_tokens": 20,
+          "total_tokens": 8787,
+          "screenshot": "artifacts/eval_minicart_to_full_cart/step_001/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        },
+        {
+          "step": 2,
+          "url_before": "http://localhost:7770/",
+          "url_after": "http://localhost:7770/",
+          "title_before": "One Stop Market",
+          "title_after": "One Stop Market",
+          "action": {
+            "action": "click",
+            "target_mark_id": 18,
+            "value": ""
+          },
+          "execution_success": true,
+          "execution_error": null,
+          "prompt_tokens": 8811,
+          "completion_tokens": 24,
+          "total_tokens": 8835,
+          "screenshot": "artifacts/eval_minicart_to_full_cart/step_002/screenshot.png",
+          "rag_context": "Sorry, I'm not able to provide an answer to that question.[no-context]"
+        }
+      ]
+    }
+  ]
+}

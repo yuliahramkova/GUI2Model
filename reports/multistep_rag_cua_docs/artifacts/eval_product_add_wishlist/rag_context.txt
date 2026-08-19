@@ -1,1 +1,15 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To add the product to the wish list without adding it to the cart, follow these steps:
+
+1. **Locate the "Add to Wish List" button**: Typically, this button is located near the product details on the product page. It might be labeled as "Add to Wish List," "Save for Later," or something similar.
+
+2. **Click the "Add to Wish List" button**: Once you locate the button, click it to add the product to your wish list.
+
+3. **Verify the addition**: After clicking the button, you might see a confirmation message or a change in the product's status on the page, indicating that it has been added to your wish list.
+
+If you encounter any issues or if the "Add to Wish List" button is not visible, you can try the following alternative methods:
+
+- **Navigate to the Wish List**: You can go to the Wish List section by clicking on the "Wish List" link in the navigation menu. This will take you to a page where you can manage your saved items.
+
+- **Use the "Open My Wish List" Action**: If you want to quickly access your wish list, you can click on the "Open My Wish List" link, which is usually located in the top navigation bar.
+
+By following these steps, you should be able to add the product to your wish list without adding it to the cart. If you need further assistance or if there are any specific GUI elements or navigation paths that are not clear, please provide more details so I can assist you better.

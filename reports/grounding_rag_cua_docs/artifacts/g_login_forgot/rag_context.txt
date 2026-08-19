@@ -1,1 +1,24 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To assist you in navigating the password reset flow on the storefront, let's break down the relevant elements:
+
+1. **GUI Elements**: 
+   - **Login Form**: This is typically where users enter their email or username to initiate the password reset process.
+   - **Forgot Password Link**: This link is usually located on the login page and directs users to the password reset page.
+
+2. **Navigation Paths**:
+   - **From Login Page to Reset Password Page**: After clicking the "Forgot Password" link, the user is directed to a new page where they can enter their email or username to receive a reset link.
+
+3. **Labels**:
+   - **Email/Username Input Field**: Users will need to provide their email or username to proceed with the password reset.
+   - **Reset Password Button**: This button is used to submit the email or username entered and initiate the password reset process.
+
+4. **Roles**:
+   - **Customer**: The role of the user who needs to reset their password.
+
+5. **Actions**:
+   - **Click on the "Forgot Password" Link**: This action triggers the password reset process.
+   - **Enter Email/Username**: The user inputs their email or username into the provided field.
+   - **Submit the Form**: After entering the email or username, the user clicks the "Reset Password" button to proceed.
+
+Given the context, the most relevant actions and elements would involve interacting with the login page specifically to find and click the "Forgot Password" link. Once clicked, the user would be directed to a new page where they can enter their email or username to continue the password reset process.
+
+If you need further assistance or more detailed steps, please let me know!

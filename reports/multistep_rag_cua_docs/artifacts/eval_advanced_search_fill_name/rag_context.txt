@@ -1,1 +1,21 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To accomplish the task of opening the Advanced Search, typing 'tea' into the Product Name field, and running the search, the following relevant elements and actions are necessary:
+
+1. **GUI Elements and Navigation Paths**:
+   - **Header**: The top part of the webpage where navigation links are located. This is where the Advanced Search button is likely situated.
+   - **Advanced Search Button**: Clicking this button will take you to the Advanced Search page.
+   - **Product Name Field**: Located on the Advanced Search page, this is where you input the product name 'tea'.
+   - **Submit Button**: After entering the product name, click this button to run the search.
+
+2. **Labels**:
+   - **Advanced Search Label**: This label indicates the location of the Advanced Search button in the Header.
+   - **Product Name Field Label**: This label is typically located above the Product Name Field, guiding the user to enter the product name there.
+
+3. **Roles**:
+   - **User**: The role of the user is to interact with the storefront by navigating to the Advanced Search page, entering 'tea' into the Product Name Field, and submitting the search.
+
+4. **Actions**:
+   - **Click on the Advanced Search Button**: This action navigates the user to the Advanced Search page.
+   - **Type 'tea' into the Product Name Field**: This action inputs the product name into the designated field.
+   - **Click the Submit Button**: This action runs the search with the entered product name.
+
+By following these steps, the user can successfully open the Advanced Search, type 'tea' into the Product Name field, and execute the search to view the results.

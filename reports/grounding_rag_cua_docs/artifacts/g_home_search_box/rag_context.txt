@@ -1,1 +1,13 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To perform a product search on the storefront, you would typically interact with the following elements:
+
+1. **Search Field**: This is the area where you type your product query. It is usually located in the header or sidebar of the website. You can click on the search field to bring up the keyboard and start typing your query.
+
+2. **Navigation Paths**: To reach the search field, you might need to navigate from the homepage to the search section. This could involve clicking on a menu option labeled "Search" or "Advanced Search" if available.
+
+3. **Labels**: The label for the search field is often something like "Search," "Find Products," or "Search for Products."
+
+4. **Roles**: As a user, you would be interacting with these elements to perform a search. You are the one typing the query and submitting it.
+
+5. **Actions**: The relevant actions include clicking on the search field, typing your query, and then pressing the "Enter" key or clicking the "Search" button to submit the query.
+
+By following these steps, you can effectively search for products on the storefront.

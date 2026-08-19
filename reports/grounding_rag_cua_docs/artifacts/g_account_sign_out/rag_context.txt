@@ -1,1 +1,11 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To log out of the customer account, you would typically follow these steps:
+
+1. **Identify the Account Navigation Path**: Look for a menu or section labeled "Account" or something similar. This is usually located in the header or footer of the website.
+
+2. **Locate the Logout Option**: Once you are in the account section, look for a link or button labeled "Logout," "Log Out," or "Sign Out."
+
+3. **Click the Logout Button**: Click on the logout button to initiate the logout process.
+
+4. **Confirm Logout**: After clicking the logout button, you may be prompted to confirm your action. Click the confirmation button to proceed.
+
+If you are currently logged in, you can find the logout option in the account section of the website. The exact label and location may vary depending on the website design, but it is generally found in the account section of the header or footer.

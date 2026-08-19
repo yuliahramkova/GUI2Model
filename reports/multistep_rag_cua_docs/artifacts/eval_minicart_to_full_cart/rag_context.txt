@@ -1,1 +1,26 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To accomplish the task of opening the full Shopping Cart page via View and Edit Cart from the homepage, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **Mini-Cart (My Cart)**:
+   - **Label**: Typically labeled as "My Cart" or "Minicart".
+   - **Navigation Path**: Click on the "My Cart" link or icon in the header or sidebar of the homepage.
+   - **Action**: This will open the mini-cart dropdown.
+
+2. **View and Edit Cart**:
+   - **Label**: The label for this action is "View and Edit Cart".
+   - **Navigation Path**: Once the mini-cart is opened, click on the "View and Edit Cart" link or button within the dropdown.
+   - **Action**: This will take you to the full Shopping Cart page at `/checkout/cart/`.
+
+3. **URL and Title**:
+   - **URL**: Ensure the URL after the action is `/checkout/cart/`.
+   - **Title**: The title of the page should contain "Shopping Cart".
+
+4. **Roles and Permissions**:
+   - **Role**: No specific role is required beyond being a registered user or having a session active on the site.
+   - **Permissions**: Access to the shopping cart functionality.
+
+5. **GUI Elements**:
+   - **Mini-Cart Icon**: A small icon typically representing a shopping cart, often located in the header or sidebar.
+   - **"My Cart" Link**: A link or button labeled "My Cart" or "Minicart" that opens the mini-cart dropdown.
+   - **"View and Edit Cart" Button/Link**: A button or link labeled "View and Edit Cart" that navigates to the full Shopping Cart page.
+
+By following these steps, you can successfully navigate from the homepage to the full Shopping Cart page via the View and Edit Cart option without proceeding to checkout.

@@ -1,1 +1,22 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To enter a SKU on the advanced search form, you would typically follow these steps:
+
+1. **Navigate to the Advanced Search Page**: Start by accessing the Advanced Search page. This can usually be done by clicking on the "Advanced Search" link located in the Header of the website. The navigation path would be:
+   - Homepage
+   - Header
+   - Advanced Search
+
+2. **Locate the Advanced Search Form**: Once on the Advanced Search page, look for the search form. This form will likely contain fields for entering search criteria, such as SKU numbers.
+
+3. **Enter the SKU**: In the search field provided, type the SKU number you wish to search for. The label for this field might be something like "SKU" or "Product Code".
+
+4. **Submit the Search Query**: After entering the SKU, click the "Search" button or press Enter to execute the search. This action will initiate the search process and display the results.
+
+5. **Review the Results**: The search results will appear, allowing you to review the products that match the entered SKU.
+
+The relevant GUI elements, navigation paths, labels, and actions for this task include:
+- **GUI Elements**: Search field labeled "SKU", "Product Code", or similar, and a "Search" button.
+- **Navigation Paths**: Homepage → Header → Advanced Search.
+- **Labels**: "Advanced Search", "SKU", "Product Code".
+- **Actions**: Clicking the "Advanced Search" link, typing the SKU into the search field, and clicking the "Search" button.
+
+These steps and elements are based on the typical structure of an advanced search form on a website, and the exact labels and paths may vary depending on the specific implementation of the website.

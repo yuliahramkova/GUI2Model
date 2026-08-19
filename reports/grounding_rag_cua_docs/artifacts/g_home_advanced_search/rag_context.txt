@@ -1,1 +1,21 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To achieve the task of opening the page with extra search filters beyond the header search field, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **GUI Elements**: 
+   - **Search Field**: Located in the header of the homepage, this is the initial input area where users can type their search queries.
+   - **Advanced Search Button**: Positioned next to the search field, this button allows users to access additional search filters and options beyond what is available in the basic search field.
+
+2. **Navigation Paths**:
+   - **Home Page**: The starting point where the search field and advanced search button are located.
+   - **Click on the Advanced Search Button**: This action leads to the Advanced Search page where more filters can be applied.
+
+3. **Labels**:
+   - **"Advanced Search" Label**: This label is typically displayed above or next to the search field, indicating the availability of advanced search features.
+
+4. **Roles**:
+   - **User**: The role of the user who needs to perform the search and access the advanced search features.
+
+5. **Actions**:
+   - **Click on the Search Field**: This action initiates the search process.
+   - **Click on the Advanced Search Button**: This action navigates the user to the Advanced Search page where they can apply additional filters.
+
+By following these steps, the user can effectively open the page with extra search filters beyond the header search field.

@@ -1,16 +1,16 @@
 {
   "action": {
-    "action": "click",
-    "target_mark_id": 23,
-    "value": ""
+    "action": "type",
+    "target_mark_id": 25,
+    "value": "Password.123"
   },
   "execution": {
     "success": true,
     "error": null
   },
   "tokens": {
-    "prompt": 6956,
-    "completion": 20,
-    "total": 6976
+    "prompt": 7614,
+    "completion": 31,
+    "total": 7645
   }
 }

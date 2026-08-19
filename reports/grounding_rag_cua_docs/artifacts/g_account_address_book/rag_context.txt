@@ -1,1 +1,21 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To manage your saved shipping addresses in your account, you'll need to follow these steps:
+
+1. **Navigate to the Customer Account Page**: Start by logging into your account. You can do this by visiting the URL `/customer/account/login/`, which is the login page for managing your account information.
+
+2. **Access the Account Dashboard**: After logging in successfully, you will be directed to the account dashboard. This is typically located at `/customer/account/`.
+
+3. **Locate the Shipping Address Management Section**: On the account dashboard, look for a section labeled "Addresses" or something similar. This section usually contains a list of your saved shipping addresses.
+
+4. **Edit or Update Addresses**: Once you locate the addresses section, you can edit or update the addresses listed there. This may involve clicking on an address to view its details and then making changes.
+
+5. **Save Changes**: After making any necessary changes, ensure to save the updated address information.
+
+If you encounter any issues or need further assistance, you can also explore additional sections like "My Orders" or "Contact Us" for more detailed information or support.
+
+### References
+
+- [1] Customer account management guide
+- [2] Account dashboard navigation
+- [3] Shipping address management section
+- [4] Account login process
+- [5] Account dashboard layout and features

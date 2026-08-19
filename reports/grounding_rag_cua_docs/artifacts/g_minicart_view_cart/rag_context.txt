@@ -1,1 +1,9 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To open the full cart page from the mini-cart dropdown, follow these steps:
+
+1. **Locate the Mini-Cart Dropdown**: Click on the "My Cart" button in the header to open the mini-cart dropdown. This is typically represented by a small cart icon or a label like "My Cart".
+
+2. **Open the Full Cart Page**: Once the mini-cart dropdown is open, look for a label or button labeled "View and Edit Cart". Click on this label to open the full cart page at `/checkout/cart/`.
+
+3. **Verify the Page**: Ensure that the URL contains `/checkout/cart/` and the title of the page includes "Shopping Cart" to confirm that you are on the correct page.
+
+By following these steps, you will successfully open the full cart page from the mini-cart dropdown.

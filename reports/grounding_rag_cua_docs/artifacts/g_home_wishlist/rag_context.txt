@@ -1,1 +1,11 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To open your saved wishlist from the top of the page, you'll need to follow these steps:
+
+1. **Identify the Wish List Feature**: The Wish List is a feature in Magento that allows users to save products for later. It is typically accessible from the top of the page, often under the navigation menu or as a separate link.
+
+2. **Locate the Wish List Link**: Look for a link labeled "Wish List," "Wishlist," or "Wish List" near the top of the page. This link might be under the "Header" or "Navigation Links" section.
+
+3. **Access the Wish List**: Click on the "Wish List" link to open your saved items. This action will take you to the "My Wish List" page where you can view and manage the products you've added.
+
+4. **Verify the Wish List**: Once you're on the "My Wish List" page, you can see the products you've saved. You can add more items to your wishlist by clicking the "Add to Wish List" button on the product pages.
+
+By following these steps, you should be able to access and manage your saved wishlist from the top of the page on the Magento storefront.

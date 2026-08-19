@@ -1,1 +1,17 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To sign in to your account on the storefront, you'll need to follow these steps:
+
+1. **Navigation Path**: Start by navigating to the login page. The URL for the login page is typically `/customer/account/login/`, which is a common endpoint for customer accounts on many e-commerce platforms like Magento.
+
+2. **GUI Elements**: On the login page, look for the following elements:
+   - **Email Input Field**: This is where you would enter your email address. It is usually labeled as "Email" or "Username".
+   - **Password Input Field**: After entering your email, you'll need to provide your password. This field is usually labeled as "Password".
+
+3. **Labels**: The labels for the fields are crucial for understanding what needs to be entered. Common labels include:
+   - "Email" or "Username"
+   - "Password"
+
+4. **Roles**: As a customer, you are the user role interacting with the storefront. You need to log in to manage your account details, view orders, and access other account-related features.
+
+5. **Actions**: The primary action required is to click the "Login" button after entering your email and password. This button is usually labeled as "Login", "Sign In", or something similar.
+
+By following these steps and interacting with the appropriate GUI elements, you should be able to successfully sign in to your account on the storefront.

@@ -1,7 +1,7 @@
 {
   "action": {
     "action": "click",
-    "target_mark_id": 18,
+    "target_mark_id": 17,
     "value": ""
   },
   "execution": {
@@ -9,8 +9,8 @@
     "error": null
   },
   "tokens": {
-    "prompt": 8607,
+    "prompt": 9225,
     "completion": 24,
-    "total": 8631
+    "total": 9249
   }
 }

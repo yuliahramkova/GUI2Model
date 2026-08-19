@@ -1,1 +1,20 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To achieve the goal of opening the page with extra search filters beyond the header search field, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **GUI Elements**: 
+   - **Search Field**: This is typically located at the top of the storefront page, allowing users to type in keywords to search for products.
+   - **Advanced Search Button**: This button is usually labeled as "Advanced Search" or "More Filters" and is positioned next to the standard search field. Clicking this button opens a more detailed search interface with additional filters.
+
+2. **Navigation Paths**:
+   - **Clicking the Search Field**: This action initiates the search process but does not provide advanced filters. To access these filters, the user needs to click the "Advanced Search" button.
+
+3. **Labels**:
+   - **"Advanced Search" Label**: This label is crucial as it indicates the presence of additional search filters. It is typically found near the search field.
+
+4. **Roles**:
+   - **User Role**: The user needs to be logged in or have the necessary permissions to access the advanced search features. However, since the context does not specify a user role, we focus on the general actions required.
+
+5. **Actions**:
+   - **Clicking the Search Field**: This action triggers the search process.
+   - **Clicking the "Advanced Search" Button**: This action opens the advanced search interface with extra filters.
+
+By following these steps, the user can navigate to the page with extra search filters beyond the header search field. The relevant actions and elements are summarized above.

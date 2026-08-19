@@ -1,33 +1,583 @@
 ﻿id,screen_id,image_path,instruction,tags,image_width,image_height,bbox_px,pred_px,pred_py,hit,parse_ok,raw_response,prompt_tokens,completion_tokens,total_tokens,steps,rag_context
-g_home_search_box,home,C:/Proga/GUI2Model/data/target_app/eval/screenshots/home.png,Where do I type a product query on the storefront?,"search,home",1280,720,"[962, 71, 1212, 103]",965,84,True,True,"(965, 84)",1343,10,1353,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_home_search_submit,home,C:/Proga/GUI2Model/data/target_app/eval/screenshots/home.png,Submit the header search after entering keywords.,"search,home",1280,720,"[1180, 71, 1202, 103]",1195,86,True,True,"(1195, 86)",1340,11,1351,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_home_advanced_search,home,C:/Proga/GUI2Model/data/target_app/eval/screenshots/home.png,Open the page with extra search filters beyond the header box.,"search,home",1280,720,"[962, 108, 1074, 127]",1023,116,True,True,"(1023, 116)",1344,12,1356,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_home_sign_in,home,C:/Proga/GUI2Model/data/target_app/eval/screenshots/home.png,I already have an account — take me to the login page.,"auth,home",1280,720,"[861, 10, 905, 29]",865,16,True,True,"(865, 16)",1345,10,1355,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_home_create_account,home,C:/Proga/GUI2Model/data/target_app/eval/screenshots/home.png,Register a new customer account from the header.,"auth,home",1280,720,"[1141, 10, 1260, 29]",1196,15,True,True,"(1196, 15)",1341,11,1352,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_home_wishlist,home,C:/Proga/GUI2Model/data/target_app/eval/screenshots/home.png,Open my saved wishlist from the top of the page.,"wishlist,home",1280,720,"[765, 10, 846, 29]",810,16,True,True,"(810, 16)",1343,10,1353,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_home_cart,home,C:/Proga/GUI2Model/data/target_app/eval/screenshots/home.png,Open the shopping bag / cart icon in the header.,"cart,home",1280,720,"[1225, 71, 1260, 104]",1245,82,True,True,"(1245, 82)",1343,11,1354,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_home_electronics,home,C:/Proga/GUI2Model/data/target_app/eval/screenshots/home.png,Browse the Electronics department from the main menu.,"browse,home",1280,720,"[382, 181, 490, 234]",425,156,False,True,"(425, 156)",1341,11,1352,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_home_video_games,home,C:/Proga/GUI2Model/data/target_app/eval/screenshots/home.png,Go to the Video Games category in the navigation bar.,"browse,home",1280,720,"[721, 181, 843, 234]",765,155,False,True,"(765, 155)",1343,11,1354,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_product_add_to_cart,product,C:/Proga/GUI2Model/data/target_app/eval/screenshots/product.png,Put this product into the cart.,"cart,product",1280,720,"[831, 516, 969, 568]",890,546,True,True,"(890, 546)",1339,11,1350,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_product_qty,product,C:/Proga/GUI2Model/data/target_app/eval/screenshots/product.png,Change how many units of this item I want to buy.,"product,qty",1280,720,"[764, 516, 816, 568]",768,542,True,True,"(768, 542)",1344,11,1355,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_product_wishlist,product,C:/Proga/GUI2Model/data/target_app/eval/screenshots/product.png,Save this item for later without buying it yet.,"wishlist,product",1280,720,"[764, 608, 870, 632]",806,625,True,True,"(806, 625)",1342,11,1353,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_product_compare,product,C:/Proga/GUI2Model/data/target_app/eval/screenshots/product.png,Add this product to the comparison list.,"product,compare",1280,720,"[874, 608, 980, 632]",916,625,True,True,"(916, 625)",1340,11,1351,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_login_email,login,C:/Proga/GUI2Model/data/target_app/eval/screenshots/login.png,Field where I enter my account email to sign in.,"auth,login",1280,720,"[176, 446, 625, 478]",176,459,True,True,"(176, 459)",1343,11,1354,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_login_password,login,C:/Proga/GUI2Model/data/target_app/eval/screenshots/login.png,Password input on the customer login form.,"auth,login",1280,720,"[176, 507, 625, 539]",176,521,True,True,"(176, 521)",1340,11,1351,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_login_forgot,login,C:/Proga/GUI2Model/data/target_app/eval/screenshots/login.png,I forgot my password — open the reset flow.,"auth,login",1280,720,"[290, 623, 438, 643]",356,639,True,True,"(356, 639)",1342,11,1353,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_contact_name,contact,C:/Proga/GUI2Model/data/target_app/eval/screenshots/contact.png,Where do I type my name on the Contact Us form?,"contact,form",1280,720,"[180, 441, 640, 473]",179,456,False,True,"(179, 456)",1344,11,1355,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_contact_phone,contact,C:/Proga/GUI2Model/data/target_app/eval/screenshots/contact.png,Phone number field on the contact form.,"contact,form",1280,720,"[180, 563, 640, 595]",179,582,False,True,"(179, 582)",1340,11,1351,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_adv_product_name,search_advanced,C:/Proga/GUI2Model/data/target_app/eval/screenshots/search_advanced.png,"On Advanced Search, filter by product title.","search,advanced",1280,720,"[180, 430, 640, 462]",180,450,True,True,"(180, 450)",1341,11,1352,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_adv_sku,search_advanced,C:/Proga/GUI2Model/data/target_app/eval/screenshots/search_advanced.png,Enter a SKU on the advanced search form.,"search,advanced",1280,720,"[180, 491, 640, 523]",136,508,False,True,"(136, 508)",1341,11,1352,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_cart_checkout,cart_with_item,C:/Proga/GUI2Model/data/target_app/eval/screenshots/cart_with_item.png,"From the cart page, continue to checkout.","cart,checkout",1280,720,"[990, 612, 1245, 664]",1115,643,True,True,"(1115, 643)",1341,12,1353,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_cart_remove,cart_with_item,C:/Proga/GUI2Model/data/target_app/eval/screenshots/cart_with_item.png,Delete this line item from the shopping cart.,cart,1280,720,"[103, 602, 227, 634]",149,623,True,True,"(149, 623)",1341,11,1352,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_cart_continue_shopping,cart_with_item,C:/Proga/GUI2Model/data/target_app/eval/screenshots/cart_with_item.png,Leave the cart and keep browsing the store.,cart,1280,720,"[20, 675, 205, 707]",12,695,False,True,"(12, 695)",1341,10,1351,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_minicart_view_cart,minicart_open,C:/Proga/GUI2Model/data/target_app/eval/screenshots/minicart_open.png,"In the mini-cart dropdown, open the full cart page (not checkout).","cart,minicart",1280,720,"[1021, 419, 1139, 438]",1075,430,True,True,"(1075, 430)",1347,12,1359,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_minicart_checkout,minicart_open,C:/Proga/GUI2Model/data/target_app/eval/screenshots/minicart_open.png,"From the open mini-cart, go straight to checkout.","cart,minicart,checkout",1280,720,"[916, 195, 1244, 247]",1075,220,True,True,"(1075, 220)",1343,12,1355,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_account_my_orders,account_logged_in,C:/Proga/GUI2Model/data/target_app/eval/screenshots/account_logged_in.png,"While logged in, open my past orders.","account,orders",1280,720,"[20, 307, 272, 337]",65,323,True,True,"(65, 323)",1341,10,1351,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_account_address_book,account_logged_in,C:/Proga/GUI2Model/data/target_app/eval/screenshots/account_logged_in.png,Manage saved shipping addresses in my account.,account,1280,720,"[20, 424, 272, 454]",513,556,False,True,"(513, 556)",1340,11,1351,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_account_sign_out,account_logged_in,C:/Proga/GUI2Model/data/target_app/eval/screenshots/account_logged_in.png,Log out of the customer account.,"auth,account",1280,720,"[1020, 10, 1075, 29]",1053,16,True,True,"(1053, 16)",1339,11,1350,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_forgot_reset,forgot_password,C:/Proga/GUI2Model/data/target_app/eval/screenshots/forgot_password.png,Confirm sending a password reset email.,auth,1280,720,"[180, 464, 346, 496]",256,482,True,True,"(256, 482)",1339,11,1350,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_register_first_name,register,C:/Proga/GUI2Model/data/target_app/eval/screenshots/register.png,First name field on the create-account form.,"auth,register",1280,720,"[180, 392, 640, 424]",179,405,False,True,"(179, 405)",1341,11,1352,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_orders_returns_continue,orders_returns,C:/Proga/GUI2Model/data/target_app/eval/screenshots/orders_returns.png,Submit the guest order lookup form.,"orders,guest",1280,720,"[180, 685, 276, 717]",215,706,True,True,"(215, 706)",1339,11,1350,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
-g_category_headphones,category,C:/Proga/GUI2Model/data/target_app/eval/screenshots/category.png,"On Electronics, open the Headphones subcategory listing.","browse,category",1280,720,"[20, 663, 139, 682]",65,677,True,True,"(65, 677)",1343,10,1353,1,"Sorry, I'm not able to provide an answer to that question.[no-context]"
+g_home_search_box,home,C:/Proga/GUI2Model/data/target_app/eval/screenshots/home.png,Where do I type a product query on the storefront?,"search,home",1280,720,"[962, 71, 1212, 103]",1068,85,True,True,"(1068, 85)",1620,11,1631,1,"To type a product query on the storefront, you would typically interact with the search functionality. Here’s how you can navigate through the storefront to perform a product search:
+
+1. **Navigate to the Search Box**: Look for a search bar on the homepage. This is usually located near the top of the page, often accompanied by a magnifying glass icon or the word ""Search.""
+
+2. **Click on the Search Field**: Once you locate the search bar, click on it to activate the input field.
+
+3. **Type the Query**: Enter the product name or keyword you're interested in into the search field.
+
+4. **Submit the Search**: After typing your query, you can either press the Enter key or click on the ""Search"" button (which might be labeled as ""Submit Search,"" ""Go,"" or something similar).
+
+5. **Review the Results**: The storefront will display a list of products that match your search criteria. You can refine your search further by using filters like price, category, or brand.
+
+In the context of the provided Knowledge Graph and Document Chunks, the relevant navigation paths and actions are:
+
+- **Navigation Path**: Home Page → Search Bar → Click on Search Field → Type Query → Submit Search
+- **Labels**: Search Bar, Search Field, Submit Search Button
+- **Actions**: Click, Type, Submit
+
+These steps align with the typical actions associated with Product search as described in the Knowledge Graph and Document Chunks."
+g_home_search_submit,home,C:/Proga/GUI2Model/data/target_app/eval/screenshots/home.png,Submit the header search after entering keywords.,"search,home",1280,720,"[1180, 71, 1202, 103]",1060,84,False,True,"(1060, 84)",1595,11,1606,1,"To submit the header search after entering keywords on the storefront, the following elements and actions are most relevant:
+
+1. **GUI Elements**: 
+   - **Search Field**: This is the input field where keywords are entered.
+   - **Submit Button**: This button is typically labeled as ""Search"" or ""Submit"" and is used to initiate the search after entering keywords.
+
+2. **Navigation Paths**:
+   - **Home Page**: The starting point where the user navigates to the storefront.
+   - **Search Path**: The sequence of actions leading to the search submission, which includes entering keywords in the search field and clicking the submit button.
+
+3. **Labels**:
+   - **Search Field Label**: Usually labeled as ""Search"" or ""Find Products"".
+   - **Submit Button Label**: Typically labeled as ""Search"" or ""Submit"".
+
+4. **Roles**:
+   - **User**: The role of the person performing the search action.
+
+5. **Actions**:
+   - **Clicking the Search Field**: Entering keywords into the search field.
+   - **Clicking the Submit Button**: Initiating the search process.
+
+These elements and actions are crucial for navigating through the storefront and performing a search effectively. The user would first click on the search field, enter the desired keywords, and then click the submit button to execute the search."
+g_home_advanced_search,home,C:/Proga/GUI2Model/data/target_app/eval/screenshots/home.png,Open the page with extra search filters beyond the header box.,"search,home",1280,720,"[962, 108, 1074, 127]",1022,116,True,True,"(1022, 116)",1657,12,1669,1,"To achieve the goal of opening the page with extra search filters beyond the header search field, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **GUI Elements**: 
+   - **Search Field**: This is typically located at the top of the storefront page, allowing users to type in keywords to search for products.
+   - **Advanced Search Button**: This button is usually labeled as ""Advanced Search"" or ""More Filters"" and is positioned next to the standard search field. Clicking this button opens a more detailed search interface with additional filters.
+
+2. **Navigation Paths**:
+   - **Clicking the Search Field**: This action initiates the search process but does not provide advanced filters. To access these filters, the user needs to click the ""Advanced Search"" button.
+
+3. **Labels**:
+   - **""Advanced Search"" Label**: This label is crucial as it indicates the presence of additional search filters. It is typically found near the search field.
+
+4. **Roles**:
+   - **User Role**: The user needs to be logged in or have the necessary permissions to access the advanced search features. However, since the context does not specify a user role, we focus on the general actions required.
+
+5. **Actions**:
+   - **Clicking the Search Field**: This action triggers the search process.
+   - **Clicking the ""Advanced Search"" Button**: This action opens the advanced search interface with extra filters.
+
+By following these steps, the user can navigate to the page with extra search filters beyond the header search field. The relevant actions and elements are summarized above."
+g_home_sign_in,home,C:/Proga/GUI2Model/data/target_app/eval/screenshots/home.png,I already have an account — take me to the login page.,"auth,home",1280,720,"[861, 10, 905, 29]",865,17,True,True,"(865, 17)",1624,10,1634,1,"To navigate to the login page for your account, you would typically follow these steps:
+
+1. **GUI Elements**: Look for a button or link labeled ""Sign In,"" ""Login,"" or ""My Account"" on the homepage. These are common labels used to direct users to the login interface.
+
+2. **Navigation Paths**: The navigation path might involve clicking on the ""Account"" section of the website, which usually contains links to various account-related pages including the login page.
+
+3. **Labels**: The label ""Sign In"" or ""Login"" is the most relevant one to look for. This label indicates where you can enter your credentials to access your account.
+
+4. **Roles**: As a user, you would interact with the system by clicking on the ""Sign In"" or ""Login"" button, entering your username and password, and then submitting the form.
+
+5. **Actions**: The action involves clicking on the ""Sign In"" or ""Login"" button, inputting your credentials, and pressing the ""Submit"" button to log in.
+
+Given the information available, the most relevant action is to click on the ""Sign In"" or ""Login"" button, which is typically located on the homepage or within the ""Account"" section of the website.
+
+### References
+
+- [1] Customer account documentation
+- [2] Account management documentation
+- [3] User interaction guidelines
+- [4] Navigation best practices
+- [5] Common web interface elements"
+g_home_create_account,home,C:/Proga/GUI2Model/data/target_app/eval/screenshots/home.png,Register a new customer account from the header.,"auth,home",1280,720,"[1141, 10, 1260, 29]",1206,16,True,True,"(1206, 16)",1591,11,1602,1,"To register a new customer account on the storefront, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **GUI Elements**: 
+   - The ""Sign In"" button or link, typically located in the header or top right corner of the page.
+   - The ""Register"" or ""Create an Account"" link, usually found near the ""Sign In"" button or in a separate registration section.
+
+2. **Navigation Paths**:
+   - The path to reach the registration page might involve clicking on the ""Register"" or ""Create an Account"" link, which could lead to a dedicated registration form.
+
+3. **Labels**:
+   - Labels on the registration form will guide the user through the process, such as ""First Name,"" ""Last Name,"" ""Email,"" ""Password,"" etc.
+
+4. **Roles**:
+   - The role of the user is a ""customer"" who is looking to create a new account.
+
+5. **Actions**:
+   - The user needs to perform actions like clicking the ""Register"" or ""Create an Account"" button, filling out the registration form with personal information, and confirming the registration by possibly clicking a confirmation link sent to the email address provided.
+
+By following these steps, the user can successfully register a new account on the storefront."
+g_home_wishlist,home,C:/Proga/GUI2Model/data/target_app/eval/screenshots/home.png,Open my saved wishlist from the top of the page.,"wishlist,home",1280,720,"[765, 10, 846, 29]",806,15,True,True,"(806, 15)",1595,10,1605,1,"To open your saved wishlist from the top of the page on the Magento storefront, you would typically follow these steps:
+
+1. **Navigate to the Top of the Page**: Ensure you are at the top of the page where the main navigation menu is usually located. This is generally near the top left corner of the page.
+
+2. **Locate the Wish List Label**: Look for a label or icon that indicates the ""Wish List"" or ""My Wish List"". This could be represented by a heart icon, a shopping bag icon, or a specific label like ""Wish List"".
+
+3. **Click on the Wish List Label**: Once you locate the ""Wish List"" label, click on it to open your saved wishlist.
+
+4. **Verify the Wish List**: After clicking, the page should transition to display your saved wishlist, which includes the products you've added for later consideration.
+
+If you're unsure about the exact location or label, you might want to check the ""Wish List"" section in the navigation menu or look for a ""My Account"" or ""Account"" section where such features are often located. The navigation paths and labels will vary depending on the specific design of the Magento site you are using.
+
+### References
+
+- [1] Magento Wish List Feature Documentation
+- [2] Magento Navigation Menu Structure Guide"
+g_home_cart,home,C:/Proga/GUI2Model/data/target_app/eval/screenshots/home.png,Open the shopping bag / cart icon in the header.,"cart,home",1280,720,"[1225, 71, 1260, 104]",1246,84,True,True,"(1246, 84)",1738,11,1749,1,"To open the shopping bag/cart icon in the header of the storefront, you would typically follow these steps:
+
+1. **Identify the Shopping Bag/Cart Icon**: Look for a small icon in the header area of the website that represents the shopping bag or cart. This icon might be a shopping cart symbol, a bag, or a bell icon if notifications are included.
+
+2. **Locate the Header Area**: The header is usually the top part of the webpage where the site’s logo, navigation menu, and other common links are placed. It is generally located at the very top of the screen.
+
+3. **Click on the Icon**: Once you locate the shopping bag/cart icon, click on it. This action will typically open the shopping cart or mini-cart, allowing you to view the items you have added to your cart.
+
+4. **Navigate to the Full Cart Page**: If the shopping bag/cart icon leads to a mini-cart, you may need to click on a link labeled ""View Cart"" or ""View and Edit Cart"" to see the full contents of your cart.
+
+5. **Confirm the Action**: After clicking the icon, ensure that the action is successful by checking whether the shopping cart is open and displaying the items you have added.
+
+In the context of the provided Knowledge Graph and Document Chunks, the relevant information includes:
+
+- The shopping cart is referred to as ""My Cart,"" ""minicart,"" and ""View and Edit Cart.""
+- The shopping cart is linked to the URL `/checkout/cart/`.
+- The shopping cart holds items the shopper plans to buy.
+
+Therefore, the relevant navigation path and label for opening the shopping bag/cart icon in the header would be:
+
+- **Navigation Path**: Click on the shopping bag/cart icon in the header.
+- **Label**: The label for the shopping bag/cart icon could vary but is commonly represented as a shopping cart symbol, a bag, or a bell icon for notifications.
+
+By following these steps, you can effectively open the shopping bag/cart icon in the header of the storefront."
+g_home_electronics,home,C:/Proga/GUI2Model/data/target_app/eval/screenshots/home.png,Browse the Electronics department from the main menu.,"browse,home",1280,720,"[382, 181, 490, 234]",426,155,False,True,"(426, 155)",1562,11,1573,1,"To browse the Electronics department from the main menu on the storefront, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **GUI Elements**: 
+   - **Main Menu**: This is typically the first element users see when they land on the homepage. It usually contains links to different departments or categories.
+   - **Category Links**: Within the main menu, there will be a link labeled ""Electronics"" or something similar.
+
+2. **Navigation Paths**:
+   - **Main Menu → Electronics**: Clicking on the ""Electronics"" link will take the user to the Electronics department page.
+
+3. **Labels**:
+   - **Electronics Label**: This label is what the user would click to navigate to the Electronics department.
+
+4. **Roles**:
+   - **Customer**: The user role here is someone who is browsing the store to find products. They might be looking for electronics.
+
+5. **Actions**:
+   - **Click on the ""Electronics"" Link**: This is the primary action needed to navigate to the Electronics department.
+
+By following these steps, the user can successfully browse the Electronics department from the main menu."
+g_home_video_games,home,C:/Proga/GUI2Model/data/target_app/eval/screenshots/home.png,Go to the Video Games category in the navigation bar.,"browse,home",1280,720,"[721, 181, 843, 234]",765,155,False,True,"(765, 155)",1603,11,1614,1,"To navigate to the Video Games category in the navigation bar, you would typically follow these steps:
+
+1. **Identify the Navigation Bar**: Look for a navigation bar at the top of the screen, which usually contains links to different sections of the website.
+
+2. **Locate the Category Links**: Within the navigation bar, find the link labeled ""Video Games"" or something similar. This link will likely direct you to the Video Games category page.
+
+3. **Click on the Link**: Once you locate the ""Video Games"" link, click on it to proceed to the Video Games category page.
+
+4. **Verify the Page**: After clicking, ensure that you are on the correct page by checking the URL or the title of the page, which should reflect the Video Games category.
+
+If the navigation bar does not have a direct link to the Video Games category, you might need to explore further down the navigation menu or use the search functionality to find the Video Games category.
+
+In terms of GUI elements, the relevant ones would be the navigation bar itself, the ""Video Games"" link, and possibly any search bar if it's present. The navigation paths would involve moving from the homepage to the Video Games category through the navigation bar. The role here is that of a user navigating a website, and the actions involved are clicking on the appropriate links and using the search feature if necessary."
+g_product_add_to_cart,product,C:/Proga/GUI2Model/data/target_app/eval/screenshots/product.png,Put this product into the cart.,"cart,product",1280,720,"[831, 516, 969, 568]",899,546,True,True,"(899, 546)",1881,11,1892,1,"To put a product into the cart on the storefront, several key elements and actions are involved:
+
+1. **GUI Elements**: 
+   - **Product Page**: This is where the product details, including the price, description, and options, are displayed. It typically includes buttons like ""Add to Cart"" or ""View and Edit Cart"".
+   - **Shopping Cart Icon**: This icon usually represents the shopping cart and can be clicked to view the cart contents.
+   - **Mini-Cart (My Cart)**: This is a smaller version of the shopping cart that appears in the header or sidebar, providing a quick overview of the items in the cart.
+
+2. **Navigation Paths**:
+   - **Category Pages**: These are the starting point where you can browse different product categories. For example, navigating to the ""Electronics"" category will allow you to see a list of electronic products.
+   - **Subcategory Pages**: After selecting a category, you may need to navigate to a subcategory, such as ""Cell-phones-accessories"", to find specific products.
+   - **Product Detail Page**: Once you've selected a product, you'll be directed to the product detail page where you can view more details and add it to your cart.
+
+3. **Labels**:
+   - **Add to Cart Button**: This button is prominently displayed on the product detail page and allows you to add the product to your cart.
+   - **Quantity Selector**: Often found next to the ""Add to Cart"" button, this allows you to specify how many of the product you want to add.
+   - **Cart Summary**: This label might appear on the product detail page or in the header, indicating the total number of items in the cart.
+
+4. **Roles**:
+   - **Customer**: The role of the user performing these actions is that of a customer looking to purchase a product.
+   - **Shop Owner**: The shop owner would manage the products and handle orders but is not directly involved in the process of adding a product to the cart.
+
+5. **Actions**:
+   - **Open Category**: Click on the category link to view the list of products in that category.
+   - **Open Subcategory**: Click on the subcategory link to view the products in that subcategory.
+   - **Click on Product**: Select the product you're interested in from the list.
+   - **Add to Cart**: Click the ""Add to Cart"" button to add the product to your cart.
+   - **Update Quantity**: If needed, adjust the quantity of the product in the cart.
+   - **View Cart**: Click on the shopping cart icon to view the items currently in your cart.
+
+By following these steps, you can effectively put a product into the cart on the storefront."
+g_product_qty,product,C:/Proga/GUI2Model/data/target_app/eval/screenshots/product.png,Change how many units of this item I want to buy.,"product,qty",1280,720,"[764, 516, 816, 568]",768,546,True,True,"(768, 546)",1610,11,1621,1,"To change the quantity of an item you want to buy on this storefront, you would typically interact with the following elements:
+
+1. **Product Page**: This is where you can view the details of the product, including the price, description, and options like quantity selection.
+2. **Quantity Selector**: This is usually a dropdown or input field where you can specify the number of units you want to purchase.
+3. **Add to Cart Button**: After selecting the desired quantity, you would click this button to add the item to your shopping cart.
+4. **Shopping Cart**: This is where you can manage the items you've added, including adjusting quantities.
+
+Here’s a step-by-step guide based on these elements:
+
+1. **Open the Product Page**: Click on the product you're interested in to view more details.
+2. **Select Quantity**: Use the quantity selector to choose the number of units you want to purchase. This might be a dropdown menu or an input field.
+3. **Adjust Quantity**: If the quantity selector allows it, you can adjust the number of units up or down.
+4. **Add to Cart**: Once you’ve selected the correct quantity, click the ""Add to Cart"" button to add the item to your shopping cart.
+
+If you need further assistance with navigating the storefront or interacting with specific elements, please provide more details about the specific actions or elements you're looking to perform."
+g_product_wishlist,product,C:/Proga/GUI2Model/data/target_app/eval/screenshots/product.png,Save this item for later without buying it yet.,"wishlist,product",1280,720,"[764, 608, 870, 632]",806,626,True,True,"(806, 626)",1556,11,1567,1,"To save an item for later without buying it yet on this storefront, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **GUI Elements**: 
+   - **""Add to Wish List"" Button**: This button is typically found on the product detail page and allows the user to add the item to their wish list without making a purchase.
+
+2. **Navigation Paths**:
+   - **Product Detail Page**: Navigate to the product detail page where the ""Add to Wish List"" button is usually located.
+
+3. **Labels**:
+   - **""Wish List"" Label**: This label might appear on the product detail page or in the navigation menu, indicating the section where the user can manage their saved items.
+
+4. **Roles**:
+   - **Customer Role**: As a customer, you would interact with the storefront to add items to your wish list.
+
+5. **Actions**:
+   - **Click on ""Add to Wish List"" Button**: Perform this action to add the item to your wish list.
+
+By following these steps, you can save the item for later without making a purchase."
+g_product_compare,product,C:/Proga/GUI2Model/data/target_app/eval/screenshots/product.png,Add this product to the comparison list.,"product,compare",1280,720,"[874, 608, 980, 632]",931,625,True,True,"(931, 625)",1736,11,1747,1,"To add a product to the comparison list on a storefront, several key elements and actions are involved:
+
+1. **GUI Elements**: 
+   - **Comparison List Button/Link**: This is typically a button or link labeled ""Compare,"" ""Compare Products,"" or something similar. It allows users to add products to a list for easy comparison.
+   - **Product Page**: The product page itself provides details about the product, including its price, description, and images. This is where the user would find the option to add it to the comparison list.
+
+2. **Navigation Paths**:
+   - **Navigate to Product Page**: Users need to first navigate to the product page where they can find the option to add the product to the comparison list.
+   - **Open Comparison List**: After selecting the product, the user might need to open the comparison list to add the product there.
+
+3. **Labels**:
+   - **""Add to Compare"" Label**: This label is usually found on the product page or within the comparison list interface. It indicates the action to add the product to the comparison list.
+
+4. **Roles**:
+   - **User Role**: The user must be logged in to access the comparison list feature. This ensures that the user can manage and view their comparison list.
+
+5. **Actions**:
+   - **Click on ""Add to Compare""**: The user clicks on the ""Add to Compare"" button or link on the product page to add the product to the comparison list.
+   - **Open Comparison List**: The user opens the comparison list to view the products they've added for comparison.
+
+In summary, the relevant GUI elements include the ""Add to Compare"" button or link, the product page, and the comparison list. The navigation paths involve navigating to the product page and then accessing the comparison list. Labels like ""Add to Compare"" guide the user to perform the necessary action. The role of the user is to be logged in, and the actions include clicking the ""Add to Compare"" button and opening the comparison list."
+g_login_email,login,C:/Proga/GUI2Model/data/target_app/eval/screenshots/login.png,Field where I enter my account email to sign in.,"auth,login",1280,720,"[176, 446, 625, 478]",176,462,True,True,"(176, 462)",1621,11,1632,1,"To sign in to your account, you would typically navigate to the login screen. On this screen, you would look for the following:
+
+1. **GUI Elements**: The most relevant GUI element here would be the input field where you enter your email address. This is usually labeled as ""Email"" or ""Username"".
+
+2. **Navigation Paths**: To reach the login screen, you might start by navigating through the main menu or using a direct link provided on the website. For example, you might click on ""My Account"" or ""Login"" links.
+
+3. **Labels**: The label for the email input field will likely be ""Email"" or ""Username"". Other labels might include ""Password"" for the password input field and ""Sign In"" or ""Log In"" for the button that submits the form.
+
+4. **Roles**: As a user, you would interact with these elements to perform the action of signing in. You would need to provide your email and password, and then click the ""Sign In"" button.
+
+5. **Actions**: The primary action required is to enter your email in the designated input field, type your password in the corresponding field, and then click the ""Sign In"" button to proceed with the login process.
+
+If you're looking for specific navigation paths or labels, it would depend on the design of the particular website or application you are using. However, the general pattern described above should apply to many e-commerce sites and online platforms."
+g_login_password,login,C:/Proga/GUI2Model/data/target_app/eval/screenshots/login.png,Password input on the customer login form.,"auth,login",1280,720,"[176, 507, 625, 539]",176,525,True,True,"(176, 525)",1447,11,1458,1,"The provided context does not contain any information related to password input on a customer login form. The context focuses on various aspects of an e-commerce platform, including product searches, wish lists, categories, and customer accounts, but it does not mention login forms or password inputs. Therefore, based on the given information, there is insufficient data to determine which GUI elements, navigation paths, labels, roles, and actions are most relevant for a password input on a customer login form. 
+
+If you have additional context or a different set of documents that describe the login process, please provide those details so that I can assist you further."
+g_login_forgot,login,C:/Proga/GUI2Model/data/target_app/eval/screenshots/login.png,I forgot my password — open the reset flow.,"auth,login",1280,720,"[290, 623, 438, 643]",349,639,True,True,"(349, 639)",1621,11,1632,1,"To assist you in resetting your password, we need to navigate through the login process. Here’s a step-by-step guide based on the available information:
+
+1. **Navigation Path**: 
+   - Start by navigating to the login page. This is typically found at `/customer/account/login/`.
+
+2. **GUI Elements and Labels**:
+   - On the login page, look for a link or button labeled ""Forgot Password"" or ""Reset Password"". This will take you to the password reset page.
+
+3. **Roles and Actions**:
+   - As a user, you would click on the ""Forgot Password"" link or button to initiate the password reset process.
+   - After clicking, you may be prompted to enter your email address associated with your account. This is necessary to send a password reset link to your email.
+
+4. **Labels**:
+   - The label for the ""Forgot Password"" link/button might vary slightly depending on the website design but it is usually prominently displayed near the login form.
+
+5. **Actions**:
+   - Click on the ""Forgot Password"" link/button.
+   - Enter your email address in the provided field.
+   - Submit the form to proceed with the password reset process.
+
+By following these steps, you should be able to reset your password. If you encounter any issues, ensure that you are using the correct email address linked to your account.
+
+### References
+
+- [1] Customer account documentation
+- [2] Login process documentation"
+g_contact_name,contact,C:/Proga/GUI2Model/data/target_app/eval/screenshots/contact.png,Where do I type my name on the Contact Us form?,"contact,form",1280,720,"[180, 441, 640, 473]",176,458,False,True,"(176, 458)",1684,11,1695,1,"The Contact Us form is typically used to communicate with customer service regarding issues such as refunds, order inquiries, or general feedback. To draft a refund message for the phone screen protector you purchased in March 2023, you would need to follow these steps:
+
+1. **Navigate to the Contact Us Form**: You can access the Contact Us form by clicking on the ""Contact Us"" link or button on the website. This link is usually located in the footer or a specific section of the website dedicated to customer support.
+
+2. **Fill Out the Form**: Once you reach the Contact Us form, you will need to provide your name, along with other necessary information such as the order ID, the reason for the refund, and the amount to be refunded. Ensure that you fill out all required fields accurately to facilitate the processing of your request.
+
+3. **Submit the Form**: After filling out the form, you may need to submit it. The exact button or option to submit the form might vary depending on the website design but is usually labeled as ""Submit,"" ""Send,"" or ""Contact Us.""
+
+If you are unsure about the exact location of the Contact Us form or the specific fields to fill out, you can refer to the ""Customer account"" section of the website. Registered users can log in to their account to manage their profile information, including addresses, and related account pages. The login link is typically found in the footer or a specific section of the website.
+
+For more detailed instructions, you can visit the ""/customer/account/create/"" page, which provides guidance on creating an account and managing your profile information, including addresses.
+
+### References
+
+- [1] Customer account
+- [2] /customer/account/create/
+- [3] /sales/guest/form/"
+g_contact_phone,contact,C:/Proga/GUI2Model/data/target_app/eval/screenshots/contact.png,Phone number field on the contact form.,"contact,form",1280,720,"[180, 563, 640, 595]",405,586,True,True,"(405, 586)",1528,11,1539,1,"The user's query seems to be about finding the phone number field on a contact form within a specific section of a storefront. However, the provided context does not contain detailed information about the GUI elements, navigation paths, labels, roles, or actions specific to a contact form on a storefront. The context primarily focuses on general concepts like ""PS4 Accessories,"" ""customer service,"" and ""order-related"" actions but lacks specific details about a contact form or its elements.
+
+Given the lack of direct information about the contact form and its elements, it's challenging to provide a comprehensive answer. To accurately address the user's query, we would need more specific details about the storefront's layout, the exact location of the contact form, and the specific elements within it such as the phone number field.
+
+If you could provide additional details or clarify the storefront's layout and the specific section where the contact form is located, I would be better equipped to assist you in identifying the relevant GUI elements, navigation paths, labels, roles, and actions."
+g_adv_product_name,search_advanced,C:/Proga/GUI2Model/data/target_app/eval/screenshots/search_advanced.png,"On Advanced Search, filter by product title.","search,advanced",1280,720,"[180, 430, 640, 462]",180,446,True,True,"(180, 446)",1716,11,1727,1,"To perform an advanced search and filter by product title, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **GUI Elements**: 
+   - **Search Field**: This is typically labeled as ""Search"" or ""Find Products"" and is where you input your query.
+   - **Advanced Search Button**: This button is usually labeled as ""Advanced Search"" or ""More Filters"" and allows you to access additional filtering options beyond the basic search field.
+
+2. **Navigation Paths**:
+   - **URL Path**: The URL `/catalogsearch/advanced/` leads to the advanced search page where you can apply more specific filters.
+   - **Navigation Steps**: Start by navigating to the main search page, then click on the ""Advanced Search"" link or button to access the advanced search interface.
+
+3. **Labels**:
+   - **Advanced Search Label**: This label is used to indicate the presence of the advanced search functionality, which includes more detailed filtering options.
+   - **Product Title Filter Label**: This label would appear next to the filter option that allows you to specify a product title.
+
+4. **Roles**:
+   - **Customer Role**: As a customer, you would interact with these elements to refine your search based on specific criteria like product titles.
+
+5. **Actions**:
+   - **Click on Search Field**: This action involves clicking on the search field to activate it for inputting a query.
+   - **Type Query**: After clicking on the search field, you type in the product title you're interested in.
+   - **Open Advanced Search**: Clicking on the ""Advanced Search"" button opens the advanced search interface where you can apply further filters.
+   - **Submit Search**: After entering the product title and applying any necessary filters, you submit the search to view the filtered results.
+
+By following these steps, you can effectively use the advanced search functionality to filter products by their title."
+g_adv_sku,search_advanced,C:/Proga/GUI2Model/data/target_app/eval/screenshots/search_advanced.png,Enter a SKU on the advanced search form.,"search,advanced",1280,720,"[180, 491, 640, 523]",165,510,False,True,"(165, 510)",1639,11,1650,1,"To enter a SKU on the advanced search form, the following elements and actions are most relevant:
+
+1. **Navigation Paths**: 
+   - The user needs to navigate to the advanced search form. This involves clicking on the ""Advanced Search"" link or button, which is typically found in the main navigation menu or search bar area of the storefront.
+
+2. **GUI Elements**:
+   - The ""Advanced Search"" button or link.
+   - The search field where the SKU will be entered.
+   - Any filters or dropdown menus that might be present to refine the search based on various criteria like brand, category, etc.
+
+3. **Labels**:
+   - The label for the search field, which may say something like ""Enter SKU"" or ""Search by SKU"".
+   - The label for the ""Advanced Search"" button or link, which might say ""Advanced Search"".
+
+4. **Roles**:
+   - The role of the user performing the search, which is likely a customer or a visitor looking to find a specific product by its SKU.
+
+5. **Actions**:
+   - Clicking the ""Advanced Search"" button or link to open the advanced search form.
+   - Typing the SKU into the search field.
+   - Submitting the search form by clicking the ""Submit"" button.
+
+These elements and actions are crucial for guiding the user through the process of entering a SKU on the advanced search form. The exact implementation details may vary depending on the specific design and functionality of the storefront, but these general steps should cover the essential aspects of the task."
+g_cart_checkout,cart_with_item,C:/Proga/GUI2Model/data/target_app/eval/screenshots/cart_with_item.png,"From the cart page, continue to checkout.","cart,checkout",1280,720,"[990, 612, 1245, 664]",1116,643,True,True,"(1116, 643)",1596,12,1608,1,"To continue from the cart page to checkout, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **GUI Elements**:
+   - **""View and Edit Cart""**: This button typically leads to the full cart page where you can view all items in your cart, adjust quantities, and proceed to checkout.
+   - **""Checkout"" Button**: This button is usually present on the cart page and directs you to the checkout process.
+
+2. **Navigation Paths**:
+   - Click on the ""View and Edit Cart"" button to navigate to the full cart page.
+   - From the cart page, click on the ""Checkout"" button to proceed to the checkout process.
+
+3. **Labels**:
+   - The ""View and Edit Cart"" label indicates the button that leads to the detailed cart page.
+   - The ""Checkout"" label is the button that initiates the checkout process.
+
+4. **Roles**:
+   - As a user, you would interact with these elements to manage your cart and proceed to checkout.
+
+5. **Actions**:
+   - Click on the ""View and Edit Cart"" button to view the cart details.
+   - Click on the ""Checkout"" button to start the checkout process.
+
+By following these steps, you can successfully transition from the cart page to the checkout process."
+g_cart_remove,cart_with_item,C:/Proga/GUI2Model/data/target_app/eval/screenshots/cart_with_item.png,Delete this line item from the shopping cart.,cart,1280,720,"[103, 602, 227, 634]",149,624,True,True,"(149, 624)",1643,11,1654,1,"To delete a line item from the shopping cart, you'll need to interact with the cart interface. Here’s a step-by-step guide based on the information provided:
+
+1. **Identify the Cart Interface**: The cart interface typically includes a list of items currently in the shopping cart. This list may display details like the product name, price, quantity, and an option to remove the item.
+
+2. **Locate the Remove Option**: Within the cart interface, there is usually a button or link labeled ""Remove,"" ""Delete,"" or something similar next to each item in the cart. Clicking this button will remove the selected item from the cart.
+
+3. **Navigate to the Cart Page**: If the cart is not immediately visible, you might need to navigate to the cart page. This can often be done by clicking on a link labeled ""View Cart,"" ""My Cart,"" ""Shopping Cart,"" or ""Cart.""
+
+4. **Select the Item to Remove**: Once you're on the cart page, locate the item you want to remove. It could be listed by product name, category, or other distinguishing features.
+
+5. **Click the Remove Button**: After selecting the item, click the ""Remove"" button next to it. This action will delete the item from your cart.
+
+6. **Verify the Removal**: After clicking the remove button, ensure that the item is no longer listed in the cart. You can also refresh the page to confirm the change.
+
+If you need more specific guidance or additional steps, please provide more details about the exact layout and design of the cart interface."
+g_cart_continue_shopping,cart_with_item,C:/Proga/GUI2Model/data/target_app/eval/screenshots/cart_with_item.png,Leave the cart and keep browsing the store.,cart,1280,720,"[20, 675, 205, 707]",60,697,True,True,"(60, 697)",1697,10,1707,1,"To leave the cart and continue browsing the store, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **GUI Elements**:
+   - **Close Button**: This button typically allows the user to exit the shopping cart view and return to the main store browsing area.
+   - **Navigation Links**: These links might include ""Continue Shopping,"" ""Back to Store,"" or ""Browse All Categories.""
+
+2. **Navigation Paths**:
+   - **Click on the Close Button**: This action will take the user out of the shopping cart view and back to the main store browsing area.
+   - **Navigate to Main Store Area**: After clicking the close button, the user should look for a link or icon that says ""Continue Shopping"" or ""Back to Store"" to return to the main store browsing area.
+
+3. **Labels**:
+   - **Close Button Label**: The label on the close button should clearly indicate what it does, such as ""Close Cart"" or ""Exit Cart.""
+   - **Navigation Links Labels**: The labels on the navigation links should be descriptive, such as ""Continue Shopping"" or ""Back to Store.""
+
+4. **Roles**:
+   - **User Role**: The user needs to be logged in or have an account to access the shopping cart and navigate the store effectively. The user role should allow them to interact with the shopping cart and the main store browsing area.
+
+5. **Actions**:
+   - **Close Shopping Cart**: The user should click the close button to exit the shopping cart view.
+   - **Navigate to Main Store Area**: After closing the cart, the user should click on the ""Continue Shopping"" or ""Back to Store"" link to return to the main store browsing area.
+
+By following these steps, the user can successfully leave the cart and continue browsing the store."
+g_minicart_view_cart,minicart_open,C:/Proga/GUI2Model/data/target_app/eval/screenshots/minicart_open.png,"In the mini-cart dropdown, open the full cart page (not checkout).","cart,minicart",1280,720,"[1021, 419, 1139, 438]",1076,432,True,True,"(1076, 432)",1735,12,1747,1,"To achieve the goal of opening the full cart page from the mini-cart dropdown, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **GUI Elements**:
+   - **Mini-Cart Icon**: This is typically a small icon representing the shopping cart, usually located in the header of the website.
+   - **Mini-Cart Dropdown**: When clicked, this dropdown reveals the contents of the mini-cart.
+
+2. **Navigation Paths**:
+   - **Header Navigation**: The mini-cart icon is usually part of the header navigation bar, making it easily accessible to users.
+
+3. **Labels**:
+   - **Mini-Cart Label**: The label for the mini-cart icon might be something like ""Cart,"" ""My Cart,"" or ""Shopping Cart.""
+   - **Mini-Cart Dropdown Label**: The label for the mini-cart dropdown could be ""Open Cart"" or ""View Cart.""
+
+4. **Roles**:
+   - **Shopper Role**: The user performing this action is likely a shopper who wants to view the items they plan to buy.
+
+5. **Actions**:
+   - **Click Mini-Cart Icon**: The first step is to click on the mini-cart icon to open the mini-cart dropdown.
+   - **Select Full Cart Page**: Once the mini-cart dropdown is open, the user should select the option to open the full cart page, which is usually labeled as ""View Cart"" or ""Full Cart.""
+
+By following these steps, the user can navigate to the full cart page from the mini-cart dropdown, allowing them to view and edit the items in their shopping cart.
+
+### References
+
+- [1] ""Shopping cart"" - [Reference Document List]
+- [2] ""minicart"" - [Reference Document List]
+- [3] ""View and Edit Cart"" - [Reference Document List]
+- [4] ""/checkout/cart/"" - [Reference Document List]
+- [5] ""Shopping Cart"" - [Reference Document List]"
+g_minicart_checkout,minicart_open,C:/Proga/GUI2Model/data/target_app/eval/screenshots/minicart_open.png,"From the open mini-cart, go straight to checkout.","cart,minicart,checkout",1280,720,"[916, 195, 1244, 247]",1069,222,True,True,"(1069, 222)",1685,12,1697,1,"To navigate from the open mini-cart to the checkout process, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **GUI Elements**:
+   - **Mini-Cart Icon**: This is typically a small icon representing the shopping cart, usually located in the header of the website.
+   - **Mini-Cart Label**: The label next to the mini-cart icon, such as ""My Cart"" or ""View and Edit Cart,"" indicates the name of the cart.
+   - **Checkout Button**: This button is usually labeled ""Proceed to Checkout,"" ""Check Out,"" or something similar, and it is prominently displayed on the mini-cart page.
+
+2. **Navigation Paths**:
+   - **Click on Mini-Cart Icon**: This action opens the mini-cart.
+   - **Navigate to Checkout Page**: After opening the mini-cart, click on the ""Proceed to Checkout"" button to proceed to the checkout page.
+
+3. **Labels**:
+   - **Mini-Cart Label**: Labels like ""My Cart"" or ""View and Edit Cart"" help identify the mini-cart.
+   - **Checkout Button Label**: The label ""Proceed to Checkout"" or similar indicates the button to click to move to the checkout process.
+
+4. **Roles**:
+   - **Customer**: The role of the user is to manage their shopping cart and proceed to checkout.
+
+5. **Actions**:
+   - **Open Mini-Cart**: Click on the mini-cart icon to view the items currently in the cart.
+   - **Click on Checkout Button**: Once the mini-cart is open, click on the ""Proceed to Checkout"" button to start the checkout process.
+
+By following these steps, the user can efficiently transition from viewing their mini-cart to completing the checkout process."
+g_account_my_orders,account_logged_in,C:/Proga/GUI2Model/data/target_app/eval/screenshots/account_logged_in.png,"While logged in, open my past orders.","account,orders",1280,720,"[20, 307, 272, 337]",65,324,True,True,"(65, 324)",1644,10,1654,1,"To open your past orders while logged in, you'll need to navigate through the storefront to access the order history. Here’s how you can do it:
+
+1. **Navigate to the Account Area**: Start by going to the account area of the storefront. This is typically accessed via a link labeled something like ""My Account"" or ""Account"" in the navigation menu. The relevant navigation path might be:
+   - Home Page → Account Area → My Account
+
+2. **Access Order History**: Once you're in the account area, look for a section or link labeled ""Orders,"" ""Order History,"" or ""Order Summary."" This section will allow you to view your past orders. The relevant label here would be:
+   - Orders → Order History → Order Summary
+
+3. **View Order Details**: Within the order history section, you should be able to see a list of your past orders. Each order will have details such as the order number, date, total cost, and shipping details. You can click on an order to view more detailed information.
+
+4. **Use the URL**: Alternatively, you can use the URL `/sales/order/history/` to directly access the order history page. This URL is mentioned in the Knowledge Graph Data.
+
+By following these steps, you should be able to open and view your past orders while logged in. The relevant navigation paths and labels are:
+- Home Page → Account Area → My Account → Orders → Order History → Order Summary
+- URL: `/sales/order/history/`
+
+If you encounter any issues or need further assistance, feel free to ask!"
+g_account_address_book,account_logged_in,C:/Proga/GUI2Model/data/target_app/eval/screenshots/account_logged_in.png,Manage saved shipping addresses in my account.,account,1280,720,"[20, 424, 272, 454]",500,556,False,True,"(500, 556)",1591,11,1602,1,"To manage your saved shipping addresses in your account, you'll need to navigate through the storefront to the section where you can edit or add new addresses. Here’s how you can proceed:
+
+1. **Navigate to the Account Area**: Start by logging into your account. You can do this by clicking on the ""Sign In"" link located at `/customer/account/login/`.
+
+2. **Access the Account Dashboard**: After successfully logging in, you will be directed to the account dashboard. This is typically found at `/customer/account/`.
+
+3. **Locate the Shipping Address Management Section**: On the account dashboard, look for a section labeled ""Addresses"" or something similar. This section usually contains a list of your current shipping addresses along with options to edit or delete them.
+
+4. **Edit or Add New Addresses**: Once you locate the addresses section, you can either click on an existing address to edit it or click on a button labeled ""Add New Address"" to create a new one.
+
+5. **Confirm Changes**: After making changes to an address or adding a new one, ensure to confirm the changes by clicking the appropriate button, such as ""Save"" or ""Update"".
+
+By following these steps, you should be able to manage your saved shipping addresses effectively. If you encounter any issues or need further assistance, feel free to ask!"
+g_account_sign_out,account_logged_in,C:/Proga/GUI2Model/data/target_app/eval/screenshots/account_logged_in.png,Log out of the customer account.,"auth,account",1280,720,"[1020, 10, 1075, 29]",1025,16,True,True,"(1025, 16)",1632,11,1643,1,"To log out of the customer account on the storefront, you would typically follow these steps:
+
+1. **Identify the Account Navigation Path**: Look for a link or button labeled ""Account"" or something similar. This is usually located in the top right corner of the page, next to the shopping cart icon or other account-related icons.
+
+2. **Locate the Logout Option**: Once you are logged into your account, navigate to the account section. You might see a dropdown menu or a link labeled ""Logout,"" ""Log Out,"" or ""Sign Out.""
+
+3. **Click the Logout Button**: Click on the logout button to log out of your account. This will typically redirect you back to the homepage or the login page.
+
+If you are currently logged in, you can find the logout option by looking for a label like ""Logout"" or ""Log Out"" near the top of the page, often in the account section or the top right corner. The exact wording may vary depending on the specific design of the website.
+
+For example, based on the information provided in the context, the relevant navigation path and label might look like this:
+- **Navigation Path**: `/customer/account/`
+- **Label**: ""Logout"" or ""Log Out""
+
+Please ensure that you are navigating to the correct section of the website to find the logout option. If you are unsure, you can always look for a link or button labeled ""Account"" or ""My Account"" and then check for a ""Logout"" or ""Log Out"" option within that section."
+g_forgot_reset,forgot_password,C:/Proga/GUI2Model/data/target_app/eval/screenshots/forgot_password.png,Confirm sending a password reset email.,auth,1280,720,"[180, 464, 346, 496]",256,483,True,True,"(256, 483)",1532,11,1543,1,"It seems like there might be a misunderstanding. The provided context does not contain any information about a storefront, GUI elements, navigation paths, labels, roles, or actions related to a password reset email. The context focuses on customer interactions with a shop, such as placing orders, updating accounts, and contacting customer service. There is no mention of a password reset process or a storefront interface.
+
+If you're looking for information on how to send a password reset email, typically this involves navigating to a specific page on a website where users can request a new password. This usually includes a link labeled something like ""Forgot Password"" or ""Reset Password"". The user would click this link, enter their email address, and then follow the instructions provided by the system to receive a password reset email.
+
+However, since the provided context does not contain this information, I cannot provide specific details about the GUI elements, navigation paths, or labels related to a password reset email. If you have more context or a different query, please provide it so I can assist you better."
+g_register_first_name,register,C:/Proga/GUI2Model/data/target_app/eval/screenshots/register.png,First name field on the create-account form.,"auth,register",1280,720,"[180, 392, 640, 424]",179,406,False,True,"(179, 406)",1614,11,1625,1,"The user's query seems to be about the first name field on the create-account form, but the provided context does not contain specific information about the GUI elements, navigation paths, labels, roles, or actions related to the create-account form. The context primarily focuses on general concepts like ""Customer account,"" ""Account,"" and ""Order,"" but it does not provide details about the specific form fields or navigation paths for creating an account.
+
+To provide a comprehensive answer, we would need more detailed information about the specific storefront and the create-account process. However, based on the general context provided:
+
+- **Navigation Paths**: The user might navigate to the create-account form by going through the ""Customer account"" section, which typically involves logging in or signing up. The exact path could vary depending on the specific implementation of the website or application.
+  
+- **Labels**: The label for the first name field on the create-account form would likely be something like ""First Name"" or ""Full Name.""
+
+- **Roles**: The role of the user here would be a new customer trying to create an account, which involves filling out personal information including the first name.
+
+- **Actions**: Actions related to the create-account form might include clicking on the ""Create an Account"" button after filling out the necessary fields.
+
+If you have more specific information about the storefront or the exact form being referred to, please provide it so that a more accurate and detailed response can be generated."
+g_orders_returns_continue,orders_returns,C:/Proga/GUI2Model/data/target_app/eval/screenshots/orders_returns.png,Submit the guest order lookup form.,"orders,guest",1280,720,"[180, 685, 276, 717]",210,706,True,True,"(210, 706)",1599,11,1610,1,"To submit the guest order lookup form, you would typically follow these steps:
+
+1. **Navigate to the Guest Order Lookup Form**: You can find the guest order lookup form by clicking on the link provided in the Knowledge Graph Data, which is `/sales/guest/form/`.
+
+2. **Identify the Navigation Path**: The navigation path to reach the guest order lookup form might involve:
+   - Clicking on the ""Orders and Returns"" section in the footer of the website.
+   - Alternatively, you may find a link labeled ""Look Up Order"" or something similar in the footer or main navigation menu.
+
+3. **Locate the Form Elements**: Once you navigate to the guest order lookup form, you'll likely encounter fields such as:
+   - An input field where you can enter your order number.
+   - A button labeled ""Submit"" or ""Lookup"".
+
+4. **Input the Order Number**: Enter the order number you want to look up in the designated input field.
+
+5. **Submit the Form**: After entering the order number, click the ""Submit"" or ""Lookup"" button to proceed.
+
+6. **Review the Results**: The form will display the order details, including the order number, total cost, and other relevant information.
+
+By following these steps, you can effectively use the guest order lookup form to retrieve information about your order without needing to sign in."
+g_category_headphones,category,C:/Proga/GUI2Model/data/target_app/eval/screenshots/category.png,"On Electronics, open the Headphones subcategory listing.","browse,category",1280,720,"[20, 663, 139, 682]",68,677,True,True,"(68, 677)",1626,10,1636,1,"To achieve the task of opening the Headphones subcategory listing under the Electronics category on the storefront, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **GUI Elements**: 
+   - **Category Navigation**: Look for a menu or dropdown labeled ""Electronics"" or something similar that lists different product categories.
+   - **Subcategory Links**: Within the ""Electronics"" category, there should be a link or button labeled ""Headphones"" or something indicating it is a subcategory of headphones.
+
+2. **Navigation Paths**:
+   - Start by navigating to the main ""Electronics"" category. This can typically be found in the main navigation bar or a menu on the left-hand side of the page.
+
+3. **Labels**:
+   - The label for the ""Electronics"" category might be something like ""Electronics"" or ""Electronics & Gadgets"".
+   - The label for the ""Headphones"" subcategory could be ""Headphones"" or ""Wireless Headphones"".
+
+4. **Roles**:
+   - As a user, you would interact with these elements by clicking on the appropriate links or buttons.
+
+5. **Actions**:
+   - Click on the ""Electronics"" category to expand it.
+   - Click on the ""Headphones"" subcategory link to view the listings.
+
+By following these steps, you will be able to navigate to the Headphones subcategory listing under the Electronics category on the storefront."

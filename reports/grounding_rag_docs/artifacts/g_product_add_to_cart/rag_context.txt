@@ -1,1 +1,30 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To put a product into the cart on the storefront, several key elements and actions are involved:
+
+1. **GUI Elements**: 
+   - **Product Page**: This is where the product details, including the price, description, and options, are displayed. It typically includes buttons like "Add to Cart" or "View and Edit Cart".
+   - **Shopping Cart Icon**: This icon usually represents the shopping cart and can be clicked to view the cart contents.
+   - **Mini-Cart (My Cart)**: This is a smaller version of the shopping cart that appears in the header or sidebar, providing a quick overview of the items in the cart.
+
+2. **Navigation Paths**:
+   - **Category Pages**: These are the starting point where you can browse different product categories. For example, navigating to the "Electronics" category will allow you to see a list of electronic products.
+   - **Subcategory Pages**: After selecting a category, you may need to navigate to a subcategory, such as "Cell-phones-accessories", to find specific products.
+   - **Product Detail Page**: Once you've selected a product, you'll be directed to the product detail page where you can view more details and add it to your cart.
+
+3. **Labels**:
+   - **Add to Cart Button**: This button is prominently displayed on the product detail page and allows you to add the product to your cart.
+   - **Quantity Selector**: Often found next to the "Add to Cart" button, this allows you to specify how many of the product you want to add.
+   - **Cart Summary**: This label might appear on the product detail page or in the header, indicating the total number of items in the cart.
+
+4. **Roles**:
+   - **Customer**: The role of the user performing these actions is that of a customer looking to purchase a product.
+   - **Shop Owner**: The shop owner would manage the products and handle orders but is not directly involved in the process of adding a product to the cart.
+
+5. **Actions**:
+   - **Open Category**: Click on the category link to view the list of products in that category.
+   - **Open Subcategory**: Click on the subcategory link to view the products in that subcategory.
+   - **Click on Product**: Select the product you're interested in from the list.
+   - **Add to Cart**: Click the "Add to Cart" button to add the product to your cart.
+   - **Update Quantity**: If needed, adjust the quantity of the product in the cart.
+   - **View Cart**: Click on the shopping cart icon to view the items currently in your cart.
+
+By following these steps, you can effectively put a product into the cart on the storefront.

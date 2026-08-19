@@ -1,1 +1,16 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To open your saved wishlist from the top of the page on the Magento storefront, you would typically follow these steps:
+
+1. **Navigate to the Top of the Page**: Ensure you are at the top of the page where the main navigation menu is usually located. This is generally near the top left corner of the page.
+
+2. **Locate the Wish List Label**: Look for a label or icon that indicates the "Wish List" or "My Wish List". This could be represented by a heart icon, a shopping bag icon, or a specific label like "Wish List".
+
+3. **Click on the Wish List Label**: Once you locate the "Wish List" label, click on it to open your saved wishlist.
+
+4. **Verify the Wish List**: After clicking, the page should transition to display your saved wishlist, which includes the products you've added for later consideration.
+
+If you're unsure about the exact location or label, you might want to check the "Wish List" section in the navigation menu or look for a "My Account" or "Account" section where such features are often located. The navigation paths and labels will vary depending on the specific design of the Magento site you are using.
+
+### References
+
+- [1] Magento Wish List Feature Documentation
+- [2] Magento Navigation Menu Structure Guide

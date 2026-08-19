@@ -1,0 +1,2305 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
+  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d8" for="edge" attr.name="description" attr.type="string" />
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="PS4">
+      <data key="d0">PS4</data>
+      <data key="d1">other</data>
+      <data key="d2">PlayStation 4 gaming console</data>
+      <data key="d3">doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787137843</data>
+      <data key="d6" />
+    </node>
+    <node id="accessories">
+      <data key="d0">accessories</data>
+      <data key="d1">other</data>
+      <data key="d2">items designed for use with PlayStation 4 consoles</data>
+      <data key="d3">doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787137843</data>
+      <data key="d6" />
+    </node>
+    <node id="products">
+      <data key="d0">products</data>
+      <data key="d1">other</data>
+      <data key="d2">items available for purchase&lt;SEP&gt;Items available for purchase&lt;SEP&gt;products are goods offered for sale.</data>
+      <data key="d3">doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000&lt;SEP&gt;doc-b84a437f0543053dd6adebe7bc7b2cf0-chunk-000&lt;SEP&gt;doc-d31264de048b55eca765c36fb8c427a2-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138334</data>
+      <data key="d6" />
+    </node>
+    <node id="category">
+      <data key="d0">category</data>
+      <data key="d1">other</data>
+      <data key="d2">classification of products&lt;SEP&gt;Grouping of products&lt;SEP&gt;Classification of products&lt;SEP&gt;A grouping of similar products or services.</data>
+      <data key="d3">doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000&lt;SEP&gt;doc-358a8839829c493620a15be50f9bcc3a-chunk-000&lt;SEP&gt;doc-b84a437f0543053dd6adebe7bc7b2cf0-chunk-000&lt;SEP&gt;doc-8d0360b3e2a65353722aade93f2cb30b-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139035</data>
+      <data key="d6" />
+    </node>
+    <node id="ascending">
+      <data key="d0">ascending</data>
+      <data key="d1">other</data>
+      <data key="d2">arrangement in increasing order</data>
+      <data key="d3">doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787137843</data>
+      <data key="d6" />
+    </node>
+    <node id="price">
+      <data key="d0">price</data>
+      <data key="d1">other</data>
+      <data key="d2">cost of a product&lt;SEP&gt;Information about the cost associated with the fake tree purchase.&lt;SEP&gt;price is the cost of a good or service.</data>
+      <data key="d3">doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000&lt;SEP&gt;doc-358a8839829c493620a15be50f9bcc3a-chunk-000&lt;SEP&gt;doc-7ed509df034e4c895a50f2b37ff0d547-chunk-000&lt;SEP&gt;doc-d31264de048b55eca765c36fb8c427a2-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138334</data>
+      <data key="d6" />
+    </node>
+    <node id="Nintendo Switch">
+      <data key="d0">Nintendo Switch</data>
+      <data key="d1">other</data>
+      <data key="d2">A gaming console produced by Nintendo.</data>
+      <data key="d3">doc-189f9fd0f08c982145dda95ff9f355f9-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787137873</data>
+      <data key="d6" />
+    </node>
+    <node id="game card">
+      <data key="d0">game card</data>
+      <data key="d1">other</data>
+      <data key="d2">A physical card containing data for video games.</data>
+      <data key="d3">doc-189f9fd0f08c982145dda95ff9f355f9-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787137873</data>
+      <data key="d6" />
+    </node>
+    <node id="storage option">
+      <data key="d0">storage option</data>
+      <data key="d1">other</data>
+      <data key="d2">A method or device for storing items securely.</data>
+      <data key="d3">doc-189f9fd0f08c982145dda95ff9f355f9-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787137873</data>
+      <data key="d6" />
+    </node>
+    <node id="Jaw Bruxism">
+      <data key="d0">Jaw Bruxism</data>
+      <data key="d1">other</data>
+      <data key="d2">A condition characterized by grinding or clenching of the teeth, often during sleep.</data>
+      <data key="d3">doc-1942e5b81059c71007614932043675ed-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787137900</data>
+      <data key="d6" />
+    </node>
+    <node id="User">
+      <data key="d0">User</data>
+      <data key="d3">doc-1942e5b81059c71007614932043675ed-chunk-000&lt;SEP&gt;doc-40b67116c49dc831fc9b6d1ace054544-chunk-000&lt;SEP&gt;doc-e1bb78ebb05f49c696a60c9fd18e9cdd-chunk-000&lt;SEP&gt;doc-ed301b47f0ce1c9091aeedded9667523-chunk-000&lt;SEP&gt;doc-24b33f584ce9895d0f497c8da5e02160-chunk-000</data>
+      <data key="d2">The user has Jaw Bruxism.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787137900</data>
+      <data key="d6" />
+    </node>
+    <node id="Sephora">
+      <data key="d0">Sephora</data>
+      <data key="d1">organization</data>
+      <data key="d2">Beauty retail company</data>
+      <data key="d3">doc-1fc5bca9ee5abf88c0fe137c95925955-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787137924</data>
+      <data key="d6" />
+    </node>
+    <node id="Brush">
+      <data key="d0">Brush</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Hair care tool</data>
+      <data key="d3">doc-1fc5bca9ee5abf88c0fe137c95925955-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787137924</data>
+      <data key="d6" />
+    </node>
+    <node id="Customers">
+      <data key="d0">Customers</data>
+      <data key="d1">person</data>
+      <data key="d2">Individuals who purchase products</data>
+      <data key="d3">doc-1fc5bca9ee5abf88c0fe137c95925955-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787137924</data>
+      <data key="d6" />
+    </node>
+    <node id="Reviews">
+      <data key="d0">Reviews</data>
+      <data key="d1">content</data>
+      <data key="d2">Written feedback about a product</data>
+      <data key="d3">doc-1fc5bca9ee5abf88c0fe137c95925955-chunk-000&lt;SEP&gt;doc-d3cad008c277a059bb25a4604d5e17f1-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787137924</data>
+      <data key="d6" />
+    </node>
+    <node id="Men's shoe">
+      <data key="d0">Men's shoe</data>
+      <data key="d1">location</data>
+      <data key="d2">Category of shoes for men</data>
+      <data key="d3">doc-358a8839829c493620a15be50f9bcc3a-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787137964</data>
+      <data key="d6" />
+    </node>
+    <node id="rating">
+      <data key="d0">rating</data>
+      <data key="d1">other</data>
+      <data key="d2">Measure of quality or satisfaction&lt;SEP&gt;A measure of quality or satisfaction associated with a product.</data>
+      <data key="d3">doc-358a8839829c493620a15be50f9bcc3a-chunk-000&lt;SEP&gt;doc-8d0360b3e2a65353722aade93f2cb30b-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139035</data>
+      <data key="d6" />
+    </node>
+    <node id="review">
+      <data key="d0">review</data>
+      <data key="d1">other</data>
+      <data key="d2">Written feedback about a product&lt;SEP&gt;An evaluation or assessment of a product.</data>
+      <data key="d3">doc-358a8839829c493620a15be50f9bcc3a-chunk-000&lt;SEP&gt;doc-ff4a6a9b3fb2fff37b4e761d8ab01d60-chunk-000&lt;SEP&gt;doc-8d0360b3e2a65353722aade93f2cb30b-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139035</data>
+      <data key="d6" />
+    </node>
+    <node id="product">
+      <data key="d0">product</data>
+      <data key="d1">other</data>
+      <data key="d2">Item for sale&lt;SEP&gt;An item that can be added to the Wish List&lt;SEP&gt;A physical item or service offered for sale.</data>
+      <data key="d3">doc-358a8839829c493620a15be50f9bcc3a-chunk-000&lt;SEP&gt;doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000&lt;SEP&gt;doc-8d0360b3e2a65353722aade93f2cb30b-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139035</data>
+      <data key="d6" />
+    </node>
+    <node id="least_expensive">
+      <data key="d0">least_expensive</data>
+      <data key="d3">doc-358a8839829c493620a15be50f9bcc3a-chunk-000</data>
+      <data key="d2">Product with the lowest price among others</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787137964</data>
+      <data key="d6" />
+    </node>
+    <node id="Canon">
+      <data key="d0">Canon</data>
+      <data key="d1">organization</data>
+      <data key="d2">Canon is a Japanese multinational corporation specializing in imaging and optical products.</data>
+      <data key="d3">doc-457a13ff898910e4943843b182899f06-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787137998</data>
+      <data key="d6" />
+    </node>
+    <node id="One Stop Market">
+      <data key="d0">One Stop Market</data>
+      <data key="d1">organization</data>
+      <data key="d2">One Stop Market is a retail store located in the United States.&lt;SEP&gt;A retail store specializing in various products.&lt;SEP&gt;A company conducting a market survey</data>
+      <data key="d3">doc-457a13ff898910e4943843b182899f06-chunk-000&lt;SEP&gt;doc-52c0cd3d3d3f22354862b57c53861a5b-chunk-000&lt;SEP&gt;doc-999b2ff925c2719f7d9a4bec198df488-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138205</data>
+      <data key="d6" />
+    </node>
+    <node id="price range">
+      <data key="d0">price range</data>
+      <data key="d1">concept</data>
+      <data key="d2">Price range refers to the range of prices for a product or service.&lt;SEP&gt;A numerical range indicating the cost of a product.</data>
+      <data key="d3">doc-457a13ff898910e4943843b182899f06-chunk-000&lt;SEP&gt;doc-52c0cd3d3d3f22354862b57c53861a5b-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138061</data>
+      <data key="d6" />
+    </node>
+    <node id="Mini Wireless Bluetooth Speaker">
+      <data key="d0">Mini Wireless Bluetooth Speaker</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A physical device used for wireless audio transmission.</data>
+      <data key="d3">doc-4a104570702d17afb7ebbc72063ef1e1-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138038</data>
+      <data key="d6" />
+    </node>
+    <node id="SimpleEmma">
+      <data key="d0">SimpleEmma</data>
+      <data key="d1">person</data>
+      <data key="d2">A fictional character or user.</data>
+      <data key="d3">doc-4a104570702d17afb7ebbc72063ef1e1-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138038</data>
+      <data key="d6" />
+    </node>
+    <node id="reviews">
+      <data key="d0">reviews</data>
+      <data key="d1">location</data>
+      <data key="d2">A section or category where reviews are stored.</data>
+      <data key="d3">doc-4a104570702d17afb7ebbc72063ef1e1-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138038</data>
+      <data key="d6" />
+    </node>
+    <node id="intent">
+      <data key="d0">intent</data>
+      <data key="d1">other</data>
+      <data key="d2">An abstract idea representing the purpose or goal of an action.&lt;SEP&gt;A goal or purpose expressed by a user.</data>
+      <data key="d3">doc-4a104570702d17afb7ebbc72063ef1e1-chunk-000&lt;SEP&gt;doc-8d0360b3e2a65353722aade93f2cb30b-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139035</data>
+      <data key="d6" />
+    </node>
+    <node id="2 stars">
+      <data key="d0">2 stars</data>
+      <data key="d1">data</data>
+      <data key="d2">A numerical value indicating a rating.</data>
+      <data key="d3">doc-4a104570702d17afb7ebbc72063ef1e1-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138038</data>
+      <data key="d6" />
+    </node>
+    <node id="wireless earphone">
+      <data key="d0">wireless earphone</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A type of electronic device designed for listening to audio without wires.</data>
+      <data key="d3">doc-52c0cd3d3d3f22354862b57c53861a5b-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138061</data>
+      <data key="d6" />
+    </node>
+    <node id="Video Game">
+      <data key="d0">Video Game</data>
+      <data key="d1">other</data>
+      <data key="d2">Category of products related to video games.</data>
+      <data key="d3">doc-59d4350ca2ac17430b9a74fbaa0220b0-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138079</data>
+      <data key="d6" />
+    </node>
+    <node id="Product">
+      <data key="d0">Product</data>
+      <data key="d3">doc-59d4350ca2ac17430b9a74fbaa0220b0-chunk-000&lt;SEP&gt;doc-999b2ff925c2719f7d9a4bec198df488-chunk-000&lt;SEP&gt;doc-acf0cdd04746673627377954b4bf4341-chunk-000&lt;SEP&gt;doc-d3cad008c277a059bb25a4604d5e17f1-chunk-000&lt;SEP&gt;doc-e4b84220ab88707e4a7138a9c2c3e998-chunk-000&lt;SEP&gt;doc-56c48eed83f6786c52f3bf1846f802dc-chunk-000&lt;SEP&gt;doc-862f3205e74c4e460943cba77a1c8b9b-chunk-000</data>
+      <data key="d2">Category of products&lt;SEP&gt;An item for sale or trade&lt;SEP&gt;A product page showing title, price, description, images, options, and purchase actions such as Add to Cart.&lt;SEP&gt;A product offered for sale.&lt;SEP&gt;A listing item in a category page.&lt;SEP&gt;Products available for purchase</data>
+      <data key="d1">other</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138805</data>
+      <data key="d6" />
+    </node>
+    <node id="Emma Lopez">
+      <data key="d0">Emma Lopez</data>
+      <data key="d1">person</data>
+      <data key="d2">A human individual named Emma Lopez.</data>
+      <data key="d3">doc-5f0797478180b4eb1b1da6cf0be26d1d-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138126</data>
+      <data key="d6" />
+    </node>
+    <node id="floor lamp">
+      <data key="d0">floor lamp</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A physical object, specifically a type of lighting fixture.</data>
+      <data key="d3">doc-5f0797478180b4eb1b1da6cf0be26d1d-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138126</data>
+      <data key="d6" />
+    </node>
+    <node id="recent purchase">
+      <data key="d0">recent purchase</data>
+      <data key="d1">event</data>
+      <data key="d2">An occurrence related to a recent transaction.</data>
+      <data key="d3">doc-5f0797478180b4eb1b1da6cf0be26d1d-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138126</data>
+      <data key="d6" />
+    </node>
+    <node id="5 stars">
+      <data key="d0">5 stars</data>
+      <data key="d1">concept</data>
+      <data key="d2">A rating scale indicating high satisfaction.</data>
+      <data key="d3">doc-5f0797478180b4eb1b1da6cf0be26d1d-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138126</data>
+      <data key="d6" />
+    </node>
+    <node id="fake tree">
+      <data key="d0">fake tree</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A physical object purchased by the user in January 2023.</data>
+      <data key="d3">doc-7ed509df034e4c895a50f2b37ff0d547-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138150</data>
+      <data key="d6" />
+    </node>
+    <node id="Jan 2023">
+      <data key="d0">Jan 2023</data>
+      <data key="d1">location</data>
+      <data key="d2">A specific time period mentioned in the query.</data>
+      <data key="d3">doc-7ed509df034e4c895a50f2b37ff0d547-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138150</data>
+      <data key="d6" />
+    </node>
+    <node id="picture frame">
+      <data key="d0">picture frame</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A physical object purchased in September 2022</data>
+      <data key="d3">doc-97e6ca4d7a358ec8f21756ca6e74ca7c-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138174</data>
+      <data key="d6" />
+    </node>
+    <node id="PS4 Accessories">
+      <data key="d0">PS4 Accessories</data>
+      <data key="d1">concept</data>
+      <data key="d2">A category of products related to PlayStation 4</data>
+      <data key="d3">doc-999b2ff925c2719f7d9a4bec198df488-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138205</data>
+      <data key="d6" />
+    </node>
+    <node id="Market Survey">
+      <data key="d0">Market Survey</data>
+      <data key="d1">method</data>
+      <data key="d2">A procedure to gather data about market trends</data>
+      <data key="d3">doc-999b2ff925c2719f7d9a4bec198df488-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138205</data>
+      <data key="d6" />
+    </node>
+    <node id="Magento">
+      <data key="d0">Magento</data>
+      <data key="d1">organization</data>
+      <data key="d2">A commerce platform for online stores</data>
+      <data key="d3">doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138241</data>
+      <data key="d6" />
+    </node>
+    <node id="Wish List">
+      <data key="d0">Wish List</data>
+      <data key="d1">other</data>
+      <data key="d2">A feature in Magento that allows users to save products for later</data>
+      <data key="d3">doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000&lt;SEP&gt;doc-e1bb78ebb05f49c696a60c9fd18e9cdd-chunk-000&lt;SEP&gt;doc-fd76d2a06991f2a028cbe7f340deaa84-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138241</data>
+      <data key="d6" />
+    </node>
+    <node id="customer">
+      <data key="d0">customer</data>
+      <data key="d1">person</data>
+      <data key="d2">A user of the Magento platform</data>
+      <data key="d3">doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000&lt;SEP&gt;doc-ff4a6a9b3fb2fff37b4e761d8ab01d60-chunk-000&lt;SEP&gt;doc-25fabb726c8ee24ea61db5462cb05173-chunk-000&lt;SEP&gt;doc-1cc9b075b95e93f0efa2fc819c7091e7-chunk-000&lt;SEP&gt;doc-2fc9469459413b113b36555148ce3cac-chunk-000&lt;SEP&gt;doc-35eefef945502c8508eff8ffbcbabc75-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138241</data>
+      <data key="d6" />
+    </node>
+    <node id="Add to Wish List">
+      <data key="d0">Add to Wish List</data>
+      <data key="d1">method</data>
+      <data key="d2">An action to add a product to the Wish List</data>
+      <data key="d3">doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138241</data>
+      <data key="d6" />
+    </node>
+    <node id="open My Wish List">
+      <data key="d0">open My Wish List</data>
+      <data key="d1">method</data>
+      <data key="d2">An action to view the Wish List</data>
+      <data key="d3">doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138241</data>
+      <data key="d6" />
+    </node>
+    <node id="remove from Wish List">
+      <data key="d0">remove from Wish List</data>
+      <data key="d1">method</data>
+      <data key="d2">An action to delete a product from the Wish List</data>
+      <data key="d3">doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138241</data>
+      <data key="d6" />
+    </node>
+    <node id="Men shoes">
+      <data key="d0">Men shoes</data>
+      <data key="d1">other</data>
+      <data key="d2">Category of footwear for men</data>
+      <data key="d3">doc-b84a437f0543053dd6adebe7bc7b2cf0-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138307</data>
+      <data key="d6" />
+    </node>
+    <node id="Amazon">
+      <data key="d0">Amazon</data>
+      <data key="d1">organization</data>
+      <data key="d2">Amazon is an online retail company.</data>
+      <data key="d3">doc-d31264de048b55eca765c36fb8c427a2-chunk-000&lt;SEP&gt;doc-ff4a6a9b3fb2fff37b4e761d8ab01d60-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138334</data>
+      <data key="d6" />
+    </node>
+    <node id="basic">
+      <data key="d0">basic</data>
+      <data key="d1">other</data>
+      <data key="d2">basic refers to a fundamental or standard product.</data>
+      <data key="d3">doc-d31264de048b55eca765c36fb8c427a2-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138334</data>
+      <data key="d6" />
+    </node>
+    <node id="range">
+      <data key="d0">range</data>
+      <data key="d1">other</data>
+      <data key="d2">range indicates a set of values within which something falls.</data>
+      <data key="d3">doc-d31264de048b55eca765c36fb8c427a2-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138334</data>
+      <data key="d6" />
+    </node>
+    <node id="Amazon basic">
+      <data key="d0">Amazon basic</data>
+      <data key="d1">other</data>
+      <data key="d2">Amazon basic refers to a fundamental product line by Amazon.</data>
+      <data key="d3">doc-d31264de048b55eca765c36fb8c427a2-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138334</data>
+      <data key="d6" />
+    </node>
+    <node id="Headphones">
+      <data key="d0">Headphones</data>
+      <data key="d1">other</data>
+      <data key="d2">A category of electronic devices designed for listening to audio.</data>
+      <data key="d3">doc-d31b2a0cbe1b3431508a11cba028e2a3-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138360</data>
+      <data key="d6" />
+    </node>
+    <node id="customer reviews">
+      <data key="d0">customer reviews</data>
+      <data key="d3">doc-d3cad008c277a059bb25a4604d5e17f1-chunk-000</data>
+      <data key="d2">Customer reviews are tied to products.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138383</data>
+      <data key="d6" />
+    </node>
+    <node id="ratings">
+      <data key="d0">ratings</data>
+      <data key="d3">doc-d3cad008c277a059bb25a4604d5e17f1-chunk-000</data>
+      <data key="d2">Ratings are linked to products.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138383</data>
+      <data key="d6" />
+    </node>
+    <node id="ArtificialPlants">
+      <data key="d0">ArtificialPlants</data>
+      <data key="d1">other</data>
+      <data key="d2">Artificial plants purchased in February 2023</data>
+      <data key="d3">doc-e10bb7c8ab58a85e171364f0db9259d3-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138414</data>
+      <data key="d6" />
+    </node>
+    <node id="ColorConfiguration">
+      <data key="d0">ColorConfiguration</data>
+      <data key="d3">doc-e10bb7c8ab58a85e171364f0db9259d3-chunk-000</data>
+      <data key="d2">The color configuration of the artificial plants</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138414</data>
+      <data key="d6" />
+    </node>
+    <node id="Category">
+      <data key="d0">Category</data>
+      <data key="d1">other</data>
+      <data key="d2">Category pages (e.g. Electronics) list products in a department. Shoppers open a top-level category, then often a subcategory, then a product from the listing. Listings can be sorted by price or other attributes.</data>
+      <data key="d3">doc-e4b84220ab88707e4a7138a9c2c3e998-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138434</data>
+      <data key="d6" />
+    </node>
+    <node id="Electronics">
+      <data key="d0">Electronics</data>
+      <data key="d1">other</data>
+      <data key="d2">A top-level category under Category pages.</data>
+      <data key="d3">doc-e4b84220ab88707e4a7138a9c2c3e998-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138434</data>
+      <data key="d6" />
+    </node>
+    <node id="Cell-phones-accessories">
+      <data key="d0">Cell-phones-accessories</data>
+      <data key="d1">other</data>
+      <data key="d2">A subcategory under Category pages.</data>
+      <data key="d3">doc-e4b84220ab88707e4a7138a9c2c3e998-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138434</data>
+      <data key="d6" />
+    </node>
+    <node id="Price">
+      <data key="d0">Price</data>
+      <data key="d1">other</data>
+      <data key="d2">An attribute used to sort listings.&lt;SEP&gt;A measure of cost associated with goods.&lt;SEP&gt;Cost of a product per unit</data>
+      <data key="d3">doc-e4b84220ab88707e4a7138a9c2c3e998-chunk-000&lt;SEP&gt;doc-fa5cf0e5e035481d8bc81ff2b17f3658-chunk-000&lt;SEP&gt;doc-56c48eed83f6786c52f3bf1846f802dc-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138805</data>
+      <data key="d6" />
+    </node>
+    <node id="Nutrition Bars">
+      <data key="d0">Nutrition Bars</data>
+      <data key="d1">other</data>
+      <data key="d2">A category of food products designed for nutritional purposes.</data>
+      <data key="d3">doc-fa5cf0e5e035481d8bc81ff2b17f3658-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138476</data>
+      <data key="d6" />
+    </node>
+    <node id="Drinks">
+      <data key="d0">Drinks</data>
+      <data key="d1">other</data>
+      <data key="d2">A category of beverages.</data>
+      <data key="d3">doc-fa5cf0e5e035481d8bc81ff2b17f3658-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138476</data>
+      <data key="d6" />
+    </node>
+    <node id="Product search">
+      <data key="d0">Product search</data>
+      <data key="d1">other</data>
+      <data key="d2">The storefront search box and search results page let shoppers find products by keywords.</data>
+      <data key="d3">doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138497</data>
+      <data key="d6" />
+    </node>
+    <node id="click search field">
+      <data key="d0">click search field</data>
+      <data key="d3">doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000</data>
+      <data key="d2">The action of clicking the search field is a typical action associated with Product search.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138497</data>
+      <data key="d6" />
+    </node>
+    <node id="/catalogsearch/advanced/">
+      <data key="d0">/catalogsearch/advanced/</data>
+      <data key="d3">doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000</data>
+      <data key="d2">The URL /catalogsearch/advanced/ is related to Product search.&lt;SEP&gt;The URL /catalogsearch/result/ is related to Product search.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138497</data>
+      <data key="d6" />
+    </node>
+    <node id="type query">
+      <data key="d0">type query</data>
+      <data key="d3">doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000</data>
+      <data key="d2">The action of typing a query is a typical action associated with Product search.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138497</data>
+      <data key="d6" />
+    </node>
+    <node id="/catalogsearch/result/">
+      <data key="d0">/catalogsearch/result/</data>
+      <data key="d3">doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000</data>
+      <data key="d2">The URL /catalogsearch/advanced/ is related to Product search.&lt;SEP&gt;The URL /catalogsearch/result/ is related to Product search.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138497</data>
+      <data key="d6" />
+    </node>
+    <node id="submit Search">
+      <data key="d0">submit Search</data>
+      <data key="d3">doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000</data>
+      <data key="d2">The action of submitting the search is a typical action associated with Product search.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138497</data>
+      <data key="d6" />
+    </node>
+    <node id="open Advanced Search">
+      <data key="d0">open Advanced Search</data>
+      <data key="d3">doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000</data>
+      <data key="d2">The action of opening Advanced Search is a typical action associated with Product search.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138497</data>
+      <data key="d6" />
+    </node>
+    <node id="Amazon Echo Dot 3rd generation">
+      <data key="d0">Amazon Echo Dot 3rd generation</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A smart speaker device produced by Amazon</data>
+      <data key="d3">doc-ff4a6a9b3fb2fff37b4e761d8ab01d60-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138554</data>
+      <data key="d6" />
+    </node>
+    <node id="Tide PODS Spring Meadow Scent HE Turbo Laundry Detergent Pacs">
+      <data key="d0">Tide PODS Spring Meadow Scent HE Turbo Laundry Detergent Pacs</data>
+      <data key="d1">other</data>
+      <data key="d2">A type of laundry detergent pac.</data>
+      <data key="d3">doc-0d33da261165892a409b62b769813fd7-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138567</data>
+      <data key="d6" />
+    </node>
+    <node id="wish list">
+      <data key="d0">wish list</data>
+      <data key="d1">other</data>
+      <data key="d2">A collection of items intended for purchase or future use.</data>
+      <data key="d3">doc-0d33da261165892a409b62b769813fd7-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138567</data>
+      <data key="d6" />
+    </node>
+    <node id="Orders">
+      <data key="d0">Orders</data>
+      <data key="d1">other</data>
+      <data key="d2">Orders are a record of transactions made by customers.&lt;SEP&gt;A collection of customer orders.</data>
+      <data key="d3">doc-15a19c7313525c2e251bcbc5ce79789d-chunk-000&lt;SEP&gt;doc-25fabb726c8ee24ea61db5462cb05173-chunk-000&lt;SEP&gt;doc-e4370729fc04b4bb4e878a2d8e1f6fb9-chunk-000&lt;SEP&gt;doc-1cc9b075b95e93f0efa2fc819c7091e7-chunk-000&lt;SEP&gt;doc-8a6b140b0c243b09d5e5be889c114c41-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139241</data>
+      <data key="d6" />
+    </node>
+    <node id="Customer">
+      <data key="d0">Customer</data>
+      <data key="d3">doc-15a19c7313525c2e251bcbc5ce79789d-chunk-000&lt;SEP&gt;doc-8a6b140b0c243b09d5e5be889c114c41-chunk-000</data>
+      <data key="d2">Orders belong to a specific customer.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138590</data>
+      <data key="d6" />
+    </node>
+    <node id="Order">
+      <data key="d0">Order</data>
+      <data key="d3">doc-15a19c7313525c2e251bcbc5ce79789d-chunk-000&lt;SEP&gt;doc-40b67116c49dc831fc9b6d1ace054544-chunk-000&lt;SEP&gt;doc-ed301b47f0ce1c9091aeedded9667523-chunk-000&lt;SEP&gt;doc-41eec2eddcce8a485141abd05206fd24-chunk-000</data>
+      <data key="d2">Orders have a total cost associated with them.&lt;SEP&gt;Orders can have different statuses.&lt;SEP&gt;An order number 187.</data>
+      <data key="d1">other</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139365</data>
+      <data key="d6" />
+    </node>
+    <node id="status">
+      <data key="d0">status</data>
+      <data key="d3">doc-25fabb726c8ee24ea61db5462cb05173-chunk-000</data>
+      <data key="d2">The status of an order can be updated.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138613</data>
+      <data key="d6" />
+    </node>
+    <node id="delivery_date">
+      <data key="d0">delivery_date</data>
+      <data key="d3">doc-25fabb726c8ee24ea61db5462cb05173-chunk-000</data>
+      <data key="d2">The delivery date of an order is determined.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138613</data>
+      <data key="d6" />
+    </node>
+    <node id="Customer account">
+      <data key="d0">Customer account</data>
+      <data key="d1">other</data>
+      <data key="d2">Registered customers sign in to My Account to manage profile information, addresses, and related account pages.</data>
+      <data key="d3">doc-3ed8a86717615b8535ab456983651c6f-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138687</data>
+      <data key="d6" />
+    </node>
+    <node id="/customer/account/">
+      <data key="d0">/customer/account/</data>
+      <data key="d3">doc-3ed8a86717615b8535ab456983651c6f-chunk-000</data>
+      <data key="d2">/customer/account/</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138687</data>
+      <data key="d6" />
+    </node>
+    <node id="/customer/account/login/">
+      <data key="d0">/customer/account/login/</data>
+      <data key="d3">doc-3ed8a86717615b8535ab456983651c6f-chunk-000</data>
+      <data key="d2">/customer/account/login/</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138687</data>
+      <data key="d6" />
+    </node>
+    <node id="/customer/account/create/">
+      <data key="d0">/customer/account/create/</data>
+      <data key="d3">doc-3ed8a86717615b8535ab456983651c6f-chunk-000</data>
+      <data key="d2">/customer/account/create/</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138687</data>
+      <data key="d6" />
+    </node>
+    <node id="Account">
+      <data key="d0">Account</data>
+      <data key="d1">other</data>
+      <data key="d2">A user account for managing orders and preferences.</data>
+      <data key="d3">doc-40b67116c49dc831fc9b6d1ace054544-chunk-000&lt;SEP&gt;doc-ed301b47f0ce1c9091aeedded9667523-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139180</data>
+      <data key="d6" />
+    </node>
+    <node id="Delivery Address">
+      <data key="d0">Delivery Address</data>
+      <data key="d3">doc-40b67116c49dc831fc9b6d1ace054544-chunk-000</data>
+      <data key="d2">A delivery address can be set for an order.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138705</data>
+      <data key="d6" />
+    </node>
+    <node id="Location">
+      <data key="d0">Location</data>
+      <data key="d3">doc-40b67116c49dc831fc9b6d1ace054544-chunk-000&lt;SEP&gt;doc-ed301b47f0ce1c9091aeedded9667523-chunk-000</data>
+      <data key="d2">Pittsburgh is located in Pennsylvania.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138705</data>
+      <data key="d6" />
+    </node>
+    <node id="Pittsburgh">
+      <data key="d0">Pittsburgh</data>
+      <data key="d3">doc-40b67116c49dc831fc9b6d1ace054544-chunk-000</data>
+      <data key="d2">Pittsburgh is located in Pennsylvania.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138705</data>
+      <data key="d6" />
+    </node>
+    <node id="Pennsylvania">
+      <data key="d0">Pennsylvania</data>
+      <data key="d3">doc-40b67116c49dc831fc9b6d1ace054544-chunk-000</data>
+      <data key="d2">Pennsylvania is located in the United States.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138705</data>
+      <data key="d6" />
+    </node>
+    <node id="United States">
+      <data key="d0">United States</data>
+      <data key="d3">doc-40b67116c49dc831fc9b6d1ace054544-chunk-000&lt;SEP&gt;doc-ed301b47f0ce1c9091aeedded9667523-chunk-000</data>
+      <data key="d2">The United States is a country.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138705</data>
+      <data key="d6" />
+    </node>
+    <node id="4000 Forbes Ave">
+      <data key="d0">4000 Forbes Ave</data>
+      <data key="d3">doc-40b67116c49dc831fc9b6d1ace054544-chunk-000</data>
+      <data key="d2">4000 Forbes Ave is located in Pittsburgh.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138705</data>
+      <data key="d6" />
+    </node>
+    <node id="Forbes Ave">
+      <data key="d0">Forbes Ave</data>
+      <data key="d3">doc-40b67116c49dc831fc9b6d1ace054544-chunk-000</data>
+      <data key="d2">Forbes Avenue is located in Pittsburgh.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138705</data>
+      <data key="d6" />
+    </node>
+    <node id="PA">
+      <data key="d0">PA</data>
+      <data key="d3">doc-40b67116c49dc831fc9b6d1ace054544-chunk-000</data>
+      <data key="d2">PA is an abbreviation for Pennsylvania.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138705</data>
+      <data key="d6" />
+    </node>
+    <node id="Orders and returns">
+      <data key="d0">Orders and returns</data>
+      <data key="d1">other</data>
+      <data key="d2">Orders and returns allows logged-in customers to view their order history, including past and pending orders, totals, and shipping details. Guests can also use it to look up an order without signing in.</data>
+      <data key="d3">doc-426aa772b7f6ac828fa5d5e21d9bd799-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138743</data>
+      <data key="d6" />
+    </node>
+    <node id="My Orders">
+      <data key="d0">My Orders</data>
+      <data key="d1">other</data>
+      <data key="d2">My Orders is an alias for Orders and returns, which provides access to a customer's order history.</data>
+      <data key="d3">doc-426aa772b7f6ac828fa5d5e21d9bd799-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138743</data>
+      <data key="d6" />
+    </node>
+    <node id="/sales/order/history/">
+      <data key="d0">/sales/order/history/</data>
+      <data key="d1">other</data>
+      <data key="d2">/sales/order/history/ is a URL that leads to the order history page where customers can view their past and pending orders.</data>
+      <data key="d3">doc-426aa772b7f6ac828fa5d5e21d9bd799-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138743</data>
+      <data key="d6" />
+    </node>
+    <node id="/sales/guest/form/">
+      <data key="d0">/sales/guest/form/</data>
+      <data key="d1">other</data>
+      <data key="d2">/sales/guest/form/ is a URL that allows guests to look up an order without signing in.</data>
+      <data key="d3">doc-426aa772b7f6ac828fa5d5e21d9bd799-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138743</data>
+      <data key="d6" />
+    </node>
+    <node id="Hair Care">
+      <data key="d0">Hair Care</data>
+      <data key="d1">other</data>
+      <data key="d2">Hair care products and services</data>
+      <data key="d3">doc-431143b88406057f856db8dccf79d550-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138770</data>
+      <data key="d6" />
+    </node>
+    <node id="Hair Style">
+      <data key="d0">Hair Style</data>
+      <data key="d1">other</data>
+      <data key="d2">Hair styling products and services</data>
+      <data key="d3">doc-431143b88406057f856db8dccf79d550-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138770</data>
+      <data key="d6" />
+    </node>
+    <node id="January 2023">
+      <data key="d0">January 2023</data>
+      <data key="d1">other</data>
+      <data key="d2">First month of the year 2023</data>
+      <data key="d3">doc-431143b88406057f856db8dccf79d550-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138770</data>
+      <data key="d6" />
+    </node>
+    <node id="Shopping Cart">
+      <data key="d0">Shopping Cart</data>
+      <data key="d1">other</data>
+      <data key="d2">A container where items are stored for purchase</data>
+      <data key="d3">doc-56c48eed83f6786c52f3bf1846f802dc-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138805</data>
+      <data key="d6" />
+    </node>
+    <node id="Tabs">
+      <data key="d0">Tabs</data>
+      <data key="d1">other</data>
+      <data key="d2">Browser windows displaying web pages</data>
+      <data key="d3">doc-56c48eed83f6786c52f3bf1846f802dc-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138805</data>
+      <data key="d6" />
+    </node>
+    <node id="Unit">
+      <data key="d0">Unit</data>
+      <data key="d1">other</data>
+      <data key="d2">A single instance of a product</data>
+      <data key="d3">doc-56c48eed83f6786c52f3bf1846f802dc-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138805</data>
+      <data key="d6" />
+    </node>
+    <node id="Hawaiian Bamboo Orchid Roots">
+      <data key="d0">Hawaiian Bamboo Orchid Roots</data>
+      <data key="d1">other</data>
+      <data key="d2">A type of orchid root associated with Hawaiian culture and often sold by Discount Hawaiian Gifts.</data>
+      <data key="d3">doc-5d77defaddc878d0bf391c0d20a116f4-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138832</data>
+      <data key="d6" />
+    </node>
+    <node id="Discount Hawaiian Gifts">
+      <data key="d0">Discount Hawaiian Gifts</data>
+      <data key="d1">organization</data>
+      <data key="d2">A company specializing in selling Hawaiian-themed products.</data>
+      <data key="d3">doc-5d77defaddc878d0bf391c0d20a116f4-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138832</data>
+      <data key="d6" />
+    </node>
+    <node id="Wishlist">
+      <data key="d0">Wishlist</data>
+      <data key="d1">other</data>
+      <data key="d2">A collection of items intended for future purchase or enjoyment.&lt;SEP&gt;A collection of items that a user intends to purchase or consider purchasing in the future.</data>
+      <data key="d3">doc-5d77defaddc878d0bf391c0d20a116f4-chunk-000&lt;SEP&gt;doc-862f3205e74c4e460943cba77a1c8b9b-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138884</data>
+      <data key="d6" />
+    </node>
+    <node id="FulfilledOrders">
+      <data key="d0">FulfilledOrders</data>
+      <data key="d1">other</data>
+      <data key="d2">Number of orders completed successfully</data>
+      <data key="d3">doc-7088ffedff8af044838a0e11a74bda53-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138862</data>
+      <data key="d6" />
+    </node>
+    <node id="TotalSpent">
+      <data key="d0">TotalSpent</data>
+      <data key="d1">other</data>
+      <data key="d2">Total amount of money spent</data>
+      <data key="d3">doc-7088ffedff8af044838a0e11a74bda53-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138862</data>
+      <data key="d6" />
+    </node>
+    <node id="Date">
+      <data key="d0">Date</data>
+      <data key="d1">other</data>
+      <data key="d2">Date of today: 6/12/2023</data>
+      <data key="d3">doc-7088ffedff8af044838a0e11a74bda53-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787138862</data>
+      <data key="d6" />
+    </node>
+    <node id="Home Audio Speaker">
+      <data key="d0">Home Audio Speaker</data>
+      <data key="d1">other</data>
+      <data key="d2">A category of products related to audio speakers.</data>
+      <data key="d3">doc-8d0360b3e2a65353722aade93f2cb30b-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139035</data>
+      <data key="d6" />
+    </node>
+    <node id="checkout">
+      <data key="d0">checkout</data>
+      <data key="d1">other</data>
+      <data key="d2">A process or stage in an e-commerce transaction where payment is made.</data>
+      <data key="d3">doc-8d0360b3e2a65353722aade93f2cb30b-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139035</data>
+      <data key="d6" />
+    </node>
+    <node id="OneStopShopping">
+      <data key="d0">OneStopShopping</data>
+      <data key="d1">organization</data>
+      <data key="d2">A shopping platform where users can update their account information.</data>
+      <data key="d3">doc-8d9176b069bb4610448a5d4a6e08f2eb-chunk-000&lt;SEP&gt;doc-a13c4c7ba7738ba5c6a00abfe4f2378b-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139085</data>
+      <data key="d6" />
+    </node>
+    <node id="Boston">
+      <data key="d0">Boston</data>
+      <data key="d1">location</data>
+      <data key="d2">A city located in Massachusetts, USA.</data>
+      <data key="d3">doc-8d9176b069bb4610448a5d4a6e08f2eb-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139056</data>
+      <data key="d6" />
+    </node>
+    <node id="Massachusetts">
+      <data key="d0">Massachusetts</data>
+      <data key="d1">location</data>
+      <data key="d2">A state in the northeastern United States.</data>
+      <data key="d3">doc-8d9176b069bb4610448a5d4a6e08f2eb-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139056</data>
+      <data key="d6" />
+    </node>
+    <node id="654 Aspen Road">
+      <data key="d0">654 Aspen Road</data>
+      <data key="d1">location</data>
+      <data key="d2">An address in Boston, MA.</data>
+      <data key="d3">doc-8d9176b069bb4610448a5d4a6e08f2eb-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139056</data>
+      <data key="d6" />
+    </node>
+    <node id="House #3">
+      <data key="d0">House #3</data>
+      <data key="d1">location</data>
+      <data key="d2">A specific house number on 654 Aspen Road.</data>
+      <data key="d3">doc-8d9176b069bb4610448a5d4a6e08f2eb-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139056</data>
+      <data key="d6" />
+    </node>
+    <node id="orders">
+      <data key="d0">orders</data>
+      <data key="d1">other</data>
+      <data key="d2">A collection of orders</data>
+      <data key="d3">doc-9aa0819373b076202a69431aa6b6b6a1-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139073</data>
+      <data key="d6" />
+    </node>
+    <node id="food-related shopping">
+      <data key="d0">food-related shopping</data>
+      <data key="d3">doc-9aa0819373b076202a69431aa6b6b6a1-chunk-000</data>
+      <data key="d2">Orders that include food-related items</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139073</data>
+      <data key="d6" />
+    </node>
+    <node id="March 2023">
+      <data key="d0">March 2023</data>
+      <data key="d3">doc-9aa0819373b076202a69431aa6b6b6a1-chunk-000</data>
+      <data key="d2">Orders made during the specified month</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139073</data>
+      <data key="d6" />
+    </node>
+    <node id="Chicago">
+      <data key="d0">Chicago</data>
+      <data key="d1">location</data>
+      <data key="d2">A city located in Illinois, USA.</data>
+      <data key="d3">doc-a13c4c7ba7738ba5c6a00abfe4f2378b-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139085</data>
+      <data key="d6" />
+    </node>
+    <node id="231 Willow Way">
+      <data key="d0">231 Willow Way</data>
+      <data key="d1">location</data>
+      <data key="d2">An address in Chicago, IL, 60601.</data>
+      <data key="d3">doc-a13c4c7ba7738ba5c6a00abfe4f2378b-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139085</data>
+      <data key="d6" />
+    </node>
+    <node id="Suite 100">
+      <data key="d0">Suite 100</data>
+      <data key="d1">location</data>
+      <data key="d2">A suite number within the building at 231 Willow Way.</data>
+      <data key="d3">doc-a13c4c7ba7738ba5c6a00abfe4f2378b-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139085</data>
+      <data key="d6" />
+    </node>
+    <node id="IL">
+      <data key="d0">IL</data>
+      <data key="d1">location</data>
+      <data key="d2">Abbreviation for the state of Illinois, USA.</data>
+      <data key="d3">doc-a13c4c7ba7738ba5c6a00abfe4f2378b-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139085</data>
+      <data key="d6" />
+    </node>
+    <node id="Checkout">
+      <data key="d0">Checkout</data>
+      <data key="d1">location</data>
+      <data key="d2">Checkout collects shipping address, shipping method, and payment to place an order.</data>
+      <data key="d3">doc-c9b30f66347f82ba3f44360f76550f12-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139106</data>
+      <data key="d6" />
+    </node>
+    <node id="White Desk">
+      <data key="d0">White Desk</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A piece of furniture designed for work or study purposes.</data>
+      <data key="d3">doc-e1bb78ebb05f49c696a60c9fd18e9cdd-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139124</data>
+      <data key="d6" />
+    </node>
+    <node id="Chair">
+      <data key="d0">Chair</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A piece of furniture designed for sitting.</data>
+      <data key="d3">doc-e55a5eced4bdbbeaad263a5762118200-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139155</data>
+      <data key="d6" />
+    </node>
+    <node id="WishList">
+      <data key="d0">WishList</data>
+      <data key="d3">doc-e55a5eced4bdbbeaad263a5762118200-chunk-000</data>
+      <data key="d2">A chair has been added to someone's wish list.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139155</data>
+      <data key="d6" />
+    </node>
+    <node id="Address">
+      <data key="d0">Address</data>
+      <data key="d3">doc-ed301b47f0ce1c9091aeedded9667523-chunk-000</data>
+      <data key="d2">The delivery address is set for an order.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139180</data>
+      <data key="d6" />
+    </node>
+    <node id="San Francisco">
+      <data key="d0">San Francisco</data>
+      <data key="d3">doc-ed301b47f0ce1c9091aeedded9667523-chunk-000</data>
+      <data key="d2">San Francisco is a city.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139180</data>
+      <data key="d6" />
+    </node>
+    <node id="California">
+      <data key="d0">California</data>
+      <data key="d3">doc-ed301b47f0ce1c9091aeedded9667523-chunk-000</data>
+      <data key="d2">California is a state.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139180</data>
+      <data key="d6" />
+    </node>
+    <node id="Shopping cart">
+      <data key="d0">Shopping cart</data>
+      <data key="d1">location</data>
+      <data key="d2">The shopping cart holds items the shopper plans to buy.</data>
+      <data key="d3">doc-f8b213a2069bc8bf70ea3a366aaa07db-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139194</data>
+      <data key="d6" />
+    </node>
+    <node id="My Cart">
+      <data key="d0">My Cart</data>
+      <data key="d3">doc-f8b213a2069bc8bf70ea3a366aaa07db-chunk-000</data>
+      <data key="d2">My Cart is another name for the shopping cart.&lt;SEP&gt;The shopping cart is also known as My Cart.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139194</data>
+      <data key="d6" />
+    </node>
+    <node id="minicart">
+      <data key="d0">minicart</data>
+      <data key="d3">doc-f8b213a2069bc8bf70ea3a366aaa07db-chunk-000</data>
+      <data key="d2">minicart is another name for the shopping cart.&lt;SEP&gt;The shopping cart is also known as minicart.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139194</data>
+      <data key="d6" />
+    </node>
+    <node id="View and Edit Cart">
+      <data key="d0">View and Edit Cart</data>
+      <data key="d3">doc-f8b213a2069bc8bf70ea3a366aaa07db-chunk-000</data>
+      <data key="d2">View and Edit Cart is another name for the shopping cart.&lt;SEP&gt;The shopping cart is also known as View and Edit Cart.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139194</data>
+      <data key="d6" />
+    </node>
+    <node id="/checkout/cart/">
+      <data key="d0">/checkout/cart/</data>
+      <data key="d3">doc-f8b213a2069bc8bf70ea3a366aaa07db-chunk-000</data>
+      <data key="d2">The shopping cart is linked to the URL /checkout/cart/.&lt;SEP&gt;/checkout/cart/ is associated with the shopping cart.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139194</data>
+      <data key="d6" />
+    </node>
+    <node id="Laundry Detergent">
+      <data key="d0">Laundry Detergent</data>
+      <data key="d1">other</data>
+      <data key="d2">A cleaning product used for washing clothes.</data>
+      <data key="d3">doc-fd76d2a06991f2a028cbe7f340deaa84-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139216</data>
+      <data key="d6" />
+    </node>
+    <node id="first_purchase_date">
+      <data key="d0">first_purchase_date</data>
+      <data key="d3">doc-1cc9b075b95e93f0efa2fc819c7091e7-chunk-000</data>
+      <data key="d2">The date when the first purchase was made.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139241</data>
+      <data key="d6" />
+    </node>
+    <node id="Phone Screen Protector">
+      <data key="d0">Phone Screen Protector</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A physical product purchased by the user in March 2023.</data>
+      <data key="d3">doc-24b33f584ce9895d0f497c8da5e02160-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139257</data>
+      <data key="d6" />
+    </node>
+    <node id="Order ID">
+      <data key="d0">Order ID</data>
+      <data key="d1">data</data>
+      <data key="d2">An identifier required by the shop for processing the refund request.&lt;SEP&gt;An identifier required for the refund process</data>
+      <data key="d3">doc-24b33f584ce9895d0f497c8da5e02160-chunk-000&lt;SEP&gt;doc-3e4633e49bb78087b94882bb6dd6ec70-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139338</data>
+      <data key="d6" />
+    </node>
+    <node id="Reason">
+      <data key="d0">Reason</data>
+      <data key="d1">concept</data>
+      <data key="d2">The rationale for requesting a refund, which the shop needs in the message.&lt;SEP&gt;The rationale for requesting a refund</data>
+      <data key="d3">doc-24b33f584ce9895d0f497c8da5e02160-chunk-000&lt;SEP&gt;doc-3e4633e49bb78087b94882bb6dd6ec70-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139338</data>
+      <data key="d6" />
+    </node>
+    <node id="Amount">
+      <data key="d0">Amount</data>
+      <data key="d1">data</data>
+      <data key="d2">The monetary value to be refunded, which the shop requires in the message.&lt;SEP&gt;The monetary value to be refunded</data>
+      <data key="d3">doc-24b33f584ce9895d0f497c8da5e02160-chunk-000&lt;SEP&gt;doc-3e4633e49bb78087b94882bb6dd6ec70-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139338</data>
+      <data key="d6" />
+    </node>
+    <node id="Shop">
+      <data key="d0">Shop</data>
+      <data key="d1">organization</data>
+      <data key="d2">The business entity where the user purchased the phone screen protector.&lt;SEP&gt;The business entity where the Bluetooth speaker was purchased</data>
+      <data key="d3">doc-24b33f584ce9895d0f497c8da5e02160-chunk-000&lt;SEP&gt;doc-3e4633e49bb78087b94882bb6dd6ec70-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139338</data>
+      <data key="d6" />
+    </node>
+    <node id="shop owner">
+      <data key="d0">shop owner</data>
+      <data key="d1">person</data>
+      <data key="d2">A human individual who owns a shop.</data>
+      <data key="d3">doc-2fc9469459413b113b36555148ce3cac-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139283</data>
+      <data key="d6" />
+    </node>
+    <node id="mattress">
+      <data key="d0">mattress</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A physical object, likely a piece of furniture.</data>
+      <data key="d3">doc-35eefef945502c8508eff8ffbcbabc75-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139304</data>
+      <data key="d6" />
+    </node>
+    <node id="Bluetooth Speaker">
+      <data key="d0">Bluetooth Speaker</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A physical device purchased in February 2023</data>
+      <data key="d3">doc-3e4633e49bb78087b94882bb6dd6ec70-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139338</data>
+      <data key="d6" />
+    </node>
+    <node id="ShippingMethod">
+      <data key="d0">ShippingMethod</data>
+      <data key="d3">doc-41eec2eddcce8a485141abd05206fd24-chunk-000</data>
+      <data key="d2">To show the shipping method for order number 187.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139365</data>
+      <data key="d6" />
+    </node>
+    <node id="Contact Us">
+      <data key="d0">Contact Us</data>
+      <data key="d1">other</data>
+      <data key="d2">A storefront form for sending messages to the merchant about coupons, refunds, drafts, and general questions without completing a purchase flow.</data>
+      <data key="d3">doc-5b8a0c9b46e85d5051ad9c7b3f3e9003-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139367</data>
+      <data key="d6" />
+    </node>
+    <node id="Newsletter">
+      <data key="d0">Newsletter</data>
+      <data key="d1">other</data>
+      <data key="d2">The newsletter is a marketing tool offered by a merchant to receive marketing emails from the merchant.</data>
+      <data key="d3">doc-67427cd58c6a2f6c93c4b7010cace45c-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139394</data>
+      <data key="d6" />
+    </node>
+    <node id="customer service">
+      <data key="d0">customer service</data>
+      <data key="d1">other</data>
+      <data key="d2">A department providing assistance to customers through various channels.</data>
+      <data key="d3">doc-86eed36545c61f44c4e4c6232a5e2a59-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139417</data>
+      <data key="d6" />
+    </node>
+    <node id="call">
+      <data key="d0">call</data>
+      <data key="d3">doc-86eed36545c61f44c4e4c6232a5e2a59-chunk-000</data>
+      <data key="d2">The action of contacting customer service.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139417</data>
+      <data key="d6" />
+    </node>
+    <node id="Table Lamp">
+      <data key="d0">Table Lamp</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A physical object designed for illuminating a space.</data>
+      <data key="d3">doc-8a6b140b0c243b09d5e5be889c114c41-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139435</data>
+      <data key="d6" />
+    </node>
+    <node id="Cancelled">
+      <data key="d0">Cancelled</data>
+      <data key="d3">doc-8a6b140b0c243b09d5e5be889c114c41-chunk-000</data>
+      <data key="d2">Cancelled the order in May 2023</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139435</data>
+      <data key="d6" />
+    </node>
+    <node id="OneStopMarket">
+      <data key="d0">OneStopMarket</data>
+      <data key="d1">organization</data>
+      <data key="d2">OneStopMarket is a company that provides market solutions.</data>
+      <data key="d3">doc-b581034bb88bc1f58f8d2b078c45492a-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139461</data>
+      <data key="d6" />
+    </node>
+    <node id="Shop Owner">
+      <data key="d0">Shop Owner</data>
+      <data key="d1">person</data>
+      <data key="d2">A human individual who owns a shop.</data>
+      <data key="d3">doc-b8b8f406e07a417b3ce728c40bc59966-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1787139725</data>
+      <data key="d6" />
+    </node>
+    <edge source="PS4" target="accessories">
+      <data key="d7">1.0</data>
+      <data key="d8">PlayStation 4 accessories are designed for use with PlayStation 4 consoles</data>
+      <data key="d9">used_for</data>
+      <data key="d10">doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787137843</data>
+      <data key="d13" />
+    </edge>
+    <edge source="accessories" target="category">
+      <data key="d7">1.0</data>
+      <data key="d8">categories include accessories</data>
+      <data key="d9">includes</data>
+      <data key="d10">doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787137843</data>
+      <data key="d13" />
+    </edge>
+    <edge source="products" target="category">
+      <data key="d7">3.0</data>
+      <data key="d8">products are classified into categories&lt;SEP&gt;categories contain products&lt;SEP&gt;Classification of products</data>
+      <data key="d9">classified_by,contains,is_a</data>
+      <data key="d10">doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000&lt;SEP&gt;doc-b84a437f0543053dd6adebe7bc7b2cf0-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138307</data>
+      <data key="d13" />
+    </edge>
+    <edge source="products" target="price">
+      <data key="d7">3.0</data>
+      <data key="d8">products are ordered by ascending price&lt;SEP&gt;price is measured in monetary units&lt;SEP&gt;products have prices.</data>
+      <data key="d9">has,measured_by,ordered_by</data>
+      <data key="d10">doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000&lt;SEP&gt;doc-d31264de048b55eca765c36fb8c427a2-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138334</data>
+      <data key="d13" />
+    </edge>
+    <edge source="products" target="Amazon">
+      <data key="d7">1.0</data>
+      <data key="d8">Amazon offers a variety of products.</data>
+      <data key="d9">offers</data>
+      <data key="d10">doc-d31264de048b55eca765c36fb8c427a2-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138334</data>
+      <data key="d13" />
+    </edge>
+    <edge source="category" target="product">
+      <data key="d7">1.0</data>
+      <data key="d8">Product belongs to a category</data>
+      <data key="d9">in</data>
+      <data key="d10">doc-358a8839829c493620a15be50f9bcc3a-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787137964</data>
+      <data key="d13" />
+    </edge>
+    <edge source="category" target="Men shoes">
+      <data key="d7">1.0</data>
+      <data key="d8">Category of footwear for men</data>
+      <data key="d9">is_a</data>
+      <data key="d10">doc-b84a437f0543053dd6adebe7bc7b2cf0-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138307</data>
+      <data key="d13" />
+    </edge>
+    <edge source="ascending" target="price">
+      <data key="d7">1.0</data>
+      <data key="d8">products are ordered in ascending price sequence</data>
+      <data key="d9">ordering</data>
+      <data key="d10">doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787137843</data>
+      <data key="d13" />
+    </edge>
+    <edge source="price" target="product">
+      <data key="d7">1.0</data>
+      <data key="d8">Price of the product</data>
+      <data key="d9">is</data>
+      <data key="d10">doc-358a8839829c493620a15be50f9bcc3a-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787137964</data>
+      <data key="d13" />
+    </edge>
+    <edge source="price" target="fake tree">
+      <data key="d7">2.0</data>
+      <data key="d8">The fake tree is related to its price through the action of purchasing.&lt;SEP&gt;The fake tree is related to its price through the concept of cost.</data>
+      <data key="d9">cost,purchase</data>
+      <data key="d10">doc-7ed509df034e4c895a50f2b37ff0d547-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138150</data>
+      <data key="d13" />
+    </edge>
+    <edge source="price" target="range">
+      <data key="d7">1.0</data>
+      <data key="d8">prices fall within a certain range.</data>
+      <data key="d9">falls_within</data>
+      <data key="d10">doc-d31264de048b55eca765c36fb8c427a2-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138334</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nintendo Switch" target="game card">
+      <data key="d7">1.0</data>
+      <data key="d8">A Nintendo Switch can contain game cards.</data>
+      <data key="d9">contains</data>
+      <data key="d10">doc-189f9fd0f08c982145dda95ff9f355f9-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787137873</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nintendo Switch" target="storage option">
+      <data key="d7">1.0</data>
+      <data key="d8">A Nintendo Switch supports various storage options.</data>
+      <data key="d9">supports</data>
+      <data key="d10">doc-189f9fd0f08c982145dda95ff9f355f9-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787137873</data>
+      <data key="d13" />
+    </edge>
+    <edge source="game card" target="storage option">
+      <data key="d7">1.0</data>
+      <data key="d8">Game cards can fit into certain storage options.</data>
+      <data key="d9">fits</data>
+      <data key="d10">doc-189f9fd0f08c982145dda95ff9f355f9-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787137873</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Jaw Bruxism" target="User">
+      <data key="d7">1.0</data>
+      <data key="d8">The user has Jaw Bruxism.</data>
+      <data key="d9">has</data>
+      <data key="d10">doc-1942e5b81059c71007614932043675ed-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787137900</data>
+      <data key="d13" />
+    </edge>
+    <edge source="User" target="Account">
+      <data key="d7">2.0</data>
+      <data key="d8">A user manages their account.</data>
+      <data key="d9">Managed</data>
+      <data key="d10">doc-40b67116c49dc831fc9b6d1ace054544-chunk-000&lt;SEP&gt;doc-ed301b47f0ce1c9091aeedded9667523-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139180</data>
+      <data key="d13" />
+    </edge>
+    <edge source="User" target="Wish List">
+      <data key="d7">1.0</data>
+      <data key="d8">A white desk has been added to the wish list.</data>
+      <data key="d9">Contains</data>
+      <data key="d10">doc-e1bb78ebb05f49c696a60c9fd18e9cdd-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139124</data>
+      <data key="d13" />
+    </edge>
+    <edge source="User" target="Shop">
+      <data key="d7">1.0</data>
+      <data key="d8">The user intends to contact the shop regarding a refund.</data>
+      <data key="d9">Contact</data>
+      <data key="d10">doc-24b33f584ce9895d0f497c8da5e02160-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139257</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Sephora" target="Brush">
+      <data key="d7">1.0</data>
+      <data key="d8">Sephora produces brushes</data>
+      <data key="d9">produces</data>
+      <data key="d10">doc-1fc5bca9ee5abf88c0fe137c95925955-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787137924</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Brush" target="Customers">
+      <data key="d7">1.0</data>
+      <data key="d8">Brushes are used by customers</data>
+      <data key="d9">used_by</data>
+      <data key="d10">doc-1fc5bca9ee5abf88c0fe137c95925955-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787137924</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Brush" target="Reviews">
+      <data key="d7">1.0</data>
+      <data key="d8">Brushes are the subject of reviews</data>
+      <data key="d9">subject_of</data>
+      <data key="d10">doc-1fc5bca9ee5abf88c0fe137c95925955-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787137924</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Reviews" target="Product">
+      <data key="d7">2.0</data>
+      <data key="d8">Reviews are associated with products.</data>
+      <data key="d9">related</data>
+      <data key="d10">doc-d3cad008c277a059bb25a4604d5e17f1-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138383</data>
+      <data key="d13" />
+    </edge>
+    <edge source="rating" target="product">
+      <data key="d7">1.0</data>
+      <data key="d8">Rating associated with the product</data>
+      <data key="d9">has</data>
+      <data key="d10">doc-358a8839829c493620a15be50f9bcc3a-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787137964</data>
+      <data key="d13" />
+    </edge>
+    <edge source="review" target="product">
+      <data key="d7">2.0</data>
+      <data key="d8">Reviews related to the product&lt;SEP&gt;Review applies to the product</data>
+      <data key="d9">has,pertains_to</data>
+      <data key="d10">doc-358a8839829c493620a15be50f9bcc3a-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787137964</data>
+      <data key="d13" />
+    </edge>
+    <edge source="review" target="customer">
+      <data key="d7">1.0</data>
+      <data key="d8">Customers provide feedback on the product</data>
+      <data key="d9">subject</data>
+      <data key="d10">doc-ff4a6a9b3fb2fff37b4e761d8ab01d60-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138554</data>
+      <data key="d13" />
+    </edge>
+    <edge source="review" target="Amazon Echo Dot 3rd generation">
+      <data key="d7">1.0</data>
+      <data key="d8">Reviews about the product</data>
+      <data key="d9">topic</data>
+      <data key="d10">doc-ff4a6a9b3fb2fff37b4e761d8ab01d60-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138554</data>
+      <data key="d13" />
+    </edge>
+    <edge source="product" target="least_expensive">
+      <data key="d7">1.0</data>
+      <data key="d8">Product with the lowest price among others</data>
+      <data key="d9">is</data>
+      <data key="d10">doc-358a8839829c493620a15be50f9bcc3a-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787137964</data>
+      <data key="d13" />
+    </edge>
+    <edge source="product" target="customer">
+      <data key="d7">1.0</data>
+      <data key="d8">A product can belong to a customer</data>
+      <data key="d9">owned_by</data>
+      <data key="d10">doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138241</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Canon" target="One Stop Market">
+      <data key="d7">2.0</data>
+      <data key="d8">Canon printers are sold at One Stop Market.&lt;SEP&gt;One Stop Market sells Canon printers.</data>
+      <data key="d9">sells,sold at</data>
+      <data key="d10">doc-457a13ff898910e4943843b182899f06-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787137998</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Video Game" target="Product">
+      <data key="d7">1.0</data>
+      <data key="d8">Category of products</data>
+      <data key="d9">IsA</data>
+      <data key="d10">doc-59d4350ca2ac17430b9a74fbaa0220b0-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138079</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Product" target="customer reviews">
+      <data key="d7">2.0</data>
+      <data key="d8">Customer reviews are tied to products.</data>
+      <data key="d9">related</data>
+      <data key="d10">doc-d3cad008c277a059bb25a4604d5e17f1-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138383</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Product" target="ratings">
+      <data key="d7">2.0</data>
+      <data key="d8">Ratings are linked to products.</data>
+      <data key="d9">related</data>
+      <data key="d10">doc-d3cad008c277a059bb25a4604d5e17f1-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138383</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Product" target="Price">
+      <data key="d7">1.0</data>
+      <data key="d8">An attribute used to sort listings.</data>
+      <data key="d9">sorted_by</data>
+      <data key="d10">doc-e4b84220ab88707e4a7138a9c2c3e998-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138434</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Product" target="Category">
+      <data key="d7">1.0</data>
+      <data key="d8">A listing item in a category page.</data>
+      <data key="d9">listed_in</data>
+      <data key="d10">doc-e4b84220ab88707e4a7138a9c2c3e998-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138434</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Product" target="Tabs">
+      <data key="d7">1.0</data>
+      <data key="d8">The product with the lowest per unit price is found among the open tabs</data>
+      <data key="d9">lowest_price</data>
+      <data key="d10">doc-56c48eed83f6786c52f3bf1846f802dc-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138805</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Product" target="Wishlist">
+      <data key="d7">1.0</data>
+      <data key="d8">Add this product to my wishlist</data>
+      <data key="d9">Add</data>
+      <data key="d10">doc-862f3205e74c4e460943cba77a1c8b9b-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138884</data>
+      <data key="d13" />
+    </edge>
+    <edge source="floor lamp" target="recent purchase">
+      <data key="d7">1.0</data>
+      <data key="d8">Floor lamp was the subject of the recent purchase.</data>
+      <data key="d9">Subject</data>
+      <data key="d10">doc-5f0797478180b4eb1b1da6cf0be26d1d-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138126</data>
+      <data key="d13" />
+    </edge>
+    <edge source="recent purchase" target="5 stars">
+      <data key="d7">1.0</data>
+      <data key="d8">The recent purchase received a 5-star rating.</data>
+      <data key="d9">Rating</data>
+      <data key="d10">doc-5f0797478180b4eb1b1da6cf0be26d1d-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138126</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Magento" target="Wish List">
+      <data key="d7">1.0</data>
+      <data key="d8">Wish List is a feature in Magento</data>
+      <data key="d9">contains</data>
+      <data key="d10">doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138241</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Wish List" target="customer">
+      <data key="d7">1.0</data>
+      <data key="d8">A customer can own a Wish List</data>
+      <data key="d9">owns</data>
+      <data key="d10">doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138241</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Wish List" target="Laundry Detergent">
+      <data key="d7">1.0</data>
+      <data key="d8">Laundry detergent has been added to the wish list.</data>
+      <data key="d9">Added</data>
+      <data key="d10">doc-fd76d2a06991f2a028cbe7f340deaa84-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139216</data>
+      <data key="d13" />
+    </edge>
+    <edge source="customer" target="Add to Wish List">
+      <data key="d7">1.0</data>
+      <data key="d8">A customer performs the action of adding a product to the Wish List</data>
+      <data key="d9">performs</data>
+      <data key="d10">doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138241</data>
+      <data key="d13" />
+    </edge>
+    <edge source="customer" target="open My Wish List">
+      <data key="d7">1.0</data>
+      <data key="d8">A customer performs the action of opening their Wish List</data>
+      <data key="d9">performs</data>
+      <data key="d10">doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138241</data>
+      <data key="d13" />
+    </edge>
+    <edge source="customer" target="remove from Wish List">
+      <data key="d7">1.0</data>
+      <data key="d8">A customer performs the action of removing a product from the Wish List</data>
+      <data key="d9">performs</data>
+      <data key="d10">doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138241</data>
+      <data key="d13" />
+    </edge>
+    <edge source="customer" target="Amazon Echo Dot 3rd generation">
+      <data key="d7">1.0</data>
+      <data key="d8">customers often use the device for voice commands and music playback</data>
+      <data key="d9">uses</data>
+      <data key="d10">doc-ff4a6a9b3fb2fff37b4e761d8ab01d60-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138554</data>
+      <data key="d13" />
+    </edge>
+    <edge source="customer" target="Orders">
+      <data key="d7">2.0</data>
+      <data key="d8">A customer has multiple orders.&lt;SEP&gt;A customer has placed an order.</data>
+      <data key="d9">Made,has</data>
+      <data key="d10">doc-25fabb726c8ee24ea61db5462cb05173-chunk-000&lt;SEP&gt;doc-1cc9b075b95e93f0efa2fc819c7091e7-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139241</data>
+      <data key="d13" />
+    </edge>
+    <edge source="customer" target="shop owner">
+      <data key="d7">1.0</data>
+      <data key="d8">The customer is a loyal customer of the shop owner.</data>
+      <data key="d9">LoyalCustomer</data>
+      <data key="d10">doc-2fc9469459413b113b36555148ce3cac-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139283</data>
+      <data key="d13" />
+    </edge>
+    <edge source="customer" target="mattress">
+      <data key="d7">2.0</data>
+      <data key="d8">The customer later cancelled the order for the mattress.&lt;SEP&gt;The customer placed an order for the mattress.</data>
+      <data key="d9">cancelled,ordered</data>
+      <data key="d10">doc-35eefef945502c8508eff8ffbcbabc75-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139304</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Amazon" target="Amazon Echo Dot 3rd generation">
+      <data key="d7">1.0</data>
+      <data key="d8">Amazon manufactures the device</data>
+      <data key="d9">manufacturer</data>
+      <data key="d10">doc-ff4a6a9b3fb2fff37b4e761d8ab01d60-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138554</data>
+      <data key="d13" />
+    </edge>
+    <edge source="ArtificialPlants" target="ColorConfiguration">
+      <data key="d7">1.0</data>
+      <data key="d8">The color configuration of the artificial plants</data>
+      <data key="d9">Color</data>
+      <data key="d10">doc-e10bb7c8ab58a85e171364f0db9259d3-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138414</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Category" target="Electronics">
+      <data key="d7">1.0</data>
+      <data key="d8">A top-level category under Category pages.</data>
+      <data key="d9">is_subcategory_of</data>
+      <data key="d10">doc-e4b84220ab88707e4a7138a9c2c3e998-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138434</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Category" target="Cell-phones-accessories">
+      <data key="d7">1.0</data>
+      <data key="d8">A subcategory under Category pages.</data>
+      <data key="d9">is_subcategory_of</data>
+      <data key="d10">doc-e4b84220ab88707e4a7138a9c2c3e998-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138434</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Price" target="Nutrition Bars">
+      <data key="d7">1.0</data>
+      <data key="d8">Measured by.</data>
+      <data key="d9">Attribute</data>
+      <data key="d10">doc-fa5cf0e5e035481d8bc81ff2b17f3658-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138476</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Price" target="Drinks">
+      <data key="d7">1.0</data>
+      <data key="d8">Measured by.</data>
+      <data key="d9">Attribute</data>
+      <data key="d10">doc-fa5cf0e5e035481d8bc81ff2b17f3658-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138476</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nutrition Bars" target="Drinks">
+      <data key="d7">1.0</data>
+      <data key="d8">Belong to same category.</data>
+      <data key="d9">Category</data>
+      <data key="d10">doc-fa5cf0e5e035481d8bc81ff2b17f3658-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138476</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Product search" target="click search field">
+      <data key="d7">1.0</data>
+      <data key="d8">The action of clicking the search field is a typical action associated with Product search.</data>
+      <data key="d9">typical_actions</data>
+      <data key="d10">doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138497</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Product search" target="type query">
+      <data key="d7">1.0</data>
+      <data key="d8">The action of typing a query is a typical action associated with Product search.</data>
+      <data key="d9">typical_actions</data>
+      <data key="d10">doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138497</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Product search" target="submit Search">
+      <data key="d7">1.0</data>
+      <data key="d8">The action of submitting the search is a typical action associated with Product search.</data>
+      <data key="d9">typical_actions</data>
+      <data key="d10">doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138497</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Product search" target="open Advanced Search">
+      <data key="d7">1.0</data>
+      <data key="d8">The action of opening Advanced Search is a typical action associated with Product search.</data>
+      <data key="d9">typical_actions</data>
+      <data key="d10">doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138497</data>
+      <data key="d13" />
+    </edge>
+    <edge source="/catalogsearch/advanced/" target="/catalogsearch/result/">
+      <data key="d7">2.0</data>
+      <data key="d8">The URL /catalogsearch/advanced/ is related to Product search.&lt;SEP&gt;The URL /catalogsearch/result/ is related to Product search.</data>
+      <data key="d9">related_urls</data>
+      <data key="d10">doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138497</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Tide PODS Spring Meadow Scent HE Turbo Laundry Detergent Pacs" target="wish list">
+      <data key="d7">1.0</data>
+      <data key="d8">Added to wish list.</data>
+      <data key="d9">added</data>
+      <data key="d10">doc-0d33da261165892a409b62b769813fd7-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138567</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Orders" target="Customer">
+      <data key="d7">2.0</data>
+      <data key="d8">Orders belong to a specific customer.&lt;SEP&gt;Ordered a table lamp in May 2023</data>
+      <data key="d9">Ordered,OwnedBy</data>
+      <data key="d10">doc-15a19c7313525c2e251bcbc5ce79789d-chunk-000&lt;SEP&gt;doc-8a6b140b0c243b09d5e5be889c114c41-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139435</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Orders" target="Order">
+      <data key="d7">2.0</data>
+      <data key="d8">Orders have a total cost associated with them.&lt;SEP&gt;Orders can have different statuses.</data>
+      <data key="d9">HasCost,HasStatus</data>
+      <data key="d10">doc-15a19c7313525c2e251bcbc5ce79789d-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138590</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Orders" target="status">
+      <data key="d7">1.0</data>
+      <data key="d8">The status of an order can be updated.</data>
+      <data key="d9">has</data>
+      <data key="d10">doc-25fabb726c8ee24ea61db5462cb05173-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138613</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Orders" target="delivery_date">
+      <data key="d7">1.0</data>
+      <data key="d8">The delivery date of an order is determined.</data>
+      <data key="d9">has</data>
+      <data key="d10">doc-25fabb726c8ee24ea61db5462cb05173-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138613</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Orders" target="first_purchase_date">
+      <data key="d7">1.0</data>
+      <data key="d8">The date when the first purchase was made.</data>
+      <data key="d9">Date</data>
+      <data key="d10">doc-1cc9b075b95e93f0efa2fc819c7091e7-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139241</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Orders" target="Cancelled">
+      <data key="d7">1.0</data>
+      <data key="d8">Cancelled the order in May 2023</data>
+      <data key="d9">Cancelled</data>
+      <data key="d10">doc-8a6b140b0c243b09d5e5be889c114c41-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139435</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Order" target="Delivery Address">
+      <data key="d7">1.0</data>
+      <data key="d8">A delivery address can be set for an order.</data>
+      <data key="d9">Set</data>
+      <data key="d10">doc-40b67116c49dc831fc9b6d1ace054544-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138705</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Order" target="Account">
+      <data key="d7">2.0</data>
+      <data key="d8">An order is associated with an account.</data>
+      <data key="d9">Associated</data>
+      <data key="d10">doc-40b67116c49dc831fc9b6d1ace054544-chunk-000&lt;SEP&gt;doc-ed301b47f0ce1c9091aeedded9667523-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139180</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Order" target="Address">
+      <data key="d7">1.0</data>
+      <data key="d8">The delivery address is set for an order.</data>
+      <data key="d9">Delivery</data>
+      <data key="d10">doc-ed301b47f0ce1c9091aeedded9667523-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139180</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Order" target="ShippingMethod">
+      <data key="d7">1.0</data>
+      <data key="d8">To show the shipping method for order number 187.</data>
+      <data key="d9">Show</data>
+      <data key="d10">doc-41eec2eddcce8a485141abd05206fd24-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139365</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Customer account" target="/customer/account/">
+      <data key="d7">1.0</data>
+      <data key="d8">/customer/account/</data>
+      <data key="d9">related_urls</data>
+      <data key="d10">doc-3ed8a86717615b8535ab456983651c6f-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138687</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Customer account" target="/customer/account/login/">
+      <data key="d7">1.0</data>
+      <data key="d8">/customer/account/login/</data>
+      <data key="d9">related_urls</data>
+      <data key="d10">doc-3ed8a86717615b8535ab456983651c6f-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138687</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Customer account" target="/customer/account/create/">
+      <data key="d7">1.0</data>
+      <data key="d8">/customer/account/create/</data>
+      <data key="d9">related_urls</data>
+      <data key="d10">doc-3ed8a86717615b8535ab456983651c6f-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138687</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Location" target="Pittsburgh">
+      <data key="d7">1.0</data>
+      <data key="d8">Pittsburgh is located in Pennsylvania.</data>
+      <data key="d9">Located</data>
+      <data key="d10">doc-40b67116c49dc831fc9b6d1ace054544-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138705</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Location" target="Pennsylvania">
+      <data key="d7">1.0</data>
+      <data key="d8">Pennsylvania is located in the United States.</data>
+      <data key="d9">Located</data>
+      <data key="d10">doc-40b67116c49dc831fc9b6d1ace054544-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138705</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Location" target="United States">
+      <data key="d7">2.0</data>
+      <data key="d8">The United States is a country.</data>
+      <data key="d9">Country,Located</data>
+      <data key="d10">doc-40b67116c49dc831fc9b6d1ace054544-chunk-000&lt;SEP&gt;doc-ed301b47f0ce1c9091aeedded9667523-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139180</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Location" target="4000 Forbes Ave">
+      <data key="d7">1.0</data>
+      <data key="d8">4000 Forbes Ave is located in Pittsburgh.</data>
+      <data key="d9">Located</data>
+      <data key="d10">doc-40b67116c49dc831fc9b6d1ace054544-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138705</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Location" target="Forbes Ave">
+      <data key="d7">1.0</data>
+      <data key="d8">Forbes Avenue is located in Pittsburgh.</data>
+      <data key="d9">Located</data>
+      <data key="d10">doc-40b67116c49dc831fc9b6d1ace054544-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138705</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Location" target="PA">
+      <data key="d7">1.0</data>
+      <data key="d8">PA is an abbreviation for Pennsylvania.</data>
+      <data key="d9">Located</data>
+      <data key="d10">doc-40b67116c49dc831fc9b6d1ace054544-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138705</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Location" target="San Francisco">
+      <data key="d7">1.0</data>
+      <data key="d8">San Francisco is a city.</data>
+      <data key="d9">City</data>
+      <data key="d10">doc-ed301b47f0ce1c9091aeedded9667523-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139180</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Location" target="California">
+      <data key="d7">1.0</data>
+      <data key="d8">California is a state.</data>
+      <data key="d9">State</data>
+      <data key="d10">doc-ed301b47f0ce1c9091aeedded9667523-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139180</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Shopping Cart" target="Tabs">
+      <data key="d7">1.0</data>
+      <data key="d8">The product is added to the shopping cart from the open tabs</data>
+      <data key="d9">add_to</data>
+      <data key="d10">doc-56c48eed83f6786c52f3bf1846f802dc-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787138805</data>
+      <data key="d13" />
+    </edge>
+    <edge source="OneStopShopping" target="Boston">
+      <data key="d7">1.0</data>
+      <data key="d8">Users can update their information on OneStopShopping in Boston.</data>
+      <data key="d9">LocatedIn</data>
+      <data key="d10">doc-8d9176b069bb4610448a5d4a6e08f2eb-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139056</data>
+      <data key="d13" />
+    </edge>
+    <edge source="OneStopShopping" target="Massachusetts">
+      <data key="d7">1.0</data>
+      <data key="d8">Users can update their information on OneStopShopping in Massachusetts.</data>
+      <data key="d9">LocatedIn</data>
+      <data key="d10">doc-8d9176b069bb4610448a5d4a6e08f2eb-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139056</data>
+      <data key="d13" />
+    </edge>
+    <edge source="OneStopShopping" target="654 Aspen Road">
+      <data key="d7">1.0</data>
+      <data key="d8">Users can update their information on OneStopShopping at 654 Aspen Road.</data>
+      <data key="d9">LocatedAt</data>
+      <data key="d10">doc-8d9176b069bb4610448a5d4a6e08f2eb-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139056</data>
+      <data key="d13" />
+    </edge>
+    <edge source="OneStopShopping" target="House #3">
+      <data key="d7">1.0</data>
+      <data key="d8">Users can update their information on OneStopShopping at House #3.</data>
+      <data key="d9">LocatedAt</data>
+      <data key="d10">doc-8d9176b069bb4610448a5d4a6e08f2eb-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139056</data>
+      <data key="d13" />
+    </edge>
+    <edge source="orders" target="food-related shopping">
+      <data key="d7">1.0</data>
+      <data key="d8">Orders that include food-related items</data>
+      <data key="d9">contains</data>
+      <data key="d10">doc-9aa0819373b076202a69431aa6b6b6a1-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139073</data>
+      <data key="d13" />
+    </edge>
+    <edge source="orders" target="March 2023">
+      <data key="d7">1.0</data>
+      <data key="d8">Orders made during the specified month</data>
+      <data key="d9">occurred_in</data>
+      <data key="d10">doc-9aa0819373b076202a69431aa6b6b6a1-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139073</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Chair" target="WishList">
+      <data key="d7">1.0</data>
+      <data key="d8">A chair has been added to someone's wish list.</data>
+      <data key="d9">AddedTo</data>
+      <data key="d10">doc-e55a5eced4bdbbeaad263a5762118200-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139155</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Shopping cart" target="My Cart">
+      <data key="d7">2.0</data>
+      <data key="d8">My Cart is another name for the shopping cart.&lt;SEP&gt;The shopping cart is also known as My Cart.</data>
+      <data key="d9">alias</data>
+      <data key="d10">doc-f8b213a2069bc8bf70ea3a366aaa07db-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139194</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Shopping cart" target="minicart">
+      <data key="d7">2.0</data>
+      <data key="d8">minicart is another name for the shopping cart.&lt;SEP&gt;The shopping cart is also known as minicart.</data>
+      <data key="d9">alias</data>
+      <data key="d10">doc-f8b213a2069bc8bf70ea3a366aaa07db-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139194</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Shopping cart" target="View and Edit Cart">
+      <data key="d7">2.0</data>
+      <data key="d8">View and Edit Cart is another name for the shopping cart.&lt;SEP&gt;The shopping cart is also known as View and Edit Cart.</data>
+      <data key="d9">alias</data>
+      <data key="d10">doc-f8b213a2069bc8bf70ea3a366aaa07db-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139194</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Shopping cart" target="/checkout/cart/">
+      <data key="d7">2.0</data>
+      <data key="d8">The shopping cart is linked to the URL /checkout/cart/.&lt;SEP&gt;/checkout/cart/ is associated with the shopping cart.</data>
+      <data key="d9">related_url</data>
+      <data key="d10">doc-f8b213a2069bc8bf70ea3a366aaa07db-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139194</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Phone Screen Protector" target="Shop">
+      <data key="d7">1.0</data>
+      <data key="d8">The phone screen protector was bought from the shop.</data>
+      <data key="d9">Purchased</data>
+      <data key="d10">doc-24b33f584ce9895d0f497c8da5e02160-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139257</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Order ID" target="Shop">
+      <data key="d7">1.0</data>
+      <data key="d8">The order ID is linked to the purchase made at the shop.</data>
+      <data key="d9">Associated</data>
+      <data key="d10">doc-24b33f584ce9895d0f497c8da5e02160-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139257</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Order ID" target="Bluetooth Speaker">
+      <data key="d7">1.0</data>
+      <data key="d8">The Order ID is linked to the Bluetooth Speaker</data>
+      <data key="d9">Associated With</data>
+      <data key="d10">doc-3e4633e49bb78087b94882bb6dd6ec70-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139338</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Reason" target="Shop">
+      <data key="d7">1.0</data>
+      <data key="d8">The shop requires the reason for the refund in the message.</data>
+      <data key="d9">Needed</data>
+      <data key="d10">doc-24b33f584ce9895d0f497c8da5e02160-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139257</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Reason" target="Bluetooth Speaker">
+      <data key="d7">1.0</data>
+      <data key="d8">The Reason explains why the Bluetooth Speaker needs a refund</data>
+      <data key="d9">Refund Reason</data>
+      <data key="d10">doc-3e4633e49bb78087b94882bb6dd6ec70-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139338</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Amount" target="Shop">
+      <data key="d7">1.0</data>
+      <data key="d8">The shop requires the amount to be refunded in the message.</data>
+      <data key="d9">Needed</data>
+      <data key="d10">doc-24b33f584ce9895d0f497c8da5e02160-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139257</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Amount" target="Bluetooth Speaker">
+      <data key="d7">1.0</data>
+      <data key="d8">The Amount specifies how much will be refunded for the Bluetooth Speaker</data>
+      <data key="d9">Refund Amount</data>
+      <data key="d10">doc-3e4633e49bb78087b94882bb6dd6ec70-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139338</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Shop" target="Bluetooth Speaker">
+      <data key="d7">1.0</data>
+      <data key="d8">The Bluetooth speaker was bought from the Shop</data>
+      <data key="d9">Purchased From</data>
+      <data key="d10">doc-3e4633e49bb78087b94882bb6dd6ec70-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139338</data>
+      <data key="d13" />
+    </edge>
+    <edge source="customer service" target="call">
+      <data key="d7">1.0</data>
+      <data key="d8">The action of contacting customer service.</data>
+      <data key="d9">Contact</data>
+      <data key="d10">doc-86eed36545c61f44c4e4c6232a5e2a59-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1787139417</data>
+      <data key="d13" />
+    </edge>
+  </graph>
+</graphml>

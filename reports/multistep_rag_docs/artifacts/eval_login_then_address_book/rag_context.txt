@@ -1,1 +1,19 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To log in with the test customer account and open the Address Book, follow these steps:
+
+1. **Navigate to the Login Page**: The current page URL is `http://localhost:7770/customer/account/login/`. This is the correct URL to access the login form for the customer account.
+
+2. **Enter Credentials**: Use the provided email `emma.lopez@gmail.com` and password `Password.123` to sign in. Make sure to type these credentials into the respective fields on the login form.
+
+3. **Submit the Form**: After entering the email and password, click the "Log In" button to proceed with the login process.
+
+4. **Access the Address Book**: Once logged in successfully, navigate to the "Address Book" section. This can typically be found under the "My Account" area, which is usually accessible from the main menu or dashboard after logging in. The exact label for the Address Book may vary depending on the specific website design but it is usually labeled as "Address Book," "Addresses," or something similar.
+
+5. **Verify the Address Book**: Ensure that the Address Book contains the correct information and that you can edit or add new addresses as needed.
+
+### References
+
+- [1] "Customer account" - Provides information on how registered customers can manage their accounts, including accessing the Address Book.
+- [2] "Orders and returns" - Explains how customers can view their order history, which might be useful for verifying the login process.
+- [3] "Contact Us" - Describes the storefront form for sending messages to the merchant, which could be relevant if there are issues during the login process.
+- [4] "Wish List" - Although not directly related to the login process, it provides insight into the navigation structure of the website, which might help in locating other sections like the Address Book.
+- [5] "Customer account" - Reinforces the steps involved in logging in and navigating to the Address Book.

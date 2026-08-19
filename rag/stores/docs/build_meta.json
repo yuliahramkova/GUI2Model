@@ -7,7 +7,7 @@
     "docs": 62
   },
   "n_documents": 62,
-  "created_at": "2026-08-18T12:45:05.961494+00:00",
+  "created_at": "2026-08-19T11:42:06.192175+00:00",
   "llm_model": "Qwen/Qwen2.5-VL-7B-Instruct",
   "llm_base_url": "http://lnsigo.mipt.ru:4000/",
   "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
@@ -15,8 +15,8 @@
   "chunk_token_size": 800,
   "working_dir": "C:/Proga/GUI2Model/rag/stores/docs",
   "build_stats": {
-    "llm_calls": 0,
-    "embed_batches": 0,
-    "embed_texts": 0
+    "llm_calls": 123,
+    "embed_batches": 161,
+    "embed_texts": 378
   }
 }

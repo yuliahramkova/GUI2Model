@@ -1,1 +1,17 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To open your past orders while logged in, you'll need to navigate through the storefront to access the order history. Here’s how you can do it:
+
+1. **Navigate to the Account Area**: Start by going to the account area of the storefront. This is typically accessed via a link labeled something like "My Account" or "Account" in the navigation menu. The relevant navigation path might be:
+   - Home Page → Account Area → My Account
+
+2. **Access Order History**: Once you're in the account area, look for a section or link labeled "Orders," "Order History," or "Order Summary." This section will allow you to view your past orders. The relevant label here would be:
+   - Orders → Order History → Order Summary
+
+3. **View Order Details**: Within the order history section, you should be able to see a list of your past orders. Each order will have details such as the order number, date, total cost, and shipping details. You can click on an order to view more detailed information.
+
+4. **Use the URL**: Alternatively, you can use the URL `/sales/order/history/` to directly access the order history page. This URL is mentioned in the Knowledge Graph Data.
+
+By following these steps, you should be able to open and view your past orders while logged in. The relevant navigation paths and labels are:
+- Home Page → Account Area → My Account → Orders → Order History → Order Summary
+- URL: `/sales/order/history/`
+
+If you encounter any issues or need further assistance, feel free to ask!

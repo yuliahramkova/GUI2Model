@@ -1,1 +1,23 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To enter a SKU on the advanced search form, the following elements and actions are most relevant:
+
+1. **Navigation Paths**: 
+   - The user needs to navigate to the advanced search form. This involves clicking on the "Advanced Search" link or button, which is typically found in the main navigation menu or search bar area of the storefront.
+
+2. **GUI Elements**:
+   - The "Advanced Search" button or link.
+   - The search field where the SKU will be entered.
+   - Any filters or dropdown menus that might be present to refine the search based on various criteria like brand, category, etc.
+
+3. **Labels**:
+   - The label for the search field, which may say something like "Enter SKU" or "Search by SKU".
+   - The label for the "Advanced Search" button or link, which might say "Advanced Search".
+
+4. **Roles**:
+   - The role of the user performing the search, which is likely a customer or a visitor looking to find a specific product by its SKU.
+
+5. **Actions**:
+   - Clicking the "Advanced Search" button or link to open the advanced search form.
+   - Typing the SKU into the search field.
+   - Submitting the search form by clicking the "Submit" button.
+
+These elements and actions are crucial for guiding the user through the process of entering a SKU on the advanced search form. The exact implementation details may vary depending on the specific design and functionality of the storefront, but these general steps should cover the essential aspects of the task.

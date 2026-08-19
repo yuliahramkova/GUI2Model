@@ -1,1 +1,24 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To perform an advanced search and filter by product title, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **GUI Elements**: 
+   - **Search Field**: This is typically labeled as "Search" or "Find Products" and is where you input your query.
+   - **Advanced Search Button**: This button is usually labeled as "Advanced Search" or "More Filters" and allows you to access additional filtering options beyond the basic search field.
+
+2. **Navigation Paths**:
+   - **URL Path**: The URL `/catalogsearch/advanced/` leads to the advanced search page where you can apply more specific filters.
+   - **Navigation Steps**: Start by navigating to the main search page, then click on the "Advanced Search" link or button to access the advanced search interface.
+
+3. **Labels**:
+   - **Advanced Search Label**: This label is used to indicate the presence of the advanced search functionality, which includes more detailed filtering options.
+   - **Product Title Filter Label**: This label would appear next to the filter option that allows you to specify a product title.
+
+4. **Roles**:
+   - **Customer Role**: As a customer, you would interact with these elements to refine your search based on specific criteria like product titles.
+
+5. **Actions**:
+   - **Click on Search Field**: This action involves clicking on the search field to activate it for inputting a query.
+   - **Type Query**: After clicking on the search field, you type in the product title you're interested in.
+   - **Open Advanced Search**: Clicking on the "Advanced Search" button opens the advanced search interface where you can apply further filters.
+   - **Submit Search**: After entering the product title and applying any necessary filters, you submit the search to view the filtered results.
+
+By following these steps, you can effectively use the advanced search functionality to filter products by their title.

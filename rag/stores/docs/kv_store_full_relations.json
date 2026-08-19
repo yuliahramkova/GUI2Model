@@ -1,0 +1,916 @@
+{
+  "doc-0dd0af786d839aa2242d128b47d8eb75": {
+    "relation_pairs": [
+      [
+        "PS4",
+        "accessories"
+      ],
+      [
+        "accessories",
+        "category"
+      ],
+      [
+        "ascending",
+        "price"
+      ],
+      [
+        "category",
+        "products"
+      ],
+      [
+        "price",
+        "products"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1787137843,
+    "update_time": 1787137843,
+    "_id": "doc-0dd0af786d839aa2242d128b47d8eb75"
+  },
+  "doc-189f9fd0f08c982145dda95ff9f355f9": {
+    "relation_pairs": [
+      [
+        "Nintendo Switch",
+        "game card"
+      ],
+      [
+        "Nintendo Switch",
+        "storage option"
+      ],
+      [
+        "game card",
+        "storage option"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1787137873,
+    "update_time": 1787137873,
+    "_id": "doc-189f9fd0f08c982145dda95ff9f355f9"
+  },
+  "doc-1942e5b81059c71007614932043675ed": {
+    "relation_pairs": [
+      [
+        "Jaw Bruxism",
+        "User"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1787137900,
+    "update_time": 1787137900,
+    "_id": "doc-1942e5b81059c71007614932043675ed"
+  },
+  "doc-1fc5bca9ee5abf88c0fe137c95925955": {
+    "relation_pairs": [
+      [
+        "Brush",
+        "Customers"
+      ],
+      [
+        "Brush",
+        "Reviews"
+      ],
+      [
+        "Brush",
+        "Sephora"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1787137923,
+    "update_time": 1787137923,
+    "_id": "doc-1fc5bca9ee5abf88c0fe137c95925955"
+  },
+  "doc-28ba9162f780757ed205d1bbca501401": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787137946,
+    "update_time": 1787137946,
+    "_id": "doc-28ba9162f780757ed205d1bbca501401"
+  },
+  "doc-358a8839829c493620a15be50f9bcc3a": {
+    "relation_pairs": [
+      [
+        "category",
+        "product"
+      ],
+      [
+        "least_expensive",
+        "product"
+      ],
+      [
+        "price",
+        "product"
+      ],
+      [
+        "product",
+        "rating"
+      ],
+      [
+        "product",
+        "review"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1787137964,
+    "update_time": 1787137964,
+    "_id": "doc-358a8839829c493620a15be50f9bcc3a"
+  },
+  "doc-457a13ff898910e4943843b182899f06": {
+    "relation_pairs": [
+      [
+        "Canon",
+        "One Stop Market"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1787137998,
+    "update_time": 1787137998,
+    "_id": "doc-457a13ff898910e4943843b182899f06"
+  },
+  "doc-4a104570702d17afb7ebbc72063ef1e1": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787138038,
+    "update_time": 1787138038,
+    "_id": "doc-4a104570702d17afb7ebbc72063ef1e1"
+  },
+  "doc-52c0cd3d3d3f22354862b57c53861a5b": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787138061,
+    "update_time": 1787138061,
+    "_id": "doc-52c0cd3d3d3f22354862b57c53861a5b"
+  },
+  "doc-59d4350ca2ac17430b9a74fbaa0220b0": {
+    "relation_pairs": [
+      [
+        "Product",
+        "Video Game"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1787138078,
+    "update_time": 1787138078,
+    "_id": "doc-59d4350ca2ac17430b9a74fbaa0220b0"
+  },
+  "doc-5c6aa480424345d43e12e50df1496a02": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787138104,
+    "update_time": 1787138104,
+    "_id": "doc-5c6aa480424345d43e12e50df1496a02"
+  },
+  "doc-5f0797478180b4eb1b1da6cf0be26d1d": {
+    "relation_pairs": [
+      [
+        "5 stars",
+        "recent purchase"
+      ],
+      [
+        "floor lamp",
+        "recent purchase"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1787138126,
+    "update_time": 1787138126,
+    "_id": "doc-5f0797478180b4eb1b1da6cf0be26d1d"
+  },
+  "doc-7ed509df034e4c895a50f2b37ff0d547": {
+    "relation_pairs": [
+      [
+        "fake tree",
+        "price"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1787138150,
+    "update_time": 1787138150,
+    "_id": "doc-7ed509df034e4c895a50f2b37ff0d547"
+  },
+  "doc-97e6ca4d7a358ec8f21756ca6e74ca7c": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787138174,
+    "update_time": 1787138174,
+    "_id": "doc-97e6ca4d7a358ec8f21756ca6e74ca7c"
+  },
+  "doc-999b2ff925c2719f7d9a4bec198df488": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787138205,
+    "update_time": 1787138205,
+    "_id": "doc-999b2ff925c2719f7d9a4bec198df488"
+  },
+  "doc-9f147c01c4193145de47c2bf5cfb7a6b": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787138224,
+    "update_time": 1787138224,
+    "_id": "doc-9f147c01c4193145de47c2bf5cfb7a6b"
+  },
+  "doc-a1a237c79c4263f529f29f7e9a4d9dad": {
+    "relation_pairs": [
+      [
+        "Add to Wish List",
+        "customer"
+      ],
+      [
+        "Magento",
+        "Wish List"
+      ],
+      [
+        "Wish List",
+        "customer"
+      ],
+      [
+        "customer",
+        "open My Wish List"
+      ],
+      [
+        "customer",
+        "product"
+      ],
+      [
+        "customer",
+        "remove from Wish List"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1787138241,
+    "update_time": 1787138241,
+    "_id": "doc-a1a237c79c4263f529f29f7e9a4d9dad"
+  },
+  "doc-acf0cdd04746673627377954b4bf4341": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787138264,
+    "update_time": 1787138264,
+    "_id": "doc-acf0cdd04746673627377954b4bf4341"
+  },
+  "doc-b84a437f0543053dd6adebe7bc7b2cf0": {
+    "relation_pairs": [
+      [
+        "Men shoes",
+        "category"
+      ],
+      [
+        "category",
+        "products"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1787138307,
+    "update_time": 1787138307,
+    "_id": "doc-b84a437f0543053dd6adebe7bc7b2cf0"
+  },
+  "doc-d31264de048b55eca765c36fb8c427a2": {
+    "relation_pairs": [
+      [
+        "Amazon",
+        "products"
+      ],
+      [
+        "price",
+        "products"
+      ],
+      [
+        "price",
+        "range"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1787138334,
+    "update_time": 1787138334,
+    "_id": "doc-d31264de048b55eca765c36fb8c427a2"
+  },
+  "doc-d31b2a0cbe1b3431508a11cba028e2a3": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787138360,
+    "update_time": 1787138360,
+    "_id": "doc-d31b2a0cbe1b3431508a11cba028e2a3"
+  },
+  "doc-d3cad008c277a059bb25a4604d5e17f1": {
+    "relation_pairs": [
+      [
+        "Product",
+        "Reviews"
+      ],
+      [
+        "Product",
+        "customer reviews"
+      ],
+      [
+        "Product",
+        "ratings"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1787138383,
+    "update_time": 1787138383,
+    "_id": "doc-d3cad008c277a059bb25a4604d5e17f1"
+  },
+  "doc-e10bb7c8ab58a85e171364f0db9259d3": {
+    "relation_pairs": [
+      [
+        "ArtificialPlants",
+        "ColorConfiguration"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1787138414,
+    "update_time": 1787138414,
+    "_id": "doc-e10bb7c8ab58a85e171364f0db9259d3"
+  },
+  "doc-e4b84220ab88707e4a7138a9c2c3e998": {
+    "relation_pairs": [
+      [
+        "Category",
+        "Cell-phones-accessories"
+      ],
+      [
+        "Category",
+        "Electronics"
+      ],
+      [
+        "Category",
+        "Product"
+      ],
+      [
+        "Price",
+        "Product"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1787138434,
+    "update_time": 1787138434,
+    "_id": "doc-e4b84220ab88707e4a7138a9c2c3e998"
+  },
+  "doc-eb88f41e5529aea49d1a2f9c5e769a58": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787138444,
+    "update_time": 1787138444,
+    "_id": "doc-eb88f41e5529aea49d1a2f9c5e769a58"
+  },
+  "doc-fa5cf0e5e035481d8bc81ff2b17f3658": {
+    "relation_pairs": [
+      [
+        "Drinks",
+        "Nutrition Bars"
+      ],
+      [
+        "Drinks",
+        "Price"
+      ],
+      [
+        "Nutrition Bars",
+        "Price"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1787138476,
+    "update_time": 1787138476,
+    "_id": "doc-fa5cf0e5e035481d8bc81ff2b17f3658"
+  },
+  "doc-fe40173fac6704461fd64a29d0b8f8f1": {
+    "relation_pairs": [
+      [
+        "/catalogsearch/advanced/",
+        "/catalogsearch/result/"
+      ],
+      [
+        "Product search",
+        "click search field"
+      ],
+      [
+        "Product search",
+        "open Advanced Search"
+      ],
+      [
+        "Product search",
+        "submit Search"
+      ],
+      [
+        "Product search",
+        "type query"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1787138497,
+    "update_time": 1787138497,
+    "_id": "doc-fe40173fac6704461fd64a29d0b8f8f1"
+  },
+  "doc-ff4a6a9b3fb2fff37b4e761d8ab01d60": {
+    "relation_pairs": [
+      [
+        "Amazon",
+        "Amazon Echo Dot 3rd generation"
+      ],
+      [
+        "Amazon Echo Dot 3rd generation",
+        "customer"
+      ],
+      [
+        "Amazon Echo Dot 3rd generation",
+        "review"
+      ],
+      [
+        "customer",
+        "review"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1787138554,
+    "update_time": 1787138554,
+    "_id": "doc-ff4a6a9b3fb2fff37b4e761d8ab01d60"
+  },
+  "doc-0d33da261165892a409b62b769813fd7": {
+    "relation_pairs": [
+      [
+        "Tide PODS Spring Meadow Scent HE Turbo Laundry Detergent Pacs",
+        "wish list"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1787138567,
+    "update_time": 1787138567,
+    "_id": "doc-0d33da261165892a409b62b769813fd7"
+  },
+  "doc-15a19c7313525c2e251bcbc5ce79789d": {
+    "relation_pairs": [
+      [
+        "Customer",
+        "Orders"
+      ],
+      [
+        "Order",
+        "Orders"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1787138590,
+    "update_time": 1787138590,
+    "_id": "doc-15a19c7313525c2e251bcbc5ce79789d"
+  },
+  "doc-25fabb726c8ee24ea61db5462cb05173": {
+    "relation_pairs": [
+      [
+        "Orders",
+        "customer"
+      ],
+      [
+        "Orders",
+        "delivery_date"
+      ],
+      [
+        "Orders",
+        "status"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1787138613,
+    "update_time": 1787138613,
+    "_id": "doc-25fabb726c8ee24ea61db5462cb05173"
+  },
+  "doc-3ed8a86717615b8535ab456983651c6f": {
+    "relation_pairs": [
+      [
+        "/customer/account/",
+        "Customer account"
+      ],
+      [
+        "/customer/account/create/",
+        "Customer account"
+      ],
+      [
+        "/customer/account/login/",
+        "Customer account"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1787138686,
+    "update_time": 1787138686,
+    "_id": "doc-3ed8a86717615b8535ab456983651c6f"
+  },
+  "doc-40b67116c49dc831fc9b6d1ace054544": {
+    "relation_pairs": [
+      [
+        "4000 Forbes Ave",
+        "Location"
+      ],
+      [
+        "Account",
+        "Order"
+      ],
+      [
+        "Account",
+        "User"
+      ],
+      [
+        "Delivery Address",
+        "Order"
+      ],
+      [
+        "Forbes Ave",
+        "Location"
+      ],
+      [
+        "Location",
+        "PA"
+      ],
+      [
+        "Location",
+        "Pennsylvania"
+      ],
+      [
+        "Location",
+        "Pittsburgh"
+      ],
+      [
+        "Location",
+        "United States"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1787138705,
+    "update_time": 1787138705,
+    "_id": "doc-40b67116c49dc831fc9b6d1ace054544"
+  },
+  "doc-426aa772b7f6ac828fa5d5e21d9bd799": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787138743,
+    "update_time": 1787138743,
+    "_id": "doc-426aa772b7f6ac828fa5d5e21d9bd799"
+  },
+  "doc-431143b88406057f856db8dccf79d550": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787138770,
+    "update_time": 1787138770,
+    "_id": "doc-431143b88406057f856db8dccf79d550"
+  },
+  "doc-56c48eed83f6786c52f3bf1846f802dc": {
+    "relation_pairs": [
+      [
+        "Product",
+        "Tabs"
+      ],
+      [
+        "Shopping Cart",
+        "Tabs"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1787138805,
+    "update_time": 1787138805,
+    "_id": "doc-56c48eed83f6786c52f3bf1846f802dc"
+  },
+  "doc-5d77defaddc878d0bf391c0d20a116f4": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787138832,
+    "update_time": 1787138832,
+    "_id": "doc-5d77defaddc878d0bf391c0d20a116f4"
+  },
+  "doc-7088ffedff8af044838a0e11a74bda53": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787138862,
+    "update_time": 1787138862,
+    "_id": "doc-7088ffedff8af044838a0e11a74bda53"
+  },
+  "doc-862f3205e74c4e460943cba77a1c8b9b": {
+    "relation_pairs": [
+      [
+        "Product",
+        "Wishlist"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1787138884,
+    "update_time": 1787138884,
+    "_id": "doc-862f3205e74c4e460943cba77a1c8b9b"
+  },
+  "doc-8d0360b3e2a65353722aade93f2cb30b": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787139035,
+    "update_time": 1787139035,
+    "_id": "doc-8d0360b3e2a65353722aade93f2cb30b"
+  },
+  "doc-8d9176b069bb4610448a5d4a6e08f2eb": {
+    "relation_pairs": [
+      [
+        "654 Aspen Road",
+        "OneStopShopping"
+      ],
+      [
+        "Boston",
+        "OneStopShopping"
+      ],
+      [
+        "House #3",
+        "OneStopShopping"
+      ],
+      [
+        "Massachusetts",
+        "OneStopShopping"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1787139056,
+    "update_time": 1787139056,
+    "_id": "doc-8d9176b069bb4610448a5d4a6e08f2eb"
+  },
+  "doc-9aa0819373b076202a69431aa6b6b6a1": {
+    "relation_pairs": [
+      [
+        "March 2023",
+        "orders"
+      ],
+      [
+        "food-related shopping",
+        "orders"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1787139073,
+    "update_time": 1787139073,
+    "_id": "doc-9aa0819373b076202a69431aa6b6b6a1"
+  },
+  "doc-a13c4c7ba7738ba5c6a00abfe4f2378b": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787139085,
+    "update_time": 1787139085,
+    "_id": "doc-a13c4c7ba7738ba5c6a00abfe4f2378b"
+  },
+  "doc-c9b30f66347f82ba3f44360f76550f12": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787139106,
+    "update_time": 1787139106,
+    "_id": "doc-c9b30f66347f82ba3f44360f76550f12"
+  },
+  "doc-e1bb78ebb05f49c696a60c9fd18e9cdd": {
+    "relation_pairs": [
+      [
+        "User",
+        "Wish List"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1787139124,
+    "update_time": 1787139124,
+    "_id": "doc-e1bb78ebb05f49c696a60c9fd18e9cdd"
+  },
+  "doc-e4370729fc04b4bb4e878a2d8e1f6fb9": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787139135,
+    "update_time": 1787139135,
+    "_id": "doc-e4370729fc04b4bb4e878a2d8e1f6fb9"
+  },
+  "doc-e55a5eced4bdbbeaad263a5762118200": {
+    "relation_pairs": [
+      [
+        "Chair",
+        "WishList"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1787139155,
+    "update_time": 1787139155,
+    "_id": "doc-e55a5eced4bdbbeaad263a5762118200"
+  },
+  "doc-ed301b47f0ce1c9091aeedded9667523": {
+    "relation_pairs": [
+      [
+        "Account",
+        "Order"
+      ],
+      [
+        "Account",
+        "User"
+      ],
+      [
+        "Address",
+        "Order"
+      ],
+      [
+        "California",
+        "Location"
+      ],
+      [
+        "Location",
+        "San Francisco"
+      ],
+      [
+        "Location",
+        "United States"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1787139180,
+    "update_time": 1787139180,
+    "_id": "doc-ed301b47f0ce1c9091aeedded9667523"
+  },
+  "doc-f8b213a2069bc8bf70ea3a366aaa07db": {
+    "relation_pairs": [
+      [
+        "/checkout/cart/",
+        "Shopping cart"
+      ],
+      [
+        "My Cart",
+        "Shopping cart"
+      ],
+      [
+        "Shopping cart",
+        "View and Edit Cart"
+      ],
+      [
+        "Shopping cart",
+        "minicart"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1787139194,
+    "update_time": 1787139194,
+    "_id": "doc-f8b213a2069bc8bf70ea3a366aaa07db"
+  },
+  "doc-fd76d2a06991f2a028cbe7f340deaa84": {
+    "relation_pairs": [
+      [
+        "Laundry Detergent",
+        "Wish List"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1787139216,
+    "update_time": 1787139216,
+    "_id": "doc-fd76d2a06991f2a028cbe7f340deaa84"
+  },
+  "doc-1cc9b075b95e93f0efa2fc819c7091e7": {
+    "relation_pairs": [
+      [
+        "Orders",
+        "customer"
+      ],
+      [
+        "Orders",
+        "first_purchase_date"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1787139241,
+    "update_time": 1787139241,
+    "_id": "doc-1cc9b075b95e93f0efa2fc819c7091e7"
+  },
+  "doc-24b33f584ce9895d0f497c8da5e02160": {
+    "relation_pairs": [
+      [
+        "Amount",
+        "Shop"
+      ],
+      [
+        "Order ID",
+        "Shop"
+      ],
+      [
+        "Phone Screen Protector",
+        "Shop"
+      ],
+      [
+        "Reason",
+        "Shop"
+      ],
+      [
+        "Shop",
+        "User"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1787139257,
+    "update_time": 1787139257,
+    "_id": "doc-24b33f584ce9895d0f497c8da5e02160"
+  },
+  "doc-2fc9469459413b113b36555148ce3cac": {
+    "relation_pairs": [
+      [
+        "customer",
+        "shop owner"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1787139283,
+    "update_time": 1787139283,
+    "_id": "doc-2fc9469459413b113b36555148ce3cac"
+  },
+  "doc-35eefef945502c8508eff8ffbcbabc75": {
+    "relation_pairs": [
+      [
+        "customer",
+        "mattress"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1787139304,
+    "update_time": 1787139304,
+    "_id": "doc-35eefef945502c8508eff8ffbcbabc75"
+  },
+  "doc-3e4633e49bb78087b94882bb6dd6ec70": {
+    "relation_pairs": [
+      [
+        "Amount",
+        "Bluetooth Speaker"
+      ],
+      [
+        "Bluetooth Speaker",
+        "Order ID"
+      ],
+      [
+        "Bluetooth Speaker",
+        "Reason"
+      ],
+      [
+        "Bluetooth Speaker",
+        "Shop"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1787139338,
+    "update_time": 1787139338,
+    "_id": "doc-3e4633e49bb78087b94882bb6dd6ec70"
+  },
+  "doc-41eec2eddcce8a485141abd05206fd24": {
+    "relation_pairs": [
+      [
+        "Order",
+        "ShippingMethod"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1787139365,
+    "update_time": 1787139365,
+    "_id": "doc-41eec2eddcce8a485141abd05206fd24"
+  },
+  "doc-5b8a0c9b46e85d5051ad9c7b3f3e9003": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787139367,
+    "update_time": 1787139367,
+    "_id": "doc-5b8a0c9b46e85d5051ad9c7b3f3e9003"
+  },
+  "doc-67427cd58c6a2f6c93c4b7010cace45c": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787139394,
+    "update_time": 1787139394,
+    "_id": "doc-67427cd58c6a2f6c93c4b7010cace45c"
+  },
+  "doc-86eed36545c61f44c4e4c6232a5e2a59": {
+    "relation_pairs": [
+      [
+        "call",
+        "customer service"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1787139417,
+    "update_time": 1787139417,
+    "_id": "doc-86eed36545c61f44c4e4c6232a5e2a59"
+  },
+  "doc-8a6b140b0c243b09d5e5be889c114c41": {
+    "relation_pairs": [
+      [
+        "Cancelled",
+        "Orders"
+      ],
+      [
+        "Customer",
+        "Orders"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1787139435,
+    "update_time": 1787139435,
+    "_id": "doc-8a6b140b0c243b09d5e5be889c114c41"
+  },
+  "doc-b581034bb88bc1f58f8d2b078c45492a": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787139461,
+    "update_time": 1787139461,
+    "_id": "doc-b581034bb88bc1f58f8d2b078c45492a"
+  },
+  "doc-b8b8f406e07a417b3ce728c40bc59966": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1787139725,
+    "update_time": 1787139725,
+    "_id": "doc-b8b8f406e07a417b3ce728c40bc59966"
+  }
+}

@@ -114,47 +114,36 @@
     "role": "link",
     "name": "My Account",
     "bbox_norm": [
-      0.5176432291666667,
+      0.5769639756944445,
       0.006818181818181818,
-      0.5572916666666666,
+      0.6166124131944445,
       0.019545454545454546
     ]
   },
   {
     "mark_id": 12,
     "role": "link",
-    "name": "My Wish List",
+    "name": "My Wish List 1 item",
     "bbox_norm": [
-      0.5651041666666666,
+      0.6244249131944445,
       0.006818181818181818,
-      0.6073893229166667,
+      0.6899631076388889,
       0.019545454545454546
     ]
   },
   {
     "mark_id": 13,
     "role": "link",
-    "name": "Sign In",
+    "name": "Sign Out",
     "bbox_norm": [
-      0.6152018229166667,
+      0.6977756076388889,
       0.006818181818181818,
-      0.6379231770833333,
+      0.7267144097222222,
       0.019545454545454546
     ]
   },
   {
     "mark_id": 14,
-    "role": "link",
-    "name": "Create an Account",
-    "bbox_norm": [
-      0.7608615451388889,
-      0.006818181818181818,
-      0.8229166666666666,
-      0.019545454545454546
-    ]
-  },
-  {
-    "mark_id": 15,
     "role": "link",
     "name": "store logo",
     "bbox_norm": [
@@ -165,7 +154,7 @@
     ]
   },
   {
-    "mark_id": 16,
+    "mark_id": 15,
     "role": "combobox",
     "name": "Search entire store here...",
     "bbox_norm": [
@@ -176,7 +165,7 @@
     ]
   },
   {
-    "mark_id": 17,
+    "mark_id": 16,
     "role": "button",
     "name": "Search",
     "bbox_norm": [
@@ -187,9 +176,9 @@
     ]
   },
   {
-    "mark_id": 18,
+    "mark_id": 17,
     "role": "link",
-    "name": "My Cart 1 1 items",
+    "name": "My Cart 7 7 items",
     "bbox_norm": [
       0.7902886284722223,
       0.04863636363636364,
@@ -198,7 +187,7 @@
     ]
   },
   {
-    "mark_id": 19,
+    "mark_id": 18,
     "role": "link",
     "name": "Advanced Search",
     "bbox_norm": [
@@ -209,7 +198,7 @@
     ]
   },
   {
-    "mark_id": 20,
+    "mark_id": 19,
     "role": "menu",
     "name": "Beauty & Personal Care Sports & Outdoors Clothing, Shoes & Jewelry Home & Kitchen Office Products Tools & Home Improveme",
     "bbox_norm": [
@@ -220,7 +209,7 @@
     ]
   },
   {
-    "mark_id": 21,
+    "mark_id": 20,
     "role": "menuitem",
     "name": "Beauty & Personal Care",
     "bbox_norm": [
@@ -231,7 +220,7 @@
     ]
   },
   {
-    "mark_id": 22,
+    "mark_id": 21,
     "role": "menuitem",
     "name": "Sports & Outdoors",
     "bbox_norm": [
@@ -242,7 +231,7 @@
     ]
   },
   {
-    "mark_id": 23,
+    "mark_id": 22,
     "role": "menuitem",
     "name": "Clothing, Shoes & Jewelry",
     "bbox_norm": [
@@ -253,7 +242,7 @@
     ]
   },
   {
-    "mark_id": 24,
+    "mark_id": 23,
     "role": "menuitem",
     "name": "Home & Kitchen",
     "bbox_norm": [
@@ -264,7 +253,7 @@
     ]
   },
   {
-    "mark_id": 25,
+    "mark_id": 24,
     "role": "menuitem",
     "name": "Office Products",
     "bbox_norm": [
@@ -275,7 +264,7 @@
     ]
   },
   {
-    "mark_id": 26,
+    "mark_id": 25,
     "role": "menuitem",
     "name": "Tools & Home Improvement",
     "bbox_norm": [
@@ -286,7 +275,7 @@
     ]
   },
   {
-    "mark_id": 27,
+    "mark_id": 26,
     "role": "menuitem",
     "name": "Health & Household",
     "bbox_norm": [
@@ -297,7 +286,7 @@
     ]
   },
   {
-    "mark_id": 28,
+    "mark_id": 27,
     "role": "menuitem",
     "name": "Patio, Lawn & Garden",
     "bbox_norm": [
@@ -308,7 +297,7 @@
     ]
   },
   {
-    "mark_id": 29,
+    "mark_id": 28,
     "role": "menuitem",
     "name": "Electronics",
     "bbox_norm": [
@@ -319,7 +308,7 @@
     ]
   },
   {
-    "mark_id": 30,
+    "mark_id": 29,
     "role": "menuitem",
     "name": "Cell Phones & Accessories",
     "bbox_norm": [
@@ -330,7 +319,7 @@
     ]
   },
   {
-    "mark_id": 31,
+    "mark_id": 30,
     "role": "menuitem",
     "name": "Video Games",
     "bbox_norm": [
@@ -341,7 +330,7 @@
     ]
   },
   {
-    "mark_id": 32,
+    "mark_id": 31,
     "role": "menuitem",
     "name": "Grocery & Gourmet Food",
     "bbox_norm": [
@@ -352,7 +341,7 @@
     ]
   },
   {
-    "mark_id": 33,
+    "mark_id": 32,
     "role": "link",
     "name": "1 Review",
     "bbox_norm": [
@@ -363,7 +352,7 @@
     ]
   },
   {
-    "mark_id": 34,
+    "mark_id": 33,
     "role": "link",
     "name": "4 Reviews",
     "bbox_norm": [
@@ -374,7 +363,7 @@
     ]
   },
   {
-    "mark_id": 35,
+    "mark_id": 34,
     "role": "link",
     "name": "12 Reviews",
     "bbox_norm": [
@@ -385,7 +374,7 @@
     ]
   },
   {
-    "mark_id": 36,
+    "mark_id": 35,
     "role": "link",
     "name": "12 Reviews",
     "bbox_norm": [
@@ -396,7 +385,7 @@
     ]
   },
   {
-    "mark_id": 37,
+    "mark_id": 36,
     "role": "link",
     "name": "12 Reviews",
     "bbox_norm": [
@@ -407,7 +396,7 @@
     ]
   },
   {
-    "mark_id": 38,
+    "mark_id": 37,
     "role": "link",
     "name": "Add to Wish List",
     "bbox_norm": [
@@ -418,7 +407,7 @@
     ]
   },
   {
-    "mark_id": 39,
+    "mark_id": 38,
     "role": "link",
     "name": "Add to Compare",
     "bbox_norm": [
@@ -429,7 +418,7 @@
     ]
   },
   {
-    "mark_id": 40,
+    "mark_id": 39,
     "role": "link",
     "name": "Add to Wish List",
     "bbox_norm": [
@@ -440,7 +429,7 @@
     ]
   },
   {
-    "mark_id": 41,
+    "mark_id": 40,
     "role": "link",
     "name": "Add to Compare",
     "bbox_norm": [
@@ -451,7 +440,7 @@
     ]
   },
   {
-    "mark_id": 42,
+    "mark_id": 41,
     "role": "link",
     "name": "Add to Wish List",
     "bbox_norm": [
@@ -462,7 +451,7 @@
     ]
   },
   {
-    "mark_id": 43,
+    "mark_id": 42,
     "role": "link",
     "name": "Add to Compare",
     "bbox_norm": [
@@ -473,7 +462,7 @@
     ]
   },
   {
-    "mark_id": 44,
+    "mark_id": 43,
     "role": "button",
     "name": "Add to Cart",
     "bbox_norm": [
@@ -484,7 +473,7 @@
     ]
   },
   {
-    "mark_id": 45,
+    "mark_id": 44,
     "role": "button",
     "name": "Add to Cart",
     "bbox_norm": [
@@ -495,7 +484,7 @@
     ]
   },
   {
-    "mark_id": 46,
+    "mark_id": 45,
     "role": "button",
     "name": "Add to Cart",
     "bbox_norm": [
@@ -506,7 +495,7 @@
     ]
   },
   {
-    "mark_id": 47,
+    "mark_id": 46,
     "role": "link",
     "name": "Add to Wish List",
     "bbox_norm": [
@@ -517,7 +506,7 @@
     ]
   },
   {
-    "mark_id": 48,
+    "mark_id": 47,
     "role": "link",
     "name": "Add to Compare",
     "bbox_norm": [
@@ -528,7 +517,7 @@
     ]
   },
   {
-    "mark_id": 49,
+    "mark_id": 48,
     "role": "button",
     "name": "Add to Cart",
     "bbox_norm": [
@@ -539,13 +528,24 @@
     ]
   },
   {
-    "mark_id": 50,
+    "mark_id": 49,
     "role": "link",
     "name": "Add to Wish List",
     "bbox_norm": [
       0.63056640625,
       0.6069318181818182,
       0.6487955729166667,
+      0.6307954545454545
+    ]
+  },
+  {
+    "mark_id": 50,
+    "role": "link",
+    "name": "Add to Compare",
+    "bbox_norm": [
+      0.6506944444444445,
+      0.6069318181818182,
+      0.6689236111111111,
       0.6307954545454545
     ]
   }

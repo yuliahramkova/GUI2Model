@@ -1,1 +1,18 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To save an item for later without buying it yet on this storefront, the following GUI elements, navigation paths, labels, roles, and actions are most relevant:
+
+1. **GUI Elements**: 
+   - **"Add to Wish List" Button**: This button is typically found on the product detail page and allows the user to add the item to their wish list without making a purchase.
+
+2. **Navigation Paths**:
+   - **Product Detail Page**: Navigate to the product detail page where the "Add to Wish List" button is usually located.
+
+3. **Labels**:
+   - **"Wish List" Label**: This label might appear on the product detail page or in the navigation menu, indicating the section where the user can manage their saved items.
+
+4. **Roles**:
+   - **Customer Role**: As a customer, you would interact with the storefront to add items to your wish list.
+
+5. **Actions**:
+   - **Click on "Add to Wish List" Button**: Perform this action to add the item to your wish list.
+
+By following these steps, you can save the item for later without making a purchase.

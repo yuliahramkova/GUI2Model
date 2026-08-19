@@ -1,0 +1,1388 @@
+{
+  "PS4": {
+    "chunk_ids": [
+      "doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787137843,
+    "update_time": 1787137843,
+    "_id": "PS4"
+  },
+  "accessories": {
+    "chunk_ids": [
+      "doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787137843,
+    "update_time": 1787137843,
+    "_id": "accessories"
+  },
+  "products": {
+    "chunk_ids": [
+      "doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000",
+      "doc-b84a437f0543053dd6adebe7bc7b2cf0-chunk-000",
+      "doc-d31264de048b55eca765c36fb8c427a2-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1787138334,
+    "_id": "products"
+  },
+  "category": {
+    "chunk_ids": [
+      "doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000",
+      "doc-358a8839829c493620a15be50f9bcc3a-chunk-000",
+      "doc-b84a437f0543053dd6adebe7bc7b2cf0-chunk-000",
+      "doc-8d0360b3e2a65353722aade93f2cb30b-chunk-000"
+    ],
+    "count": 4,
+    "update_time": 1787139035,
+    "_id": "category"
+  },
+  "ascending": {
+    "chunk_ids": [
+      "doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787137843,
+    "update_time": 1787137843,
+    "_id": "ascending"
+  },
+  "price": {
+    "chunk_ids": [
+      "doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000",
+      "doc-358a8839829c493620a15be50f9bcc3a-chunk-000",
+      "doc-7ed509df034e4c895a50f2b37ff0d547-chunk-000",
+      "doc-d31264de048b55eca765c36fb8c427a2-chunk-000"
+    ],
+    "count": 4,
+    "update_time": 1787138334,
+    "_id": "price"
+  },
+  "Nintendo Switch": {
+    "chunk_ids": [
+      "doc-189f9fd0f08c982145dda95ff9f355f9-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787137873,
+    "update_time": 1787137873,
+    "_id": "Nintendo Switch"
+  },
+  "game card": {
+    "chunk_ids": [
+      "doc-189f9fd0f08c982145dda95ff9f355f9-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787137873,
+    "update_time": 1787137873,
+    "_id": "game card"
+  },
+  "storage option": {
+    "chunk_ids": [
+      "doc-189f9fd0f08c982145dda95ff9f355f9-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787137873,
+    "update_time": 1787137873,
+    "_id": "storage option"
+  },
+  "Jaw Bruxism": {
+    "chunk_ids": [
+      "doc-1942e5b81059c71007614932043675ed-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787137900,
+    "update_time": 1787137900,
+    "_id": "Jaw Bruxism"
+  },
+  "User": {
+    "chunk_ids": [
+      "doc-1942e5b81059c71007614932043675ed-chunk-000",
+      "doc-40b67116c49dc831fc9b6d1ace054544-chunk-000",
+      "doc-e1bb78ebb05f49c696a60c9fd18e9cdd-chunk-000",
+      "doc-ed301b47f0ce1c9091aeedded9667523-chunk-000",
+      "doc-24b33f584ce9895d0f497c8da5e02160-chunk-000"
+    ],
+    "count": 5,
+    "update_time": 1787139257,
+    "_id": "User"
+  },
+  "Sephora": {
+    "chunk_ids": [
+      "doc-1fc5bca9ee5abf88c0fe137c95925955-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787137924,
+    "update_time": 1787137924,
+    "_id": "Sephora"
+  },
+  "Brush": {
+    "chunk_ids": [
+      "doc-1fc5bca9ee5abf88c0fe137c95925955-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787137924,
+    "update_time": 1787137924,
+    "_id": "Brush"
+  },
+  "Customers": {
+    "chunk_ids": [
+      "doc-1fc5bca9ee5abf88c0fe137c95925955-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787137924,
+    "update_time": 1787137924,
+    "_id": "Customers"
+  },
+  "Reviews": {
+    "chunk_ids": [
+      "doc-1fc5bca9ee5abf88c0fe137c95925955-chunk-000",
+      "doc-d3cad008c277a059bb25a4604d5e17f1-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787138383,
+    "_id": "Reviews"
+  },
+  "Men's shoe": {
+    "chunk_ids": [
+      "doc-358a8839829c493620a15be50f9bcc3a-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787137964,
+    "update_time": 1787137964,
+    "_id": "Men's shoe"
+  },
+  "rating": {
+    "chunk_ids": [
+      "doc-358a8839829c493620a15be50f9bcc3a-chunk-000",
+      "doc-8d0360b3e2a65353722aade93f2cb30b-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787139035,
+    "_id": "rating"
+  },
+  "review": {
+    "chunk_ids": [
+      "doc-358a8839829c493620a15be50f9bcc3a-chunk-000",
+      "doc-ff4a6a9b3fb2fff37b4e761d8ab01d60-chunk-000",
+      "doc-8d0360b3e2a65353722aade93f2cb30b-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1787139035,
+    "_id": "review"
+  },
+  "product": {
+    "chunk_ids": [
+      "doc-358a8839829c493620a15be50f9bcc3a-chunk-000",
+      "doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000",
+      "doc-8d0360b3e2a65353722aade93f2cb30b-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1787139035,
+    "_id": "product"
+  },
+  "least_expensive": {
+    "chunk_ids": [
+      "doc-358a8839829c493620a15be50f9bcc3a-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787137964,
+    "update_time": 1787137964,
+    "_id": "least_expensive"
+  },
+  "Canon": {
+    "chunk_ids": [
+      "doc-457a13ff898910e4943843b182899f06-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787137998,
+    "update_time": 1787137998,
+    "_id": "Canon"
+  },
+  "One Stop Market": {
+    "chunk_ids": [
+      "doc-457a13ff898910e4943843b182899f06-chunk-000",
+      "doc-52c0cd3d3d3f22354862b57c53861a5b-chunk-000",
+      "doc-999b2ff925c2719f7d9a4bec198df488-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1787138205,
+    "_id": "One Stop Market"
+  },
+  "price range": {
+    "chunk_ids": [
+      "doc-457a13ff898910e4943843b182899f06-chunk-000",
+      "doc-52c0cd3d3d3f22354862b57c53861a5b-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787138061,
+    "_id": "price range"
+  },
+  "Mini Wireless Bluetooth Speaker": {
+    "chunk_ids": [
+      "doc-4a104570702d17afb7ebbc72063ef1e1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138038,
+    "update_time": 1787138038,
+    "_id": "Mini Wireless Bluetooth Speaker"
+  },
+  "SimpleEmma": {
+    "chunk_ids": [
+      "doc-4a104570702d17afb7ebbc72063ef1e1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138038,
+    "update_time": 1787138038,
+    "_id": "SimpleEmma"
+  },
+  "reviews": {
+    "chunk_ids": [
+      "doc-4a104570702d17afb7ebbc72063ef1e1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138038,
+    "update_time": 1787138038,
+    "_id": "reviews"
+  },
+  "intent": {
+    "chunk_ids": [
+      "doc-4a104570702d17afb7ebbc72063ef1e1-chunk-000",
+      "doc-8d0360b3e2a65353722aade93f2cb30b-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787139035,
+    "_id": "intent"
+  },
+  "2 stars": {
+    "chunk_ids": [
+      "doc-4a104570702d17afb7ebbc72063ef1e1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138038,
+    "update_time": 1787138038,
+    "_id": "2 stars"
+  },
+  "wireless earphone": {
+    "chunk_ids": [
+      "doc-52c0cd3d3d3f22354862b57c53861a5b-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138061,
+    "update_time": 1787138061,
+    "_id": "wireless earphone"
+  },
+  "Video Game": {
+    "chunk_ids": [
+      "doc-59d4350ca2ac17430b9a74fbaa0220b0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138079,
+    "update_time": 1787138079,
+    "_id": "Video Game"
+  },
+  "Product": {
+    "chunk_ids": [
+      "doc-59d4350ca2ac17430b9a74fbaa0220b0-chunk-000",
+      "doc-999b2ff925c2719f7d9a4bec198df488-chunk-000",
+      "doc-acf0cdd04746673627377954b4bf4341-chunk-000",
+      "doc-d3cad008c277a059bb25a4604d5e17f1-chunk-000",
+      "doc-e4b84220ab88707e4a7138a9c2c3e998-chunk-000",
+      "doc-56c48eed83f6786c52f3bf1846f802dc-chunk-000",
+      "doc-862f3205e74c4e460943cba77a1c8b9b-chunk-000"
+    ],
+    "count": 7,
+    "update_time": 1787138884,
+    "_id": "Product"
+  },
+  "Emma Lopez": {
+    "chunk_ids": [
+      "doc-5f0797478180b4eb1b1da6cf0be26d1d-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138126,
+    "update_time": 1787138126,
+    "_id": "Emma Lopez"
+  },
+  "floor lamp": {
+    "chunk_ids": [
+      "doc-5f0797478180b4eb1b1da6cf0be26d1d-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138126,
+    "update_time": 1787138126,
+    "_id": "floor lamp"
+  },
+  "recent purchase": {
+    "chunk_ids": [
+      "doc-5f0797478180b4eb1b1da6cf0be26d1d-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138126,
+    "update_time": 1787138126,
+    "_id": "recent purchase"
+  },
+  "5 stars": {
+    "chunk_ids": [
+      "doc-5f0797478180b4eb1b1da6cf0be26d1d-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138126,
+    "update_time": 1787138126,
+    "_id": "5 stars"
+  },
+  "fake tree": {
+    "chunk_ids": [
+      "doc-7ed509df034e4c895a50f2b37ff0d547-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138150,
+    "update_time": 1787138150,
+    "_id": "fake tree"
+  },
+  "Jan 2023": {
+    "chunk_ids": [
+      "doc-7ed509df034e4c895a50f2b37ff0d547-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138150,
+    "update_time": 1787138150,
+    "_id": "Jan 2023"
+  },
+  "picture frame": {
+    "chunk_ids": [
+      "doc-97e6ca4d7a358ec8f21756ca6e74ca7c-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138174,
+    "update_time": 1787138174,
+    "_id": "picture frame"
+  },
+  "PS4 Accessories": {
+    "chunk_ids": [
+      "doc-999b2ff925c2719f7d9a4bec198df488-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138205,
+    "update_time": 1787138205,
+    "_id": "PS4 Accessories"
+  },
+  "Market Survey": {
+    "chunk_ids": [
+      "doc-999b2ff925c2719f7d9a4bec198df488-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138205,
+    "update_time": 1787138205,
+    "_id": "Market Survey"
+  },
+  "Magento": {
+    "chunk_ids": [
+      "doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138241,
+    "update_time": 1787138241,
+    "_id": "Magento"
+  },
+  "Wish List": {
+    "chunk_ids": [
+      "doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000",
+      "doc-e1bb78ebb05f49c696a60c9fd18e9cdd-chunk-000",
+      "doc-fd76d2a06991f2a028cbe7f340deaa84-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1787139216,
+    "_id": "Wish List"
+  },
+  "customer": {
+    "chunk_ids": [
+      "doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000",
+      "doc-ff4a6a9b3fb2fff37b4e761d8ab01d60-chunk-000",
+      "doc-25fabb726c8ee24ea61db5462cb05173-chunk-000",
+      "doc-1cc9b075b95e93f0efa2fc819c7091e7-chunk-000",
+      "doc-2fc9469459413b113b36555148ce3cac-chunk-000",
+      "doc-35eefef945502c8508eff8ffbcbabc75-chunk-000"
+    ],
+    "count": 6,
+    "update_time": 1787139304,
+    "_id": "customer"
+  },
+  "Add to Wish List": {
+    "chunk_ids": [
+      "doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138241,
+    "update_time": 1787138241,
+    "_id": "Add to Wish List"
+  },
+  "open My Wish List": {
+    "chunk_ids": [
+      "doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138241,
+    "update_time": 1787138241,
+    "_id": "open My Wish List"
+  },
+  "remove from Wish List": {
+    "chunk_ids": [
+      "doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138241,
+    "update_time": 1787138241,
+    "_id": "remove from Wish List"
+  },
+  "Men shoes": {
+    "chunk_ids": [
+      "doc-b84a437f0543053dd6adebe7bc7b2cf0-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138307,
+    "update_time": 1787138307,
+    "_id": "Men shoes"
+  },
+  "Amazon": {
+    "chunk_ids": [
+      "doc-d31264de048b55eca765c36fb8c427a2-chunk-000",
+      "doc-ff4a6a9b3fb2fff37b4e761d8ab01d60-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787138554,
+    "_id": "Amazon"
+  },
+  "basic": {
+    "chunk_ids": [
+      "doc-d31264de048b55eca765c36fb8c427a2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138334,
+    "update_time": 1787138334,
+    "_id": "basic"
+  },
+  "range": {
+    "chunk_ids": [
+      "doc-d31264de048b55eca765c36fb8c427a2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138334,
+    "update_time": 1787138334,
+    "_id": "range"
+  },
+  "Amazon basic": {
+    "chunk_ids": [
+      "doc-d31264de048b55eca765c36fb8c427a2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138334,
+    "update_time": 1787138334,
+    "_id": "Amazon basic"
+  },
+  "Headphones": {
+    "chunk_ids": [
+      "doc-d31b2a0cbe1b3431508a11cba028e2a3-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138360,
+    "update_time": 1787138360,
+    "_id": "Headphones"
+  },
+  "customer reviews": {
+    "chunk_ids": [
+      "doc-d3cad008c277a059bb25a4604d5e17f1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138383,
+    "update_time": 1787138383,
+    "_id": "customer reviews"
+  },
+  "ratings": {
+    "chunk_ids": [
+      "doc-d3cad008c277a059bb25a4604d5e17f1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138383,
+    "update_time": 1787138383,
+    "_id": "ratings"
+  },
+  "ArtificialPlants": {
+    "chunk_ids": [
+      "doc-e10bb7c8ab58a85e171364f0db9259d3-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138414,
+    "update_time": 1787138414,
+    "_id": "ArtificialPlants"
+  },
+  "ColorConfiguration": {
+    "chunk_ids": [
+      "doc-e10bb7c8ab58a85e171364f0db9259d3-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138414,
+    "update_time": 1787138414,
+    "_id": "ColorConfiguration"
+  },
+  "Category": {
+    "chunk_ids": [
+      "doc-e4b84220ab88707e4a7138a9c2c3e998-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138434,
+    "update_time": 1787138434,
+    "_id": "Category"
+  },
+  "Electronics": {
+    "chunk_ids": [
+      "doc-e4b84220ab88707e4a7138a9c2c3e998-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138434,
+    "update_time": 1787138434,
+    "_id": "Electronics"
+  },
+  "Cell-phones-accessories": {
+    "chunk_ids": [
+      "doc-e4b84220ab88707e4a7138a9c2c3e998-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138434,
+    "update_time": 1787138434,
+    "_id": "Cell-phones-accessories"
+  },
+  "Price": {
+    "chunk_ids": [
+      "doc-e4b84220ab88707e4a7138a9c2c3e998-chunk-000",
+      "doc-fa5cf0e5e035481d8bc81ff2b17f3658-chunk-000",
+      "doc-56c48eed83f6786c52f3bf1846f802dc-chunk-000"
+    ],
+    "count": 3,
+    "update_time": 1787138805,
+    "_id": "Price"
+  },
+  "Nutrition Bars": {
+    "chunk_ids": [
+      "doc-fa5cf0e5e035481d8bc81ff2b17f3658-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138476,
+    "update_time": 1787138476,
+    "_id": "Nutrition Bars"
+  },
+  "Drinks": {
+    "chunk_ids": [
+      "doc-fa5cf0e5e035481d8bc81ff2b17f3658-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138476,
+    "update_time": 1787138476,
+    "_id": "Drinks"
+  },
+  "Product search": {
+    "chunk_ids": [
+      "doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138497,
+    "update_time": 1787138497,
+    "_id": "Product search"
+  },
+  "click search field": {
+    "chunk_ids": [
+      "doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138497,
+    "update_time": 1787138497,
+    "_id": "click search field"
+  },
+  "/catalogsearch/advanced/": {
+    "chunk_ids": [
+      "doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138497,
+    "update_time": 1787138497,
+    "_id": "/catalogsearch/advanced/"
+  },
+  "type query": {
+    "chunk_ids": [
+      "doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138497,
+    "update_time": 1787138497,
+    "_id": "type query"
+  },
+  "/catalogsearch/result/": {
+    "chunk_ids": [
+      "doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138497,
+    "update_time": 1787138497,
+    "_id": "/catalogsearch/result/"
+  },
+  "submit Search": {
+    "chunk_ids": [
+      "doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138497,
+    "update_time": 1787138497,
+    "_id": "submit Search"
+  },
+  "open Advanced Search": {
+    "chunk_ids": [
+      "doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138497,
+    "update_time": 1787138497,
+    "_id": "open Advanced Search"
+  },
+  "Amazon Echo Dot 3rd generation": {
+    "chunk_ids": [
+      "doc-ff4a6a9b3fb2fff37b4e761d8ab01d60-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138554,
+    "update_time": 1787138554,
+    "_id": "Amazon Echo Dot 3rd generation"
+  },
+  "Tide PODS Spring Meadow Scent HE Turbo Laundry Detergent Pacs": {
+    "chunk_ids": [
+      "doc-0d33da261165892a409b62b769813fd7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138567,
+    "update_time": 1787138567,
+    "_id": "Tide PODS Spring Meadow Scent HE Turbo Laundry Detergent Pacs"
+  },
+  "wish list": {
+    "chunk_ids": [
+      "doc-0d33da261165892a409b62b769813fd7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138567,
+    "update_time": 1787138567,
+    "_id": "wish list"
+  },
+  "Orders": {
+    "chunk_ids": [
+      "doc-15a19c7313525c2e251bcbc5ce79789d-chunk-000",
+      "doc-25fabb726c8ee24ea61db5462cb05173-chunk-000",
+      "doc-e4370729fc04b4bb4e878a2d8e1f6fb9-chunk-000",
+      "doc-1cc9b075b95e93f0efa2fc819c7091e7-chunk-000",
+      "doc-8a6b140b0c243b09d5e5be889c114c41-chunk-000"
+    ],
+    "count": 5,
+    "update_time": 1787139435,
+    "_id": "Orders"
+  },
+  "Customer": {
+    "chunk_ids": [
+      "doc-15a19c7313525c2e251bcbc5ce79789d-chunk-000",
+      "doc-8a6b140b0c243b09d5e5be889c114c41-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787139435,
+    "_id": "Customer"
+  },
+  "Order": {
+    "chunk_ids": [
+      "doc-15a19c7313525c2e251bcbc5ce79789d-chunk-000",
+      "doc-40b67116c49dc831fc9b6d1ace054544-chunk-000",
+      "doc-ed301b47f0ce1c9091aeedded9667523-chunk-000",
+      "doc-41eec2eddcce8a485141abd05206fd24-chunk-000"
+    ],
+    "count": 4,
+    "update_time": 1787139365,
+    "_id": "Order"
+  },
+  "status": {
+    "chunk_ids": [
+      "doc-25fabb726c8ee24ea61db5462cb05173-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138613,
+    "update_time": 1787138613,
+    "_id": "status"
+  },
+  "delivery_date": {
+    "chunk_ids": [
+      "doc-25fabb726c8ee24ea61db5462cb05173-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138613,
+    "update_time": 1787138613,
+    "_id": "delivery_date"
+  },
+  "Customer account": {
+    "chunk_ids": [
+      "doc-3ed8a86717615b8535ab456983651c6f-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138687,
+    "update_time": 1787138687,
+    "_id": "Customer account"
+  },
+  "/customer/account/": {
+    "chunk_ids": [
+      "doc-3ed8a86717615b8535ab456983651c6f-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138687,
+    "update_time": 1787138687,
+    "_id": "/customer/account/"
+  },
+  "/customer/account/login/": {
+    "chunk_ids": [
+      "doc-3ed8a86717615b8535ab456983651c6f-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138687,
+    "update_time": 1787138687,
+    "_id": "/customer/account/login/"
+  },
+  "/customer/account/create/": {
+    "chunk_ids": [
+      "doc-3ed8a86717615b8535ab456983651c6f-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138687,
+    "update_time": 1787138687,
+    "_id": "/customer/account/create/"
+  },
+  "Account": {
+    "chunk_ids": [
+      "doc-40b67116c49dc831fc9b6d1ace054544-chunk-000",
+      "doc-ed301b47f0ce1c9091aeedded9667523-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787139180,
+    "_id": "Account"
+  },
+  "Delivery Address": {
+    "chunk_ids": [
+      "doc-40b67116c49dc831fc9b6d1ace054544-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138705,
+    "update_time": 1787138705,
+    "_id": "Delivery Address"
+  },
+  "Location": {
+    "chunk_ids": [
+      "doc-40b67116c49dc831fc9b6d1ace054544-chunk-000",
+      "doc-ed301b47f0ce1c9091aeedded9667523-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787139180,
+    "_id": "Location"
+  },
+  "Pittsburgh": {
+    "chunk_ids": [
+      "doc-40b67116c49dc831fc9b6d1ace054544-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138705,
+    "update_time": 1787138705,
+    "_id": "Pittsburgh"
+  },
+  "Pennsylvania": {
+    "chunk_ids": [
+      "doc-40b67116c49dc831fc9b6d1ace054544-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138705,
+    "update_time": 1787138705,
+    "_id": "Pennsylvania"
+  },
+  "United States": {
+    "chunk_ids": [
+      "doc-40b67116c49dc831fc9b6d1ace054544-chunk-000",
+      "doc-ed301b47f0ce1c9091aeedded9667523-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787139180,
+    "_id": "United States"
+  },
+  "4000 Forbes Ave": {
+    "chunk_ids": [
+      "doc-40b67116c49dc831fc9b6d1ace054544-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138705,
+    "update_time": 1787138705,
+    "_id": "4000 Forbes Ave"
+  },
+  "Forbes Ave": {
+    "chunk_ids": [
+      "doc-40b67116c49dc831fc9b6d1ace054544-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138705,
+    "update_time": 1787138705,
+    "_id": "Forbes Ave"
+  },
+  "PA": {
+    "chunk_ids": [
+      "doc-40b67116c49dc831fc9b6d1ace054544-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138705,
+    "update_time": 1787138705,
+    "_id": "PA"
+  },
+  "Orders and returns": {
+    "chunk_ids": [
+      "doc-426aa772b7f6ac828fa5d5e21d9bd799-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138743,
+    "update_time": 1787138743,
+    "_id": "Orders and returns"
+  },
+  "My Orders": {
+    "chunk_ids": [
+      "doc-426aa772b7f6ac828fa5d5e21d9bd799-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138743,
+    "update_time": 1787138743,
+    "_id": "My Orders"
+  },
+  "/sales/order/history/": {
+    "chunk_ids": [
+      "doc-426aa772b7f6ac828fa5d5e21d9bd799-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138743,
+    "update_time": 1787138743,
+    "_id": "/sales/order/history/"
+  },
+  "/sales/guest/form/": {
+    "chunk_ids": [
+      "doc-426aa772b7f6ac828fa5d5e21d9bd799-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138743,
+    "update_time": 1787138743,
+    "_id": "/sales/guest/form/"
+  },
+  "Hair Care": {
+    "chunk_ids": [
+      "doc-431143b88406057f856db8dccf79d550-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138770,
+    "update_time": 1787138770,
+    "_id": "Hair Care"
+  },
+  "Hair Style": {
+    "chunk_ids": [
+      "doc-431143b88406057f856db8dccf79d550-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138770,
+    "update_time": 1787138770,
+    "_id": "Hair Style"
+  },
+  "January 2023": {
+    "chunk_ids": [
+      "doc-431143b88406057f856db8dccf79d550-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138770,
+    "update_time": 1787138770,
+    "_id": "January 2023"
+  },
+  "Shopping Cart": {
+    "chunk_ids": [
+      "doc-56c48eed83f6786c52f3bf1846f802dc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138805,
+    "update_time": 1787138805,
+    "_id": "Shopping Cart"
+  },
+  "Tabs": {
+    "chunk_ids": [
+      "doc-56c48eed83f6786c52f3bf1846f802dc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138805,
+    "update_time": 1787138805,
+    "_id": "Tabs"
+  },
+  "Unit": {
+    "chunk_ids": [
+      "doc-56c48eed83f6786c52f3bf1846f802dc-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138805,
+    "update_time": 1787138805,
+    "_id": "Unit"
+  },
+  "Hawaiian Bamboo Orchid Roots": {
+    "chunk_ids": [
+      "doc-5d77defaddc878d0bf391c0d20a116f4-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138832,
+    "update_time": 1787138832,
+    "_id": "Hawaiian Bamboo Orchid Roots"
+  },
+  "Discount Hawaiian Gifts": {
+    "chunk_ids": [
+      "doc-5d77defaddc878d0bf391c0d20a116f4-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138832,
+    "update_time": 1787138832,
+    "_id": "Discount Hawaiian Gifts"
+  },
+  "Wishlist": {
+    "chunk_ids": [
+      "doc-5d77defaddc878d0bf391c0d20a116f4-chunk-000",
+      "doc-862f3205e74c4e460943cba77a1c8b9b-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787138884,
+    "_id": "Wishlist"
+  },
+  "FulfilledOrders": {
+    "chunk_ids": [
+      "doc-7088ffedff8af044838a0e11a74bda53-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138862,
+    "update_time": 1787138862,
+    "_id": "FulfilledOrders"
+  },
+  "TotalSpent": {
+    "chunk_ids": [
+      "doc-7088ffedff8af044838a0e11a74bda53-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138862,
+    "update_time": 1787138862,
+    "_id": "TotalSpent"
+  },
+  "Date": {
+    "chunk_ids": [
+      "doc-7088ffedff8af044838a0e11a74bda53-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787138862,
+    "update_time": 1787138862,
+    "_id": "Date"
+  },
+  "Home Audio Speaker": {
+    "chunk_ids": [
+      "doc-8d0360b3e2a65353722aade93f2cb30b-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139035,
+    "update_time": 1787139035,
+    "_id": "Home Audio Speaker"
+  },
+  "checkout": {
+    "chunk_ids": [
+      "doc-8d0360b3e2a65353722aade93f2cb30b-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139035,
+    "update_time": 1787139035,
+    "_id": "checkout"
+  },
+  "OneStopShopping": {
+    "chunk_ids": [
+      "doc-8d9176b069bb4610448a5d4a6e08f2eb-chunk-000",
+      "doc-a13c4c7ba7738ba5c6a00abfe4f2378b-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787139085,
+    "_id": "OneStopShopping"
+  },
+  "Boston": {
+    "chunk_ids": [
+      "doc-8d9176b069bb4610448a5d4a6e08f2eb-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139056,
+    "update_time": 1787139056,
+    "_id": "Boston"
+  },
+  "Massachusetts": {
+    "chunk_ids": [
+      "doc-8d9176b069bb4610448a5d4a6e08f2eb-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139056,
+    "update_time": 1787139056,
+    "_id": "Massachusetts"
+  },
+  "654 Aspen Road": {
+    "chunk_ids": [
+      "doc-8d9176b069bb4610448a5d4a6e08f2eb-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139056,
+    "update_time": 1787139056,
+    "_id": "654 Aspen Road"
+  },
+  "House #3": {
+    "chunk_ids": [
+      "doc-8d9176b069bb4610448a5d4a6e08f2eb-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139056,
+    "update_time": 1787139056,
+    "_id": "House #3"
+  },
+  "orders": {
+    "chunk_ids": [
+      "doc-9aa0819373b076202a69431aa6b6b6a1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139073,
+    "update_time": 1787139073,
+    "_id": "orders"
+  },
+  "food-related shopping": {
+    "chunk_ids": [
+      "doc-9aa0819373b076202a69431aa6b6b6a1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139073,
+    "update_time": 1787139073,
+    "_id": "food-related shopping"
+  },
+  "March 2023": {
+    "chunk_ids": [
+      "doc-9aa0819373b076202a69431aa6b6b6a1-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139073,
+    "update_time": 1787139073,
+    "_id": "March 2023"
+  },
+  "Chicago": {
+    "chunk_ids": [
+      "doc-a13c4c7ba7738ba5c6a00abfe4f2378b-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139085,
+    "update_time": 1787139085,
+    "_id": "Chicago"
+  },
+  "231 Willow Way": {
+    "chunk_ids": [
+      "doc-a13c4c7ba7738ba5c6a00abfe4f2378b-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139085,
+    "update_time": 1787139085,
+    "_id": "231 Willow Way"
+  },
+  "Suite 100": {
+    "chunk_ids": [
+      "doc-a13c4c7ba7738ba5c6a00abfe4f2378b-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139085,
+    "update_time": 1787139085,
+    "_id": "Suite 100"
+  },
+  "IL": {
+    "chunk_ids": [
+      "doc-a13c4c7ba7738ba5c6a00abfe4f2378b-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139085,
+    "update_time": 1787139085,
+    "_id": "IL"
+  },
+  "Checkout": {
+    "chunk_ids": [
+      "doc-c9b30f66347f82ba3f44360f76550f12-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139106,
+    "update_time": 1787139106,
+    "_id": "Checkout"
+  },
+  "White Desk": {
+    "chunk_ids": [
+      "doc-e1bb78ebb05f49c696a60c9fd18e9cdd-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139124,
+    "update_time": 1787139124,
+    "_id": "White Desk"
+  },
+  "Chair": {
+    "chunk_ids": [
+      "doc-e55a5eced4bdbbeaad263a5762118200-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139155,
+    "update_time": 1787139155,
+    "_id": "Chair"
+  },
+  "WishList": {
+    "chunk_ids": [
+      "doc-e55a5eced4bdbbeaad263a5762118200-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139155,
+    "update_time": 1787139155,
+    "_id": "WishList"
+  },
+  "Address": {
+    "chunk_ids": [
+      "doc-ed301b47f0ce1c9091aeedded9667523-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139180,
+    "update_time": 1787139180,
+    "_id": "Address"
+  },
+  "San Francisco": {
+    "chunk_ids": [
+      "doc-ed301b47f0ce1c9091aeedded9667523-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139180,
+    "update_time": 1787139180,
+    "_id": "San Francisco"
+  },
+  "California": {
+    "chunk_ids": [
+      "doc-ed301b47f0ce1c9091aeedded9667523-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139180,
+    "update_time": 1787139180,
+    "_id": "California"
+  },
+  "Shopping cart": {
+    "chunk_ids": [
+      "doc-f8b213a2069bc8bf70ea3a366aaa07db-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139194,
+    "update_time": 1787139194,
+    "_id": "Shopping cart"
+  },
+  "My Cart": {
+    "chunk_ids": [
+      "doc-f8b213a2069bc8bf70ea3a366aaa07db-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139194,
+    "update_time": 1787139194,
+    "_id": "My Cart"
+  },
+  "minicart": {
+    "chunk_ids": [
+      "doc-f8b213a2069bc8bf70ea3a366aaa07db-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139194,
+    "update_time": 1787139194,
+    "_id": "minicart"
+  },
+  "View and Edit Cart": {
+    "chunk_ids": [
+      "doc-f8b213a2069bc8bf70ea3a366aaa07db-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139194,
+    "update_time": 1787139194,
+    "_id": "View and Edit Cart"
+  },
+  "/checkout/cart/": {
+    "chunk_ids": [
+      "doc-f8b213a2069bc8bf70ea3a366aaa07db-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139194,
+    "update_time": 1787139194,
+    "_id": "/checkout/cart/"
+  },
+  "Laundry Detergent": {
+    "chunk_ids": [
+      "doc-fd76d2a06991f2a028cbe7f340deaa84-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139216,
+    "update_time": 1787139216,
+    "_id": "Laundry Detergent"
+  },
+  "first_purchase_date": {
+    "chunk_ids": [
+      "doc-1cc9b075b95e93f0efa2fc819c7091e7-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139241,
+    "update_time": 1787139241,
+    "_id": "first_purchase_date"
+  },
+  "Phone Screen Protector": {
+    "chunk_ids": [
+      "doc-24b33f584ce9895d0f497c8da5e02160-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139257,
+    "update_time": 1787139257,
+    "_id": "Phone Screen Protector"
+  },
+  "Order ID": {
+    "chunk_ids": [
+      "doc-24b33f584ce9895d0f497c8da5e02160-chunk-000",
+      "doc-3e4633e49bb78087b94882bb6dd6ec70-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787139338,
+    "_id": "Order ID"
+  },
+  "Reason": {
+    "chunk_ids": [
+      "doc-24b33f584ce9895d0f497c8da5e02160-chunk-000",
+      "doc-3e4633e49bb78087b94882bb6dd6ec70-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787139338,
+    "_id": "Reason"
+  },
+  "Amount": {
+    "chunk_ids": [
+      "doc-24b33f584ce9895d0f497c8da5e02160-chunk-000",
+      "doc-3e4633e49bb78087b94882bb6dd6ec70-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787139338,
+    "_id": "Amount"
+  },
+  "Shop": {
+    "chunk_ids": [
+      "doc-24b33f584ce9895d0f497c8da5e02160-chunk-000",
+      "doc-3e4633e49bb78087b94882bb6dd6ec70-chunk-000"
+    ],
+    "count": 2,
+    "update_time": 1787139338,
+    "_id": "Shop"
+  },
+  "shop owner": {
+    "chunk_ids": [
+      "doc-2fc9469459413b113b36555148ce3cac-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139283,
+    "update_time": 1787139283,
+    "_id": "shop owner"
+  },
+  "mattress": {
+    "chunk_ids": [
+      "doc-35eefef945502c8508eff8ffbcbabc75-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139304,
+    "update_time": 1787139304,
+    "_id": "mattress"
+  },
+  "Bluetooth Speaker": {
+    "chunk_ids": [
+      "doc-3e4633e49bb78087b94882bb6dd6ec70-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139338,
+    "update_time": 1787139338,
+    "_id": "Bluetooth Speaker"
+  },
+  "ShippingMethod": {
+    "chunk_ids": [
+      "doc-41eec2eddcce8a485141abd05206fd24-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139365,
+    "update_time": 1787139365,
+    "_id": "ShippingMethod"
+  },
+  "Contact Us": {
+    "chunk_ids": [
+      "doc-5b8a0c9b46e85d5051ad9c7b3f3e9003-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139367,
+    "update_time": 1787139367,
+    "_id": "Contact Us"
+  },
+  "Newsletter": {
+    "chunk_ids": [
+      "doc-67427cd58c6a2f6c93c4b7010cace45c-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139394,
+    "update_time": 1787139394,
+    "_id": "Newsletter"
+  },
+  "customer service": {
+    "chunk_ids": [
+      "doc-86eed36545c61f44c4e4c6232a5e2a59-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139417,
+    "update_time": 1787139417,
+    "_id": "customer service"
+  },
+  "call": {
+    "chunk_ids": [
+      "doc-86eed36545c61f44c4e4c6232a5e2a59-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139417,
+    "update_time": 1787139417,
+    "_id": "call"
+  },
+  "Table Lamp": {
+    "chunk_ids": [
+      "doc-8a6b140b0c243b09d5e5be889c114c41-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139435,
+    "update_time": 1787139435,
+    "_id": "Table Lamp"
+  },
+  "Cancelled": {
+    "chunk_ids": [
+      "doc-8a6b140b0c243b09d5e5be889c114c41-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139435,
+    "update_time": 1787139435,
+    "_id": "Cancelled"
+  },
+  "OneStopMarket": {
+    "chunk_ids": [
+      "doc-b581034bb88bc1f58f8d2b078c45492a-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139461,
+    "update_time": 1787139461,
+    "_id": "OneStopMarket"
+  },
+  "Shop Owner": {
+    "chunk_ids": [
+      "doc-b8b8f406e07a417b3ce728c40bc59966-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1787139725,
+    "update_time": 1787139725,
+    "_id": "Shop Owner"
+  }
+}

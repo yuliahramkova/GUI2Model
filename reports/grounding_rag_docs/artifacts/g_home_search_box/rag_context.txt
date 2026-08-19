@@ -1,1 +1,19 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To type a product query on the storefront, you would typically interact with the search functionality. Here’s how you can navigate through the storefront to perform a product search:
+
+1. **Navigate to the Search Box**: Look for a search bar on the homepage. This is usually located near the top of the page, often accompanied by a magnifying glass icon or the word "Search."
+
+2. **Click on the Search Field**: Once you locate the search bar, click on it to activate the input field.
+
+3. **Type the Query**: Enter the product name or keyword you're interested in into the search field.
+
+4. **Submit the Search**: After typing your query, you can either press the Enter key or click on the "Search" button (which might be labeled as "Submit Search," "Go," or something similar).
+
+5. **Review the Results**: The storefront will display a list of products that match your search criteria. You can refine your search further by using filters like price, category, or brand.
+
+In the context of the provided Knowledge Graph and Document Chunks, the relevant navigation paths and actions are:
+
+- **Navigation Path**: Home Page → Search Bar → Click on Search Field → Type Query → Submit Search
+- **Labels**: Search Bar, Search Field, Submit Search Button
+- **Actions**: Click, Type, Submit
+
+These steps align with the typical actions associated with Product search as described in the Knowledge Graph and Document Chunks.

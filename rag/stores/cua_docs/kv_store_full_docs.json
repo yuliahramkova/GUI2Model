@@ -1,0 +1,1877 @@
+{
+  "doc-0dd0af786d839aa2242d128b47d8eb75": {
+    "content": "[source=docs] [type=intent] section_id='browse' intent='List products from PS4 accessories category by ascending price'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "0dd0af786d839aa2242d128b47d8eb75",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-0dd0af786d839aa2242d128b47d8eb75"
+  },
+  "doc-1cc9b075b95e93f0efa2fc819c7091e7": {
+    "content": "[source=docs] [type=intent] section_id='orders' intent='What is the date when I made my first purchase on this site?'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "1cc9b075b95e93f0efa2fc819c7091e7",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-1cc9b075b95e93f0efa2fc819c7091e7"
+  },
+  "doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878": {
+    "content": "[source=cua] [type=transition] task_id='search_tea_results' goal='Search for tea and open the search results page.' step=2 from_state='90d110975ccc' to_state='5aeb2d36affc' action=click target_mark_id=7 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/catalogsearch/result/?q=tea' title_after=\"Search results for: 'tea'\"",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "fdd8eb5fe9d7ea8984fec9eb6c4e6878",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-fdd8eb5fe9d7ea8984fec9eb6c4e6878"
+  },
+  "doc-1942e5b81059c71007614932043675ed": {
+    "content": "[source=docs] [type=intent] section_id='search' intent='I have jaw bruxism problem, show me something that could alleviate the problem.'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "1942e5b81059c71007614932043675ed",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-1942e5b81059c71007614932043675ed"
+  },
+  "doc-3e4633e49bb78087b94882bb6dd6ec70": {
+    "content": "[source=docs] [type=intent] section_id='contact' intent='Draft a refund message via their \"contact us\" form for the bluetooth speaker I bought Feb 2023. It broke after three days of use. The shop requires the order id, the reason and the amount to refund in the message. Don\\'t submit yet'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "3e4633e49bb78087b94882bb6dd6ec70",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-3e4633e49bb78087b94882bb6dd6ec70"
+  },
+  "doc-62d9053cf6071c97f1a27f1d4e29dbec": {
+    "content": "[source=cua] [type=transition] task_id='product_add_to_cart' goal='You start on a product page. (1) Click Add to Cart. If a spinner appears, wait 2000. Do not click Add to Cart again. (2) Click My Cart (header cart icon) once to open the minicart dropdown. (3) In the open dropdown, click the mark whose name is exactly \"View and Edit Cart\" (match by mark name, not a nearby low id). Do NOT click Proceed to Checkout (that goes to /checkout/, wrong page). Do NOT keep toggling My Cart. Done only when URL contains /checkout/cart/ and title contains Shopping Cart.' step=2 from_state='cf8b5e2010bd' to_state='cf8b5e2010bd' action=click target_mark_id=8 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html' title_after='Briess DME - Pilsen Light - 1 lb Bag'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "62d9053cf6071c97f1a27f1d4e29dbec",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-62d9053cf6071c97f1a27f1d4e29dbec"
+  },
+  "doc-28ba9162f780757ed205d1bbca501401": {
+    "content": "[source=docs] [type=intent] section_id='reviews' intent='What are the main criticisms of this product? Please extract the relevant sentences.'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "28ba9162f780757ed205d1bbca501401",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-28ba9162f780757ed205d1bbca501401"
+  },
+  "doc-205a5a11681072ca96979525b7f4165a": {
+    "content": "[source=cua] [type=transition] task_id='login_open_order_history' goal='Log in with the test customer account and open the order history page.' step=1 from_state='ad1ab870872b' to_state='6d790fd6aada' action=click target_mark_id=22 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/sales/order/history/' title_after='My Orders'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "205a5a11681072ca96979525b7f4165a",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-205a5a11681072ca96979525b7f4165a"
+  },
+  "doc-999b2ff925c2719f7d9a4bec198df488": {
+    "content": "[source=docs] [type=intent] section_id='search' intent='I am doing a market survey for one stop market, show me the most expensive product from PS4 accessories category'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "999b2ff925c2719f7d9a4bec198df488",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-999b2ff925c2719f7d9a4bec198df488"
+  },
+  "doc-0ec8cadce220fc9e6e5c9c75d9e39c00": {
+    "content": "[source=cua] [type=transition] task_id='guest_open_orders_returns' goal='Do NOT sign in and do NOT open Forgot Password or My Account. Scroll to the homepage footer if needed and open the guest link \"Orders and Returns\" (URL contains /sales/guest/form/). Done when the Orders and Returns page is open.' step=1 from_state='90d110975ccc' to_state='c62d5eb1b8fc' action=click target_mark_id=40 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/sales/guest/form/' title_after='Orders and Returns'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "0ec8cadce220fc9e6e5c9c75d9e39c00",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-0ec8cadce220fc9e6e5c9c75d9e39c00"
+  },
+  "doc-189f9fd0f08c982145dda95ff9f355f9": {
+    "content": "[source=docs] [type=intent] section_id='search' intent='I have a lot of Nintendo Switch game cards now, help me find the best storage option to fit all 11 cards'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "189f9fd0f08c982145dda95ff9f355f9",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-189f9fd0f08c982145dda95ff9f355f9"
+  },
+  "doc-e1bb78ebb05f49c696a60c9fd18e9cdd": {
+    "content": "[source=docs] [type=intent] section_id='wishlist' intent='Add a white desk to my wish list.'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "e1bb78ebb05f49c696a60c9fd18e9cdd",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-e1bb78ebb05f49c696a60c9fd18e9cdd"
+  },
+  "doc-a308514bccdf13f38fc2e196ba602317": {
+    "content": "[source=cua] [type=transition] task_id='product_add_to_cart' goal='You start on a product page. (1) Click Add to Cart. If a spinner appears, wait 2000. Do not click Add to Cart again. (2) Click My Cart (header cart icon) once to open the minicart dropdown. (3) In the open dropdown, click the mark whose name is exactly \"View and Edit Cart\" (match by mark name, not a nearby low id). Do NOT click Proceed to Checkout (that goes to /checkout/, wrong page). Do NOT keep toggling My Cart. Done only when URL contains /checkout/cart/ and title contains Shopping Cart.' step=0 from_state='cf8b5e2010bd' to_state='cf8b5e2010bd' action=click target_mark_id=26 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html' title_after='Briess DME - Pilsen Light - 1 lb Bag'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "a308514bccdf13f38fc2e196ba602317",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-a308514bccdf13f38fc2e196ba602317"
+  },
+  "doc-8d0360b3e2a65353722aade93f2cb30b": {
+    "content": "[source=docs] [type=intent] section_id='checkout' intent='Buy the best rating product from \"Home Audio Speaker\" category with at least 5 reviews and the product is least expensive'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "8d0360b3e2a65353722aade93f2cb30b",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-8d0360b3e2a65353722aade93f2cb30b"
+  },
+  "doc-24b33f584ce9895d0f497c8da5e02160": {
+    "content": "[source=docs] [type=intent] section_id='contact' intent='Draft a refund message via their \"contact us\" form for the phone screen protector I bought March 2023. It broke after three days of use. The shop requires the order id, the reason and the amount to refund in the message. Don\\'t submit yet'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "24b33f584ce9895d0f497c8da5e02160",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-24b33f584ce9895d0f497c8da5e02160"
+  },
+  "doc-9f147c01c4193145de47c2bf5cfb7a6b": {
+    "content": "[source=docs] [type=intent] section_id='reviews' intent='List out reviewers, if exist, who mention about price being unfair'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "9f147c01c4193145de47c2bf5cfb7a6b",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-9f147c01c4193145de47c2bf5cfb7a6b"
+  },
+  "doc-9aa0819373b076202a69431aa6b6b6a1": {
+    "content": "[source=docs] [type=intent] section_id='orders' intent='How much I spent on food-related shopping during March 2023'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "9aa0819373b076202a69431aa6b6b6a1",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-9aa0819373b076202a69431aa6b6b6a1"
+  },
+  "doc-e10bb7c8ab58a85e171364f0db9259d3": {
+    "content": "[source=docs] [type=intent] section_id='product' intent='What is the color configuration of the artificial plants I bought Feb 2023'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "e10bb7c8ab58a85e171364f0db9259d3",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-e10bb7c8ab58a85e171364f0db9259d3"
+  },
+  "doc-35eefef945502c8508eff8ffbcbabc75": {
+    "content": "[source=docs] [type=intent] section_id='orders' intent='I previously ordered some a mattress foundation around Feb or March 2023 and later cancelled. Can you reorder it for me?'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "35eefef945502c8508eff8ffbcbabc75",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-35eefef945502c8508eff8ffbcbabc75"
+  },
+  "doc-0d33da261165892a409b62b769813fd7": {
+    "content": "[source=docs] [type=intent] section_id='wishlist' intent='Add Tide PODS Spring Meadow Scent HE Turbo Laundry Detergent Pacs, 81 Count to my wish list'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "0d33da261165892a409b62b769813fd7",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-0d33da261165892a409b62b769813fd7"
+  },
+  "doc-7088ffedff8af044838a0e11a74bda53": {
+    "content": "[source=docs] [type=intent] section_id='orders' intent='Today is 6/12/2023. Tell me how many fulfilled orders I have over the past month, and the total amount of money I spent.'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "7088ffedff8af044838a0e11a74bda53",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-7088ffedff8af044838a0e11a74bda53"
+  },
+  "doc-66a866c224a96cd5e27ad6e0cf6f4e39": {
+    "content": "[source=cua] [type=transition] task_id='guest_open_contact_form' goal='Open Contact Us from the homepage footer. Done when the Contact Us page is open.' step=1 from_state='90d110975ccc' to_state='54c7e56e66f2' action=click target_mark_id=41 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/contact/' title_after='Contact Us'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "66a866c224a96cd5e27ad6e0cf6f4e39",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-66a866c224a96cd5e27ad6e0cf6f4e39"
+  },
+  "doc-f8b213a2069bc8bf70ea3a366aaa07db": {
+    "content": "[source=docs] [type=section] section_id='cart' name='Shopping cart' summary='The shopping cart holds items the shopper plans to buy. Magento also shows a mini-cart (My Cart) in the header; View and Edit Cart opens the full cart page at /checkout/cart/ where quantities can be updated before checkout.' typical_actions=['Add to Cart', 'open My Cart', 'View and Edit Cart', 'update quantity', 'remove item'] related_urls=['/checkout/cart/'] aliases=['My Cart', 'minicart', 'View and Edit Cart', 'Shopping Cart']",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "f8b213a2069bc8bf70ea3a366aaa07db",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-f8b213a2069bc8bf70ea3a366aaa07db"
+  },
+  "doc-b8e7d73842fa37807be6260d5fb5f6df": {
+    "content": "[source=cua] [type=task] task_id='cart_to_checkout_shipping' success=True n_steps=4 goal='Add a product to the cart and proceed to the checkout shipping step.' start_url='https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "b8e7d73842fa37807be6260d5fb5f6df",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-b8e7d73842fa37807be6260d5fb5f6df"
+  },
+  "doc-e94c51eb4aa1e06e1aa1c22cf0ca27ef": {
+    "content": "[source=cua] [type=transition] task_id='guest_open_orders_returns' goal='Do NOT sign in and do NOT open Forgot Password or My Account. Scroll to the homepage footer if needed and open the guest link \"Orders and Returns\" (URL contains /sales/guest/form/). Done when the Orders and Returns page is open.' step=0 from_state='90d110975ccc' to_state='90d110975ccc' action=scroll value=1000 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/' title_after='One Stop Market'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "e94c51eb4aa1e06e1aa1c22cf0ca27ef",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-e94c51eb4aa1e06e1aa1c22cf0ca27ef"
+  },
+  "doc-3f379752fbd26977545a0317836cb0a9": {
+    "content": "[source=cua] [type=transition] task_id='product_add_to_cart' goal='You start on a product page. (1) Click Add to Cart. If a spinner appears, wait 2000. Do not click Add to Cart again. (2) Click My Cart (header cart icon) once to open the minicart dropdown. (3) In the open dropdown, click the mark whose name is exactly \"View and Edit Cart\" (match by mark name, not a nearby low id). Do NOT click Proceed to Checkout (that goes to /checkout/, wrong page). Do NOT keep toggling My Cart. Done only when URL contains /checkout/cart/ and title contains Shopping Cart.' step=3 from_state='cf8b5e2010bd' to_state='afcab86ea55f' action=click target_mark_id=3 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/checkout/cart/' title_after='Shopping Cart'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "3f379752fbd26977545a0317836cb0a9",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-3f379752fbd26977545a0317836cb0a9"
+  },
+  "doc-f8d6becd2e7480088ec7248b85c0ccb8": {
+    "content": "[source=cua] [type=task] task_id='open_advanced_search' success=True n_steps=1 goal='Open the Advanced Search page from the homepage header.' start_url='https://reiterate-unnamable-upstroke.ngrok-free.dev/'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "f8d6becd2e7480088ec7248b85c0ccb8",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-f8d6becd2e7480088ec7248b85c0ccb8"
+  },
+  "doc-37efc5c1445ce192ca1d962c1d8c91dc": {
+    "content": "[source=cua] [type=transition] task_id='login_open_order_history' goal='Log in with the test customer account and open the order history page.' step=0 from_state='0afc06f4efb1' to_state='ad1ab870872b' action=click target_mark_id=27 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/customer/account/' title_after='My Account'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "37efc5c1445ce192ca1d962c1d8c91dc",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-37efc5c1445ce192ca1d962c1d8c91dc"
+  },
+  "doc-77d1ef495926eda163315691e8b4e230": {
+    "content": "[source=cua] [type=task] task_id='login_to_account' success=True n_steps=1 goal='Log in with the test customer account and open My Account.' start_url='https://reiterate-unnamable-upstroke.ngrok-free.dev/customer/account/login/'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "77d1ef495926eda163315691e8b4e230",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-77d1ef495926eda163315691e8b4e230"
+  },
+  "doc-86eed36545c61f44c4e4c6232a5e2a59": {
+    "content": "[source=docs] [type=intent] section_id='contact' intent='Which number to call for the customer service?'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "86eed36545c61f44c4e4c6232a5e2a59",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-86eed36545c61f44c4e4c6232a5e2a59"
+  },
+  "doc-8a6b140b0c243b09d5e5be889c114c41": {
+    "content": "[source=docs] [type=intent] section_id='orders' intent='I previously ordered some a table lamp in May 2023 and later cancelled. Can you reorder it for me?'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "8a6b140b0c243b09d5e5be889c114c41",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-8a6b140b0c243b09d5e5be889c114c41"
+  },
+  "doc-a27c3607ebcd1cbf634c7919d8b8e521": {
+    "content": "[source=cua] [type=transition] task_id='browse_category_to_subcategory' goal='Open Electronics and then navigate to Cell Phones & Accessories.' step=1 from_state='75c216062265' to_state='059ed3e9d1f1' action=click target_mark_id=27 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/cell-phones-accessories.html' title_after='Cell Phones & Accessories'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "a27c3607ebcd1cbf634c7919d8b8e521",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-a27c3607ebcd1cbf634c7919d8b8e521"
+  },
+  "doc-7fac13d51dae2e015b4db54c1583d2ab": {
+    "content": "[source=cua] [type=task] task_id='login_open_order_history' success=True n_steps=2 goal='Log in with the test customer account and open the order history page.' start_url='https://reiterate-unnamable-upstroke.ngrok-free.dev/customer/account/login/'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "7fac13d51dae2e015b4db54c1583d2ab",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-7fac13d51dae2e015b4db54c1583d2ab"
+  },
+  "doc-431143b88406057f856db8dccf79d550": {
+    "content": "[source=docs] [type=intent] section_id='orders' intent='How much I spent on hair care and hair style shopping during Jan 2023'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "431143b88406057f856db8dccf79d550",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-431143b88406057f856db8dccf79d550"
+  },
+  "doc-f32503d57dbcfb55e9966b8addb40d5f": {
+    "content": "[source=cua] [type=state] state_id='7a42e03c1ba1' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/electronics.html?cat=193::Electronics'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "f32503d57dbcfb55e9966b8addb40d5f",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-f32503d57dbcfb55e9966b8addb40d5f"
+  },
+  "doc-fa5cf0e5e035481d8bc81ff2b17f3658": {
+    "content": "[source=docs] [type=intent] section_id='browse' intent='List products from nutrition bars and drinks category by ascending price'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "fa5cf0e5e035481d8bc81ff2b17f3658",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-fa5cf0e5e035481d8bc81ff2b17f3658"
+  },
+  "doc-56c48eed83f6786c52f3bf1846f802dc": {
+    "content": "[source=docs] [type=intent] section_id='cart' intent='Add the product with the lowest per unit price from my open tabs to the shopping cart'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "56c48eed83f6786c52f3bf1846f802dc",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-56c48eed83f6786c52f3bf1846f802dc"
+  },
+  "doc-756d823b08bd1c3abebceb95e49c808b": {
+    "content": "[source=cua] [type=transition] task_id='browse_category_open_product' goal='Open Electronics and navigate from the category page to a product detail page.' step=0 from_state='75c216062265' to_state='463507b849a4' action=click target_mark_id=1 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/navitech-black-hard-carry-bag-case-cover-with-shoulder-strap-compatible-with-the-vr-virtual-reality-3d-headsets-including-the-crypto-vr-150-virtual-reality-headset-3d-glasses.html' title_after='Navitech Black Hard Carry Bag/Case/Cover with Shoulder Strap Compatible with The VR/Virtual Reality 3D headsets Including The Crypto VR 150 Virtual Reality Headset 3D Glasses'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "756d823b08bd1c3abebceb95e49c808b",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-756d823b08bd1c3abebceb95e49c808b"
+  },
+  "doc-3ed8a86717615b8535ab456983651c6f": {
+    "content": "[source=docs] [type=section] section_id='account' name='Customer account' summary='Registered customers sign in to My Account to manage profile information, addresses, and related account pages. Login is at /customer/account/login/; after success the account dashboard is at /customer/account/.' typical_actions=['Sign In', 'open My Account', 'edit account information', 'update address book', 'Create an Account'] related_urls=['/customer/account/', '/customer/account/login/', '/customer/account/create/'] aliases=['My Account', 'Sign In', 'Login', 'register', 'address book']",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "3ed8a86717615b8535ab456983651c6f",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-3ed8a86717615b8535ab456983651c6f"
+  },
+  "doc-e4370729fc04b4bb4e878a2d8e1f6fb9": {
+    "content": "[source=docs] [type=intent] section_id='orders' intent='Tell me the total cost of my latest cancelled order?'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "e4370729fc04b4bb4e878a2d8e1f6fb9",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-e4370729fc04b4bb4e878a2d8e1f6fb9"
+  },
+  "doc-d31264de048b55eca765c36fb8c427a2": {
+    "content": "[source=docs] [type=intent] section_id='search' intent='What is the price range for products from Amazon basic?'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "d31264de048b55eca765c36fb8c427a2",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-d31264de048b55eca765c36fb8c427a2"
+  },
+  "doc-1f9f8b0a605d63d4550fc2372ecc78f3": {
+    "content": "[source=cua] [type=state] state_id='059ed3e9d1f1' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/cell-phones-accessories.html::Cell Phones & Accessories'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "1f9f8b0a605d63d4550fc2372ecc78f3",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-1f9f8b0a605d63d4550fc2372ecc78f3"
+  },
+  "doc-15a19c7313525c2e251bcbc5ce79789d": {
+    "content": "[source=docs] [type=intent] section_id='orders' intent='Tell me the total cost of my latest pending order?'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "15a19c7313525c2e251bcbc5ce79789d",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-15a19c7313525c2e251bcbc5ce79789d"
+  },
+  "doc-f7e2f7ace4b7e7623955ea0f39973b12": {
+    "content": "[source=cua] [type=state] state_id='680c93c4dbc4' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/ding-ji-loose-leaf-tea-black-tea-organic-oolong-tea-tea-bags-100-natural-high-mountain-tea-from-taiwan-chinese-teabags-oolong-teabags-4-packs.html::【鼎季 DING JI】Loose Leaf Tea Black tea ,Organic Oolong Tea , Tea Bags, 100% Natural High Mountain Tea From Taiwan. Chinese Teabags (Oolong Teabags-4 Packs)'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "f7e2f7ace4b7e7623955ea0f39973b12",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-f7e2f7ace4b7e7623955ea0f39973b12"
+  },
+  "doc-c6b4daaebb9f4245ddfba6b7d2ef75cc": {
+    "content": "[source=cua] [type=procedure] task_id='open_advanced_search' goal='Open the Advanced Search page from the homepage header.' procedure='click(target_mark_id=9)' n_steps=1",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "c6b4daaebb9f4245ddfba6b7d2ef75cc",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-c6b4daaebb9f4245ddfba6b7d2ef75cc"
+  },
+  "doc-6f31dbc98ece4cdaa913484ad6123833": {
+    "content": "[source=cua] [type=task] task_id='browse_category_to_subcategory' success=True n_steps=2 goal='Open Electronics and then navigate to Cell Phones & Accessories.' start_url='https://reiterate-unnamable-upstroke.ngrok-free.dev/'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "6f31dbc98ece4cdaa913484ad6123833",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-6f31dbc98ece4cdaa913484ad6123833"
+  },
+  "doc-bcae0faaf7eee20080007478a61578ec": {
+    "content": "[source=cua] [type=state] state_id='5aeb2d36affc' key=\"https://reiterate-unnamable-upstroke.ngrok-free.dev/catalogsearch/result/?q=tea::Search results for: 'tea'\"",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "bcae0faaf7eee20080007478a61578ec",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-bcae0faaf7eee20080007478a61578ec"
+  },
+  "doc-8d32db36985b997241737a36c8273ebf": {
+    "content": "[source=cua] [type=state] state_id='3ce934580669' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/checkout/::Checkout'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "8d32db36985b997241737a36c8273ebf",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-8d32db36985b997241737a36c8273ebf"
+  },
+  "doc-862f3205e74c4e460943cba77a1c8b9b": {
+    "content": "[source=docs] [type=intent] section_id='wishlist' intent='Add this product to my wishlist'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "862f3205e74c4e460943cba77a1c8b9b",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-862f3205e74c4e460943cba77a1c8b9b"
+  },
+  "doc-eeac6f0a03c2882eb67dee79cd4cc10d": {
+    "content": "[source=cua] [type=procedure] task_id='browse_category_open_product' goal='Open Electronics and navigate from the category page to a product detail page.' procedure='click(target_mark_id=1)' n_steps=1",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "eeac6f0a03c2882eb67dee79cd4cc10d",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-eeac6f0a03c2882eb67dee79cd4cc10d"
+  },
+  "doc-2f4357db0dd8e3e999a02a5c40eb44d2": {
+    "content": "[source=cua] [type=procedure] task_id='browse_category_to_subcategory' goal='Open Electronics and then navigate to Cell Phones & Accessories.' procedure='click(target_mark_id=29) -> click(target_mark_id=27)' n_steps=2",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "2f4357db0dd8e3e999a02a5c40eb44d2",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-2f4357db0dd8e3e999a02a5c40eb44d2"
+  },
+  "doc-13825eeaaccdec76d561eb444b597191": {
+    "content": "[source=cua] [type=state] state_id='afcab86ea55f' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/checkout/cart/::Shopping Cart'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "13825eeaaccdec76d561eb444b597191",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-13825eeaaccdec76d561eb444b597191"
+  },
+  "doc-8e6ff17117641e752946e746c149b42a": {
+    "content": "[source=cua] [type=procedure] task_id='guest_open_contact_form' goal='Open Contact Us from the homepage footer. Done when the Contact Us page is open.' procedure='scroll -> click(target_mark_id=41)' n_steps=2",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "8e6ff17117641e752946e746c149b42a",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-8e6ff17117641e752946e746c149b42a"
+  },
+  "doc-5f0797478180b4eb1b1da6cf0be26d1d": {
+    "content": "[source=docs] [type=intent] section_id='reviews' intent='Rate my recent purchase of floor lamp with 5 stars, using my nickname Emma Lopez?'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "5f0797478180b4eb1b1da6cf0be26d1d",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-5f0797478180b4eb1b1da6cf0be26d1d"
+  },
+  "doc-5b8a0c9b46e85d5051ad9c7b3f3e9003": {
+    "content": "[source=docs] [type=section] section_id='contact' name='Contact Us' summary='Contact Us is a storefront form (often linked from the footer) for sending a message to the merchant — coupons, refunds drafts, general questions — without completing a purchase flow.' typical_actions=['open Contact Us', 'fill contact form', 'draft message (optional: do not submit)'] related_urls=['/contact/'] aliases=['Contact Us', 'contact form']",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "5b8a0c9b46e85d5051ad9c7b3f3e9003",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-5b8a0c9b46e85d5051ad9c7b3f3e9003"
+  },
+  "doc-1fc5bca9ee5abf88c0fe137c95925955": {
+    "content": "[source=docs] [type=intent] section_id='reviews' intent='What do customers say about brush from sephora'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "1fc5bca9ee5abf88c0fe137c95925955",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-1fc5bca9ee5abf88c0fe137c95925955"
+  },
+  "doc-ff4a6a9b3fb2fff37b4e761d8ab01d60": {
+    "content": "[source=docs] [type=intent] section_id='reviews' intent='Summarize customer reviews for Amazon Echo Dot 3rd generation.'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "ff4a6a9b3fb2fff37b4e761d8ab01d60",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-ff4a6a9b3fb2fff37b4e761d8ab01d60"
+  },
+  "doc-0313cdbbf9e37e1899a0a0af02cdac29": {
+    "content": "[source=cua] [type=state] state_id='90d110975ccc' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/::One Stop Market'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "0313cdbbf9e37e1899a0a0af02cdac29",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-0313cdbbf9e37e1899a0a0af02cdac29"
+  },
+  "doc-b8b8f406e07a417b3ce728c40bc59966": {
+    "content": "[source=docs] [type=intent] section_id='contact' intent='Draft an email to the shop owner via their contact us function for a coupon as I am a student'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "b8b8f406e07a417b3ce728c40bc59966",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-b8b8f406e07a417b3ce728c40bc59966"
+  },
+  "doc-5d77defaddc878d0bf391c0d20a116f4": {
+    "content": "[source=docs] [type=intent] section_id='wishlist' intent='Add 2 Hawaiian Bamboo Orchid Roots #zc50 - by Discount Hawaiian Gifts to my wish list'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "5d77defaddc878d0bf391c0d20a116f4",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-5d77defaddc878d0bf391c0d20a116f4"
+  },
+  "doc-acf0cdd04746673627377954b4bf4341": {
+    "content": "[source=docs] [type=section] section_id='product' name='Product detail page' summary='A product page shows title, price, description, images, options, and purchase actions such as Add to Cart. It is reached from search results or category listings.' typical_actions=['open product', 'read price / description', 'Add to Cart', 'change quantity', 'open reviews tab'] related_urls=['.html'] aliases=['product page', 'PDP', 'item page']",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "acf0cdd04746673627377954b4bf4341",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-acf0cdd04746673627377954b4bf4341"
+  },
+  "doc-d73a8809013d6a5b52c991960b728802": {
+    "content": "[source=cua] [type=procedure] task_id='product_add_to_cart' goal='You start on a product page. (1) Click Add to Cart. If a spinner appears, wait 2000. Do not click Add to Cart again. (2) Click My Cart (header cart icon) once to open the minicart dropdown. (3) In the open dropdown, click the mark whose name is exactly \"View and Edit Cart\" (match by mark name, not a nearby low id). Do NOT click Proceed to Checkout (that goes to /checkout/, wrong page). Do NOT keep toggling My Cart. Done only when URL contains /checkout/cart/ and title contains Shopping Cart.' procedure='click(target_mark_id=26) -> wait -> click(target_mark_id=8) -> click(target_mark_id=3)' n_steps=4",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "d73a8809013d6a5b52c991960b728802",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-d73a8809013d6a5b52c991960b728802"
+  },
+  "doc-fd76d2a06991f2a028cbe7f340deaa84": {
+    "content": "[source=docs] [type=intent] section_id='wishlist' intent='Add a laundry detergent to my wish list.'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "fd76d2a06991f2a028cbe7f340deaa84",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-fd76d2a06991f2a028cbe7f340deaa84"
+  },
+  "doc-fb382c7de6a95390185a15864f664c30": {
+    "content": "[source=cua] [type=state] state_id='cf8b5e2010bd' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html::Briess DME - Pilsen Light - 1 lb Bag'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "fb382c7de6a95390185a15864f664c30",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-fb382c7de6a95390185a15864f664c30"
+  },
+  "doc-2fc9469459413b113b36555148ce3cac": {
+    "content": "[source=docs] [type=intent] section_id='contact' intent='Draft an email to the shop owner via their contact us function for a coupon as I am a loyal customer'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "2fc9469459413b113b36555148ce3cac",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-2fc9469459413b113b36555148ce3cac"
+  },
+  "doc-97e6ca4d7a358ec8f21756ca6e74ca7c": {
+    "content": "[source=docs] [type=intent] section_id='product' intent='What is the size configuration of the picture frame I bought Sep 2022'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "97e6ca4d7a358ec8f21756ca6e74ca7c",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-97e6ca4d7a358ec8f21756ca6e74ca7c"
+  },
+  "doc-73c6da08c5ad531e9f5e932aac330047": {
+    "content": "[source=cua] [type=transition] task_id='cart_to_checkout_shipping' goal='Add a product to the cart and proceed to the checkout shipping step.' step=1 from_state='cf8b5e2010bd' to_state='cf8b5e2010bd' action=wait value=2000 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html' title_after='Briess DME - Pilsen Light - 1 lb Bag'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "73c6da08c5ad531e9f5e932aac330047",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-73c6da08c5ad531e9f5e932aac330047"
+  },
+  "doc-dd334441a53ee71d815874e2a4d2f7c9": {
+    "content": "[source=cua] [type=transition] task_id='product_add_to_cart' goal='You start on a product page. (1) Click Add to Cart. If a spinner appears, wait 2000. Do not click Add to Cart again. (2) Click My Cart (header cart icon) once to open the minicart dropdown. (3) In the open dropdown, click the mark whose name is exactly \"View and Edit Cart\" (match by mark name, not a nearby low id). Do NOT click Proceed to Checkout (that goes to /checkout/, wrong page). Do NOT keep toggling My Cart. Done only when URL contains /checkout/cart/ and title contains Shopping Cart.' step=1 from_state='cf8b5e2010bd' to_state='cf8b5e2010bd' action=wait value=2000 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html' title_after='Briess DME - Pilsen Light - 1 lb Bag'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "dd334441a53ee71d815874e2a4d2f7c9",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-dd334441a53ee71d815874e2a4d2f7c9"
+  },
+  "doc-d31b2a0cbe1b3431508a11cba028e2a3": {
+    "content": "[source=docs] [type=intent] section_id='browse' intent='I want to browse the products in the Headphones category'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "d31b2a0cbe1b3431508a11cba028e2a3",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-d31b2a0cbe1b3431508a11cba028e2a3"
+  },
+  "doc-461bb085df60d40466f8b6722f80c025": {
+    "content": "[source=cua] [type=transition] task_id='search_open_first_product' goal='You are on tea search results. Open any product detail page by clicking a product title (or product link). Done when the URL ends with .html and the page title is not Search results.' step=0 from_state='5aeb2d36affc' to_state='680c93c4dbc4' action=click target_mark_id=1 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/ding-ji-loose-leaf-tea-black-tea-organic-oolong-tea-tea-bags-100-natural-high-mountain-tea-from-taiwan-chinese-teabags-oolong-teabags-4-packs.html' title_after='【鼎季 DING JI】Loose Leaf Tea Black tea ,Organic Oolong Tea , Tea Bags, 100% Natural High Mountain Tea From Taiwan. Chinese Teabags (Oolong Teabags-4 Packs)'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "461bb085df60d40466f8b6722f80c025",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-461bb085df60d40466f8b6722f80c025"
+  },
+  "doc-ed301b47f0ce1c9091aeedded9667523": {
+    "content": "[source=docs] [type=intent] section_id='account' intent='Change the delivery address for my most recent order to 155 5th Street, San Francisco, CA.'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "ed301b47f0ce1c9091aeedded9667523",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-ed301b47f0ce1c9091aeedded9667523"
+  },
+  "doc-6371d7766d8a30a1d8aedfb05c069ba8": {
+    "content": "[source=cua] [type=transition] task_id='search_tea_results' goal='Search for tea and open the search results page.' step=1 from_state='90d110975ccc' to_state='90d110975ccc' action=type target_mark_id=6 value='tea' success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/' title_after='One Stop Market'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "6371d7766d8a30a1d8aedfb05c069ba8",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-6371d7766d8a30a1d8aedfb05c069ba8"
+  },
+  "doc-e7b4da8b6c531d24274ef4d30231b38a": {
+    "content": "[source=cua] [type=state] state_id='54c7e56e66f2' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/contact/::Contact Us'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "e7b4da8b6c531d24274ef4d30231b38a",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-e7b4da8b6c531d24274ef4d30231b38a"
+  },
+  "doc-0a5a63da749cbe21d94544063fcc3616": {
+    "content": "[source=cua] [type=transition] task_id='open_advanced_search' goal='Open the Advanced Search page from the homepage header.' step=0 from_state='90d110975ccc' to_state='f06c611aa270' action=click target_mark_id=9 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/catalogsearch/advanced/' title_after='Advanced Search'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "0a5a63da749cbe21d94544063fcc3616",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-0a5a63da749cbe21d94544063fcc3616"
+  },
+  "doc-a522bf455c908d9b9485769e838d61ac": {
+    "content": "[source=cua] [type=task] task_id='guest_open_orders_returns' success=True n_steps=2 goal='Do NOT sign in and do NOT open Forgot Password or My Account. Scroll to the homepage footer if needed and open the guest link \"Orders and Returns\" (URL contains /sales/guest/form/). Done when the Orders and Returns page is open.' start_url='https://reiterate-unnamable-upstroke.ngrok-free.dev/'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "a522bf455c908d9b9485769e838d61ac",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-a522bf455c908d9b9485769e838d61ac"
+  },
+  "doc-fe40173fac6704461fd64a29d0b8f8f1": {
+    "content": "[source=docs] [type=section] section_id='search' name='Product search' summary='The storefront search box and search results page let shoppers find products by keywords. Results list matching items; empty queries or nonsense queries yield an empty results state. Advanced Search offers extra filters beyond the header search field.' typical_actions=['click search field', 'type query', 'submit Search', 'open Advanced Search'] related_urls=['/catalogsearch/result/', '/catalogsearch/advanced/'] aliases=['Search', 'Advanced Search', 'search results']",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "fe40173fac6704461fd64a29d0b8f8f1",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-fe40173fac6704461fd64a29d0b8f8f1"
+  },
+  "doc-4a104570702d17afb7ebbc72063ef1e1": {
+    "content": "[source=docs] [type=intent] section_id='reviews' intent='Rate my recent purchase of Mini Wireless Bluetooth Speaker with 2 stars, using my nickname SimpleEmma?'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "4a104570702d17afb7ebbc72063ef1e1",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-4a104570702d17afb7ebbc72063ef1e1"
+  },
+  "doc-68574eb4de0d60ebdd0baff1b2dfe727": {
+    "content": "[source=cua] [type=procedure] task_id='login_open_order_history' goal='Log in with the test customer account and open the order history page.' procedure='click(target_mark_id=27) -> click(target_mark_id=22)' n_steps=2",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "68574eb4de0d60ebdd0baff1b2dfe727",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-68574eb4de0d60ebdd0baff1b2dfe727"
+  },
+  "doc-29bdae81bbadb36afb4c3dc18dd315cd": {
+    "content": "[source=cua] [type=state] state_id='ad1ab870872b' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/customer/account/::My Account'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "29bdae81bbadb36afb4c3dc18dd315cd",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-29bdae81bbadb36afb4c3dc18dd315cd"
+  },
+  "doc-2d0074974c4aa4f05a4fad3abaa22278": {
+    "content": "[source=cua] [type=task] task_id='search_open_first_product' success=True n_steps=1 goal='You are on tea search results. Open any product detail page by clicking a product title (or product link). Done when the URL ends with .html and the page title is not Search results.' start_url='https://reiterate-unnamable-upstroke.ngrok-free.dev/catalogsearch/result/?q=tea'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "2d0074974c4aa4f05a4fad3abaa22278",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-2d0074974c4aa4f05a4fad3abaa22278"
+  },
+  "doc-358a8839829c493620a15be50f9bcc3a": {
+    "content": "[source=docs] [type=intent] section_id='browse' intent='Buy the best rating product from \"Men\\'s shoe\" category with at least 5 reviews and the product is least expensive'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "358a8839829c493620a15be50f9bcc3a",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-358a8839829c493620a15be50f9bcc3a"
+  },
+  "doc-3df8bd91a6a3d0871e38317475d7b157": {
+    "content": "[source=cua] [type=transition] task_id='cart_to_checkout_shipping' goal='Add a product to the cart and proceed to the checkout shipping step.' step=2 from_state='cf8b5e2010bd' to_state='cf8b5e2010bd' action=click target_mark_id=8 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html' title_after='Briess DME - Pilsen Light - 1 lb Bag'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "3df8bd91a6a3d0871e38317475d7b157",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-3df8bd91a6a3d0871e38317475d7b157"
+  },
+  "doc-41eec2eddcce8a485141abd05206fd24": {
+    "content": "[source=docs] [type=intent] section_id='orders' intent='Show me the shipping method for order number 187.'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "41eec2eddcce8a485141abd05206fd24",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-41eec2eddcce8a485141abd05206fd24"
+  },
+  "doc-0b82f2664c7109af07ee7d643c47aeb3": {
+    "content": "[source=cua] [type=task] task_id='product_add_to_cart' success=True n_steps=4 goal='You start on a product page. (1) Click Add to Cart. If a spinner appears, wait 2000. Do not click Add to Cart again. (2) Click My Cart (header cart icon) once to open the minicart dropdown. (3) In the open dropdown, click the mark whose name is exactly \"View and Edit Cart\" (match by mark name, not a nearby low id). Do NOT click Proceed to Checkout (that goes to /checkout/, wrong page). Do NOT keep toggling My Cart. Done only when URL contains /checkout/cart/ and title contains Shopping Cart.' start_url='https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "0b82f2664c7109af07ee7d643c47aeb3",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-0b82f2664c7109af07ee7d643c47aeb3"
+  },
+  "doc-e55a5eced4bdbbeaad263a5762118200": {
+    "content": "[source=docs] [type=intent] section_id='wishlist' intent='Add a chair to my wish list.'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "e55a5eced4bdbbeaad263a5762118200",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-e55a5eced4bdbbeaad263a5762118200"
+  },
+  "doc-25fabb726c8ee24ea61db5462cb05173": {
+    "content": "[source=docs] [type=intent] section_id='orders' intent='Tell me the status of my latest order and when will it arrive'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "25fabb726c8ee24ea61db5462cb05173",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-25fabb726c8ee24ea61db5462cb05173"
+  },
+  "doc-7ed509df034e4c895a50f2b37ff0d547": {
+    "content": "[source=docs] [type=intent] section_id='product' intent='What is the price configuration of the fake tree I bought Jan 2023'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "7ed509df034e4c895a50f2b37ff0d547",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-7ed509df034e4c895a50f2b37ff0d547"
+  },
+  "doc-56ee8cfaad4c3e7787c80d633f3b9fb2": {
+    "content": "[source=cua] [type=state] state_id='75c216062265' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/electronics.html::Electronics'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "56ee8cfaad4c3e7787c80d633f3b9fb2",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-56ee8cfaad4c3e7787c80d633f3b9fb2"
+  },
+  "doc-13e3368b142d86372c3aba00d6728878": {
+    "content": "[source=cua] [type=state] state_id='9927b561563f' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/electronics.html?cat=51::Electronics'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "13e3368b142d86372c3aba00d6728878",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-13e3368b142d86372c3aba00d6728878"
+  },
+  "doc-81aef62da40007eeef6972fe0d5bbc51": {
+    "content": "[source=cua] [type=procedure] task_id='search_tea_results' goal='Search for tea and open the search results page.' procedure=\"click(target_mark_id=6) -> type('tea') -> click(target_mark_id=7)\" n_steps=3",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "81aef62da40007eeef6972fe0d5bbc51",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-81aef62da40007eeef6972fe0d5bbc51"
+  },
+  "doc-e7f5f3b4b4a72c0b5cd97b1012424459": {
+    "content": "[source=cua] [type=state] state_id='f06c611aa270' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/catalogsearch/advanced/::Advanced Search'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "e7f5f3b4b4a72c0b5cd97b1012424459",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-e7f5f3b4b4a72c0b5cd97b1012424459"
+  },
+  "doc-5c82ff2039f325fb23b86afa8c23dcf2": {
+    "content": "[source=cua] [type=transition] task_id='browse_category_to_subcategory' goal='Open Electronics and then navigate to Cell Phones & Accessories.' step=0 from_state='90d110975ccc' to_state='75c216062265' action=click target_mark_id=29 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/electronics.html' title_after='Electronics'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "5c82ff2039f325fb23b86afa8c23dcf2",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-5c82ff2039f325fb23b86afa8c23dcf2"
+  },
+  "doc-c9b30f66347f82ba3f44360f76550f12": {
+    "content": "[source=docs] [type=section] section_id='checkout' name='Checkout' summary='Checkout collects shipping address, shipping method, and payment to place an order. Guests can usually check out without an account. The flow starts from the cart via Proceed to Checkout and lands on /checkout/.' typical_actions=['Proceed to Checkout', 'enter shipping address', 'choose shipping method', 'place order'] related_urls=['/checkout/'] aliases=['checkout', 'shipping', 'payment', 'place order']",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "c9b30f66347f82ba3f44360f76550f12",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-c9b30f66347f82ba3f44360f76550f12"
+  },
+  "doc-457a13ff898910e4943843b182899f06": {
+    "content": "[source=docs] [type=intent] section_id='search' intent='What is the price range of Canon photo printer in the One Stop Market?'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "457a13ff898910e4943843b182899f06",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-457a13ff898910e4943843b182899f06"
+  },
+  "doc-47265c7e27a116d73c5b5ed905faac86": {
+    "content": "[source=cua] [type=procedure] task_id='cart_to_checkout_shipping' goal='Add a product to the cart and proceed to the checkout shipping step.' procedure='click(target_mark_id=26) -> wait -> click(target_mark_id=8) -> click(target_mark_id=1)' n_steps=4",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "47265c7e27a116d73c5b5ed905faac86",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-47265c7e27a116d73c5b5ed905faac86"
+  },
+  "doc-8f0dc07c5368056f56e87326952d0f18": {
+    "content": "[source=cua] [type=transition] task_id='guest_open_contact_form' goal='Open Contact Us from the homepage footer. Done when the Contact Us page is open.' step=0 from_state='90d110975ccc' to_state='90d110975ccc' action=scroll value=1500 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/' title_after='One Stop Market'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "8f0dc07c5368056f56e87326952d0f18",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-8f0dc07c5368056f56e87326952d0f18"
+  },
+  "doc-6cd7e66b357fe2de567b9f08b975f69c": {
+    "content": "[source=cua] [type=task] task_id='browse_category_open_product' success=True n_steps=1 goal='Open Electronics and navigate from the category page to a product detail page.' start_url='https://reiterate-unnamable-upstroke.ngrok-free.dev/electronics.html'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "6cd7e66b357fe2de567b9f08b975f69c",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-6cd7e66b357fe2de567b9f08b975f69c"
+  },
+  "doc-426aa772b7f6ac828fa5d5e21d9bd799": {
+    "content": "[source=docs] [type=section] section_id='orders' name='Orders and returns' summary='Logged-in customers open order history (My Orders) from the account area to see past/pending orders, totals, and shipping details. Guests can use Orders and Returns in the footer (/sales/guest/form/) to look up an order without signing in. Reordering a cancelled item also starts from order history / product repurchase.' typical_actions=['open My Orders', 'open Orders and Returns', 'view order status / cost', 'reorder a cancelled item'] related_urls=['/sales/order/history/', '/sales/guest/form/'] aliases=['My Orders', 'Orders and Returns', 'order history']",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "426aa772b7f6ac828fa5d5e21d9bd799",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-426aa772b7f6ac828fa5d5e21d9bd799"
+  },
+  "doc-1761098ff20f891ff04716299843abaf": {
+    "content": "[source=cua] [type=state] state_id='6d790fd6aada' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/sales/order/history/::My Orders'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "1761098ff20f891ff04716299843abaf",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-1761098ff20f891ff04716299843abaf"
+  },
+  "doc-8958b6983df1cc2819a9f3f0c180b996": {
+    "content": "[source=cua] [type=state] state_id='c62d5eb1b8fc' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/sales/guest/form/::Orders and Returns'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "8958b6983df1cc2819a9f3f0c180b996",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-8958b6983df1cc2819a9f3f0c180b996"
+  },
+  "doc-40b67116c49dc831fc9b6d1ace054544": {
+    "content": "[source=docs] [type=intent] section_id='account' intent='Change the delivery address for my most recent order to 4000 Forbes Ave, Pittsburgh, PA.'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "40b67116c49dc831fc9b6d1ace054544",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-40b67116c49dc831fc9b6d1ace054544"
+  },
+  "doc-7aca32fb89c5bf0ba28f8edd9e43b4e5": {
+    "content": "[source=cua] [type=state] state_id='463507b849a4' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/navitech-black-hard-carry-bag-case-cover-with-shoulder-strap-compatible-with-the-vr-virtual-reality-3d-headsets-including-the-crypto-vr-150-virtual-reality-headset-3d-glasses.html::Navitech Black Hard Carry Bag/Case/Cover with Shoulder Strap Compatible with The VR/Virtual Reality 3D headsets Including The Crypto VR 150 Virtual Reality Headset 3D Glasses'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "7aca32fb89c5bf0ba28f8edd9e43b4e5",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-7aca32fb89c5bf0ba28f8edd9e43b4e5"
+  },
+  "doc-67427cd58c6a2f6c93c4b7010cace45c": {
+    "content": "[source=docs] [type=section] section_id='newsletter' name='Newsletter' summary='The storefront footer (or account area) may offer Subscribe to Newsletter so the shopper receives marketing emails from the merchant.' typical_actions=['subscribe to newsletter', 'enter email in newsletter field'] related_urls=['/newsletter/'] aliases=['newsletter', 'subscribe']",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "67427cd58c6a2f6c93c4b7010cace45c",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-67427cd58c6a2f6c93c4b7010cace45c"
+  },
+  "doc-52c0cd3d3d3f22354862b57c53861a5b": {
+    "content": "[source=docs] [type=intent] section_id='search' intent='What is the price range of wireless earphone in the One Stop Market?'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "52c0cd3d3d3f22354862b57c53861a5b",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-52c0cd3d3d3f22354862b57c53861a5b"
+  },
+  "doc-3806dbc3296f90444ee353346e465466": {
+    "content": "[source=cua] [type=task] task_id='search_tea_results' success=True n_steps=3 goal='Search for tea and open the search results page.' start_url='https://reiterate-unnamable-upstroke.ngrok-free.dev/'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "3806dbc3296f90444ee353346e465466",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-3806dbc3296f90444ee353346e465466"
+  },
+  "doc-d3cad008c277a059bb25a4604d5e17f1": {
+    "content": "[source=docs] [type=section] section_id='reviews' name='Product reviews' summary='On a product page, customers can read existing reviews and leave a star rating / review text for purchases. Review content is tied to the product detail page (often a Reviews section or #reviews).' typical_actions=['open Reviews on product page', 'read customer reviews', 'rate a recent purchase', 'submit review'] related_urls=['#reviews'] aliases=['Reviews', 'customer reviews', 'ratings']",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "d3cad008c277a059bb25a4604d5e17f1",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-d3cad008c277a059bb25a4604d5e17f1"
+  },
+  "doc-a13c4c7ba7738ba5c6a00abfe4f2378b": {
+    "content": "[source=docs] [type=intent] section_id='account' intent='I recently moved, my address is 231 Willow Way, Suite 100, Chicago, IL, 60601, update my information on OneStopShopping accordingly'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "a13c4c7ba7738ba5c6a00abfe4f2378b",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-a13c4c7ba7738ba5c6a00abfe4f2378b"
+  },
+  "doc-ef078f1ad1741283015f4345f16bd22f": {
+    "content": "[source=cua] [type=procedure] task_id='login_to_account' goal='Log in with the test customer account and open My Account.' procedure='click(target_mark_id=27)' n_steps=1",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "ef078f1ad1741283015f4345f16bd22f",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-ef078f1ad1741283015f4345f16bd22f"
+  },
+  "doc-1961f4266e6b80fa16bbc592b99de29d": {
+    "content": "[source=cua] [type=state] state_id='5a4ffbb10b05' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/customer/account/login/::Loading https://reiterate-unnamable-upstroke.ngrok-free.dev/customer/account/loginPost/'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "1961f4266e6b80fa16bbc592b99de29d",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-1961f4266e6b80fa16bbc592b99de29d"
+  },
+  "doc-e4b84220ab88707e4a7138a9c2c3e998": {
+    "content": "[source=docs] [type=section] section_id='browse' name='Categories and catalog' summary='Category pages (e.g. Electronics) list products in a department. Shoppers open a top-level category, then often a subcategory, then a product from the listing. Listings can be sorted by price or other attributes.' typical_actions=['open category', 'open subcategory', 'browse listing', 'sort by price'] related_urls=['/electronics.html', '/cell-phones-accessories.html'] aliases=['category', 'subcategory', 'catalog']",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "e4b84220ab88707e4a7138a9c2c3e998",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-e4b84220ab88707e4a7138a9c2c3e998"
+  },
+  "doc-641918b0c83a0a355d25025600a88524": {
+    "content": "[source=cua] [type=transition] task_id='cart_to_checkout_shipping' goal='Add a product to the cart and proceed to the checkout shipping step.' step=3 from_state='cf8b5e2010bd' to_state='3ce934580669' action=click target_mark_id=1 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/checkout/' title_after='Checkout'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "641918b0c83a0a355d25025600a88524",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-641918b0c83a0a355d25025600a88524"
+  },
+  "doc-b84a437f0543053dd6adebe7bc7b2cf0": {
+    "content": "[source=docs] [type=intent] section_id='browse' intent='I want to browse the products in the Men shoes category'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "b84a437f0543053dd6adebe7bc7b2cf0",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-b84a437f0543053dd6adebe7bc7b2cf0"
+  },
+  "doc-189de8ba1f681a4ac020519f647f3544": {
+    "content": "[source=cua] [type=transition] task_id='cart_to_checkout_shipping' goal='Add a product to the cart and proceed to the checkout shipping step.' step=0 from_state='cf8b5e2010bd' to_state='cf8b5e2010bd' action=click target_mark_id=26 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/briess-dme-pilsen-light-1-lb-bag.html' title_after='Briess DME - Pilsen Light - 1 lb Bag'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "189de8ba1f681a4ac020519f647f3544",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-189de8ba1f681a4ac020519f647f3544"
+  },
+  "doc-59d4350ca2ac17430b9a74fbaa0220b0": {
+    "content": "[source=docs] [type=intent] section_id='browse' intent='I want to browse the products in the Video Game category'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "59d4350ca2ac17430b9a74fbaa0220b0",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-59d4350ca2ac17430b9a74fbaa0220b0"
+  },
+  "doc-8d9176b069bb4610448a5d4a6e08f2eb": {
+    "content": "[source=docs] [type=intent] section_id='account' intent='I recently moved, my address is 654 Aspen Road, House #3, Boston, MA, 02110, update my information on OneStopShopping accordingly'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "8d9176b069bb4610448a5d4a6e08f2eb",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-8d9176b069bb4610448a5d4a6e08f2eb"
+  },
+  "doc-5c6aa480424345d43e12e50df1496a02": {
+    "content": "[source=docs] [type=intent] section_id='reviews' intent='List out reviewers, if exist, who mention about ear cups being small'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "5c6aa480424345d43e12e50df1496a02",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-5c6aa480424345d43e12e50df1496a02"
+  },
+  "doc-571153a88f91efe6a07864bf8d36319f": {
+    "content": "[source=cua] [type=procedure] task_id='guest_open_orders_returns' goal='Do NOT sign in and do NOT open Forgot Password or My Account. Scroll to the homepage footer if needed and open the guest link \"Orders and Returns\" (URL contains /sales/guest/form/). Done when the Orders and Returns page is open.' procedure='scroll -> click(target_mark_id=40)' n_steps=2",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "571153a88f91efe6a07864bf8d36319f",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-571153a88f91efe6a07864bf8d36319f"
+  },
+  "doc-b581034bb88bc1f58f8d2b078c45492a": {
+    "content": "[source=docs] [type=intent] section_id='newsletter' intent='Subscribe to the newsletter of OneStopMarket'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "b581034bb88bc1f58f8d2b078c45492a",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-b581034bb88bc1f58f8d2b078c45492a"
+  },
+  "doc-276e6d53f0d22ac09f287851edb96d6b": {
+    "content": "[source=cua] [type=procedure] task_id='search_open_first_product' goal='You are on tea search results. Open any product detail page by clicking a product title (or product link). Done when the URL ends with .html and the page title is not Search results.' procedure='click(target_mark_id=1)' n_steps=1",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "276e6d53f0d22ac09f287851edb96d6b",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-276e6d53f0d22ac09f287851edb96d6b"
+  },
+  "doc-eb88f41e5529aea49d1a2f9c5e769a58": {
+    "content": "[source=docs] [type=intent] section_id='reviews' intent='List out reviewers, if exist, who mention about complain of the customer service'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "eb88f41e5529aea49d1a2f9c5e769a58",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-eb88f41e5529aea49d1a2f9c5e769a58"
+  },
+  "doc-14ceb1ebb14936f5b21a23a880dfeaca": {
+    "content": "[source=cua] [type=transition] task_id='search_tea_results' goal='Search for tea and open the search results page.' step=0 from_state='90d110975ccc' to_state='90d110975ccc' action=click target_mark_id=6 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/' title_after='One Stop Market'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "14ceb1ebb14936f5b21a23a880dfeaca",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-14ceb1ebb14936f5b21a23a880dfeaca"
+  },
+  "doc-80ff16dfcb43a231a5b62c9f95f56be9": {
+    "content": "[source=cua] [type=state] state_id='0afc06f4efb1' key='https://reiterate-unnamable-upstroke.ngrok-free.dev/customer/account/login/::Customer Login'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "80ff16dfcb43a231a5b62c9f95f56be9",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-80ff16dfcb43a231a5b62c9f95f56be9"
+  },
+  "doc-5714c7d2723b44ac5dbeaa297bd0f167": {
+    "content": "[source=cua] [type=transition] task_id='login_to_account' goal='Log in with the test customer account and open My Account.' step=0 from_state='0afc06f4efb1' to_state='ad1ab870872b' action=click target_mark_id=27 success=True url_after='https://reiterate-unnamable-upstroke.ngrok-free.dev/customer/account/' title_after='My Account'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "5714c7d2723b44ac5dbeaa297bd0f167",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-5714c7d2723b44ac5dbeaa297bd0f167"
+  },
+  "doc-a1a237c79c4263f529f29f7e9a4d9dad": {
+    "content": "[source=docs] [type=section] section_id='wishlist' name='Wish List' summary=\"The Magento Wish List lets shoppers save products for later without adding them to the cart. From a product page or listing, Add to Wish List stores the item under the customer's Wish List (usually requires login).\" typical_actions=['Add to Wish List', 'open My Wish List', 'remove from Wish List'] related_urls=['/wishlist/'] aliases=['Wish List', 'wishlist', 'wish list']",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "a1a237c79c4263f529f29f7e9a4d9dad",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-a1a237c79c4263f529f29f7e9a4d9dad"
+  },
+  "doc-f1af23e03bc1d13b932b10e437599540": {
+    "content": "[source=cua] [type=task] task_id='guest_open_contact_form' success=True n_steps=2 goal='Open Contact Us from the homepage footer. Done when the Contact Us page is open.' start_url='https://reiterate-unnamable-upstroke.ngrok-free.dev/'",
+    "file_path": "unknown_source",
+    "parse_format": "raw",
+    "content_hash": "f1af23e03bc1d13b932b10e437599540",
+    "chunk_options": {
+      "chunk_token_size": 800,
+      "fixed_token": {
+        "chunk_overlap_token_size": 100
+      }
+    },
+    "create_time": 1787146205,
+    "update_time": 1787146205,
+    "_id": "doc-f1af23e03bc1d13b932b10e437599540"
+  }
+}

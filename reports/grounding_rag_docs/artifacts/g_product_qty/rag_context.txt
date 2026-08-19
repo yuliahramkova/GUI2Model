@@ -1,1 +1,15 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To change the quantity of an item you want to buy on this storefront, you would typically interact with the following elements:
+
+1. **Product Page**: This is where you can view the details of the product, including the price, description, and options like quantity selection.
+2. **Quantity Selector**: This is usually a dropdown or input field where you can specify the number of units you want to purchase.
+3. **Add to Cart Button**: After selecting the desired quantity, you would click this button to add the item to your shopping cart.
+4. **Shopping Cart**: This is where you can manage the items you've added, including adjusting quantities.
+
+Here’s a step-by-step guide based on these elements:
+
+1. **Open the Product Page**: Click on the product you're interested in to view more details.
+2. **Select Quantity**: Use the quantity selector to choose the number of units you want to purchase. This might be a dropdown menu or an input field.
+3. **Adjust Quantity**: If the quantity selector allows it, you can adjust the number of units up or down.
+4. **Add to Cart**: Once you’ve selected the correct quantity, click the "Add to Cart" button to add the item to your shopping cart.
+
+If you need further assistance with navigating the storefront or interacting with specific elements, please provide more details about the specific actions or elements you're looking to perform.

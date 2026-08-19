@@ -1,1 +1,15 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To log out of the customer account on the storefront, you would typically follow these steps:
+
+1. **Identify the Account Navigation Path**: Look for a link or button labeled "Account" or something similar. This is usually located in the top right corner of the page, next to the shopping cart icon or other account-related icons.
+
+2. **Locate the Logout Option**: Once you are logged into your account, navigate to the account section. You might see a dropdown menu or a link labeled "Logout," "Log Out," or "Sign Out."
+
+3. **Click the Logout Button**: Click on the logout button to log out of your account. This will typically redirect you back to the homepage or the login page.
+
+If you are currently logged in, you can find the logout option by looking for a label like "Logout" or "Log Out" near the top of the page, often in the account section or the top right corner. The exact wording may vary depending on the specific design of the website.
+
+For example, based on the information provided in the context, the relevant navigation path and label might look like this:
+- **Navigation Path**: `/customer/account/`
+- **Label**: "Logout" or "Log Out"
+
+Please ensure that you are navigating to the correct section of the website to find the logout option. If you are unsure, you can always look for a link or button labeled "Account" or "My Account" and then check for a "Logout" or "Log Out" option within that section.

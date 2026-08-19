@@ -1,0 +1,869 @@
+{
+  "doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000": {
+    "tokens": 27,
+    "content": "[source=docs] [type=intent] section_id='browse' intent='List products from PS4 accessories category by ascending price'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-0dd0af786d839aa2242d128b47d8eb75",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:59ce9494df55f88b54a384335cd0707a",
+      "default:extract:b9c126e447acb9a078e305feb48c420e"
+    ],
+    "create_time": 1787137819,
+    "update_time": 1787137843,
+    "_id": "doc-0dd0af786d839aa2242d128b47d8eb75-chunk-000"
+  },
+  "doc-189f9fd0f08c982145dda95ff9f355f9-chunk-000": {
+    "tokens": 41,
+    "content": "[source=docs] [type=intent] section_id='search' intent='I have a lot of Nintendo Switch game cards now, help me find the best storage option to fit all 11 cards'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-189f9fd0f08c982145dda95ff9f355f9",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:eaef741199b73fe11fe735beb8dbe76c",
+      "default:extract:f93719be2b379f1cfb26ce7cd687daf6"
+    ],
+    "create_time": 1787137845,
+    "update_time": 1787137873,
+    "_id": "doc-189f9fd0f08c982145dda95ff9f355f9-chunk-000"
+  },
+  "doc-1942e5b81059c71007614932043675ed-chunk-000": {
+    "tokens": 33,
+    "content": "[source=docs] [type=intent] section_id='search' intent='I have jaw bruxism problem, show me something that could alleviate the problem.'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-1942e5b81059c71007614932043675ed",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d3916f988a6d20521539f294f2c3ff4a",
+      "default:extract:968338eeb0b19e330654a2bbb7604f6f"
+    ],
+    "create_time": 1787137873,
+    "update_time": 1787137900,
+    "_id": "doc-1942e5b81059c71007614932043675ed-chunk-000"
+  },
+  "doc-1fc5bca9ee5abf88c0fe137c95925955-chunk-000": {
+    "tokens": 27,
+    "content": "[source=docs] [type=intent] section_id='reviews' intent='What do customers say about brush from sephora'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-1fc5bca9ee5abf88c0fe137c95925955",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:601853f733175368a69ac54869b14692",
+      "default:extract:36a2f8bac5aa30bcc5db211c4bf8bfd2"
+    ],
+    "create_time": 1787137901,
+    "update_time": 1787137923,
+    "_id": "doc-1fc5bca9ee5abf88c0fe137c95925955-chunk-000"
+  },
+  "doc-28ba9162f780757ed205d1bbca501401-chunk-000": {
+    "tokens": 31,
+    "content": "[source=docs] [type=intent] section_id='reviews' intent='What are the main criticisms of this product? Please extract the relevant sentences.'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-28ba9162f780757ed205d1bbca501401",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:8e0a1d7239579973f4ff8074b3c855f8",
+      "default:extract:299e670b6d9da9478065472b448272f0"
+    ],
+    "create_time": 1787137924,
+    "update_time": 1787137946,
+    "_id": "doc-28ba9162f780757ed205d1bbca501401-chunk-000"
+  },
+  "doc-358a8839829c493620a15be50f9bcc3a-chunk-000": {
+    "tokens": 42,
+    "content": "[source=docs] [type=intent] section_id='browse' intent='Buy the best rating product from \"Men\\'s shoe\" category with at least 5 reviews and the product is least expensive'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-358a8839829c493620a15be50f9bcc3a",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:ab9e70e9ebad3c4cd1ea17372cf9b563",
+      "default:extract:4a5fc589d8d80808728c5a9566bfdb1b"
+    ],
+    "create_time": 1787137947,
+    "update_time": 1787137964,
+    "_id": "doc-358a8839829c493620a15be50f9bcc3a-chunk-000"
+  },
+  "doc-457a13ff898910e4943843b182899f06-chunk-000": {
+    "tokens": 31,
+    "content": "[source=docs] [type=intent] section_id='search' intent='What is the price range of Canon photo printer in the One Stop Market?'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-457a13ff898910e4943843b182899f06",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:495cabf536d900e456ced06965bc3521",
+      "default:extract:aea88ed5335760751c207636e7f717c7"
+    ],
+    "create_time": 1787137965,
+    "update_time": 1787137998,
+    "_id": "doc-457a13ff898910e4943843b182899f06-chunk-000"
+  },
+  "doc-4a104570702d17afb7ebbc72063ef1e1-chunk-000": {
+    "tokens": 36,
+    "content": "[source=docs] [type=intent] section_id='reviews' intent='Rate my recent purchase of Mini Wireless Bluetooth Speaker with 2 stars, using my nickname SimpleEmma?'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-4a104570702d17afb7ebbc72063ef1e1",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:30238f30759d74cd4d89a0e0ba63d7cd",
+      "default:extract:52e861e9def055176889ffafb8689fa4"
+    ],
+    "create_time": 1787137998,
+    "update_time": 1787138038,
+    "_id": "doc-4a104570702d17afb7ebbc72063ef1e1-chunk-000"
+  },
+  "doc-52c0cd3d3d3f22354862b57c53861a5b-chunk-000": {
+    "tokens": 31,
+    "content": "[source=docs] [type=intent] section_id='search' intent='What is the price range of wireless earphone in the One Stop Market?'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-52c0cd3d3d3f22354862b57c53861a5b",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:4450c262f4ec642dcafd8b709ea0a545",
+      "default:extract:e72115cae3ebf2b68897b2eb71235b52"
+    ],
+    "create_time": 1787138038,
+    "update_time": 1787138061,
+    "_id": "doc-52c0cd3d3d3f22354862b57c53861a5b-chunk-000"
+  },
+  "doc-59d4350ca2ac17430b9a74fbaa0220b0-chunk-000": {
+    "tokens": 28,
+    "content": "[source=docs] [type=intent] section_id='browse' intent='I want to browse the products in the Video Game category'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-59d4350ca2ac17430b9a74fbaa0220b0",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:a8553397342df94646710849f0a45e78",
+      "default:extract:194b4a43a37fa9313d8f5aa41bf36932"
+    ],
+    "create_time": 1787138061,
+    "update_time": 1787138078,
+    "_id": "doc-59d4350ca2ac17430b9a74fbaa0220b0-chunk-000"
+  },
+  "doc-5c6aa480424345d43e12e50df1496a02-chunk-000": {
+    "tokens": 31,
+    "content": "[source=docs] [type=intent] section_id='reviews' intent='List out reviewers, if exist, who mention about ear cups being small'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-5c6aa480424345d43e12e50df1496a02",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:b69de570d4748c97214768b588c63016",
+      "default:extract:b58aeac4fca5ce82ad03a6c6848a1f00"
+    ],
+    "create_time": 1787138079,
+    "update_time": 1787138104,
+    "_id": "doc-5c6aa480424345d43e12e50df1496a02-chunk-000"
+  },
+  "doc-5f0797478180b4eb1b1da6cf0be26d1d-chunk-000": {
+    "tokens": 34,
+    "content": "[source=docs] [type=intent] section_id='reviews' intent='Rate my recent purchase of floor lamp with 5 stars, using my nickname Emma Lopez?'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-5f0797478180b4eb1b1da6cf0be26d1d",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:7c24fd7a9548844771584b261c4ff0e5",
+      "default:extract:2100876c9afdc3d81060d215212c9609"
+    ],
+    "create_time": 1787138104,
+    "update_time": 1787138126,
+    "_id": "doc-5f0797478180b4eb1b1da6cf0be26d1d-chunk-000"
+  },
+  "doc-7ed509df034e4c895a50f2b37ff0d547-chunk-000": {
+    "tokens": 32,
+    "content": "[source=docs] [type=intent] section_id='product' intent='What is the price configuration of the fake tree I bought Jan 2023'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-7ed509df034e4c895a50f2b37ff0d547",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:6db9be08ddde34a8e3df65a91eb64941",
+      "default:extract:0d60e0b9dda4517c48a177e11ba0b19d"
+    ],
+    "create_time": 1787138127,
+    "update_time": 1787138150,
+    "_id": "doc-7ed509df034e4c895a50f2b37ff0d547-chunk-000"
+  },
+  "doc-97e6ca4d7a358ec8f21756ca6e74ca7c-chunk-000": {
+    "tokens": 32,
+    "content": "[source=docs] [type=intent] section_id='product' intent='What is the size configuration of the picture frame I bought Sep 2022'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-97e6ca4d7a358ec8f21756ca6e74ca7c",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d3a366011aa39b5536751275fbe82a5f",
+      "default:extract:f4ec76312bf40d8b2a047256ea12ab12"
+    ],
+    "create_time": 1787138150,
+    "update_time": 1787138174,
+    "_id": "doc-97e6ca4d7a358ec8f21756ca6e74ca7c-chunk-000"
+  },
+  "doc-999b2ff925c2719f7d9a4bec198df488-chunk-000": {
+    "tokens": 39,
+    "content": "[source=docs] [type=intent] section_id='search' intent='I am doing a market survey for one stop market, show me the most expensive product from PS4 accessories category'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-999b2ff925c2719f7d9a4bec198df488",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:1f688a089a9373796fc4873d8882f3bf",
+      "default:extract:a3fee6781311f24ed29132472bda6c43"
+    ],
+    "create_time": 1787138174,
+    "update_time": 1787138205,
+    "_id": "doc-999b2ff925c2719f7d9a4bec198df488-chunk-000"
+  },
+  "doc-9f147c01c4193145de47c2bf5cfb7a6b-chunk-000": {
+    "tokens": 30,
+    "content": "[source=docs] [type=intent] section_id='reviews' intent='List out reviewers, if exist, who mention about price being unfair'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-9f147c01c4193145de47c2bf5cfb7a6b",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:8768ae7ae70d9bee8a7d8c7b0dce5871",
+      "default:extract:c0eb04215af0a0f35f1230a4530aefdb"
+    ],
+    "create_time": 1787138205,
+    "update_time": 1787138224,
+    "_id": "doc-9f147c01c4193145de47c2bf5cfb7a6b-chunk-000"
+  },
+  "doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000": {
+    "tokens": 101,
+    "content": "[source=docs] [type=section] section_id='wishlist' name='Wish List' summary=\"The Magento Wish List lets shoppers save products for later without adding them to the cart. From a product page or listing, Add to Wish List stores the item under the customer's Wish List (usually requires login).\" typical_actions=['Add to Wish List', 'open My Wish List', 'remove from Wish List'] related_urls=['/wishlist/'] aliases=['Wish List', 'wishlist', 'wish list']",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-a1a237c79c4263f529f29f7e9a4d9dad",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:63100bdb477902f793a3507daa1752ed",
+      "default:extract:ff3de7db9942445628f32b72d1bb84e2"
+    ],
+    "create_time": 1787138224,
+    "update_time": 1787138241,
+    "_id": "doc-a1a237c79c4263f529f29f7e9a4d9dad-chunk-000"
+  },
+  "doc-acf0cdd04746673627377954b4bf4341-chunk-000": {
+    "tokens": 100,
+    "content": "[source=docs] [type=section] section_id='product' name='Product detail page' summary='A product page shows title, price, description, images, options, and purchase actions such as Add to Cart. It is reached from search results or category listings.' typical_actions=['open product', 'read price / description', 'Add to Cart', 'change quantity', 'open reviews tab'] related_urls=['.html'] aliases=['product page', 'PDP', 'item page']",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-acf0cdd04746673627377954b4bf4341",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:751b6356005645d0bd53a79c343f3d89",
+      "default:extract:4335ca490ae9aa07521c71023c2f4374"
+    ],
+    "create_time": 1787138242,
+    "update_time": 1787138264,
+    "_id": "doc-acf0cdd04746673627377954b4bf4341-chunk-000"
+  },
+  "doc-b84a437f0543053dd6adebe7bc7b2cf0-chunk-000": {
+    "tokens": 28,
+    "content": "[source=docs] [type=intent] section_id='browse' intent='I want to browse the products in the Men shoes category'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-b84a437f0543053dd6adebe7bc7b2cf0",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:75c7498ced4edf50439edaf3c8fe5a14",
+      "default:extract:f3bd837bd08751ed1200b41e5f5337f8"
+    ],
+    "create_time": 1787138264,
+    "update_time": 1787138307,
+    "_id": "doc-b84a437f0543053dd6adebe7bc7b2cf0-chunk-000"
+  },
+  "doc-d31264de048b55eca765c36fb8c427a2-chunk-000": {
+    "tokens": 27,
+    "content": "[source=docs] [type=intent] section_id='search' intent='What is the price range for products from Amazon basic?'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d31264de048b55eca765c36fb8c427a2",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:ff4721efd76dc7ea4f41aa48c65bdebf",
+      "default:extract:a6f18b50ebfa9152c3aa155154bdfdce"
+    ],
+    "create_time": 1787138307,
+    "update_time": 1787138334,
+    "_id": "doc-d31264de048b55eca765c36fb8c427a2-chunk-000"
+  },
+  "doc-d31b2a0cbe1b3431508a11cba028e2a3-chunk-000": {
+    "tokens": 28,
+    "content": "[source=docs] [type=intent] section_id='browse' intent='I want to browse the products in the Headphones category'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d31b2a0cbe1b3431508a11cba028e2a3",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:fe46b5f2df16bd2968bd3357b16da51a",
+      "default:extract:a90d5893613c9b2b1211f1b5f834d1e5"
+    ],
+    "create_time": 1787138335,
+    "update_time": 1787138360,
+    "_id": "doc-d31b2a0cbe1b3431508a11cba028e2a3-chunk-000"
+  },
+  "doc-d3cad008c277a059bb25a4604d5e17f1-chunk-000": {
+    "tokens": 101,
+    "content": "[source=docs] [type=section] section_id='reviews' name='Product reviews' summary='On a product page, customers can read existing reviews and leave a star rating / review text for purchases. Review content is tied to the product detail page (often a Reviews section or #reviews).' typical_actions=['open Reviews on product page', 'read customer reviews', 'rate a recent purchase', 'submit review'] related_urls=['#reviews'] aliases=['Reviews', 'customer reviews', 'ratings']",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d3cad008c277a059bb25a4604d5e17f1",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:1a24be5db931b51ff896886f63da3006",
+      "default:extract:108eac8d80bb38a94181fc5d675a2531"
+    ],
+    "create_time": 1787138360,
+    "update_time": 1787138383,
+    "_id": "doc-d3cad008c277a059bb25a4604d5e17f1-chunk-000"
+  },
+  "doc-e10bb7c8ab58a85e171364f0db9259d3-chunk-000": {
+    "tokens": 32,
+    "content": "[source=docs] [type=intent] section_id='product' intent='What is the color configuration of the artificial plants I bought Feb 2023'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e10bb7c8ab58a85e171364f0db9259d3",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:7d381bd742fe890de20caa8dc8c69bdf",
+      "default:extract:3eaa96210c5304408164c357ab71f022"
+    ],
+    "create_time": 1787138383,
+    "update_time": 1787138414,
+    "_id": "doc-e10bb7c8ab58a85e171364f0db9259d3-chunk-000"
+  },
+  "doc-e4b84220ab88707e4a7138a9c2c3e998-chunk-000": {
+    "tokens": 112,
+    "content": "[source=docs] [type=section] section_id='browse' name='Categories and catalog' summary='Category pages (e.g. Electronics) list products in a department. Shoppers open a top-level category, then often a subcategory, then a product from the listing. Listings can be sorted by price or other attributes.' typical_actions=['open category', 'open subcategory', 'browse listing', 'sort by price'] related_urls=['/electronics.html', '/cell-phones-accessories.html'] aliases=['category', 'subcategory', 'catalog']",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e4b84220ab88707e4a7138a9c2c3e998",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:f45654e298a3fec33c35b223e76d47ce",
+      "default:extract:c1f2098d3eef2aadb1c5a5fba1e39cc0"
+    ],
+    "create_time": 1787138415,
+    "update_time": 1787138434,
+    "_id": "doc-e4b84220ab88707e4a7138a9c2c3e998-chunk-000"
+  },
+  "doc-eb88f41e5529aea49d1a2f9c5e769a58-chunk-000": {
+    "tokens": 32,
+    "content": "[source=docs] [type=intent] section_id='reviews' intent='List out reviewers, if exist, who mention about complain of the customer service'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-eb88f41e5529aea49d1a2f9c5e769a58",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:546b8b036823c9fa306468b608a5581f",
+      "default:extract:1b9c0b800705b9829110569e1d1831e5"
+    ],
+    "create_time": 1787138434,
+    "update_time": 1787138444,
+    "_id": "doc-eb88f41e5529aea49d1a2f9c5e769a58-chunk-000"
+  },
+  "doc-fa5cf0e5e035481d8bc81ff2b17f3658-chunk-000": {
+    "tokens": 28,
+    "content": "[source=docs] [type=intent] section_id='browse' intent='List products from nutrition bars and drinks category by ascending price'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-fa5cf0e5e035481d8bc81ff2b17f3658",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:554159ae934b65c3bdc0a24ffb8b0985",
+      "default:extract:1c96fb85ad124983156c88119ff31168"
+    ],
+    "create_time": 1787138445,
+    "update_time": 1787138476,
+    "_id": "doc-fa5cf0e5e035481d8bc81ff2b17f3658-chunk-000"
+  },
+  "doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000": {
+    "tokens": 110,
+    "content": "[source=docs] [type=section] section_id='search' name='Product search' summary='The storefront search box and search results page let shoppers find products by keywords. Results list matching items; empty queries or nonsense queries yield an empty results state. Advanced Search offers extra filters beyond the header search field.' typical_actions=['click search field', 'type query', 'submit Search', 'open Advanced Search'] related_urls=['/catalogsearch/result/', '/catalogsearch/advanced/'] aliases=['Search', 'Advanced Search', 'search results']",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-fe40173fac6704461fd64a29d0b8f8f1",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:5282e111b5f43cfde81307ba6b38bee5",
+      "default:extract:9e51395f831ef7e285881e498f77b60a"
+    ],
+    "create_time": 1787138476,
+    "update_time": 1787138497,
+    "_id": "doc-fe40173fac6704461fd64a29d0b8f8f1-chunk-000"
+  },
+  "doc-ff4a6a9b3fb2fff37b4e761d8ab01d60-chunk-000": {
+    "tokens": 30,
+    "content": "[source=docs] [type=intent] section_id='reviews' intent='Summarize customer reviews for Amazon Echo Dot 3rd generation.'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-ff4a6a9b3fb2fff37b4e761d8ab01d60",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:b4117a73e1d57158b3ab747180f38eb2",
+      "default:extract:73aebf349e495cfb32074176b5b64502"
+    ],
+    "create_time": 1787138498,
+    "update_time": 1787138554,
+    "_id": "doc-ff4a6a9b3fb2fff37b4e761d8ab01d60-chunk-000"
+  },
+  "doc-0d33da261165892a409b62b769813fd7-chunk-000": {
+    "tokens": 41,
+    "content": "[source=docs] [type=intent] section_id='wishlist' intent='Add Tide PODS Spring Meadow Scent HE Turbo Laundry Detergent Pacs, 81 Count to my wish list'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-0d33da261165892a409b62b769813fd7",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:6e9e40d86a5bdfb46f2a91b6fec0fde0",
+      "default:extract:0e785afb76d6bf9f16b2000b13141575"
+    ],
+    "create_time": 1787138554,
+    "update_time": 1787138567,
+    "_id": "doc-0d33da261165892a409b62b769813fd7-chunk-000"
+  },
+  "doc-15a19c7313525c2e251bcbc5ce79789d-chunk-000": {
+    "tokens": 27,
+    "content": "[source=docs] [type=intent] section_id='orders' intent='Tell me the total cost of my latest pending order?'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-15a19c7313525c2e251bcbc5ce79789d",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:3b78feb457046191e4fa6606e862428f",
+      "default:extract:0e8d66de2f654dd13ed1890e24983433"
+    ],
+    "create_time": 1787138567,
+    "update_time": 1787138590,
+    "_id": "doc-15a19c7313525c2e251bcbc5ce79789d-chunk-000"
+  },
+  "doc-25fabb726c8ee24ea61db5462cb05173-chunk-000": {
+    "tokens": 30,
+    "content": "[source=docs] [type=intent] section_id='orders' intent='Tell me the status of my latest order and when will it arrive'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-25fabb726c8ee24ea61db5462cb05173",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:609683fbf90973cf2e0271f226cfadfc",
+      "default:extract:f96ffdf77bdc8368624519139afb348c"
+    ],
+    "create_time": 1787138590,
+    "update_time": 1787138613,
+    "_id": "doc-25fabb726c8ee24ea61db5462cb05173-chunk-000"
+  },
+  "doc-3ed8a86717615b8535ab456983651c6f-chunk-000": {
+    "tokens": 124,
+    "content": "[source=docs] [type=section] section_id='account' name='Customer account' summary='Registered customers sign in to My Account to manage profile information, addresses, and related account pages. Login is at /customer/account/login/; after success the account dashboard is at /customer/account/.' typical_actions=['Sign In', 'open My Account', 'edit account information', 'update address book', 'Create an Account'] related_urls=['/customer/account/', '/customer/account/login/', '/customer/account/create/'] aliases=['My Account', 'Sign In', 'Login', 'register', 'address book']",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-3ed8a86717615b8535ab456983651c6f",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:86c5688356f703af1fa9c83f43e8d000",
+      "default:extract:5f63489439f1b53271d773c6f35e16e4"
+    ],
+    "create_time": 1787138614,
+    "update_time": 1787138686,
+    "_id": "doc-3ed8a86717615b8535ab456983651c6f-chunk-000"
+  },
+  "doc-40b67116c49dc831fc9b6d1ace054544-chunk-000": {
+    "tokens": 36,
+    "content": "[source=docs] [type=intent] section_id='account' intent='Change the delivery address for my most recent order to 4000 Forbes Ave, Pittsburgh, PA.'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-40b67116c49dc831fc9b6d1ace054544",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:9cbeb3d8f3be44cf42337aa912bf62c1",
+      "default:extract:513024f7cca44cde8977f63f34da49ca"
+    ],
+    "create_time": 1787138687,
+    "update_time": 1787138705,
+    "_id": "doc-40b67116c49dc831fc9b6d1ace054544-chunk-000"
+  },
+  "doc-426aa772b7f6ac828fa5d5e21d9bd799-chunk-000": {
+    "tokens": 144,
+    "content": "[source=docs] [type=section] section_id='orders' name='Orders and returns' summary='Logged-in customers open order history (My Orders) from the account area to see past/pending orders, totals, and shipping details. Guests can use Orders and Returns in the footer (/sales/guest/form/) to look up an order without signing in. Reordering a cancelled item also starts from order history / product repurchase.' typical_actions=['open My Orders', 'open Orders and Returns', 'view order status / cost', 'reorder a cancelled item'] related_urls=['/sales/order/history/', '/sales/guest/form/'] aliases=['My Orders', 'Orders and Returns', 'order history']",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-426aa772b7f6ac828fa5d5e21d9bd799",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:8143c8c60121c9abd996a9a74e2dec94",
+      "default:extract:ddc77ef6da9cc59a9182f3dc7a829656"
+    ],
+    "create_time": 1787138705,
+    "update_time": 1787138743,
+    "_id": "doc-426aa772b7f6ac828fa5d5e21d9bd799-chunk-000"
+  },
+  "doc-431143b88406057f856db8dccf79d550-chunk-000": {
+    "tokens": 33,
+    "content": "[source=docs] [type=intent] section_id='orders' intent='How much I spent on hair care and hair style shopping during Jan 2023'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-431143b88406057f856db8dccf79d550",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:c5d9153af15fb595e310eb6c49758493",
+      "default:extract:2f2f6dd1f5730ab25ba1829b579e8671"
+    ],
+    "create_time": 1787138744,
+    "update_time": 1787138770,
+    "_id": "doc-431143b88406057f856db8dccf79d550-chunk-000"
+  },
+  "doc-56c48eed83f6786c52f3bf1846f802dc-chunk-000": {
+    "tokens": 34,
+    "content": "[source=docs] [type=intent] section_id='cart' intent='Add the product with the lowest per unit price from my open tabs to the shopping cart'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-56c48eed83f6786c52f3bf1846f802dc",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:38ff5a51ce8100be14715d7c24a7d9fd",
+      "default:extract:f16f55418be87dd99e6354faf8483d6f"
+    ],
+    "create_time": 1787138770,
+    "update_time": 1787138805,
+    "_id": "doc-56c48eed83f6786c52f3bf1846f802dc-chunk-000"
+  },
+  "doc-5d77defaddc878d0bf391c0d20a116f4-chunk-000": {
+    "tokens": 36,
+    "content": "[source=docs] [type=intent] section_id='wishlist' intent='Add 2 Hawaiian Bamboo Orchid Roots #zc50 - by Discount Hawaiian Gifts to my wish list'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-5d77defaddc878d0bf391c0d20a116f4",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:097736c9ae51aa3dca971ef475fc7077",
+      "default:extract:f26970836ffbe6fef794f0dd506fe2f1"
+    ],
+    "create_time": 1787138805,
+    "update_time": 1787138832,
+    "_id": "doc-5d77defaddc878d0bf391c0d20a116f4-chunk-000"
+  },
+  "doc-7088ffedff8af044838a0e11a74bda53-chunk-000": {
+    "tokens": 48,
+    "content": "[source=docs] [type=intent] section_id='orders' intent='Today is 6/12/2023. Tell me how many fulfilled orders I have over the past month, and the total amount of money I spent.'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-7088ffedff8af044838a0e11a74bda53",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:f50da9c857f66d0adac75eef33c5b326",
+      "default:extract:16d6bc133d06626727dc77b7ca5aa204"
+    ],
+    "create_time": 1787138833,
+    "update_time": 1787138862,
+    "_id": "doc-7088ffedff8af044838a0e11a74bda53-chunk-000"
+  },
+  "doc-862f3205e74c4e460943cba77a1c8b9b-chunk-000": {
+    "tokens": 23,
+    "content": "[source=docs] [type=intent] section_id='wishlist' intent='Add this product to my wishlist'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-862f3205e74c4e460943cba77a1c8b9b",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:131c8e949943543a00c273d496f941a0",
+      "default:extract:7e3ba612024c46f52f7225ff65bd80f6"
+    ],
+    "create_time": 1787138863,
+    "update_time": 1787138884,
+    "_id": "doc-862f3205e74c4e460943cba77a1c8b9b-chunk-000"
+  },
+  "doc-8d0360b3e2a65353722aade93f2cb30b-chunk-000": {
+    "tokens": 41,
+    "content": "[source=docs] [type=intent] section_id='checkout' intent='Buy the best rating product from \"Home Audio Speaker\" category with at least 5 reviews and the product is least expensive'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-8d0360b3e2a65353722aade93f2cb30b",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:58c651c55824e3166835ae566d128f59",
+      "default:extract:51598fae5dbc5f83851940af5f6867dd"
+    ],
+    "create_time": 1787138885,
+    "update_time": 1787139035,
+    "_id": "doc-8d0360b3e2a65353722aade93f2cb30b-chunk-000"
+  },
+  "doc-8d9176b069bb4610448a5d4a6e08f2eb-chunk-000": {
+    "tokens": 49,
+    "content": "[source=docs] [type=intent] section_id='account' intent='I recently moved, my address is 654 Aspen Road, House #3, Boston, MA, 02110, update my information on OneStopShopping accordingly'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-8d9176b069bb4610448a5d4a6e08f2eb",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:edf7ebed6b184ef847b282e4ba885742",
+      "default:extract:298fc366d4c4d6fdf90448fc1afc2b4c"
+    ],
+    "create_time": 1787139035,
+    "update_time": 1787139056,
+    "_id": "doc-8d9176b069bb4610448a5d4a6e08f2eb-chunk-000"
+  },
+  "doc-9aa0819373b076202a69431aa6b6b6a1-chunk-000": {
+    "tokens": 30,
+    "content": "[source=docs] [type=intent] section_id='orders' intent='How much I spent on food-related shopping during March 2023'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-9aa0819373b076202a69431aa6b6b6a1",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:53698dd8b1bf2ea288ef0bc9ea070b11",
+      "default:extract:6d40f694de45f5483a014c455033e296"
+    ],
+    "create_time": 1787139057,
+    "update_time": 1787139073,
+    "_id": "doc-9aa0819373b076202a69431aa6b6b6a1-chunk-000"
+  },
+  "doc-a13c4c7ba7738ba5c6a00abfe4f2378b-chunk-000": {
+    "tokens": 49,
+    "content": "[source=docs] [type=intent] section_id='account' intent='I recently moved, my address is 231 Willow Way, Suite 100, Chicago, IL, 60601, update my information on OneStopShopping accordingly'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-a13c4c7ba7738ba5c6a00abfe4f2378b",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:eb1e1601e2070721066243198519eaa4",
+      "default:extract:4b8d7f368c0126f1b5588abc4aca942b"
+    ],
+    "create_time": 1787139073,
+    "update_time": 1787139085,
+    "_id": "doc-a13c4c7ba7738ba5c6a00abfe4f2378b-chunk-000"
+  },
+  "doc-c9b30f66347f82ba3f44360f76550f12-chunk-000": {
+    "tokens": 103,
+    "content": "[source=docs] [type=section] section_id='checkout' name='Checkout' summary='Checkout collects shipping address, shipping method, and payment to place an order. Guests can usually check out without an account. The flow starts from the cart via Proceed to Checkout and lands on /checkout/.' typical_actions=['Proceed to Checkout', 'enter shipping address', 'choose shipping method', 'place order'] related_urls=['/checkout/'] aliases=['checkout', 'shipping', 'payment', 'place order']",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-c9b30f66347f82ba3f44360f76550f12",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:a0866b675c6902819bf85c99d945066c",
+      "default:extract:70e10a4cf01e4e2e3f1e06a9014f91a7"
+    ],
+    "create_time": 1787139086,
+    "update_time": 1787139106,
+    "_id": "doc-c9b30f66347f82ba3f44360f76550f12-chunk-000"
+  },
+  "doc-e1bb78ebb05f49c696a60c9fd18e9cdd-chunk-000": {
+    "tokens": 25,
+    "content": "[source=docs] [type=intent] section_id='wishlist' intent='Add a white desk to my wish list.'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e1bb78ebb05f49c696a60c9fd18e9cdd",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:b29ba3d857d6694ba042a2921b583158",
+      "default:extract:2e5f64b220a33cd6357e6d728fe076b0"
+    ],
+    "create_time": 1787139106,
+    "update_time": 1787139123,
+    "_id": "doc-e1bb78ebb05f49c696a60c9fd18e9cdd-chunk-000"
+  },
+  "doc-e4370729fc04b4bb4e878a2d8e1f6fb9-chunk-000": {
+    "tokens": 27,
+    "content": "[source=docs] [type=intent] section_id='orders' intent='Tell me the total cost of my latest cancelled order?'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e4370729fc04b4bb4e878a2d8e1f6fb9",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:cb380aea542ee4ee359350ed52d6887a",
+      "default:extract:08d67f1d6cbe798c2172d2698c091bb2"
+    ],
+    "create_time": 1787139124,
+    "update_time": 1787139135,
+    "_id": "doc-e4370729fc04b4bb4e878a2d8e1f6fb9-chunk-000"
+  },
+  "doc-e55a5eced4bdbbeaad263a5762118200-chunk-000": {
+    "tokens": 24,
+    "content": "[source=docs] [type=intent] section_id='wishlist' intent='Add a chair to my wish list.'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e55a5eced4bdbbeaad263a5762118200",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:63d14f5110c6adf93da77ffb54521be6",
+      "default:extract:7a0661d6830c3dc1bc5a433fef417ba2"
+    ],
+    "create_time": 1787139135,
+    "update_time": 1787139155,
+    "_id": "doc-e55a5eced4bdbbeaad263a5762118200-chunk-000"
+  },
+  "doc-ed301b47f0ce1c9091aeedded9667523-chunk-000": {
+    "tokens": 38,
+    "content": "[source=docs] [type=intent] section_id='account' intent='Change the delivery address for my most recent order to 155 5th Street, San Francisco, CA.'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-ed301b47f0ce1c9091aeedded9667523",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:19e7667c858ac479f4e63665e94b6717",
+      "default:extract:b2462f3ad7a103aede96c3c422709b34"
+    ],
+    "create_time": 1787139157,
+    "update_time": 1787139180,
+    "_id": "doc-ed301b47f0ce1c9091aeedded9667523-chunk-000"
+  },
+  "doc-f8b213a2069bc8bf70ea3a366aaa07db-chunk-000": {
+    "tokens": 122,
+    "content": "[source=docs] [type=section] section_id='cart' name='Shopping cart' summary='The shopping cart holds items the shopper plans to buy. Magento also shows a mini-cart (My Cart) in the header; View and Edit Cart opens the full cart page at /checkout/cart/ where quantities can be updated before checkout.' typical_actions=['Add to Cart', 'open My Cart', 'View and Edit Cart', 'update quantity', 'remove item'] related_urls=['/checkout/cart/'] aliases=['My Cart', 'minicart', 'View and Edit Cart', 'Shopping Cart']",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-f8b213a2069bc8bf70ea3a366aaa07db",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:2d1176e4be00af7e878a47a391f607b7",
+      "default:extract:82419e181307e6d868d71cfa90f6f518"
+    ],
+    "create_time": 1787139181,
+    "update_time": 1787139194,
+    "_id": "doc-f8b213a2069bc8bf70ea3a366aaa07db-chunk-000"
+  },
+  "doc-fd76d2a06991f2a028cbe7f340deaa84-chunk-000": {
+    "tokens": 25,
+    "content": "[source=docs] [type=intent] section_id='wishlist' intent='Add a laundry detergent to my wish list.'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-fd76d2a06991f2a028cbe7f340deaa84",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:b5c5d2226ecd987d7eafe8eae7243136",
+      "default:extract:a9aacdd2f46dc91a7362f2bae1d396f7"
+    ],
+    "create_time": 1787139195,
+    "update_time": 1787139216,
+    "_id": "doc-fd76d2a06991f2a028cbe7f340deaa84-chunk-000"
+  },
+  "doc-1cc9b075b95e93f0efa2fc819c7091e7-chunk-000": {
+    "tokens": 30,
+    "content": "[source=docs] [type=intent] section_id='orders' intent='What is the date when I made my first purchase on this site?'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-1cc9b075b95e93f0efa2fc819c7091e7",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:3de2412e6cb58c2da07ec7f4da7f2628",
+      "default:extract:26a539b6a851b74d0006c8a3495ca45a"
+    ],
+    "create_time": 1787139216,
+    "update_time": 1787139241,
+    "_id": "doc-1cc9b075b95e93f0efa2fc819c7091e7-chunk-000"
+  },
+  "doc-24b33f584ce9895d0f497c8da5e02160-chunk-000": {
+    "tokens": 71,
+    "content": "[source=docs] [type=intent] section_id='contact' intent='Draft a refund message via their \"contact us\" form for the phone screen protector I bought March 2023. It broke after three days of use. The shop requires the order id, the reason and the amount to refund in the message. Don\\'t submit yet'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-24b33f584ce9895d0f497c8da5e02160",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d1bd8b61706282bf460218f1f37dfd55",
+      "default:extract:89de7c174962778209cedd824168a6f4"
+    ],
+    "create_time": 1787139241,
+    "update_time": 1787139257,
+    "_id": "doc-24b33f584ce9895d0f497c8da5e02160-chunk-000"
+  },
+  "doc-2fc9469459413b113b36555148ce3cac-chunk-000": {
+    "tokens": 38,
+    "content": "[source=docs] [type=intent] section_id='contact' intent='Draft an email to the shop owner via their contact us function for a coupon as I am a loyal customer'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-2fc9469459413b113b36555148ce3cac",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:100f3860e3a9365f250be7a73293ba6b",
+      "default:extract:41291c879f0262482f2d87bc920075f7"
+    ],
+    "create_time": 1787139258,
+    "update_time": 1787139283,
+    "_id": "doc-2fc9469459413b113b36555148ce3cac-chunk-000"
+  },
+  "doc-35eefef945502c8508eff8ffbcbabc75-chunk-000": {
+    "tokens": 41,
+    "content": "[source=docs] [type=intent] section_id='orders' intent='I previously ordered some a mattress foundation around Feb or March 2023 and later cancelled. Can you reorder it for me?'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-35eefef945502c8508eff8ffbcbabc75",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:e792efb64e121c7060d127d8f35864a0",
+      "default:extract:856073cc64e3cbbf00b8e93796de3585"
+    ],
+    "create_time": 1787139288,
+    "update_time": 1787139304,
+    "_id": "doc-35eefef945502c8508eff8ffbcbabc75-chunk-000"
+  },
+  "doc-3e4633e49bb78087b94882bb6dd6ec70-chunk-000": {
+    "tokens": 70,
+    "content": "[source=docs] [type=intent] section_id='contact' intent='Draft a refund message via their \"contact us\" form for the bluetooth speaker I bought Feb 2023. It broke after three days of use. The shop requires the order id, the reason and the amount to refund in the message. Don\\'t submit yet'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-3e4633e49bb78087b94882bb6dd6ec70",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:e6bbf04bc2b17275388a7e36d038638f",
+      "default:extract:d40fe004eff6fde76706f81dcfb05474"
+    ],
+    "create_time": 1787139304,
+    "update_time": 1787139338,
+    "_id": "doc-3e4633e49bb78087b94882bb6dd6ec70-chunk-000"
+  },
+  "doc-41eec2eddcce8a485141abd05206fd24-chunk-000": {
+    "tokens": 27,
+    "content": "[source=docs] [type=intent] section_id='orders' intent='Show me the shipping method for order number 187.'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-41eec2eddcce8a485141abd05206fd24",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:1e842a171f96b49e937242a04167276f",
+      "default:extract:24bc660b766fdae9d8957c648d29bcd1"
+    ],
+    "create_time": 1787139339,
+    "update_time": 1787139365,
+    "_id": "doc-41eec2eddcce8a485141abd05206fd24-chunk-000"
+  },
+  "doc-5b8a0c9b46e85d5051ad9c7b3f3e9003-chunk-000": {
+    "tokens": 95,
+    "content": "[source=docs] [type=section] section_id='contact' name='Contact Us' summary='Contact Us is a storefront form (often linked from the footer) for sending a message to the merchant — coupons, refunds drafts, general questions — without completing a purchase flow.' typical_actions=['open Contact Us', 'fill contact form', 'draft message (optional: do not submit)'] related_urls=['/contact/'] aliases=['Contact Us', 'contact form']",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-5b8a0c9b46e85d5051ad9c7b3f3e9003",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:cf5f22cce1c6c3fa9bd71f6ce71e4d85",
+      "default:extract:5e9385c02af15a7f6f5a21335ed86e1e"
+    ],
+    "create_time": 1787139366,
+    "update_time": 1787139367,
+    "_id": "doc-5b8a0c9b46e85d5051ad9c7b3f3e9003-chunk-000"
+  },
+  "doc-67427cd58c6a2f6c93c4b7010cace45c-chunk-000": {
+    "tokens": 71,
+    "content": "[source=docs] [type=section] section_id='newsletter' name='Newsletter' summary='The storefront footer (or account area) may offer Subscribe to Newsletter so the shopper receives marketing emails from the merchant.' typical_actions=['subscribe to newsletter', 'enter email in newsletter field'] related_urls=['/newsletter/'] aliases=['newsletter', 'subscribe']",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-67427cd58c6a2f6c93c4b7010cace45c",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:f36e1bd07b7f2b613054c0df0e8197b1",
+      "default:extract:eab75da6d6f17def6667b66a7c576d62"
+    ],
+    "create_time": 1787139368,
+    "update_time": 1787139394,
+    "_id": "doc-67427cd58c6a2f6c93c4b7010cace45c-chunk-000"
+  },
+  "doc-86eed36545c61f44c4e4c6232a5e2a59-chunk-000": {
+    "tokens": 25,
+    "content": "[source=docs] [type=intent] section_id='contact' intent='Which number to call for the customer service?'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-86eed36545c61f44c4e4c6232a5e2a59",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:9cd37006e751228a0c44dd17df104e4a",
+      "default:extract:4abe8af8e5e4874dba8046ee5707f532"
+    ],
+    "create_time": 1787139394,
+    "update_time": 1787139417,
+    "_id": "doc-86eed36545c61f44c4e4c6232a5e2a59-chunk-000"
+  },
+  "doc-8a6b140b0c243b09d5e5be889c114c41-chunk-000": {
+    "tokens": 39,
+    "content": "[source=docs] [type=intent] section_id='orders' intent='I previously ordered some a table lamp in May 2023 and later cancelled. Can you reorder it for me?'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-8a6b140b0c243b09d5e5be889c114c41",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:9fb6ee43cf2147d553c90dc2bc3c60b6",
+      "default:extract:dac0a3b1941f7bfc568cacee5f1f8279"
+    ],
+    "create_time": 1787139418,
+    "update_time": 1787139435,
+    "_id": "doc-8a6b140b0c243b09d5e5be889c114c41-chunk-000"
+  },
+  "doc-b581034bb88bc1f58f8d2b078c45492a-chunk-000": {
+    "tokens": 25,
+    "content": "[source=docs] [type=intent] section_id='newsletter' intent='Subscribe to the newsletter of OneStopMarket'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-b581034bb88bc1f58f8d2b078c45492a",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:48d8c2164049316d6de128ae44f29b31",
+      "default:extract:100e1237f2aab391d53e7050fed48549"
+    ],
+    "create_time": 1787139436,
+    "update_time": 1787139461,
+    "_id": "doc-b581034bb88bc1f58f8d2b078c45492a-chunk-000"
+  },
+  "doc-b8b8f406e07a417b3ce728c40bc59966-chunk-000": {
+    "tokens": 37,
+    "content": "[source=docs] [type=intent] section_id='contact' intent='Draft an email to the shop owner via their contact us function for a coupon as I am a student'",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-b8b8f406e07a417b3ce728c40bc59966",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:2b5706bdb0ce964ee7029d1bb3e6ba0d"
+    ],
+    "create_time": 1787139461,
+    "update_time": 1787139725,
+    "_id": "doc-b8b8f406e07a417b3ce728c40bc59966-chunk-000"
+  }
+}

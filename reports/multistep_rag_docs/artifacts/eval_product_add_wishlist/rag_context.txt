@@ -1,1 +1,13 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To add a product to the wish list on the given product page, you'll need to follow these steps:
+
+1. **Identify the "Add to Wish List" button**: This is typically a button or link on the product page that allows you to add the product to your wish list without adding it to the cart. Look for a label like "Add to Wish List," "Add to Favorites," or something similar.
+
+2. **Locate the "Open My Wish List" button**: After adding the product to the wish list, you might want to view your wish list. This button usually appears on the product page or in the navigation menu. It will allow you to see the products you've added to your wish list.
+
+3. **Navigate to the Wish List**: Once you click the "Open My Wish List" button, you should be directed to a page where you can view and manage your wish list. This page may be accessible through a menu or a link labeled "Wish List," "My Wish List," or "Wish List Overview."
+
+4. **Verify the Product**: On the wish list page, you should be able to see the product you just added. This confirms that the product has been successfully added to your wish list.
+
+If you're unable to locate the "Add to Wish List" button on the current product page, you might need to navigate back to the main product listings or use the search functionality to find the button. The "Add to Wish List" button is usually present on the product page itself, but sometimes it might be part of a larger navigation structure that requires you to click through additional links or buttons.
+
+In summary, the key actions and navigation paths would involve finding and clicking the "Add to Wish List" button on the product page, followed by navigating to the "Open My Wish List" button to view your wish list. These actions are essential for adding a product to your wish list without adding it to the cart.

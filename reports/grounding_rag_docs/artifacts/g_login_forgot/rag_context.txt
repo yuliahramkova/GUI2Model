@@ -1,1 +1,26 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To assist you in resetting your password, we need to navigate through the login process. Here’s a step-by-step guide based on the available information:
+
+1. **Navigation Path**: 
+   - Start by navigating to the login page. This is typically found at `/customer/account/login/`.
+
+2. **GUI Elements and Labels**:
+   - On the login page, look for a link or button labeled "Forgot Password" or "Reset Password". This will take you to the password reset page.
+
+3. **Roles and Actions**:
+   - As a user, you would click on the "Forgot Password" link or button to initiate the password reset process.
+   - After clicking, you may be prompted to enter your email address associated with your account. This is necessary to send a password reset link to your email.
+
+4. **Labels**:
+   - The label for the "Forgot Password" link/button might vary slightly depending on the website design but it is usually prominently displayed near the login form.
+
+5. **Actions**:
+   - Click on the "Forgot Password" link/button.
+   - Enter your email address in the provided field.
+   - Submit the form to proceed with the password reset process.
+
+By following these steps, you should be able to reset your password. If you encounter any issues, ensure that you are using the correct email address linked to your account.
+
+### References
+
+- [1] Customer account documentation
+- [2] Login process documentation

@@ -1,1 +1,27 @@
-Sorry, I'm not able to provide an answer to that question.[no-context]
+To achieve the task of opening the mini-cart and navigating to the full Shopping Cart page via View and Edit Cart, you will need to follow these steps:
+
+1. **Open the Mini-Cart**: The mini-cart is typically represented by a label or icon on the website, such as a shopping bag, cart icon, or a notification badge indicating the number of items in the cart. This element is usually located in the header or footer of the website.
+
+2. **Navigate to the Full Shopping Cart Page**: Once the mini-cart is opened, you should see a link labeled "View and Edit Cart" or something similar. Clicking this link will take you to the full Shopping Cart page, where you can update quantities, remove items, and proceed to checkout if needed.
+
+Here’s how you might interact with the storefront:
+
+- **GUI Elements**: Look for a shopping bag icon, a cart icon, or a notification badge indicating the number of items in the cart. These are common indicators for the mini-cart.
+  
+- **Navigation Paths**: After clicking the mini-cart icon, you should navigate to the full Shopping Cart page. The URL `/checkout/cart/` is commonly associated with the shopping cart, so you may need to type this URL manually if the link is not visible.
+
+- **Labels**: The label for the mini-cart could be "My Cart," "Minicart," or "View and Edit Cart." The link to the full Shopping Cart page will likely be labeled similarly.
+
+- **Roles and Actions**: As a user, your role is to manage the items in your cart. The actions you need to perform are:
+  - Click on the mini-cart icon to open the mini-cart.
+  - Click on the "View and Edit Cart" link to navigate to the full Shopping Cart page.
+
+By following these steps, you should be able to successfully open the mini-cart and navigate to the full Shopping Cart page via View and Edit Cart.
+
+### References
+
+- [1] [source=docs] [type=section] section_id='cart' name='Shopping cart' summary='The shopping cart holds items the shopper plans to buy. Magento also shows a mini-cart (My Cart) in the header; View and Edit Cart opens the full cart page at /checkout/cart/ where quantities can be updated before checkout.'
+- [2] [source=docs] [type=intent] section_id='cart' intent='Add the product with the lowest per unit price from my open tabs to the shopping cart'
+- [3] [source=docs] [type=intent] section_id='account' intent='Change the delivery address for my most recent order to 155 5th Street, San Francisco, CA.'
+- [4] [source=docs] [type=intent] section_id='account' intent='How much I spent on food-related shopping during March 2023'
+- [5] [source=docs] [type=intent] section_id='account' intent='I have a lot of Nintendo Switch game cards now, help me find the best storage option to fit all 11 cards'
